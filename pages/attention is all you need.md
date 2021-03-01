@@ -1,26 +1,47 @@
----
-title: Attention is all you need
-type: Article
-citekey: vaswaniAttentionAllYou
-authors: [[Ashish Vaswani]], [[Noam Shazeer]], [[Niki Parmar]], [[Jakob Uszkoreit]], [[Llion Jones]], [[Aidan N Gomez]], [[Łukasz Kaiser]], [[Illia Polosukhin]]
-tags: [[transformer]], [[attention]], #reference, [[literature-notes]]
----
-
-## Attention is All you Need #toread
-
-#### Topics: [[robotic centric mapping]]
-#### 
-####  #zotero #literature-notes #reference
-
-#### PDF Attachments
-	- [Vaswani et al_Attention is All you Need.pdf](zotero://open-pdf/library/items/LV4AMHPH)
-
-#### [[abstract]]:
-The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring signiﬁcantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.
-
-#### zotero items: [Local library](zotero://select/items/1_XGLQP6PG)
-## 最大的贡献是抛弃了传统的[[CNN]]和[[RNN]],将 [[attention]] 机制发挥到底,使整个网络结构完全是attention机制组成
-### 解决[[RNN]], [[LSTM]], [[GRU]]无法并行训练的问题
-#### 只能从左到右依次计算
-#### 长依赖信息丢失的问题,顺序计算过程中信息还是会丢失
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBqdXJYRFZ1aEhRQm5Vc1lF
+RmJOSEhNQ2E5NVhUUTRoNERWbk9rc2dqTlJRClVRdzNEeFZ2OUVlaUpOaU5TK3Ru
+YlRSQlhyQXpkZHc3d1ZobHc5aGtrUVUKLS0tIFBNOVJUVVA0ZjlnaGQ1Sk0yWDdy
+WWd2M3pkODRZZlRRVU4yRkZLYTVCVU0KdvqNoMeNv8Mqj6d4tT5AnlebXN9x4SQ3
+5ET+MStiTubpPx6gu2WpTZPEChMNAwBl65ejapLqEEeRT8uvXuPkrI2MTClOF3Gt
+rKchoXXZwpFI3bRPZeg7YRT8XcNV7wMr9Tnjq9bUj3xYJP6bqZDgEa3pawwb82Vc
+1Oo1fZQZ3+top47Dp1EW9qI3hgs2RjBSgMWJGcaOVaKYsu9cElOMVLaD0AUSWNZ5
+aMM38jylySiXBeG5+ybmhvprPUkgURsvasnXOSQcB9BCvCydz0SB4x6v1MFS9VkX
+DbJP48gov1zg+qS4tCQzsweboNr6q7KSoQ9OShE7mpKVbDynXjDJxGfyi2uxN/zv
+UYJs7dLoTzyXMQ9MCUncWDbckAtEm96edpHyFScit43AnfecW1xArl1Yi6Uh6zOG
+lgot/rBpPi/oIMVlaUKyoVdBt8pwQ6Jb7eyyHfZCDDhkoU7du4rnwGr6E1FLBFQ4
+A5a9GaII/UVgCIFPt7QwPTObAM2f3yHXzX+F8migUIy4rxxFGGnJhINzWWjtP+dJ
+GGcs1Z8u9UgbUrZQIKl00kfNJyh7ssr/He2pT6Ik9OSNdaccVnms6HNqPK8lekhz
+W5Z94Hhsi83b0AVgl6nR7h8a1hL4uee5zEVM6aN5TtGmPELAGKetxWzw0hYhN7rS
+eS8ARf8HA2eWNO+daNhaDoXw9CFguS7SorkfUNAIofjcFFWzq5ALLgsB2QMC2cZw
+lVMn0BQTFgul/DKl7VTcfihWdOcMi5uX4ITxGdlRcVzYZzcda4cc2EALJ1l+l26J
+YwNikY4PaCrZbhpIeKYs9GlkL2rXlMuCTbcpDxd3Uy3Em89hW+JdUpFGG78TgfiT
+mPuvjBFXwfOzHuEGo9U95TXEC6kSF0LTcVI5yRc+J/YAYYUb5T87IItRhARrioCN
+jLa7Xzl9d3uajNXWhDSq8UCT2DPQXoycOtmZpPcn57zdkfjKPUlDH22KUkDA4uFm
+eq/nqcFA62skFkF0KNteF3aIn7O3XAJhRVMxoKS/ZfYzMkU6YsHhGvrT4XKFgU88
+FsEZyqxs8JD+FiaL+cP1JmGF68/O+MzMxibvUynJUnC9zAL8iLvdwddSSM2GUw54
+VdRvd+Jtz9nslXzIxXOWrsRsvjBMjXe7lWuDzrEmvqndVON5Mw9Hi/uhVbNa901Y
+1yms7iwE/Bra5mcf5Y4fdRmeif0v+HPB8XMFaLmK6Yc2aneTr8CxwjyDt48huUl7
+duyqHIBWFHUOAMWnDNyVLaAPKfFxaxwC4kGr3tv3j0RGovq3KvGsAsQTS1vwAwPt
+b8Ps0Qj37rIeN8cgXOIT9M3K5FUG7Y9ZTmiECC+LwP6DQUWZ5Su8OD9W+24S4Fe+
+ijmFdowFwqDwiELJkqeh/ILZg1zDWM2YL1uOYCeK4x6f8niCtw6H8z6IF9gwtp0q
+Qiza6jiGhFO5Jiyu6cUbA5rfBPlutpa4pC79698Qz8io2iJtDB9NrWoGbozzFK8T
+LdK87rX6RKb30WvZoftD5PSoMT4SHYvU/4mqILAEG5wY+1PDgFK1SjZpsFqhdacX
+9oqfT905Cu5lfAEQYvyy9QN3g605U37fhBde5+rLffzOstKjZR2+uQDOivy2mQKX
+3blNKcl0rCW3IS21QAVRQd9h/rvJYCjpf4lmkSalqi4w3gw0hEm7sHUQ0U7MZ9/q
+kVP4qsUo2YRx9RwNqvoH8kU8jPjl0Gcyln0NVabzS90sMJ0RrB1oPhSJcow9c5yy
+dq7Oz8GB84CvgyxMO0/C+zJQClGvqyXA7QiHJAVAZl408xv2yYwrfVBaNcAto0Kk
+f8WpE8i/+u91krHkAKhmy55+DxRQ7iq9zOAY+U1zMLj0vZZcbWlWb84B6/9vGmJj
+u4yP3SZBvBKpvCrriKVCLnjzi6yvVnXHTZUeyfDKzv9Dd/yjT2xUQUY9EctxiTAj
+Y7a8xDKuBDBYhLVuUTAlFf16Ztq/nCer+SGgevFVxbu/H7rzwU48cb+7OnFOjf9i
+uwSZAKtlaQBKCjjgHuRNjAKuysXP8/bhsLtAwJRMY1iOliowKhO0Anwa/4A783BI
+CTlINWG7ABW2xVOU/dPH0zrEhiKX/pXvb06RTkX4dkicJJTyqn5esoaCXIH/7iDT
+cQr79PLihIaMkXaYNSvLcPlR8I6YYPZyItyMLAhWuzl/i5Q1p3Unr7yH96+o48ng
+hM5TEwNvB+evzN8ONHvmeHYOTx9dD9KEL2TX0hZzoex3fDJmmYTRrROp1gAQOMkB
+m8LAYlqSGCqH2k1afNcVTbnKPAF6pwHuBk2Qace8Ni7ar8SFfTMPDnl4t4mMrW5k
+Spaguz1LV43f6RSnoURMD6810aPYggh63K/XqDZdQY6uZn2WDwdMD0LR7SFpqI1z
+1wB6bHL5DI0MCayAj3xnr7tGZ3v0iKEiX3PSJq5VnyvYtOOhwfZ3KiQ5opHF6hvL
+szoaWNk1hAJbaTht4nOOWr9uhp+I2s4rhnRliPRnafT+b0QWkVnoQ1K2qIIJg90b
+agt+NDxWyJThwM0xz33QA6LjWXFBHHKyn2328nYUzb9uZdyt8SJb3gCXGJsSY6y6
+V8sENjfLe6UOFDmG6F9M0XkMohSvOekCx0jH4OdAdn9zKz4Cy8yK7H/L3A==
+-----END AGE ENCRYPTED FILE-----
