@@ -1,24 +1,32 @@
----
-title: FPN
-alias: Feature Pyramid Network
-tags: CNN
-public: true
----
-
-## #reference  Feature Pyramid Networks for [[object detection]]
-## Detect multi-scale 2D box in different pyramid layers
-### 每个layer都包含不同内核大小的卷积滤波器,以扩大 [[receptive field]]并集成更多有用的信息
-## pyramid of [[feature map]]s
-### ![image.png](/assets/pages_fpn_1611838411462_0.png){:height 228, :width 273}
-### feature maps closer to the image layer (low level structures) are not effective for accurate object detection
-## FPN does not use feature extractor of detectors like [[Faster R-CNN]]
-### generates multiple [[feature map]] layers (multi-scale feature maps)
-### ![image.png](/assets/pages_fpn_1611838575183_0.png)
-### 有两个pathway
-#### bottom-up -> feature extraction
-##### -> decrease spatial resolution -> higher level -> higher semantic value
-#### top-down -> higher resolution reconstructed layers -> better localization
-### Lateral connections between reconstructed layers and corresponding feature maps
-#### also act as [[skip connection]]s to make training easier (like [[ResNet]])
-## 一片paper[[DyFPN]]指出并非所有对象都需要复杂的计算模块
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBpNUlldXB0TGJyWXF5bzVl
+V240aExxa1RwclV6cEVLWlpzS2ZzamY5ZVZrCktkMTVCdUc1MEYrQ3lCQS9sQ3Ur
+K0hsNmVoTzh4QXpQZmRseDZ5R252WTAKLS0tIENiV0wya283L0lTK2F0QjNjdHg2
+TlltUk9YR2xZMFpjdGdybDUvWEttWG8KKZ+XK0/3NRxH+cp/Vt0iy4xhdM97kyHR
+7qrSexmRgTIyk3ojqhKuSsiF9xqynF21d11Z8OHZThsEWjkSXxaX39RKKIy/WWoy
+AooNU5hZg4y5GbKaWSVwXuPz8JHrYFcX2jjef30zGQ0++QHeTI38YJI8Jx2dvdYd
+JMl45thTgn79hejQLtSyvaScqpEl92NnRRDsYQgtnnFLk0SRdQxrDDYgg1p2dayQ
+EaA9vU0zPAOnFWTcGFyBO+xjDAIChydIPMP6PLkdeu8StarxJuflb5RmVsM5DwgQ
+vyrDQrxNApf2dFHIO5pglBszljlEfkqZGsN34GbWNvYlRYLfvLjyLyRzPuZeClzd
+sgN9L82D47z/Xj/DJC2Efc0Nzkq9Yagi1jGvdrdvwrzBVhtuoqrjFk+MrkQqR7KC
+dzHcLEAky9hswuAEg/ZxW+WalPlFXb/Lm83UmW7wo/BXvB/yrmB3DoOoOqQ4HpCP
+SjULqs34t2dJUBhGDffaelmHviNoqrpuxEtjGJXFk6HWXw/kI6j46P4MdlP0yvNA
+ocn4drdYLFip3nTes+Js5z8csRz/yXnv3fn2zQrxnwhLR2iwydlovbfJDrqfLwZ0
+a71ku7WRAweLsFISPCsVB6g1xUhzC4seUrCaeHyG+LJ+IiR3vl7g0224GRLFBnpH
+jAPS3BLZXNtk3UHfxuCTksYiH0n3SxtX19liNjqsOHnB0f/jaP69hhewtNeGB/rg
+28cnkVmGoCmZhjZ0R3JZ0lwXjVcKMiOEUkEPyph71WpX1hizVqk1XGYFn2twv/3Y
+gFPvyLrHj0rWGb1+9PQqV5f5tDYAJFqER6c/j6AelIRGbx+B/PG8ZyCb8GJFpbW1
+5aKRTn9kxs0vsOdkbBic7Yxoy4YBBTv4frv0Pv03ng+WDZNosuL2iPddmZaRBQld
+fySWEIHg4N63/3WmR/sJQQJTxnPDFEeveR3iRlzaFNFukLIc7+g8Ybnm45dhbjcy
+PhLmQcKOkN2DWLq5U/C69jZKxElRF/Qh3VkLZbnLqYOVLkeSvZ6q3VV/8TkwpKR7
+3RfCoTjU1K7v6ez3EfOrBDZ364ysUVHU843JhmrSX6wky38oupY+uKKV15yGLXy4
+IcaDF8mNm9XsOq5h3VZ5rgdY3yKrf2eiIt9CLlIcfhZrv89losnvEVoYl/GOj73p
+cCyCHHv8tGDLdCFoAMduVjrHr5LhcSKqz9K+ibmsTDYiNfWxPYST5tUN33u5ztrQ
+29h0Inf9WirmVvz73z85SSzqgxBRSowaZCFy26JzQDfN5o2eRD/8SnxvNjELw/SP
+xlGsVxpP68olKiGcxaU5KeaOun1Vzs+xTQViX3pa0j6OQ2veG/jQX+UImHnuF5N9
+E8nVcWMzujYE2CiXWXsrRVVHvi+kEDQQRIo1aZ28Ju7/BFwXn8jrVbTFkRPfvz/Y
+DiiCgY/Gjf3xmaDTfDlbtmWLcL+c8EtHzXlrpt8VUVU5ZayHqB08jEztg0MVRmTb
+EBJjHPp18wEc34PhinGRDZvE+OCZYvnlEv3FcDuvAz0fGSJ15uZoGwqp7B0xoy9H
+mw9QkXosz8OfLmMVsz2Gnp7x2uXhQ/D9Wm+5im3xpifq70fGIqgpFQTnOZGizqVs
+5Giw1sp0s3nHdaGA
+-----END AGE ENCRYPTED FILE-----
