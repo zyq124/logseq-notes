@@ -1,20 +1,20 @@
----
-title: SVD
-alias: singular value decomposition,奇异值分解
-tags: [[Matrix]], [[linear algebra]]
----
-
-## based on [[eigenvalue decomposition]]
-## 回顾1 对角化分解
-### Given a $m\times m$ matrix $A$ (方阵)，对角化分解
-####
-$$A=U\Lambda U^{-1}$$
-##### 其中$U$每一列都是 [[eigenvector]]
-##### $\Lambda$对角线上的元素从大到小排列的 [[eigenvalue]]
-### 当$A$是对称矩阵Symmetric时，存在对称对角化分解
-####
-$$A=Q\Lambda Q^{T}$$
-##### 其中$Q$每一列都是相互正交的 [[eigenvector]]
-###### 而且是单位向量
-##### $\Lambda$对角线上的元素从大到小排列的 [[eigenvalue]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB0VkQrRUpKVzJoWlRmOVJL
+NUkzOWxwKzZqQmJSVXhHRC83dG93NENVaVYwCnk5d3krK2hlQ2YwOUl4eUszaUsv
+dldCZHdhTnQ1enBNcVBMNmJtZ0tIbW8KLS0tIElGSUNFL2Q4bGdpRHEzM3JId2FK
+c1JIeG1FYndhZHNTQmVXUGZkSEUvVnMKwJBpk+hqo96Oftptprr7S9fz4pNrB3J5
+Yxsa3+G1uTwQl98rkN8vsp5lbt/CMMBmgYwPSoxfYopmLawqCBDVIBh+mJNH8wVf
+iCPkK6Jx83Tc04RNKFCARozNsyQzk6QnEK98a4ZU7T44aqbPuRzIUYGRkakqhfKX
+Td2FbUrMejlhaRdw7ytnb21UpHb93sND+Lip+01OuU+LA+cggAPFCbU3OXCUpgew
+98nplBIxOtVAoYJFSxVh3V6xKvpullnYyY/6iiCcOOgldf60ZAQiv5OmVLYpy4fL
+JTVo2DW3sbpt8sv3tWpzDhpVN7kh/P/LtfBnuUF3kv5WOwoRFL/Wz+zfz0vQP+Ew
+37jfKtyBVg7yn+e/k2BPsVTXxhCwLK27y2EyYmEkiYxq2F9diFvbLWbl77kDS/9a
+v435jvuGNoRpaK6hgstxeZNHLu/DJQX+PI55tCd/4u+2lj6khAd0vlmsetmsGFwr
+mhthOLiYbc8s3GChh1GVK7RT3nQQd9l1XFQ43IoWNGDhURqBwKMQb4RyLXWukx3R
+nSSavvCfi5oLYI7gmuj9ceFysG6+ayZFjYV25xju17zrIW9hOr4GkJjTMpJVkzjJ
+NPF22O8FwvIaIBSoPCc++aTuCbNQNLTmkPnIEZtwphfAtQA78VbRCC7DRrmDAVVm
+tqapSClFgRvQpqSj2ce5sjV1l8n7fnbChABe/4xJ4UVBiSHWd7Gl/5mEj3v3g8fk
+5Pji02309iLd0rtS7uwAw2itm07myN7b27KqbboeOvnTBezBmPRGXBBcU84iLxMI
+AdOL/Olc79khi5IpMRR4KzZRKOIOE71PTrzimkQFSEOGRgdNgHwCgpoTjyTM7a+h
+f2Osy57q6UEdlcZqxh2pzed9Zn31rFN5Zv59x3AtNA==
+-----END AGE ENCRYPTED FILE-----
