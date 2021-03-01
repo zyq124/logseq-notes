@@ -1,6 +1,11 @@
----
-title: Copy-Paste
-tags: [[instance segmentation]], [[Segmentation]], [[augmentation]]
----
-
-## title: Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation, 2020
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBPazhqZnhyNEgwRndHNVdV
+VUp6bzZQUG5DbmV4SXhJUERBT0VPdDFQdmhRCjJtZXRuK0NlbDFEaXdIZ0JNdVFp
+eVJJSnNFQ0JQdmRTVmYvUG5taHFKc3MKLS0tIGN0Z3RzNW1hZWdpTmxweHhZZHl1
+UFgrZXhpY0UzdnBvMW9RWWxxem5QRTgKpo5I5x5A020tVEz979uabrwCtcPYmjKg
+/KG5bUpdL0+0nbUEa+YfiYnjBxiBa1mmOs8/u1sfRT+5ObX6q5THXiP9oJi6Yt8C
+T+LDpQ1W29Mym4WQqT48zCAtAiISx7cC7QX1Ttau9QfKoZ2dFMuSZIgzfOpsB2pi
+g8mV0L4j0x0Z6cCEkwXW3zJLjZIvh1Xu2tZg6wd1A/ATox2jJh3FOPqp8AO2IUiv
+ONvnegNW/kH2E5wgRqoZICE7DCWl6HywgXzF86izKPCLKdC1w3Es/8gAdxoljnI8
+kb+IntIGEA==
+-----END AGE ENCRYPTED FILE-----
