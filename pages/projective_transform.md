@@ -1,8 +1,11 @@
----
-title: projective transform
----
-
-## There is a 3-parameter family of projective transformations which fix (as a set) a unit circle at the origin
-
-### i.e. a unit circle at the origin is mapped to a unit circle at the origin
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBDZWFQU05ib05iYnk2TzZE
+K3hISjR6UHZCQ0UwVDM2ZVA4endHWWk2Nm5RCktSL25NUzFlNWtYUzNZNTBKS0RX
+czRYOEFnYnBocWZLTEVJRW5jL2pxdjAKLS0tIFMrbVBaa2RzZEljUzVHUXJQSnZL
+cS9kZ2xtVjlTUGpaZ3BuenJDZTY0VUUKKvGAAN7Cf/K7WkkwznTSX/7Tz8oqN2WC
+2FFgQzaQTbR7G3qDr9d4IVM0/mOgrxq+1nR2lctof9m3/WT1ruGVVa+JZhHmNKFc
+73VUYg7QZLWrQ6KfIyK+TSefPtSAIRGoBbpu0qfxCnawmXR/cP1vP5E/JVKUXfLl
+2IwXB/Na6D6qFP2oytpFZ20axKycdH4Vdr1LP5CdcFsg23huawxJaWTvZs0/wfrB
+ABzxhkF5twBv+0oYcIx+B8M1lBVQ/N2jOGkCx0wvzorF7pP2+heIn5DJQLMH/8kd
+KhJuBwrhHQMvuhFs4MI5wnelJYR2hox/dei0ZPi6WWRXjYMVQrKMbAwt3QsN13oJ
+-----END AGE ENCRYPTED FILE-----
