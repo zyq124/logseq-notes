@@ -1,38 +1,29 @@
----
-title: feed forward network
-alias: FFN,前馈神经网络
----
-## Used in [[transformer]]
-## code
-###
-```python
-class PositionwiseFeedForward(nn.Module):
-    ''' A two-feed-forward-layer module '''
-
-    def __init__(self, d_in, d_hid, dropout=0.1):
-        super().__init__()
-        # 两个fc层，对最后的512维度进行变换
-        self.w_1 = nn.Linear(d_in, d_hid) # position-wise
-        self.w_2 = nn.Linear(d_hid, d_in) # position-wise
-        self.layer_norm = nn.LayerNorm(d_in, eps=1e-6)
-        self.dropout = nn.Dropout(dropout)
-
-    def forward(self, x):
-        residual = x
-
-        x = self.w_2(F.relu(self.w_1(x)))
-        x = self.dropout(x)
-        x += residual
-
-        x = self.layer_norm(x)
-
-        return x
-```
-###
-## use case in [[DETR]]
-:PROPERTIES:
-:id: 60389635-8602-43a5-9b4d-dc077719605a
-:END:
-### 3-layer perceptron with [[ReLU]] activation and a **hidden dimension** $d$, and a linear projection layer
-### Predict the normalized center coordinate, height, width of box
-#### linear projection layer predicts the class label using [[softmax]] function
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBld21GM1dNQ3AvVDdDWEpD
+T2pIck9MOE5ReDhhWlpOSDVmQkVJK2FTc0ZFCmR5a2x3aCtXbTVJa09TY3RrZjJv
+Y0N3aWpJWG5RajFTdHdPcnZsRWVFTzAKLS0tIFdzSEVXVTRDdXkvY1J2VVpkN3Nk
+VWM3My9pMDJjSDRhREZEcmJSdjF5U1EK33EKuZVz8n4D7w8ygpg6+NJ6lsj7onfh
+sA58hiqwziV0d+4tNZN5MgU/QcGoyWTEoGT6JMZnXZFpArkFG+3249qImJchTLhR
+HUXh/pytiVb4OLFVK87DiyZpFICk1PrQwA/2tvOs+gMoNJNtaQwAoXY8cXHgeY0q
+5K/XIb91ynSwwmadFFpiSNcVgNShj532xybntTuvgSZ6RL5r+NwbLnK9CG89RMTW
+68+NLTpDlwIC3VGnbc0UnBU8GLqSQtaazm+Z7gGKqGjGQKb/t0e7KMcUN1rGO4fR
+xpOUql2kq9xHNERNwDSZkiIhOr6OXuZZaAyFTXqpqOM3cK4JiMGQcacbgp31UR+b
+mGXuxMJ5yZUAWTMHysyd8jupZMpO89DIlrfcrM/96s/onynEYbtP1tFztBt65UMR
+mrHDd9wOcn9aR2xoDC45QWD9tgKJp8yBpmYFV8Uuel5zT1SKfjLn/HN4nC9WXkY0
+VZXI4esRpVrkYaitUPP2+QHZTSs5EmI9szLE5Y5TJ3u9clK0hM8MMJxsyPMDinYm
+ng32FErP1slLp+EAyOOb/lq06oGQUk00mWcDMt81wdvz7PevoHtI7sUvPdBwp3xO
+hPwERqGf0yYkogwsh3OEVtp/gIyF2SkOYQc6hSj2To/Hlw2rFlhPxicr9XLH9fRz
+xNMwdrcU1bAzpwqwIgzTygCYDtdN6HnxLfWmb+aErUk0PIDNuyQiUVNSuwkJ7YYB
+n43ULSdRllTP6kM+xkFhzrkBy66KYIR6wBY+NBeGwwPBZK1URjtQC3TGz+SxZUJq
+Oq0Y9QfQMd/Bitbx2FbFVfs6QEc1yfO7rXHbWx5uPh/HfRZaojIkBK/Cn0ZI1j/B
+9eW43TPsDQV0gh/tFX2TLWc3wWcjPvcG9C7zljQaDS14raDXrr+a1EiATA+efpdr
+QCGrbbNfks2/kAMRnUW4rZKlIO7xUzSrGPif/udixLRipcQQqyXC2bibhGf6duGk
+RkeG4bPDXEZommN49hCJfJ2j5wY1iojoUq4DzqmkoaWTdT1iF9naTNoCOUQEN4db
+IRs0km0C2sEfAJhYNduQprp0Zvgoef83f2X86TaPln5ROn8dWu5o3O8KbiViL+r6
+j8HHnf1h/HbfDCl5u/H4vIUQYTKBEsVCvFhcDryGd1noriNdxn2bJNRpj5ehGQSj
+jQ9NtyqkYADds2PDg/y7VWrCcrJsMpqG83SodiCvgc9i7jbftg/rM4sQeFyU7Eej
+yDY4jTm/G3ml/7//1dn0x9VCayrlwZjxmtzkaA3NRTc2a+219IjK03E1AZU16Uy8
+nKg1DbFlOfxuG6vFTABfYFUik+djKmj/+jnG8+qetqbBd8raO0QpXzX90sVwYLED
+eWv6mS9XIxcE6rjlJ+GyleReZTptTdbM/EoEWEZfLUgPdM7YDmA2euywdCVz2oxL
+QKAX07mig4bBC+lQlfY2DlZsi1llJFXdDqZnrjAyeQvtvX9vYX8Kc0klun/d
+-----END AGE ENCRYPTED FILE-----
