@@ -1,9 +1,12 @@
----
-title: Pose graph
-alias: pose-pose reduction
-tags: Optimization, [[marginalization]]
----
-
-## Points can be marginalized out to yield constraints between the frames
-### Pose graphs **do not reduce** the computational complexity
-#### They still have linear to cubic complexity
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAveXdXSitDTkQyaWxmb1hw
+NlN6eXV2VTl3bW8zai9JeWdOdXM4L08vbFM4CjBFM2tqaW92b3V4dGpMRFZRVDFu
+N3NtSGduVHZmbTVkK1BxUnJNZHQ0TXcKLS0tIEs1aUhzbG5wSkE4a3grN05MNDFG
+cTlsNWk0ZW9LL0tjaG91QzBBRGtPNFEK8R65cwvfVpSNDHAK9Goi7AAB+D2+XUYF
+a0tUzwqn4YTgO/aj6EmdO2Y6EtDZsg/iVuEzgCrLafJZInlvo6Ar2+9GsDVniidT
+Wd39/jF2GMXY6cfknBBhc4KESQDMKLhTVWVX0f0BM6kgjyFmpqpGEaX3ePRUeSWR
+guOoR5m7tZCMVtRjSvDOZQ+Xz4SYnOaDAnX7dzyQ51MPkjARybFKvua1DcI0jtU/
+fjV9PEJqKEXOj2c6SVhU+xJDodfkem6gDF0xRyXTv1AfabsCGNfcVwSSnIPmubWc
+zobJ24OSwzfUjMiJhwGSHbpRIzvDh86LOyK88hW6C65FR7PZM5N01zmdNNCMCtD6
+Q49WxYAa0AHfaO4ClmWSU4cpijv2JtM7DwRtDchyYbbdmfQYB7zFUCgSNLInPQ==
+-----END AGE ENCRYPTED FILE-----
