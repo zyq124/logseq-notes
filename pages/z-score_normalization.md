@@ -1,16 +1,16 @@
----
-title: z-score normalization
-alias: standardization
----
-
-## 将数据按照行或列或其他属性值减去其均值再除以标准差
-
-### 得到的数据都聚集在0附近,标准差为1,符合[[norm distribution]]
-###
-$$x^* = \frac{x-\mu}{\sigma}$$
-### 常用
-### 这种方法跟 [[正态分布]] 无关,任何分布都可以有[[z-score normalization]]
-## 实现 in python
-### `sklearn.preprocessing.scale()`
-### `sklearn.preprocessing.StandardScaler`类
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBMTHNXclVHemx4ZlZEcGVD
+WXo2eDREWTVvTWQ4WWEyQytydWl0alc0bnlJCnFHSG9HUXJpand3OXBiMHVudUR2
+dmlML0xQc0tqejlFSVh5VnhKRTBLZ3cKLS0tIHprc0FEZHR0QUthWWdEL3Y4bGdI
+dHVVWWVOb2ZURFQybTRGRkZiRFg1ZTAKkfnPhlEe/5g9sEjz9meSzpfA4bCoYymN
+2J5Hqj39re0Rt+1MNlzwQGV6FcVaj67+8s6U3EWQluhRqGnVDNQCsm0Z/YCmaSIc
+0EbyyYNA6I+so9nMutLMe7p+HIwCyR2HrQ6Ys3M84mJy/OMgggnNDmw2ASM6p0K9
+sqKRFZzSAbWtxANcNeQOPOrsJAnzwACZpqWI3SuQHFv7abd7YaOU98EMEI+NmJNC
+O+I3d8+pOPNi0imCzRMmBlOm2+uymQOFQj6AaB9Zm3tqkUmvDKh9oyKniAaR3nRX
+Wucih7sM4uuwPAfNlZXYie1F+vAKTg2u5SLWysGqLWZlSU1wZ5Qg4h/XDNa66HSB
+KhhjIMEeVDKQyPr2IA8iRfpsl6NQXckUIghELNcW8DfffuSFReLZYHWhyL4wy71M
+bndPSZb95Jrv+F/QSiSX3mi2lF+9tuvvR86umW4oECuABqJAT11mTR48mgpwGHwD
+P7BBWyeUug8qEyEdWF9uKHgz8C3Nc5cu2Ct02XobXrl4CNdDxhO5HUoeWNQWH+ob
+e3gMpx3EPh3Rw8dkmyTO0eTmLRh/mhsNMR2NNSo1hJVpn+FKkOqjP5wQ7Eo9kHjk
+X6IGAzbFxcZr8y2PY2cn/CipFt3TkYdKtlqbCxVmyMfPr/UDz93VwazmdPE=
+-----END AGE ENCRYPTED FILE-----
