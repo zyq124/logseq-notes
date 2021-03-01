@@ -1,6 +1,16 @@
----
-title: Lambda Networks
----
-
-## λ layer captures interactions by transforming contexts into linear functions, termed lambdas, and applies these linear functions to each input separately.
-## Lambda layer为捕获模型输入和上下文信息的结构化集合之间的长期交互提供了一个通用框架。它通过将可用上下文转换为线性函数（称为lambda）并将这些线性函数分别应用于每个输入来捕获此类交互
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBFc205S09sYlRuUVJnVmlq
+QVkvMVkwVGxNdGtqbk1lQjFVS2xzamh1dlhNCk5EYUcvVDlnSEdKdjVzWEpFTmlk
+MWxXMlg1SGIreHJvMU1nQnA3N1BTZVkKLS0tIEZUb0MxTEc3SjlYWlAzWXZzckJJ
+cmhrUDMyQVJCQlF1YVUvamlkR3dzK0EK67MvzR0SYgDBdo6EvFVqfX93S7UeKumW
+C2ow5x3F/6XIR1Zp5bEjywu9Em8XFKeDtABxKzYXOc0zjZQaPC1/md3rGDIkXCGB
+Lpg0rp3RO3H7QyOSJFy6mX+/JHwz//1TX5EkauKyTKSpYq8siNDp2lbKGECOM9ys
+eYlEn8+OB0gNHOsg00Ua1VFETiGykkjBtsJFfa2E8mrfrBFqFT1l2eFZ1GGrGopO
+M7eaq3ZAJc59mcManqfkVNEl3tLPch7lEVfMB//O2eWHiZQzLCfI+pzYOljseDp/
+G6c+ilzHyWAykEBzbm1wbEXrBWe1pKzrn+MsW4z3R9eGTOMdUnASqPuEUQ7ktdxX
+7IlcRcml4oyxFfRQHwwEBw98tP8QFMlrdalK6X5HUW5N7POrumgqn12z2xIKUrZr
+jeJGH1wv3hQxgTF1WdHah+VXY4SEM2L9txF7c3fEttlgITNTKulcJd4Uzu3KxugZ
+Arc2byQt90jtFwPeS2+R28V+M/ht/42aNWXgMbzPWAFcnh7n8FW5ZsFPvFqMv31R
+qqmKNBC96dTRhPpTdDhd+rrCbBMwCVacKZKW8z8IW3SpK4IzcSMdCUVg6fHi2u9v
++Zu7OnyjrJKUO4r5wNLCjNWf392XITrjeFQhogc=
+-----END AGE ENCRYPTED FILE-----
