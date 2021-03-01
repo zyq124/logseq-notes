@@ -1,20 +1,53 @@
----
-title: my contrib
----
-
-## Unify global and local image features into one auto-encoder model to conduct image retrieval and keypoint extraction tasks simultaneously.
-### Motivation
-#### With the recent advances in robotics navigation and visual SLAM, loop closure has been studied substantially. To address it in practice, both image retrieval and geometric verification tasks need to be accomplished.
-#### Therefore, keypoint extraction and description are required not only for local adjacent image frames as structure from motion but also for the system to validate whether the retrieved image pairs share the same landmark overlap via epipolar geometry.
-#### However, traditional SLAM systems take local visual odometry and loop closure as separate stages, thus wasting a lot of time extracting both "global" and "local" features, with different models, resulting in redundant processing.
-### The contribution is to learn both the hierarchical representation of an image efficiently to extract an image's global descriptor, local keypoints and local descriptors within one model.
-### We also design a procedure to enable an end-to-end training pipeline with self-supervision and triplet loss.
-## A versatile localization system with online and offline mode and multiple sensor support.
-### The system builds a multi-view stereo (MVS) pipeline to obtain the trajectory and reconstruction of image collections.
-### In addition to online visual-inertial SLAM system, our system can extensively optimize the whole image collection in offline mode to get an accurate prior map.
-### With the prior map of arbitrary size the system is able to detect and retrieve revisited scenes to leverage localization accuracy.
-### The incremental loop closing mechanism can largely reduce the searching time by checking consecutive loops detected near the current frame.
-## Dynamic object-aware SLAM algorithm
-### The system can estimate the camera poses along with static and dynamic environment, by extracting velocity information.
-### The system exploits semantic information to enable motion estimation of rigid objects without any prior knowledge of the object shape.
-### The system uses [[YOLO]] for instance detection.
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB4TWZoTElLa2F1c2hRMUlH
+UnV6alhxbkZSRWVJcVdxZWhtZlA4d1I5b3lrCjRpc0N1MXhQM3pLdHp2SzMvd2Vt
+Ujk4THVRc2ZaRFF6eW00T25OYlRkZm8KLS0tIHJkSk0vbm5tOWkwVndSYTk2YjQy
+UXphR1U1NXdxYmdreUkrMHZvcTlabXcKhuGAP+MiBQVfk8c/91I2SGDojaYxaYdb
+LC43tY00N2bMxP/ZMCjAOcPlbaVXq+JT/pQOZut+ZFvyFyoMCwwbzscEb1Rl1nf1
+jsmZTVg1IQRiqOk0BZZQcp/PKmDEoKe7UWdDfl+hClht1LqEL1xt/olkCB3NzD/i
+4Ok48Kp7NjbHwDhze1cXxK1l7LcEpazNyAaNdy5wQJ8J0p9k23GAjQtCCOph0Esu
+RCNL3P7nlZD6/DAd3Y+TwSMY3E/3rd1Rqkcw7PrZSu7Ito4c7KfYXQ5xWxmRyV/R
+6JftF1UJlhKrEXE+tPWFaxjFUy09RspP0IJt+I0fIAUZj9fWmuD3uPtiTrG/EkHx
+S44uxlnxoJkR1TsBxZajgVhLvzbQGnLab2vnMR9B8lwAzWBJ9Pad574CsZD5sOj7
+wL1QHLT6GoVqv23TyVR8Vpl+Qn034emfastN1dFfZV66V7hCIlNhDs1fqC6FJyF0
+h0VKw5D8HA8qxv7/UFO1zsBu7freY9o6m9ljLwBtEBK8v9l2VNimJjJR/m4v152L
+IzauL5nl0GcR+h5oixRtPlJL9fJl8Ap2WlvKEqHa3hZbE3TPQjF8GjZ47NdoDSrj
+L+tG4fvMUXXSgWHAby3rGkNb7zWwpmniOKpUvXOeIOiHcWJ2L8s02HK0tA2pQv0t
+ccd2VqqQQwP9jLtBYLgxlV6XhMJN0KW2PjameDOicrP0BipGXPGlfrbwMeENAyW+
+iOf5hIQhTSwktBy01xYr+zORg2wSoecyJclqzom6ZqjWgkBzk2LYjg+JLrkS8eU0
+0+ooun9+ymsRGgtYjWf8a9rLYOixg1gEJuXdjXUhC5f6L8cvB6AOdyq4BGI1oJ6n
+/Hff7s3astfwfs4mW6YRh+MLbERTvVm+Fp3jdYG8LlvyxywtKTefusY1c7lDiIu/
+qlbHrwJLsrDi6IjqrrgI7AZbp8Q+NeR+IC167SiewiEjzF685KPCu3CMLgPmLhD5
+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
+y9Uc8r4g4GtOeoWJFvE=
+-----END AGE ENCRYPTED FILE-----
