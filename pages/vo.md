@@ -1,10 +1,8 @@
----
-title: VO
-public: true
----
-
-##
----
-alias: [[visual odometry]]
----
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBGZ3lJSk92WndBZ1FIWWxV
+cjZHcXpnaFhDVTcxYTQ3SXdwNVpIemdja21VCnZPN1U5azJIYmRCbEFSZGtWNmF6
+eWpyMkRoUXRtOHRyU3cwU1VhNktVUTAKLS0tIG9JN3pWQW9wcCtQZUlEdUZWR1p2
+MGllYWdUbjR5VU5wbHNmWCtPVTVzNU0Ku/xyLOfc7l95GZoo1MYL70OJGpxOTcE7
+lQ0V3A/Txyijvc//nfk7V+wp+++0kxy7ypCL78pxuInpczYLYmL39TxQt6H2O1rD
+SuLvTO8oYgcWY5sxwaF/rqtYSoe7Yf+SRy1GRlzvc58=
+-----END AGE ENCRYPTED FILE-----
