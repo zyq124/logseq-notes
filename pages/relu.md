@@ -1,14 +1,35 @@
----
-title: ReLU
----
-
-## A recent invention which stands for **Rectified Linear Units**. The formula is deceptively simple: $$\max(0,z)$$. Despite its name and appearance, it’s not linear and provides the same benefits as [[Sigmoid]] but with better performance.
-## ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FIjmPuHK1KZ.png?alt=media&token=b7191d02-c6c5-4e99-9817-08f2ef256b46)
-## Pros
-# It avoids and rectifies vanishing gradient problem.
-# **ReLU** is less computationally expensive than [[tanh]] and [[Sigmoid]] because it involves simpler mathematical operations.
-## Cons
-### One of its limitations is that it should only be used within ^^Hidden layers^^ of a Neural Network Model.
-### Some gradients can be fragile during training and can die. It can cause a weight update which will make it never activate on any data point again. Simply saying that ReLu could result in ^^Dead Neurons^^.
-### In other words, For activations in the region (x<0) of ReLu, the gradient will be 0 because of which the weights will not get adjusted during descent. That means those neurons which go into that state will stop responding to variations in error/ input ( simply because the gradient is 0, nothing changes ). This is called **dying ReLu problem**.
-### The range of ReLu is [0, inf). This means it can blow up the activation.
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBkZEVIN0IrbVpsQk5LK2Fm
+WVJMckV5RXEyb3FzRFZEZ29yQk1GelFEL2xNCm9lY2RrMTk1QXFaT01UNWExdHdn
+RUNocGFLcDRaZnZpT2x0UlIxRFpmR28KLS0tIFdBdjg2OHFtNGsxcjY4cExMQ2w4
+bllCSUxQS1ZWMXhtbm52YktKZUhkQWMKEWHFAZnbrXmLRUQURbiPUuEZu+V0rxNx
+j6fVWEjIU6osxi3lHiBjerFlQeRzx+vM9yrXWIYD7brZfip2YoQw8odVquJUUOgx
+fBnHBwVxSCIVDlbo2AdVNomG5yi8TxRkMePSy2hFEWbr06oZfKOpzd/6ZJ4fql9Q
+XZbJ2A1rZTonI7Zy9NEpKxwP2pbDhubPskbsYsnS5LkAD05t5wwdmnKByofrb/+a
+HZR3wwWvZUgfvO8HgxUqvnE6kZ3Hn3cFL94MyqXEVmJ5xyR9xiGTmcYEvHonzUee
+M+Sm13kDHBuygzMcsSfeS3pEiH/ExGcxCMxHuC5AjzHyeRhtdJ2Rh2EcFWa/bDzB
+k47GrPlNZoRfhmVsUjeeXNu23485RUgyLtRkVs7UwIAvgPSvLqlzTFE1+V+8vnpb
+BQ6UARpKn8xwYcp+nZeHd+Iw5ReH10TK98uyLMrkZUDyJbx9ugBJ1DIxfEuPlXDF
+u4jy/JFzIbC7bAly9nASBDiNd14p4ChdFHsw1VlDe0buyLaodcm+1mZ6hHm3HU8Q
+wWwYFlvHpk2g0foJkY1eg6NJaVSvPjUJIHZ9EMgzUEk/Bv61v2NhXVxzUBr1cqse
+14R64acOnTL7Sxkco+xdJ01q6SW0SnpOWxsKTEHOqP5BC2k0Ci5wtlJerTWAL/As
+3UQAM/A8QFMM5Ag9WmfhW9JQMzJLia/4t1o47BiAcveTfUHRVUXBR5DSiwDZ4vca
+c0agodlVoNkV7qZXHxNfbRL/KStsMSLSsXRt+hYMGHaoFd24vGXgYStKcEeb50/l
+NFLfAOtmAqXgNB5h1rlfPD6Nc1XgVWJnVq7HeLhbeLCBp8kQoADAVj9VYPzme3r4
+eO9jNBKQ5aB4z84mU9v93085tdt5TKp8S+puzqzIFDhAEMOeBTHlrUCtB4EBpCUC
+meEuHpkT2UahXOClgHEidhmux5BEZOxxT0FEktpT+CB86aAEL/wayxlx+kbC/UdW
+akdPVoTlGMkUOQaqEt9luUypyqbGYqgXkwn/+KZj22JtWlIOjnG2QCtKhNwyNwkF
+gvpU4UCZ/VrqIEFu94DjZu/St67LXtrEthp3507Zdo076y1nEs0Aw+PL7LCa9q63
+q77uQaKmlzMz+RrWVlEqt5ksbiqU1ZloRUtaUwTieJera3uxzYdAffL85/H4IQAE
+HIi+KFNfdzVPIsIoWHxqgau3DC8A9c27mCyi9u2H1W0mV1+2paaW7nYYjknWTbXo
+yZpGDRn/yebeNfy9r1NThIeZKJHmNeflm0zMy/yHZBz5WIHWhiY7Mz6lJHOW/8Cf
+J5FlsNNZYctwOuxjS6q0GCKq4rXOrALsq0QtvSYFxCAABkhRDpbcUu/+/FQgOhaQ
+3pSdOcsGSUO78Zb9ACQ+om3JefEuW7aQNKoHYhNQyJ1fheIl045wOOJC+8Mh48BU
+6ITHTK3bAx/xbEhE80GvZ+0OBmG+Tsvy8M8D6/W9LGklGhEqU3X5/Hbg6RNWwcfQ
+GpSuJS2I2jF4b0fiesrm7adP1f8Tm8dTBX4xkEs6a4xk8tgMG7mlRkBhciZ5WOnK
+dbBgO6UjkGCNZiv/FmjUMqcvfnipuvut+/QrvL+Z+WzTrnyvofK9Q35g9W/C1Kj2
+353gR07ajLrYPTjpxGNQTC6nAhGVAD8f1dd4Ua/rL7qg83Ft/36zp2ys93Ag22XT
+pgeoEzdPtbgvMekZACkMhpI+pW6hMN5QJvvCF8TrFAVlnSQCqdWpIZgXLbuOc0fz
+a9A4ilktbjcgfmHsBETma4W48VgFpA939D0U248ZKf1ceGtLVHkG6krG0mBOexi/
+2EN8zbW9z8pwzyrhsk/proen9Ejguc3FGxvtkXYvjReMRMBw2Fiv2+MeTVE=
+-----END AGE ENCRYPTED FILE-----
