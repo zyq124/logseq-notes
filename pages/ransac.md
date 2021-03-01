@@ -1,19 +1,24 @@
----
-title: RANSAC
-alias: Random Sample Consensus
----
-
-## [[outlier rejection]], [[visual odometry]]
-## 随机抽样一致
-### an iterative method to estimate parameters of a maths **model** from a set of observed data with outliers.
-### A basic assumption is that the data consists of "**inliers**",
-#### data whose distribution can be explained by some set of model parameters, though may be subject to noise
-#### outliers are data that do not fit the model.
-## 通过iteratively反复选择数据中的一组随机 [[subset]] 达成目标
-### 被选取的子集假设为局内点
-## ![image.png](/assets/pages_ransac_1611212053255_0.png)
-### distance threshold $t$ usually chosen empirically
-### [[multi-view geometry]]  page 118-120
-## Application
-### matching of image features -> estimate [[Homography matrix]] $H$
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBvd2N1cjhPYnpTRU02eFlt
+OXMxbG5qZVNoQW5QM2x6MDE4S21Zd1VtSEdNCmdXTzdHbVBqZDZrVmxlaEQ2RGMy
+ZXQxdVV4eklXc2lZcVcxU2ZOR1h5VjgKLS0tIE41M2VnV1BhaFhrZXp0YjBTQ1hw
+MUNXZkNBVXRoSi9uZWlsUnlrbGthOW8KmPM+iI/g/FVo0KLZH4sNeANAYMXyCw6e
+3fPxtPNQ4uRZqq9588zLR+f5wOvNKgaF/tOcWnXWBtvDNpkqRStSFjAg79qKUvoz
+1z5dUO7x/7YwhUnzMDZzekNkJbj1nWPtAhOsI0NneZSfFf3AjQMuilcrG6W/Nztt
+h7v224HMFkmj2my4V9+NxTOYsoAkM54Svn1tbUMSDEHR2/RktM8967lSpprD215q
+zRgRQw/mCjf/Z2yzDZBytqoPwQ6/9G3Fi9D96qeIgXmQ36jpb/NMNIsmbOZvcbal
+ozeFWb96jv3JAWR8mSAl2eEY1LF3VQJ6ak8P14UA+fI4q2NaxUzjEj5wh1kPeR5j
+vCfik5RVoWB9XAwWuSa+K6NkbFx0IKAbHjSC0lT/pqZBClZBufDz93XYa3zPiZAD
+TbtTdRVyotdUa07ypHL2B6y6emn2LcDOaNZnUDEjw00TyHzE0YM2rPQoo2Z7S2YU
+DWGccovA7BnC7/pWrqFrmsEhi/97SvM9MT3GFe6sMRAgdVGiynDlcN5GHXPrmoq+
+kH/lxuox0TUYOUViYzRGqQ9Qx2a6NOcZ1EJTBnAL007KJgSQpap78VKGiA+t9S/4
+TVexD48kfOv89tQFiBW35/kr0/mN/liYkslR9Uncuyu0wkRztQgLIhikf74ruvhY
+7QrETybWEIjyxoKXMXRV/9Zavp81vaBJhVTP/Tz3CylEMinzO8jAbuFfL76QJgWS
+HJKAMmVUZg2c8z2LcDlSW/QQ96fQUJ45+Ki9zn3YTIBQbapk+ByIusT3bBQrBdGn
+gL2m9FD20ZTWUJ1jHgjZTjb5YwvTwwoyNO/HpExdMLUmEBBSNxdltfbT9LOCnKDY
+gG8gOVvaq6q8UGG+WsyZqk8fUsKIfJn9I0Qtm3DntdpzBg2u7T7LwPVN70iFFkBn
+g8Pb4ScpNcuyiT6qwTHEkobpXPLaq93ZcoxKLn58pyeQpb/P5H8L3iAqZMpPjGK0
+lQxGJbOW3KgMDFJ35uix58kgAhDBY0uPdkRF7O98RaWrXSB7vPDLsnOnTJYpBBGm
+GZtUYjHKT9e6iz5RUqq4ZLL0EKzTYJFfyHGMdUk0Er4uzayJ9BwPshKDOknlxuEg
+sOAaYaz7PS8mqjcIOA3/
+-----END AGE ENCRYPTED FILE-----
