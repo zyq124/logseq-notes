@@ -1,16 +1,17 @@
----
-title: GEMM
----
-
-## General matrix multiplication, one of the basic [[linear algebra]] subprograms
-
-## 解决大矩阵，快速operation
-## ![image.png](/assets/pages_gemm_1611282697774_0.png)
-##
-## [[convolution]] operation
-##
-## [[img2col]] 转换成连续存储
-## 简单的矩阵乘法, $\mathcal{O}(n^3)=\mathcal{O}(n^{\log_2(8)})$
-## 分块乘法 (4块)
-## [[Strassen]]算法, $\mathcal{O}(n^{2.807})=\mathcal{O}(n^{\log_2(7)})$
-## [[Coppersmith-Winograd]]算法, $\mathcal{O}(n^{2.38})$
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBQUzZrZytlSjBUbWw5ZFo4
+M3h2YkpPajJnSHJGUnBnd2lBYVpSdVVsY3l3CjdUMFloZXhaOFpHSk1OamRBdGhL
+YTZFdUNPbHRoVUNjV2tRK3ZSVVFueEUKLS0tIHJLVkJoUHFzVXEwQW5UN08yRTRX
+ZGV3YXFIVGE2VjhIOUFSTFNycm95MEkKfbyTK+5qAM9gdWjCHpSDm2ikSpova8j/
+GY4ANoLRp2aQ9ZjK/YdkkwYAenzW90qDjSGN6GdaYlTU6Kk+2CYEU0PyNISJ/vRf
+ELvqgF3XB0pXTns4IFdidCBRS21jTaeNoVWHu1fgcis4fArGoOHp0rUuNOjXEiPC
+rOoxJAJpTxnSBirBX8eZVfB8s6Euj0lAzgbZ/utXNQTsY0Z/bCCVxZa38vI+qGjd
+PU+vTe8yesi80z4ZhCRKKlXVPC8e6obCE2gqNM3TMIrplDRwpo4P2U8lz49jcpc7
+mFlSF7n8iQG6E6ufiHCAmWNsLkt3zl+qM3mJArwW6zEHmgBbUIdtI7w3KdW4ftGb
+YYHFfZ5SvOReHMKbbQ2hLVrK67mCurEIE9ceiFxfozrsbVijdAAsA43gvjvA8+uB
+tPsAPADgeVXgd27IoMQ/HqAjJe9jbKIF0GQKcTpYu5mt1Yv8Om2/B23q9tw4ANau
+4isI94vb9oG9zDQkae7kIdS9BGI43+MT8UD9UGWzi36d8WP+EnQh/L/U13a+yI/a
+03QW+nUDxQZVTllDLuNaGV9PePVv60KO3MJcj1lU0WvXVNrB0O4MGU11X0u9RWHz
+8X5rQSF4AhciGYBMWQ5MKd0lQPOxQ6BmPERIE/QVZJRClPHF+9FJiztVa+/ZxB5F
+IXY4+onWrMDDqp8oTjxtNFhRQkQ9k/qORK8=
+-----END AGE ENCRYPTED FILE-----
