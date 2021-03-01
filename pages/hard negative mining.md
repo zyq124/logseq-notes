@@ -1,9 +1,11 @@
----
-title: Hard Negative Mining
----
-
-## train with hard cases where $d(A,P)\simeq d(A,N)$ to refine the distance learned.
-:PROPERTIES:
-:id: 602dcba9-ab4b-4e7e-8477-78254183d3ec
-:END:
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAxemM5RVAweTVnU3N6dmxr
+dnBCOWNFUlJyOGhtVTZncmlxck54anQxUXpJCm12dlAybWpSZ1A1UEpYQWJIR0Vo
+enlwaEtUc3FOVHVla3Q1MHBjMjMwQ28KLS0tIExRckFXMm45RUNlcDhVNDBVSUNS
+RHRvbVVNcnl5ZGRGcVd5SHJ4UGpneFUKhovYVU7jJEKO8GxuvTKktfJodmwNvCGC
+6nAjQ8WWFOfh5D9sQuLOlt3qVB9N4hPRA10ZvqxAnni54DIqUK2/VTobqxbNMtSA
+7/mmAGrh9bL+NVNVcl9cYE3Gh3UXL7b4LF4pdIEUzkqaWAi54W5TO/1bobCDQlIu
+EndhdNTU1GRDngVwfPtdYyVPvZ0RSFCr53+9gM1Y6rjVxF+uEUTZM51opJmIQxp6
+hutAuc11cRXGh7eIzQDQL0DyaCh6ZsTHVw1zulxUpaR21QLb+E2LOJ0d0mQiGmUa
+J8k=
+-----END AGE ENCRYPTED FILE-----
