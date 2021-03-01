@@ -1,23 +1,31 @@
----
-title: Mdnotes plugin
----
-
-##
-## Motivation
-### Generate markdown based meta data and export to logseq.
-### Jumps from logseq to zotero item or directly opens PDF source document.
-## Mdnotes
-### https://argentinaos.com/zotero-mdnotes/
-### https://github.com/argenos/zotero-mdnotes
-## 模板自定义示例
-### 模板中需修改了local library、pdfAttachments、abstractNote等字段的md格式
-zotero：编辑 > 首选项 > 高级 > 常规 > 设置编辑器：mdnotes.placeholder
-![](https://raw.githubusercontent.com/xulei-shl/picgo/main/img/20210116225227.png){:height 323, :width 600}
-### 修改后
-###### `pdfAttachments： {"content":"PDF附件\n- {{field_contents}}", "field_contents": "{{content}}", "list_separator": "\n- "}`
-
-###### `localLibrary：{"content":"Zotero items：{{field_contents}}"}`
-###### `abstract：{"content":"[[abstract]]: \n{{field_contents}}", "field_contents": "{{content}}", "link_style": "no-links", "list_separator": ", "}`
-###### `url： {"content":"{{field_contents}}", "field_contents": "{{content}}"}`
-
-###### `title：{"content":"## {{field_contents}}", "field_contents": "{{content}}", "link_style": "no-links"}`
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBteEJKMXdNQ0ZXNzZuL3A0
+bHpOVmNGZVQ2VVJqUE84S3h1eGFRQnhkN1cwClhTSWtxZlZSUVcza0IwWklNSHBz
+bVB4K3dFMjdRTnJjWUppQVNJS0lYYUUKLS0tIHA2SytDTThjaElCZ2Y2Zm1jcnpY
+S24rdldSaENJWXl3dU5OSGczTVhZeUkK5BfGmuKK04TgPuIWUzpDQaZ3qC4u7Zsf
+9P0AMH3BNQF1bvuDTf0wppHoh2mXA3Qd7Ba7OTB5BW6e3Htc3UctKeRNhu4CcNPr
+iOyWy0wkdEVmTHwE2O8S4T+3ha+mipJJPg7ASMYetZNaga2sp5L4k+7A4k6INqnH
+4cjlTFZqr7pLKWxJkZqDaChgS33K33/dLG+FQ0xrcdcltM2iwpYo9feFwo+8cXfa
+Ou0orvcZcp/mNT6zPWhqf1dKBIV85IUdBW7w8WB1VzovraQB29EbksMXFTYFMmkh
+FdQ0Z8V+B0dCjh9w0sfs/5Di+f4IPZOYnq9W65FpJQRfQw4U3PZY+T0/CcX1h0Jd
+zjqXE0CmSyr+AHRRjXP+rPBx3K3di2Nooozk7a7h19sAKBflk9hMVf/aqqndVJqa
+iBbs+aZ5LrqC+zbyx/bD6Zu+od6l38BDX55i5V07h6n0pO3+FTkLTmbWmFrHEj/j
+kugkZHH6AiTZDgVFAm6ApimiKtOWe3hrYvgP/0Exb92htaxAXIk74u0iU9FTmvYW
+9WhZj+t3qDdPglWqX7FHan2/Vq4MnDOrQZny7xYI4XhXVdvQM3D2DHSd4etq7q6A
+DOgmReTWA98HRCddHi/WWssR4rjwIbg7Xh8WU7fnHM9EOxj0GhzhggZqSp4rG8FT
+qbsZz+ehqhIGEFuFBwYJDwIZIoZqw+vdGrDDcjfWRukfTLCMoioOgC2sqTt6nzMK
+k8iKQhaTXDaztyqEwjjVkzaKPO9HN280k6TOq4vEjR2hSfjrIOKT8BKZIX3bEHAT
+4pizay9fHSywO9SK1BzIM9ycOcTP7VKuZAP6Tp1AX7M0pDGeOA7x9/L7iNDjl1bG
+CI+9DbP37m89ML0kB87ghBLvBbxAjz//bW62YBmUBq4VQztrwFjlUVBuKijxRZDE
+txuwuxmcGVw5pDwjp5O/HHiEVXxuWMOF8P6EuGsWojNtt9xkQYy00ec7p4IDMo9F
+JLJJsqBeHa5NpNe4K+JZgZ5GRE7duYXZctiPREepAhERZC9hPecwqS7h7BTNXI1r
+YfwUH8NEoofzWHj3PPdcMq2v+SpbsBHKtruEcXe+qAT4eUGOFcPf2OEzHq5TxnIe
+WRInh8jbbQVuW9PUQ6d8n/YTvOQAP3CwM33p6WH2xx29rRhBFU2DqqiZOyrXtfSF
+Z28yi0AFDachd/VecJnEI8ZWYOgmQNKJvo99NorfJIItp/kv/BQpJcbz92NNxeSo
+ayCcEpeN8QDZPMMvwftY3pLYqpWoni9fTUEVsVkV7FQIhKewVzH3+Dj7/p5sbVgr
+44pcuGAA6QI9um4VyHDvPvckZ8Rnm3LO/EnGmy/qrsc6gLtwwRg5aQHej52UXU6O
+kYKgt1ltFho/u3L7DuQBB/DU2/Ej55EUrsmmMIEGoCXQDXpYpXRkzORcSWj3hHzQ
+aHI52LQ4KKmDorUM3gX7DDXbudjvT1ECS4fXgcaHZiwhzFwzX8zD5A/IYe6i7dAV
+KXqBj0+3q0rHV/zOVPwgep2HLembVbJvkrJzII4pIJ/yX037077UR8HRY0hD3PDa
+CefhfJLrSRQRQSegKWMr1Vk=
+-----END AGE ENCRYPTED FILE-----
