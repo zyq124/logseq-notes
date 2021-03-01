@@ -1,21 +1,24 @@
----
-title: cross-entropy
-alias: 交叉熵
----
-
-## 信息论中cross-entropy定义
-###
-$$-\int{p(x)\log{g(x)}dx}$$
-### 描述两个[[distribution]]的距离
-### 训练的目的是使$g(x)$逼近$p(x)$
-#### [[softmax]]中$g(x)$是最后一层$y$输出,$p(x)$是[[one-hot]]标签
-#### [[Sigmoid]]中最后一层输出相加不为1,所以不能看作一个[[分布]]
-##### 将最后一层的每个[[神经元]]看作一个分布,对应的target属于[[二项分布]],target值表示这个类的概率
-##### 所有[[神经元]]累加起来
-## Given a sample $\{x, t\}$,两种cross-entropy区别在于对应的输出层
-### $-t_j \log{y_j}$
-#### where $t_j$说明sample的ground truth是第j类
-#### 对应的最后一层是 [[softmax]]
-### $-\sum_i t_i \log{y_i}+(1-t_i)\log{1-y_i}$
-#### 对应的最后一层是 [[Sigmoid]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBzV21vc1UvTENyR0NjN3Jl
+bzY1V29aT1Z1aGFCdStDRVcxMlRGdS90NHhrClFrRmxXWXByeVI2cVFTaEpGRExu
+NHJtU3htdU5sYk4veXZsU1p0L3FYencKLS0tIGM3dGxKb0txcGh4TTg3OUtLOFpD
+ZDU4cHQ1WXdYVnZ1ZGxkL2c1L1hFSkUK3/HV1lhoITtXN95nq8Dggmy2D2tyfFvP
+5ZwA3po4us2vO2nEZaiw/21EThZ6OxE4cAMVOWkgHJCFKTWxeoviSSnomN6ZsSY2
+j5npgBdEduNgTtjQSxqoe7KAsi1CYIuWjjIITsNxh+r4WRdkcrXLFwZJ1ZalC0wp
+wIX23WcYSwb6TgHI/h4BEBNIqMCmxSiEqUJkJmOPm0oZyBIqxldiiXIXUPRjDM2C
+USl7npN+rt0VAOrVZcPrubInnEz9ck/5nVO8YNxqu6Z0FgPUsyVkYqrC9ZGjW8th
+OxdLJrN+eq1rHpb84sC+YcTF7buToN7IG2cBGzHR9bFlGv14Z8Rvhxg1ZCa+zIhx
+1oZotwGxkkXSvK5SvN0UVTZuqh8EliV469eyvuS2TDvG4j0FvsKK0P9WKUxB0C1J
+s8X4RG+IOqKYrJkDGwbH/FLyoC1vhfKCYlGIqq0nLcWwcf2AMj+SiTvAtPUgA3aV
+z/a25vyQezNkZRBpwgf+3BiaQGAr0ZEkfEBI/I5E/QUOX+vnmtX78cWJulWbF+9b
+QPRBSn2lvgoPemJaSywWPDA4eWvDSv8gtCygMexx4cJU3yBbJqZWNpoAZy0ltiC/
+XBMiCPdN6Lj02b7ERsuuVaKR6zCJxctykl0WTpxklggXn5NNcbzEyxm6TrMbK2Ix
+ar9sm45Pklj3gtzd8dbX4a31pBM6CtVvEXo7E+dIyV+eooi8sAyCywSk+mGG8RMo
+hpp7zg5zo4IIpMgtnJ8gmhSVKVLhsfCnOxZKUUCDHGSu9zaavhQc0atJh4ihInYZ
+SPlLn7zRddeEohR/3F0/50oKXmKgTOJU2fzNjcIULwG1GSuLhwUJQlOkRmdCK6as
+Ihn+ncjJX7LL3DKh2p4jyNL6AQ5uzX8j4e56tmvj+TnA3nhxs/opihCsOYs682hT
+supXrKuksAd9WbYe37RPUIOn+Ycjp985s+rY7TepS92kVMun2AGnKs3dket/ltAR
+qGO5b9GssPuEB/3t/eMa28ZdQ28EEuOISOoF81uZJBMSgnvo7aPnUGJU8WWzdpzC
+VQbwn12aWdL/11rpNsyHQ51jGnYO/yBCwYIkp62e0EUlACyDM1Fh9cDttIvWgJrW
+99RAXF59ArcV/sZ/Cgf3
+-----END AGE ENCRYPTED FILE-----
