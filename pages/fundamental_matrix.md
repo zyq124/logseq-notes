@@ -1,12 +1,16 @@
----
-title: fundamental matrix
-alias: 本质矩阵
----
-
-## The fundamental matrix is the algebraic representation of [[epipolar geometry]].
-##
-$$\mathbf{E=t^{\wedge}R}$$
-### $\mathbf{E}$在不同尺度下是等价的(乘以任意非0常数后,_epipolar constraint_仍然满足)
-### $\mathbf{E}$的 [[singular value]]必定是$[\sigma,\sigma,0]^{\top}$的形式
-### $\mathbf{E}$由于尺度等价性,有5个 [[degrees of freedom]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBkQk5tbGl5WFJ2bS9SUHdM
+aWtXT3JWNEx4T01RdFhpdU1GeDVnS1RRaG5VClVwcENTNGEzMHFqeUJCMlA0a000
+VS9BU2Nwa3pJbHY5WXRjTURwNWtWQ1UKLS0tIE92ZU0zdEZIUnJ3M29wbTNZK0Fp
+NWgxK3ZLMHBmdUdPME5qK1FIQ09xNjgK7IaNzUkLaKKQR1rGmyXF9oVz0fMlsrsw
+qw0BqkHEpk0pnDjrQgr/c+Rlo5EgdltHINoZyb5bM1BYg3ujJ3Zpu3a+CpOQoSh2
+ExkYuqNqwAHEKf1Ah+/n3hn5+k5QqKSoLttFBehQGMshwED9xY3Tv8/nFam4EMYL
+ylW9fFct/W5LiiDvKhGD2XJjk675PolfqXIyEgSaD21BVoa1xbeJZPbCUS2p9thd
+EdnkZ4M91D4HUbQV9qaGGkAbj80Ulozi7UWqaW9r+akSxHdr3O5BbPX3DMfwH7WV
+hG49zB/86ju7CJtqeGHIpXVpHGptiiyEESeXidKDQNA9sALsWD9SH66uA97D2Wz/
+sJYejT0ctVgDUd8MtglXsL+x+U2uWGeZDrfvN0G6DtaoYrjOajSea3sK+5MWwdAH
+ksRzgw35vHLRvgX4RAoSlc1ieTWjlZwqaP9fbZYiXvw3B2ACI02TkvZnTJNmwt/1
+1zg/wfPyeHIGe/AUTJiMbBtp7/cY6gBhkHr+ciWOrr/31pqMI3vG9552mapLHe7r
+qmsmRnONcH6twHy8Gc2KYcQOTiM5+4TI9ELOUp+1ZlSVEk9C0dmrahyI4533JM08
+gWvqZynEWr8=
+-----END AGE ENCRYPTED FILE-----
