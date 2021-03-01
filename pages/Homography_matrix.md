@@ -1,8 +1,9 @@
----
-title: Homography matrix
-alias: 单应矩阵
----
-
-## [[multi-view geometry]], [[linear system]]
-
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAxaEtHUmt2SGhUR2w0ZzZW
+TktPNTE2RmZsVDNackZTSWlvRk1OVlNubGxJClVHNitCTHdPV0g4aVpINjFIbXo5
+Q2IydEpIY1F4WUczRUtET091LzkxeTgKLS0tIHY4Yi9ZSU9kUy81WDNaTzJOOTlw
+aWV0dmw3cGN0SUtyQkF6eCtLVmdLQU0K6Slh/FVrVTRa4xlj/9fcJMbGpogPcbeY
+Fy974aGk4YQTv8Q1ObllczvImaDM4aLATeh9Xg8feZUEdtQWW6kKJge+cJZde2XY
+2YA0dfiSuBFbvW0+xt4cTiTSaTxENN+t5xZEq3SlI4uk79rp1kawRfMkdiKiEK+6
+uYI2ABK8udO3qX8UH0vv
+-----END AGE ENCRYPTED FILE-----
