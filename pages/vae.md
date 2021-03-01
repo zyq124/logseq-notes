@@ -1,8 +1,13 @@
----
-title: VAE
----
-
-## Variational [[Autoencoder]]
-## The encoder is to describe a probability distribution for each latent attribute.
-## In conventional VAE models, latent encoding variables are assumed ^^identically and independently distributed^^ ([[iid]]) across both latent dimensions and samples
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBtcnc3bXVIZjZ0NjdjSGtr
+N0VpZEpkMXFhY2ppbk9jVERZVjF5bUp1ZUhrCk93T1BUOUZEWFhqc0g3Uk1aN2dH
+UnBwVExUd0sxeFQ4MDJ5eDlPZjBLcE0KLS0tIDdNQlc0L0M4MmtGcER6SjhGbi9V
+cnl6V3QxbTFxSmZxS1BPazNPWUFVN3cKIH4czkIMQEvu5CNNwLWsDGIl0AKv0/As
+s0Xogw3+p/1SJWrvadeNkE5uUWUQOGh1lCwjuVWO82+9DI9wX0459mSgyrOn8zZj
+G5O0UVJUh5mx6heZeS/I22T29QybpqL8525Nv/pKE8sD1Tqx0O3cRT7yEdQ5RqZg
+4RPQ4naJhAEArB407ksLB55F5giT8ZyuCDM+jN3efpiAd2Uxe+zASXu6/7V/hb35
+paGd/HlfoABD3J4YBHFXz/a2Pd3jwrpIe+HuOEzgMfVLMOEfFD29H+6log2GzrXf
+O8bXafJth/Gu4lDSOk67K5KwcgUCker0KLnmC/OWvGbRl3p8E8qjYlN7Eh91/fwV
+KfUJ4u+/d6DD7Lu4C5iIrK30hBRYoG9dhgHN+MA7YTF16i4L9CUXPr/cUGJlrW+w
+SEGse5Op2d/8OvBINmEHW9ACoycrM+Z8eg==
+-----END AGE ENCRYPTED FILE-----
