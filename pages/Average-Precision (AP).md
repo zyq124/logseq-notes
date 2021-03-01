@@ -1,170 +1,205 @@
----
-title: Average-precision (AP)
-public: true
-tags: #Keypoint, #[[Descriptor-Matching]],  #Ranking, #metric-learning, #[[nearest-neighbour]]
----
-### A standard ranking metric in paper _Local descriptors optimized for average precision. In CVPR, 2018. The paper focuses on [Descriptor Matching](Descriptor-Matching.md) stage.
-## metric-learning
-### ((5fbf5a26-4912-470d-b02b-594f29bcf4f7))
-## Formulate descriptor extraction as [[nearest-neighbour]] retrieval performance metric: Average Precision.  
-
-## Estimating fudamental matrix from matching images
-:PROPERTIES:
-:heading: true
-:END:
-### 1) [[Keypoint Extraction]] detect and extract $$ M $$ local features from each image.
-### 2) [[Descriptor Extraction]]
-### 3) [[Descriptor-Matching]]::
-#### Compute pairwise distance matrix with $$ M^2 $$ entries.
-:PROPERTIES:
-:id: 5fbf59b6-8148-4ff9-8d56-d9916c2c9189
-:END:
-#### For each feature in $$ I_1 $$ looks for nearest neighbor in $$ I_2 $$ and ^^vice versa^^.
-
-#### Feature pairs that are mutual nearest neighbors are candidate matches.
-
-### 4) Robust Estimation
-## [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_ap.png?Expires=4759976180&Signature=Vlk86f11suQTus8Hzbe1r84KbQtm4oegdQTL1mvcaB30ZxRLetg~W9PikLxP34LIYJfUdDaSWzOpaaRxrXptr5anqjOuMfQI~kciXVri39~K7Qc3SWn79uNQa7fGeK93q1gfVkoH3Cmh5j1Tt8xkae1bmDOY~3PwFzXczySOy6f4ies9xcM8wLykZpbSWLw0h840wEG6H9utNIGLD0ilBvbmw1A5qWs-lnSEf0OdCo9l63e6bo9p4ZLxeeQO08~kboiPzgrt~pW67mmSgTqPbo2KRlrwhLlh7xC3Zib9KJJWx1OXJR38MOD8gsmq07GgRAhV90OJ-xLN8cyRMxCJjg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_ap.png]]
-## In this paper the ^^contribution^^ is to assess [[nearest-neighbour]] matching performance by adopting Average Precision ([[AP]]) as the evaluation metric, based on:
-### Binary relevance assumption
-#### retrievals are either "relevant" or "irrelevant" to the query.
-### So given a reference feature, features in a target image are either **true match** or **false match**.
-
-## 1. **Optimizing Average Precision**
-:PROPERTIES:
-:heading: true
-:END:
-### 1.1 Math notation
-#### Let $$ \mathcal{X} $$ be the space of image patches and $$ S \sub \mathcal{X} $$ be a database.
-
-#### For a query patch $$ q\in \mathcal{X} $$, let $$ S_q^+ $$ be the set of matching patches in $$ S $$, $$ S_q^- $$ the set of non-matching patches.
-
-#### Given a distance metric $$ D $$, let $$ (x_1,x_2,\cdots,x_n) $$ be ranking of items in $$ S_q^+ \cup S_q^- $$ sorted by increasing distance to $$ q $$.
-
-#### TODO Quantization of sampled scores via [[1d Convoluation]] to increase channel number (1 to 40). 
-
-#### Given ranking, AP is the average of precision values $$ P(K) $$ evaluated at different positions:
-##### (1)     $$ P(K)=\frac{1}{K}\sum\limits_{i=1}^{K}\mathbf{1} \left[  x_i\in S_q^+  \right] $$ ,
-
-#####
-```python
-# number of samples  N x Q = c
-nbs = q.sum(dim=-1)
- # nb of correct samples = c+ N x Q
-rec = (q * label.view(N, 1, M).float()).sum(dim=-1)
- # precision
-prec = rec.cumsum(dim=-1) / (1e-16 + nbs.cumsum(dim=-1))
-```
-##### (2)      $$ AP=\frac{1}{|S_q^+|}\sum\limits_{K=1}^n \mathbf{1} \left[ x_K \in S_q^+   \right] P(K) $$ 
-where $$ \mathbf{1}\left[ \cdot \right] $$ is the binary indicator.
-
-#####
-```python
-  # norm in [0,1]
-rec /= rec.sum(dim=-1).unsqueeze(1)
-  # per-image AP
-ap = (prec * rec).sum(dim=-1)
-```
-#### [[AP]] achieves its optimal value ^^if and only if^^ every patch from $$ S_q^+ $$ is ranked above all patches from $$ S_q^- $$.
-#### AP optimization is a [[metric-learning]] problem with ^^goal^^ to learn a distance metric $D$ that give optimal [[AP]] when used fro retrieval.
-:PROPERTIES:
-:id: 5fbf59b6-d9a1-4ecf-bd22-a9f151e36be6
-:END:
-#### ^^Challenge^^ is that: sorting operation is [[Non-differentiable]], and continues changes in the input distances -> discontinuous "jumps" in AP value.
-#### We thus need [[Smoothing]], based on [[Hashing As Tie-aware Learning To Rank]] paper, we employ a differentiable approximation to [[Histogram Binning]] to optimize ranking-based objectives with gradient descent.
-
-#### TODO Read the two papers mentioned above.
-
-#### The optimization uses quantization based approximation.
-
-####
-```python
-quantizer = q = nn.Conv1d(1, 2 * nq, kernel_size=1, bias=True)
-  # quantize all predictions
-q = self.quantizer(x.unsqueeze(1))
-  # N x Q x M
-q = torch.min(q[:, :self.nq], q[:, self.nq:]).clamp(min=0)
- ```
-### 1.2 [[Binary Descriptors]]
-#### compact storage and fast matching (in applications with speed or storage restrictions) #definition
-
-#### In this paper they use gradient-based relaxation method to learn ^^fixed-length^^ [[Hash Codes]].
-
-#### network $$ F $$ models mapping from patches to [[Low-dimensional]] [[Hamming Space]]: $$ F: \mathcal{X} \rightarrow {-1,1}^b $$. 
-
-#### For the [[Hamming Distance]] $$ D $$, which takes integer values in $$ {0,1,\cdots,b} $$, [[AP]] can be computed in Closed Form using entries of a histogram $$ \mathbf{h}^+=(h_0^+,\cdots,h_b^+) $$,  where $$ h_k^+=\sum_{x\in{S_q^+}} \mathbf{1}\left[D(q,x)=k\right] $$. 
-
-#### Approximation of [[Histogram Binning]]:
-
-#### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_ap1.png?Expires=4759976336&Signature=oEvDuE11U0Xgq-AilHDKBeMp0MaX9ega9xE1l7qnyv7Q7SRX1rIw15N1eRr~a7gcHnWZiAsmD7nAoj8uzXFWIzy-JpgPgsZBXXbu~ww2b~2WR3QwuoCgJ1gWBCtrElNCE4QA9TRcwE-WCIFClDutpAzJgdvBuQU0i4gXBJU01IgEgAz2l4KPpbobnF52M5sXnAFrIkCnFlTLgY8h6Yw1QVn~eamslfCYywf~R0o8Az-V7CRd6oOj8PuYHJxfZR20~phs1A6DG3tpaWw7T5NlwwoMaHu0vOIZUuR0-cYAxPr8kSnvc5k4YIsMA-9fSznVhV7bbt~frJQbdublA2i~LQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_ap1.png]]
-### 1.3   [Real-Valued Descriptors](Real-Valued-Descriptors.md)
-
-### Preferred in high-precision scenarios.
-
-### Descriptors are modeled as a vector of real-valued network activations
-
-### $$ L_2 $$ normalization applied to get Euclidean distance $$ D(x, x^{\prime})=\sqrt{2-2F(x)^{\top}F(x^{\prime})} $$ with $$ ||F(x)||=1 $$  
-
-### Python Code:
-####
-```python
-class APLoss (nn.Module):
-  def __init__(self, nq=25, min=0, max=1, euc=False):
-    nn.Module.__init__(self)
-    assert isinstance(nq, int) and 2 <= nq <= 100
-    self.nq = nq
-    self.min = min
-    self.max = max
-    self.euc = euc
-    gap = max - min
-    assert gap > 0
-    #init quantizer = non-learnable (fixed) convolution
-    self.quantizer = q = nn.Conv1d(1, 2*nq, kernel_size=1, bias=True)
-    a = (nq-1) / gap
-    #1st half = lines passing to (min+x,1) and (min+x+1/a,0) with x = {nq-1..0}*gap/(nq-1)
-    q.weight.data[:nq] = -a
-    q.bias.data[:nq] = torch.from_numpy(a*min + np.arange(nq, 0, -1)) # b = 1 + a*(min+x)
-    #2nd half = lines passing to (min+x,1) and (min+x-1/a,0) with x = {nq-1..0}*gap/(nq-1)
-    q.weight.data[nq:] = a
-    q.bias.data[nq:] = torch.from_numpy(np.arange(2-nq, 2, 1) - a*min) # b = 1 - a*(min+x)
-    #first and last one are special: just horizontal straight line
-    q.weight.data[0] = q.weight.data[-1] = 0
-    q.bias.data[0] = q.bias.data[-1] = 1
-  def compute_AP(self, x, label):
-    N, M = x.shape
-    if self.euc:  # euclidean distance in same range than similarities
-    x = 1 - torch.sqrt(2.001 - 2*x)
-    quantize all predictions
-    q = self.quantizer(x.unsqueeze(1))
-    q = torch.min(q[:,:self.nq], q[:,self.nq:]).clamp(min=0) # N x Q x M
-    nbs = q.sum(dim=-1) # number of samples  N x Q = c
-    rec = (q * label.view(N,1,M).float()).sum(dim=-1) # nb of correct samples = c+ N x Q
-    prec = rec.cumsum(dim=-1) / (1e-16 + nbs.cumsum(dim=-1)) # precision
-    rec /= rec.sum(dim=-1).unsqueeze(1) # norm in [0,1]
-    ap = (prec * rec).sum(dim=-1) # per-image AP
-    return ap
-  def forward(self, x, label):
-    assert x.shape == label.shape # N x M
-    return self.compute_AP(x, label)
-```
-## **2. Comparison with Other Ranking Approaches**
-### Some recent methods learn feature descriptors by optimizing losses defined on [[Triplets]] in the form of $(a,p^+,p^-)$ where $a$ is an anchor patch.
-:PROPERTIES:
-:id: 5fbf59b6-f639-4d14-8bf2-780ef2f3b88f
-:END:
-### Triplet loss:: Long history in [[metric-learning]]
-#### Long history in [[metric-learning]], better suited for ranking tasks than pair-based losses used in [[Siamese Network]].
-
-#### [[Triplets]] define local [[Pairwise]] ranking losses.
-#### ^^Cons:^^ Despite simplicity, they are challenging to optimize. For$$ N $$ training samples, the set of [[Triplets]] is of size $$ O(N^3) $$. But most of them get classified well early during learning.
-
-#### To maintain stable progress, carefully tuned heuristics such as [[Hard Negative Mining]], [[Anchor Swap]], [[Distance-weighted Sampling]] are crucial.  
-
-### **Listwise ranking**:: defined on a ranked list.
-#### {{{embed ((5fbf5c9c-c6b0-4c2f-ad73-31f65deb8b64)) }}}
-### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_listwise.png?Expires=4759976476&Signature=MXEq4HWkrEbHWdFjNOpxNinuLyGBhXs28LvxKUEdYWhw4Jln~jikH4cPxMaE2jzn8ojfAijHsPQPEpQSTe-nFAwhqBObJQ~q~RlHRb3QVetkz7GOnTB92bTGcm-EDR24s5zvkogTtldvhkkVcFjLerryyoOhCOjHlL0spqEEMQbgsD-6P3TU8cPA8O637e6d8QK5-iPS7XCAm1WLkqmXr7X6Q3rbW53nFeJpH4bvJXlC9sPKRGV~u4~t05T6v9NkuCvh9GIHtTT96ZYhE3Eav4LVkp5o2unxuqtq-1FDYrPDMDcWiMkHavM21bBVsSqa2Q7CtuW6Y8T50tgTL-MG0g__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_listwise.png]]
-### The listwise optimization also implicitly encodes [[Hard Negative Mining]]: it requires matching patches to be ranked above all non-matching patches, which automatically enforces correct classification of the hardest triplet in the batch without explicitly finding it.
-
-## 3. Geometric Noise Handling
-
-## 4. Label Mining for Image Matching
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBLSVNQcjgyTkttSGZLakZr
+SEJtbTVRR3djSVQva1VNR0JlZlJNcTRLdVM4CnBiYVZXbkNOand5Q3BvYWdTU1VB
+VDRhNzdZdGZ2aGNHMUlTN0o0Y2Y1MkEKLS0tIG42bWJObkp5UU9PTTFNVnErekx0
+Z3dOWGhVRkJTZGtlUURzTHZkUzZjdGMKVwEw77lKmhCZo+5FWLPZIh1D1pkIxsGb
+2e90mkGe949Rm0N/Tyqbw/acUXghow2lVFOD1A+n5GrR4o0ZdTShxvOOLUyb2MKX
+v/9vdSTynhnb6xpvgiJyBGWt8D5kFUGUWHBnfr2aJtZgyxqVjyEECsreV/FKPLMc
+668v+AkFHW80I6uzzvQyFHmXs8R9F5+kYt5yZ6lwVZM9l3joP18BvQoWgc9a/1xP
+IlksstmctfXFNch20eig0okamqJEVBaOqFes3uIJfXhTuD8yNjJ/l+KUo7R3NU6u
+tLNVmWNSO0dg2ev9DQSK9JjzFwGI7MG4SbamSNwkQtS8ckDX/+hNwCppMkSo3t5V
+rH1wnoi4FIBsgNROAYKnSoCScOINCOD29Dwu70wnKg1iiz5zbU4bWxi58oddd86S
+mQyisEZ9trhr+GZUV/3kvR3juVT8Uu5cPBVwsK75p2rl1AG7CcMgnG9YuV0RGp6Y
+caGtbMFToR6ZJhLpxIXDOCndcdFabl/we7usq95xEAUf3dMjozUEur7uak/XCgMv
+GIBL+9Rz03d1tmZ1V4g4XE/eeVmwfxhqbca/YRM02196487vH0qVrDoNSvVGYDCo
+FCCadDitayreDUAGXwkJcG3cIyBs+Bh5F/ZC+ftz03B6xSUAmprQyX88PUhUjs07
+/BC4h0/jaIyYNNZZaunxeARQZuRZjRfaMh3kw4WUzE6TKJ4UJlRncSBAWzYMJ359
+uizicFeZ8WpzWf7KInEagMWJthqDnXrkmj4hCUoDnv4EKGLfYiSA8RtgfMnBN9i2
+NJCJXsoN+nzSjK+QK1Xyo+zyaIFIpptImj5tFsd0M830GGRSlUe6LGQENvBnKwto
+i4TEe7zduBhy0j6pBg9DbDuQv/881tKDROaLnb5M5LgWYp+2FJbyaQYHoEM4yXRg
+Ju3jUTcCkgGjANupW6Yr/MzdFoqeCi/sm361LTbMDtzh3eS6/T5HEJct+BU/FEX6
+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
+rSO+LOQdTqn6XxVuuKn04m78aXrpB4USrw==
+-----END AGE ENCRYPTED FILE-----
