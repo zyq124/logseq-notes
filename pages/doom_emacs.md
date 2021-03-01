@@ -1,16 +1,15 @@
----
-title: doom emacs
----
-
-## SPC
-### `SPC Tab` switch workspace
-### `SPC Tab n` create new workspace
-#### `SPC Tab r` rename;
-#### `SPC Tab s` save the name
-### `SPC p p` open project
-### `SPC SPC` to switch to a file in current project
-### `SPC ,` to switch to a buffer in current project
-### `SPC fr` to load a recently viewed file
-### `SPC :` for `M-x`
-### `SPC ,` find a file outside current project
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBsNjJjSGlaMXVQSEhTbmhG
+UVBwUFZ1RXowUitvOEFJcTJ0TWtIOGhJSUVVCkxmY21lNWdUTEZXR3B6UHhQUzd6
+N3JIZkRnY0FMNWdkbnVWVjVzWE9BTVkKLS0tIFc1czkvbm9SQzNvVjg2dkh2MWt1
+bzl3VmlnNzVUVnlkRGdwT0hnbjBtYWMK6gySExGB36uef0l6HEI/tljjcvwht+UA
+SwH65V5gfEcK4IIFcPbuJLpkqw4MSqyrRN/KaPy/7L4hNhg36kyOOI14XRUq9d6z
+EBY368F0Wls7/yftGVBg2YWOcqXMi3sxIf76yJJR4IVATczHXkuvB8TYTqac23pR
+DvP3kW00pUt1LiX/oqSdftYZ9Inc+YN8VEk4zQFUhnrr9S1TI0a99qB0nqnD0yvd
+vZKInLlGA63eQy1luuxbHyrJwglACWTJeRcjDtKtJ8iS3d0IkBL+aWwyVIMpmGHh
+4e21DEpLp8VdG8H8ihxnGaCby9bnn0HrM3jMekAIXnIR09xon8TrtSnSVIr7QWSJ
+4n/velY4tY/V/X3pKZrBbSyL2PU9+BKNrSvFqVNCi5WVxuWP6PbzQadmjHYtMv59
+sS5ZDWI0plq9d3/CTI3Y55OJ/fMJDc3vk526RR/qquL6NYLNVKZy96VUF53bzB0N
+NUNoytYS9PL7J2JuxXrphSjvP/PyjzxnB9LPci8m7i/DaLAWh1XyWrCFcpXWrQy6
+WgTyQ8nltyAH47NNbEuSF91IwQQ8XzT6yRt0BRXXS7J2
+-----END AGE ENCRYPTED FILE-----
