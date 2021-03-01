@@ -1,157 +1,154 @@
----
-title: smoke
-type: Article
-citekey: liuSMOKESingleStageMonocular2020
-authors: [[Zechen Liu]], [[Zizhang Wu]], [[Roland Tóth]]
-publication date: [[2020-02-24]]
-tags: paper,[[3d Object Detection]], [[monocular]], [[mono3D]], #keypoint, #zotero, #literature-notes, #reference
----
-## Keywords
-:PROPERTIES:
-:heading: true
-:END:
-### #[[3D Object Detection]] [[single-stage]] #monocular #mono3D
-### 评分 [[3.5💗️]]
-## SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation #readdone
-### Metadata
-#### [http://arxiv.org/abs/2002.10111](http://arxiv.org/abs/2002.10111)
-#### PDF Attachments
-	- [Liu et al_2020_SMOKE.pdf](zotero://open-pdf/library/items/K5KHB798)
-
-#### [[abstract]]
-##### 3D object detection系统分为两部分
-###### (1) 2D region proposal 生成网络
-###### (2) R-CNN 结构通过获得的regions of interest来预测3D object pose
-##### 本篇文章认为2D object network是冗余的,会带来巨大的error
-###### 这一点跟 [[RTM3D]]的想法类似
-####### ((60193c1d-a8b3-4cc1-8ee7-80577c19e580))
-##### SMOKE combine a single keypoint estimate with regressed 3D vars
-###### to predict a 3D bounding box
-##### Multi-step disentangling method
-######
-#### zotero items: [Local library](zotero://select/items/1_WVIMTSKH)
-
-#### ## Highlights and Annotations
-##### SMOKE Single-Stage Monocular 3D Object Detection via Keypoint Estimation
-###### Comment 8 pages, 6 figures
-## Abstract
-:PROPERTIES:
-:heading: true
-:END:
-### Traditional 3D object detection -> multi-stage network
-#### depends on region-based CNN ([[R-CNN]]) or [[region proposal network]]
-#### Need to attach an additional network branch to
-##### learn 3D information
-##### or generate a** psudo point cloud** and feed it into point-cloud-detection network
-#### brings in persistent noise from 2D detection
-### Propose single stage network
-#### learn 3D information directly from the image plane
-## Abstract
-### ![image.png](/assets/pages_smoke_1610504667580_0.png){:height 308, :width 601}
-## 1. Backbone
-:PROPERTIES:
-:heading: true
-:END:
-### [[DLA]]
-#### aggregate information across different layers
-### Replace all hierarchical aggregation connections with [[Deformable Convolution Network]]
-### Output [[feature map]] downsampled 4 times
-### Replace [[Batch Normalization]] with [[GroupNorm]]
-#### ((60066452-7c2a-4a58-9dde-3ccca0eb6c15))
-## 2. Keypoint Branch
-:PROPERTIES:
-:heading: true
-:END:
-### Similar to [[Objects as points]]
-#### each object is represented by one specific point
-### Identify projected 3D center of the object on image plane
-:PROPERTIES:
-:id: 60065273-b8d6-4dc3-9c7c-a0d07595c3c4
-:END:
-#### 不使用2D bounding box的中心点
-#### $[x \; y \; z]^{\top}$ 3D center of object in camera frame
-#### $[x_c \; y_c]^{\top}$ projection of 3D points to image plane points
-#### For each ground truth keypoint, the corresponding downsampled location on the [[feature map]] is computed and distributed using
-##### [[Gaussian Kernel]]
-##### Standard deviation based on ground truth 3D bounding boxes projection on image plane
-#### 3D box is represented by 8个 2D points
-##### standard deviation by the smallest 2D box with $\{x_b^{min},y_b^{min},x_b^{max},y_b^{max}\}$ to encircle 3D box
-## 3. Regression Branch
-:PROPERTIES:
-:heading: true
-:END:
-### Predicts the essential variables to construct 3D bounding box for each keypoint on the [[heatmap]]
-### 3D information is encoded as an 8-tuple
-####
-$$\tau=[\delta_z \; \delta_{x_c} \; \delta_{y_c} \; \delta_{h} \; \delta_w \; \delta_{l} \; \sin{\alpha} \; \cos{\alpha}]$$
-##### $\delta_z$ denotes depth offset
-##### $\delta_{x_c},\delta_{y_c}$ discretization offset due to downsampling
-##### $\delta_{h},\delta_{w},\delta_{l}$ residual dimensions (尺寸)
-##### $\alpha$ is observation rotational angle
-###### 而不是yaw angle
-###### ![image.png](/assets/pages_smoke_1610941672701_0.png){:height 269, :width 286}
-#### Size of feature map for regression $S_r\in{\mathbb{R}^{\frac{H}{R}\times \frac{W}{R}\times 8}}$
-### Inspired by lifting transformation in [[ROI-10D]]
-#### Operation $\mathcal{F}$ to convert projected 3D points to a 3D bounding box
-#####
-$$B=\mathcal{F}(\tau)\in{\mathbb{R}^{3\times 8}}$$
-##### Depth $z$ recovered by pre-defined scale and shift parameters
-###### $z=\mu_z+\delta_z \sigma_z$
-### Recover position
-####
-$$\begin{bmatrix} x \\ y \\ z \end{bmatrix}=K_{3\times 3}^{-1} \begin{bmatrix} z \cdot (x_c+\delta_{x_c}) \\ z \cdot (y_c+\delta_{y_c}) \\ z \end{bmatrix}$$
-### Recover dimension
-#### use pre-calculated category-wise average dimension $[\bar{h} \; \bar{w} \; \bar{l}]$ computed over whole dataset
-#### retrieve object dimension by using residual offset
-#####
-$$\begin{bmatrix} h\\ w \\ l \end{bmatrix}=\begin{bmatrix} \bar{h} \cdot e^{\delta_h} \\ \bar{w} \cdot e^{\delta_w} \\ \bar{l} \cdot e^{\delta_l}  \end{bmatrix}$$
-## 4. Loss Function
-:PROPERTIES:
-:heading: true
-:END:
-### 4.1 Keypoint classification loss
-:PROPERTIES:
-:heading: true
-:END:
-#### penalty-reduced [[focal loss]]
-##### in a point-wise manner
-##### on the downsampled heatmap
-#### Let $s_{i,j}$ be predicted score at [[heatmap]] locatoin $(i,j)$
-#####
-$$\breve{s}_{i,j}=\left\{ \begin{aligned} s_{i,j} &  & \text{if} \; y_{i,j}=1 \\ 1-s_{i,j} &  & \text{otherwise} \end{aligned} \right.$$
-#### Let $y_{i,j}$ be the ground-truth value of each point assigned by [[Gaussian Kernel]]
-#####
-$$\breve{y}_{i,j}=\left\{ \begin{aligned} 0 &  & \text{if} \; y_{i,j}=1 \\ y_{i,j} &  & \text{otherwise} \end{aligned} \right.$$
-#### loss for a single object class
-#####
-$$L_{\mathrm{cls}}=-\frac{1}{N} \sum_{i, j=1}^{h, w}\left(1-\breve{y}_{i, j}\right)^{\beta}\left(1-\breve{s}_{i, j}\right)^{\alpha} \log \left(\breve{s}_{i, j}\right)$$
-###### where $\alpha$ and $beta$ are tunable hyper-parameters
-###### $N$ is the number of keypoints per image.
-###### $(1-y_{i,j})$ penalty reduction for points around the ground truth location.
-### 4.2 Regression Loss
-:PROPERTIES:
-:heading: true
-:END:
-#### 8D tuple $\tau$ for 3D bounding box
-##### add [[channel-wise]] activation to the regressed parameters of **dimension and orientation** at each [[feature map]] location to preserve consistency.
-#### Based on lifting transformation, we define [[l1 distance]]
-#### between predicted transform $\hat{B}$ and ground truth $B$
-#####
-$$L_{reg}=\frac{\lambda}{N}||\hat{B}-B||_1$$
-##### where $\lambda$ is a scaling factor (for balancing)
-###### 防止classification, regression哪一方过度dominate
-#### [[Disentangling transformation]] of loss
-##### 一种effective dynamic method to optimize 3D regression loss function
-##### -> multi-step form
-##### The 8 corners representation of the 3D bounding box is isolated into 3 different groups
-###### orientation, dimension, location
-### Final loss
-:PROPERTIES:
-:heading: true
-:END:
-####
-$$L=L_{cls}+\sum\limits_{i=1}^3 L_{reg}(\hat{B_i})$$
-##### where $i$ is the number of groups in 3D regression branch
-#### The multi-step [[disentangling transformation]] divides the contribution of** each parameter group** to the final loss.
-##### 3 groups: orientation, dimension, location
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBkenAzcXVhMk1Ea3hVQktq
+bkNhOGdNdlk1a2F2YkovSjVNYVFkYVNYU2dZCnpSRHVnVlUzMlpLcFlia3JnMVYv
+cGNHZUVnTUV0M0RFczJvOUZHMzdGcWMKLS0tIElKVjhCbi8vekdFazArNGUwMHhJ
+clBZTC82VXdobktSRVJiQmh1TC9OcjgKwqjqCn8e3XCdcAFYPxiPKW59IQhKoCxp
+Hn1kZbaFRfAGbcJfIyEPbz7+kDyddJPWbeE/zdOpyO0vDEcluydTehM2qu9BQ31Q
+aZejaLJQayO2fZH3U1FqLS5TOQTcL/w4gYyuMCd52+k3Xca4LVwInq39fvlHeUc8
+SWJ2mVyxpsgAkSVdaURHSswMmQ3WWZdKzWfs/YsgzWgdVeLsDsaJQjOdKY7s7UJJ
+PKsZmR/oBkvAe/K/DkzJ1j+pFQd8JPFBtb0tKjY2Tx3GDBrvJwtZShiTkZ7MBxSe
+R124TmB6opb2KIZQR3M7zpF0EccH5LQWMAKgNiupsxVqPxtyVGIbuZVSUdjX6KPo
+6AkwCSoKjWij/TdkPNHAN4JXyctARP1nzxYhLpfs7v003SCtjmq0QJfFkVUNmZ82
+EJYe7eVFCzte0vzIlUoCb157H5iqaUsE3wN659dfM2MQw+wNS/9aQ7Az7wE97N4h
+04uQZPgkZqLA+8+1rB/+FBiQ27GrI1E13XykgPWlROuiS11z6QyxavmTkJRb6pay
+vB4CLbS0wQ7M22MpOySrX2MzCBx93u1rbrXJj38/GYOtmYHjMGHZDkwH71/j3pz1
+WiKeboaryj2YgXT41dhHtT1W6N3oCbx7sSKTfZVfM/DqNHDVILo8FZOQgGPvd25P
+eVDPyYkyh0Gl0JNJEWOFZ9k0a6ZMUXyhwn3RbbJOKUWrDjv14TjhRHf/2MfCNl+U
+CCyy3L1HEsZLUSp0Qj0wn1DKMZ2mnPM1D/U5Yhm6daQbYVAvTbaomwAb6s+klPck
+upRBpjUK0TgMub5Ccja4b656vKu6eqSioh3/+Ci5lMjAd3eaCneKf5PNeMIzSnOg
+N1/AAdLTEbkFaapvp1FFLAWXlbIpKDQVGIm3wwWY7LSNIlwmu4IHxryhlVCqedUz
+JLgbMgCVTKCI4bjL8zRqPmuj202Rsc25z5kyECMkWb0m1UCHWaZLT6CJQUVk1H/j
+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
+-----END AGE ENCRYPTED FILE-----
