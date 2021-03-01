@@ -1,19 +1,24 @@
----
-title: img2col
-tags: [[convolution kernel]]
----
-
-## 每一步的卷积都提前转换好放到连续的内存中
-## 优点: cache性能好
-## 缺点: 内存占用大
-## Transform the input data of a 3D matrix into a 2D matrix
-### height, width, in_channels -> [ height $\times$ width,  k $\times$ k $\times$ in_channels ]
-### ![image.png](/assets/pages_img2col_1611283103546_0.png){:height 269, :width 602}
-### img2col输出的行数(row) 就是 input data [[convolution kernel]]的移动次数
-#### out_height $\times$ out_width
-### img2col输出的列数(col) 就是 一个convolution kernel元素的个数
-## 这个操作并不是[[reshape]]!
-### 当moving step of [[convolution kernel]] 很小,每个kernel会重叠
-#### 这时输出2D matrix 通常远远大于输入的3D matrix
-#### 冗余内存单元 -> 空间换时间
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBJeU03K2FnWTVIMTlMNmFs
+ZmRBNkpidmJSSVVTYjgwMWRDQy84cUYyUDFVCjB3M2dlTDYwWE15UFJsL3hhSnM1
+bm9ZVG9WTy9zVFZlWjQ2UmJ4a01iMUEKLS0tIEQ3aGVDVVk0QVNMMUEzTnczRFNN
+T3dQY3ZFcnhvaVVSTTk3emhhUUw0ZFkKJlmfC0jTHsMqImUArOI62aMynQ8Gi9rO
+Gsi+6uGHo65/X7mdyaGkiGLV7NATfivhAy668g9e7Hw6nXkFt4bHWP+KKbu7pVSN
+IKDRQ9vG6ZhW2RyJ6JDof6Z/9hBziz/VVaSi9yqaqZX55TiFyu/cHqmZ9DqqjgqE
+APP4rSevfz7dS36bmSxqCTzWPEcBS6Nd4CxnP/4N/cRmt0QfBecoaVBNrFFOslQS
+is5yi+Af7nzrcvhzzlII69nh47cekcY+qQAkfnorvNKnwAYfKwVIXJleJRz+dD4R
+PCg60WDdCdsOGXVIRo31eAAqpe47+JWQuk8LFBZXYGrsnsUkMFQb9Q0PcnLpKhGJ
++ou/fEzqJnN9KDj3GdhWpPUgVP3z5MyCrikLTSxwDLUh8kKt1cKZYtlJ36Ag0R+8
+dm2XVAbPYJXJqORZ+pspBZzJRiwFFUOWiBqG3KIWLzVjYDDaTuKy4wLl13pxSRJh
+j+oJXu3pyEAXvtgYRrZHRDgdVwTBl88BXPUjNlwMxZYnnwMgL9hsytsU85+TNiNu
+4O9iNl76D16uTa1op1SI4hk847mT7GBQNNIkRmjCLr+EjWP+qGrFpk9nSAxQGWNN
+jAlihmzICRZCF5gpD/dlNNTEnuV3e2+lSWa4/kxJiY9L0uKi0sOI7mviTr/X8jNW
+f2cwMc/LhxsXwOFSUjQg+g47fgI7DBMt/br+AEd0FAhUg7sIhZ+abZFCgtqpxQfi
+y0GcwEu+SwcRt3MdqHwkjISYRbL6yOXGm4AOgh/KDMRhNvh3Yz4Ek4G9OWEVM0NG
+EFJdTY2736bswIWGpulEAXkEPeFRbtOrFnePEwQw285c0AOJgku/4hhibByo9j5s
+jjxaG850P7387dLq8FUMjQvxnaDstaDeV4QC1/rOC1TbjB/ob3VLU0QAdqVbaG/c
+FQQHq1+dUvY+PdiZayZM5NIjiMq4ePaQlSklerFThZxSbnjvgrAAKccMseszU9bo
+s6mVcW5lNScpGPfL/yM5qFzJ/QPfujeu94lsibJrNGy7RVqqI7jbrHdOS2jaskss
+rwmMaWfVO8W6opBtiQVbodLjdv1fzHjTlzgykki+Cii6W6FPBlinaW0/6idDnBX1
+X3m8A6BYXOGrfsPiCKj0Loc8NmdfXJaKyjc=
+-----END AGE ENCRYPTED FILE-----
