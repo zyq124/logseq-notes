@@ -1,9 +1,9 @@
----
-title: CNN
-public: true
----
-
-## [[Metrics]]
-## [[Loss]]
-## [[activation function]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBoT0U5eWs3d1NVNXU1TjZS
+NTRhQ2hTdko3bFBsRkFjMHk5M1c4L2N5TjNRCnVWeEY2RGFaTzdaaHFJbWFKSUFn
+bzdhdVZualc1aFdGTmRuekN3amNQV0kKLS0tIGV3SG9ycFhXZVQ1anE2VUJSOHJG
+VS9OODJwU3FCRkIyYmVpaVkwb3oxdjQKbw53DPDex4j75NhK1gfY4r/g8jMHjXee
+M3Gm0SQeCaqCjoPhxX+oVtANjtMieJi0MYJSstUNGtaPTgKJqcstSEkIZMZOhTbf
+HhJnQLqmJXLxTfRgHVzbnNUuMxl/kN5AXpxc4qUs0XirH0Nvub3YPhktLVMl6AlQ
+KLQ=
+-----END AGE ENCRYPTED FILE-----
