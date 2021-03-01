@@ -1,8 +1,8 @@
----
-title: Batch Normalization
-alias: BatchNorm, BN
----
-
-## Batch Normalization
-
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAyK0UrbW5peGZYYVl3aTZS
+cXplNEw3MW1jdC9abnhlZThDZ0xQWGRkd1h3CnJxeVA2TXRNZmQxdmZhR3kxZnds
+ajVzQU9UcW5nSTByYkFVM2N5aDJwWTgKLS0tIENkVkIxTHNlTlBPNE91MnBQZFpM
+MHpFcGo2WVo3LzJzYkxJUjA4TVRWNzgKrtxcfsYEFy91Kc6UAaEu9wiwl4AIp/Cw
+AQx8mPDkuOYztC8nSMloGWZeVjxahzCjWtJRihIamQ5C7sOUFz4hcgaG/7XxiOEu
+2r3FxR4pM3kA+uCxa2AUoq1ZnhAG0HQG0UpPnsdzkkUEzLhvC1f9/FtwZQ==
+-----END AGE ENCRYPTED FILE-----
