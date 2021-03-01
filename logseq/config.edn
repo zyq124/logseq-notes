@@ -138,4 +138,5 @@
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
  :macros { "file" "[[/assets/$1][$1]]" }
-   :ui/show-brackets? false}
+   :ui/show-brackets? false
+ :feature/enable-encryption? true}
