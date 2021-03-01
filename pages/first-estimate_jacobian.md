@@ -1,24 +1,30 @@
----
-title: FIrst-Estimate Jacobian
----
-
-## EKF Linearized Error-State System
-### When developing an extended Kalman filter ([[EKF]]), one needs to linearize the nonlinear motion and measurement models about some linearization point. This linearization is one of the sources of error causing inaccuracies in the estimates (in addition to, for exmaple, model errors and measurement noise). Let us consider the following linearized error-state visual-inertial system:
-###
-$$\tilde{\mathbf{x}}_{k|k-1} = \mathbf{\Phi}_{(k,k-1)}~\tilde{\mathbf{x}}_{k-1|k-1} + \mathbf{G}_{k}\mathbf{w}_{k}$$
-####
-$$\tilde{\mathbf{z}}_{k} = \mathbf{H}_{k}~\tilde{\mathbf{x}}_{k|k-1}+\mathbf{n}_{k}$$
-#### where the state contains the inertial navigation state and a single environmental feature 
-(noting that we do not include biases to simplify the derivations):
-####
-$$\mathbf{x}_k =
-	\begin{bmatrix}
-	{}_G^{I_{k}} \bar{q}{}^{\top}
-	& {}^G\mathbf{p}_{{I}_{k}}^{\top}
-	& {}^G\mathbf{v}_{{I}_{k}}^{\top}
-	& {}^G\mathbf{p}_{f}^{\top}
-	\end{bmatrix}^{\top}$$
-####
-#+BEGIN_NOTE
-We use the left quaternion error state 
-#+END_NOTE
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBJMXN4azh5UjUzb0hlRkZK
+M3JNOTJGTytBTkhuMldKZnZDdWY4R3pwQmx3CnBMNmpVRDFreTJQbVRNbkhPYnpN
+MWNSSTF2bE5MVHhvc251a3IrdW94WkEKLS0tIDdGQXlRNkN1akxiRXIyQTZ3VzRV
+RmVhZFRySS9ZcjVlODNVWkRJTHJPRmcKH8lUyL50At6GUU9d6+sbX9V7f3P+eamG
+dIfzj4Kx3VdfAPd1ZGvFuKFGF9GuYSB62zZLyMAyNSE7W0qohjdW5Jh6GWwWXf1c
+BUA/SZ8vtPWL7O/aPSHdC4QgjgjRlXlD4B/Kp8s/pRK34yM8VMYLIVJVcAXMvxY8
+7BTQKlBjB7D8h/mcuzCoFt8tUG/YzawwoYFlpxFc3Q6+a92V0G4B5dQFIVBT7vRT
+i7EoRFYPYhRjzmliFhnczmL7Kc6GzydeVqFY/2sw6YeGGpLVMVHxkY76o+Fke0QL
+KZP0Z/fprHPt+Uqrgf2AUOvfO36BHJBw3TZ6SSVH6H16AKk9Ym6gQcWjkYGk1YCF
+R7cXBiTjUtJz+1JfRVOYAg/VpKEeozHZIGxU2GZ8UbrgYE49JBZ9Ul8f3QOtlaEY
+5+jksScrAJCsEop39bfcD9SjiZ34FNh1S351Ngbz7esJ+UDwSMQjiHzd1vpxFwf+
+ozCGrE+9rZRLDi60PhLKq/eMJdSibbScjT6DWme5F34OtZBE2SBuner98fISQukH
+8h7NBEQquffdle3tN4Z2NyjW2zq9HmlL1wfbV+vImuj55gfrbWOP9YKbkFRp9HSQ
+JJUj3BFdF38X2V0dL6nQiXmyq+2NlLhm94Wz/j5aifq9mzNKgqAjAy0RkDJGDWlL
+rCkmqqHVO4UrlrPdrkhQR/WXXtul7oZdJIGhUAonn+Fj6yL8Qrc48NlgxMXjStNJ
+sECTIV8xMfN8yPurNR3NLmaILeuUtBgxCLluAJ5oNzMAmBaQdom2+f/EV21FgclA
+EpnX0jvtZFcF8VzSJPiFWzKXAK+4uYL+5M+j9MHE/T9ngyVV+tasnuYsUI/SeeDA
+M5r1N99k4wE8s50WBnYnn5060zliFImz8EPpajq0YBh8twlU+ZUYSF+AOMWJUTET
+vYTQfvxrA/dxdPplFqjCMG5wfUq8K6GnHCrK8iCf6FzQyqnd7VcR/aFnbjrS1hkr
+cqh5USaiIRUOZUkXsqCXi8wHSqx5UUUSg7vb1aZU+ugB8w4Ix+J8/PsL7w6urNDa
+IEhnyeR2zTLlZG4j2Lt0AugHbEDEZmRLR1iNSTtD4d7D5zXKP0S+S7S9fg2jRoAy
+2vlQ04eHQ7yv5hzGC22JhYjM2XURpoKHLxuH00HD5Vijfljipn3KWLn+XnIOREcf
+xbb2tmrmdbI9WbuWT4KTGkWmKwagUcXfISRpmcrd5wxMqdEwvnw5jSLICAlBesnK
+sOfQczj8FTQlgZ+Y8PiIp6+Qi5HUlSuXskQT/Sx9PEIx8c3CbDCYo2lf4sPoGfZN
+KAMvl6DFGkru99/5Gwq6RFf9cE8/rDQPMSExl//eFB+hIEaN/A7ll1k8NdEh4aTz
+2yvFuHxGB42BIYZsXj4oGXFJMdlnnh883moIYYS8Qs+ke5bAD6f6nCFTGYt96MlO
+hL7EcznSm7ZEAWdCZTcyzxN6QkysE7VY7InDQYlyjXh5VELH660+kYCoIbmwQdK7
+WYHbhRhydg==
+-----END AGE ENCRYPTED FILE-----
