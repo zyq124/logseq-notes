@@ -1,54 +1,67 @@
----
-title: ROI-10D
-type: [[Conference paper]]
-authors: [[Fabian Manhardt]], [[Wadim Kehl]], [[Adrien Gaidon]]
-publication date: [[6/2019]]
-citekey: manhardtROI10DMonocularLifting2019
-tags: [[monocular]], [[3D Object Detection]], #zotero, #literature-notes, #reference
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### ROI-10D: Monocular Lifting of 2D Detection to 6D Pose and Metric Shape #toread
-
-### Zotero Metadata
-
-#### * Proceedings Title: [[2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)]]
-#### [https://ieeexplore.ieee.org/document/8953624/](https://ieeexplore.ieee.org/document/8953624/)
-#### * DOI: [10.1109/CVPR.2019.00217](https://doi.org/10.1109/CVPR.2019.00217) 
-
-#### PDF Attachments
-	- [Manhardt et al. - 2019 - ROI-10D Monocular Lifting of 2D Detection to 6D P.pdf](zotero://open-pdf/library/items/CU9Z8L7W)
-
-#### [[abstract]]:
-##### We present a deep learning method for **end-to-end** monocular 3D object detection and **metric shape retrieval**.
-##### We propose a novel loss formulation by lifting 2D detection, orientation, and scale estimation into 3D space.
-###### Instead of optimizing these quantities separately, the 3D instantiation allows to properly measure the metric misalignment of boxes.
-###### We experimentally show that our ^^10D^^ lifting of sparse 2D Regions of Interests (RoIs) achieves great results both for
-####### 6D pose
-####### recovery of the textured metric geometry of instances.
-###### This further enables **3D synthetic data augmentation** via
-####### inpainting recovered meshes directly onto the 2D scenes.
-##### We evaluate on KITTI3D against other strong monocular methods and demonstrate that our approach doubles the AP on the 3D pose metrics on the ofﬁcial test set, deﬁning the new state of the art.
-#### zotero items: [Local library](zotero://select/items/1_HANSTTF3)
-## Key ideas
-:PROPERTIES:
-:heading: true
-:END:
-### Concat depth map and coordinate map to RGB features + 2DOD + car shape reconstruction (6d latent space) for [[mono3D]]
-### 6 DoF pose + 3 DoF size + 1 DoF shape (but more like 6 dim) = 10D ROI.
-#### Fully differentiable lifting mapping
-##### $\mathbb{R}^4 \rightarrow \mathbb{R}^{8 \times 3}$ from 2D RoI $\mathcal{X}$ to a 3D box $\mathcal{B}:=\{B_1, \cdots, B_8\}$ of 8 ordered 3D points
-### Estimating absolute translation is^^ ill-posed due to scale and reprojection ambiguity^^.
-#### In contrast, Global estimation of depth can be done due to geometric constraint as supervision.
-### Architecture
-:PROPERTIES:
-:heading: true
-:END:
-#### coord-map + depth map + feature map, RoI aligned to generate 3D detections. –> this is inferior to** lifting everything to 3D space**
-### When estimating the pose from monocular data only, little deviations in pixel space can induce big errors in 3D.
-#### **Corner loss** is used to regularize overall learning.
-###
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBhU0t6MVYwM2o1T0M0OW4y
+QTBqZDJzaUF0M2p5Y24zYWYvSmtnTGVmUWhvCjVma2lRVGwvdC9WWEg2TkZOTkww
+N1h6Qk54cFFNZkMxSCt4Qys4QnpRZEEKLS0tIGJHemxDbWhFS2Z4d2NoMFdEcmVW
+SjltNThlaTUxOUhLYVIvbXJhQW9obHcK2ZXZpfAjBBNmxPptDmvB38PQDUCB3lP2
+pmBJ85OmDfzfo31Hc7ZnoCBjmC4RHzrbCQgjo5aBskNo0rrxF0bc7JJ7lTrfo8Gl
+GWFErXDsn0+whO5d7kcfSJPUbko6NG2o2RIsM9/ozxCxdRxafDJKdBgYC/Hb+4hp
+Dw3kkHsALh3/FmeteYaE1AGGWKaMiuGWpzQa0wET/26bV1dxu34XndYD9MRkdLEu
+tcujA6vaZQxEfI2fmdqJ6h7PPz7LMYX5pxpk9rOW0bVIqjzBBCcDZdzHJuTkklUK
+3IzH6gtlfaR4i3RZnFajstKjH3pMhmzcMGlI73PVamyBGHIdH6Bwap21FkUvAjav
+kpTuyAa1bB71sbB9jC3+YU1EOrs749RYNAzD7aOSfx8NpoT+6ObOzTZ+5PK8w3qL
+IiXkGM+ZPo1NboW+U82YIa4PmaBkfWmZWUWGRc7hyRVNV97Urd/bbjC125OP4jKx
+9p36QgdGt2GKu40sZ7PJo0sDUiWRwoTgpNEz+F3OlHqhBMQzKQ6Bo5+ivnK4Krja
+ck5r5fpDzBBY2OFRZQc02Dd4unP/B4furkDQc/a15esBbTiJ2b265fwNlNs8tfhn
+VRuPhvSJieMBEZmC5/o0NXQChHjJtJ+qSsYJf0jKaiLwd9RnX+CMDlxc2nisTHIG
+p3qJBownOjtJLcHbveDfSvRaYEPvpIwAE/MkKkrGw8rELVMu20//kPUOqNVbkf6h
+EIxupjhRuRiVRYRXDhHDSC9gTpHGSCoLneKilpwH5qlejh+v0omZI8m/BBbdVzay
+bfTxwT/f3ro34JRcB9mv18dX1pJlpYkRrrVwY38pmAGB9lZNzMoKHKczRJP9zQ0T
+xlcwutpkd+NRgiopLeYpBY1BdwhP7hlKyd02YE9t5hwxtzO47jETEsHVOniMVfr0
+R1cdGI8LNNDYe1AGBO82w7pNxS+pCTC28P1G4K6y23hXQwFsLr8WOd9je4oqIp3x
+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
+j/jOtIST
+-----END AGE ENCRYPTED FILE-----
