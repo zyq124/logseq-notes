@@ -1,16 +1,19 @@
-#+TITLE: Learning a Neural Solver for Multiple Object Tracking
-
-** A fully differentiable framework based on [[Message Passing Networks]] MPN
-** MPN
-:PROPERTIES:
-:heading: true
-:background_color: rgb(73, 118, 123)
-:END:
-*** In graphical models, we have nodes and edges which are embeddings of the information that we are interested in processing.
-*** [[https://miro.medium.com/max/700/1*VENR8NB-93X8tYdP20u4bw.png][GNN]]
-*** there is no concept of a layer
-**** so naturally layer-wise processing of information is absent
-**
-**
-** [[https://miro.medium.com/max/600/0*BfMh_HClkSHu97_Q.gif][Animation]]
-**
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBtMFRqWkJ3Wkg4VXZmUTBM
+UUpIbXVJWWpiNzd4MmN1ZW85NTVTbzV6cTNjClh5SlVWajUwTUlUdDdLNHI0TEN1
+QXNWVUZid3ZLNVlOUWxON05FNlo1SWMKLS0tIFFzQkMrZEdER0JwZWdWSDJpSzJz
+bGIvNlJwMGJLTlNjYm5WTU9FQkVibFkKUydaD+kjdJMk5vbXkX3MwAcvyQIdQRO1
+H39J0U0WZk1uVXjuPS/0mMYE1wno3cl0HYafVEC3qMEUtB8UnpXXWt+EFhG5vjZo
+vM2WxbfjCMEzeMyJyiQlGJqGCFGxWq/v/7Ax8JRXT8Uiqrk1/INpMd5YbcqUxIlY
++cgpneoekzDwDRdjVD02XuvCaIGCBizdPUOM3Q4hqDi1immRY+YjjonxaawHScgX
+nY5oqEtnmML4w8cQWk+FjuILaOVwsqMcOksaKhvyY8ZyXmxsNNNsX9ZjewC1jcNT
+2yeIe55PjuFAFUvD27I11q/0XyQN4suJq/r4Roa+90/npjYgBkgHaW6ukCYFQFB5
+eV19LLOCQiu+up3eJxTujWIXKVvU2Gs91Pe+XnUm1ko/TZXYK0PRV+e8R4UT1zo7
+DCCFkdaNzPFUosyH1Qi6KIlO23XigCE3J2IchPaAO4TM7S6qX+K3+RVzZK8mnPAH
+7il0dec8dCWxmb2RDWB9q8MzWnfAyxzWnCM6Lt6NiKSyc26ginxnafQn0mQocRHG
+JiB3EC4eGJn0CC58oDsSL7/NhGbOEiiZ4PI35dACf8SqllhtorKYtsq8v+Y+5I8d
+tYR0xiKAoI74MHrSjJKHKb5F7pUATJqMqN4ImamzHzV9UNxxPn0t4qVUcus0g1KT
+HmoTNYVacTp5bwSo+7tOdf38LNNCvbcsRmtHYXQ3IBvKjpv7ZrM6iM24iZq3fE+p
+ioaY3MNQNN1tbE7x95tAOGEmElgxFxDoDTvsVo8BUl4lim+q47F3e0FpY3Btc5o8
+wQTkS2M/FGCpeiXdagQBBfj5zz+Zhq+767P1qjTIVPtFJew=
+-----END AGE ENCRYPTED FILE-----
