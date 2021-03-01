@@ -1,7 +1,9 @@
----
-title: Research Ideas
----
-
-## 包含Reference (想法从哪里来)
-## counterparts (相似易混的概念和ideas)
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBIVmNHelFpMVhOT1JwSk8z
+R3RyWkliL3BHVlNUY3JGWk40V0VIMkpMNWxvCmpudSsxbnRRN0dLcG55NWNZTnRV
+STBiTWxhc2pEcE5hN2xCc0xKUk50MkEKLS0tIC9TVTNNQmVtNWc3aWdBd015SWxL
+VUgxRW9uREJTMkh4anM1dTRXT0Ntd1kKd2auLuSxgCWAimhb82U5XcEYcUlFeBcI
+VaQToNK41cWETHMBjGRYGFjvnm1n8WkbUg7peFPAywozarvfelUdvsdNHH8+EMkX
+5LV792PkqdBX/aphYSePJQFk6pgYU7gOyaNWgT+ZpvvlCKlXWjtKvy6Bmp+qgiwk
++a46xocSFCZ+qVPkZvNYW8EwD4vIwh3wCWFz/v3diQO2ug==
+-----END AGE ENCRYPTED FILE-----
