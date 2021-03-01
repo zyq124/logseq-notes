@@ -1,58 +1,77 @@
----
-title: ClusterSLAM
----
-
-## #topic [[3D Object Detection]], [[Dynamic SLAM]] 
-
-## Overall impression
-:PROPERTIES:
-:heading: true
-:END:
-### The paper is similar in function to [[CubeSLAM]] that tracks objects and us it to increase the robustness of SLAM, and also is able to handle dynamic scenes. It is more flexible in the sense that the detection is based on the **point cloud of landmarks on the cluster**. In comparison, [[Cube SLAM]] models each object as a 3d cuboid, and [[QuadricSLAM]] models each object as an ellipsoid.
-### The paper is based on a stereo system but the performance of 3DOD is even worse than [[mono3D]]. This is due to the way clusterVO generates 3D bounding box through tracked cluster, which may not subtend the whole size of the object.
-## Terminology:
-:PROPERTIES:
-:heading: true
-:END:
-### **cluster**: cluster of point landmarks, rigid body, 3d objects. Raw measurement is bbox.
-### **landmark**: tracked feature points.
-### $q$: cluster or object, $q=0$ is the background (static)
-### $q^i$: association of landmark $i$ to cluster $q$.
-## Key ideas
-:PROPERTIES:
-:heading: true
-:END:
-### Based on 2D landmarks and sparse landmarks
-### Multi-level Probabilistic association
-#### feature points k –> landmark i
-#### bbox m –> cluster q
-#### landmark i –> cluster q
-##### heterogeneous [[CRF]] with efficient inference
-##### unary energy:
-###### 2d bbox constraint: point should lie in bbox
-###### 3d bbox constraints
-###### how the trajectory of q can explain the observation of landmark
-##### pairwise energy
-###### encourages label smoothness: two close enough landmark should belong to the same cluster.
-#### Hungarian matching (Kuhn-Munkres algorithm) to match clustering results from previous results (assigning index)
-### State estimation
-#### Double track frame management: temporal track $T_t$ (15) and spatial track $T_s$ (5).
-#### last frame need to be **marginalized** to save memory
-#### **static** scene (q=0): BA with marginalization term. Optimize both on spatial and temporal tracks.
-#### **dynamic** cluster (q!=0): white noise acceleration. Only optimize more recent temporal track.
-## Technical details
-:PROPERTIES:
-:heading: true
-:END:
-### object detection with yolo v3.
-### Motion model: acceleration is queried from a Gaussian random process. This penalizes change in velocity over time and smooth cluster motion trajectory which would otherwise be noisy. <– this is to be compared with the piecewise constant velocity in cube slam.
-### The center and size are found by using 30th and 70th percentile of cluster landmark point cloud. **This may be the reason for the low KPI as compared to mono3D**.
-### Object yaw: this is likely determined by motion.
-### **semantic 3d slam** uses batch multibody [[SFM]] and has a highly nonlinear factor graph optimization. The solution is not trivial.
-## Notes
-:PROPERTIES:
-:heading: true
-:END:
-### Demo on youtube {{youtube https://www.youtube.com/watch?v=paK-WCQpX-Y}}
-### the framework is not suitable for specialized autonomous driving use, especially for improved mono3D. The determination of size is based on the point cloud of landmarks, which may not reflect the real size of cars. The orientation seems to be determined using speed, and cannot be very accurate for still or object with small speed.
-### What is marginalization? Shurr Complement?
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBGZVJGVXcvazNOQkhBbGdX
+WDJtL1pkM2U1YjE0SXJwUnZqL3hKSXh3TVdBCmtBaVNSUFR6S3k4VFVXaG1Gc1Rw
+QzJKV0hUVy9rUHBYZjVQQ2pTOW4xVE0KLS0tIERHVHZTb3hkdzlMUE9NMVF4Qy8z
+VWFPS3N4N3RESDhuZkkyMnVPM05LcTAKVzA9JJaIoT/tUJfRvnx5lvX7xPY6CEJn
+w0Lvktrhyo4VIaPJ435vLvaoTq0eE1F8RRGRACsotZEldtiu+1+hcblDsHCXuRQS
+/gW+FB40vsS9GmxgnmTz7U/tOsC0aSZ1922qtWMD1/uwCGtQt4yxJFooocSXXht5
+p4zdlahio+jkoc66qUG4bsen5bji2ZdYPXe/1vLJ2iKj02IEDb4e1E6yiIoWaWPS
+WNB+m4K8sNXDQbWRfycFGeZVxzHCTgZvEqls6bIhSH/dNwHmL+ElMnBZmGP/C8Si
+TaMYIDeuookgyPbYMgoNTm/NP7+9/XtSQJRzkSUWEYx39LHrZogqoYMhacSTJN/E
+cAvbH/HOfSDLLUgQoqHC4Juvku+NwPmn5GLTnVYuYJrp8w0LmXw2oQVYpKQRdtkA
+lixt1UHzNZGG5oVT00lzWE9h5FzPDkGNGH/b6wG3ZH8cn5qWVluYIt/Irb5LRqd9
+nDp6ZQc7IThXSx7bGai6rCpqZjj06mUaxcStA/K/2dPKel5iep6J38F4gHj0u/wm
+pNYMIrGGQ3wIH4HwQxwdUgBgH8810oKo8z+Is8rcjOwRPcOR4StJiwtF2Cgo5dw7
+z784jc9Hhy+lSov5nV+GRnyC9Lb4v3KAUgED1mqU2hdWn/B6MBEd+7JT1NDEGLXe
+jcBta77WKvj9mJJ5SrGzvFwJ7SgWa5qOnfdhBAOiMXkQIeBaQvuM7ZIVRCyW0Fru
+1kwv64geU59g4pccJg2DepU9oZyRb8Ga7/YLKdZA2UQpNm2AIpjaNP0PbpIEWhf2
+0U3YJWf0eKSzE2T7OQaHFZx7t6Zw3DK7VlGyEC+l2/ciOWM7U6abn/8UjThdWx5g
+u6aqpa70t6vOxk+/wpDzpMkufY1PbDO5r4Fftc8YGoa7ghNDVOO383OJI2jjp7ik
+qCJzrieQ7x6Qf3DMZCuSplPUF2PV1nxzteNqS9Ly7XGupCB39Yljkzcsv2iGMKXc
+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
+f0spOg==
+-----END AGE ENCRYPTED FILE-----
