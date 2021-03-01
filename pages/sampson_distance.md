@@ -1,9 +1,11 @@
----
-title: Sampson distance
-alias: Sampson error
----
-
-## 参考
-### [[multi-view geometry]]
-## 一种复杂性介于[[代数误差]]和[[几何误差]]之间，但非常近似于几何误差的一种误差
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBkZjV2QkovaFhxRVVVWFBj
+a2M2Qkc1cGl3U0U0eXM1NHhGb3dWUHpJSnp3Ci9xT3F3Rm5ONjVjdExZS1NYZUtJ
+WWlPMWVFZTUyVS90UXFkOEdRc1lGQU0KLS0tICtCb3FSd1RNbG9oY2hZZklaQTJF
+MEhkakpRWktTdU0vYXRUaElyMENMVGMKzaBupaRWTvOJiqQBPvMWxAvAbN8MRmZ4
+pWxWcK0DBpNzqA6Mwr0mD1D2HKEd85eOBgovJolEMHfV1axqhUfptV62ReVPlIOy
+2q9M6DWtOcoCPWoHZimL+4nqYrg5X90ggIvOmQEJdXrnsOi9EWtlG7j5h+jX+t1R
+aDloqsrFAdg6IryJ1Ukd6VeCErs6eFyxwLqTm9xnbfcf1LUOpuq2yg1aUSErrMiO
+YzdNTINWzitpgZ/ENr4EOvACw4efyd+m3T94V7bOOB7DDF/bR9Ym+gyWcME3si6c
+wbMPB9liH+8vH9oBFdQ2JUZ+LmGUySGtGQ==
+-----END AGE ENCRYPTED FILE-----
