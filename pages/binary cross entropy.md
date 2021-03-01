@@ -1,8 +1,8 @@
----
-title: binary cross entropy
-alias: BCE
----
-
-## Binary [[cross-entropy]] 
-
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBGZFE0VmtodzM1R3loOGlO
+YVJIYmVnaFJyTnNuem5Kd2h1QmtxNHdFdUJBCkdBMTNySmpyQTdadytkNkFGbkVx
+WE5rOXBmbmRuTkdKNCtlTkJNSDd4TncKLS0tIGZyckRmWEdyVUdzRFdqT3VraUYz
+aFpndytzSGs5VXc3K3ZEYjlEeS9VdDQKzAt2IWmRNyYnJBA7gzmVkjWiDled53Bo
+MfuZVwqs0TKTSDWF2bLgokDPZ8wUFreZTQq/Uuyx39QpX6otTyAD5z9jY8LxtSla
+LZMImy1cONjrVu3EwAvJf68sEspRrE5yPCCPA6pZKyZtSOWAUbAXhw==
+-----END AGE ENCRYPTED FILE-----
