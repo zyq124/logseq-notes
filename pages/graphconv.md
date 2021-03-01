@@ -1,28 +1,47 @@
----
-title: GraphConv
-type: [[Article]]
-citekey: morrisWeisfeilerLemanGo2019
-publication date: [[2019-07-17]]
-authors: [[Christopher Morris]], [[Martin Ritzert]], [[Matthias Fey]], [[William L. Hamilton]], [[Jan Eric Lenssen]], [[Gaurav Rattan]], [[Martin Grohe]]
-tags: [[GNN]], [[graph network]], #zotero, #literature-notes, #reference
----
-## Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks #toread
-### Zotero Metadata
-
-#### [https://aaai.org/ojs/index.php/AAAI/article/view/4384](https://aaai.org/ojs/index.php/AAAI/article/view/4384)
-#### DOI: [10.1609/aaai.v33i01.33014602](https://doi.org/10.1609/aaai.v33i01.33014602) 
-
-#### PDF Attachments
-	- [Morris et al. - 2019 - Weisfeiler and Leman Go Neural Higher-Order Graph.pdf](zotero://open-pdf/library/items/8GXWTCT3)
-
-#### [[abstract]]:
-##### In recent years, graph neural networks (GNNs) have emerged as a powerful neural architecture to
-###### learn vector representations of nodes and graphs
-###### in a [[supervised]], end-to-end fashion.
-##### The following work investigates GNNs from a theoretical point of view and relates them to the **1-dimensional Weisfeiler-Leman** _graph isomorphism heuristic_ (1-WL).
-##### We show that ^^GNNs have the same expressiveness as the 1-WL in terms of distinguishing non-isomorphic (sub-)graphs^^.
-###### Hence, both algorithms also have the same shortcomings.
-##### Based on this, we propose a generalization of GNNs, so-called **k-dimensional GNNs** (k-GNNs), which can take higher-order graph structures at multiple scales into account. These higher-order structures play an essential role in the characterization of social networks and molecule graphs.
-##### Our experimental evaluation conﬁrms our theoretical ﬁndings as well as conﬁrms that higher-order information is useful in the task of graph classiﬁcation and regression.
-#### zotero items: [Local library](zotero://select/items/1_3DMILRNP)
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBDaVdROUNFTTVHcjlTeU5r
+SnZZYldvOTM3NVJTWWp2eWxJM0ZtVTJVTUFRCkM4VXlpMXI0SlRROGhOUDh1UTNi
+a2Zma0I4QnRnMGZNeGhqMytmQWdLRDgKLS0tIEJCUjdUMlpuNHVlMlREZHVHZEYy
+bGtFVnUzMnQ5REswSFJodmw2QjJNZTQK6otq2C9fP7IIaSBVH9wVRFrlqx+MekHt
+4TuqIbFUlSKSB55HB4pxNZQbPa0irXPb5ScEoy8xKayxPPYC/8eEpiaR62j/4/NV
+yT4TAsOltczsIUlchC+PzC9wg1w+BxHSyu9cK4VsReL7NZbJUmIalXjj+RTdC607
+P5gkBItrlFiA8xNnL3yhJhqtbJ2IYCh3CKB86b1ON198odfB4KxZ6IgRZpPYThuQ
+wb+h00CgLSZTqR+VvqmPFwA0Rkdw4YH3d9Eo4gryiMY+uVn9LFTnxv9ZQ8rZ2+4C
+noS7CEVzMjDjGxck+0dagbRo537NqXQz23PSEBv84XPxAeNSmFypDtlBvuJXEhQZ
+e3yGZ8uz7qtCONmxIOvu/DdTPIy9JW/umAqNYRn6lv0KSN8P7cE8canjbjId5GNV
+MCjN8XOHojluvnoRpt1qpX5GkvfgZUlZ3fB2CzV1Wu7XVFi0Npy49VxtTDVPsyrA
+JTC3bUmgrY4DY6kAmX1EhvvKE4OTPgQVZMbSNGh9NOe6mDFPcClA8kbcLL8Rua65
++7GpBibsP7Q+4Vr+GIjuh2YaPU6P4A/URnFVpDr6yJHWMXZzQEB6MKXv6WicWGVe
++hr3vImVtAVObfyvWdzsrFks4hqp1znB+7E5NH3SDJXO5yOzI82iimflaCMWvXyD
+gZrOzc1XHqrpklad2imdRYgOX78qZwMb29HoP3n/TG5UYkEskU66jlzUCJxloIUH
+OEPf3kw8x442WF+kl1bWJFWBitEJV1BmmxCHYTkip03jb5PL+RbL1vpUCfG3qsxZ
+AycbLIP8SJyVaOuYaqt3gH5DipdkjZt3VjqGmuI1Vo5zedKDzMtzmDIrmhl5WQc8
+TSUA1kC6f3fdoBIzdM/eounP/Gu09Zhq41qGLHcMp+A4VuohmUdiJuWsFoCSpAn7
+JWYXPj3RjXFk3yl1kzYq9PMtH1J1+tiZYvss6WbekoOdLbj64aZYrfRK/ojDRytS
+ze2Q1FnV3C2Y5WfKBWenfmwCpOaH5fWd/tBXDkVnBNWijqASLyf+gL35vW5Zzak/
+cAG56SI5FjVI1gzqySpAbQ11IgqsxuSagYZ28snEBFhmmTZwqtPSHZWMfizq13gC
+JqBVXXqI926gTL278NTlfWC4p1xen9eI/z4uj6qaekvwdmvepxVRpln5yiNXJloZ
+5bGrWT40aEZVzEmASPke0NBC5JZL/LQUcmJir1zZ5tPuNr4NdlFz80Q6JJoDqgOm
+D3aWa5+LlaUiE9A5Mp0mE4MaGjlds71ByqJbm39QgsPANkaEnGZ5lKQT9d/gujwV
+mzcCYADjGJPoTGezibvENOhpqJtEaEMAwc6hPnvGNo3BudYVHP7eqFYGtwnKiyoy
+bh7w4NIsXRmeAJfu/MDaEPnwwl5yTMBh1JvDKX/CLB71ew/trtcjG4HUOlsUj0Tv
+MUmn4jBLSjIbHzSVhnYKnlJlEk6xz11zGI1Mjo/1evIvekxUX17BsICAl+VPSCNV
+xAtXGYmnga7uN8YPwwT5so7++iUFAgxtVkqxTCmIH8mtOTcJXNFCsFkl4c1ysUoM
+yqM2wU1u5j3HhKTqdgJlsY/grYSxJF6mhjuKUNoS3l+UfsRGyiNfg1bzBiQ/nD5w
+2alkOFCxd5Vh/dELKugHa8Fk8Jh29fXVIsbX7xotu0KxML1ZMYKiSpkBW3EnVbEO
+8j17JfdFw4V8t8KIz6OBiEiT5TDok8vEQrJcNmvFneppCuiuKYRH2xSV66BiMu3C
+/VEu/DKlBbcF34yhvNCramGUYXTRW9cqWgvBzSYdgr24cxoeF7zDlE7xfbyEwfF/
+eUMSXB+bX9NGJkhTnH84J4AT5jX9bgcSlHIrkmSLkdaI68tO1zprv7okNhK9ZfVf
+j6jyRINDz0By7opIcda9iWonoNAb5TI2Y3VbpcYGZFTpGZxc5MwXO8rqBQOlwkoP
+aCl5DESIbRB49Df+R3ZykJD1sxzeuxsmgp+6dOlOPov1HFJpxMWqW/CfX895xgcj
+98rdeHnbNCaeCf2Hfmi0iNSJm+TB6n01IOZFqvNWzZj/+/S0swKzRZnLHgEc/3wr
+6xVnvTih1xmaapaqA3GOWi0g0rb978EIL3W31XvoEXbUDUg3k7SzEfgbJW93Y3gA
+i8NxxFCVrEMTHJCaqFspYHr3f/jex1z7fY4r0Y8t9cvf/73CInC03Gvw8cA1U4tc
+yd+dLZ/HD76KhVkFKcJoQuOl8xlriKA+E8rb6jxtLx/FSvHuxK62gPN9C+Q/SPJT
+oJljrV7sEWwtd0op/XlLKFfcYuDP0QDTlHVJ3JurIbndQF8busI1xucP2gfe8Y+X
+RGIXwDC6lAql9caJbtL6I1D9CAGbAjQXjJzmsGJGJ4lPLE2OFTfVdMSxM8uXjcq5
+DRcNJnGfR+1wKud7FVeDA4NLnWQ+Hu3TUpaiFz+mcYa+uGZfKJc9ZKlthXc4g3Lk
+Ah6yxp+aFZiZt3UVnlqpvNKuglNlo0G5WE47Z2Ztf8Eh+6qURV1+T2HH5vUWMf1V
+jAnbT/aPbD5WDDryOuCJOMrr9zytYXnpkmvaLimIA1Ebc7TekAw5k6/7x0dXXVRp
+wHloBFXm5AmHCQwAZlPo
+-----END AGE ENCRYPTED FILE-----
