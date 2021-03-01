@@ -1,8 +1,9 @@
----
-title: Permanent notes
----
-
-## Input -> organized and digested -> output 
-
-## the output of my own project
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBuRkVZRkVOd3J1L2xyWC9W
+MWVFVDh1WW9WZnRtbFQvNlhJM2lqdlZoY1hFCmVHc0x2ckdtakN0OGZDN2VRaDI4
+ZGhnZ0hxWndSR0pYVG95dUdad3ZDOUEKLS0tIGM4VWlsNktObjA4REJwR3FEemlW
+ZG93WDZqRmxPMWlkS2tSSjVsVFFLUUUKOw11b+GPZE2MvLtQXNt3NJORRHE0UNnV
+TbMDpzlFrIkiU7IN6QakuNehX/re+/Do9/5P2M6sxDZz2sf3o9ZEU19i1tXbq9+B
+KtlBSlpjlGAKeA6HPHMNZ/O1X0LOCkhtSpC/VCFsDnOk1miquUc89pkMyTcYmAh8
+bJRTx8A1u+n4X/57AY8e5ywwNAP9lKBT3Pk=
+-----END AGE ENCRYPTED FILE-----
