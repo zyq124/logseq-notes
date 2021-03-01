@@ -1,7 +1,8 @@
----
-title: lie groups
-alias: 李群
----
-
-## [[Groups]] theory
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB6VW5TWjFnM0tTc3ZZK3Ew
+dk1sT3AvY0pBbDM1NDRZcXUxblRTa3dYVXdVCjFuZWViMmZoZEVpMEZiMlI0UWdn
+L0prenBIVFlwdHFJMHZLUXZOd0VtMmsKLS0tIHZFK1NLMTZCMEtDd25DbGxaV3RW
+S2RqaG5CckRTb2pxL3g2M3k3NG5MSVkK+GfSZ6RuJLCyshBosnJouE9G8mQ6cErp
+2hKxVvagaZPywnt1CwCJ6JlLMRxsBtt5iMuKjywgYps3uwplffdzsTYT/hhpBlbh
+CGxDmvAf3yJ4w1HtWXQetXwj62Sqz86a
+-----END AGE ENCRYPTED FILE-----
