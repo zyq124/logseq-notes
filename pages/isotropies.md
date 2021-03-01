@@ -1,7 +1,10 @@
----
-title: Isotropies
----
-
-## Two lines have an invariant under a [[similarity transformation]]
-## Two lines and two points have an invariant under a [[projective transform]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBuMWhiMGFpcFh3d2NCalRQ
+Q2VVTEpQcXc4SjlHZkJNU0VXWHYxZ3NMWUR3CjZ4MGpKK3hVL1Z0dWhMQ3R0S2NZ
+WVBoRGNmSUVNcUViSjlWeDJFRVVZbTQKLS0tIDVybTNoR2NZRE0ySWtNcG5CRFNs
+SHYxYjlQQ3hyOWpIS2g1NExLWFpwS1UK69s2hhx1JuNHcbL6ORkKxtPTOSmsE07Q
+a6KJQ67B8AHk8HomLW8Iv5LPo1XE+CIsof0+IKnr1BG72wX/BRHa4LI+kVRgdkoR
+mc/jVdfjnkFJzMVfHWOCDtRdDi7V9uJ2760sA1ED23E8pkkI44cfw9v34n4Etc6c
+CZujD/yg8k+ToQDvd/rot7LkvyiiU7N7zZCOYjRE5MMUD96v8vgNO+gOqckFQ2YR
+8+x+UEn7/CB+mDZww92MNOJolJXP91GmjmiZBgmA0j0O7sTJcQsKGkNO
+-----END AGE ENCRYPTED FILE-----
