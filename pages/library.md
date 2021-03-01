@@ -1,26 +1,20 @@
----
-title: Library
----
-
-## [[ROS]] in [[C++]]
-### ROS 依赖库
-#### 在使用catkin_make的时候，ROS会按照默认的顺序对功能包进行编译。这导致了有的被依赖的包尚未被编译，未生成xxxConfig.cmake文件，因此也无法被其他包的findpackage()命令找到
-#### 因此需要利用package.xml文件来提示ROS首先编译依赖包
-#### 被依赖库的包
-#####
-```
-catkin_package(
-    INCLUDE_DIRS include
-    LIBRARIES my_math_lib
-)
-```
-#### 使用依赖库的包
-#####
-```
-<!-- 声明需要依赖的库 -->  
-  <build_depend>my_math_lib</build_depend>
-  <exec_depend>my_math_lib</exec_depend>
-```
-####
-## [[cmake]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBQOE9yb3UzeWpCOUR1Z1FI
+WFQxelRJQ2RkZFJKMHRVREtPcERGekJrSXlNCldmNWVna01NQk5DRkNJNEgwbEZ4
+eWhFMm9kWEtDVmNrTTNHcjlpa0ZWTlkKLS0tIFloYjNUREZ0NmZWK2YwQVZzWWNn
+UmtrckVlQ2djcW1wbmMvY2pmZTFhelUKe+6Ds+YIMBkuHSMiVJOCEAwgyhRHVQvM
+3jFssA5606exaYzzFh9yM9l01Y9SbDQQMly8JSIYy9mP4LVyJCBgBcc/RgvVBiEN
+4UQqi5ockdR9vcS0wkImiaKDe95llyFOadrelj/o42c9POvRdVzZGYQOtRnpfh/V
+vMZRu/7vrJtxh37jdkzu+yYxNXHpNtBICisFZ9OB2OcvzIkP/2zcniIZ9jcfd0vN
+WDumJ2NvvCsBLe5OHP4rCzrkMBAM4q043oSYQcVkon/ucoFcd3oglNMCVhHmKmRC
+EazoFiiWTPWRiQSpjBfw1FRr4o+PMIPV6r+Fa2SsyllW9qgpUeC26ZXemneLxGhj
+7e5JgJhdwBV2fxo0ar/14FIOwLACvSeYH1rkHZXH1pUoJqD7woKcdGe5bngq27a/
+wi64octs/j7uzD/4TkotEyKBmQPogxgJegVigSsf7/hiSeL2yPe7tPQxbnHCAhBq
+LcGCbE9ooAX3Ji+gdx/dLoAUjmcGuN9aRBDPQSEIfqu2nDrbpfyx3cE20W1TO9V2
+udnzNm4aKbXNLX3wK2w9ehPlNvX97ogXQh8wt67B/cwmpJyGp3S2buVG+500WFQp
+WH8bta+HeFJle+ZyWIGOX3ttA+EeLU/VXhya/BPgDTOrrA7c/A/P3ljTA+awVrS2
+1IUL+uectoYDhoJe3HJcQvlnJPs17LqGRGsksOmept0wqx+ev4Bm4rFJjLAh+Xee
+CQcLWFK67IV0xmcp6hhRBZoKW3zH41eTdQFNornWyfU4ErryR8mCqzlH/3GQBO0B
+JbHtM7kl3L3GXtliaYDrIzbUGpU/ZT2zNmVGklnuhvALDNXsDTitZtmxbSAH2nVO
+jY/AyI3AA5HqkEgC11bayk38Zwi4tecKaozBWxd0L9gp8dOG4L/eILPq
+-----END AGE ENCRYPTED FILE-----
