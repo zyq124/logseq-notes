@@ -1,6 +1,8 @@
----
-title: diagonal
-alias: 对角线
----
-
-## 对角
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBLOUtoMmsvWmZVQStGbEhx
+bkdLSElhbnVkc2djTURHbDdvMUlYYlZiQmpBCmNxUFNpWTF1NERIT0xrMjZqU0Q5
+cTdNNEIrbW9LY3dFZVIvdXNVKzdiamcKLS0tIDAxZlc5cWpFL09qenRKbUp0UEdO
+bzhtSmthUmVPam9WNHhIYktSN2pXRlkKup11OLeeGdAXH1dVDODlS0SbRbHnmzEg
+RHXM8lUOmhN2oXvBDjuBgI3xTdwi2yNpFXcKamsH4SpaO6xvH7f77wlENc6mxTUU
+mZNlHg6PFdzJRTY=
+-----END AGE ENCRYPTED FILE-----
