@@ -1,13 +1,11 @@
----
-title: plane plus parallax
-alias: P+P
----
-
-## TODO  to learn
-
-## 3d geometry from planar parallax
-:PROPERTIES:
-:type: paper
-:publication press: [[CVPR]]
-:publication date: 1994
-:END:
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2bW5NMzdWeDkrSFJvcVNH
+dDVJL0NkSUh0YkJ3OWtKZ3pCUWxUSjhxUnlBCi92anhUSk5lRjR6SnpoYmFPSkIv
+cHd1ai96N3N1UFBhSHN0T0Q4SDA5U2MKLS0tIFdRalhmVEJqV2lLdTlQZ2paODZi
+NmI0dlFDWFBIRVhMY2ZWK1pMSitsUW8KqwPHiQ810t6dh4sPj5j0VHI9EnZwlwHy
+0zp5PxQdNF7B4U9ilrZIciSdTZkQIOfAAQl6WAlDV5kmubywot85SQ0qMBvZI5QU
+LnRVaB5t9J/x7sgMlt0fhzEA5W0Ow6RVRKrW9s9Zn2h+bm5Ndje6rqXl9cI1BBF4
+yVyUCQUyg/Ga+s7irfu6+GjFUQjACDvNKN+7KP8Wh6FqnXKmYhJAS6xwZTtlAbcg
+LWrczcOUZLP/mOxSxngNkb4Iq0P895eP159BZlLqFvM3DBJ6U/giYetjEDu6eB1p
+9+9i
+-----END AGE ENCRYPTED FILE-----
