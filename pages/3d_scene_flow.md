@@ -1,10 +1,12 @@
----
-title: 3D scene flow
----
-
-## motion relative to the observer (camera)
-## 对于静态的物体或角点
-### $T_{sf} = T_{bg} = -T_c$
-## 对于动态物体上的点来说
-### $T_{sf}=T_{bg}+T_o$
-### where $T_o$ is independent object motion
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBCSCtuR05ZQ0dPZmRmdzhB
+MmZtVWhrV210YjJlTy9TYkxRTDBFT1ZaZEJnCmxvcUVPMGJyUW5JTlg4L3J3TDF6
+RVJ6WStVRmVYYWYyYTB4emFabE9CdHcKLS0tIDBtMzBnZFcvbDFFZDFBZWIrYWhR
+UHNJNUNyUk9ZVjk5TmY4QlJkdjFDVVUKtwB4wzx4dIjr2dpv1dYiIKuf5zwinpNA
+meSASbfcOiByyYpf5SPA9Fgb1oGqDv0x4AUWnE9LpTqYB6sDdcQobfrMNFm9ixUy
+H4WiMJZHeIsVTh/1RBN128znrEWhXIHZnOYOxgoRxkYWOf2EkqJnGewLXUJJgC77
+AJGp8/jmJf9Nvev+q2lprVpdLmqi2upVNfa58/zJ1NLtbnWKJ3G7Srzdr3YKnSeI
+L+Z3C5nvdsu5/i1M5DkqJ7bUi5ZjN8b213BN5RtegkVMeU7SF87BpOXuCDQyRdVb
+8t8F6txaSqr4pGPc2qsx+7/9R/M6+NjYkQpuDe645LjGT9Sopt6xdo8Fv9Dv3hu/
+ktx9e7SWqX7tuVU=
+-----END AGE ENCRYPTED FILE-----
