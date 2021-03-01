@@ -1,35 +1,39 @@
----
-title: convolution
-alias: 卷积
----
-
-##
-## Convolutional layer
-:PROPERTIES:
-:id: 600a76a1-eb1d-4943-8788-d06d6549feee
-:END:
-### cross-correlates of the input of a 3D Matrix, shaped like [height, width, channels] with [[convolution kernel]]s [k, k, channels] of weights (randomly initialized)
-### to produce an output
-### ![image.png](/assets/pages_convolution_1611282885532_0.png){:height 309, :width 602}
-### [[Padding]] 填充
-### [[Stride]] 步长
-###
-## 1. 普通的Convolution
-### 1.1 No padding, no strides
-#### ![no_padding_strides.gif](/assets/pages_convolution_1611297903090_0.gif){:height 177, :width 158}
-### 1.2 Arbitrary padding, no strides
-#### ![arbitrary_padding_no_strides.gif](/assets/pages_convolution_1611303453251_0.gif){:height 200, :width 183}
-### 1.3 Half padding, no strides
-#### ![same_padding_no_strides.gif](/assets/pages_convolution_1611303597725_0.gif){:height 215, :width 182}
-### 1.4 Full padding, no strides
-#### ![full_padding_no_strides.gif](/assets/pages_convolution_1611303709888_0.gif){:height 222, :width 185}
-### 1.5 No padding, strides 2
-#### ![no_padding_strides.gif](/assets/pages_convolution_1611303798668_0.gif){:height 175, :width 148}
-### 1.6 Padding, strides 2
-#### ![padding_strides.gif](/assets/pages_convolution_1611303836489_0.gif){:height 179, :width 175}
-### 1.7 Padding, Strides
-#### ![padding_strides_odd.gif](/assets/pages_convolution_1611303863357_0.gif){:height 167, :width 176}
-###
-## 2. [[dilated conv]]
-### ![dilation.gif](/assets/pages_dilated_conv_1611304238899_0.gif){:height 197, :width 205}
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB0WmJKWTZGRm90aXpnajlI
+aXhDa0ZpQmdMaXpXTWd3NEF0OWpsRitNOUUwClpXT0RGZGYzQWcxR09SbjUySXZn
+TkduWnJ1SVhCREFYS1VDQ3JjdFF0OGsKLS0tIEZYdGFwOWo3REJyWVc3NlBuYkc4
+OHBtQXF3Ri9nZ1Q4YVM3cXpDUzE4WkEKPnJyNaX1gAY4P7v7fIRZRlwQVVpZNCI8
+xpEjWaKkeqa2xFtvQHA+Ong1/4KK6NZeFD03rPclIxuJFK7ltxR9w3M8ZC2lo8G3
+tBwXGyI7thEfI3Hq+3Fx/xyZykUEAXcI8SRQE1plrYYkSNb9Tsr6t4kq1BYHYoCB
+GlPOdCVYHalhqcNcImXKdN/qembN92BJo7t/bjtcdccQ6Qe3mfxQ33TY/VO94aTE
+c32HSCAns0UI+owSle3jxL/ykk89/yTzx+INxUiIu6haEvHCxHCIyO6PvbFAfpfv
+2Xjo3rwrBPnLQz5Dku+ssEu8l84YfUrAKFOoIIaiYUh8E3cZ44+aUdGqJBittSal
+nye8g8Q/SFxuhW+hB0gAIJcVjAqgX6xaTKGcPwvz1dmrmsB17HUzuP4DPQHhmWVl
+V61/GZ571YMa790e5LeINVR/dejDX6TyHFRMMazhE7dxQQHoQl0NLPMYFcbSoGL7
+NqGbbfDsK8JLhfYaYpwxJmJrCDA63pS424m+/duaTTyd168zoDTn6t27KsLsnAgP
+/a/4XSxb1qZqVBZ8DIkgTC9rtJw8L2y5yoEcG/w/Jk4hkB1c4oeciyZJZbiF8DAF
+ACd/xafLCQHTWjCIW2h3XzsEzgk7ACtLManErVJ7HaoG7W+lQNIgjsdOWYvWRcFe
+1BB1iXDfBEKMgjtVigAAc2cLph26AfZAA/8dnH4Xm8KPs+POXOjk65jevcZjzPAi
+Il3JT9lvbVeU5f04maVSbzXV9oktDjgB863qX44FrX1ArXdrhjOqHqwWgUVu4xN2
+p0J5bf1eXuopks7zO6Qn747dDVZc1WqAkwh//rEpCj0H6NMVO7G8kbIZVG/9oKuW
+MYqaegceyV0GJsXVHJreG6Yy8GHIUeMoxgAYRDlC/oSImtKgULOHNWsDiyCkdIOF
+lMEcuS0lxU1AOAECu2qOlH9HPYNYztAl0l1oxuBEUv4qY4SE3Am4cV17qv+MZZJf
+uJGCwhNmlR6W/ij+QE6IlvbGL3NBXE+8l1GpKqJi12N65as1eggY6G4VaiZCacj6
+nbJyIEMg6pcMqfe/YxLSdyuYETbhigmO4i/5dCKaPJiGfCDcmWll8aEr0aN2S6N5
+mHXFZyh3IZLsdOddZ0V6CFXNntb+HBRuXrLPrFSDCicO2SELc5uWfRKG97VT3dUE
+IFthcE33YUAzgIP4Zrcx1mTbwSKL+5+0dZPnmskyGW35gt+2NAaHsCI1c3MP32Z9
+asIlgJ/LenzsqMyyWSSSpKRIfoyQApvZBMSsttvyeQxt++1UkdSigf2z4dNc8JeC
+lS6nhPcezbxf9H7ILN0CG/WE9WJlxOI4+J/FgplSJbRZIZVZJje2LeB7Y4vYRcLW
+eDkXueKH/Vf95812cZttCsgUvq3cZYTLwDShNtsabFxwdrxpUDbmqaLORt6xk3l/
+UN/kldTEheMKa8q95rKUos2JyTPRxMqWuuXd/okDez+5epScPrxN0rEvO8A7c7CJ
+Tgc0UBNCOD+07iHhn2U/TN82jsgQ+29Ge9LjCIhuuFT38+hS8+e0AOMORM47d0pE
+z09jaqNTWizPPmZd/2U3yFE7EbAESqrXfzXcVLEHNxoJoIJGg5RzjHve8Ar4jr5z
+e8Um3ZzntrNWOqxUq8O0mUbTAmXZpzd7GBzeez4Ve5LRoJUnWD0tbgqSwZYHq2v3
+ZADTd6Bksc9EXdtihw+MpRol4gPh3olLvgSIbBfwL10txz2wOkRPeLX2MRvtwgjI
+X0uZlwpHWixB895bQud1TLUifIuwYKxFU/zbebjr6qnMxsQLyafb7ljGAud6SJuF
+/CIHYR1Q0IhKpsrTrItWx50SyStWWKCvTwbOfE7RT51epU13dT3G7ajE8YulRph9
+ANlfCMFhOt/1xhyEKwyQrmUV1CrBq4iiTp18do8iQoroInrqTJlMrll/yZ4GHOc/
+GwyhrNq+ZLe420gvBDM5/j4niu85EWJiEuK4w5Y8yZrCH2uFneOsy55FFiXlPE5l
+k1m7pVEAuDZ+URsIk+D69gT8Od5VPe0gmMDsHAaZ43syWameRHZhMqdriA9E8M+R
+12yRa9emU2K117txCi6Nxgua8t0ZEtPcXt+c5pSVw0awp4tW0nmQ
+-----END AGE ENCRYPTED FILE-----
