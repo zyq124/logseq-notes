@@ -1,8 +1,9 @@
----
-title: Zotero+logseq
----
-
-## topic: [[smart notes]] 
-
-## [[Mdnotes plugin]]
-## [[Zotero search]]
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAxVGFoK3lXUFRTelJhRFBD
+VE40SGVZZFl1Ynk5cyszaTQyajRXTEpWU2djClBuRzNiOXVmWkc2azRHRjEyMllq
+V1JYQ3N6TUhmWjJVUTlwOHF6WGNobTAKLS0tIHV0Y3BXejcveHRxTjZSdUY0K3Vp
+anBPeVFzTnp1VVpYdVo4V29uOFF2djAKTCO5Y+H9jmxX3T9+fup5j9KDQ+4Z6RCt
+JDP7sH2HTuuYObaIgiIfX13ysBrx2zG+v575PVi2FulHz5a26e/sPsxs9TqpY5G/
+90h+i3vJhot1OgCg+LndLQYp9gUCBxEyeeZmQk78gs2xsizuhyrbqtx0lHU73T/W
+Kn3aqei5ixHd9X9S9A==
+-----END AGE ENCRYPTED FILE-----
