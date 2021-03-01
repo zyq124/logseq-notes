@@ -1,24 +1,28 @@
----
-title: Ceres Solver
----
-
-## #topic #Optimization
-## 两部分
-### Problem的构建，换句话说就是数据的管理，优化的参数，优化的const function
-### Problem 的求解，就是Hessian矩阵的构建
-#### [[Evaluator]]
-#### [[Covariance]] estimation
-##### ceres的协方差估计支持两种参数空间的协方差估计ambient space和 tangent space
-##### 前者就是对global parameter 的协方差估计，后者就是对local parameter 参数的估计
-##### 我们通过将problem传递给covariance, 然后调用`GetCovarianceBlockInTangentSpace`计算`local_parameter1_`,`local_parameter2`参数块 tangent space的协方差
-#####
-```C++
-Covariance covariance(options);
-covariance.Compute(covariance_blocks, &problem_);
-MatrixXd actual(local_parameter1_size, local_parameter2_size);
-covariance.GetCovarianceBlockInTangentSpace(local_parameter1_address,
-                                            local_parameter1_address,
-                                            actual.data());
-```
-####
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2S0JYS2kwVDhOMkNQL05v
+TTgyNGd2RS9DZVlDaDIxS0V3d2FpaDZGRmtzCmN3UXhTZW0xek02cm5ld1Izayt6
+Um5VSFduK1JXMEtQQjRVTjVaZk1qbW8KLS0tIHlGY016b25FTHV1VEZoeS9CY210
+dXZJOGFzK3dPVG5HenU5Y2FwRElsancK/mhKjqKIorE9vh8yc9GXnFaOnuTZGnMA
+r965CVvJgzXWAG8ybFbeQWUmaekvPE9Ks2ycPSt551fOKrs8uGuQmhKph5tJxE6/
+2BJ/WQn09gQD+6CfAvMo4elvmhwuhoKbBEQ2K8G1YZgCfXuF/NJiPcSh6wiq0dmV
+E9pTLIgcCo0WDTHfh470xCrRxBq7OosDlgonT+/D9Ps1676dXBIBrxaLMq86+qTi
+udK590UNRcDt4Z70r4KKD+wfMMxSF01Z/e3yD7scjFkMZuRML189d4PGKvubStFf
+QxjEprnIwl17quW5mMx1xcy5W4fjSPkAAqOU4gexvV6tPmluHJDvJuOd636J5D4O
+hFc4SNmIZdXHzxR4HHGYlAKyV/b/X+Lj1jowxVfNUjoW20uR5zTFuPj4+nydEs4v
+hEEUXCgmGuCBQSIhxxseC+8J48hjkqdhjlBNUbssmQwRbTMVCfTLZVrnCd0hcvbO
+7SCofLRiByiQaFdg5/+Q1/VjEHwiGAb6TjLBS76+5wX/2gm/cQJKP3wXqD6qxI8P
+6nlG6YZXZZvuwdQsLtPy3PeV+FwIuF+9gBHZV8soK61pC8DVrodudLhIuFRhYgIX
+pLxsuRiEL0v7k46jXbNwZsErH6l/FnKh8GAkQhHxyZabItAzSGsScBfKzAQ6HiD4
+B7Cuo4oUb1VMAMJNpmyWwkxFVsjhe1YSr2nSWkNUax3QUr/6Wvn9TdJ5UQS2IZsh
+sb7/nJ1tXiQOMSSfrahUBuFcbOgU5zY2cnxevOUNi6G9GEJ8iZMUBN/nesHuNQ8z
+qg91CEFEu2r4eU+lEevSgaWIIt0FhHCeDhp/gSXTZ+OihS5Adql8kcyWtgZBIHOJ
+lX/TXeKSL53N16t0pcmzToG5KtaOgcuI5W8PRJIf9Fp30Xx8ETQEe68MIDjOFAlv
+8NGQovg/sdIUq3mh62y5fpgCazunNGGjuQKJp6h9npZ7474oCnbgVY+fJ3yTmT3h
+NrvM8jayYshgGhTnYz7t0G6mPNuH21aONNO06Rx5I2riIuDRDR0qZi4+9IEQ1E5m
+g8/c0mk8awnUK8vJenEpwW68MfATmEB8n0SePZsScCgZfnOuW9pFgQJENzFXlS04
+PZt15n94f1gsUfYRoLd1nkev4eRvGYXlEEcZM8iOPTuykvUEgaSlwqD+LrC9PqHy
+q/qPojV1NeUHLI8OJDI4NXSEp0ialb8GTPu2fbSfixc6rWlFsrQXF9QHe0Wi4A3P
+IOKGLJLKNmS/yOHh6hBXtEjMIUxptDpuOG2DGi0Au4Uv6GFdKvDDnsW5FoXt85oT
+qRmKWQDCv4vUliB/31OMDAaOoaRRuX4IO4HIfkE4iM1bOdZaZzEuS6WU0gxCEkcw
+BCrPiXvmdsAnt5lQDhEp+3uyoI8/7fY=
+-----END AGE ENCRYPTED FILE-----
