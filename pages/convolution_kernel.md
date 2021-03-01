@@ -1,30 +1,30 @@
----
-title: convolution kernel
-alias: 卷积核
-tags: #滤波器, #信号处理
----
-## [[cross-correlation]]是一个衡量两个序列[[correlation]]的函数
-### 通常用[[sliding window]]的[[点积]]计算实现
-## 输出形状由输入形状和kernel窗口形状决定
-:PROPERTIES:
-:id: 600a7b52-17b9-4f07-a16a-bdf330314886
-:END:
-### 在2D [[cross-correlation]] operation中滑动
-#### [[sliding window]] 从左上角开始,按从左往右、从上往下的顺序，依次在输入数组上滑动
-:PROPERTIES:
-:id: 600a84d5-8444-43c8-8f1a-1715fa57a135
-:END:
-### along each axis, the output size is slightly smaller than input size
-#### we can only properly compute the [[cross-correlation]] for locations where the kernels ^^fits wholly within the image^^.
-### The output size is given by the input size $n_h \times n_w$ minus the size of [[convolution kernel]] $k_h \times k_w$ via
-:PROPERTIES:
-:id: 600a7be5-e4d0-4683-a21a-005a37507974
-:END:
-####
-:PROPERTIES:
-:id: 600a7c1c-c6bc-4cae-8057-9f227c173c95
-:END:
-$$(n_h - k_h + 1) \times (n_w - k_w +1)$$
-#### Two [[hyper-parameters]] to change output size
-##### [[Padding]]
-##### [[Stride]]
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB1TWY2emQwRnpRL3l4UkNN
+OVg2c1MzOThPVG4wL0EyYVE2S1AxbFgwSGhnCmd5aXJyeFloQU5RTElzZE1PMmd6
+eE5Oc3BXN0VjN2tOVU9Eb3JpRGlWV1UKLS0tIG1pSjQyMXhQeUt4UUxPWEZBV0Vy
+Y2U3Q0RBT3VqWEk3cmxmRjdjOXByOVkKgkjRcDnB1k5W0Z38PTCnRp9+sZGkVrNn
+WE/Iz60EQ2f3jB/tp2IuxQ0eu29YPDVXRcTMLr5C+MfT4c7p6X1iXa2r+B/nhhDT
+yDHJTEM7hEJzymuk9/mA23OozQ6H3zvdfhTa6lI2tSxddtnU2O31D6C6M6hxs+PA
+NozLDJDaR8y5eZpxvngoOOVa0g28wRl5WU+9zqnTHNoMSrXjSv25BB5/9m0P3KH8
+U4AXpDX/D5pvLzV3+R/XYiY0nJ4JrEtRSxyu0ri7ztSMIHKfuuKAZ1l/tc5SBwjV
+Qkltm+bsY2twh4YHkOZoGqAJHYRZEiT4o+L71qy5kCjxNpNqgByZ4nJxaNb2sAfD
+mSPojvl08H95nLGYup5A+4maiX70T8VzCORgn8bnNhY7YArHsy525KGkeK23ucQl
+BuCIUrhbHKAjUNp2un44lHP3F8HYpPCBHwUKSP4x9K0FldZvCx5xCo3rGoonXtOK
+WZbsUP2juoJrEd4WqVt+Xbj3E/U41/beIPIbRot4QditVu+QeuZXm0jCwLNwwExX
+ufjhuX0Oh14IKBdc9YWCQqRHUDchqlZLcZg1dh23FJFM2b5PNbTg2SrZNsfYhFxB
+O+/Z5dbVdOtGYc55zbcTvaZuDTXW81fcUWqm5OL2O7COUHp0GyqxhDWEVspHT+9t
+3IH7a4vfuXVrCva1xyEqExmrOrNtXeJ7ub6oOMs0ZNH7PyRvu4WYa6PRCmxsr20z
+UMBRhKRcL5IzrmusA8nCBTp0lqCDg+Kw1p27s4M2U5rFGPbBZKkD82yKoha4LdQ5
+72VUcfOqlaZHktGfCEmix6sYin9on90VsxZyviCTyGWCaSxaCCFf3rJvoARzradC
+0/5SRGBJqqSzs0KQjsL0DBu+yNoGf+Y91pMBRsCNbWOUtuC9H6gy0oiTOv1rYuC4
+zLvn8pJFYFuqV2JUky0EFSNONlq1kEZBvz4AC51MC6YfWPS/C5StomAIRQzd10Nz
+7Hl9q5XGCbZsKP7nv4bIgNnmtjTQlwpXP/K3jq1vSNtErk8Kry/bDbcWaUimpqsY
++jaeuYsDQnGcoK1ohmeRYOJLjTvXLzJMEMrjzZXOpA8M0VS3BpLaNen/GjmClsOp
+OpaBiX9+246TAy1nV5ezi6QW8z/cyHv0jmiWEnxBA3/v99IWS9WN0IkyChX0QvDL
+nQ2+0djJVXWdL++mMCd4Xbbx7ij2WjJdR7r1qCNOQzeJ5zLeGWNAENIRB7QlYLhs
+a3BUBE4EkvjsiKNEwJh7VKgr0ZhaDPKje6F2aLqqVdB1CuM8ZQwU4Vshms3jmffx
+Nl9es4heS3Cp6LGgEgFl8DjCfhK+SN0B1IwwAJH3aA0O5HsVcCO39ke3YQ6qB+tu
+IE8Hdr2VoItqsl/twdpmaYOrsp3I4NpPpAFsguQu+0Mn7NNk35v6iZAutW6YHZpi
+7X4rdALEp9uPnnv15JnWp2c6O/DFOCvZRt/EXgvmvM9L2MHbXGIFEVhRrLl70hiX
+UesMup4jEPg+P8jkJo47Vyjtq/gK1nyF0RKhAwoLZ/WUwkf9m7YHeP5QsvLIbUJT
+-----END AGE ENCRYPTED FILE-----
