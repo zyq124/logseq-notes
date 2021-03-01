@@ -1,7 +1,9 @@
----
-title: Bayes Rule
----
-
-##
-$$p(\mathbf{x}|\mathbf{z}_m)=\frac{p(\mathbf{x}, \mathbf{z}_m)}{p(\mathbf{z}_m)}$$
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBRTlcwV0RaWGpYSkpBZkpI
+elRFeTk1cVArRTRsWGJYYjZKTm0wV2lOUFhjCldkREJ2b00xMXVmWXkxbXZIakF5
+bmRkMGNsVGlTRitGeVc3cWY3eEIreHMKLS0tIEFZK2JaNlo4YTh4ZjltaEN3cURN
+bFc5NGE5cUdBL3VSc0RiYmwrb3pETmcK+fb75xZgv6s5jmg9QM6MdqNS90tRI1Pz
+uP1qJpwWHpbveG6ud/072okRp8OssPYWLBciAflpaRf/R3C3yKhr5nvUZydY4yQL
+H/cfIC6ds8km+gagtjA3zNtvihEXt8PNEhfGa1eAlHubBE6CVd+Upqbb5fgD0TxL
+b21lYtJOhig6enaNNZL6ORWKfuJzRO3pJX/gHQ==
+-----END AGE ENCRYPTED FILE-----
