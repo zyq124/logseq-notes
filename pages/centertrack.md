@@ -1,27 +1,46 @@
----
-title: CenterTrack
-type: Article
-citekey: zhouTrackingObjectsPoints2020
-publication date: [[2020]]
-authors: [[Xingyi Zhou]], [[Vladlen Koltun]], [[Philipp Krähenbühl]]
-tags: #centernet, #zotero, #literature-notes, #reference #MOT
----
-## Tracking Objects as Points #toread
-### Zotero Metadata
-
-#### [http://link.springer.com/10.1007/978-3-030-58548-8_28](http://link.springer.com/10.1007/978-3-030-58548-8_28)
-
-#### PDF Attachments
-	- [Zhou et al. - 2020 - Tracking Objects as Points.pdf](zotero://open-pdf/library/items/QF2LTQTZ)
-
-#### [[abstract]]:
-##### Tracking has traditionally been the art of following interest points through space and time. This changed with the rise of powerful deep networks.
-###### Nowadays, tracking is dominated by pipelines that perform object detection followed by temporal association, also known as [[tracking-by-detection]].
-###### We present a simultaneous detection and tracking algorithm that is simpler, faster, and more accurate than the state of the art.
-##### Our tracker, **CenterTrack**, applies a detection model to a pair of images and detections from the prior frame.
-###### Given this minimal input, **CenterTrack** localizes objects and predicts their associations with the previous frame.
-####### CenterTrack is simple, online (no peeking into the future), and real-time.
-##### It achieves 67.8% MOTA on the **MOT17** challenge at 22 FPS and 89.4% MOTA on the [[KITTI]] tracking benchmark at 15 FPS, setting a new state of the art on both datasets.
-##### CenterTrack is easily extended to monocular 3D tracking by regressing additional 3D attributes. Using monocular video input, it achieves 28.3% AMOTA@0.2 on the newly released [[nuScenes]] 3D tracking benchmark, substantially outperforming the monocular baseline on this benchmark while running at 28 FPS.
-#### zotero items: [Local library](zotero://select/items/1_G9HIGQCK)t
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB3dnJLZ0JkWDJNcVlMUW5w
+b24rcCt0OFJFZGFNbUZkSlMza3psSm9oWXlJCnV4d1VEbDhIOTcrSk94ejAwOW5W
+ME93cWpPSGZjRTFaTlRoc3J4NkEzajgKLS0tIDJtTnNUNHYrbXBDVE5VR3lqcU0z
+OXdEUUxxVmdKYjlBalNKbzBEaTU2NFkKxlGHVFECHWSMw/kI1+hwFlzmWy2anOJY
+k3A+/8Qi4e5ml+g1vjnhGMDVcLyLJhtE4+NIX9Ta6w/hMs5vpYkuwAlDfO6P+bz5
+1HzSdUabvz5SXnfklnWxvCnNJG7UtK00ZXZKSlsbwP0w/8gl+4JYr3SrJIpLmQY0
+2OgHG853ZPtPsjA7xr6pX2+yxzVfqe9hxzMqqfpilS11kfhS21tFd/pcXwAWwO28
+ep8zlGO2hBi+ETlB4SM2UzghvOe9EkFO2JrTaulxap75t9jY7D6xCzrktX+pAU3y
+rb25ch43Bwj4/gQx3WwR77pWSUoJ6pqARODtVmEom8M/tuDsqYS1FYlp0tkhPi1M
+uMc6pDb3NNoY8dWeLmexyqpT0TSZgNj+1USKuaf8J2ViyGT94UNaWBXrOiMrihYi
+QgGvgskACcX6hvDoSiePQtOi3L/9iW0Z3217STMFO2L7JTooxsX0gOhn3LAtp9qp
+Uuos+yridlQcpDg0k51h01ULjgrZUSNid+x8BUEj4ucGo5lkehfxwBkq/WerP0Gj
+RhCNdyTHPqHlkxs3jNqOGOQDtrtJ8b3Zx5NonfkUPwAZ5Va8FADtpp3zwKBhgvRk
+ACihpCTKmg+1h1MWyKEf1w77ytLbj4PebVXYz3/ADchJt5b/vjheonQVH+Nh2IHS
+Iiz2tVcz4bZNkZ8hhrWl1Pd2a3SJpyf7VMN7icIO9dwNOcF3ivjsNHdJTH1DijTU
+CfQ3ZCrp/bp3Mdm0Ml0wsx8Q1aENtWnFjDLopAP0RQyvAVDzLdrTnePhGJQCUoNR
+xHNMvrj3lR5UqvcJUK2Ix8P6hfoqQC/+U8mN2EB0fufeQafbDJqFohV/SSw/fpeW
+RYWNV4WKU7nFr3q2JOYEq7gI221a4rtFbgzZn3ho0ogEYtiFQ8NryRg8m2Yz0WKU
+QuIcIMepCVbqZLWoOrLtzgIH7g2J3oPmI4vCsmZcgmfMcl2QjFUfwLNXQwYsmrTa
+cdS4kkmhZLo/weeKiIyWBr5P0CK/hP1RQGEIuH/KpHdJ//ONuTLPUmxEVGKwYT1A
+XqsPUbs4pajeLMDOnWF4bQduUtcva7sJjBOMl6QNtpd+FVM2ySZaaTtoX5/0nPH1
+keJ4+VzOR+ySfrRl4+lBHAbuef3pnID92iPHCvyC4GbvNnss05wAUH8UCh4AStoQ
+IttkfP+OL3pnfkXrToC8oYOp4KePk26NuRaOlTlubiFw4zgAHuUpfQId6EHsOedS
+S0iMxrmd1Hx0I7ZKwKE+DO9x5SXHBsQvF0XDi9F8Ftr8lR+Lq2MAGieZAey+RH5M
+32nluSB9Gim1zrhxko0PisCB6TbYFsyxyGELDJGS/UO3xAHFHli/kus6/xzqJkxK
+eGivexvaAsXyAU0fhwCdRbFX6UiRA3u4uN32uZW4m5hnkSEvUr425clKr6G6O0rD
+1jBPLRygIj9V55x/6DmbeeKpyPZrHhlJLKhbz2xRHH+4w6kxBhdE+XOAyZ739sO6
+NEs9kBM+p+cVtB+MiuNX3NcSIagFAz+X9eH21rN7G5GWC+yp4Lkn3r3UAVDBvCoS
+rAFY8AH0KnQhJxozYup/3kccDO2rqPodYa5b7BElKwMLL1kzUcpKxw+yISrO4N+D
+gqXCxUvUpjpoeDrN3yV+j2XDM+Aptd9a1v87HM2JhDCG18zK9djn27Ps+7qA8vqI
+3NNOe+aZS5fOaseTzOomkekZXGJ0KHdimvVkwfhL9Beio1t/PUWa0QzUhM1D/PrV
+nbUwX2q4T6RMzW4RL8rlFILBMBR0TC8WeHAqoCOjLj8wywJHpTtd84MgDLx7kSGw
+nf6EcCQREIG89ooqUdQBxTZ6QWdCpYmsEuTO/LaSCl2ww5zWOKAMYDm/CMCYeI7p
+jVKtqQyhWb7OhVfc5vR9Q8imG2eCXyG4VUrgXey4nj9DW0tkx57r8UMUV+FuUCi2
+aeR59s/R4PY7tfJUHpqeXmuzeyDn9huWSfKJo056oeaweerRrg/RXC2rldfQvlAb
+SJ5x9OagrF8KU5VFfTzN4NFQje/NxkifCzSXfKHhl8+O7GFz15+r9pn3Sf7WjrOd
+BECzEzVjC625n3affEeQqOPaVPH5aDTBJgojRBpb1/opKulNvBaqQIJQg1DJdrlu
+fkhG65tj0Rc7h3V2Vt8IWJ1XG9Bgf4mJetK2bBkHjHXKj3fd/Masbtkk8bknKr7Y
+GiRI4gDJUNTuyvwGtWDIbJb9AvpZJL5NDyWsS/6qKlpuZWDYXIOddiQ74NHx+NNZ
+BolKdBMqaO3Sw+fmyWdwbQejyK7bqTST/PBjirChMSQxH08nR3Jo2T4lMBUPcJY5
+MzUz9h0lV368AxY0LN/fnlcXjde/7VaolLZ9tFlAFLR0n9PysS1mMlmmit8sVdPv
+FRuYgVo9Lmtr93CyZj61K0bMBz04Tl/PGo/cXHJtEvzroYrrFfJGe3aZatxwFw4M
+UB4O0ZLvCDjhtdox6GtakH9V9f3P6e0X3++D3TZJJm2GHG9CBDMpPeg1gYl5bNQU
+YuVRRyn16Efqp3m2DHq1UEHhVHpBhRZBQQ==
+-----END AGE ENCRYPTED FILE-----
