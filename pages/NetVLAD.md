@@ -1,57 +1,59 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBDalc1dzlyRjdyQkM3em9o
-cDAvOWRxaURZdmdCRktvSG1kL1p1c2xUQm5jCkdjSk1sYTdqZ09VanhQMGhMU1g0
-QTN2RWIvb3E3WktBeGVMUmc4TXZLVzgKLS0tIEREYWJiemFlTndnMThLWkQwMzBW
-VnYwa3grb0VVcjVCU2V5ek1JazcwcHcK84OJMQun0zTB7dnUsENjtWWAX6AYfNAa
-K0TezcGC/AxJostSv1aT72BCY80AO3DPjkbhn6+b7yYQL0ak1TpvtNZZNPMDiNN3
-JtGi1w+9J8O6UdWjIhTHdawSCzuq/KndNiM8E5lr4ocB+aR2UrZrUmpyt/T63i9t
-NMygLlAvpNEZ9ZxEDbaIqrrZJW+lt5pshO58vz3u3wIQye0geCSiKWlOQ725U4sa
-+r/QjG1YBFJt96eeLevaaEtpSFp0R4835cdeiZN+3ZQBv5b8XolsVUOWqlGo7RBP
-cI4SaYnzLQZ8srjtWhPMQz4TPP0NM4qnwHygpbELe5KQtqn1xgIQIIDsRB4Ita52
-qaKzjeVsEogCP7rGmnhyMDyNcVA+u+KGHDMtgsGgpwiyOw8uoTXDTYWZdsX1dnVZ
-UQg73XZvI4nv9E+7lo/HEveHtKHcOnhoc63HWEnZFCWRaAQ9o9qEoQy60OFnu9xi
-R3KEBcLRQYDHZSTa2NQZcrVpDiWLAj7R/O6Ye5K6Yyy3ZQJ6ujZ0NieXE5TOzUvI
-fGX0taK9VFjRf1xX1Sxpx2uvQnhkcdlhamAsGt0xFRAgC428Lue7FNc6Iq+KnWDw
-ZWFyOXdwev76xhR0Cmc2KSkP7xzcRA9m5E9OD3FiICAMzxUQdPqud901DTboprxy
-O8Aa36Y5hU5UpB/eAbQXHXnb5mpOMrDpVwKSRnH2lVtiWZoz+Ki/wAdvzCRw1MQT
-zqs3Wee3/x7YBVX6Y/jm2jVjXfuIhoSqJeA8TJ9XGsLCS4iGxiyr/3e13WzCuI82
-axNOhg8Pg8ucVgtQbHsMlc4eiwoxUhU8eG7qy3lle3eaPxv6DF4PlAxJXvDMpjNz
-qOSIUbUUTRX84T6AlBDoaBtCJk6xujWQ1x/SmNiuievsHq1uAd/43J6JphBkrVs2
-qfVWq7gv6TxYxfOb88CWdISLdq/xG0OPlcCm1PhgcmpuBMK9dNPCy/OBApevTe97
-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
-qd7lgrF3+aVtSSn/ausSa9k42Q==
------END AGE ENCRYPTED FILE-----
+---
+title: NetVLAD
+public: true
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### #title NetVLAD: CNN architecture for weakly supervised place recognition, 2016, CVPR
+### #topic #[[Image retrieval]]
+## Abstract
+:PROPERTIES:
+:heading: true
+:END:
+### 直接在可训练的CNN架构中嵌入VLAD层是不可行的，因为VLAD中的$$\alpha_k(x_i)$$是不连续的，因此论文作者对 $$\alpha_k(x_i)$$做了修改，提出了NetVLAD.
+
+### 训练一个模型，对于每一张输入的图像$$I_i$$，得到一个固定长度的向量$$f(I_i)$$。依此法对所要查询的图像q进行操作， 也得到了q的向量表达$$f(q)$$，然后依次与数据集进行比对即可。
+
+### 怎么衡量两个向量相近呢？这篇论文用的是欧氏距离(Euclidean distance)
+
+### 1. 为场景识别任务构造出了一个可以直接端到端训练的CNN模型结构，NetVLAD就是该模型的一个layer
+
+### 2. 构造一个弱监督排序损失([[weakly supervised]] [[Ranking]] loss)来指导模型的参数更新
+
+### 3. 效果很好。在两个具有挑战性的数据集上超过了非学习性的和现成的CNN描述子，等等．
+
+## NetVLAD
+:PROPERTIES:
+:heading: true
+:END:
+### 把[[VLAD]]中的指示函数$$\alpha_k(x_i)$$换成可导的$$\bar{\alpha}_k(x_i)$$
+#### $$\bar{\alpha_k}(x_i)=\frac{e^{w_k^{top}x_i+b_k}}{\sum_{k'}e^{w_{k'}^{top}x_i+b_{k'}}}$$
+
+#### $$\bar{\alpha_k}(x_i)$$表示把$$x_i$$分配给聚类中心$$c_k$$的权重，取值范围为0-1之间．
+
+#### $$\bar{\alpha_k}(x_i)$$越大表示$$x_i$$与$$c_k$$的距离越近．
+
+#### $$\alpha$$是一个常数，当$$\alpha\rightarrow +\infty$$时，$$\bar{\alpha_k}(x_i)$$取值无限接近于１或０了．
+
+### 最后得到$$V(j,k)$$的表达式
+#### $$V(j,k)=\sum\limits_{i=1}^N =\frac{e^{w_k^{top}x_i+b_k}}{\sum_{k'}e^{w_{k'}^{top}x_i+b_{k'}}}\left(x_i(j)-c_k(j)\right)$$
+
+#### 其中$$w_k$$,$$b_k$$,$$c_k$$均为可学习的参数．
+
+## Architecture
+:PROPERTIES:
+:heading: true
+:END:
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F7rYkbYZqhN.png?alt=media&token=3fd69688-d5c6-4ea9-8d8a-2c7a4902658b)
+
+### TODO  Read on!
+:PROPERTIES:
+:todo: 1606462977225
+:END:
+## Supervsed VLAD
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2Fwai5aWdSY7.png?alt=media&token=5fd74c67-6b94-4a8a-b955-995321e690e7)
+
+###

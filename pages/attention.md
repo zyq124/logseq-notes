@@ -1,49 +1,48 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB1UDhFVzVhRWd1WlVEZWJ0
-cTJqVVI5ZVF5dk5EUDNjWW5wd1hLTys3bWhNCno0ekpTT3RuRm93aUFrSW1IVGEz
-aTlZb01INUl5Q1p2T2RZUVRSbTFOZFkKLS0tIHMxNGtZNXQ2R3htR1V4d1g1M1NN
-WG1JRWRTT1I4cVFXZGFmUStKdytCMFUK6/fShI8uE3Qu2X95+MkCyskC2xBsxwEP
-yL8OGl8CqeRKujjfjmTrMleY0B1Wzx6FTiqGhL7u7MrQ5sjfJArbxPz1ShOjx13Q
-BoIu7mELsONzhNXSLYssJBaTIwURTSrzZtQtn/ZhiM7wQ8s71UQxP3XGBRPVcman
-EUbbr14MYur1xOrNKdhs5ChoPWA1HM6vndfDTkIhju+7V72CQDXJEs7IL2uWSGv/
-O4Ev1oD+9x75cs34Ohe+y9tP6nplq6NM3UEwJXXAIueTJ/VRLAMDN3zyu+tSB0lQ
-kVK5NvtwRWxIIukV4XB2xVu+P4X81Gqwtk8ZjVDKf0SP3HP6dg0t8URtkB3yg/GC
-bPNFGgBwxLszsjjqLuALiYcKWZpEkNHf44fVRyTP4UblBktY+4bs4RMwASP1hh6H
-M5yLavcw+fRUFL6TtBnIWu5tRASXdH0TVIO7hqGs+wwFsbDkaxzPTWPtU52LBTDo
-VwBQ/kDnFsIasayBeKblFuf/uVMD4mWnrR8Zp83Hwyr+RDE/iyDd6/FS9BKZpLcc
-VzGp5f5zJXcbm1biH7YNIU/OJafQrk94+Jd8hmz0/j6kIsN0cuZyqE703sQV6Gae
-A8xmtH4EuFVRHvLLyZrevFxr0KEilYLGZawKMJ3nOvLBTHNpCMRfmWcQGBfCpDxG
-r+EAEByktzG6MPDempTbPGLgxLTyms5uk/R3Ck5Gx+QkRMySCpwE2OnbADpgeXp0
-+ZD351nLqJMmmEnTT6Gzu6Yqw360zaHEcMTGp1RBP59lPEzlSRG4J1y2yT8Wp73J
-t0lmUYgsVQUquFJlCa76HCd88Rrbyew0uYDbj5uyCki6Qjb/ZUj7UsxSAAEPLiL1
-O2vhn825RKWYZ9s6F3m4IkOiruvQVd+OqBOPq36XHHLwaGF52359N7cdAPaJ2T46
-KdgqbrhCEmcf+HfuIy8RpjQhxrIO3ik4DkaSGp1eqQkM+pxTNWjjW27M0wydvl02
-Nu0gTVVS8fBXU7aygoVUYZyQXZRg1T+JceAtsbDYOjADyqnfADf/0fyO7oR2Uinh
-unZXcxo07DtuQTxv3DvD7cHndUrCv3e9/sQrABiwplM9XCHRNaYC++2OSYteQ9Tv
-lfIzilBPD+hV4yM/i5qJiRLOrgnRVkf8VdsVM7ga3UGqn0QodFfVrI/9SKtnqGOu
-Q7DqATSGMdDxzZ2Imlz7AStKkYAAFlUbWqrtdIcTYMgA8AJbI05W/4Wv3bzkYOGm
-Tzu8s1EJcH/AEsNKysjKGNDtbSOYoCDJwiihRzaBf3SHamlD7SIjnhasF3kzEnK5
-f/VKP3SGCqG2OJfhRkbLElzOJotKQaZzN5JMfUVaPDIRtyC4ej/nuvPAuHtr37au
-abFW8AJCjEeekVaoiKqli5o+f4nojQeRns4mCseWPrLfOhzm12aAo2bHYKF1c/tW
-orjY5EfTtK3PNv6bzIFIOqUw0m0T0/c0GZjmzP0HjGPHTqMPtA89G72CjeJkr4qp
-uobjAofiy0Oou4wTax3dmNKd8ux+PwcV97FWVI1ax2BkwEL1VEH+o5glbWmn5FPF
-V83MkOsWgkFyFosWt2N8wzuHv4Vv9Q4dVtnc5O160DoPVXY7r6O4CfrDo5q4aDwI
-33u+8SW4ZRRLqKoErzllIQ2eAxZtSwoZzA1xZU+pCLzcscqtqmR+1Wi8MVb6DCsK
-xE/rKJrIE6mBFJ4vMp1R/R13iUFBG3gBJwJ/qmIrw+d8WT2ieWCyfwURzFQ4miyT
-aBGXtIaexTF7N7mSOEd9UrQyj5E/kQ30Tvds8pHI1GuNEyazj2t1WRRL3Y1qVTBL
-gJGPhktoURR5pytxvCG3iYJkCWPGjkfgpbFMtmMaGzWyACsHXQI9tCSPDWB/hIns
-0Om5d7F8teexEKyltqg91kJDoJoK1DknJbWqakQ3ViQG0tLXjieJFbPwilo0FRC2
-0tgSXUnyHhhesHKGU5mDPC9xpIFgyuXbRmzergiz33tpNeb68zkbO6Rs7hOih2Zj
-LMkxBoi4I04GxqxE7T1jdkgZMXuPFIzqiNv4TG6a2hg6amOXq2GGm//FgeKVzliM
-8sYrm8sqktdYFkrDRhY6TJtNEPsJH44d0DroHaAU0ijwdcbisuCzI3NaHlZ6sD8v
-DqVlsAmqr6A3fu0RilF04VBSdlf+ON0ttABb2utRkPXLrDqlg+Dv3/9T/0zcWVns
-ohs8UAKA9YzzP4wBVr+M7CV5BOtF9/QCvW66CMNJp+sLALbpK4MyWSPx2AICGDix
-zCKwlKk8PHpcRCzqIsDmsYurjYRuz61g5hSEXnRZjYc54Y/33k7n42jBYYg35mRn
-dim12QlGziDH/AH9dXya9yW/hn5qqm+8GOQS1hQ//McJmwnPjRy2E1KUTVlV82tD
-QZysZbdo+DoUWYuCaFI4I70ZUXGVx9/RRO2tBWKZvlZUjw1OJN5utoPl4/qeXuOD
-CBPt2cdftymTrioNqPuBL0wXm5Vns7g2uXsqCrIeYnMNHupkZALbn4BrgIBqSbnH
-fZ6BFlGhyo4v/R1vqyMswtWFwZ8B/vSpJrEq9ro5do8p8Ad5rVFmo0O1E2L2EO78
-kGHHlMKmN2kyIV8AylIkS/kiLM65llaXNumuvVTUHmIQiGFnPvpF2iYZGqdirQ+j
-vWLzr+8rTVV0t6RE+TNtOyNo+G8Uyfqpq1Dekz17ktibiPFF02k6eL0LVCBCLz1h
-ubikKkmVnpZoG6mU6Hpg4dEMgeyrrEm5dBaf1su+vXL6aSn6Wm4TM5zX
------END AGE ENCRYPTED FILE-----
+---
+title: attention
+---
+
+## The original paper
+
+### Neural machine translation by jointly learning to align and translate, ICLR, 2015.
+## RNN + attention
+### does not forget long sequence
+#### decoder additionally looks at ^^all the states of the encoder^^
+#### 对比standard seq2seq model
+##### ((602fb310-8bf7-4748-8f48-d08f07aacc17))
+### [[decoder]] knows where to _focus_
+### But downside is much more computation
+### Simple RNN + attention
+:PROPERTIES:
+:id: 603070b8-5a03-4cf9-a04b-6defdb8f56e7
+:END:
+#### 计算权重的方法 #related [[transformer]]
+#### **weight** $\alpha_i=align(\mathbf{h}_i, \mathbf{s}_0)$
+##### $\mathbf{s}_0$与每一个$\mathbf{h}_i$的相关性
+#### **Context vector**: $\mathbf{c}_0=\alpha_1 \mathbf{h}_1 + \cdots + \alpha_m \mathbf{h}_m$
+##### 1. linear maps
+###### $\mathbf{k}_i=\mathbf{W}_K \cdot \mathbf{h}_i$, for $i=1$ to $m$
+###### $\mathbf{q}_0=\mathbf{W}_{Q} \cdot \mathbf{s}_0$
+##### 2. Inner Product
+###### $\tilde{\alpha}=\mathbf{k}_i^{\top}\mathbf{q}_0$ for $i=1$ to $m$
+##### 3. Normalization
+###### $[\alpha_1, \cdots, \alpha_m]=\rm{Softmax}\left([\tilde{\alpha}_1, \cdots, \tilde{\alpha}_m]\right)$
+#### Decoder更新过程
+## SimpleRNN的decoder状态向量计算
+### {{embed ((602fb278-dac8-4e2f-b66c-5e92a7ce3cc1)) }}
+### SimpleRNN+attention
+#######
+$$\mathbf{s}_1=\rm{tanh} \left(\mathbf{A}^{\prime} \cdot \begin{bmatrix} \mathbf{x}^{\prime}_1 \\ \mathbf{s}_0 \\ \mathbf{c}_0\end{bmatrix} + \mathbf{b}\right)$$
+####### 考虑context vector
+###### 接着计算decoder状态向量$\mathbf{s}_2$的过程中
+####### ^^重新^^计算权重$\alpha_i$，因为根据定义$h_i$与$s_j$的相关性有不同的权重
+####### 计算加权平均的结果context vector$\mathbf{c}_1$
+####### 计算decoder状态向量$\mathbf{s}_2$
+:PROPERTIES:
+:id: 602fb12a-10e7-43e6-b790-bf72c0e70b6b
+:END:
+###### 一个context vector$\mathbf{c}_j$有$m$个权重，decoder有$t$个状态
+####### 所以一共有$mt$个权重
+####### $O(mt)$ time complexity
+##### [attention+rnn](https://i.imgur.com/irWmoeR.png)
+#####

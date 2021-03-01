@@ -1,116 +1,47 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBmTFE3R1hpRDVJcy9tTVdF
-emVKMXV4ZzFNVHVQT1JucVVCcUh2UVZCdG5jCnRuRzdpN0ZKTWdZTXlNQXhGZFU0
-OTU2Tjc0VEY0WjdGRmFsOUV4MVdzN3MKLS0tIC9lV3pmY0FZUjFvSC9MSytVWXMx
-YjYzZDBYOW8yaTArdnZiU2FIN091dFUK0OzjeqM/N7z8g79sXrNLroWjPpoqp2ik
-nv79VJNUk1vF5hC34y0RNE4gibaHs4vekHqkTxUpVp0eU+1BCMyLD07md4eCK/ID
-1HXRCcKaL59o43v6ZyIFfHSbPqI6j8fk+hZcG+qOsB1HXhgYk8rIf75oI9PcoS6X
-ncG5oIsHCBzHqyN1fqDSJqZDP3xW5Eq1GGG7ckfTbWAphXznj8qkwebVV/bDgnat
-D9VnoO3t+GsEUFw9n69VPg2HAC5LB0xp0gbFNAxjAHehQibwNDyaEzrVCjrCGtzZ
-kry4y5TVdaoucU7cjKsKawWxt7Hcy1/ZcY7mj3Tnukol1tYo52Bevuqkv4M4m+RV
-eZGi36jQIpFYeqPPb2dfiLHqqLPVTH4cKTE2iyUZQnURL039e9n/1bmp1NmrV4MF
-4WeAFORS2Yt8v8Jkegg1jCo6cRF2zJz1422Cex7vCjvt0U9sdeKEH1l8sXBqnz/N
-K77QWv9kXhfQJLMOjfc627Z9IYx++jfF+KgnfkkuW02Y5IuA09fS0t2f4BGyVsc4
-XlCPTVjADJIhyaT+BbZi20iMnFyxQQPmsncyyQ77r4A6qy0I5V8r4uMKP8HQp2dA
-hisigpEpeqdlQurbVjtNnk58kwKJDpcSTO79uzuCi6q3Z3LmBwhOCtxOBuaHSTEj
-50KMQl/ZZA1YnS4Rq5eJ4KG4deYw6VgT1qhrsVwAix6IScKRgh1Ti+k2W5wg5QjL
-CNVA3EgxptvNpglH6JtuIg+tPE9aPjre1zng/7pGCT/VJXSvDYWnvOtrWfO3vyPs
-10QF1lvVzCavDDEVv2PlUVoeu7rl5S7UJ1mHNm8gGBxtYqilq+j+p2Xcl1w3ELIS
-yKiG8S40aPd1kJeQIxPC4BkuigVgzT/h23z6wQ69JQS6ddRI1CQjsifnTk06QfYu
-rxo2AHbic5iDJeRGoe3peCXhyMv5k82qLp2KjGEo9cPm9Dr0t8lF/9w+z8SU9btv
-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
------END AGE ENCRYPTED FILE-----
+---
+title: 3d detection with pseudo lidar
+---
+
+## [[3D Object Detection]] [[monocular]]
+## 评分
+## Monocular 3D Object Detection with Pseudo-LiDAR Point Cloud #toread
+
+### Zotero Metadata
+
+#### * Item Type: [[Conference paper]]
+#### * Authors: [[Xinshuo Weng]], [[Kris Kitani]]
+#### * Proceedings Title: [[2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)]]
+#### * Date: [[10/2019]]
+
+#### [https://ieeexplore.ieee.org/document/9022330/](https://ieeexplore.ieee.org/document/9022330/)
+#### * DOI: [10.1109/ICCVW.2019.00114](https://doi.org/10.1109/ICCVW.2019.00114) 
+#### * Cite key: wengMonocular3DObject2019
+#### * Topics: [[monocular]]
+#### #[[pseudo lidar point cloud]], #zotero #literature-notes #reference
+#### PDF Attachments
+	- [Weng and Kitani - 2019 - Monocular 3D Object Detection with Pseudo-LiDAR Po.pdf](zotero://open-pdf/library/items/9FGQZCRP)
+
+#### [[abstract]]:
+Monocular 3D scene understanding tasks, such as object size estimation, heading angle estimation and 3D localization, is challenging. Successful modern day methods for 3D scene understanding require the use of a 3D sensor. On the other hand, single image based methods have signiﬁcantly worse performance. In this work, we aim at bridging the performance gap between 3D sensing and 2D sensing for 3D object detection by enhancing LiDAR-based algorithms to work with single image input. Speciﬁcally, we perform monocular depth estimation and lift the input image to a point cloud representation, which we call pseudoLiDAR point cloud. Then we can train a LiDAR-based 3D detection network with our pseudo-LiDAR end-to-end. Following the pipeline of two-stage 3D detection algorithms, we detect 2D object proposals in the input image and extract a point cloud frustum from the pseudo-LiDAR for each proposal. Then an oriented 3D bounding box is detected for each frustum. To handle the large amount of noise in the pseudo-LiDAR, we propose two innovations: (1) use a 2D-3D bounding box consistency constraint, adjusting the predicted 3D bounding box to have a high overlap with its corresponding 2D proposal after projecting onto the image; (2) use the instance mask instead of the bounding box as the representation of 2D proposals, in order to reduce the number of points not belonging to the object in the point cloud frustum. Through our evaluation on the KITTI benchmark, we achieve the top-ranked performance on both bird’s eye view and 3D object detection among all monocular methods, effectively quadrupling the performance over previous state-of-the-art. Our code is available at https: //github.com/xinshuoweng/Mono3D_PLiDAR.
+
+#### zotero items: [Local library](zotero://select/items/1_V8QSUWPW)
+### Zotero Metadata
+
+#### * Item Type: [[Conference paper]]
+#### * Authors: [[Xinshuo Weng]], [[Kris Kitani]]
+#### * Proceedings Title: [[2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)]]
+#### * Date: [[10/2019]]
+
+#### [https://ieeexplore.ieee.org/document/9022330/](https://ieeexplore.ieee.org/document/9022330/)
+#### * DOI: [10.1109/ICCVW.2019.00114](https://doi.org/10.1109/ICCVW.2019.00114) 
+#### * Cite key: wengMonocular3DObject2019
+#### * Topics: [[monocular]]
+#### 
+#### [[pseudo lidar point cloud]] #zotero #literature-notes #reference
+#### PDF Attachments
+	- [Weng and Kitani - 2019 - Monocular 3D Object Detection with Pseudo-LiDAR Po.pdf](zotero://open-pdf/library/items/9FGQZCRP)
+
+#### [[abstract]]:
+Monocular 3D scene understanding tasks, such as object size estimation, heading angle estimation and 3D localization, is challenging. Successful modern day methods for 3D scene understanding require the use of a 3D sensor. On the other hand, single image based methods have signiﬁcantly worse performance. In this work, we aim at bridging the performance gap between 3D sensing and 2D sensing for 3D object detection by enhancing LiDAR-based algorithms to work with single image input. Speciﬁcally, we perform monocular depth estimation and lift the input image to a point cloud representation, which we call pseudoLiDAR point cloud. Then we can train a LiDAR-based 3D detection network with our pseudo-LiDAR end-to-end. Following the pipeline of two-stage 3D detection algorithms, we detect 2D object proposals in the input image and extract a point cloud frustum from the pseudo-LiDAR for each proposal. Then an oriented 3D bounding box is detected for each frustum. To handle the large amount of noise in the pseudo-LiDAR, we propose two innovations: (1) use a 2D-3D bounding box consistency constraint, adjusting the predicted 3D bounding box to have a high overlap with its corresponding 2D proposal after projecting onto the image; (2) use the instance mask instead of the bounding box as the representation of 2D proposals, in order to reduce the number of points not belonging to the object in the point cloud frustum. Through our evaluation on the KITTI benchmark, we achieve the top-ranked performance on both bird’s eye view and 3D object detection among all monocular methods, effectively quadrupling the performance over previous state-of-the-art. Our code is available at https: //github.com/xinshuoweng/Mono3D_PLiDAR.
+
+#### zotero items: [Local library](zotero://select/items/1_V8QSUWPW)

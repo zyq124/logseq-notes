@@ -1,205 +1,170 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjdWFESVdubWpJNGdMNWt4
-NGYrOTFSREp2aVpZVGNXSWhFYm9hQnJQLzNJCmVXcFJJYVBOWTkzZE16L3JSaGhH
-Y3YxekNVYm5QSTBnNEFubWRFVnQzTWMKLS0tIElxdWVIWTA1MC9yc3Q4MlJoanZV
-WXlKd0RySkxmc3BvUEdJUzVNOEVxK0kKJUBEQE3xLZBRSXif0QYsDr9soei+sNok
-TADKLaIMN2JpXchVkLKF9ye+x572+5D220jSloLI8GThcBxUF6HWy9zBeSUdgASO
-yy9pPuiYfmam7PJPgFXUsNvPIaiwau6i6eNYbz7FeAP8JeGpV7HHm0BRdhsYenul
-7U2CuAljY6RUWhrEmZuO/ZJwVzwNf8vnGB+6qCNHa8Cg0c9J03852tsxgziYgpxy
-lTz6qwDrqf30JK9HdSIaHJFxXBcJsH0IoGj0alry7t8iRDRVU8nW7GLE/rxGruse
-tWqUS6HY8j3lAjl9kOxcqfY5heHGioZ6v/EQYCx7igUNvPRNL6TP1RmWbSrSfaAZ
-5NIrX+Vv2hppA6mVsjpa7imZotWrJCi0zSvn2q9vnyyLDB/EntIfhxIMYfNkgtiX
-3dNymexJaKVJrHNLiREye72FA4yo4D/oHwJEYHPkry901D5HrWbJTp35j3TzDif5
-1nZtuOrDF2XG4DmTU7ubov6CdEb7kVi/qrHcj7gaAiRLMIfIRgCVn9EjVuXIMUKG
-qyhoGb2Wl/768H8JtrfJvJe8iSb+OPePcIAmb0Bld4phJuFkdvXyj3AHE+5Gul+p
-7hjt55yLQS+6oKjJJPjTZBC0QiX3wMvoqJRNQ6uDt0osM6XcfRZZqgSnngM096FG
-jEuMo3G2oYshUbo1Pq03T1VMkgxvbT2jCJkyCcYfVszNKnmFerTapHlAUO/e+tzl
-JtxMKwlAr9inAhtUcUqTNItcsvXDSiT2AayixiRP7YmsDKgFOPiYrLlDp2SwTk4g
-vXyRxamVskuX7004+h7iLY2HUeH81XWZ+DlVBVx4ADJPG1mj98XGFZemcpnpFZH/
-rceejvv3xxXENoEwg9/evfnw/Tlcw1Rhm2/+Dj37tJs9CHrew+smMNUqWl6LTXdE
-1MJYpqrDNbeT1M9TqTeD2DLKJdmi/EyBVZEdTVXmxv/YbXsmvzi+6+V7NTXlKN53
-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
-efEZ9Zsm9XMGeG9Y6SHcSEi7iaWAyKuEMQ==
------END AGE ENCRYPTED FILE-----
+---
+title: Average-precision (AP)
+public: true
+tags: #Keypoint, #[[Descriptor-Matching]],  #Ranking, #metric-learning, #[[nearest-neighbour]]
+---
+### A standard ranking metric in paper _Local descriptors optimized for average precision. In CVPR, 2018. The paper focuses on [Descriptor Matching](Descriptor-Matching.md) stage.
+## metric-learning
+### ((5fbf5a26-4912-470d-b02b-594f29bcf4f7))
+## Formulate descriptor extraction as [[nearest-neighbour]] retrieval performance metric: Average Precision.  
+
+## Estimating fudamental matrix from matching images
+:PROPERTIES:
+:heading: true
+:END:
+### 1) [[Keypoint Extraction]] detect and extract $$ M $$ local features from each image.
+### 2) [[Descriptor Extraction]]
+### 3) [[Descriptor-Matching]]::
+#### Compute pairwise distance matrix with $$ M^2 $$ entries.
+:PROPERTIES:
+:id: 5fbf59b6-8148-4ff9-8d56-d9916c2c9189
+:END:
+#### For each feature in $$ I_1 $$ looks for nearest neighbor in $$ I_2 $$ and ^^vice versa^^.
+
+#### Feature pairs that are mutual nearest neighbors are candidate matches.
+
+### 4) Robust Estimation
+## [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_ap.png?Expires=4759976180&Signature=Vlk86f11suQTus8Hzbe1r84KbQtm4oegdQTL1mvcaB30ZxRLetg~W9PikLxP34LIYJfUdDaSWzOpaaRxrXptr5anqjOuMfQI~kciXVri39~K7Qc3SWn79uNQa7fGeK93q1gfVkoH3Cmh5j1Tt8xkae1bmDOY~3PwFzXczySOy6f4ies9xcM8wLykZpbSWLw0h840wEG6H9utNIGLD0ilBvbmw1A5qWs-lnSEf0OdCo9l63e6bo9p4ZLxeeQO08~kboiPzgrt~pW67mmSgTqPbo2KRlrwhLlh7xC3Zib9KJJWx1OXJR38MOD8gsmq07GgRAhV90OJ-xLN8cyRMxCJjg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_ap.png]]
+## In this paper the ^^contribution^^ is to assess [[nearest-neighbour]] matching performance by adopting Average Precision ([[AP]]) as the evaluation metric, based on:
+### Binary relevance assumption
+#### retrievals are either "relevant" or "irrelevant" to the query.
+### So given a reference feature, features in a target image are either **true match** or **false match**.
+
+## 1. **Optimizing Average Precision**
+:PROPERTIES:
+:heading: true
+:END:
+### 1.1 Math notation
+#### Let $$ \mathcal{X} $$ be the space of image patches and $$ S \sub \mathcal{X} $$ be a database.
+
+#### For a query patch $$ q\in \mathcal{X} $$, let $$ S_q^+ $$ be the set of matching patches in $$ S $$, $$ S_q^- $$ the set of non-matching patches.
+
+#### Given a distance metric $$ D $$, let $$ (x_1,x_2,\cdots,x_n) $$ be ranking of items in $$ S_q^+ \cup S_q^- $$ sorted by increasing distance to $$ q $$.
+
+#### TODO Quantization of sampled scores via [[1d Convoluation]] to increase channel number (1 to 40). 
+
+#### Given ranking, AP is the average of precision values $$ P(K) $$ evaluated at different positions:
+##### (1)     $$ P(K)=\frac{1}{K}\sum\limits_{i=1}^{K}\mathbf{1} \left[  x_i\in S_q^+  \right] $$ ,
+
+#####
+```python
+# number of samples  N x Q = c
+nbs = q.sum(dim=-1)
+ # nb of correct samples = c+ N x Q
+rec = (q * label.view(N, 1, M).float()).sum(dim=-1)
+ # precision
+prec = rec.cumsum(dim=-1) / (1e-16 + nbs.cumsum(dim=-1))
+```
+##### (2)      $$ AP=\frac{1}{|S_q^+|}\sum\limits_{K=1}^n \mathbf{1} \left[ x_K \in S_q^+   \right] P(K) $$ 
+where $$ \mathbf{1}\left[ \cdot \right] $$ is the binary indicator.
+
+#####
+```python
+  # norm in [0,1]
+rec /= rec.sum(dim=-1).unsqueeze(1)
+  # per-image AP
+ap = (prec * rec).sum(dim=-1)
+```
+#### [[AP]] achieves its optimal value ^^if and only if^^ every patch from $$ S_q^+ $$ is ranked above all patches from $$ S_q^- $$.
+#### AP optimization is a [[metric-learning]] problem with ^^goal^^ to learn a distance metric $D$ that give optimal [[AP]] when used fro retrieval.
+:PROPERTIES:
+:id: 5fbf59b6-d9a1-4ecf-bd22-a9f151e36be6
+:END:
+#### ^^Challenge^^ is that: sorting operation is [[Non-differentiable]], and continues changes in the input distances -> discontinuous "jumps" in AP value.
+#### We thus need [[Smoothing]], based on [[Hashing As Tie-aware Learning To Rank]] paper, we employ a differentiable approximation to [[Histogram Binning]] to optimize ranking-based objectives with gradient descent.
+
+#### TODO Read the two papers mentioned above.
+
+#### The optimization uses quantization based approximation.
+
+####
+```python
+quantizer = q = nn.Conv1d(1, 2 * nq, kernel_size=1, bias=True)
+  # quantize all predictions
+q = self.quantizer(x.unsqueeze(1))
+  # N x Q x M
+q = torch.min(q[:, :self.nq], q[:, self.nq:]).clamp(min=0)
+ ```
+### 1.2 [[Binary Descriptors]]
+#### compact storage and fast matching (in applications with speed or storage restrictions) #definition
+
+#### In this paper they use gradient-based relaxation method to learn ^^fixed-length^^ [[Hash Codes]].
+
+#### network $$ F $$ models mapping from patches to [[Low-dimensional]] [[Hamming Space]]: $$ F: \mathcal{X} \rightarrow {-1,1}^b $$. 
+
+#### For the [[Hamming Distance]] $$ D $$, which takes integer values in $$ {0,1,\cdots,b} $$, [[AP]] can be computed in Closed Form using entries of a histogram $$ \mathbf{h}^+=(h_0^+,\cdots,h_b^+) $$,  where $$ h_k^+=\sum_{x\in{S_q^+}} \mathbf{1}\left[D(q,x)=k\right] $$. 
+
+#### Approximation of [[Histogram Binning]]:
+
+#### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_ap1.png?Expires=4759976336&Signature=oEvDuE11U0Xgq-AilHDKBeMp0MaX9ega9xE1l7qnyv7Q7SRX1rIw15N1eRr~a7gcHnWZiAsmD7nAoj8uzXFWIzy-JpgPgsZBXXbu~ww2b~2WR3QwuoCgJ1gWBCtrElNCE4QA9TRcwE-WCIFClDutpAzJgdvBuQU0i4gXBJU01IgEgAz2l4KPpbobnF52M5sXnAFrIkCnFlTLgY8h6Yw1QVn~eamslfCYywf~R0o8Az-V7CRd6oOj8PuYHJxfZR20~phs1A6DG3tpaWw7T5NlwwoMaHu0vOIZUuR0-cYAxPr8kSnvc5k4YIsMA-9fSznVhV7bbt~frJQbdublA2i~LQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_ap1.png]]
+### 1.3   [Real-Valued Descriptors](Real-Valued-Descriptors.md)
+
+### Preferred in high-precision scenarios.
+
+### Descriptors are modeled as a vector of real-valued network activations
+
+### $$ L_2 $$ normalization applied to get Euclidean distance $$ D(x, x^{\prime})=\sqrt{2-2F(x)^{\top}F(x^{\prime})} $$ with $$ ||F(x)||=1 $$  
+
+### Python Code:
+####
+```python
+class APLoss (nn.Module):
+  def __init__(self, nq=25, min=0, max=1, euc=False):
+    nn.Module.__init__(self)
+    assert isinstance(nq, int) and 2 <= nq <= 100
+    self.nq = nq
+    self.min = min
+    self.max = max
+    self.euc = euc
+    gap = max - min
+    assert gap > 0
+    #init quantizer = non-learnable (fixed) convolution
+    self.quantizer = q = nn.Conv1d(1, 2*nq, kernel_size=1, bias=True)
+    a = (nq-1) / gap
+    #1st half = lines passing to (min+x,1) and (min+x+1/a,0) with x = {nq-1..0}*gap/(nq-1)
+    q.weight.data[:nq] = -a
+    q.bias.data[:nq] = torch.from_numpy(a*min + np.arange(nq, 0, -1)) # b = 1 + a*(min+x)
+    #2nd half = lines passing to (min+x,1) and (min+x-1/a,0) with x = {nq-1..0}*gap/(nq-1)
+    q.weight.data[nq:] = a
+    q.bias.data[nq:] = torch.from_numpy(np.arange(2-nq, 2, 1) - a*min) # b = 1 - a*(min+x)
+    #first and last one are special: just horizontal straight line
+    q.weight.data[0] = q.weight.data[-1] = 0
+    q.bias.data[0] = q.bias.data[-1] = 1
+  def compute_AP(self, x, label):
+    N, M = x.shape
+    if self.euc:  # euclidean distance in same range than similarities
+    x = 1 - torch.sqrt(2.001 - 2*x)
+    quantize all predictions
+    q = self.quantizer(x.unsqueeze(1))
+    q = torch.min(q[:,:self.nq], q[:,self.nq:]).clamp(min=0) # N x Q x M
+    nbs = q.sum(dim=-1) # number of samples  N x Q = c
+    rec = (q * label.view(N,1,M).float()).sum(dim=-1) # nb of correct samples = c+ N x Q
+    prec = rec.cumsum(dim=-1) / (1e-16 + nbs.cumsum(dim=-1)) # precision
+    rec /= rec.sum(dim=-1).unsqueeze(1) # norm in [0,1]
+    ap = (prec * rec).sum(dim=-1) # per-image AP
+    return ap
+  def forward(self, x, label):
+    assert x.shape == label.shape # N x M
+    return self.compute_AP(x, label)
+```
+## **2. Comparison with Other Ranking Approaches**
+### Some recent methods learn feature descriptors by optimizing losses defined on [[Triplets]] in the form of $(a,p^+,p^-)$ where $a$ is an anchor patch.
+:PROPERTIES:
+:id: 5fbf59b6-f639-4d14-8bf2-780ef2f3b88f
+:END:
+### Triplet loss:: Long history in [[metric-learning]]
+#### Long history in [[metric-learning]], better suited for ranking tasks than pair-based losses used in [[Siamese Network]].
+
+#### [[Triplets]] define local [[Pairwise]] ranking losses.
+#### ^^Cons:^^ Despite simplicity, they are challenging to optimize. For$$ N $$ training samples, the set of [[Triplets]] is of size $$ O(N^3) $$. But most of them get classified well early during learning.
+
+#### To maintain stable progress, carefully tuned heuristics such as [[Hard Negative Mining]], [[Anchor Swap]], [[Distance-weighted Sampling]] are crucial.  
+
+### **Listwise ranking**:: defined on a ranked list.
+#### {{{embed ((5fbf5c9c-c6b0-4c2f-ad73-31f65deb8b64)) }}}
+### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_listwise.png?Expires=4759976476&Signature=MXEq4HWkrEbHWdFjNOpxNinuLyGBhXs28LvxKUEdYWhw4Jln~jikH4cPxMaE2jzn8ojfAijHsPQPEpQSTe-nFAwhqBObJQ~q~RlHRb3QVetkz7GOnTB92bTGcm-EDR24s5zvkogTtldvhkkVcFjLerryyoOhCOjHlL0spqEEMQbgsD-6P3TU8cPA8O637e6d8QK5-iPS7XCAm1WLkqmXr7X6Q3rbW53nFeJpH4bvJXlC9sPKRGV~u4~t05T6v9NkuCvh9GIHtTT96ZYhE3Eav4LVkp5o2unxuqtq-1FDYrPDMDcWiMkHavM21bBVsSqa2Q7CtuW6Y8T50tgTL-MG0g__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_listwise.png]]
+### The listwise optimization also implicitly encodes [[Hard Negative Mining]]: it requires matching patches to be ranked above all non-matching patches, which automatically enforces correct classification of the hardest triplet in the batch without explicitly finding it.
+
+## 3. Geometric Noise Handling
+
+## 4. Label Mining for Image Matching

@@ -1,8 +1,7 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBkanFjekxrQllreklZWFlU
-UG1CQlVNUmhYVUVkRk91cjBtTEY0ak9ibWtnCmlVQ2dLY3pDazNDQTV0TjVPSi9T
-TGNwQk80dDV2NGthV1Rld0xxWTRMRFkKLS0tIHY5RldGY1pnb1l4MjBTalRaVXhN
-WExJenRlRzNTak56MGQzTXg1VG82dlUKCGNssOkcE/IcASmh8vYSFmiRtCnAC4gb
-QdOcL7uwJ5BO0gCIsqr3HmZsVupCXXjV4a05ec+H2E1wJ4IKihldvlWKcVhsDxQZ
-zTbqoA52N0Z+/1zY+VL1Q1+uQBtUpwy0
------END AGE ENCRYPTED FILE-----
+---
+title: lie groups
+alias: 李群
+---
+
+## [[Groups]] theory
+##

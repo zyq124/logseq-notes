@@ -1,25 +1,16 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBtTjJEcmh6TlRROGhiZnQz
-UnIzWHFGaXRxVFlXYTVCWk81ZWZSeDcxRVJVCkZMdGszcVRZa3dDdFRsVldzMVYv
-RUNESVJtT01TZE16aitNZWxWemowYXcKLS0tIFU1Ylc1dVVmQjJNM1llWUI3VGlR
-RGN1S0l0SFJqbmlFR0I0aFBoN0E4Q2MKHoHZ8NYOcSp/9ZguMVPPhy1QmarzCQKi
-aeVXa88fEchrTs+HUuLTliIJ5CGv7auhxi7+1ei+nd6m1+qVFDbAcMo5twxlrBNn
-rIEnlf5Lnmgrypq90s6pskddn/wVs3d5qdShCkTfjByYn+FCju/65ATpYrL3ih0D
-I5aGpl4lKbT92VHkMRyopwpPvLXQf4q7+cmEHZ7VDs4MjxkVWCTPYEleV8j8k4cX
-p4hYWHxyUHFvJX2jFXVcChNX2FniptyLTdSw6Of7krxTsrZes0WwlKzSbpPKVXxy
-wjjeSLU6rLraoJ2rQF9Oi5qy4AePm/P+H9dNqO/ycwT3+e9HbF81hutxKOHT/+Or
-6GZYimuJre8BDLTqpX0pIhLznSbFc9FUZDK3xEypHxpcYI4r79vq3F2TJB51y+QT
-gIbgvIa0R65LqJe6Zz/hdanbpULdCRkHHTVbnvthCTewrCMGxBYEatYN2tPJ+YvY
-HLK9fzlet6EPJ3Jbyb060lDlS7fjHyAhEYgV6SKn1gW2dWPJFlqdg17mLK3JJuOE
-OB2i3y7GEwQo3x88t/gIBaeEeFpdQXleS4q5OKhbPUaXz3IiXHYSut9Il9wOfP21
-T6N2GICajsr3o2mj401jHNsuCaei83dsslU6VmYAA4D0hhiIVGL/uxwMLR+UNEWo
-Rl0Qsu1WKRnADonaYLEkiT/lY8QFbJfR86Y1GwHGxYIIR27EMh78ABAk5v+rBk6K
-wWQQkz2SPdtdhhhpN9LZWtfLSaJbNGTYGKISogIXNNXLqh+8V9uaJ7+YqJxvPKi1
-p1KUhF6RtEDlXSGO5yDJEtvIUyHG0NcnZmG9SxK3etF3JFtdXZdVwqRkylSwxRKa
-pwRYFhNaeoZLOeW8UTA/zGGznLuw8NoKDsOoLibaJdcaOw/1b8OHW/tBjMmYvMJ4
-lqU7M7vwgALcAOI1XXNCclpqx91K9T9i55utEqK+TnZbxWcQ2OEu05Oxd2W4KWy1
-rup9PDcJRMZVZ/mXtgo1flS0H82432nSIg4tYVKfDYHX76zqjogqilI19o3xRO+9
-PldESk9Q8Pe5n2LaHOmqF2WpD1wW6wgp14GmO66Kmc1kxEMmbLDsH7nj9I4MiafE
-gZHdo4n3ZCisef2XjgvAVHj7rzKWel7rrMVMGCgf1kKEzUO52OKtgCAPFbhTTN+Z
-JsLrTxzr08E7jTl7uog2eeuBgQbWxA==
------END AGE ENCRYPTED FILE-----
+---
+title: ContextDesc
+---
+
+## TODO  Read on!
+## Meta Data
+### #topic #Keypoint #[[Descriptor-Matching]]  #Cross-modality #[[N-pair Loss]]  #[[Deformable Convolution Network]]
+## Two core stages:
+### Preparation
+#### Patch sampler
+##### Takes images and keypoints as input, output $32\times 32$ gray-scale patches
+### Augmentation
+##
+## Architecture
+### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_27_context.png?Expires=4760064033&Signature=cfaDYxBux1BRgGuPh0CtWQBLHCBh07cZoQSqfDeWP9A3pw8GMGrapgVCHXHk-FuU9J5yaeA1iintX9ybBY-bi1aGt-IcnOlxzEVsNE8q~GXdUGnAHTb8Ge9BofKCbdr9hPJ9wVkbQ0-cL5U5nJWDLBowNY9GwYpZddZiibBf1aM-oEBGubovkDzv7QS~kbqNROV4nY6keyGMkRBbJEiBUynMneaEfNG-bQBKRQbw-OCHUTYS6Cpv8BSNCCQ65z5CStPLOI8Fg0vxRAfrFjkJklcNtQwLiQhUfBl-gQo6jOI1f~h~QpydAx0SDolDYStGsFovZbF~DmYEr01XeY3E0w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_27_context.png]]
+###

@@ -1,24 +1,19 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBIWDFLSkpwbnlyMlhqdGtE
-MzVMRkdoaUErdFFRWXNWWlhiTFk2ZGFxTlUwClZSUjhoNDYzNjhGK2RIbWUwcjY2
-YWd0SmpZZllRcHhsdGxjMGRqUVhISFEKLS0tIE5OeG0wbXIrSUk3dldjMkJiVEV3
-Q3ZPT3dnUmFOeThlL0RPRVFUcnoxNG8KLN/evSWdotBQLGTAus3FGf8XbCnocdDq
-806UJ8lkXWH4vnbUnJlEZem1n69ypfJF8Q6hnis3rreemxZuEN2L5PSs5tQRIhLD
-Qn3Wjq2cX4+lM25SUW0JYnGUubjk8DlBr5hkwWn/tLgQAdjw7Vrxe5RHIspSIz/V
-ZXLFiOYLkGBjlONF1La8TI/UzsuxKv6xnv6vGQ8X0O67GmzyW6agxquQJr0+26fn
-B/RR5Mn9jcCEMvt1xBH+3izmeDnkWLOO3HVCen8DgxmBTJzlsgZnykJqFsJJg8qb
-v/ZA/u9AzWi747dKt9+rA8wEkC7ADJs8mI7iAiQGIiVSIyukNjXNYYUO+85zbFkv
-IomN1dCR65TlTbGyl9McXsLkGT4H6J4XxX6jD75Br8AMVKGcQC0R/NiwVgYkjbaG
-9QkofVqZs4h0pCDBLLG0puxbJ96yh0dERhDAzgcv9JrBObX7+F3sKUUH6TxUJnM9
-JEnFJ+IX/X+j7CUqoKbyKY02C1xZDG0i0U5v013r7uOPSvuM311Y7Jrrg1GVdB0V
-mFB8Uou3dLtJbh6qpAqRAPAKpZAEmL1FuIVhQ/csg/bd+Dc7DXGURrNtxu9XPhOF
-jL9pBtmbXW4yKabpgAy67CNhrh0N3Uk9OWKKtjd4qCDvw3o/m+e8L8Mez5XHSczJ
-dl53zwxzEikQmCsvqBwMFWS27hhpdikrKJRDuUYD3joT5KYcE7yhaNrPONrUFH6e
-w2uy3paORH9QlmyHktsWlyZl6ILl1DCx5VvkTMEOdJT4BnrPnBzfwHdFwWPEvOTW
-HysoHIctLWoWBc3ZJcmfDtbNZBEK3w03ttwKEta7wJ0c6QCepI6XwOS6kPgxtypH
-XNa4cgQjctxMhp3ys5+jzGLyi9SOTLM9Dqi/YWC6/mZPId833NqDcVyOvDKUFyeC
-ICS4sO1vajJjHdGkB0AmO6iaZyBGZzwcuUhClsmEZtNkhN10vJ/QqzVYtbswnXZ5
-HFEif9CbYY83tRgcRTy9GCGaVJVA/q/bkf/aURH/09ipvZERRpStqNVbgpTPU/p9
-dPNLBuFyqqkTtWMhKQbMr/Ej3tEkVYjzh9Z/BwGe9kBxMiE99AanLjdaZov9/x0S
-OUYshoCsWR0IqHcrq7j7BYHMjb+AmGbiE7M=
------END AGE ENCRYPTED FILE-----
+---
+title: img2col
+tags: [[convolution kernel]]
+---
+
+## 每一步的卷积都提前转换好放到连续的内存中
+## 优点: cache性能好
+## 缺点: 内存占用大
+## Transform the input data of a 3D matrix into a 2D matrix
+### height, width, in_channels -> [ height $\times$ width,  k $\times$ k $\times$ in_channels ]
+### ![image.png](/assets/pages_img2col_1611283103546_0.png){:height 269, :width 602}
+### img2col输出的行数(row) 就是 input data [[convolution kernel]]的移动次数
+#### out_height $\times$ out_width
+### img2col输出的列数(col) 就是 一个convolution kernel元素的个数
+## 这个操作并不是[[reshape]]!
+### 当moving step of [[convolution kernel]] 很小,每个kernel会重叠
+#### 这时输出2D matrix 通常远远大于输入的3D matrix
+#### 冗余内存单元 -> 空间换时间
+##

@@ -1,30 +1,30 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBkM2dWendVVVZQZGtubmFH
-V2YzWEVNTW40d1Juc3RWclM2V1ZyY2hxTkRnCjVOQWhBWGwrOENZeGRSMS9JWmFk
-QitCV1c5NStvV0kyVk8xSWlxV0FaV3cKLS0tIDVMSDhReEJ6aEh5aHp2WkRYT2xJ
-MDEwaVlFMjJNWmVjNVJINW1sT1J1M1UKGJ6VDOlZngZh8vk6TeGDfOjurP94DlKe
-2GqG7YUz5u7Dl/+/8LBvgp085ci1Rvg45se7mfbrT41Rd71HMKckOtYg8VEXmppV
-B1JuOTo5/jF38Rjl7/v2b9N2gruyz4UMj3YuJfcPrWr8/x1TkCyEZIJpPeR/u3/q
-Q+hseE3IG4qpsrLgpeicEzYqLcwTwPZGZtmDKIAHwFAPjE7WAqSCACQbZlVYMVCo
-xO/txoK6qczLGuHLZ/yDR27uWZBI+XqvK47vjFfy78GdHEP1m1FsqPNZKhOP+iJr
-cJQ5ezb7Aqd9Oh/rp5rfAtlP7ibNGZ1dBa3y0I6+U0cDHxzUUGpl3bhbgbwOYZfG
-39p7gi3prZ1Cb5W8uuAD6K8HvfFhQR8bg2EYbY858h26MAoi/h1YO1HQyGTSg5H7
-lRklEV9VHasy+j72ztx0QpO1NS+l7j0ZvjPwPOjmhdj0+x8gimYhy88pV9+/7imY
-ztEKgnEhwfl+YXwc4mpHzIheZNXaQ2jtszdhDlcyD4BQ4tkkFrnlOrASvc49gRqs
-bzQDIRq3UPTAwbRihUIWcwF2VeGMlaGceLdj+xY6Ov8g0C+qefHoShsZvhx3GPgW
-YRvBmvRtnyGCiv0gq28Xegb8B0wYxhEDl9k4CXuibyoeu24xslbSY7fkoHoOx6k4
-tCl5+jGU2gz9E6SrgRpJa9wlgDgm1usLRmAQMqe+M0UJT347AEPZo6v4vhECWirp
-g8vVL93/T+Jufl3YeTq59na9QfHAH2Cjk2zc7ZxBboLXKNcvKyq6FZDwlYHQ3HDB
-iiDoR8jUk5PcBXjNC2kKDiox9Tv0beQbsX/mHlyynUvESHaND07HXBTY7PDMKhkT
-r94G6XA8mcK6OJsfEPIlKe2IkWCNMSCWKZK/pAl+59ZcC9ciUMcLC81P3zPwRASn
-KVNAzDMx1DJqan843ieM4erqW5qIw3rs4ZU9hnOhpwIFSvez4Keqsgi1SkPR6vI5
-MvI3LXIK+oHCl65uBakFgiprW/AB7LLa7iMBwx/Rl3AACNoRzBEkAOo3SvQkqZK6
-9qXtbvtGOHcToPmvmz+YdehGnit7b7whvmjoLCF9/T+FZNj2NtvXXHrxrbIk081L
-m5s+2PM4oQeZjABF0QrOxwVFJ4B2DkRZgj7CUj+y9GhqU1GVw/EogQLnDTtQPOss
-9Y+pN2xyeiIBm4e8YB4yJ0wy99L1OIYF0OAkftjeJ6PeYBozHFoFBypYiEQIlxz5
-rvmAyc6yY2Ol7RDUHAaGoWJFU7qQ4NIPZ6Y2ld0SzuK2RhEyHYjLdrXR73NaEuYT
-8arIHi0rlMFRmI9UoU1fOpxR0JvDY48UgWd3YFsv8p70+7wO2KgR7d+rAh7/Qdes
-E///F4XfHBYCJ2T6bW2UeOg7LTifY5Iyo3xTcVZZUBzSmMARS44sqO3XK7qNRFnN
-HuRkChwfRuSLpc1gztln7XTEpiI82DqSUfVdOiPvqZXxmQE60LPG2PLP2SghZXBY
-H6r3qwVoXL2I8P0qrOA7sGC2SV44zeauceqzEyqmLCXQlZw9Jw63odtP8PsSj0SK
------END AGE ENCRYPTED FILE-----
+---
+title: convolution kernel
+alias: 卷积核
+tags: #滤波器, #信号处理
+---
+## [[cross-correlation]]是一个衡量两个序列[[correlation]]的函数
+### 通常用[[sliding window]]的[[点积]]计算实现
+## 输出形状由输入形状和kernel窗口形状决定
+:PROPERTIES:
+:id: 600a7b52-17b9-4f07-a16a-bdf330314886
+:END:
+### 在2D [[cross-correlation]] operation中滑动
+#### [[sliding window]] 从左上角开始,按从左往右、从上往下的顺序，依次在输入数组上滑动
+:PROPERTIES:
+:id: 600a84d5-8444-43c8-8f1a-1715fa57a135
+:END:
+### along each axis, the output size is slightly smaller than input size
+#### we can only properly compute the [[cross-correlation]] for locations where the kernels ^^fits wholly within the image^^.
+### The output size is given by the input size $n_h \times n_w$ minus the size of [[convolution kernel]] $k_h \times k_w$ via
+:PROPERTIES:
+:id: 600a7be5-e4d0-4683-a21a-005a37507974
+:END:
+####
+:PROPERTIES:
+:id: 600a7c1c-c6bc-4cae-8057-9f227c173c95
+:END:
+$$(n_h - k_h + 1) \times (n_w - k_w +1)$$
+#### Two [[hyper-parameters]] to change output size
+##### [[Padding]]
+##### [[Stride]]

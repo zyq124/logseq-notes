@@ -1,19 +1,16 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB3SDNSTHRvblU3b3NMTm92
-OURVSmRXTkdzbTAzSDNoNzIyRzVUUmRVUlVrCjVLc2sxMlZpdmJUZk50NW9leUho
-TGtPbkhDSmZKbXdOa3VqOGtFNi84dHMKLS0tIHVXYVFVNzk0RDVFUHVkbGlCQ2U5
-OEhWNWhwZDkxSUt3YzVaZDZ5ZUpQRncKcB2B4WKCm2a7+WG/B2MFHCTCbEL7NZyT
-OjkPVOwRuSEt+Va6f4+SKyuzz5WrNYF8DXK64H75juWp0OQkrcM2I/bqmOI5grUJ
-RscpOdNX0lHuqRfX7wGtf8DGm+gAKnYCTR1Ww6pY8j34sEVkwUqXeAkQAD/IE8Z4
-ptOE7GvCMAIFl7ZluKCzwrt9x+KMKAx36/ESMcyj5D37JmkKCygPe/i7BtELsEZM
-yfqo/+Rvx/4DhL3WUImq7x8yKz1Mg9zqZ0+dmFTroG7mcAEfHSN/GX44VJMCWmHu
-K8H7u2LJ2j6ToPk9bnSAOKPXEupjXp25qIp7SgaWOJLXyUWKpLiOLoKzg9ns9fVF
-N5eA3SMhitf1VFedhC2SjRrN47bUXAWe+GT1hlO1997P6A5v/b9ma/FKDDdVTMc2
-DFX6GHG3xSlS4WMvNOOGAvLLYnMeI2C9ECh25tucQMGnJULLp6jgElrM9HXYx1Yl
-a8WsxEAXaGD/NZ06pishxYUiyOxA6fMN6j1jxtFXAqrS+aKuRdTIwuvIEhKUiwr8
-5T4AEuvLMPs4J3CFR8LTEJhDWmGEgVmYGFaEFlgyiez2Tj9IufSc1G8/QAVSemm4
-8Fh4wevstYoV9Yd3+3kk8AeV4c0bZ2NRM+gnCGDWE+Wy8XucTanL76kCv/rOlfdx
-AJB36l9nI7B3nNdIgQcRLcfvsLuVtGrYgKEQ1RLWaPGQ0NkkvUOH9RbHwjpEJG16
-mUK+zep1J0V69p7iivTNJDujANx67mPlJgcFh0XYmYJt/G3/gZjubQZFy6NTDenv
-RjQC5yktjkqGKJ+uu69PwrdaA1QwH9UNp4w5fvMRdtug2hQ=
------END AGE ENCRYPTED FILE-----
+#+TITLE: Learning a Neural Solver for Multiple Object Tracking
+
+** A fully differentiable framework based on [[Message Passing Networks]] MPN
+** MPN
+:PROPERTIES:
+:heading: true
+:background_color: rgb(73, 118, 123)
+:END:
+*** In graphical models, we have nodes and edges which are embeddings of the information that we are interested in processing.
+*** [[https://miro.medium.com/max/700/1*VENR8NB-93X8tYdP20u4bw.png][GNN]]
+*** there is no concept of a layer
+**** so naturally layer-wise processing of information is absent
+**
+**
+** [[https://miro.medium.com/max/600/0*BfMh_HClkSHu97_Q.gif][Animation]]
+**

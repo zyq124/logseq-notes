@@ -1,75 +1,91 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBDM3VZdTNMREx4ajNEY3Z6
-cEZkcGNuN2VCMnZXT1RKOEtQS2NGNkpBR1hvCmVRcHhyYllBV251N2NBaEVzSzhT
-RXNIK2l0c0NIblRDL2t0VU1aUWZjVzgKLS0tIG9wSnY2ajc1bGxFWERYeFdoUThI
-ZURjSVE2M0lET2tiUXZYVXUvQzE5aGcKVx4yvXgkRhN1wuRSyHG2k+g5rrcqgHvr
-bVkARLhZKE6X1mUi1HImJtcdjnvgJzjGgSADCgQqpL83Ly1SsV3i/Vp269FeNAA2
-9Fp8m2w1cB/xUNh0CWWvDV68pNoLEkhDFxDtMhBRulHw7Kq7HpSkzQaRiDUU9OBZ
-HK1gArNCU3UK6oPdOyKK0OeVZlj7lWoVFn679DzR87tLpYIiEV7mPc20816uuD5b
-HLZC7dQYMZVYrcwJvEq/dG/0R0o3dAemdl+kacLiQnSjzdXfUyd5/BOibGAmLMr4
-AxCsALa7sThh42alLr2fW7sW2H4VIezF6u1Zu+9uXrlQLkbd3H7ZP7KY0lXjnFyg
-Um3eFASGSmoDGOQsAIjo/mntOIqiZH7dk1gFE4YktxQ5aR88F8qgCLd5GrsOxuAs
-oh+s3zUL2s5dsP8f+QOOjFJrr4URy17VGY4BHTgu7a0L+VPL0kAZJcL//aK4QfZi
-8JbNDVsEMV0fqNaMhIqJlojpn8pwwmCfkZu8j0fJFWwxkTCEbL86b3VhEsFjWSn4
-DmPxS5G5ae5W3z0fAn4J5Tk5lUqQANHDu2PlF0xZmRwD6NhQDNo4LzyIzdS2FQcp
-+ju/Yl7OfLGoH/ptp/lMuXigbakW/iihBH5YpK/h4sA5SKsYrqxEmoNLuCc7tCIe
-ZXGhvAmrPKAlBDtLI7Ma6gtxlFWdfkJBL8AVqV4Xnt0vkJd2y8coV41OgPb7Nu88
-hLSaVzRAbpigetPzoi9UXioa0hrl7ucd6Fpn2i3++zNU4wH8+8VJ7OVaR19r5fD6
-zbQzI6jJv8Eri4jek6N0NCWCBe5Y2ySCt6Yip4QqiVq8WJdmos9U1pv+sqzAWFGI
-rkzxzGNldgmOodGp2TZB4oHNnK3dricQGEvpgRO7RxrjHv149lRogVhQNDIj3QvG
-/u9DFJGhHVOe3xqraaR6r1VnPFSJU3CEi04F4bmayi694z1ptaLYGRwCzzmLhRBa
-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
-jZ2cuUkRyBqkxIs=
------END AGE ENCRYPTED FILE-----
+---
+title: LISRD
+public: true
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### #title Online Invariance Selection for Local Feature Descriptors, 2020
+### #topic #[[Keypoint]], [[Descriptor Extraction]], [[Descriptor-Matching]],  #NetVLAD
+
+### #code https://github.com/rpautrat/LISRD
+
+## Abstract
+:PROPERTIES:
+:heading: true
+:END:
+### Focus on descriptors only, use [[SIFT]] keypoints during training to propagate the gradient. 
+
+### Limitation of feature descriptor is the trade-off of generalization and discriminative power: **more invariance means less informative descriptors**
+
+### ^^Meta^^ descriptors encoding the regional variations
+#### Similarity of them across images is used to select the right invariance.
+
+## Method
+:PROPERTIES:
+:heading: true
+:END:
+### Select the most relevant variance for local feature descriptors
+
+### 2 Steps:
+#### Design a network to learn several dense descriptors, each with a type of invariance
+
+#### Propose a strategy to determine the best invariance to use when matching.
+
+### Architecture
+:PROPERTIES:
+:heading: true
+:END:
+#### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F_mcGOcnbPI.png?alt=media&token=4c1c25b2-889c-4baf-b40e-a99dae869e61){:height 369, :width 727}
+#### Inspired by [[Superpoint]]
+
+#### TODO Computes 
+:PROPERTIES:
+:todo: 1606460566722
+:END:
+### 1. Disentangling invariance for local descriptors
+:PROPERTIES:
+:heading: true
+:END:
+#### Two factors: rotation and illumination
+
+#### So there are four possible combinations of variance with respect to  illumination and rotation
+
+#### the variant versions of descriptors are more discriminative since they are more specialized.
+
+#### while the invariant ones are trading the discriminative power for better generalization capabilities.
+
+#### Training losses
+##### variants of [[margin triplet ranking loss]].
+
+##### Dense descriptors are sampled on selected keypoints of the images, [[L2-norm]]alized to compute the losses.
+
+### 2. Online Selection of the best invariance
+:PROPERTIES:
+:heading: true
+:END:
+#### During matching, explore how to pick the most relevant invariance
+
+#### [[NetVLAD]] layer integration
+##### Instead of naive approach to separately compute similarity of different local descriptors and pick the most similar ones
+
+##### We need more context than single local descriptors, and need be consistent with neighboring descriptors
+
+##### So extract regional descriptros from the local ones via [[NetVLAD]] to get a meta descriptor sharing the same kind of invariance as the subset of local descriptors.
+
+##### Thus having similar meta descriptors means sharing the same level of variations.
+###### Neighboring areas are tiles of $$c\times c$$ grids.
+
+###### 4 meta descriptors per tile, then [[L2-norm]]alized.
+
+#### We can rank the similarities of the 4 local descriptors (by scalar product)
+
+#### Soft assignment (softmax)
+
+#### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FvReSdGM4pv.png?alt=media&token=87a42d62-175f-4b0a-9413-b81d5b48d8a7)
+
+#### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FNhRALW9YgQ.png?alt=media&token=b875b963-4ccc-44c2-b492-757f449bea76)
+
+####

@@ -1,44 +1,87 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB6MVNYVEVoYUZMb2UrMys0
-cGJROTI3ckF1aHlvVmZITGc0czE1cGJXV3lvCmNUdXUrdUdTMzMwZUpabk5PMU0x
-YUpONGFtcEtjUDZZZzdWd1ZRcDRWN1UKLS0tIFdUa3NOUGZySGtVY0pUVGpNNFFJ
-RGhjY0xEZ1V1WWhPcmlvNHFGZUNOaG8KmsS95jCcv8rd5h76aJlkKw4c44CtFKmQ
-/VCd2RiX8f2jllBoOiUB1x6/UyLh6Htr2h88uMr5stL5uBnM08dQ2uv/0F1ImKP6
-EAb81Y9HtXFDvMc6+wG4mAtnrZFf6HtkSeM/KcyNAuPQgx+eoBopqV++wVD2sRaM
-Zfag6Of2FaBg2ct0TMHT7J1iWS+bLsWASpQV8RJnSH5U+f4k+CYL1sMrEUXsfA5R
-44xzhNDBnEYxtvrVBN2APA4rbbTnnOzUNBtCpJwD+EpIKwvKJyeLcOjMM/a7N0zC
-7by0gs0JNfRyo0jQERS1UVXZGacPfCukGmeHDY3v1T+F15GEOmXC3KQ298WRv96P
-0uMZNze5zvt7AbF/KjHSvIFn7DnxEtq8LTEnAxTBVGzaYRhvx81lHYh3K/fQeUvm
-JEN++M7c3zg3EQCG9WALRaQsYEmd3HoV2x1NzYb07pdjvIXO8ljfC8pNIuUNn6zQ
-n/xcmXSgYdc9MecjX+r4WKsL6NNBgcAbOdFf3BuguHVqpGo8AwIIO70FSztMzShO
-3Zwx4zV9ooaVxBKV3VlwgMjF71iGAkMrb7MPuRWO/USLY+x03gtcV4Wk3nW+P2x6
-M69XGfwrs5v88HMT9IhDYHYZjd4saSQAn4EaWS50bKrqmiW9D+qeXlriK0u0DhI3
-FfjIzYv8Dt83YWSYtOJp6RyzyLvXKAnGAWAlmMV2OzYM/PRDh3excyr0LuTBjY9M
-hd0C9p9jYgyeufcqpoWfh7GiFZPuj55+LD8MtLOTl+3mtayOSnRvr4edzGkiexgH
-kLyT+h/SyfioT6EGhJmBO+n8wyJ6j1hkPgF6RmcxrfOkMKWdw10Q7ecpFSibLX2X
-cfJS5rars/fADlkZXvVSeUNKehiHI+QN0ruQbRxRM3LETOMtP/Y/leVIm6ytDB0H
-VcdMk81S7R4aSnhZigrLKIw6SQFx/+J6Yla4zrL0JtRIW+jnPsDE5FQucr2EaoAV
-7/vqa2Eu9iASuzvT8N5t64+d/lXzqoStpj576/ZRmicTIPDwSQk916RFeMw4Nogt
-jIiyzQahi9wDYfV5nWD3Zm6s0UhNtZpYAtFT/yi+wciMygHszTvCc4ZGi2lo0IFx
-tRrDGGGJjaPRa3tflkgm5DAaYJ7BmaKa41q/lF2996xIevFbkK1FssjOssZ5cQtU
-p4S/gpbAT0g8qH89TyyDNia/iwyuwCTV2d3f4JO+9HobtwzzgpCizt8CnkAT1pV4
-pB4B/tOVNr03IjEaQwRThjEfVDpKrwGxX/cXP7GxS+u7eLFpbX+O3kXNUlu+tVMt
-cQgjNBK4Hr7NWEnoCXpVwCfhelLXM8YjXmXdEKNYAMiUMJ4dNH+N6vnBixUwt5XN
-AnhbvQ1ooRJSixr9hIvsV34YjWY0QcP1g54/dYJeBpNox2nbUMd0PeqHQ2RHR89h
-8S5RvUOW9sKLRhk1gyhZKFrX0CC7ZrAFim8xsGrbBLBEo6JFEhpr8P0hDONxnm3z
-62TSfohgqmPWSl6pzJW3DMbxXD2ld+an4cSsRBflNQRDvul71L5BnGhTf0Hixps9
-Ee6+IGv33A3qVi16F+KdHoioSDKiK2km260ebaq+jl7tcaS6tbrL9vf4W6mlT8hl
-CukATC7QCgWZ3o76KghlElKG5dQjdV4eCSAJ4/kG16NqFbqnXww+VtwqfWrwHHp7
-9bIJFZ3a2OopyK60X33bxxnYdOciUO+805u4W9tQGgUIsuyZgr8c+8ADcUkdHS9M
-MUUzd3JlnXmHzU27AIL+MoNjG7POlIyz+Ul06spv5zhCPo9B6lDDlT/V+xP9TcYk
-v3PnSegy8wcUfSmZwUe036qxtl5i+xXb0jsOc5RKV0DDpExHGJIaUR2BKIdkAooo
-YBmHb0PJQDgM+hVNdzwAhg+vg+/CPa/6taYCLRY7/getVayKmwKRbPWbYUzvzyd0
-/rwqUHW5M9MC44SSBx+QgqGN/dFu28pTbltYg6rUNKXssPT0/7JEL14yTms7xZwK
-XNkF21bvoufQSy1vNS8JyZwsZx95gLtvB3OIe/6DjGgmRRN/gitvegZIXKDrYpx9
-vUR43X04ve1bjZYr9pOb/4PoOVLM8gRiRISUy08EpAdzPKaqx7JQxAb+deN+j5nC
-hWsRG9vmIsnn6g+Q9JURgNp7n/4Ur6vbnXXga4eUPkZWb0sYpcfYyueZk37vOYWf
-caszt/Y/ZhIcW9zybBY9Cdk394aSIemFEL0U8vi/sNpISjPB1gUT0h5kkjIwd0kq
-2pALu4x8BvebT4/pYWl+cXV8hc+DNzwFN/o0eobxJu8bjRt9bDI5JZ9Q/nNFW/5t
-ZYeD+5hv6uiTQaAZnkWy3zxogdELOOEb8j/ugD39QzaQ2sPFY1tbV2qcxjoaNusk
-PsMsMrOa+MXkXV/4q1lOE6ln5t0q+IFqATnJMq6/d4dU8o70qQL17Q==
------END AGE ENCRYPTED FILE-----
+---
+title: logseq
+---
+
+## Query commands
+:PROPERTIES:
+:heading: true
+:END:
+###
+#+BEGIN_SRC 
++BEGIN_QUERY
+{:title "📅 过期DeadLine"
+:query [:find (pull ?b [*])
+:in $ ?start
+:where
+[?b :block/deadline ?d]
+[?b :block/marker ?marker]
+[(< ?d ?start)]
+[(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
+:inputs [:today]
+:collapsed? false}
+#+END_QUERY
+#+END_SRC
+###
+#+BEGIN_SRC 
+:title "📅 临近DeadLine"
+:query [:find (pull ?b [*])
+:in $ ?start ?next
+:where
+[?b :block/deadline ?d]
+[?b :block/marker ?marker]
+[(> ?d ?start)]
+[(< ?d ?next)]
+[(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
+:inputs [:today :7d-after]
+:collapsed? false}
+#+END_SRC
+### 查询所有包含特定词的标题
+####
+#+BEGIN_SRC 
+#+BEGIN_QUERY
+{:title [:code "Pages that have \"clojure\" inside"]
+ :query [:find (pull ?p [*])
+         :where [?p :page/name ?name]
+         [(clojure.string/includes? ?name "clojure")]]}
+#+END_QUERY
+#+END_SRC
+## CSS tips
+###
+#+BEGIN_SRC 
+/*Supporter colors:
+https://github.com/mrmrs/colors
+.navy { color: #001F3F; }
+.blue { color: #0074D9; }
+.aqua { color: #7FDBFF; }
+.teal { color: #39CCCC; }
+.olive { color: #3D9970; }
+.green { color: #2ECC40; }
+.lime { color: #01FF70; }
+.yellow { color: #FFDC00; }
+.orange { color: #FF851B; }
+.red { color: #FF4136; }
+.fuchsia { color: #F012BE; }
+.purple { color: #B10DC9; }
+.maroon { color: #85144B; }
+.silver { color: #DDDDDD; }
+.gray { color: #AAAAAA; }
+.black { color: #111111; }
+*/
+.tag[href*="/c-"] {
+     display:none !important;  
+}
+
+.tag[href*="/c-"] + mark, 
+.tag[href*="/c-"] + .page-reference > .page-ref {
+    color: white !important;
+ border-radius: 5px;
+ padding-left: 5px;
+ padding-right: 5px;
+ font-weight: bold;
+}
+
+div[data-refs-self*="c-red"] > div:first-of-type .block-content {
+    background-color: red !important;
+}
+#+END_SRC
+###

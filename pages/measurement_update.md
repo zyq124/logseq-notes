@@ -1,49 +1,40 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAzT0dLbkdhRDAwZUszZXpF
-UWNLbjdYNHN2SUxKUUJleFdrYWVITVRpSFc4CklEMExoaWhrYzZwSFMyam92bVdU
-ZUltUTh5L2I0N29SajJBRlFuY3Q1azAKLS0tIFhNQzl2anlWckhyMFZyMEhwbHRY
-Z3VFbEo0VG5OK1pqZjhJcUh4cnBpUHMKI1a1p4fd5sNRKBEwVOsVE6JURhL8xpb8
-TBXlBHO3WIcENc/QdLgUFWJ2co0HOaWl6GrhET5hGYBH47hY47s2Oav/2qyTrOK+
-zcrNKIIRFpgWXWqY9NYnFURb1vnRLCgNLmF4vlTX5DJ5HcyrDZ4RjEcX5zMTF/yk
-11ZRSaauD9srk/AEMiJjIrY3Mh5AWeJOqaqkFX0ySEgzIB48lA+0KSMkXpNn0ylb
-gH5WARxGfiE/cd6DV3KtROscsxL74wcSPTbwMcA1A/ZFBP+9ecF1dLk9ktwpeuR0
-4hBROm5dqWgDhi3PFlW5qmJILrpM3UjIQhL2CVaCjRGrYIxOo2dSE78R3+c73wwS
-iwJ5HQKDJ4yFWwE9NHqoetmqGrCt44+9ydzlxgm10MBwEcsUpZVTUrP+SaYIVpUP
-nzMJpH3Dih8eTupu/nxbLvG7XfC78y9UTz3saphsYsTHl02klEiNpmSn0wfBkwGY
-+yIoy8R/bucmMSnbMaLmnHEyhkTWsiY5tVD9EdLxheBh7wGnWJ4yfJLCe1YUVQ+d
-PNxumqGfdkeie08u98/NXg/p3L3oC7KMqVZlAIPqET+dFeSSXzhxPBr8gNdEpIhd
-gSjnAt0c+dA+rSYIXyImPuqBHWz54j7bYtLrYkUIvgPUIO4VVnssIIRzz2feJuJo
-D2lWJYfHz05XwJp3nMwF7VY2AbNiOi5yL1ndTb6Aa1c/el2FXnB5PqhcCOqoDYYd
-dJ0h/VJhgWRffSwM985RkVZug5Bwal+T9uQW16GlNxW68wySnTBi3WyJLJI4ygyj
-Qh4WYS0bojV8DdyPAva4FPGpZ9FpvCNJMfzIXKkZtfYIdLsPgv8wdI5EufsP7GC5
-RQtwvlZqtJTGiRzoOXHCB/Eq1YSZVKnB/FVPQx/PaXhJOuq99xWw/qt52v+cdNB6
-cnbvomNUDeggwoE39p7HtRWjJDus4glQyID7wm79zioG5dubDk8BYtAHVJJXd7kQ
-Yd5WTvJpGq/spqKtmvOKARF0tsjgiVoMKRNJkaT+h0Qm9aJaRdGzpckYTrSksykq
-NB58eAdaFmsZx+fcrEIUFF9ppg6VWbRH5r65M8cy/Sn5OcVQGrBxHdEJFiwsgoa9
-7URKkH2bSmWlH3AKJfkQte+gXgxibUAgQzekPdgt+9xDfd7htfZu0pYAgGwr5pER
-2uscrX0I+davfJ1inLmLCt7/nZz8Q2EO6nvh1DbejYL3YMBuJoPEAhXYC5EAHAex
-7jq9+pd9qOQbUGXG6w8FSV3PDKnWyao3WxyvMzipIcKgGs+ogTfdKnJi6NKJ5NwB
-gdbalfGoMifsF2ve8x5rWaszrIEviiMXmPaTVd+vjvaS+B+j+Z87ni1bY9rpw9n0
-qzsDntb1uQ0IGqNzvt4JCiA/et/VDkHY58hSbQC0SHMcq6t975aSpSMlF6OLYUsW
-4lANcJ0oM4Z+crVg+5bFVU17vqC6DIDNXIEWDLpIsxn8n2uH8HtVL5NVjibdhL5y
-Le7f8rbSbn/JfQiRUijvfRTl5+5OiLVZo5sc8MmmMQEmRRSGfcXyoYr0MVuQtLT0
-Lj7Ijtoj5dh1BFep9FziYieLL7O4Fu4O8S8N2HeTjPeomQI4Rit8rLTzmqBa94GW
-wzNaGrnPMBrPyWTrtZes2Q2OgU60dP52B8vXXAjtWmMYIQkXLObH1pD3qSBkUn7Q
-uaDiDzOckK6GoDjE0r9ifIVI7gIs2xeeG4Jq0oymW+VStBvio75xp8+KHBWYQXO6
-ePXrhvN6SRuTCB0IWaUAcT5IurcaBd6K3NoacA3meNqUqUQkG87m+OSgpkoe3TZl
-/FRlBwtHgIK6UV1JY2MxB0IK1232m2x2bFSk6/N2dMlECTpcLT6oRORb3Wy98YQs
-HH+2AwzkG8Xy1yVZtX2XULfdI8q1WtYL1blkGGixBLC2EbfzzCgYKrHR1ekhd2B5
-W8nCkHISbYi+m8+ma6P9myZQHQv+PLAvaIGCacNMfT1zU7any0t8KAMkwlrisTy3
-+RSee5RcpFxAHQGypYab+KhS7IBVTiIx99L4YiQO/wmoUgVp3tVJfAim4mwPt74u
-b9c27IH2BVWOkOwDtADSFzsSJFHl4cQ/cIW5cRaF/Ug39cwOjptVMAoeHZBLp1HJ
-NKb+hrxGF43H/nfDOveHy1ApDgufAizPY282t3taRZRDnFbt0j+r93wukpYhGC5g
-TgbMDjPqTuMoZS45kRc07/kcTtfQ9VkRNAhEWctYr0kGQaxb+G18lCnRYA8o63SN
-IFF55h/e9P0OrNK+oVhMQRJeuZzYp12SzA8ri/b3ls4/1u6EilpJsg1d1ptHwQGe
-b17qNB2v+ICU5dGGfm5bcA14syfBjbMx1MIk6CW05KfBJo1rVxyOMtU+tPGOtQIP
-FcW+XJEglIZArVPBfF6PHIOAYTW+goasqu3yTOELWAWaUYj43egsdI1FfgNmsDBG
-sOWH66r7xZbidSBqw7swqfNvqIHDOlOk1Yq4LVhredvbkRdeANV0vUT/zTumA5so
-PE7hl0OPFOw5vrVJ7DhSct+WDI0jH8HA967qb071rqyi/uNsxwg83jjlP2rtUKMU
-8zJJFSWOj86k66x6+/Mj3EHw/h3mjsoVcaowQaIa3syw6IKD5Yae9b/dxTaJSIYq
-GDNFnGPGxVFS5Befq5/zw9sV7L4rAkAkCy4EYXboJxM8FKpv6C66se0KqvdBQ1i0
-DnYQ1gHhbgldqIS8tpJaq12oMcU=
------END AGE ENCRYPTED FILE-----
+---
+title: Measurement Update
+public: true
+---
+
+## Minimum Mean Square Error (MMSE) Estimation
+### Consider the following static state estimation problem:
+### Given a prior distribution (probability density function or [[PDF]] ) for a Gaussian random vector
+### $\mathbf x\sim \mathcal N (\hat{\mathbf x}^\ominus, \mathbf P_{xx}^\ominus)$ with dimension of $n$ and a new $m$ dimentional measurement $\mathbf{z}_m = \mathbf z + \mathbf n = \mathbf h(\mathbf x) + \mathbf n$ corrupted by zero-mean white Gaussian noise independent of state, $\mathbf n \sim \mathcal N(\mathbf 0, \mathbf R)$,
+we want to compute the first two (central) moments of the posterior pdf $p(\mathbf x|\mathbf z_m)$
+#### Generally (given a nonlinear measurement model), we approximate the posterior pdf as:
+$p(\mathbf x|\mathbf z_m) \simeq \mathcal N (\hat{\mathbf x}^\oplus, \mathbf P_{xx}^\oplus)$.
+### By design, this is the (approximate) solution to the MMSE estimation problem [Kay 1993](http://users.isr.ist.utl.pt/~pjcro/temp/Fundamentals%20Of%20Statistical%20Signal%20Processing--Estimation%20Theory-Kay.pdf) @cite Kay1993.
+## Conditional Probability Distribution
+### [[Bayes Rule]]
+### Gaussian [[PDF]]
+## 3D Feature [[Triangulation]]
+## Camera Measurement Update
+### Perspective Projection Measurement Model
+### Distortion Model
+#### [[pinhole model]]
+### Perspective Projection Function
+#### The standard pinhole camera model is used to project a 3D point in the camera frame into the normalized image plane (with unit depth):
+#####
+$$\mathbf{z}_{n,k} = \mathbf h_p  ({}^{C_k}\mathbf{p}_f) =
+    \begin{bmatrix}
+    {}^Cx/{}^Cz \\
+    {}^Cy/{}^Cz
+    \end{bmatrix} \\
+    \text{where} \quad  {}^{C_k}\mathbf{p}_f = \begin{bmatrix} {}^Cx \\ {}^Cy \\ {}^Cz \end{bmatrix}$$
+##### whose Jacobian matrix is computed as follows:
+######
+### Euclidean Transformation
+### [[Point Feature Representation]]
+## #flashcardtag
+### What is a [[PDF]]?
+#### probability density function
+#### 概率密度函数
+### What is [[MOT]]
+#### Multiple object tracking

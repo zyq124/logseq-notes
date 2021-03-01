@@ -1,11 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBmL1JmS0hHL1RreGFneU9K
-bVZveVNOQUVrdmxzeW0rbCtrQ2lpbGVtYm44CjJCMm5pQnI2VW1RWisvcnpqS1U2
-aC9DV1FDbzd5RXBXRGJpRlhDMnk0c2sKLS0tIGU3SW1VT0pQK0trS0NRUjZQZGR3
-bENTUnZxcWZzemQwQjg0Nld1a3hYbHMKDN5nWN1TO6d5ui1HNhmYoxtJzmwioPsT
-2m7PkAbIgdQPe+qxlYENcPCONtj4zKvHk9rHaoRXPkRaaOmJR5WbQYznISrolzRv
-+eYiPVJceEGwJuLKfNlpj/+utZo123GxwShkIak8gCgwewfGK2txn16DBN+5I/oL
-Wp9jbY/ISlwYH5PtmtF/k10bn+JP7fh4az6oL/lZcjHOrBV2AdlBt/+pZMUSo7nN
-mPIHtW/YFB+ieiMN1UqWUi/dxR1DdXjz/fRNME4huSgqsd/GLn1l6utffFnwfm1S
-V1oGT3mW2e69oy5vElxBZOuMnTn7qdDLYEfPz8S5uEYBN6FZVMcNW6Fm4JJerw==
------END AGE ENCRYPTED FILE-----
+---
+title: Hungarian
+---
+
+## 组合优化算法,广泛应用于最优分配问题
+## 输入A集合和B集合亮亮元素之间的连接权重
+### 基于这个重要性进行内部最优秀匹配
+### 连接权重大的优先匹配

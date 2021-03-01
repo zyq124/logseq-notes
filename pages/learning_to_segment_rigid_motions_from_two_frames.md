@@ -1,117 +1,85 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBHOTJCb3JHa1FFdGxvVUhz
-SEZUYnZ6M3czaXovVm5BSkRIc3NuUGtqQ1JNCmhRaG45eGxIZWZFaHZDT093UFBF
-MHRtdHU1WWs0VkJ5Sm13L2Q0ZTBXK0UKLS0tIDJic0k5VUU2dVZ3dFFld2VUK0Jt
-Zi9saVNNOHJHdWtGZHRDbCs2OVZaamsKFXNbLsRIosa5rRoBp2DOFneJa/7iydGr
-7Fpl00gd9h8+YTSua4tFYNV1ahchCHuuekLgEsEuFMgiYYh8i4Xcb10GeQu6yFbd
-TvoGTM29Bnvm0nHtjKg6xUBEycO4/IhTinqMZY97usU3bvrWcQUIX4yu/MsNKmxy
-ca6iUz/mridzo1rgti3iWMUijsYJ1UQHGftSeZ5me6Vbq1WoOrENXz7jZ8DQwqWM
-M1raX7V4I9hfCMNsU8aDYm3bTnZojl5f3xvPg0/VaQDXHGD6guehjPvnPBTMVVtQ
-OS0jlIOmAMN3RGWhFXAYBakIB8opw+LZnvQMARDz+9x8yWBIyrdd6EsFLRbMrFIU
-eSxHDXCdIofH8YiKtXgklxVvfui9eOWMy8qS6RGfFowH9J0HHGZ61Sda4wzSTzn9
-mvcDOqp+WJmV642JjGqj4LhdcIvpyxX2tbpX1+1isiApI6vz7Tcpb4dOtgXZYKf2
-AjKyhdBeoCk058V5GmzPTxo8QpaRFDpsI06S5DhRqbA+q3RhlkbtfD3GqfCWC7/k
-MQdEXnH1epdu/xE7KzNXPSbEpw3isuokT+gCzPcZTVCfMStjB240NMNtDswS+7Hb
-Efl5BJphEjjtSbEEQ2JPfd7SVDf/YeRF6sJzSWRMiLnea2xbqjqDo1T2ACbf/Glg
-AerW2kGHMdavfwtAszyXiqT4x5bHcQLBSSKiAPDTTSSZyYxWJuYTVSUPHLHWS/O/
-lgioUXKhmPfFCi90WUpXy4JAsz29qIC+L0XHkPQDdBZbnBm0zreVgeviyPuLSR/o
-yyd1fbtrXaxvznnQZt/aA52EgvL5YR/a/jfM/LeTG91v5odPlU9n3wLFc8Hs0hzb
-ZJ5LOYWbgZ2NjRTOlAcLHGMkZ4KwjUJ7Q5RTTtG6oB1FCwQpVOcO4O8qoQy2Orse
-DNhH2cspjFPBoV9q+fTfoljF1W4tTdmDh3qpf0VEz880BLWS+X5ygETp0P/jrSLT
-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
-g9OASkziPX6/mP1+Gb2UoN8=
------END AGE ENCRYPTED FILE-----
+---
+title: Learning to Segment Rigid Motions from Two Frames
+tags: Article, [[motion segmentation]], #zotero, #literature-notes, #reference
+type: Article
+publication date: [[2021-01-10]]
+citekey: yangLearningSegmentRigid2021
+authors: [[Gengshan Yang]], [[Deva Ramanan]]
+---
+## Learning to Segment Rigid Motions from Two Frames #reading
+### Zotero Metadata
+
+#### * Date: 
+#### [http://arxiv.org/abs/2101.03694](http://arxiv.org/abs/2101.03694)
+####  
+#### PDF Attachments
+	- [Yang_Ramanan_2021_Learning to Segment Rigid Motions from Two Frames.pdf](zotero://open-pdf/library/items/JZPT2ZF7)
+
+#### [[abstract]]:
+Appearance-based detectors achieve remarkable performance on common scenes, but tend to fail for scenarios lack of training data. Geometric motion segmentation algorithms, however, generalize to novel scenes, but have yet to achieve comparable performance to appearance-based ones, due to noisy motion estimations and degenerate motion configurations. To combine the best of both worlds, we propose a modular network, whose architecture is motivated by a geometric analysis of what independent object motions can be recovered from an egomotion field. It takes two consecutive frames as input and predicts segmentation masks for the background and multiple rigidly moving objects, which are then parameterized by 3D rigid transformations. Our method achieves state-of-the-art performance for rigid motion segmentation on KITTI and Sintel. The inferred rigid motions lead to a significant improvement for depth and scene flow estimation. At the time of submission, our method ranked 1st on KITTI scene flow leaderboard, out-performing the best published method (scene flow error: 4.89% vs 6.31%).
+
+#### zotero items: [Local library](zotero://select/items/1_TZCQLLB2)
+## Abstract
+:PROPERTIES:
+:heading: true
+:END:
+### Segment rigid bodies from two frames
+### 3D motion parameterization
+### model deformable objects as rigid body over short time
+#### Or decouple into rigidly-moving parts
+### 传统 rigid [[motion segmentation]] challenges
+:PROPERTIES:
+:id: 602cf422-e94b-4cb7-801e-7f18a44e20ed
+:END:
+#### 1. [[epipolar geometry]] constraints fail when camera motion is close to zero
+#### 2. Points moving along [[epipolar line]] cannot be distinguished from rigid background
+#### 3. geometric criteria are often not robust enough to noises
+### analyze **ambiguities** in 3D motion segmentation
+#### upgrade 2D motion observation to 3D with
+##### [[optical expansion]]
+##### [[monocular depth]] cues
+#### Deal with noisy motion correspondences and degenerate scene motion
+##### design a CNN architecture from a given motion field
+## Two-Frame 3D Motion Segmentation
+:PROPERTIES:
+:heading: true
+:END:
+### Given motion correspondences $(\mathbf{p}_0, \mathbf{p}_1) \in{\mathbb{R}^4}$
+#### Observed by monocular camera with known camera intrinsics $(\mathbf{K}_0,\mathbf{K}_1)$
+#### Target is to detect points whose 3D motion cannot be described by camera motion $\mathbf{R}_C \in {\mathbf{SO}(3)}, \mathbf{T}_C \in {\mathbb{R}^3}$
+##### such that ^^(1)^^ $(\mathbf{R_C P_1}+\mathbf{T}_C)-\mathbf{P}_0 \neq 0$
+##### $\mathbf{P}_0=Z_0 \mathbf{K}_0^{-1}\tilde{\mathbf{p}_0}$ and $\mathbf{P}_1=Z_1 \mathbf{K}_1^{-1}\tilde{\mathbf{p}_1}$ are corresponding 3D points observed in camera frame
+:PROPERTIES:
+:id: 5ffeb0b3-fc27-46ef-8016-74cebe53cc76
+:END:
+###### depth $(Z_0, Z_1)$
+###### homogeneous coordinates $(\tilde{\mathbf{p}_0},\tilde{\mathbf{p}_1})$
+##### 其实就是不符合 [[epipolar geometry]] 约束的运动 ->动态点(物体)
+#### 重写(1)
+##### ^^(2)^^ $\mathbf{T}_{sf}=\mathbf{K}_0^{-1} \left(Z_1 \mathbf{H}_R \tilde{\mathbf{p}}_0 \right) \neq - \mathbf{T}_C$
+##### "rectified" [[3D scene flow]] $\neq$ negative camera translation
+##### where $\mathbf{T}_{sf}=\mathbf{R_c P}_1 - \mathbf{P}_0$ is the "rectified" 3D scene flow,
+###### with motion induced by camera rotation removed through "recitifying" the second frame coordinate to have the same orientation as 1st
+##### $\mathbf{H}_R=\mathbf{K}_0 \mathbf{R}_C \mathbf{K}_1^{-1}$  is the rotational homography that "rectifies" the second image plane into the same orientation as 1st frame
+##### There are two crucial [[degrees of freedom]] undetermined
+###### depth $Z_0$ and $Z_1$
+### Coplanar [[motion degeneracy]]
+:PROPERTIES:
+:heading: true
+:END:
+#### 传统的解决3D scene flow的方法
+##### segment points whose 2D moition is inconsistent with camera motion
+###### measured by [[Sampson distance]] to the [[epipolar line]]
+###### or measured by [[plane plus parallax]] representations that factor out camera rotation
+##### 但是2D motion用来做3D segmentation会有问题
+##### ![image.png](/assets/pages_learning_to_segment_rigid_motions_from_two_frames_1610532171258_0.png)
+##### ![image.png](/assets/pages_learning_to_segment_rigid_motions_from_two_frames_1610532212322_0.png)
+###### 相对于camera来说,背景在运动 $T_{bg}=-T_c$
+###### $T_{sf}=T_{bg}+T_o$ 就是3D scene flow
+###### (1) 如果$T_o=0$ 物体没有动
+####### projected 2D motion lies on the [[epipolar line]]
+###### (2) 如果2D的motion 脱离了epipolar line ($|\alpha|>\alpha_0$), 那么$\mathbf{P}$肯定是在运动
+####### 参见 [[Sampson distance]]
+###### (3)
+#### 为了解决这个问题引入 [[optical expansion]]
+#####

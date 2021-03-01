@@ -1,32 +1,24 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBUd01PMXZWc0FRcnEwM1BG
-TWJkVXNObExvcm11c3JmUGZIWVQ4a0Ztcm5JCnYyUGlySU54UjBVQWNPdkhaY1R1
-ZCt0Y3ZpU2RiZFNrWjc0UlJtT0k3eTQKLS0tIEoxbWFkUzEwOWpZdjNHdGFxK1Ax
-WHpBR0g1bXV6TFhWbStGTG13OXY4YXMK1OD+uBSppDOY6avSF/g9weaHMvw5lgcI
-ali+3AA+XrWWtEzaaVKsoLFKmkoUiqs7YdW6VIefvKZyoF5HkpBzGMkQNB7mUtlh
-VGncw/9q5i5SJR5Gf+Ep8Mge9PXSP+iGUpcFQ+XCsPNeIWd5F8SjVqtB1LYdCgaz
-IiClWQNjp3y8zZyKEhLNmxWZaVs9sNpw01dHP21JVfvhCCMYIcLDLOYl8PNA7ETU
-O7WpGY7j8ZBcm6T+ij97OIChoCp+TMt3HlAELoNZ004iLyuhPD2Ma7SezUGp5aBw
-GHKbXqzcvqvcb7TaK7sSaYG+Sh5eRm6p6/xwLXkORaJgRQQTtmnn9w3iFfaFIZiI
-T+BVv9WTo/ycA0h4SZy2NqUrfKLSc6lOn9TGUjN+/MnKBJ2iLYF0bnYyha/t2BFJ
-/vT7Hqnuw4UiXPTEKxnHQrzX2g1VabQwImFbv7E4FqowKOaM7kycCWzYnZdSeXZP
-8msgTnG8ijygPQ7WjZgHC1pR+kgzhGTj01kuy5EF5lSmzp7328W5/BEx6pl2okgE
-5q4UapAIv4WfURvDAPyk1nQieH00Mw8JFCUetxVLDhVjWYY/cw0fW5Wka7/15ueh
-f7NrmKznP3xdjjuUs1GEk1CjVUpuqUQxzSeoy6fwBRLl6Kzr+EZtVf4QYbDBcGHb
-MqryMA/p1ZO9/xfMOq9qHssVdmDJewfnQlvCFCth+E9Rsyzu6b7BTIo0Nrqq8zvP
-iHCqXRVx8dhY6xc5nWW6MS9iqNj2Bf4Di1hC0kM/k4+mqTwXkZXgjiaViIUbcfRR
-0+v4k+PP1sak0KutP+oijWvDIeTiJJ6wgQnti1H3wdVBgvMrmXxcn4I4dcSmbtSF
-BzqXwtv6gPldnpHsB1O/LCoyIj4sqWpglsXNttLlGY/VR6dOHa12Uunc4rBg+YD6
-8/7Muk2pYd//XEXO5bIKgqwVLovb52wtisibY5blRpXuUkwthmh0GHPw89GnLGmV
-nQUahqWpHmT/bof+e8qprpaiF0VgiUz/uq4k21iXCmaS38qA73oNde86+RvkaDZB
-tSAcdix84JONI0hvb2z3MXkOaTQv4DXQhkR0k4ME2zpudYFnAlL7sXlLYumLIHNU
-vVhB5kNG+5+XEm/PvcNB9Rp7AHwGquFmIQ+uYimYh1OW4RlDWmhMT/3jsSSfg65h
-MXjna5W3peK6HxfyUf4gwPs+noK9w91rx6Mcv1GAbIGgbCEy9zJBpjcwGYnEPpKX
-1qkoy/Q9bEB28SLgLzhX51wHkRoB2BQLaTdYMWa1i7gYPnI96/t+tILDn/lM9fNe
-SlG/q7sq/2zN/FcFeLHxd3dAykYA3Q9EaRjAE6atiPhnEJ0VPwc9/aG9OoDkT5Ck
-m0uXFjK8IrknrycN1SJeRdzK2CoTO49QNWC00MF2ka+rQExYJ8lOrlebXoh8AFmx
-7ala8cNsCCqY8CiZhNK9EwpsqW+zRmSkvQ68jeYFKPcT/U1Enf2DHVY27R9ZZe3x
-DwJ7nvtiCUkQrj7mPfultbmeF3fYN5JI+VWbhEzqe689NQm2s0xT1ZyveGZrOdr0
-o5Aa9PhCuHjqU5cEkWidy22sXQXmDcTI6H/cS7WW4gITNu1nPFpHiilXjCWXvjG9
-v9Vqlc2OSlxj+i2T
------END AGE ENCRYPTED FILE-----
+---
+title: FPN
+alias: Feature Pyramid Network
+tags: CNN
+public: true
+---
+
+## #reference  Feature Pyramid Networks for [[object detection]]
+## Detect multi-scale 2D box in different pyramid layers
+### 每个layer都包含不同内核大小的卷积滤波器,以扩大 [[receptive field]]并集成更多有用的信息
+## pyramid of [[feature map]]s
+### ![image.png](/assets/pages_fpn_1611838411462_0.png){:height 228, :width 273}
+### feature maps closer to the image layer (low level structures) are not effective for accurate object detection
+## FPN does not use feature extractor of detectors like [[Faster R-CNN]]
+### generates multiple [[feature map]] layers (multi-scale feature maps)
+### ![image.png](/assets/pages_fpn_1611838575183_0.png)
+### 有两个pathway
+#### bottom-up -> feature extraction
+##### -> decrease spatial resolution -> higher level -> higher semantic value
+#### top-down -> higher resolution reconstructed layers -> better localization
+### Lateral connections between reconstructed layers and corresponding feature maps
+#### also act as [[skip connection]]s to make training easier (like [[ResNet]])
+## 一片paper[[DyFPN]]指出并非所有对象都需要复杂的计算模块
+##

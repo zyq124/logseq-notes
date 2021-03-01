@@ -1,46 +1,27 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBFSkxibjRNT3RBM2VINHlJ
-by91Z1pWQklEMERHSWRHRkd5RzFhTGVjY1MwCkdSbVZZcE9MWEl4QVBPdGpYUFpK
-NjA1MEFHYk9iNzRLZHIwUXhGUHZoYWsKLS0tIEZ0TlQvOXdQM0t4Q1VVakdpb1cz
-VndMYzVjTThwakVldjdZb1BZbTlnWFUK+RgYgMgbM2vIVC5n8pR2eKxWAfOyg8SB
-nfEsvjydYDeoxEVPdU1i6fV1HmugSSShuxTN47aJ8Ke2pGjAsmAcZ3pyGKy5KG62
-Wfz+CpyVgEvDKqQ/r/UDKW76uo36pGRE3d9IWK+IL9LN02hnoPH1IY5mEHn5jPL2
-RVfnO2gA9K1xxjLzVrsk4uZ/2eOL8uZDOyfdR13a01OUJd/wlS+d1Si4JYC+h0DW
-um6cFEZJSaB9gwpq1465PIkiGXSM40IpiT+n56NBdayvyXx7jZkNNKUrJYJEtUks
-swv59pVsRKQmU82Nh8n3XBOZzC3bl3AwYrGtVVj31CbHx4oWTr5QFJaEcfaVhvpn
-GmC+4rT6LHHWePlwOs0T7XN3ASzSaqXJnSqozQsVEvDkg2pMPhpkryXnqIOhP7UN
-I1xQsNN5/hSTmF+Ot68YBVLZQRJLes8oxcye9u6ykG844b6oROH/SmV/1mTiV3oe
-wPG2am0V14+fSgL44YdaXua7dW+XSYKMn7/mWq2r5txCqn0TxfNTa6wHB0uKTFco
-w3DM3SveH/qf4ObIFSp5eMZR0Ntxhx6SZpIVtKgYeXaAlrlxPH5jN4dzyIxOtdAo
-rX+FqGG5YHZV6QM/6f9aIj+BbiWNJA7R0VLEDz9JBLpiIFuvTecChA0Y6Ug3Vw7P
-Gm9E9IKBRdcXUn/HqE91Mk5sO5lDerMeLxBNCL7nMuVSpQrJMRpGefDAtbnJR/He
-YFahieh9hhEmttc2kbq3yAyFTzyysIWRWRi98zEQV6cDQeoYDsF5TLhxOA/9rUkd
-hg60ZrrmdH9/m7BTXk8edfyyx5jZwKYXNOATbWIgoCnQEPlsOUHiKsqMl3WXYfTq
-E/5LXNHiE+ux4bqFqF7syFzcAs97qYhcI3/ECffJXBuIxR7bSJVHA0nMoqR5DpLv
-M7lNKzxXb9DYhnZ+fm4rahZP0J+55/7NfX/hnCBzgXSoLEt7xMjwAJC121xTImBT
-F+lX/MLvPKRVgUg2TXBDnop4ku+tpjnu3ihnJol5dtIDueCKsUSSw7uMtXaOEFfB
-UEqGn7jGDDkGHZ+fxm9YxM5/pYVOZux3hEpMnV8Vgnzku70ruiydNeMHDtb8QAYd
-4E6UxgzTbJWyDtZL7DCn4PjfM9BUCABXPYi4b3C8RzE+i0fLLBzlaufobiEcIakI
-xv8yl/nOjC1f8+ieMjU1wryWBeCDl/U11pAWzGf2BmGEh8BcOI9eIrU7azm4pjXp
-06PfG8cfREI1wbRbhSHtD+296FS3P1KEWmaXJmH/SOijD9X6ftQQeS7uPYnskqO6
-djuCv05t57lhb0mJ9rDSWTxPIXh92DxwZtovqzYKRg1D14NvM5NhUWn0d3tbRsPd
-M7geQ0y34uuaNqsP/1IHv9Hv2ATwSHsHDty3dGedVooiHCHSu4pc5ySQA48lcTn8
-6QkyAO2BG/TD13gDfJBaWABJTUu8Yr7gQOAJlq1WioQt5KcQ6hukALI+ouWHZdvU
-CxaoJMzzKnkJPIsPCeKJSvbOLGsVm/HOS/YEnExrQUR0/Peyrx+QpV5w4L0e4gKy
-a7ItBhQJ22+WW5INa9JR90dbUgGZ8XdHWGWOz/MiitsOEbY8QqjOB1vB6myPceRq
-9bXYrHhm2RxMf/9h3LvFGRwLgnvM3a2kvTLRAmxa5JNIUW+iHEqTgVej5k5bR14W
-02unaysl5oqwgYRWSmuIRc9FyDDYKXpMwNx3RlZjUuDAnryweY2Hi5z7JtaWityd
-2oUTTSoeJSKhEoVzEO1Jkb7B198+2w6Rom22AOMKs4FbOIhiWrYgmCj9/bey7mOQ
-J+ffaCQlpI60+Z/fTLeqhGPNXexskzGqU0Dsmp3Y9GMEbZVITKpbHObFNctz5P20
-woA7Jy132QBqJ36rWFsSKXrKhFAKbGRjt84d7Z2m80DG7yKkKejK2wFZnoIVcmgG
-U0BjypUHd9h9pTWY1A0f/EiC+K3LpB0hZfvxEGckLcIAyQmtmdlvO6ynGvU5MGxa
-Z/ssaw5GhI6jeZMMjYqVLgycZlWPRU9rjNdNjHEw3LqHfwkG61LIWu+0OIlHytVD
-HQMjjifgrp8wJO3UCm5zcxp2GFmXZmkmgDljFamWSFSAm9iI0M/aYJWGDgou/v8A
-AEJ3t9qkxx0gdLVhwEYKksf/ZTKQLy7zM/PxpX8Bm06NPqhgUpVglkxj8L2j1BzI
-ifgYTMPBoriey+yI4jS/pddMjGO+AqMK3GKE6jsBLDaUduefuGz0hb0EOn59Py3k
-o9hOINOlDeAS7ucXff1cyjsfN72m6S1OPefYBbppEibeBfcinbPbS5/K2ZfhxIrg
-mTmEwTCh7aNzwjwuDKEJ+5sr0/Nu8TSgr5axml5i93ZeEI8sYjcCda4W+Sg/mnar
-NUivMwlX728GkcGmnO71CYXs8NR7hqRdc0SxK038yX2jxAPERimF+hLgYV319HIm
-XDnlcCmPrnSxEFJHkycWKvdniPqsv2mIcCeo9UKG1ZKnLrI4GDFvUct/ptz2O6Hu
-FkuWOhY8Sqpi7Sy/LQYTcBsvhajSwV9Z4Q==
------END AGE ENCRYPTED FILE-----
+---
+title: CenterTrack
+type: Article
+citekey: zhouTrackingObjectsPoints2020
+publication date: [[2020]]
+authors: [[Xingyi Zhou]], [[Vladlen Koltun]], [[Philipp Krähenbühl]]
+tags: #centernet, #zotero, #literature-notes, #reference #MOT
+---
+## Tracking Objects as Points #toread
+### Zotero Metadata
+
+#### [http://link.springer.com/10.1007/978-3-030-58548-8_28](http://link.springer.com/10.1007/978-3-030-58548-8_28)
+
+#### PDF Attachments
+	- [Zhou et al. - 2020 - Tracking Objects as Points.pdf](zotero://open-pdf/library/items/QF2LTQTZ)
+
+#### [[abstract]]:
+##### Tracking has traditionally been the art of following interest points through space and time. This changed with the rise of powerful deep networks.
+###### Nowadays, tracking is dominated by pipelines that perform object detection followed by temporal association, also known as [[tracking-by-detection]].
+###### We present a simultaneous detection and tracking algorithm that is simpler, faster, and more accurate than the state of the art.
+##### Our tracker, **CenterTrack**, applies a detection model to a pair of images and detections from the prior frame.
+###### Given this minimal input, **CenterTrack** localizes objects and predicts their associations with the previous frame.
+####### CenterTrack is simple, online (no peeking into the future), and real-time.
+##### It achieves 67.8% MOTA on the **MOT17** challenge at 22 FPS and 89.4% MOTA on the [[KITTI]] tracking benchmark at 15 FPS, setting a new state of the art on both datasets.
+##### CenterTrack is easily extended to monocular 3D tracking by regressing additional 3D attributes. Using monocular video input, it achieves 28.3% AMOTA@0.2 on the newly released [[nuScenes]] 3D tracking benchmark, substantially outperforming the monocular baseline on this benchmark while running at 28 FPS.
+#### zotero items: [Local library](zotero://select/items/1_G9HIGQCK)t
+##

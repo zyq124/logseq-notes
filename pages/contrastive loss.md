@@ -1,15 +1,15 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBvQVpsRGZhQXZ0RGZvaXpU
-S1JKOU9aNVFKNk1CWjdiOU5kTHNyOVZnZDNvClRaN01KOTBUTG9rMnprQXhFNXIv
-Y282NGFPQXNyUDRUYjhhclVPYk1FejgKLS0tIHQveFRBelJKR2lZaldsL1VMalhE
-OGp3cVJVWVhVYTBWZERmUUM1eFl0Sm8KcgAtFXe0SRzSLD/DJMfN54tgrwcrx/dr
-k/UfGyVV5sE60nqubvRO/jvQk8PxusMmA6ODQe4rnqTFckFWM2241JRcuDSKo7PH
-QVEcKMR1HBiEUZ0c0EApr1JMaTpa8IuTf12TjpoGMZSWUdtlinkNwVArPcNTIPfP
-yXJ6o4RjdNteQY0nQnFijnZv+L1QN2krlGW0hKEy6zMbuUySYLWh+VmOv0YHIsHN
-ewWIK08f62Z8iliZw8PfOpWs/fgMjv/0EL61nNNdlkcXNQuzVKGM7E1BJ5MHxgxI
-0XHjIWzOaxp+HnaiYab7OptjfnwRg0BqxadrJPq5BK/A1leEd7kPCj8+ABHqlTI6
-YMgMDSDE0vnBjFAzXo19Uyhc6PbqhYSKbV7dqbirG/co4VF6KnL39r2YaO77x7UF
-DEDvFEM2o1E3l8rVJJJeDTfOCW3r8A/UBbd5mKzl22KFM6GhIKDFxwZuHNRe3g83
-37jSVPdJI9KGC4pRa6DLWf00l87Q/+aMLOQolRLYLNp+hXr8YcSMo67dWExwSb99
-QYfG0ux57vGoy8FZDE6ikku33gaZJSQ9Tr97K1E/le0++YBPXFn+hcP9gUcVR8g=
------END AGE ENCRYPTED FILE-----
+---
+title: Contrastive Loss
+---
+
+## contrastive learning框架有两大目标:
+
+### 不同的原样本有不同的表征，负样本的存在就是为了确保这个目标
+### 同一个原样本的不同augmentation结果 / view有相同的表征
+## Contrastive loss function
+:PROPERTIES:
+:id: 602dca30-8789-4c00-8cc9-b034eccd08d8
+:END:
+###
+$$\mathcal{L}(A,B)=y^*|| f(A)-f(B)||^2+(1-y^*)\max (0, m^2-|| f(A)-f(B)||^2)$$
+##

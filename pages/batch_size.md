@@ -1,13 +1,9 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBEb01NREI0Z2hVaVFCMkFI
-NW1keE5oMkVGYUhEbmdwS3ROeUJwSW5SZW5zClNLZkpIS2d0SHhzZkprZkNvRnpp
-eGdlY1lJY1BKWDlxQXFmdElsSHRteEUKLS0tIFJDUjMxMkhrVmIvQW81bC9IV3Qx
-ZDdJRisrNkhnZVVtbFQrTUxrNERzYlkKkRaaJqgqkReS2S6z4uv+3rLqgZWJ59fz
-uP222uEKDcLuYT2DUzmm1Dim94m15rzbUI9vLFLgboly6/p/6F6s7so0TDk+mKzW
-OWdBHcj+NCm8S+QONUo5+mzFkT4Lff6MlKCBm/Ur8s07tEFC/HPwnFA9Dgk0ZzN3
-BYjswbnG6X1iy0Kh3N4ym+KEG7QaAvZsYCXHEyXvNQSdaU9KMRvfGTj9PBqK4hlt
-/4X+RgmdCmAO78j0DYUxx/DnNojwLrfx3yo4qOmUYJBYAA4ZkgXzqsJJG/4bISXF
-8tTRfQv+cJwTazBPX3mik1jah6LiO/OWmySGwsAxpu6zykbtdV1/3aJM0CN2E3Yl
-c+mSQEX5lVfyWPmLw1blxIyjZzjgseoe0fmmRz8Q2u2lcOsYR0/iwFCnMQg05MzT
-CX3FlB2GTDWU03qMbj+I6RbNRyR77YdBishUOCU=
------END AGE ENCRYPTED FILE-----
+---
+title: batch size
+---
+
+## batch size对训练影响
+### batch size太小,很难收敛
+### 随着batch size增大,处理相同数据量的速度越快
+### 随着batch size增大,达到相同精度所需要的epoch数量越来越多
+### 所以batch size 增大到某些值会达到时间/精度上的最优

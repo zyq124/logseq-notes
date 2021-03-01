@@ -1,16 +1,11 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBHaCtBVFRPYXE5OTVENGU2
-RVBQL1VIcVl3VzdHMmlxQ3FjNENiTjJ0eUhzClBxQzhyVmMrZFFWWFdWZ3Y0azhT
-RFA4K29WSFdKbElKM1NuMkhVWDVWZkkKLS0tIEowaWxoYXYyNFRCZ0hOVjR3NEQz
-WlVrUWJBazNlSGdDUExUVWxPMHp6YVUK0Ev+tSoLLGhWZJ1bwJmX7KGD80LuuN6p
-2E1UQRbVfSWga0OTlCRfQDZfu5lF6YMyiwCqFI2HdU+c/Z3UCrPQj2BSjerUWGuM
-kMWQ1OL9mSJkngg8aVbk0S8KXN0UrU0wFM+P968RNpFoJ0oUiknNL1aG45acEWou
-ysRSR04AuXJBK2+/cnsqE6AU4sqiYXuXh8ozx27mmSiMhjlFhGLB8tlmigbBRv+3
-+tDoGW+lg5VepBdFmBFafjNl0IeBBTMcL4brkjQ7OJkG9052hAAp5m+KitmtR5dc
-LBM01rGDuHIotKqVlDFyBNCGiQRhMtYKJ7coEjuIiiBgyOzVTvPzC2W2frBrlx/N
-ho8cQMFqHDggCMWjiqju6STAYx5iksXFSOd+7x5yPZVDDYp+b5ocT8we1QHhMg+n
-/bezqFxqutraZdvvi8vUBhZM7UAXXrrecbdRlJX/4OU0wkDhCp5oS2vNZ00X4cbC
-Oa5cxTnCAO+72i/HuyELHnzfyDdZ6nLPqIgFwBC2ozq+0xEhtdylMYOnSapa1XRa
-iBewmnExfa086D6ifj37vK27ZTGLSv1JXzk2lfX+u5y4g/AoreQqndbxAVPQsxQR
-6r5c0qEzCVSSOOWA7q4m
------END AGE ENCRYPTED FILE-----
+---
+title: normalized scene flow
+---
+
+## a vector pointing in the direction of the true 3D scene flow
+
+## Can be "upgraded" from 2D flow $\tilde{\mathbf{u}}$ knowing motion-in-depth $\tau$ and camera intrinsics $\mathbf{K}$.
+## When augmented with true depth of the point in either frame $Z$ or $Z^{\prime}$, normalized scene flow can be "upgraded" into the true 3D scene flow.
+:PROPERTIES:
+:id: 5fffe3b2-f45c-48f4-8e43-48db5120bbbe
+:END:

@@ -1,56 +1,33 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAzU1ZHZTFCU3d0dTlVZjRY
-bmpydmFiOU9NN3Rhb256TjFjRDIybFhIVkdzCnNQaW9lZEk0TlROVW5UUE9NeEQx
-M2s1eVBmN3lIRnRjVWhINDVNWEVFK2cKLS0tIFhvR2tFS3BUSGxZb3hiNmw0R3lX
-YjNLdTVCQnpDSFhrWm80eTJ5cnpEZTgKivwab74bIiFDNk4P9NoV4kCJ+Q5aKt10
-wCY/xRveN+Q+57+rcP9LqyERC12Y3pHldSCSON2Yek4HsYKnsy5qP9q/hw5IORaA
-TszT7hdMrvbdKcEdsSRVX3vK27Y23JRfEvDReZA5ot/20Cw853U73HA0E7sfPENA
-bNVhUgYMjq/qyWT0RtTNN1u6sGkgD3RcBgR20ELR34tYfQAK7/SKfcjID1zP6Dm3
-8JnZRf1HQOkFy9WwfK959cUZq6IdeFyPkMEtAy6uGq0c4/a5ieWay/iQUt2gxOhs
-0PYVZMvcfvUQlDZbHhi4PUFsOktNDRFNmZHJE2nqeugYpd4ngP+9ZBe/42ZjkDi2
-bL3tBOsWwspHLqLJuht+L/eiD/UeAWxzHC6P7ZzDKWM0kYpQcyMrrarhtzf0UA7Y
-OfxH7ZYZmGBICfQHZ1bbWMVKrivuvnni+NSRT3Vt4Fso1oFYqS4NewLvMeremWne
-fU0HRkrXL6hvOAr68Vfw14+ToXNy5xB8f7S9Uwx6I3j5cxX/IfHXMGpMu2MM7Tlz
-/AiJi3WW8GissEqMVfFOMCvA7wLPAS168Ca/vJv9FNqJ5PNT4zQ81bsF0Upsz5rm
-5yvJ1aCasxxJqmPKg2afYdmSg/7a3tdxRqVS5w7atPlqv2rTQqu9dwZQU6RsgMCK
-S13RfdH95y9xA8xyVVn7qc+9lv9/GCn/F7dlRazesJ2yB2wnaoDumEJSHiKs6zPr
-1hVPrnZhVPt3H/UdSVtEGb4C42Pu9H9HPLWepkGamPWoyNY7LzKrtry/bFDtMjuL
-wtbFzGJRp4ZL/RUv5paZZ8NGpHiObkX5M7qLw9lH5Ic9bjuLKvew0HNSFbIenpkO
-pk4Qirk+oRGUNxZa0eF5osZZTtv4/7GqKyVut0Soy/t3dATR06HqgrzO+R4C1ayR
-JplkyzOv9if0LFo9l6LIZQmYdFOK8dp/OFUz3D2wI5WUK6o5TJBCyZH+I4QgPnG2
-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
-mStf2XEelJg=
------END AGE ENCRYPTED FILE-----
+---
+title: Deformable Convolution Network(DCN)
+---
+
+## #paper
+### Deformable convolutional networks, ICCV 2017 (DCN V1)
+### Deformable ConvNets v2: More Deformable, Better Results
+### 同样的物体在图像中可能呈现出不同的大小、姿态、视角变化甚至非刚体形变, 如何适应这些复杂的几何形变是物体识别的主要难点
+## Deformable Convolution
+:PROPERTIES:
+:heading: true
+:END:
+### 就是在这些卷积或者ROI采样层上，添加了**位移变量**，这个变量根据数据的情况学习
+#### 偏移后，相当于卷积核每个方块可伸缩的变化，从而改变了感受野的范围，感受野成了一个多边形
+### [deformable conv](https://i.imgur.com/ABfMmYo.png)
+#### 上图是在二维平面上deformable convolution和普通的convolution的描述图
+##### (a)是普通的卷积，卷积核大小为$3\times 3$，采样点排列非常规则，是一个正方形
+##### (b)是可变形的卷积，给每个采样点加一个augmented offset
+###### 这个offset通过额外的卷积层学习得到，排列变得不规则
+##### (c)和(d)是可变形卷积的两种特例
+###### 对于(c)加上offset，达到尺度变换的效果scale and (anisotropic) aspect ratio
+###### 对于(d)加上offset，达到旋转变换的效果rotation
+### $3\times 3$ deformable convolution
+#### [illustration of 3x3 conv](https://i.imgur.com/90ECFxe.png)
+#### 有一个额外的conv层来学习offset，共享input feature maps
+#### 然后input feature maps和offset共同作为deformable conv层的输入，deformable conv层操作采样点发生偏移，再进行卷积
+## Deformable ROI Pooling
+### [[ROI pooling]] 是把不同大小的RoI($w\times h$)对应的feature map 统一到固定的大小($k\times k$)
+### Deformable ROI pooling 则是先对RoI对应的每个bin按照RoI的长宽比例的倍数进行整体偏移,然后再pooling.
+#### 同样偏移后的位置是小数，使用双线性差值来求
+### 由于按照RoI长宽比例进行水平和竖直方向偏移，因此每一个bin的偏移量只需要一个参数来表示，具体可以用全连接来实现
+### [deformable roi pooling](https://i.imgur.com/f7fd1hq.png)
+### 如上图,ROI被分为$3\times 3$ 个bin,被输入到一个额外的fc层来学习offset,然后通过一个deformable RoI pooling层来操作使每个bin发生偏移

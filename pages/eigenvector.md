@@ -1,16 +1,11 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBDZTJ0ckpLYk0ybXB4czUz
-dXlCaUZ6a3pmQTNwc2hpeVBWeS93d0ZCQ1hZCnF3cVJ5OUt4eU1JQWVackNQc3ZN
-WkE3RlpWaHlXVnhJbjAxUldrWllxODAKLS0tIEp5ejQzdXZNcVNIblo3eVFsRnEz
-bUhuVFBvemxDdE05M25HVytmNU1sSG8KdtzOlWuI1y7jE4+RrH7BHlr+Ss79Lz2x
-dmyFzQD624PS+RNcJvDoMbInkCx8lOEwb/tdQuGLcP+bUB/zbqMp1gkWgiD9Md9q
-u8a83ng6wwpHHjQtGwPBIddqSC+QIpg3Rb9i8zMCRiV0ZXdA2RXto/OhmJSYAzMi
-K6djOwM6AEI8YA/FI1hxYwZk5CNIvkzdgdedBs1UJGx15lwr7Uh8/62j6luVFppe
-okWje8KOzJUJEdGEISqpMFujr6N49d4hCN5a4tRN90diQPc6Iie8ilQg8bUE/+kX
-ckffbxvSfNzz4YZyCHo60QgQBurSE1VKgh2i8Fv+I+PmO28nEsYGTuDZLUWhoNNj
-TB3g/xi4/r4fhkQEm4tzExRlJcPY3GtTag/TIrATWIRqwfuGHpk/2uN54YsuoknA
-UyNyMuOgPM6nlVkpL98czSYK+JHJl0NUaaDRdSUqalSSrC7lzyFxkJ+xRyqbUEbI
-ljvLeQsln8k29O1Q5Ofdh3oXISE5v+hcQv13djZWmdNReMGI/72KM+vQ5SIfK/kI
-VJhoBWpsKajwmxU5MWEQUmER9upWchaowaqQGfdJ1E+2budZAEY8wvA6LWSv9DJG
-wY92FfU0JRIJ98JDhcekFA1RnJxVoFqBMr9GpiMqvL9b5g8gMChGjmrleg==
------END AGE ENCRYPTED FILE-----
+---
+title: eigenvector
+---
+
+## #maths [[linear algebra]] 
+
+## an eigenvector of a [[linear transform]] is a nonzero vector that changes by [[eigenvalue]] when that linear transformation is applied to it.
+## Geometrically, an eigenvector, corresponding to a real nonzero eigenvalue, points in a direction in which it is stretched by the transformation.
+### [[eigenvalue]] is the factor by which it is stretched.
+### negative eigenvalue means direction is reversed.
+##

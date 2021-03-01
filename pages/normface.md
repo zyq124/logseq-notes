@@ -1,30 +1,28 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB3amkzaUkvVUp3U1ZmN21z
-V2Z5TlZxbzA1RGZoczIyRVdHZGZGSjlxaWo0CnZ2ZzBVc1U2Y05LWTJlSlU5Sysw
-ZXpIOXcvcnJvRmhVR2o3VSt4Um9hcGcKLS0tIFhLWVJjb040d1IwV3RIQmtqekg4
-UlpBb0ZXcFRuWWhrM1k3LzJGdjJ1SmsKxFzU53eVtj/KZQmFnnEkn/5DzLxuIGYi
-aF/y1IOFbv0H1pbRNckDiKma7Lf6yq8f38mu0NJPQY7Rvm26jlQLKlp5uUEeFa5m
-5TZwHFq8B78Xoto7FkD0B46aB1oiHyxRZxSsg7NqWAr1PY76TuG2uNqGMoOH7/fE
-iwVVQ4/mALJU9uiSi7Cn93sqD5Tg6uBlueGz8wU5/67+b1+/nTeoZ6t4Inti8c5b
-zSVc4W53aTrXCeoDppv0ILT+qdDyRkVNI40mT1d7B82DzqM40DzFfzTNfAOT4N42
-jVBCbFy25gtnNLWUjJ25nf17JocMR5ov+Yxk3wVhp8RwPm731PES2zzoEwFic3wj
-An8at23R+GFnvSSyhAj7rL++P+Qe/1xrkaFnbsgTOvWxQcvU7rWjsS4a//8T3T/y
-y8QbsAwmPOnfTy10u2PZDnpWwNMCPOM2iCeSzCtEeeE7YDQD9nIQtCSxP8Nfvpq4
-bVAaBi4Lwm82cjYAMDgM6VY51eWqvuTjH50dLv1skpF1ibWtf6cFYC3VN8K52aIp
-hvruMvRk1ufXQB6wHf/WG5FF9VIUelojqFyW5eWIlgOoxjegiLR3wCSlVdTLyYMk
-wAwlAi/7M6akq5Y3LNNO/qfWcsw7vhkBgP3r0nXBNTVB1RN+Ufku0wZSs5Q2MfAK
-kk5ih8q5UzUygQm7H4wR0WgY3IL0w4Oow22Ccj9oK/uEGpvbUUWwF2nEynBu9DQV
-9djBF9+pxEX5kqTSZDqpIW5YW6ncRH5qCOJtjRkCtjmlvTTVwiJZ3nf/2WqKwEbC
-KHy30BavrQ2enyryHzpHA76RpuDf6TMijncoVi3ImGPDLFBpAmnh787BjqItVTHW
-A1pNcsdnfdM8gRRupE4o3E0pURKSe1YM8NWT2ilk1Prp3JJZWy5/FbVnFh4H2mms
-Ly6w+tporBZHh7yt+lAgKLyYHwMMyuIDwVZhuzn0XkcmxPAXwOsWXxwTMEgugeks
-R0o1JNcQMfgvupkmLvTrOXQt03VwixsA7MyzDaQyBRjFui9EraocKfpYf6BJpV27
-ZQpefdeRf8g6eHcDHH8kR5ixFBhRQ3285Ou8Nc+1TQNwtxGdcsr5dMOeFO/9M9i9
-3oznGVBkqnXDkm+QKt8nISjtiHl+kR9jULCY8pE97pKhT9ncFC6Vg9pIsALgxoN2
-W3Kge15FkQ3VJj/pWQIQ89C+TxemdKjT6AlG6uMFjKEEhvI/UWaLmL1eGe2rDfYJ
-iC13TmgyBznVlxg1QqXGbRXJCOJLddrLVnX14BQK54kYUX9ZjHfPEks26F6lWSnM
-LwEEqU+ackKLUgrFe4W4Om7LYxDayhw/PSJfZhuJfjk+l8dn0mdWJ+eCe1Vlb7f6
-+aweGPiBAwTD7qsSj2uwiV84yaqnkDD4EPvDKGNDnVSqooErVbZtmmaxxnKRYOSh
-2g1K9LzzvjJE52pVXmfUcRMDGy3PBeNJ/L8HLuMBZ7bSRTGDDBszpeMwo/DnWWkZ
-EBT8tA==
------END AGE ENCRYPTED FILE-----
+---
+title: NormFace
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### NormFace: L2 Hypersphere Embedding for Face Verification, 2017
+## Abstract
+:PROPERTIES:
+:heading: true
+:END:
+### 在一个人脸识别任务中，特征的归一化是一个提升性能的重要步骤。本文主要研究训练过程中的特征归一化的影响
+### 通过数学分析研究了四个与归一化有关的问题，可以帮助理解设置参数。基于这种分析并提出了采用归一化特征训练的两种策略:
+#### softmax损失的修改，优化余弦相似度代替优化内积
+#### 通过为每个类引入一个引导向量重新制定度量学习
+## Pipeline
+:PROPERTIES:
+:heading: true
+:END:
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FrkSKf8gepa.png?alt=media&token=fa37c4ae-7e28-440c-adfa-a07deb200558)
+## Normalization
+:PROPERTIES:
+:heading: true
+:END:
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FCp7FQXFUoy.png?alt=media&token=675156b6-7526-444b-a1e4-8d0fe0c8943c)
+##

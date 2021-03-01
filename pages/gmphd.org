@@ -1,11 +1,5 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB5K0VsdTc2ejd6TzVxeWR1
-QnMxbmw3RnVWc1BTNnB0aldIUEdUOFh2ZG5VCmZYSjZMV2N4UjBqQjhENGU4WElF
-ZitpeHg2R2ErUUNseFJkWVdEcWdqZ0kKLS0tIDJOakM3RjJZRnJhT1NLdEozNjNJ
-Z2pVMXRxQjdNeUNVTkxVaHlQdDV0T2MKb8YXSjKPNIPjB8aLAS29wHDpQygVvlrx
-qRG3/oymCeMOaY/KSsuoxBDaf5jxh2PGAfxdvGl1v3ZhuAvZfvRYqDWSOXbY7oGT
-zMTikmbUrMnPLKez00IsbRMGaipxvglikRwhLgQSlpFym3n2URqbOSQh/WDMVQfT
-iXF7JMXuzsEzSxLLOf8ZnSWk8SyG7Pu0FLxC31swGe0rqCTwL3b/3Z0ye9kKIDHV
-I0GsZBI2h1+AmDW3qFZFOtgkHdNBYNHsqihDOBSIDwnjhFTVjKZBu/9uwAs9Ji0v
-kX1gEs0FVAsIrg==
------END AGE ENCRYPTED FILE-----
+#+TITLE: GMPHD
+#+TAGS: mot segmentation
+
+** Online Multi-Object Tracking and Segmentation with *GMPHD* Filter and Simple Affinity Fusion
+** GMPHD: Gaussian mixture probability hypothesis density

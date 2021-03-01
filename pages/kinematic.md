@@ -1,91 +1,99 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBXcXhzSHJQQlZvWUxYT25P
-eEVqSlR6Qmp5MUNjaDd3ZjVsV21PejQyNVVBCmh6eTVrb1VHK2JaUjV4VTNPSFVx
-R2cwSnNWVjZVQm9kYnRJUmJYeXI5RG8KLS0tIGxzZHBySitpSXFVWlJYelh1YlZQ
-emNkakYrT3ZnUCs1eWZnNU9ZdVd6eEUKw17daj7sdTHakiY+jdqbDL+ZclZNuQXT
-GV7B+XdxH7mC/yWSzoT8/rMgswqA5DpNZtyAfVW/dOGdqHVCI08NItVd5luQU9Zv
-wZjvg0VAqnPOcQrTQ5+eoc9G4sqQBob1smlLzRd5wY6ro+Tfo0IE25Rfw/lgiTSD
-5oQaxUyeMw0+BvEY8IcagmLA+4+vuCdZsGmNMaHxy2goUZplocAchzQ/EpZ/X5Yl
-o+BkCQ+qEVsleI1KA/J34n0Igkiqdmrtj9NfNppyRvu34o7H6EAXHkYsRqtPSXSk
-SH0sbUFdmMD4wSQHcp6l5BE8qu4SKCnBhwpX4C1Q4uK0KyBwkWtGkC/c81+s7zUY
-PKLxOSmEPHstkMILuKixJtnM2+ABJ0fnxmDtAKlJ2KiYPX4ndhVNlCEHS++77j1x
-JhRREmfgE6XYXbSAFw/tGBq9bbh0bWezVWvMuhZrTLln72hX5I2YTSNzty+yWOVq
-O23ysatd1ATX27l87wBo+tZHxyNDGPpguT6/NdjshkDXJc/+7VyJV6js7p19J7HC
-jfglrbhZXfHaL14nIwF4C2gymsHwSXKXOaII4hvuGECO7YdIaousKUYa6873kpBZ
-PxLariL80rKF2Fa53BebV9x+a44xYq+5M0vPh+GO5ZxnVi5fnhxTyduky7MnQIl0
-9BG8kuXDSQNlQpAV2r7A1K6TzQxAz4NTLOALMValLACtYnlMqrOjdihQgkBAZ2zu
-cJfbJ2qroFx10SK9mwvKXJinmckjq0mwxn1+kiiLsgDNLWN8unWh9RkpHwFi/Y5d
-BaDmz7g4pBIhroe1NQE4hqGl1amBcjtotqwLrcZqy2uttHIWDgWg6JZMGBzSLo9A
-j+VHijsA9O1yFvW8KKZatnGxTMb12pePmJqMy+HAVr1f2UPxCRnmYcOI/A8hL6aU
-9Tq8YiRrAnz/W9ELgilXXWpNjkIUKDbUz39qwCD9T5uj+2MShO+MlvREF8Uq2WgM
-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
-yIoAlWU0oUD/QPkDQutIaQ==
------END AGE ENCRYPTED FILE-----
+---
+title: Kinematic
+---
+
+## Nomenclature 命名
+:PROPERTIES:
+:heading: true
+:background_color: rgb(83, 62, 125)
+:END:
+### Identity matrix: $\mathbb{1}_{n\times m}$
+### Coordinate system
+#### $\mathbf{e}_x^A, \mathbf{e}_y^A, \mathbf{e}_z^A$
+#### Cartesian right-hand system A with basis (unit) vectors $\mathbf{e}$
+### Inertial frame
+#### $\mathbf{e}_x^I, \mathbf{e}_y^I, \mathbf{e}_z^I$
+#### global / inertial / world coordinate system
+### Body-fixed frame
+#### $\mathbf{e}_x^B, \mathbf{e}_y^B, \mathbf{e}_z^B$
+#### local / body-fixed coordinate system (moves with body)
+### Rotation
+#### $\Phi \in{SO(3)}$
+#### generic rotation (for all parameterizations)
+## Operators
+:PROPERTIES:
+:heading: true
+:background_color: rgb(73, 125, 70)
+:END:
+### Cross product / skew symmetric
+:PROPERTIES:
+:heading: true
+:END:
+####
+$$\mathbf{a \times b}=\left[\begin{matrix} a_1 \\ a_2 \\ a_3\end{matrix}\right] \times \left[\begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]=(\mathbf{a})^{\wedge}\mathbf{b}=\hat{\mathbf{a}}\mathbf{b}=\left[\begin{matrix} 0 & -a_3 & a_2 \\ a_3 & 0 & -a_1 \\ -a_2 & a_1 & 0 \end{matrix} \right]\left[ \begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]$$
+### Unskew
+####
+$$\mathbf{a}=\hat{\mathbf{a}}^{\vee}, \hat{\mathbf{a}}=-\hat{\mathbf{a}}^{\top}, \mathbf{a\times b}=- \mathbf{b\times a}$$
+### Euclidean norm
+####
+$$||\mathbf{a}||=\sqrt{\mathbf{a^{\top}a}}=\sqrt{a_1^2 + \cdots + a_n^2}$$
+### Exponential map for matrix (**exp**)
+####
+$$\mathbb{R}^{3\times 3} \rightarrow\mathbb{R}^{3\times 3}, \mathbf{A} \mapsto e^{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$$
+### Logarithmic map for matrix (**log**)
+####
+$$\mathbb{R}^{3\times 3} \rightarrow\mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \log{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$$
+## Position
+:PROPERTIES:
+:heading: true
+:background_color: rgb(38, 76, 155)
+:END:
+### Vector
+#### $\mathbf{r}_{OP}$, from point $O$ to point $P$
+### Position vector
+#### ${}_B\mathbf{r}_{OP}$, from point $O$ to point $P$ in frame $B$.
+### Homogeneous position vector
+#### ${}_B\bar{\mathbf{r}}_{OP}=\left[{}_B\mathbf{r}^{\top}_{OP}, 1\right]^{\top}$, from point $O$ to point $P$ in frame $B$.
+## Orientation / Rotation
+:PROPERTIES:
+:heading: true
+:background_color: rgb(121, 62, 62)
+:END:
+### The most well-known parameterizations are Euler angles, rotation matrix, angle-axis, rotation vector and [[unit quaternion]].
+### Active Rotation
+:PROPERTIES:
+:heading: true
+:END:
+#### $\Phi^A: {}_I \mathbf{r}_{OP} \mapsto {}_I \mathbf{r}_{OQ}$
+#### rotates the vector $\mathbf{r}_{OP}$
+### Passive Rotation
+:PROPERTIES:
+:heading: true
+:END:
+#### $\Phi^{P}: {}_I\mathbf{r}_{OP} \mapsto {}_B\mathbf{r}_{OP}$
+#### rotates the frame ($\mathbf{e}_x^I, \mathbf{e}_y^I, \mathbf{e}_z^I$)
+### Elementary Rotations
+:PROPERTIES:
+:heading: true
+:END:
+#### ${}_I\mathbf{r}_{OP} = \mathbf{C}_{IB} \cdot {}_B\mathbf{r}_{OP}$
+#### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_14_t1.png?Expires=4761520316&Signature=VtSP6R552prqdXTO1mMhxajiCuRMpWxga68kGyHSqORsRxxLvYytvs7qJPb~mj1dKzlVqb4bw4tJo5ZDr6FDRqC5dBbMaoie1R4iXLxlpWc~VFurxOxwakAiQXdp2aNcOute2nqgXi606pI9iW9Ac6fCUiy89DiDIZuSNTnAPp~rCCyMKh6Rn6bA5-RFd0snsCgoKNWUInXal~EnHCuO8aO1pWUnp4lbVhMZV3C~7g3KwMz9G-ePiWYFVW2sTlhnXtMCMvRLJ-rNriIivSrF3ddrNZkVPX2fFRI1QNNbfUofW39MLey3b0yT~3FbJqTGoSX9pYyUNeRMVdhWddL2Hw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_14_t1.png]]
+### Inversion
+:PROPERTIES:
+:heading: true
+:END:
+#### $\Phi^{A^{-1}}(\mathbf{r})=\Phi^P(\mathbf{r})$
+### Concatenation
+:PROPERTIES:
+:heading: true
+:END:
+#### $\Phi_2^A\left(\Phi_1^A(\mathbf{r})\right)=\left(\Phi_2^A \otimes \Phi_1^A\right)(\mathbf{r})=\left(\Phi_1^{A^{-1}}\otimes \Phi_2^{A^{-1}} \right)^{-1}(\mathbf{r})$
+### Exp map 指数映射
+#### $\mathbb{R}^3 \rightarrow SO(3), \mathbf{v}\mapsto \exp{(\hat{\mathbf{v}})}, \mathbf{v}\in{\mathbb{R}^3}$
+### Log map
+#### $SO(3)\rightarrow \mathbb{R}^3, \Phi \mapsto \log{(\Phi}^{\vee)}, \Phi \in{SO(3)}$
+### TODO Read [[14 Lectures on Visual SLAM]]
+:PROPERTIES:
+:todo: 1607932959022
+:END:
+###

@@ -1,90 +1,79 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAwUDZ0a3JDTmgwcnpIWTZT
-eTh6amlaQ05TZHJ3cUZNcmRmY0NSSzRLUEdNClAvRjlyVGtGT0NaYlZ6TWhRdUpZ
-ZkpXZHlKUzVoWFZIRmhLZlo0c2Zka2cKLS0tIE1oRDdjU2RGZTJ1ZVpYUVNZQTVk
-SWp2b2hncEJSZkpZNVlQalh5aVd6Tk0K1okImtke4JYiatEamaddMj/RNppe9H0n
-ZP7JBI3d6YM+5BmTISDZNV93BHqUS3EPElNikrEG1cKbQz2XdycDV8J478/B9KWC
-O1WCi3zMnAxK8KgPI1iL3af4V+0TQ6AvZmJ16KXJ9wuifOhLFh3zZKH5BBZm5ktU
-Y8XMyxt5dS7HO0jEKvGkCKxdV9wHmwglzs/goMPk8EloY6N4yC9rjTCjxGBE2VZQ
-M/69jB/Iw6h+0z8c+sDQcCqoWWyVtuqfRHBs1dMswTlkInQbqcLdVuUuRayIfnHV
-7grsyYFP6COUEixzwGViaqsqr7zk1/sCwxTeTRz/avKXP3fULP6AW91UYTF51nmH
-cfg72S9EZa0E2aAdOM7YVmqMr3SIQKYVzsPC7FGsgq/oUz0LGeDFZ/zIHDHGcuGh
-8Mx0j6QDRgC85evuwwWlFF55Q8BKtsZdjiN7/hFEIMLkhFIAMNqbXuR71QZoX5T+
-P+qbd3C/hVAV2cnQt24Se8geeON361gYUe+kYmEtt7HiswilwSpNT14loKUiykVO
-bOG34p2XBMkZOlyl0W1qQqJcCpLQhMOVuDaHWFcHvD+htpZkPx9kPiK1Apccq7eF
-wqwwYtHfVZxOSTObsr7XMMMiDv3lRURCE3ghS/1WGNSm+cy8Toa8B6GGJWSGJf+o
-Od1m6b0RDbOcwiE3DtRmLy8z4wp767fgK8r/rdB+3en5bwmLMWWtB6vv+q7Ha9W+
-ykJ6b/kfseyQCE7CaZJEZG+TPMQmtWnFzT8mgwTyZbeTmWvglSoKrBD06jIXJiW4
-mHeiJ8H7kcJQQsmoNsDg+tn5e+qqfiuSs6y9cjyaOoWV72QIVzVat2uApIkGAiad
-k1AUuWA7ZNNOJE/jKK6Olow29TURh4s0pLy6biV3DTdKxmg2WumY6QSJKzzabYVu
-UgSH2Ul9bW5ojcF0iSzWlCtqxqKkOAw6J7X/R9XlS2HGFk8bilY2jQqL0mZi0sO4
-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
------END AGE ENCRYPTED FILE-----
+---
+title: video instance segmentation tracking with VAE
+tags: [[VAE]] [[segmentation]] tracking
+---
+
+##
+## TODO  To read!
+:PROPERTIES:
+:todo: 1608191817524
+:END:
+## Structure: 1 encoder, 3 parallel branches
+:PROPERTIES:
+:heading: true
+:END:
+### auxiliary branch
+#### predict future frame
+#### reconstruct loss
+#### learn finer representations, meaningful semantic information encoded in latent space
+### proposal branch
+#### object-level information for connecting objects over time
+#### attentive cues to reduce false negatives in augment branch
+### augment branch
+#### aggregates pixel-level features extracted from different layers in encoder
+## [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_17_seg_track.png?Expires=4761774928&Signature=bWAasSKsLNWPwdakaI0qyeOScAQZ0RrL7iaixe744FvvyLI6uit11uyh5Lee9GYnj-fuRRTrTgZ4-g78VcfP-AQPt5HeAXR85c0y-SZdIx1tewePik6cwTuytZczGKhhNGj8x9GQCds~jg0vKfZR0YY57PSG-4gb8nz1lqrPfQp1ZGsfI9j2NLawAvuQe9WKpipDkg6V32o7~K5aWPLeO5tqCXaA6h~0r6SoU44BmziOxJU2WYjirtki~g~NcP53Vxu5F3wsy5BD~~nKRe5FPqP812zLPcDQwaf3iUmurV1XPwySBJENsvNstoMJJYwIF50C0DohBxI2vHelj85wrg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_17_seg_track.png]]
+## Unified [[VAE]]
+:PROPERTIES:
+:heading: true
+:END:
+### Video sequence $F$ with $T$ frames $F_t, t\in{\{1, \cdots, T\}}$ with $N$ instances belonging to label set $C$.
+### Input
+:PROPERTIES:
+:heading: true
+:END:
+#### Current observation $\xi_t=[F_t,F_{t-1}, \Lambda_{t-1}]$
+### Structure
+:PROPERTIES:
+:heading: true
+:END:
+#### Encoder $E_{\phi}$
+##### maps the current observation $xi_t$ to:
+###### a latent variable $\mathbf{z}$ and
+###### a spatial prior $\mathbf{\phi}$
+#### Auxiliary Decoder $D_{\theta}^{aux}$
+#### Proposal Decoder $D_{\theta}^{pro}$
+#### Augmentation Decoder $D_{\theta}^{aug}$
+### Output $\hat{\chi}_t=[\hat{F}_{t+1},\hat{\Gamma}_{t},\hat{\Lambda}_t]$
+:PROPERTIES:
+:heading: true
+:END:
+#### Predict future frame $\hat{F}_{t+1}$ in $D_{\theta}^{aux}$
+#### Generate a set of detectioni box predictions $\hat{\Gamma}_{t}$ in $D_{\theta}^{pro}$
+##### $\hat{\Gamma}_{t}=\{b_{i,t}\}^{n_b}_{i=1}$
+#### Estimate a set of instance segmentation masks $\hat{\Lambda}_t$ in $D_{\theta}^{aug}$
+##### $\hat{\Lambda}_t=\{m_{i,t}\}_{i=1}^{n_m}$
+#### where $b_{i,t}$ and $m_{i,t}$ is detection box and segmentation mask for instance $i$ at frame $t$.
+#### $n_b$ and $n_m$ are number of object instances at frame $t$ in $D_{\theta}^{pro}$ and $D_{\theta}^{aug}$
+### 1. Conditional Variational Bound
+:PROPERTIES:
+:heading: true
+:END:
+#### Add a conditional prior $\varphi$ extracted from $\xi$ to preserve spatial information
+#### $D_{\theta}$ estimates the parameters of distribution $p_{\theta}(\chi_t|z,\varphi)$
+##### We need to maximize the **log-likelihood** of observed data $\xi$
+##### **marginalize out** the latent variables $z$ and $\varphi$.
+#### Use approximate posterior $q_{\phi}(z|\xi,\varphi)$ to obtain the [[ELBO]] from [[Jensen's inequality]]
+##### ^^(1)^^ $\log{p_{\theta}(\chi_t|\xi)}\geqslant \mathbb{E}_q \log{\frac{p_{\theta}(\chi_t|z,\phi)p_{\phi}(z|\varphi)}{q_{\phi}(z|\chi,\varphi)}}.$
+##### The loss function follows (1) and has the form:
+###### $\mathcal{L}(\chi_t,\theta, \phi)=-D_{KL}\left(q_{\phi}(z|\xi,\varphi)||p_{\theta}(z|\varphi)\right) + \mathbb{E}_{q_{\phi}(z|\xi,\varphi)}[\log{p_{\theta}(\chi_t|z,\varphi)}].$
+####### $D_{KL}$ divergence, a **latent** loss as distance between distribution $q_{\phi}(z|\xi,\varphi)$ and prior distribution $z$.
+######## As [[regulariztion]] term to avoid departs too much from prior.
+####### log-likelihood part, a **decoding** loss, which measures how accurately the network constructs the semantic output $\chi_t$ by using the distribution $p_{\theta}(\chi_t|z,\varphi)$
+######## distance between $\hat{\chi}_t$ and $\chi_t$.
+### 2. Variational Inference with Gaussian Process Latent Variables
+:PROPERTIES:
+:heading: true
+:END:
+#### Video data strong spatial correlation
+#### So to relax the assumption that latent variables are [[iid]], propose new scheme
+#####

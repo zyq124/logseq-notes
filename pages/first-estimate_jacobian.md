@@ -1,30 +1,24 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBQYnRTV3BQN2R5Rm5Jd0lM
-M1ovOUpDU1hoZFhKUU1wdTFXbDJRbUhyRVdjCnlLa2Q3dlk5azhSSEVvUk80T2VU
-TkYreWdiOCttT3h6MVBZRy8rT1hvbTgKLS0tIHRRYXJBTHZDY0NnQkVkNUpFcUZ3
-U1VkeVlXblp4ZlBIK1NNWjRpVWxWcEEKNOZAxsKno/6GZd4cfmNJTGzQ4tdgV5fc
-SfV8X8WCE/cYdMRNrGiDWE/IQQUAPG7ks7v37bEpM/96UVQ3I5qO3a5iJGHuxvpJ
-qn0U8taKNAkv2TkeOol57T/itKoL3BKT5delnK6I12p2CaTQA+gEm6zWwJTyz3Rz
-ryDt9w6tRBrDoN8PPDlXjoC0x9eesHJIWjVD4XquLgUIBmq62Vfboo0EAXjJqYrC
-UO9qBhfsNiw14xBZSOJI3EIuMJBT5NrjDKw2e3b8Pga6cMUSRUP30MEGDtKB5jmI
-0dQh/bmVM4Ic2njgCmBcTlXat6G/SC4qCyr9SZbiv+GAMlAStuxOdv8LAV8Ol4sG
-YfG05WEz2i2hVcA4VP9P7of403mdlcrnHUQdM5sZSsc/QzoV1HwDx9I6g2cdlcyT
-+SgZ/PzE2/pkg0ZyBsrJx71zBMbEhi3cCfcYGPhsi6CeBBTK/d+qIXBf5zg0T9iy
-UzgfnpEBN+P3vcyH6pR7cKrdzUrd/KNbpLlHRR3gC0eLkBqnQBFolFbcqYusH6yL
-ipwSTDYEDJfaNnrk+f86cHM/Urk3iZwIZAr3Wsmi90PH8U8A2Mzq+hdM8Gn+Of4B
-XEKiPE/msLvmwW8gjP0D4pslCHGZKurmqTN48mB1KAiXL+43ISNP776GCUn+vdir
-g2YoLd/pwjpP/MjSBSB1kQ7bUzNUSUrttfpLefh4rzxTc+kU5hdqXKu8wdsnIwsN
-ICmlh+ejlWinPUeEx21bYZysX2DqhON//KXbxuh8Tvi0YLpv/MVXShGyObNeb18n
-/mtFhUWVh0TyVgCsGryOJKt8PpGuKxGZx5KdBqr0QYqb+dgSJVG8AaHMv9YCyWxj
-NChjqZ4TaMzvYtNXjEFUwfe6WUAbmY5upsF02vKgfgjxrLsekFk/SQ2C387II18B
-Gemm2DtDNmhX/vG6Y7O5NjodozmOLFqsjTw1rsn7tKB96U3FuQ/IyZ4CWExEXR0K
-zXZJg15/x0CHRwaoUUja/th7uD2wlQ8JKBLHIN5IEgSk8Ic23QrpGdaHt/Tti5n6
-UYGOntV1OZfV9dTeXOA0L621yfN5O9xLaoCP5w84U3PVw3aOXniEszwvxghAzeaB
-nwZRU1h78sdV+/pW4QIjDqdWjuxWMKRDMXWPzx+IUGpt3q+Qg8mNdXT3SCfs29AP
-UC2k1tJtQnL4i4VHC3bQMwWXfDhJa2LiwbQz2n80/v86NyQ94grfWnsdA7E3kFhD
-0Y0D5dEK4B7lOrFVEb36TDAOQ8NwkgdPL8gz+7/Jh16juqWUo7jKhK8Nh/zciy5k
-exRFTsV0PjJ7AhJNgr03qzVwBNUgnMfxa9tPuVreYVuDe75v73l2Io/PpOKDRMlH
-jgxYywQTFnWNylnTzk6FG6XMyT7KtkNu9N3E+wGpswnqXT8pNzckAUoTzrskemmu
-TUw/XyLyjoa51Dcc04yIOy3tGIo2+fSUARL2RbJ1XyMKLSdPksHaFEAl8rVeYTrj
-7rI8VBBv6w==
------END AGE ENCRYPTED FILE-----
+---
+title: FIrst-Estimate Jacobian
+---
+
+## EKF Linearized Error-State System
+### When developing an extended Kalman filter ([[EKF]]), one needs to linearize the nonlinear motion and measurement models about some linearization point. This linearization is one of the sources of error causing inaccuracies in the estimates (in addition to, for exmaple, model errors and measurement noise). Let us consider the following linearized error-state visual-inertial system:
+###
+$$\tilde{\mathbf{x}}_{k|k-1} = \mathbf{\Phi}_{(k,k-1)}~\tilde{\mathbf{x}}_{k-1|k-1} + \mathbf{G}_{k}\mathbf{w}_{k}$$
+####
+$$\tilde{\mathbf{z}}_{k} = \mathbf{H}_{k}~\tilde{\mathbf{x}}_{k|k-1}+\mathbf{n}_{k}$$
+#### where the state contains the inertial navigation state and a single environmental feature 
+(noting that we do not include biases to simplify the derivations):
+####
+$$\mathbf{x}_k =
+	\begin{bmatrix}
+	{}_G^{I_{k}} \bar{q}{}^{\top}
+	& {}^G\mathbf{p}_{{I}_{k}}^{\top}
+	& {}^G\mathbf{v}_{{I}_{k}}^{\top}
+	& {}^G\mathbf{p}_{f}^{\top}
+	\end{bmatrix}^{\top}$$
+####
+#+BEGIN_NOTE
+We use the left quaternion error state 
+#+END_NOTE

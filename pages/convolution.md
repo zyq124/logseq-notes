@@ -1,39 +1,35 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB1SGtKQ21tS1JySGtOTERl
-TXNRUXBpQ1pqanNoUmdOazlaclpHREpFeTFVCnBMY3hKcHlZcHhYaGpJdjUzK3h1
-SzZLVUh1RXFEditBT0ZwZFdJaEQ0ZHMKLS0tIEo4UzV0YmFCbEdtSmF2dVVwQXdV
-cVBGWGJCRVBnRTdmOERBTEdjMkNmNU0KEOLLAoBwxxUj0tb5Wt2ipHCCF/bkD0bo
-2KI+/ybP3GWaNMSjeI9HpFd+Zgz6rk9w8GzAXlAsxVZXeg41d6E3GrEoWl18mzSW
-4laJslmrJBsvMQpEUfZMavGmjyrRos6GQnMn8jweBJOJ1YgNFH6/VNAdM+uZgGK6
-6kBQVhmxCVt3FJ5bfPrHhW0OeKrAWvpHiSciGMjHY5LejNIgCKJbNgO2Jy7cmg8R
-+NbiRI8zfMUhSVz9GXQJcp085rE2bB0rCrpGiOkNj972ZkWZH6ixd91wOch0JqsK
-0h2HsL9KMQn8VcTXC5zr2/TY32de/J1IgFtzCVNPHU0P2sK9Th25cBDcjuc3ypR5
-5FmwxXaKXK3tjMuLJOu1S81WMfwIQDG99uYVnLARQqQCiIYWBt/rmz+jSuCOXSPy
-ij5bVJPEViLoYuCvsFM7wYs/HjO/wAvpV2mQledY1Az+s2SN3fp7rjnppg2DbsDV
-hMr4hQ/QyybpnnxP3WFzmnvwhSTgYH8hpHOpGiVYrMk4PkF72PvQRxsnh5l2lOvE
-r+E0ddRuPSdc0q3sxOc2TSOsdrHjbwEZk7APnROwqzZfGEU7Ox5aLEa3Yi4Yf9SE
-YX//LexZMlGz9Q/MYeeCidHf+tq0s1qCV2rhB3tByY3VZRa9bfedfcp0m9HbNrfh
-eRgLUs9ACzK83lZkMgh5/jJEVJ+B8LGuc0f2/edzhj6bEkSwWeMWo5ZproKDY3mm
-MLHJiEer+bRyyLB7E/5V9//29Uk8HQmaO60VwaRi8pmeRJAUq7fEGcHQeLocmHid
-UXVj1EnLodnQ20gj5cQNxN3n3RvVhrN5lnpsfrhhugDnAeQ90B/0LlGn5urhGhd0
-jUFwq9+KF/8IpaTzods63vjdRtnFZ5pfyirQsE3sYqE9mLUu4NLCqnAAHuwvr12k
-5qkTTFSDaWNiyhEm5f3F3AHADC6BwHXTXJ+UTFhpVKGqmtpdt2q4Nx1sutusRwgg
-U3KCJ6iuEnbhS9iOaPRPtzXB8WWQjEB1+4+IEg13NXEz5BjrBH+tMy8xlw8wxVcp
-qXPNqQhdwr8nu/X7QMJtAK2uS9UPFu96llqgy3hHP0U0qfv1Zqftv61N1NoXTI8J
-fGrilgr2eOsqBFK5/d114/t24mPEjPNJfqQ5CbIiPICMmcckmVjfRGfDgHa/TCiR
-Gvz7Qh2xEasgWAEkITcRv+gujL3pXqwETVklIFeIJCPAXCfKHaztTlQ2PXNMzlEp
-KFeM48T2fuSOHRQcneyggmdkCzKEfdqPUNsVe4yLoXbdBtcGOpDEfUCX7zzehJ7F
-cMpNwQHCD4HCuWupcR5rj/fbYNjs0cx3mcfFh1XH8dvoR2yoAtjx6tFKMfTAx4Gq
-a945EbEN3R7rl5hngPmFJBotOyU/DUIDCqRi3GL5z+IFN+RVfDcfHKkehnFTBGdo
-9SpVVIqbs/JnsnlAaNWDSTGKHVCwUAapxnJUZ051R8hb0L7OODiAkkshwCvkmKic
-o7UVasb21ulCvL/VGWX2m7ygi+VWuBxLndqohqIKb/0XNlF7lcDCtwDdTWp3oIhK
-ZL9r/Q145lqfcdClcJI9KBKd3tuOBilbSw5Oua6YQ0Zcpow/cpRvYM9fPqeRzAWS
-l+ZcX+Oazm29LllEbfkgSj3RZ4agmFM8AX/goj1eC4avoift8I71pwJj9FxxqZyY
-KEVQ3FtRCYtjazgOcDPeWzGz7eVc0lcTEwdu/FWOiEKo24OCmzKoL3bGoAumnieY
-3e/KgG7cNld6d5imh8x66/gSuziwUUgxa3E2klTCrwf5jk20q4ky4VbgFTCtqvfV
-hPO8fRu4HIUmm45Svg8yLFi796UsCnhSjgH5Fsp6LWo8M5EPmNCYjgbC0Se8vB7P
-gMsUR3R3QW+a/12EM8ZlaOc8PZMGIx0y1g4bu3b2AosnIGHAQEB1NHHHJZgc5sSh
-fZP+o3gtLy2927f76CiXjRMXh2jz02Zcu0+8bha24FPxX4dAlD3RUrpBeeCkFsCl
-PpsjSi8QAuPRlj2mejCb3grDeAOQhFGOoX5CVmq1qD0CQpv2tldJKnxXv9P0OS44
-Rd4JkFKqvkRjQPypX4zZiWD5Vl537HFslU1N1VIIsZ0odojcRTT3
------END AGE ENCRYPTED FILE-----
+---
+title: convolution
+alias: 卷积
+---
+
+##
+## Convolutional layer
+:PROPERTIES:
+:id: 600a76a1-eb1d-4943-8788-d06d6549feee
+:END:
+### cross-correlates of the input of a 3D Matrix, shaped like [height, width, channels] with [[convolution kernel]]s [k, k, channels] of weights (randomly initialized)
+### to produce an output
+### ![image.png](/assets/pages_convolution_1611282885532_0.png){:height 309, :width 602}
+### [[Padding]] 填充
+### [[Stride]] 步长
+###
+## 1. 普通的Convolution
+### 1.1 No padding, no strides
+#### ![no_padding_strides.gif](/assets/pages_convolution_1611297903090_0.gif){:height 177, :width 158}
+### 1.2 Arbitrary padding, no strides
+#### ![arbitrary_padding_no_strides.gif](/assets/pages_convolution_1611303453251_0.gif){:height 200, :width 183}
+### 1.3 Half padding, no strides
+#### ![same_padding_no_strides.gif](/assets/pages_convolution_1611303597725_0.gif){:height 215, :width 182}
+### 1.4 Full padding, no strides
+#### ![full_padding_no_strides.gif](/assets/pages_convolution_1611303709888_0.gif){:height 222, :width 185}
+### 1.5 No padding, strides 2
+#### ![no_padding_strides.gif](/assets/pages_convolution_1611303798668_0.gif){:height 175, :width 148}
+### 1.6 Padding, strides 2
+#### ![padding_strides.gif](/assets/pages_convolution_1611303836489_0.gif){:height 179, :width 175}
+### 1.7 Padding, Strides
+#### ![padding_strides_odd.gif](/assets/pages_convolution_1611303863357_0.gif){:height 167, :width 176}
+###
+## 2. [[dilated conv]]
+### ![dilation.gif](/assets/pages_dilated_conv_1611304238899_0.gif){:height 197, :width 205}
+###

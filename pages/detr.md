@@ -1,253 +1,210 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBCTm52U3RYVjBRMnhheGp0
-RjI2NktiMVRrd1lyZlBWT2RlQkRVVnZrNFFvCklJNE9zMEI2b0ZpdW42TXVLdTRa
-eWhON0kvSlN6TEtTbTdRYVBlcEhMcWcKLS0tIG1kYnpDYXZvR3YwN2ppM0UwRHJl
-aTNVeTFXRFlwdE5vbjl1elRlTVNHajgKXwOgW2p/397uqy6ACaqxj1rf1eDCW/Fc
-ZBL4e/nQ1jIg/Meq4buLPK+w11IirriE7OntlFIAorxlH6AoC1nwo1c5m5Nl8LOr
-+obFdLK5oZb+sRFgi4bp5Ihny1dowEpL3q1jg58v6UHf0LWCwI9diL3mdbyjajin
-Nw/gtUH7n+B9FwB8jVfDqvhx0bXAQXWftmbyxtLrINHFV4kvjVxXEdEKdlOEKLh3
-m9vx9sMKgt8VHpy4YIYBrpZ8VWsdCn239OXqOSSG5pVez2wgBmXJ0DEehDb2hZNE
-D+Iq565fbdHS07Uz/4ky9HGj97wXjrzX7fWPsSx1r1oqMb56+iD6Ie/eNYoQBkf7
-TR4/Pvfa81p4lvurCxj8iRyrh/n4CmzXF7d/3apOCg5VR1dJASFb2hy+M5dnRk44
-IcGaYsuX0PxiIud7V8VMKF/V/STbzehi3ADCp/ee9CUAuKNF9iRODZ3f4hWI1f6o
-yZ2tq/ek59yBzEp8sKvVmwfE71rREYFg8em4Lup5I6rcm1VcTdEOUFZreB2S3jNd
-RpDd/N0Ch0DaAPMGAmm+VEUfdqOs/LYx8vN416mGj47NW4eei8UbG6QvFDsOELgs
-chFT+D9FOPQh2/2zLqC3Dm9H5+uTiEaQkZW4f6ncZiE+vHxUIYL/jJexUuKlMQJw
-3zUk65xW1SJ+coxF6w3iNXEn7ct9oSM/EbzlEJ/JiIRbyMjZlMscZoh5U5AQb+xJ
-eMWX48X7Th/4bf16aqCv8IwpMO8mKvS6ajfYY0crMyGDQndJW3Sk0tzQaj3LOAvZ
-diaK1sO0thhmvdM9uh00YVLVp/vZJl8AdYmmJ4lD6J9m8LNoNCjcYtSAmhRTT6/b
-XZ0VkbUBnv75pvenpYJwcUnwAgDksh5d927OQJbmgyn8V6qmfsesq77Tpe2fqYxB
-YYlC6L6GBKsadWkt3sF8KeIPzI+aC+OvxmTejM5SPKk4WptBuWOGdEDBGXEBOEe1
-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
-GGgDYKU3luHkrTfai+E=
------END AGE ENCRYPTED FILE-----
+---
+title: DETR
+type: Article
+citekey: carionEndtoEndObjectDetection2020
+publication date: [[2020-05-28]]
+authors: [[Nicolas Carion]], [[Francisco Massa]], [[Gabriel Synnaeve]], [[Nicolas Usunier]], [[Alexander Kirillov]], [[Sergey Zagoruyko]]
+tags: #attention, #detection, #transformer, #zotero, #literature-notes, #reference, [[object detection]]
+---
+
+## End-to-End Object Detection with Transformers #readdone
+### Zotero Metadata
+
+#### [http://arxiv.org/abs/2005.12872](http://arxiv.org/abs/2005.12872)
+#### code: https://github.com/facebookresearch/detr
+#### PDF Attachments
+	- [Carion et al_2020_End-to-End Object Detection with Transformers.pdf](zotero://open-pdf/library/items/LJKH5VA3)
+
+#### [[abstract]]:
+##### We present a new method that views object detection as a **direct set prediction problem**.
+##### Our approach streamlines the detection pipeline, effectively removing the need for many hand-designed components that explicitly encode our prior knowledge about the task.
+###### 取代现在模型需要手工设计的工作
+####### [[NMS]]
+####### anchor generation
+####### 不需要设置先验anchor,几乎没有超参数,也不需要NMS(因为输出的无需集合没有重复情况)
+##### The main ingredients of the new framework, called DEtection TRansformer or DETR, are a ^^set-based global loss^^ that forces unique predictions via [[bipartite graph matching]], and a _transformer encoder-decoder architecture_.
+###### Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the **global image context** to directly output the final set of predictions in parallel.
+####### infer固定数量(100)的预测集合 #practical
+######## 每个集合包括类别和坐标信息
+######### $y_i=(c_i;b_i)$
+######### $c$ 是92(91+1)个类别响亮
+######### $b$ 是长度为4的bbox坐标向量
+######## 输出的时候就会有两个分支: bbox分支(b,100,4)和分类分支(b,100,92)
+####### 图中物体不够$N$个就用 $\phi$ (no object) 填充padding
+######## 计算loss的时候bbox分支仅计算有物体位置,背景集合忽略
+###### The new model is conceptually simple and does not require a specialized library, unlike many other modern detectors.
+##### DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized [[Faster R-CNN]] baseline on the challenging [[COCO]] object detection dataset.
+###### Moreover, DETR can be easily generalized to produce [[panoptic segmentation]] in a unified manner.
+###### We show that it significantly outperforms competitive baselines.
+#### zotero items: [Local library](zotero://select/items/1_RJB6MLHT)
+## Overview
+:PROPERTIES:
+:heading: true
+:END:
+### 两个关键点
+#### [[transformer]]的 [[Encoder-decoder]]架构一次性生成$N$个(100)box prediction
+##### 有几处针对目标检测对原始 [[transformer]] 进行的网络结构改进
+#### 设计 [[bipartite graph matching]] loss
+##### 基于predicted boxes和gt boxes进行bipartite二分图匹配计算loss
+### ![image.png](../assets/pages_detr_1613963899263_0.png){:height 143, :width 749}
+## 1. DETR Architecture
+:PROPERTIES:
+:heading: true
+:END:
+### 三个部分: encoder, decoder, FFN
+### ![image.png](../assets/pages_detr_1613966635630_0.png)
+#### CNN backbone to learn a 2D representation.
+##### flattened and supplemented with a positional encoding before entering encoder
+#### A transformer encoder takes a small fixed number of learned positional embeddings
+##### **object queries**
+#### pass the output embedding of decoder to a ^^shared^^ [[feed forward network]] (FFN)
+##### to predict either a detection or "no object" class
+### 1.1 Backbone
+:PROPERTIES:
+:heading: true
+:END:
+#### $\mathbf{x}_{img}\in{\mathbb{R}^{3\times H_0 \times W_0}}$ -> feature map $f\in \mathbb{R}^{C\times H \times W}$
+##### $C=2048$
+##### $H, W=\frac{H_0}{32}, \frac{W_0}{32}$
+### 1.2 encoder
+:PROPERTIES:
+:heading: true
+:END:
+#### a $1\times 1$ convolution reduces the channel dim of the high-level activation map $f$
+##### $C$ to a smaller dimension $d$
+###### 维度压缩
+###### new feature map $z_0\in \mathbb{R}^{d\times H \times W}$
+##### reshape -> $d\times HW$ feature map
+###### 序列化数据
+#### each encoder layer has a **multi-head self-attention** module and a [[FFN]]
+#### 因为transformer encoder结构是permutation-invariant的 (顺序无关的)
+##### 每一个attention layer的输入加上fixed [[positional encoding]]s
+###### 反映位置信息
+###### 考虑2D空间,即xy方向
+###### 每个方向128维
+####
+#+BEGIN_NOTE
+位置编码向量仅加到Q和K中,$V$没有加入位置信息
+和原始做法不同
+#+END_NOTE
+####
+#+BEGIN_NOTE
+位置编码向量加入到每个编码器(6个)中
+原始做法只有第一个编码器输入位置编码向量
+#+END_NOTE
+### 1.3 Decoder
+:PROPERTIES:
+:heading: true
+:END:
+#### 跟标准transformer区别在于
+##### the model decodes the $N$ objects **in parallel** at each decoder layer
+#### 因为transformer decoder结构是permutation-invariant的
+##### $N$个input embeddings must be different to produce different results
+###### shape $(100, 256)$
+###### 被称为^^object queries^^
+####### 在学习过程中提供target和context image 之间的关系,相当于全局注意力
+######## 通俗理解: object queries矩阵内部通过学习建模了100个物体之间的全局关系，例如房间里面的桌子旁边(A类)一般是放椅子(B类)，而不会是放一头大象(C类)
+######## 训练过程中每个格子(共N个)的向量都会包括整个训练集相关的位置和类别信息
+######### 例如第0个格子里存储某个空间位置的大象类别的嵌入向量
+######### 但是这个大象类别embedding vector和某一张图片的大象特征无关,而是通过训练考虑了所有图片里的某个位置附近的大象编码特征
+######### 属于和位置有关的全局大象统计信息
+########
+#+BEGIN_SRC python
+# num_queries=100,hidden_dim=256
+self.query_embed = nn.Embedding(num_queries, hidden_dim)
+#+END_SRC
+######## 训练过程
+######### 图片输入到encoder中进行特征编码,输出的编码向量就是$K$和$V$
+######### **object queries**是$Q$
+######### 计算QQ和KK,加权VV得到编码器的输出
+########## 第0个格子的$q_0$会和KK中所有向量计算
+########## 目的是查找某个位置附近有没有大象
+########## 如果有会加权输出
+######### 整个过程计算后就可有把编码vector提取出来,特征已经对齐了
+######## 作用有点类似anchor in [[Faster R-CNN]],但是是可学习的,不是提前设置好的
+########
+###### 被decoder转换成output embeddings
+#### Using self and encoder-decoder attention over these embeddings, the model globally reasons about all objects together using [[Pairwise]] relations between them
+##### while able to use the whole image as context
+#### 一次解码输出全部unordered set
+##### 因为任务是无序集合，做成顺序推理有序输出没有必要
+##### 只需要初始化时候输入一个全0的查询向量A，类似于BOS_WORD作用
+###### 然后第一个解码器接受该输入A，解码输出向量作为下一个解码器输入，不断推理即可.
+###### 不需要在第二个解码器输入时候考虑BOS_WORD和第一个解码器输出.
+### 1.4 **Feed Forward Network**
+{{embed ((60389635-8602-43a5-9b4d-dc077719605a)) }}
+### 1.5 Auxiliary decoding losses
+:PROPERTIES:
+:heading: true
+:END:
+#### add prediction FFNs and [[Hungarian]] loss after each decoder layer
+##### 作者实验发现，如果对解码器的每个输出都加入辅助的分类和回归loss，可以提升性能
+##### 作者除了对最后一个编码层的输出进行Loss监督外，还对其余5个编码器采用了**同样的loss监督**，只不过权重设置低一点而已
+#### All FFNs share the parameters
+#### Use additional shared **layer-norm** to normalize input to the prediction FFNs from different decoder layers
+### ![image.png](../assets/pages_detr_1613987449992_0.png)
+## 2. Loss
+:PROPERTIES:
+:heading: true
+:END:
+### 2.1 Object detection set prediction loss to force **unique** matching
+:PROPERTIES:
+:heading: true
+:END:
+#### 为什么要匹配? #motivation
+##### 因为输出的$b\times 100$个检测集合是无序的,如何和**gt** bbox计算loss呢?
+##### 需要 [[bipartite graph matching]] 双边匹配得到匹配索引 index
+#### ground truth boxes的个数(即图中object的个数)为$m$，由于$N$是一个事先设定好的远远大于image objects个数的整数，所以$N>>m$即生成的prediction boxes的数量会远远大于ground truth boxes 数量
+##### 为了解决上述问题,认为构造一个新的物体类别 $\phi$ 表示没有物体
+##### 多出来的$N-m$个prediction embedding就会和 $\phi$类别配对
+#### (1) 用 [[Hungarian]] 找到cost最小的 bipartite matching方案
+##### search for a permutation of $N$ elements $\sigma \in \mathcal{G}_N$ with the lowest cost
+###### $\hat{\sigma}(i)$表示无序gt bbox集合的哪个元素和输出预测集合中的第$i$个匹配
+######
+$$
+\hat{\sigma}=\underset{\sigma \in \mathfrak{S}_{N}}{\arg \min } \sum_{i}^{N} \mathcal{L}_{\operatorname{match}}\left(y_{i}, \hat{y}_{\sigma(i)}\right)
+$$
+###### $y$ denotes **gt** set of objects (size $N$ padded with $\phi$)
+###### $\hat{\mathbf{y}}=\{\hat{y}_i\}^N_{i=1}$ the set of $N$ predictions
+###### $\mathcal{L}_{\operatorname{match}}\left(y_{i}, \hat{y}_{\sigma(i)}\right)$ [[Pairwise]] matching cost between **gt** $y_i$ and prediction with index $\sigma(i)$
+##### 这个matching cost 考虑class prediction 和 similarity
+######
+$$
+\mathcal{L}_{\operatorname{match}}\left(y_{i}, \hat{y}_{\sigma(i)}\right) = -\mathbf{1}_{\left\{c_{i} \neq \varnothing\right\}} \hat{p}_{\sigma(i)}\left(c_{i}\right)+\mathbf{1}_{\left\{c_{i} \neq \varnothing\right\}} \mathcal{L}_{\mathrm{box}}\left(b_{i}, \hat{b}_{\sigma(i)}\right)
+$$
+###### $c_i$是target class label (might be $\phi$)
+###### $b_i \in \left[0,1\right]^4$是vector to define gt box center coordinates and height, width w.r.t image size
+###### $\hat{p}_{\sigma(i)}(c_i)$是probability of class $c_i$
+###### $\hat{b}_{\sigma(i)}$是predicted box
+##### 重点是找到one-to-one 的匹配,没有duplicates
+#### (2) 计算loss function
+##### The _Hungarian loss_ for all pairs matched in step (1)
+##### 跟常规object detectors类似
+###### linear combination of a negative log-likelihood
+####### class prediction
+####### box loss
+###### 提供输入的$N$个输出集合和$M$个gt bbox之间的**关联程度**
+#######
+$$
+\mathcal{L}_{\text {Hungarian }}(y, \hat{y})=\sum_{i=1}^{N}\left[-\log \hat{p}_{\hat{\sigma}(i)}\left(c_{i}\right)+\mathbf{1}_{\left\{c_{i} \neq \varnothing\right\}} \mathcal{L}_{\text {box }}\left(b_{i}, \hat{b}_{\hat{\sigma}}(i)\right)\right]
+$$
+####### $\hat{\sigma}$ optimal assignment in step (1)
+####### down-weight the log-probability term when $c_i=\phi$ by factor 10 #practical
+######## 解决 class imbalance
+######## #related [[Faster R-CNN]] training procedure balances positive/negative by ^^subsampling^^
+###### The matching cost between object and $\phi$ does not depend on prediction
+####### in this case the cost is constant
+##### Bounding box loss
+###### make box predictions directly
+####### 不同与其他detectors w.r.t. initial guesses
+###### 为了解决scale的问题
+####### linear **combination** of the [[l1 loss]] and the generalized [[IoU]] loss $\mathcal{L}_{iou}$
+######## GIOU is scale-invariant
+###### $\mathcal{L}_{box}(b_i, \hat{b}_{\sigma(i)})$ defined as:
+#######
+$$
+\lambda_{\text {iou }} \mathcal{L}_{\text {iou }}\left(b_{i}, \hat{b}_{\sigma(i)}\right)+\lambda_{\mathrm{L} 1}\left\|b_{i}-\hat{b}_{\sigma(i)}\right\|_{1}
+$$
+######## $\left\|b_{i}-\hat{b}_{\sigma(i)}\right\|$ 为两个box中心坐标的 [[l1 distance]]
+######
+###

@@ -1,9 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBSNmpJY2UyQ0pVRFhZTzFZ
-eVZ6c2k5WHVESzYyd0lxSE1nNnVMVk8zb1c0CnU3Yy9pSk1GaVBMLzVDWG5vYzBP
-c3kxQTNZODhMbXJ2MU10dXVuaFhpeE0KLS0tIFlFc0VJMWxrSEM4QjV6MUllRFp4
-OGVUUE9qenNvak1CNlFSbks2Nk9NNkEKs2Ze3UxLN4R4xR9hpB8/i40IYDT+U+Td
-ovmCq1ggfcymN0IxdpFiCe4XuYltCN+n/x2ke1zGGECRcb1sQzDtIKx1Eynzu7NL
-9OsvVBa4gjCKyuQ7m/HABlxWl5OdyeeXj2nNowYMzuO/RpTxi7xfGRBgt94Vu7cC
-RK+D5adgyR1+xv0GIg==
------END AGE ENCRYPTED FILE-----
+---
+title: Zotero+logseq
+---
+
+## topic: [[smart notes]] 
+
+## [[Mdnotes plugin]]
+## [[Zotero search]]

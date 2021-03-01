@@ -1,11 +1,9 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB5NHlwSU55b0dRa0s0TzBE
-VmFGSVFkTUZERnFlSDdhNHRCbys4aUlyYVJVCk5adGw4eFBPcTM4ejVZbER3dkdu
-ZjNXYTZRVUNpdTRVNUR5enhXdWpZSGMKLS0tIFFmenhiUStCOHRRSmVDUjZvYml1
-QVFJK0JLZGhZTjBBZ0pIb1BSS3ExcE0K0dznNSSAALD805vvjMhRnsbUaQFfdBrb
-mcicItnUNF25zuD21FA/L8GL8tlQXLKKGmdMDnJClsVvVjVtNUAg4SBeXTfe93VW
-hbIBzt1OzBcFu6SrTZ6DUzC+apeL2v2U7+OLzgNYSC+ZmChyB/twVJB7WSS3Y60A
-4YJG9OWAsKrG1VwWGdAjgcu9iKIVyAtvnl7zmr2Gklcb9+IcHLTOkn1vUnvpYu+J
-6iEn90W6PRCPTrXVVuqjDn7ZpciDu1cy8FFVOKuZQCh08GkYZ+aGymsiMtx0eC/j
-rZo=
------END AGE ENCRYPTED FILE-----
+---
+title: Hard Negative Mining
+---
+
+## train with hard cases where $d(A,P)\simeq d(A,N)$ to refine the distance learned.
+:PROPERTIES:
+:id: 602dcba9-ab4b-4e7e-8477-78254183d3ec
+:END:
+##

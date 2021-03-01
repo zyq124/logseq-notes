@@ -1,21 +1,21 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBqNmJOQU9XT2lDSUYrcHph
-RlNOZ3llcm5zaGVsbUM0TnpDN1FSS2RzckdRCnFvNnFXMEl2eEE1UXVENFRzYkU1
-b0g4emdFV1h2b2JJZit2dHE3MFFMTVEKLS0tIFJETzNjWVpmVlBGZ2R4NU52RFh2
-bjFYQStiUDN5MUxtOGVwQUY0dlBJNkUKF+lraxE57BRp6yPtenvv7l0xx7STn38T
-AS3qIFvsRal7omQ20q0rKaUGeYJAgmsvszm5mDLPClTlaeuZXuXLOReuKPTwo9IW
-aJWCO5QGtd0AzL21ot1lCKJGXrBeR/c/SIH4tXCD5ZtNI0jEAfdC6O3wFT1Ddheo
-HtecDQwnQqfvTuSKgcNO+yHIanq8FiCziTjy880Ckk3lp/PUfDq04K41lNzmWS84
-gKnrwEQRCoymS3eUQIza2NoNd3I4y9bp+agWqrBqUAW7ADjClKRQDZPEPBbv0OLx
-Ow/L4vMnISg3TuE9Dg0YgEWbKPM4JYm96T5fy4gbf4xFRIpNnACXcee7e0sx7lir
-ah4Ri+5P5ijkKGD83engPuFnid5C8rFd3iFLiZ3ixQrYmFESwuaIn3oD8kKHgy6J
-OLzoQrcyGbcN7HJKoTw78RbjYSLUe4zkQfwtSZTiokLGaqXA86N9DGRRJ3BTGlwN
-Fm7sKVU4mkNxee7eGwiNkA2JeB/XvW7XTIxEJw0OZJyDE/lO4R418g6pcW7UK1cW
-mbXvrIF0QnWDnQfJoY/JJ8Z/RcG1DMDzX8OEcxEQIIBcitcYntMdl5UcgOpdZ/Bb
-DZIxSHUjAwOwG7qNB12jLQWfYkH6qPapZydh2U8IGEuYGKc2nHj+NOPo9w9zP19X
-riM0Nbdg+AOWsgpHKCcn/bvSFqArWIiUgUgJtaT1xveP+dussLRzPBZup3Hl3Duv
-1MXGcDpSKyWEHAYjYwKTOMU1T2Q0Ll1qmQ1mYIIgipawLUqD9mCSznZzWbFvFxiX
-hc3oPhQogJETaGqMFxDJvxXxJJ3eofnfd4GTw0AseED7TEyDBL4idva6T0hqHUkU
-41q7TG/7c4rCEj9FwT0hq+KWAiXqtPDLlLd/41F3Fav0WR3cHb7Fm20Nyvh3jAb7
-g2AS
------END AGE ENCRYPTED FILE-----
+---
+title: Roam and Research
+---
+
+## [[smart notes]] [[Academic]] 
+
+## url: https://www.roambrain.com/roam-and-research/
+## 1. Storing research
+### metadata template of the source
+#### type, title, author, publisher, year
+#### keywords
+#### abstract
+#### highlights
+## 2. Recording research
+### present how research was conducted
+### provide justifications for the methods
+## 3. Writing
+### 1. Prioritizes writing over organizing,
+### 2. Links ideas together (manually and automatically),
+### 3. Harnesses Return on Attention in ways that other apps cannot
+#### the more you use it and the more notes, research, and information you put into Roam, the better it gets.

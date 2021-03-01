@@ -1,9 +1,7 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjVnZsWnROK0VmWTgzR1ZN
-Um5WbXRpM2hzVHNOK2JSMFJLeUFSUlE5bEZzCldJMmgrTTBRYXcvdGVZYUdGYldC
-Vkp0VEhBWjNFdkVYeXRkYzdZYlFWUXMKLS0tIHBoWUJUSEpXVis1c0tVMWd4OUtV
-NlpYdGtBQmpRalY5T1JyZE5ycjg5MkEKY0KtFjrCMMCfZGnWZERT9gDO+ChyO/jv
-CJsQOxdjMINHbxl9lUgjvcWWFuCvkgXCtTPbeSllHXxCBc5eJ2MVkhBOXhz4tMQu
-x+pT6ZNUivvS31py9OyoCk7id+k4xSIUAJQvmNeg0T8IkCHkq/nYn1xU8+iEbSH7
-KdrgrFsUFMQrDtrNpoCeBiNVaLXhy94CHyYXYVaFoQv34dsxmycvcX8ilijTMg==
------END AGE ENCRYPTED FILE-----
+---
+title: Maximum a posteriori estimation
+alias: 最大后验概率
+tags: [[Bayesian statistics]]
+---
+
+## In [[Bayesian statistics]],

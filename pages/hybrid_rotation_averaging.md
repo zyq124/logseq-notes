@@ -1,52 +1,37 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBGdUFDVmRVeFJDNWdOdmVw
-SlF1Ym9wR3pzSWlkSTdpMUh2VHBUckEvaTJJCmc0ajJCcloxbnRHRXB3Y3RmWm85
-NksrNEdFRDkydmUwTEo5OG1Ia0hPemsKLS0tIDlFSWtGb2QxMWxmT1JpV3U2cmpt
-ZVdjd29hZkJUUzhPNXdPSXRVcWRyV0UKrYkswcoJLWdJ8Q0lrEY/zvk6frzw753S
-s+0OJiJqvXbQsHaSW2h0Zk+ZQWuiaYDYsArARshPFnAvfhmgvmI8eUbhp2txOPZZ
-2YIFhAlV2/6oVhT9Vj0G/r6/raFav3DrASOv1z3345WTBLg82XSQelhesYMjMD1/
-Zwh0dFZf5Ah2dtM8lFN9sIdU64vszgNAbo5+iAQLkhuXCXp+OpQsjtCcvCP5Y4lS
-9rjzIdPDAalykjVY0uw3cnNwZmjiTGDgjJDBnK4KEM0ZktllzulIzI1IyqK1ohrV
-0QcjFLrXYOn6HXfcoWtczopEROTaOwJhjBi18Cw7sdSGAICwskjrOP280CKU8Nib
-1twO7VsrRsZk3kCgOGjrsRDITkSCky2h6pah7GrPKKaopGiyrTjDF5V1ixTw1C4g
-fyGfq03hlCNmxt/u3YJcWM+OjmDFMR7htyYMx1iuiFRQPqWHQjk1gZqiQZ3lsgjp
-5FG4o63IjbpukfoH0vYsaKHZO+v9HVMoDhk1NLedAKbqepL98tf12+5QIU/tY7Uk
-TSVlb3V0R53jfcMLi7zMyG93ne8hL/Ql98SbEz5OdjRqlx5KYxaRTOqvJOmooVCd
-hUPgc8rgOfk7ObUH3Pq1+b4hbduDBIi6ouE6fGuzgLQW7tnAuyoadsKqEcp9+D3P
-7QEuGYyARsX8rbZAwyLQj95W6KoyElzmlnpACwDiVBV6M84tMvwleG2V6lVa3A4w
-qFy1Fx0OXQHxIzT8x+dEvdreEcHKfNEfQbX26S0sL1fBMEDY6Ujwpqrp+6mWBlUR
-ZBiruJIm+TkP9oHS9j9/BgtFSB22Y3T4wHIGyZTBDpNozCUI+n3eNhvTgTvY9v4q
-UHyu9uhDzE8fouTHdB2uCTvKvsYgentnsE/DmrIOMV01UsIZyOCOQRObPnAeMq13
-n70DNynrklTjkkBlxIfTRob8cpmM4olDb9Fu+GQmUmfTdMXmTZWHlvIhAjJKWps5
-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
------END AGE ENCRYPTED FILE-----
+---
+title: Hybrid Rotation Averaging
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### Hybrid Rotation Averaging: A Globally Guaranteed Fast and Robust Rotation Averaging Approach #toread
+
+### Zotero Metadata
+
+#### * Item Type: [[Article]]
+#### * Authors: [[Yu Chen]], [[Ji Zhao]], [[Laurent Kneip]]
+#### * Date: [[2021-01-22]]
+#### [http://arxiv.org/abs/2101.09116](http://arxiv.org/abs/2101.09116)
+#### * Cite key: chenHybridRotationAveraging2021
+#### * Topics: [[Back End]]
+#### * Tags: #Computer-Science---Computer-Vision-and-Pattern-Recognition #zotero #literature-notes #reference
+
+#### PDF Attachments
+##### [Chen et al_2021_Hybrid Rotation Averaging.pdf](zotero://open-pdf/library/items/MK7LBFZ4)
+#### [[abstract]]:
+:PROPERTIES:
+:heading: true
+:END:
+##### We address rotation averaging and its application to real-world 3D reconstruction.
+##### Optimization 的问题
+###### Local optimisation based approaches are the defacto choice, though they only guarantee a **local optimum**.
+###### Global optimizers ensure global optimality in low noise conditions, but they are inefficient and may easily deviate under the influence of **outliers or elevated noise levels**.
+##### We push the envelope of global rotation averaging by formulating it as a [[semi-definite]] program that can be solved efficiently by applying the [[Burer-Monteiro]] method.
+##### Both memory and time requirements are thereby largely reduced through a **low-rank factorisation**.
+##### Combined with a fast view **graph filtering** as preprocessing, and a local optimiser as post-processing, the proposed hybrid approach is robust to outliers.
+##### Compared against state-of-the-art globally optimal methods, our approach is 1 ~ 2 orders of magnitude faster while maintaining the same or better accuracy. We apply the proposed hybrid rotation averaging approach to incremental [[SFM]] by adding the resulting global rotations as [[regularizer]]s to bundle adjustment. Overall, we demonstrate high practicality of the proposed method as bad camera poses are effectively corrected and drift is reduced.
+#### zotero items: [Local library](zotero://select/items/1_QIZK7ZZL)
+## Motivation
+### Local

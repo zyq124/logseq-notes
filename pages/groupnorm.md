@@ -1,11 +1,12 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBaaGdrVUUzeStiOWhpOFl4
-Qmw0S0swcGJaQysvcFBMdUhkNlc5WE9jWGlJCjAwem16dUNqNUFlalVEK0pTa0cy
-T2xLRFlJSzZBQUdVQ28vdm43cEtlL2cKLS0tIHNVdi9rUHJXb3dLTmJsUStma0w3
-dkp6Z2VkSUh2WU8rZXNUVGVob0R5WnMKa2E8tQgZXbtKRMgcXe8mwc6aDXwMWrNI
-bbSR6lJdnOBDboF91U95S4hR/r8BXzSdKqbcm1KPQwvwV7/41v78GIKZVhrThUJn
-SCHuxYObGqb/dfD9RyiYMkyQ6BbRvAcrvMgv4s3C8XL3xXikEbXKJ4ziutcfTS2n
-U+r0BoISEMAbHtuTvbAJCDvOqFvdGFW4ADmwNyoh4gerXzeo2aus6hr2N1dzyVSw
-zncOlxhyq0agJzA/E1MWhMTPAQYl99j8j0RUujUf0fLJn24npFkF9E0WP92gfwJy
-16nSPNp3IBmPJN3uoxWhZcWeuJhNO9ZZaQjtwcAKMRuLUBBkQWz+xJA6PMoaLQ==
------END AGE ENCRYPTED FILE-----
+---
+title: GroupNorm
+alias: Group Normalization, GN
+---
+
+## Group Normalization
+
+## less sensitive to batch size and more robust to training noise compared to [[BN]]
+:PROPERTIES:
+:id: 60066452-7c2a-4a58-9dde-3ccca0eb6c15
+:END:
+##

@@ -1,17 +1,24 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBZMmlITDMzNmM3M3ZZdlZr
-NHFxNzJpUHhRMU1tOS95Z3hUZXJSclJDdnhBCjZ4Rk5XZ0ZVMlg4M1kvUDhaTFpY
-SnFHVGZ0WkNTYjg1S2hoRTBxdEJUbkEKLS0tIGJNeitCMUpFdnU2RGNvMEU4YzAv
-Wm9nSThqakZPbVQrYVZwTjNobjBzanMKZSo5KXVmSNZYUqKImJB0w6RYODoGrXJW
-3Z5Aqw61CKHlSkLMGpGhlBmK9HHzGoAKruTeORw1TsKSF6Q3VGU0W/G8+4zkmjpF
-PIkgwSuRictKEShL3++/169gYPGSgsw7hfepL8E7AZcVDJEIXCkmUC4gawezcgDs
-/Uw4BRSDq8BW4EW2Cq3umDAYcX2eW/F9LBLn8MPKwZbyKGrZT0AiwEpKeXcfgeuu
-6tnzLTJIyAjYm5kYUwRtZvKZHg0922wGpuJY+sY0y5PU1xse6lCWViCy1kXfEhNe
-iaotkaRh8v3Vv0mEzqT9g2SwbCGIqsCPggc1ZY6jFh0UcJ4odrI+1sB9AQU+1E4x
-m1bSYZtmdHO7N62o4NywppR91G/qRrrlZTEk1TUds71eQ/Bp0QCdN3nnaIUo2Rbb
-9nEkvkUmr5Gyb0wq4FJDohQWE/nDcOsaV5lOOr4IviZut0IB6L+E61Lal0M4rOuQ
-Wv91pruwcwTX40jvv0n/DM3ZtbmMy4YAHPkDxTLnv3wMcms8v5ugq+rAYblakwLB
-bxm7KAikLIhSg5LaXmafOmNn6hUGpFKkMXjMvrQp9mQHPFd+xREc/WjWKLHyKXJu
-TrVts+kW1oDzyFzZoIZTjTuQBk4V9fMtyiUHgfvmgliMpRjuzij8Gc5LZ4z7t/Q5
-TY3aRmUtrLw9HPcjeXtyy7E+l22ZpR3E
------END AGE ENCRYPTED FILE-----
+---
+title: Evaluator
+---
+
+## Evaluater 提供了最小二乘函数const function的求解，参数的更新等接口
+## Constructor
+###
+```C++
+Options {
+	int num_eliminate_blocks = -1;
+    LinearSolverType linear_solver_type = DENSE_QR;
+    bool dynamic_sparsity = false;
+    ContextImpl* context = nullptr;
+    EvaluationCallback* evaluation_callback = nullptr;
+}
+```
+###
+###
+```C++
+Evaluator* Evaluator::Create(const Evaluator::Option& options,
+Program* program, std::string* error){
+}
+```
+###

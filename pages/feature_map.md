@@ -1,12 +1,9 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAxNCsxcFNoK2Ywbm5KODVY
-b0JEV1prU0lTZm03RGQzTklqOHM4aWN5Z0NVCllqZVVkclFvT3FWMUhneWZQSFoz
-dS9SS3owTVJqTGtlOXR2ZzBOOXFXVWMKLS0tIHk5U0ZLRFZVeklEMVhqa2Fvb3I1
-YU1NdXR2cWlvd1FDUWt0UVJMQVZhUmcKWgQdcpJ33G1ndhwp5fdak6lmuRjadBrz
-vmlOaVHOksJgubwoxP0sJCFV55/GrzbUQD5t+kasaIBzZjywrt44DEKbtXbIgYnY
-bYizh4UIsJEsDtzowvEfxKUwormI5WAib/yx4BrjovU8fJ4OtEEiQsfQKxibTgNC
-BehYS7DTfNnHvkHOEfqgZTVwj4CnXMdNpc1q5FM59gXgaNVkjAKjXBH4ec+6gOcx
-9iC5gSLW3QwhRHjmLFd7OIB5DZ+Gs0FtjhdcQPYCrH0mg+eNQrvclFlYjk703GQu
-jRs6YJ25N/ZEaC7NJpDlZJy5E4lulcBEBTv20aUYCCgmIxKYfF2zk588lwrtn3yE
-JWujM+xrVK/WY1pujSo=
------END AGE ENCRYPTED FILE-----
+---
+title: feature map
+alias: 特征图
+tags: CNN
+---
+
+## [[convolutional layer]] output also called feature map
+### as can be regarded as the learned representations (features) in spatial dimensions (width and height) to the subsequent layer
+###

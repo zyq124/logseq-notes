@@ -1,24 +1,21 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjbUVSWWh2QUxLWWE4ckdr
-MnF4L21xYTQ0eE9IemxobWM2ZngyTVIxZEJjCmZPVjQyUkUxa3N0U1A1aXYwNWhu
-b0F3LzcrM1ZYMXRNVnlXekRRT2ljTGMKLS0tIEIwdEJiVExKMXdjK3VTYlhHSDF2
-elk4ZUM5NzZlYlBUbXVlNUgzejg4QTgKJ7wQTSsPLqPeGdOekH/PaJzgw1jbrNM0
-DrTpILgEvzFQXg01smoZ5chvrfnHTNyOaI7C4wXMYEkgSH0KHIUTOMbdzB9kNsS2
-qYkj6ADIpNtNJqTvzL7O6tD2sC4StTXkzro8wygPu30zOHaF/qycpkOat8zPauam
-XGllAfUIJCGzGj5jUNGPxKeYQ0zX9SeSnGag5LNREvN9DZBxmp4yUEBee9AyMXct
-ZokrWyXUVVCLHlHd9yv0iofel1fcxkIFqTHuSsm7Qw2h3wl8PtuxQoJqTv6Nmipb
-Mc73ghfHuIFIq8N94UjnlMFyps61H3xaQ4ctJMbPmexQ3M82bYMDNAXXFIk8uuk/
-BflcbgHQ6EbVe7dbETysu98uNd7WSc197FMdsr0H/H6zIH8m3astLHA3Oa8RB1hR
-BHK20UZLqLINKczZKo0Pytkrh0DoFwkOvOlRqDRHALLFxaCwYfmJ6Nx7v71y8aJT
-6xv/mG+J4VaLUNF/+CEbZqzWof9+Uyka0w3AMNGiG0b0gPhigd2IcFLJj2M7skEd
-0SBKmhHHENIdUv7zJlMjpu1Tlu+MbA5jxtiXnwFs6osD/x3lFZGz78n+yOio9Uom
-WDnrQwFIn9kUAvERtDwTzyTEztf5dfb8Cff65CUUxkYP+XHwuo/O2FBepwwesbQH
-jVYLrY8D0EMrmUbrniYgWWnVNekcgrU4ibqdMW7OKv7y3RHQlosfINIQ7WGPb5Ox
-OZ3HLCJc3jEmnwxrHdsiha+IrXZkIO1IQMoya5o+GusZK6cbpSQpn+jI8JsQc2ex
-GcP+g2ilefwbR6/hC5X3P3aHgKP7JqjjgEV370dLR2GIHim4a5I0rYoxfWAu2L3s
-0xOL/83e36gpAukE1ImY6OVMqFk96ETc3ylS2sZwfJZG+h5WH0n+0/k8h8ZfW05P
-7mlpTRuiwR+l3hXgLzzfRv1QSWI0X3862fDfbA9IWJDD8JbxARs3wCdDGB4FAhAe
-MRhZ/aROmYJwGJl1aK4hXBYArwj3lBSZRQDukWhyPlooRnUEzRHkU1XLRVNcP5tl
-1vHvVD8IEBlR4YYeVuOSOiiOBU9Y1x8MbZz6PawoqMRso35E0HKsNjiydUt7Jog2
-SchyY+T5TTsw4pzlk/tl
------END AGE ENCRYPTED FILE-----
+---
+title: cross-entropy
+alias: 交叉熵
+---
+
+## 信息论中cross-entropy定义
+###
+$$-\int{p(x)\log{g(x)}dx}$$
+### 描述两个[[distribution]]的距离
+### 训练的目的是使$g(x)$逼近$p(x)$
+#### [[softmax]]中$g(x)$是最后一层$y$输出,$p(x)$是[[one-hot]]标签
+#### [[Sigmoid]]中最后一层输出相加不为1,所以不能看作一个[[分布]]
+##### 将最后一层的每个[[神经元]]看作一个分布,对应的target属于[[二项分布]],target值表示这个类的概率
+##### 所有[[神经元]]累加起来
+## Given a sample $\{x, t\}$,两种cross-entropy区别在于对应的输出层
+### $-t_j \log{y_j}$
+#### where $t_j$说明sample的ground truth是第j类
+#### 对应的最后一层是 [[softmax]]
+### $-\sum_i t_i \log{y_i}+(1-t_i)\log{1-y_i}$
+#### 对应的最后一层是 [[Sigmoid]]
+##

@@ -1,97 +1,81 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBIL1k1ZkhaWExBWUtBcStE
-ZjRUTnE5OFBPZkxzaXdLN1ZzckNUS3pkVnc0Clcvdk1IWExjM2Jvc1B6WUkxeTNP
-YklKK2k5WHFCVUJHUFJha2dYdFFaS00KLS0tIHo0RUUrWk9XOEsxU0RhZnVVMGJz
-dFVSL0ZxdVQrNWVaSmJlL0tWbHlNODgKQ4M5t26VsNje01KPe3okETc5Oa57zW5y
-wantL3p7OC3g9wVfIk7+qZDr3mE4hj4FOcbh63ClWxZ9Iy5SIMctdTnvFHvuMavI
-/c8eFfXt6oLXGNeOnXfqU/l5UlQR5MvZtA+TU5OGdhXzsRw+++DOes5ZD0Cv+ox+
-MtUYlge4QQ7BsyHFN99fjxjF3kj44k9BDq+nOHN+Mf3bCCyLEKEDBVW+6ffiu5oH
-AAwhFQFZZBt+lSKGlGlpXn/wsLOgvbXgsu96TZ309sgIYlMDfwr64LBoleVgElph
-T+ypLmXO16qZYusXY7cyeODYxgMI0KJn3SgfEfqhTBclAC00rMt4D8AW+DwNv4+m
-dJAjWR31lLhOegbFf2P+qxEe4gIwHdy8+Uedj6CNEv84BfSsLl5W6rPZfAZ0yxvx
-1k6t3drWO+oRDTmWDrvq+vfgmyvpPT9+f8Cevp+25+S8tv4ryGaNtVcrvHPSqUwd
-zPkg3AjY+UXT4Lq01/RoXkMVIHwS5jvUS4HtYVphnnEMKwCTDCZOfI/n7rLBXxpW
-ImV6KBKw6CkkTXBnQ7byfmeC3X2LvApR3v3AptvD9rXQqlTHjPbOmN0sidcHDKdg
-w+2cl+8d60CjolHglrToI1440JN/RGI7Zekb8aB0+XusOfXJZ7jTR69dZUmU6rK9
-h39uqTbDR6vvfH4pcFjHec57H0sef+9RKw7/cUDisQiDlpcsmEQin3JSPvkSJ2my
-YjLjoEdPnRvk9Quz2RR6RjoKNBp3EiW+aSA/k+1sEO1Joh7bcMQrRZs4YK4xmUZL
-G6+H1N+0PEU+q96tPQnkggxcZgkSkkZ63l42gMvxppaiBhEpekWqsbZJy4xyK0Cu
-dlaKSPLJTIkfv5TwpGVCOrkwX8iTLVIXl7Ukb84W+Q3NTCbPDqd+8fS5rflYU1hR
-FnWlBfumCh658ZpXocp2p9h7tJPqEbGouCga/xaHKKdWG2qDRCMsqOmAuuuxxRIp
-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
------END AGE ENCRYPTED FILE-----
+---
+title: 3D multi-object tracking by Weng Xinshuo
+tags: #zotero, #literature-notes, #reference, paper, [[mot]], [[3d track]], [[Kalman Filter]]
+public: true
+type: Article
+authors: [[Xinshuo Weng]], [[Jianren Wang]], [[David Held]], [[Kris Kitani]]
+citekey: weng3DMultiObjectTracking
+---
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### Title: 3D Multi-Object Tracking: A Baseline and New Evaluation Metrics
+### PDF Attachments
+	- [Weng et al_3D Multi-Object Tracking.pdf](zotero://open-pdf/library/items/624Z3NIL)
+### [[abstract]]:
+#### 近年3d [[MOT]] focuses on accuracy
+##### less attention to 计算量和system complexity
+#### Based on the detection of [[Point-RCNN]] which is lidar basedtr
+#### Online [[MOT]] system, data association
+##### 结合3D [[Kalman Filter]] for state estimation
+##### [[Hungarian]] algorithm for data association
+#### 3 new [[Metrics]] to evaluate 3D MOT methods
+### zotero items: [Local library](zotero://select/items/1_N2FSRQWZ)
+## System Pipeline
+:PROPERTIES:
+:heading: true
+:END:
+### ![image.png](/assets/pages_3d_multi-object_tracking_by_weng_xinshuo_1611217315255_0.png){:height 194, :width 718}
+### (A) 输入 [[LiDAR]] point cloud -> 3D detections $D_t$
+#### $D_t=\{D_t^1,D_t^2,\cdots,D_t^{n_t}\}$ ($n_t$ is detection numbers)
+#### Each detection $D_t^j$ where $j\in{\{1,2,\cdots, n_t\}}$ is represented as
+##### a tuple $(x,y,z,\theta,l,w,h,s)$
+###### location of object center in 3D space $(x,y,z)$
+###### object 3D size $(l,w,h)$
+###### heading angle $\theta$
+###### confidence score $s$
+##### 这种方式没有考虑3D object detection的8+1 vertex keypoints位置
+### (B) 3D [[Kalman Filter]]: State Prediction
+#### predicts the state of trajectories $T_{t-1}$ to current frame $t$ as $T_{est}$
+#### 假设object inter-frame displacement using **constant velocity model**
+##### independent of camera ego-motion
+#### state of an object trajectory as a 11-dimensional vector $T=(x,y,z,\theta,l,w,h,s,v_x,v_y,v_z)$
+##### No angular velocity $v_{\theta}$ in the state space for simplicity
+###### 从经验来看,物体的角速度没有什么影响
+###### 节省资源
+#### 基于constant velocity model, state of associated trajectories $\mathbf{T}_{t-1}=\{T_{t-1}^1, \cdots, T_{t-1}^{m_t}\}$ propogated to frame $t$ as $T_{est}$
+#####
+$$x_{est}=x+v_x, \; \; y_{est}=y+v_y, \; \; z_{est}=z+v_z$$
+### (C) Data Association
+#### the detections $D_t$ and predicted trajectories $T_{est}$ are associated using the [[Hungarian]] algorithm
+:PROPERTIES:
+:id: 6029fa64-6cc9-44f0-acfc-9dcaf2b99b54
+:END:
+##### Construct **affinity matrix** $m_{t-1}\times n_t$
+:PROPERTIES:
+:id: 6029fa64-d023-47c5-a420-85c67862492a
+:END:
+###### $m_{t-1}$是前$t-1$ frames数量,$n_t$是$t$时刻detection的数量
+###### by computing 3D [[intersection over union]] or ^^negative center distance^^([[?]]) between every pair of the trajectory $T_{est}^i$ and detection $D_t^j$
+###### [[bipartite graph matching]] problem solved by [[Hungarian]]
+####### reject low 3D [[IoU]] less than a threshold
+####### output $T_{match}, D_{match}$.
+####### $T_{unmatch}$ , $D_{unmatch}$ are complementary set
+### (D)  3D Kalman Filter: State Update
+#### the state of each matched trajectory in $T_{match}$ is updated by the 3D [[Kalman Filter]]
+##### based on the corresponding matched detection in $D_{match}$ to obtain the final trajectories $T_t$
+#### Following [[Bayes Rule]], the updated state of each trajectory is the weighted average between the state of $T_{match}^k$ and $D_{match}^k$.
+##### Weights are determined by the state uncertainty
+##### orientation $\theta$ might have ambiguity -> ^^orientation correction^^
+###### make sure $D_{match}^k$ and $T_{match}^k$ are roughly consistent in orientation
+### (E) Birth and death memory
+#### (1) Consider all unmatched detections $D_{\rm{unmatch}}$ as potential new objects entering the scene.
+##### Might be false positive, do not create new trajectory $T_{new}^P$ until $D_{\rm{unmatch}}$ has been **continually** matched in the next $\rm{Bir_{min}}$ frames
+###### $p\in{\{1,2,\cdots,n_t - w_t\}}$
+#### (2) Consider all unmatched trajectories $T_{unmatch}$ as potential objects leaving the scene.
+##### Might delete true positive ones, keep tracking each $T_{unmatch}^q$ for $\rm{Age_{max}}$ frames before mark it as $T_{lost}^q$
+###### $q\in{\{1,2, \cdots, m_{t-1}-w_t\}}$
+##
+##
+##

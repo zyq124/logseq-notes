@@ -1,9 +1,7 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBCbmRrOTF4QjdBRHoydjFH
-bG5xV2Zxb2g0MS9wdFZicUtmOGF4Ym1Ld0FFCmdzaW9Sd2c0ejR0QXFsaHpvNDVa
-MU1BdXFUWjhSaWZEVzB0dHhRVlRkencKLS0tIE9YSm05N0E2cW93R2Rwa3QyNG5J
-aC9Nb0JPY1k5SXhrK2dEbzVKSXBGMm8KKLkmqOXsKWA8o7E0T4/wOH8QaLoOvUtf
-AmyaTand8Evx1JFBScpv/4bBteHB5s9tOrq7+CoUPAsfFz0tGgyMBLQwFMTfmiYk
-XI/B1w/OPXim/8tYJLbi9ZE5b1Z8YBfSbDii2rLup+ryCAmRI0zokgxQHepjEnWF
-gwBnWYtJnXWNZIizAxn7uHXeKGQJXHUhZoATMGlKCb8tOGFl
------END AGE ENCRYPTED FILE-----
+---
+title: LCS
+alias: Longest Common Subsequence,最长公共子序列
+---
+
+## #subsequence  #code
+## 最长公共子序列

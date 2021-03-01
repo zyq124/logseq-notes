@@ -1,139 +1,176 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBERSs3S0FYWTJ4UHJNcmEv
-bW0xUTBiRkU4VTdZMzlETXpUMEdPQzlDMmpNCnB2UURNUk5BUE84RlBLMm11SVdn
-cmZrNzdEMVNhd0pLc0tSaEJpZjVkMG8KLS0tIFN5L2FXbFF1Vi91Z2h0ajJ4dEFC
-QjhSY1Q1TDFQMStUODkwL21ycGQvL2sK/cPQ/gvG9/wutaBVQs3EjyWNvIu1MEOB
-a+lbVUFAn5FmsmcKYePkZzjJcYHGBNo0IPSf1Kw38VfcHEjewmD2brGC8dWTHnH+
-FuQfPxs4i6bnYIcDSgVX/edVFT8GrP1OiX5zIjQEXhNbH0AXyFnCXhzaHGt1RfyN
-4GZar7mbnYn/wz8mO5j65PaX0tLEnA75/5O9RoQ2WIQt9gL0JXb5xWz0kN2ThogZ
-9kTEyA74tuEGn7TdkT3hNQBxKU6wxaxdOwUQFqYk/RQBp3dlOBKRbBQkDwZGaZcK
-UOeYf7JluphWY/YcNLEn958bQhr/jEnimSOsy+yuYOl+BAPJ+rvOKyu5XNAwQWJD
-eOekEgZBSF0dQgkqF3uhX0O9uMOvvPUxIZq8LWksdH3xWZigOuEsPJb5qx2z0qIq
-q/lons/OTfxODnLfHQkbE3VhLMpe6itH0s1O0GHRb37U0oZB9MO58xuPlTKQ4aPt
-52p6KB2KSTrCpJqpN5s+d2bi7ZAjz/zbx5VlqrjA5bauQdsG65ldH9hvaoqJmQ4n
-pBqNUuNnJB9oamEZU0zQwu5BlVzneBUly1j2pFEzxSqr5Ol5Rif8F4wkIzD3jTt0
-m7/5V8fP6mPxhTSQ0DEPwPAhMq+CXD/R4DnFbHXYnPDbBmRLpCsRrBbeyoDi9Fxr
-AnMFrKpG36ePfcePE929Mcr2zLx/syaZkiRD9u/FRJg88rDHSpQ+YV2ZEpygJqOX
-7ed9EYF/+rjLjuEgZhIDk/x7ScHyOW5OHT5sE3HaJwvicefKlV2xwnmy89omUq3d
-swyg6noGDQjiiBhF1BKABp5+WD5UlaxWqABg4+btC0KYcwEMfNhAbO0OwDi1ksa9
-gwy+RDpZAzDeN5Roz+Fgl2DfSWaUzROFsTKcb3CudhUkxodtGpMEbG7JsBuQH0Od
-C+/dxh0XG9cQAkb8CbbTEa5ZXQTuPeCCQY1RX1fvX2wZiXwoeJbAHji7sPaeJEA1
-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
------END AGE ENCRYPTED FILE-----
+---
+title: Triangulation
+---
+
+## 1. Linear Triangulation
+:PROPERTIES:
+:heading: true
+:END:
+### We wish to create a solvable linear system that can give us an initial guess for the 3D position of our feature. To do this, we take all the poses that the feature is seen from to be of known quantity.
+### This feature will be triangulated in some anchor camera frame $\{A\}$ which we can arbitrary pick. If the feature $\mathbf{P}_f$ is observed by pose $1\cdots m$ , given the anchor pose $A$, we can have transfromation from any camera pose $C_i,i=1\cdots m$:
+####
+$${}^{C_i}\mathbf{p}_{f} = {}^{C_i}_A\mathbf{R} \left( {}^A\mathbf{p}_f - {}^A\mathbf{p}_{C_i}\right) \\
+	 {}^A\mathbf{p}_f = {}^{C_i}_A\mathbf{R}^\top {}^{C_i}\mathbf{p}_{f} + {}^A\mathbf{p}_{C_i}
+$$
+### In the absents of noise, the measurement in the current frame is the unknown bearing ${}^{C_i}\mathbf{b}$ and its depth ${}^{C_i}z$.
+### Thus we have the following mapping to a feature seen from the current frame:
+####
+$${}^{C_i}\mathbf{p}_f
+	= {}^{C_i}z_{f} {}^{C_i}\mathbf{b}_{f}
+	= {}^{C_i}z_{f}
+	\begin{bmatrix}
+	u_n \\ v_n \\ 1
+	\end{bmatrix}$$
+### We note that $u_n$ and $v_n$ represent the undistorted normalized image coordinates.
+### This bearing can be warped into the the anchor frame by substituting into the above equation:
+####
+$${}^A\mathbf{p}_f
+	 = {}^{C_i}_A\mathbf{R}^\top z_{f} {}^{C_i}\mathbf{b}_{f} + {}^A\mathbf{p}_{C_i} \\
+	 = z_{f} {}^{A}\mathbf{b}_{C_i \rightarrow f} + {}^A\mathbf{p}_{C_i}$$
+### To remove the need to estimate the extra degree of freedom of depth $z_{f}$, we define the following two vectors:
+####
+$${}^{A}\mathbf{n}_{1} = \begin{bmatrix} -{}^{A}{b}_{C_i \rightarrow f}(3) & 0 & {}^{A}{b}_{C_i \rightarrow f}(1) \end{bmatrix}^{\top} \\
+    {}^{A}\mathbf{n}_{2} = \begin{bmatrix} 0 & {}^{A}{b}_{C_i \rightarrow f}(3) & -{}^{A}{b}_{C_i \rightarrow f}(2) \end{bmatrix}^{\top}
+$$
+### These are perpendicular with the vector ${}^{A}\mathbf{b}_{C_i \rightarrow f}$ and thus ${}^{A}\mathbf{n}_{1}^{\top}{}^{A}\mathbf{b}_{C_i \rightarrow f}=0$ and ${}^{A}\mathbf{n}_{2}^{\top}{}^{A}\mathbf{b}_{C_i \rightarrow f}=0$ holds true.
+### We can then multiple the transform equation/constraint to form two equation which only relates to the unknown 3 d.o.f ${}^A\mathbf{p}_f$:
+####
+$$\begin{bmatrix}
+	{}^{A}\mathbf{n}_{1}^{\top} \\
+	{}^{A}\mathbf{n}_{2}^{\top} 
+	\end{bmatrix}
+	{}^A\mathbf{p}_f = 
+	\begin{bmatrix}
+	{}^{A}\mathbf{n}_{1}^{\top} \\
+	{}^{A}\mathbf{n}_{2}^{\top} 
+	\end{bmatrix}
+	z_{f} {}^{A}\mathbf{b}_{C_i \rightarrow f} +
+	\begin{bmatrix}
+	{}^{A}\mathbf{n}_{1}^{\top} \\
+	{}^{A}\mathbf{n}_{2}^{\top} 
+	\end{bmatrix}
+	{}^A\mathbf{p}_{C_i} \\
+	\begin{bmatrix}
+    {}^{A}\mathbf{n}_{1}^{\top} \\
+    {}^{A}\mathbf{n}_{2}^{\top} 
+    \end{bmatrix}
+    {}^A\mathbf{p}_f =
+    \begin{bmatrix}
+    {}^{A}\mathbf{n}_{1}^{\top} \\
+    {}^{A}\mathbf{n}_{2}^{\top} 
+    \end{bmatrix}
+    {}^A\mathbf{p}_{C_i}$$
+### By stacking all the measurements, we can have:
+####
+$$\begin{bmatrix}
+	\vdots 
+	\\
+	\begin{bmatrix}
+	{}^{A}\mathbf{n}_{1}^{\top} \\
+	{}^{A}\mathbf{n}_{2}^{\top} 
+	\end{bmatrix}
+	\\
+	\vdots
+	\end{bmatrix}
+	{}^A\mathbf{p}_f =  
+	\begin{bmatrix}
+	\vdots 
+	\\
+	\begin{bmatrix}
+	{}^{A}\mathbf{n}_{1}^{\top} \\
+	{}^{A}\mathbf{n}_{2}^{\top} 
+	\end{bmatrix}
+	{}^A\mathbf{p}_{C_i}
+	\\
+	\vdots
+	\end{bmatrix}$$
+### Since each pixel measurement provides two constraints, as long as $m>1$, we will have enough constraints to triangulate the feature. 
+In practice, the more views of the feature the better the triangulation and thus normally want to have a feature seen from at least five views.
+We additionally check that the triangulated feature is "valid" and in front of the camera and not too far away.
+### The [condition number](https://en.wikipedia.org/wiki/Condition_number) of the above linear system and reject systems that are "sensitive" to errors and have a large value.
+## 2. Non-linear Feature Optimization
+### After we get the triangulated feature 3D position, a nonlinear least-squares will be performed to refine this estimate.
+### In order to achieve good numerical stability, we use the inverse depth representation for point feature which helps with convergence.
+### We find that in most cases this problem converges within 2-3 iterations in indoor environments.
+### The feature transformation can be written as:
+####
+$${}^{C_i}\mathbf{p}_f = 
+	{}^{C_i}_A\mathbf{R}
+	\left(
+	{}^A\mathbf{p}_f - {}^A\mathbf{p}_{C_i}
+	\right) \\
+	= 
+	{}^Az_f
+	{}^{C_i}_A\mathbf{R}
+	\left(
+	\begin{bmatrix}
+	{}^Ax_f/{}^Az_f  \\ {}^Ay_f/{}^Az_f \\ 1
+	\end{bmatrix}
+	-
+	\frac{1}{{}^Az_f}
+	{}^A\mathbf{p}_{C_i}
+	\right)
+	\\ 
+	\Rightarrow
+	\frac{1}{{}^Az_f}
+	{}^{C_i}\mathbf{p}_f
+	= 
+	{}^{C_i}_A\mathbf{R}
+	\left(
+	\begin{bmatrix}
+	{}^Ax_f/{}^Az_f  \\ {}^Ay_f/{}^Az_f \\ 1
+	\end{bmatrix}
+	-
+	\frac{1}{{}^Az_f}
+	{}^A\mathbf{p}_{C_i}
+	\right)$$
+### We define $u_A = {}^Ax_f/{}^Az_f$, $v_A = {}^Ay_f/{}^Az_f$, and $\rho_A = {1}/{{}^Az_f}$ to get the following measurement equation:
+####
+$$h(u_A, v_A, \rho_A)
+	= 
+	{}^{C_i}_A\mathbf{R}
+	\left(
+	\begin{bmatrix}
+	u_A  \\ v_A \\ 1
+	\end{bmatrix}
+	-
+	\rho_A
+	{}^A\mathbf{p}_{C_i}
+	\right)$$
+### The feature measurement seen from the $\{C_i\}$ camera frame can be reformulated as:
+####
+$$\mathbf{z}  
+	= 
+	\begin{bmatrix}
+	u_i \\ v_i
+	\end{bmatrix} \\
+        = 
+	\begin{bmatrix}
+	h(u_A, v_A, \rho_A)(1)  / h(u_A, v_A, \rho_A)(3) \\
+	h(u_A, v_A, \rho_A)(2)  / h(u_A, v_A, \rho_A)(3) \\
+	\end{bmatrix}
+	\\
+	= 
+	\mathbf{h}(u_A, v_A, \rho_A)$$
+### Therefore, we can have the least-squares formulated and Jacobians:
+####
+$$	\operatorname*{argmin}_{u_A, v_A, \rho_A}||{\mathbf{z} - \mathbf{h}(u_A, v_A, \rho_A)}||^2
+$$
+####
+$$\frac{\partial \mathbf{h}(u_A, v_A, \rho_A)}{\partial {h}(u_A, v_A, \rho_A)}
+    = 
+    \begin{bmatrix}
+    1/h(\cdots)(1) & 0 & -h(\cdots)(1)/h(\cdots)(3)^2 \\
+    0 & 1/h(\cdots)(2) & -h(\cdots)(2)/h(\cdots)(3)^2
+    \end{bmatrix} \\
+	\frac{\partial {h}(u_A, v_A, \rho_A)}{\partial [u_A, v_A, \rho_A]}
+     = 
+    {}^{C_i}_A\mathbf{R}
+    \begin{bmatrix}
+    \begin{bmatrix}
+    1 & 0 \\
+    0 & 1 \\
+    0 & 0
+    \end{bmatrix} & -{}^A\mathbf{p}_{C_i}
+    \end{bmatrix}$$
+### The least-squares problem can be solved with [Gaussian-Newton](https://en.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm) or [Levenberg-Marquart](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm) algorithm.

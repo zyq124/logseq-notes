@@ -1,31 +1,23 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBhL0l0VURIdmdrQXJKSVBN
-OUFJNnFSSlpoN0xoeWRzR0U2QlozQ1huZ2dVCnZidUFJelVmaDd3NUNCMWZHOU9T
-RVpyRVJoVDVpbVFQdzNwMGFCSUJSajgKLS0tIFFRbUlGSG1zcjJ4M2E4WFkzd0cz
-R2dDK1lhclJ1V20zb2lMMlJ0Zks0RzAKmWeuqxn1K1eeisCMY4468Q9nGnTDzKag
-ccTqsGtyvKylwafIW+cGmkxVm5HGtOvVketu+2BG1yNe4FFekHDKF12DALO/tNQR
-beB76LW4viFJG3u9s0aiCn1OD3faN3cCTZRn8/gYy7GSs0LoEDzKGERERQFJxqhg
-sbolAKorMwgu7OZ6rIX0KggkjvpSwxguYgUQatU1HmF/Q2+7b8Crwsewo7sO1nFN
-rKqFdp22m+ybCTTqliVQ58nwqogqdNpUh9/a0JXlRB9ioGCGZwIDiE7Iimjb9FSA
-VcWTecmn1Uw4zRbYGr3yWEutm0+e/oFLtNKwvYFRUDbBI/xYkAEkrWA6k1d03EGv
-Q3NsHUXWxds3Kec6iFXXIYcQS9MIMoU8NSQ5CG8Bof5DLnM5Ao3YgQ2s1d4xp9ct
-W5EvRligI0MbWZYBwrqLeLnY6+h0N1ZObyQNmRAOdot5d2HAjwJ2OMjG+kBa3CFd
-rM8tBMEQ9VyDwbHXCwcHPVIYJACOkmVSciRukAEvEHmWGw16zWqRczm18nxJ5wq/
-7FFjs6JusDXpNsw0mkvdQ/TD9Yo2PDC7NaIXTOSPOEJSpskLLDAZpCaU8iBJpc/j
-Hj5gelWa5HmTSJUnqTsrfrWStFUoNQjmefJyr32z+ThOuHgvUpZfS62/yNq8g1ax
-6M/UUatFFKZbIC+rEUekXt8eSJOAxz8HQ0SmEIeGdYrerXhKKMfvTe+LVYvNKLS0
-NgfK9+ImPhNhhyRVADpMGN3W51uHb5AkvLK04x9h15Aqap9olae56nrGRQwSYJdm
-zW3EOfmDwzLLMq8jUiZ1L9YQj+TKRTn89aoLekFUeZIFs2iNWPuiGo6JbdYcdC5E
-w29973PaZwMfk44jzMk+0xtLQ+tc20+bx2WV/WuvEaZfowrsXWceQ911gA6yD98U
-848k5tjqFnojjztqYOZqvMUfawmBwPBKPm186tsHI0Rwg6eIjwGQvzqCQllXVpsG
-wF47w8g+TEgAUPnifNjYXK8jSnlqEtt461dljXJ06zUAQug6cRXluze06fDozbfg
-/RQf9Uq3LCChVKl1Oku101oh9G2Efo7XQ7zjTldVmgHliIRPIcDYTxUbWQ/mflVh
-wd6Elg4gKOKjSinBxf5qDXLnMMRUKuiyNvKlUrAr+BND3/itnj5+2MYlPyvWPHzQ
-clsco9AwCPWj9udZIA8iu33EZktzK0aNN6AAkw58mmrIoxXXAKvhKKggR4tos4IT
-kaugpnh5J5g8EF8AfQGN/eFgBKpbholHXGR/fyhP8d/yvZxC5mE3AQJ1bZ6RX64D
-BJG2l0zBroYDpmGs8/KCfPWid9zhpZJbIgxbGE8CdHWrPyw0QU7x6sxQO3S1wdvi
-Wi1z0RFUvQCgLEezZ4ZRHh4T2cOJBrnh6N/V3XtRFSM/YPEBWNMOHNRBxc+pOEHP
-fVH2lh4au2njwVJ3isE50AdNUM9vJIW54iAao6x6W6vgBMG7NO6+jpa+W7lxVSOz
-k9ni8pCYP4dtG+g5USyByxYbczfGTzSfjQguJM6Erc+4Tt/5xUSo1xLwYR99D0T0
-0/F31VO5eeaiOoQf0R1GDFs=
------END AGE ENCRYPTED FILE-----
+---
+title: Mdnotes plugin
+---
+
+##
+## Motivation
+### Generate markdown based meta data and export to logseq.
+### Jumps from logseq to zotero item or directly opens PDF source document.
+## Mdnotes
+### https://argentinaos.com/zotero-mdnotes/
+### https://github.com/argenos/zotero-mdnotes
+## 模板自定义示例
+### 模板中需修改了local library、pdfAttachments、abstractNote等字段的md格式
+zotero：编辑 > 首选项 > 高级 > 常规 > 设置编辑器：mdnotes.placeholder
+![](https://raw.githubusercontent.com/xulei-shl/picgo/main/img/20210116225227.png){:height 323, :width 600}
+### 修改后
+###### `pdfAttachments： {"content":"PDF附件\n- {{field_contents}}", "field_contents": "{{content}}", "list_separator": "\n- "}`
+
+###### `localLibrary：{"content":"Zotero items：{{field_contents}}"}`
+###### `abstract：{"content":"[[abstract]]: \n{{field_contents}}", "field_contents": "{{content}}", "link_style": "no-links", "list_separator": ", "}`
+###### `url： {"content":"{{field_contents}}", "field_contents": "{{content}}"}`
+
+###### `title：{"content":"## {{field_contents}}", "field_contents": "{{content}}", "link_style": "no-links"}`

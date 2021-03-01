@@ -1,9 +1,6 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBUYklncVRNVDdZb2NqN2Vt
-KzJQUDc5eVpEbkpZaFIwckNpS3MxMmgvb2lVCkhMMG9ja3gxNXVJZk5ZNzdXN2x1
-TEJmdXBtb05Wa3hHWWlaTjJlVWIrZWcKLS0tIHdWcVB1L1orZHVuZy8xSktUWDk2
-VkZER29DeDFtNlFUSDVOSGp2aUJBZk0KerOUJpXiJTh76UWbTZL7YxnTLHK11Thp
-tHWvaqiNgJe/TEc723LJ+9osFQWn1d8XW51lOwztsbnHsIGk/BGmP232/n4yvZax
-IJmdguG9wL0B/cmNNFRBLQiheMc/DjyYFyPDO4UXK8abXs6W8qXiiqt9DiAryGrw
-VDEJ
------END AGE ENCRYPTED FILE-----
+---
+title: C++ library
+---
+
+## Logging
+### NanoLog: https://github.com/PlatformLab/NanoLog

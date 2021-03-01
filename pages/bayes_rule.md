@@ -1,9 +1,7 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB4eUZuNThSeDdMMi9zZXY3
-bnJ5bmRBMU5ieFNCRWhXTllhclBSUGUzbTIwCmQ5UVBkYVp4aGp2Wll4TzZXMGZx
-bWVoWUVuWUJ4SXpkMWxueW1EZlprclEKLS0tIFB2Tk5TeW43Qm5XUVhZeENjVlhw
-NkJ0WWcrZkkvZXl2cENUTlN2ZlFUdDAKa13Hq3oCg7s4irElz45NTFqnWrs80mHj
-tT+hcGMmjSbTW5NpC1nVqEAPt/HdnfFOGGJesK4PzpvVTCILR6ibAKZhcyT8Mvge
-1uKvKwZOGp/RPhELuizSg4YxzTy7e2kGDs99T780pwZO2PFGX4FQE1MginBpxxKc
-fRtVL24cl1OIC8KCS2x8CQ+u5BVf9KuM4JK+eg==
------END AGE ENCRYPTED FILE-----
+---
+title: Bayes Rule
+---
+
+##
+$$p(\mathbf{x}|\mathbf{z}_m)=\frac{p(\mathbf{x}, \mathbf{z}_m)}{p(\mathbf{z}_m)}$$
+##

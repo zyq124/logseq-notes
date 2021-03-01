@@ -1,51 +1,22 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBtWDFzd1lBZ2RqclNqZyt2
-ckQvNldQWThCcWlpcENHU2ovTHFzV2hiMmcwCmNBRmFHa0pMUUJnUFZZcVFWRUYr
-ZDdpQ012bWwzc0ZPL1RGMXAxU2RHMFUKLS0tIER2b3REbGxjZm5PRWk3ek5yOXh2
-d0duVGI0NGpYQnlYdUdvVktmQ2pQWUkKY/AK8pq4lxKgkTnTaV8Qa8riCfabjWZQ
-j+V7x+qJPwVzxd6jts4bSHkOfCicUVWsCWTUF8TIxh6Jb3vo5HVzUTH1/D9yiZOr
-4DxT85ghQ7OjDUWdfgr/AtsjG8a2YpHCuvvZSNqHkSXNNtXHTaaQjGUtSIc2SDnx
-1LxGqIfF2fuvLWDeZ8O1Yjc3vBKLJBrmzAWYDI3cWRuTbRwPJels5VsasaUJPHGi
-1gPxzPH/PbTPPcxuahFjAA9g3ZV9tjgI1HWk+voNGOCgnEARFtqOtOy0nOLmv/zF
-7KKzbU/OOMvQ2MzQMa+ALOjP5V3TGUGUGAmCL5OnMxV5EI+LyyMAX2ZCkv0QnnxK
-Y4zBg2fDIwNKxKrZh47ECiCkuNDsBvQGCBnts9tD2Q8SpQ7bIx+uwE5oMhGIm3x/
-jUTM6Vg9cm9NqEXL2Jj6Fueuj/TryUoY9f2AK4AedStU9bGJneAiZSRIGMcEGPNt
-E1xrNsFi/Od/ouO9e8d/HY96wavm/1lyz7m+rVUQ/LLaVDgkxP4ItbK8wCyyG9p6
-ARxsxrfjCQj9mr8cckW4OAKSx9XAhJsgsJHmsymRqnKu2kMk46jGa6wckU1fLEIW
-Ohx5dtBoUNtbgAfq3VQ/0NGsp+I+/c4EAjarfb1KoTvR7eDpWQh7ekm3ZwFeftj7
-kkmQCFLX6g4pgan5Rs4u2jepGJ8fTuH3SbpizB6rQ4eiw4NaojDQyqp54rA16zhB
-zThbsnBLZ55G5e7DnbH3Be9oU0JySn/f2LqGobKDWHy9vvtS5FeTVJCoMC2aRRvj
-4UFk4o5waFBxbiZ9vqH6WBrMZrmypxL/qykHSFBj0cId/pb0Z93YdO9kTG/zuETt
-MVThTSs2k5QuOX2bjcNwLtl5H9KbwRxXSffLtMVe74k+9Sbf9WZ8N6q0X8IEMK2/
-oCyXxksntUwalKXzxNvnlmEUuYlzozupbi7e3BhTdPTUL052WkazLe+COAIvhVvE
-RnDSdFF4z8jZivYRHy2CbcBhgeBngONIgwIQW3mkWW7jB8bBgrEiOMFiRGl8xXzb
-m6UHWPluS0EvkYuGHk8kW+0SIqc8dhLH/kL8y6J5UmM0VGBvmF9gw7WZ2X+miS5v
-4VqKXv05cXkDKlMHVweH1sPJuIz7od+f9HcAen51R/fWsTMI/2Br0xR6sKnzMr+D
-nMKa9wFN7BiRaJpRwxxgznI0SPA6DfnSy8uhX+AMicwJvx3vn+CXQyAXxp/2ibnR
-Khez+1ld0i0DdgUgPPdp5H8vcIUQjTIQTbNNkd5WdPYQhcKXKoQTZ2532kv/yGNE
-9hBU+Shbw8bleG+4aYPyYh7nyPS3zJZKdiQHelChKEX3twpRBRRYgrUsuGN1p90L
-kulYqmLCTU4f/MM29ynwRkp96JWBA2QvxL340OmSo4LyNAPnIZoPUyDSGZ0oqx1I
-sf1gBJhyWxpDXeUQL3VcUlvSmmU3PJOpu7Nkvotq57qlysFpTWvGw7bsnhWqzgOb
-6dLoll81wDpNRTrrJh27qoOXH0ezNn8bvG65VIitpxswKhEOKhpKBggJbsiasGIM
-nTGbMicfafmTBzq53CLZQsTQBQk93kjmc6VuzHpV/a0jSROT5Gzi1XEpJ9jsF9lj
-ktms7uCcrSoY+vbw2JpBcW9RkiHBWsveJuKxbXjzcAtop9z2iydjCwmIjdsTDAk9
-aqObv3XICFieP9RituysfxGIedEzWBvcgzxn3vl7K1ZJPaWMrWcLaBGN6cbQO9bA
-8jyQ3sw/kAE0gK+RmOGYNFAobSbb6dn+CYgZ1p2R89/Nly9c0bRilbk3p1yxd62I
-ax1lU9BRgmFbl9P/DxZLOXKxIuxZm1dW8qBAVdTzIU8hWiEcIIjW5SqZRpn2wGmc
-9MAoBerpOvjD35ddDaClRb/XVj6wtOHbCrdtg/X9o9BeFdmV0v9JmH8sAPJcSxTs
-RocrqXj68pjBFJQjfs3jWnp9mvjsT4FaLm9v6wnksdJ6bruTBiF5e1kSIJeWVfAM
-gGjNVYmwNX1SJJ418wHUjy5GsbCam1mIRczZpiZVSnUn38ln+odmwQJ2H9T5vSIk
-gSIelhWodOGEUu+mWhErUwL1EvIuG120Em5n/c72ovG1QcvHniFXyH4KnJ6kxTNi
-bH8rc3Ote/7SfweJBHGeaAiF+LYJZDmY+eh7m02HRID6wXUy7HTqOjrtUgq0v0Sh
-345ImNLlfrtUGlJrD8vzdMy2T13N6s0YMtl6ynDoniq9bRx3asCaHgdw+3E2HNEs
-QOO4wMyeKt5XfMlgfOxTvEzuBvdRn3Jp0+PyWbd8qK8IE40j8CrNXvJjDaUMIV8A
-wy3BwmJ3GL9jt40CKtPjot0Ovg+GSxlgRGqbFQ+mJWnva2cgV9exuhQN8Yk6Qaws
-YWfwgfni+SgBHBWNJ+8nd7k1fiOsxewwPe8Sdu9MlII4F4s0XNAxRFZMdUmym1cw
-DVURz0+lDM3Df8qI57cSkL/HQeWoewvbwVT8rXwqwjluYXmvaa1nwVk7PV6i/BEe
-B6SytKDMb1Fdwk8v/0ZdZrnRDAU056eF4lUpUo2JDZeWtdWOwj1A8UlIGkcnpYmx
-jpAFQHEIcdIdYi/KidlYyNIodFMfi/r7IGAur3fhO2ZnPf82h6Ajyh+QOeihLasi
-tTXhfXSBCjwRcbWrxmEc26xy3US+p4rpo68+zdb47Qef89vQ9LVdts8YreCDl4Ol
-daceihTxLC7UGVfFTAqUpMeCxJm7MLyYU8ohvyVlR3CYaX85xugg1fPC6doRZSsO
-6NMz/9vK4xzBC/i8XbcApGN8cAsujUIVOPCoQpXPyIHshjotOQHLXvSd9lpeXlr+
-m1aGilQgsAQN9P6m+NwDR8/tGNwsQasYWGhUDrkNqla4
------END AGE ENCRYPTED FILE-----
+---
+title: Hashing As Tie-aware Learning To Rank
+public: true
+---
+
+## Meta Data
+### #title Hashing as Tie-Aware Learning to Rank, 2018
+### #topic #nearest-neighbour #Ranking
+## Abstract
+### 主要解决的是在信息检索或是[[hashing]]的过程中遇到的相同海明距离相同排名的问题，检索的相同排名的其实对结果有很大影响，很多人都没有意识到这一点，采用一些随机的或是无法公式化的方法来打破相同排名
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FIUoqVFoNB3.png?alt=media&token=e4a09b16-a827-4781-8220-e3129b6781cc)
+### ties:: items that share the same distance
+#### 相同的tie可能有相当不同的evaluation metric，比如[[AP]]
+### tie-aware ranking metrics implicitly average over all permutations in closed form.
+### 文章介绍AP([[Average-Precision (AP)]]) 和[[MAP]]: https://makarandtapaswi.wordpress.com/2012/07/02/intuition-behind-average-precision-and-map/
+### 对于[[Pointwise]]，[[Pairwise]]，[[Listwise]] ，在论文的intrduction部分我第一次看到了Listwise这个词，之后查阅资料发现相当于信息检索的样本不同，[[Pointwise]]是完全从单文档的角度考虑，没有考虑多个文档间的顺序，[[Pairwise]]是将一个文档对作为训练样本，任何两个不同label的文档，都可以得到一个训练实例（di,dj），如果di>dj则赋值+1，反之-1，于是我们就得到了二元分类器训练所需的训练样本了，但这个只考虑了两两之间样本的相对顺序，没有整体性的考率
+### [[Listwise]]是将每个查询所有的搜索结果看成一个训练样本经行训练，[[Listwise]]根据训练样例训练得到最优评分函数F，对应新的查询，评分F对每个文档打分，然后根据得分由高到低排序，即为最终的排序结果
+:PROPERTIES:
+:id: 5fbf5c9c-c6b0-4c2f-ad73-31f65deb8b64
+:END:
+### Architecture
+#### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F4WkYUA-eQ1.png?alt=media&token=95ee5bdd-6091-418b-82e6-c5033cb870af)

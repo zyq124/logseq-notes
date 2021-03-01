@@ -1,9 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBuYjg0ekNLZGtBSnNtNlVD
-RVFYNGhQaW5kcjlSenJUVVdCR3VRQjZvRkQwCmI1dEsyMExiOHF0SFd0SW40RUlE
-RUdaZkVRTlAxcTRnOTdPR1ZsMkZoTlEKLS0tIFVFTVlnRnVVRGY2N3FJR1hrRm5x
-M05IUDMvSnJVbWpOUUJxbWFqSUxBcXcKNSQVpKy2mIA0LM88sEpitWXBdynEV2wZ
-7b92NdopsiLl78JLSGnFrCicheuMHIC01SLMJ6EglUOHkC28fr6cME0AVXIRsAyw
-ffE/oJWkFw5VsUvbcL8dtiHUUYSRRnKi4EEQTCide1fXBZJUdKIlKvhot0eiY5Bb
-c2E0cJh+lhldHgbk3SY4
------END AGE ENCRYPTED FILE-----
+---
+title: Homography matrix
+alias: 单应矩阵
+---
+
+## [[multi-view geometry]], [[linear system]]
+
+##

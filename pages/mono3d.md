@@ -1,25 +1,17 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBzMElpYXc1YjNFVU5SQi85
-VFBFcG56VXd0Z1VROHV0NmdUckxxNWdqV1NBCjRMYXJUMTQxcFM1bVpLMmFOYWZ4
-T010a3Z4L1I0aVJJVG43UUxESXVFWDAKLS0tIDIwQkQ3RnBhQmJZRXF2WnFPRUp4
-UndyRWUrN3pMdTRnN2d0Ny9EYmpHRkkKThiFZXbZhz5WN7kgr1jeYoZLymgk4YkO
-cbHK6OCX654SCXY3GltUikDC8OdyOFAMl/FgsqNjbGbeSIywgawVll6WasEkf66o
-C80WowGIYqdjrqucjWdgkrHp3xuoXVDurKzrQRNl9Pw942kMOPhoSyYFgAYOBLm/
-gPNzUtCST4gtNMojjeKcaANfELUyyVv5brnSavmslg4rDcSIHYsahfO/7yglt08z
-veaSRoq1HM2QsFVXaavo4qC7K91TBhOEN9DVlFP2yZR41f//kmmid3CPa5BpvjNO
-Oj6xHC4Pivcdnh/HrN2mWjW3fDHNiSG3dHRjG7n8zFlthfP7wH5hkhvMzYip0+lu
-xVnHo7Rp+fglceURp2D7CfARLBFBs+qFlXxB1B6N7Mr2XoiV5T6VpbHV08o6/Xhc
-4Bo6pwfPV+D6P6YeKdnfSD0UIu8VFThjlxWJRRlCfxcWDltFN3ELzf4ZR70H8lp5
-OCtB9fiNgE89HYbMnHq3+C7PG3yrcRj2BOanjT/IkiIqyYCpXH3UFTpFpnxyoaVZ
-E6oJUreJZzCfddp+c3/BV3jpQdvtP5A9w9vI+aoRcykAgwLxobcn6gUM2G8YN9sM
-q1dwUGoLiTaRBqQDtxn3JznpXbpiXOXsGzV2PLxfQvZ0qpKGNGRyuqz5784y1i7i
-gJnhbU8YTmTt9DU4hbXiGvvt+3o9Kvzn/pzZUiDpZVoyGARF5WoLuRdMrpPWorlH
-rGyp3xHzzT+p0U0jq4q3bxgvldlXVXWT0KiC7Nl6H0DxMoJsHPtWEIfcxK8A8wp5
-FkSEjBKsjBAK4hp4C9YxsJ7qUyS3FuYLv18KoPAa97qNCmuSBepFrWLtqhhHPhpP
-qSkEwX1kA6MU+jRmV760G/W9sKr86/+OhiLs76xoN/i7jxSO/Ee25AcAG5B+qo0U
-6/OO0x0lAyyZiG2TjWk+sg6Lqjao0mT8/2rbLXynqR5FpHVyfXxHqUYiu8Mn7Fuw
-4WubZGrLsuDwIIwnMQKg4z/SRz6NBEscK3VcJkzbaCZcVqAqaz2YPs9KIL0+vuCO
-U8JXTA7f1GacALPTOECGNeQSVm4o1Qx7kZT20qNM7p+rrDct4dWHMD+pEiG4aJvB
-CUOx7hrNj0wKOmdDCdn1YxE0xuJUN1d3F8HA17k6gDbz2yD5ft4JY0YruKRCCAEe
-+PE=
------END AGE ENCRYPTED FILE-----
+---
+title: mono3D
+---
+
+##
+#+BEGIN_QUOTE
+Monocular 3D object detection methods can be roughly divided into two categories by the type of training data
+#+END_QUOTE
+### 1. uses complex features, such as [[instance segmentation]], vehicle shape prior and even depth map to select best proposals in multi-stage fusion module
+#### 速度慢
+#### need additional annotation work to train some standalone networks
+### 2. employs 2D bounding box and properties of a 3D object as [[supervised]] data.
+#### build a deep regression network to predict directly 3D information.
+#### Then apply geometric constraints from 3D box vertexes to 2D box edges to refine or predict parameters.
+##### 4 edges -> 4 constraints 太少
+##### each vertex of a 3D bounding box might correspond to any edges
+##### slight error in 2D box causes sharp decline in 3D prediction performance

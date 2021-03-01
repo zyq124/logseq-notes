@@ -1,47 +1,26 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBzeUpnbW8wQWdoYW1HQ3Ro
-R1hYMXdyaHFRWlprWk5HNEpIYlBTMzhiaWw0CjYrWFdLTjVIODBrcHdIcEdza29h
-RGNqVFhiNHNpYnM5c2hlaXRsNlFSRHMKLS0tIEVWeU5xQVJBVC9UQ1prdXFPeDl0
-OGg3QVlBRDhFM1N2cXIvMURpNUJzZ1UKQnJX9PW7ShqSJWJDC544nWBjQLwe09hU
-RaX98PK2bFBSKHxOxymoNUQLm8tGFhfjYS/63g5JxAnasRC0PE121GJsSuXivGUb
-RBBpD7wORGkb8107z1tV9oYJZ19wa+K04xSZ43UDD8KvakB3t4OHA8v7uN2/4Clp
-4nuTy83DmYYvBKnimXUrKQimCy85ONjVczSLJQDkP0eCt6XW7yE/xzxdikPXGXKx
-/dEuLeTZmfayHGri17X80zLaE6k9MIcR004HT8ynV6AehiruTfQ2VyOesVj0dncy
-HPanr8FXnAC9auPMaqZz8hEI9jx0frSPi6zRxiYYbsuG2c1qiqowA2x+igvXx/Jj
-Wmf0m6kG+/Pf1d+tWWz5LTQ+srtM93czDBRnkptLtm+rhJ8xVOY2J5Q6Eg1Ew/Rr
-VQoY8RzNLLWtFE3okFHMGJj9Wbae37YyQf/R/V4CoW8vqP0BFWE+NHfNzmTABE3F
-KKutHVNMitSe7e88V+m43zl4IsRmH1MclYSS54Iaitr1+WcBmJizb6e46+6IbOhb
-VOS+mp4N9Vf7LayMMlQ+F9vXagT2DEKTCzRbNlgrvTfdLUcdxff1X5BH8NlUSdew
-Pj6WQJRv6nFJcN04NwZ4sQ/TcDyZiNeHSvBZ1rVyc4LbRND0bR3UY+sl+shJpNve
-6ld7RAvlqdZdoLq5ux4Ro/pK5+JIl+dzYXnK52xXHiMAm/+IhJnj+3OB8UB2sXZe
-/dOIL8iL/rTqSWOIgIpdko9H2L7UJDb2DUe8z57hEPsEYDJNTnDYv9NgKeD1c0E9
-6T7Fjj0Y50vtniaVpjDjMEiqmnp/rg9ZQQB3g6O6ENjS82M83WQRmFffh0XOMIyk
-PB7P0c+NO8veMfAmwMogkE9sF6yYsjVmfCqAr9bVihA82MvEO9jh4KrKR53d9Wnu
-DbmzA8jY5pLg8Gq2y8BoKQDtekRfWSQnM6c6YkUTSAf5VXJWb4ajcdSbxpH8tomK
-XxzBxDCnKsY+syWbTqDL+hZDNrMVk1amcTT3M3VCA2b8dfbnFcEahz5aj6G2vKvS
-T8BnGBagMNdVv3JWMwdX3jDiPnbY6vvyJcTWrdfnAv1e5Im8iX63YPXfqyXpaDZj
-0YDxfuykj6OszY2rNPRzDRtNqMxmw0AOocLeS6EXgS13tT8foINsMlnFyzdr9Od1
-1J14xtJ4BnDcge0dOVd6o+du0zDx1DuTJpcSb6kvSpJOHhgSOnHHvQDLW9GKK8jI
-Z+NX6z+PB2LATEANsO9SzuL+ZUueGvbfXnoIXZOwPum9mPZprjz5D2cWkpqMOxQQ
-vWV/yPLod7Dkkx1rou1p9DXQyd5XlAqRHfHueV8vRgSm0c1ZBo9Tb9Gu70S8e8We
-y4Cvvjjs3/hnbgFnOoIpmSrjELUa9tleiMLFoSDz3EvLJq7mp8o/iisUhtPUqUyd
-Z391nAwjbaLDMPaqPwBm0lKrHffizZ4CYGW4VD+/xonwxcnc/F9om1CuJOHYm5zw
-vXoMYclZKCpFWPiEuhcN1ISEHQ4BEZWa71ZMmjCY19HaKoOEJuf2YVKFm27+OGZz
-JhBGYec7wbIyDSifjt1uEYA7P/5i+GMR99kT4d0DlHHkrwjdZCZHgTpMRwptQsEH
-u/TGPakB8gUE8E8mSLAiFPyLXrPLq9OuABPTMLtUIjlYcyXDzAqdU4f9J62ECh6c
-rB8u0VSYHt1+fss00DnxcbNhjneYAzwcSYBhwiHyzUXouI9z/PpEDKEOQLOLF/YB
-gIepT3cM9Wbw+Nm72MC4y0Nwg7GjA7k+xZkDBBaR5aa+2qc7Xk0ey9i2fb0j1K/l
-CrD0tIhwStc6Ry02llgnDV9PAoI/T2to800KZ4qumXsYwc3t+y5MNSqlrVMfFHyo
-gxpqKx5QklZH6xaKVexjQc7M1aiyMR2FIoZC2i6mbyRevLEra344jjzP5q7pW95n
-1+RPwx6PghPUKsE1a6icufTabWu/HSL03dulh8b9GCDU+tdmWJ1D5MIVfFfrfd7a
-Ai6R4P4gpELqux54j7eUY+Z7OeKKmDsd0JliQRSurMuLPdmoccIj04nzl9ZnI22I
-g/gYb/7UD2OEUEuBH+IcUFcHbjG5jKXpRu1ha4d0scx2K7sRnW4wqYNeRWHSivuj
-cjYu7BVhSO7XyqD6EBhwLoM/9eMXN4f4khpsS3IVvVn9bGKF0Oqt6Gn3CEK1YRf2
-P1oquQuCiUQKTmyr7MHeOBitE/6DlhvxOhiZsMa8tHBrOb8P58GaPEBD+ia9L2Fu
-woB+YeiICe4ZHqLNrvquqtAa1yXT+uY9JnrTA47ZGc/sagQcyIoQ1ODIKsZ84RNb
-5j9nSPObib27cBghtIepdXb14MeQ1cc51twiUnHrVQHzxvDus8C7VLHPAIXDxHY+
-Z3VTxjOpDRgspyyrKG1RWqRSd3bN7bYfw/sQbjtFgOeSaVfgQdbKFGiS0aBwkd6n
-TfCNxvxMjBf4YkObqKO7hC+cTXOkVQg/S34iE5mRWVoGmpG6W2F1Mx1Ol/zTgpfY
-JOvhOdtb7YLq7mxOFljJ03w/KJP1nf7qmX5QdpIHcYskVrdgGD+tDStBy3lBF0va
-A5rIV80iq9MDTebBnm4bmwkfej0dX0D3vXwUB+FZmgyiSzeJ3NZ4wDWUyA==
------END AGE ENCRYPTED FILE-----
+---
+title: Attention is all you need
+type: Article
+citekey: vaswaniAttentionAllYou
+authors: [[Ashish Vaswani]], [[Noam Shazeer]], [[Niki Parmar]], [[Jakob Uszkoreit]], [[Llion Jones]], [[Aidan N Gomez]], [[Łukasz Kaiser]], [[Illia Polosukhin]]
+tags: [[transformer]], [[attention]], #reference, [[literature-notes]]
+---
+
+## Attention is All you Need #toread
+
+#### Topics: [[robotic centric mapping]]
+#### 
+####  #zotero #literature-notes #reference
+
+#### PDF Attachments
+	- [Vaswani et al_Attention is All you Need.pdf](zotero://open-pdf/library/items/LV4AMHPH)
+
+#### [[abstract]]:
+The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring signiﬁcantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.
+
+#### zotero items: [Local library](zotero://select/items/1_XGLQP6PG)
+## 最大的贡献是抛弃了传统的[[CNN]]和[[RNN]],将 [[attention]] 机制发挥到底,使整个网络结构完全是attention机制组成
+### 解决[[RNN]], [[LSTM]], [[GRU]]无法并行训练的问题
+#### 只能从左到右依次计算
+#### 长依赖信息丢失的问题,顺序计算过程中信息还是会丢失
+##

@@ -1,20 +1,20 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBEcng2ODRPOStQcHJ3Wjhx
-QWJ1Yk9SbTlwQ1NzOCs4SEY1N3RiQnA4aW1zCnovVWtTajZDdkdOTDFHYXE3Vk93
-eEc3K2dadlNGOWZkNzJBR0tBOENKU0EKLS0tIGNjSkJLWjRzVHBGQUwxTk4zRStS
-MG90Ri9Xd1k5UUpENWFjMGhWcm1jWXMKiMte2GDQZ2xRXZH2ZtFbTz+cfhlI8JOn
-ddOukpJRazEXiIxAlzs5eyrD8h22BuiBaotfYxha3pNrC+RJHG/N3UAFT57tO8NZ
-+n/D26J0dUwYIu6/2VeIPSwxyw2gShKY4Lr9oZhALWsL5Gi0g23J/9sA8fs0Cnww
-Cb6DcZ60PGrqUeYh8b5Rgw3eXscpQejVu94a2kKQCGsOogxsQGxuuda+Mbh7FQoI
-Iiy4kUTpUAVY0USrkKxxTZJz4TRMu3PmHs8qivfGjhS8xCM/pkbLbpLIP+yddk6D
-9ZYJIzhtp1yoLmZ78IH6bApS0rzKYeduU/IhPJMBe/ECcwi2HqOVGjAWzVzusmmX
-iIZ67AkR0eXIxq73TcSsa0smjgQZ8eKSOmT+z+HCev1pT5TU/kbOQFNgYo68xQoi
-PxahBEKO9hNWnIq0vzV3Pdz0uk3KpWpOrJFnJebZ9NEnNg4i8Y30loMn5rEgR1dt
-xYUMpsh36Mr5DR68UZAy/lc0CpsY0BpZK75SI2YLVcGIwOPzfGdobc78t7NP6HA1
-0BIjAUKJQ1r2FRjlDhUvqAs+4M1KghrAWQYOOZBeXPAXujTZb7spfaqXx+LrrpGN
-4T0whB2SsKCXr8RGGE9r/WabmDoaVuJPs4D8GXM8CDe1KKp9Mfpak/4VPl1MCTms
-G0Bj30oVdLp50tICv/3P738+93+WTV827Vlp16CvM9i/zzazqOlPNxEm/IuVzoY8
-//JaFD5bOqGr/pXv2d+7J0ebE4n74ASgERwahk+rMeZOASxfxirus6E6Yo3SKDvW
-d7toAl2RwTOl3Ifbr/oUZX/u5SGn1xn8QR9yofnSXLGnaGe5i4nft37JpqrjCih9
-sSPZR2SaGojDzUD69xy0jtWgj/0EJf3cyfvpLipLMw==
------END AGE ENCRYPTED FILE-----
+---
+title: SVD
+alias: singular value decomposition,奇异值分解
+tags: [[Matrix]], [[linear algebra]]
+---
+
+## based on [[eigenvalue decomposition]]
+## 回顾1 对角化分解
+### Given a $m\times m$ matrix $A$ (方阵)，对角化分解
+####
+$$A=U\Lambda U^{-1}$$
+##### 其中$U$每一列都是 [[eigenvector]]
+##### $\Lambda$对角线上的元素从大到小排列的 [[eigenvalue]]
+### 当$A$是对称矩阵Symmetric时，存在对称对角化分解
+####
+$$A=Q\Lambda Q^{T}$$
+##### 其中$Q$每一列都是相互正交的 [[eigenvector]]
+###### 而且是单位向量
+##### $\Lambda$对角线上的元素从大到小排列的 [[eigenvalue]]
+##

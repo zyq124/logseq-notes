@@ -1,26 +1,20 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBTTzVKNWNMczhPZEhoOFFp
-WVVNdFp2cXNmbG1pbGlERHBldHIwYmU2NFVBClAraGtJSHgxd2pOeTQzRG9mejVu
-b2FMeGZFUHRrOGdiWnZoOHQ5Y3BLeUUKLS0tIDZ6NlVTYS9SdUI2bFluOElYbDlM
-cTZiMVUwMFkzKzJTT3ZPVklPbVRoNEUK4FWg/k1JgOiwOTsQWAUk+b1c7Unsnv8q
-oNRNlP/f24JROKZVsy3IQqILElqI13zK8KjC2nsxwzMl2Oxr0bTrSgs9Lhfkg/90
-/p54y2T3U3Zt560tlOVJdVGLRREnOQtlOIGE+QIKX3q2XxYWKJsK+hQz96TOrdil
-mP1I6vXiMg1rvguL5M744VDPoFmA4+dC5DEx7+mJfB8IHqTzHGOz/WgBOEqci3CZ
-oBCelshDoYfnuEkRvGceFcKhjbmIOgh32Gk4wsY7suZF2SBuA9djHwuctvp59l9G
-SsOiHMn3zH6j/iYo21DlBVumpBL0YOB4ehBDSky1kyTOqEDRFG0HvtUz6l7waMvH
-r2iTtqpK1vp5TelBAjfcKPQQdF6zsIMj3Qk1HoKlYLqwaaGynk2VyyVz26OnpZFg
-jfKsWVvGBleQ4K7LQtMdxHhLkyGCKs2BVTR2LdBZ7hPxc428OkqrmUYlfoA2Y/Wo
-3/dROb8SJLCoRYqSd7h9KrCw5lAxSaP1uQTg5gGwje+7x4T5kpOB4YsdFGpxtmk9
-c5PFcaYx9ulHoOX821rjXiMgg4mWYk5CwLrECLvYitaQc70nPatnV0CHZ8MUH2/0
-BkelTeAnyY0l43R/Z7NqxRH3+cFW4lv0MVC9pmt39ddi74+xmpW5gAtwSovKeN6/
-HUx5IqLatwQnSO8yKrB4sc6W69ob/RmPg6fRnwCJ/CliMPVPJHGk8tEx4y6b9sKa
-5q5wLADa8/vfMxsWuXrz6FztiCZ2PDzVfundlcENJXTyGoQPlP8sQ5enVd7xEqDH
-NY4OkwjGWHfvT0zhar4eMe8GEKFmIM1/6cpw7YmpkN3nRsukoa0zfhvLlQUIek2j
-ZwKCTY0JRFviGYLhlu8v/3CgJrfon5aoFqwN7eNAv2oj0zzaQvSNASdr9i8gRik1
-xgFNLnpzUZ/s2Oc+D0EMMPPtEu1KV6tTtomme3Rya74vlpgX0Jbmn3DrKel+l/q1
-mIKouRua14g2ZnNKKDq5Cl6lO20OOs8t8IimvCA8E9ox8FKrEIn7Fq9hypU93NTz
-/LAuUbwKtKBqsx0oMQqlIAXpqIm9Lhhgc1olgXSbUSB8o9QDAt/I6dFm38YJ9fCv
-miINKXaLwIutz036/U5JmXAXXsf0XOrVM1KRQ3Lq3DfkgI0scZ7uO7C/2X9QWVKX
-Z9CEbORD1zBG97goINwamNvKePWuN9yrqDOnDTp300pciqCSyMY1j2chDbZXbDV7
-ZVCfJBRVkmuFduHN1OoqTWheTqk=
------END AGE ENCRYPTED FILE-----
+---
+title: homogeneous coordinate
+---
+
+## #[[multi-view geometry]] 
+
+## A point in 3D-space is represented in homogeneous coordinates as a 4-vector.
+### the homogeneous vector $\mathbf{x}=(x_1,x_2, x_3,x_4)^{\top}$
+### with $x_4\neq 0$ represents the point $(x,y,z)^{\top}$ of $\mathbb{R}^3$ with inhomogeneous coordinates
+####
+$$x=x_1/x_4, y=x_2/x_4, z=x_3/x_4$$
+### So a homogeneous representation of $(x,y,z)^{\top}$ is $\mathbf{x}=(x,y, z,1)^{\top}$.
+### $x_4=0$ represents points at ^^infinity^^.
+## A** [[projective transformation]]** acting on $\mathbb{P}^3$ is a [[linear transform]] on homogeneous 4-vectors represented by a non-singular $4\times 4$ matrix
+### $\mathbf{x}^{\prime}=H\mathbf{x}$
+### $H$ is homogeneous and has ^^15^^ [[degrees of freedom]]
+#### The [[dof]] follow the 16 elements of the matrix less one for overall scaling.
+## Planar projective transformation
+### the map is a [[collineation]]
+####

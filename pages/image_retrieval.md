@@ -1,8 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBUVVFEbUhBVlJHSCtNVWV3
-NCtrbG5nWDAzK3llbkFaUW5rODhLemM2V3lNCmdOZlB0eTR1S3FVaHRiVWl5M21I
-bWpQMkZBcHB2bVZkdUlzcktZT3V2ZUUKLS0tIGkzTlFnY1c3MjkrUmhCdElzM2F0
-ZzhDNk8rdnpFMHRGbjNXNTB5dGN1MlkKdzTKxWzUqFy5aepfSlQOpvunsg3LVC8E
-N7jaA7dOixS9dU2ehZQeg7/W13fGoSzxwSsP+D3ZzSm9DqVFCZU1/EcodD9wd70q
-yR8Zhizcbe+4T/bHQiVwQlShkDM8RVxEwhX1m1rC/rARMlxVHQ==
------END AGE ENCRYPTED FILE-----
+---
+title: Image retrieval
+public: true
+---
+
+## [[NetVLAD]] 
+## [[UR2KiD]]
+##

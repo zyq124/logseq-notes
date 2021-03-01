@@ -1,18 +1,17 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA3TjZuU3pMUm1JaEVzUXlm
-TmV5SktSMDNDZFNYVW8vd3VWM2NscjNCNmc0CjRzdGlWZm55ckF2bVVtbTFzTXp6
-UjRoOWxkZ0s3NEVyMVc2S29kL0UyMEEKLS0tIFRJN3lUQTAzam1EdFRpem1RemV1
-TklaQm0yWVBBWHlxWlBHdWlGRkhLZ0EKp216huqfKIdXVmM0N2HIGbHnV5+1oWRZ
-sLxb8dTTjfTz1tJpsUL8+R2mbEv4+WtAeKG0egL+h41Hl2VjhvGGpcJhP/Yrcktr
-KjH9DQv3AoqKcFVfL4e5n3oCnsRjxD07ktU1MyNBmaPdl0grIO9kb1/bg4tfWgJQ
-a6lYi1C8pjz2gT66ps8d0a891+vgJKYH7fRAZZ+Ot+KmJ8iUYHfilewSH1dhTZH4
-hsp6QEpfCzhYPxCs4PG2lUXTCXSV3yquszcJgRTHTTcGI6uert7r9uE4L2Y8teCg
-FnxaJglVtcMeO9CJiBhdRz60Z4xCgX1fTy39zy0nOFBbmkuwIfopX/1Va1dLv5sz
-c55D9wDMauyjkNZJPPqAgAKJa0d/yw+oMrxXj3ESAZyogliKyYqfGSiUYIgBmPcd
-gCXbdCWYvv1kJ7yReBa1QoWUjtaGYx01kMoiRx/CVm5V4cYB2PkBJBjFyQ10tQkO
-xLyYIRjDFYn08wSwr5mLCUJ6ytW6ddeTJsfeqIhD8uWjonjhgxEfUHdQdncgakBV
-qslkjInIkqN013rETG8sx3a/ONsOlWNGtz8NOLxeNlGeW6P8AA7+cbls+4n1kfaW
-3H+pIaV5vUni0UGyK3Oe4mcRGk2ggWqN2Ku3VeuTEIk3bmbZZSXNhrCdYNJOxqQU
-2h8ZrBRoe/MVWNkNNxqJ+v1RfnAS8WnPcikLEW5nQupLNB+qMVFDWHrsB34uWADP
-aJRcXsqUJWal+XQTnSkf
------END AGE ENCRYPTED FILE-----
+---
+title: normalization
+alias: 标准化
+---
+
+## [[preprocessing]]
+### 标准化后,把不同图片**映射到同一个坐标系,同一个尺度**
+#### 一定程度上消除因为过度曝光,质量不佳或者噪声等对模型权值更新的影响
+### 过大像素值分量(RGB)主导权值更新的问题 转为 RGB分量都具有相同的*数值分布*
+#### 一定程度上消除gradient更新的收敛慢,无序的问题
+## 分类
+:PROPERTIES:
+:heading: true
+:END:
+### [[min-max normalization]]
+### [[z-score normalization]]
+###

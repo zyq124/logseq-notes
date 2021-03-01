@@ -1,145 +1,88 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBXaEFxWmhKVnZGMWFLcGY4
-VzNpRGF1cVZhSTB4SVdqeC82Q0hSYjBLMWo0CmIvYWh0Z2c0TmdVRVNQMVJsb0xJ
-SmZ0dkR6WGR3ZmZ5djgwNTQyaFlnSVkKLS0tIHRzdzJxZHpUcFpUaFRETXZMM3Jw
-U29MMEFZdkwwMzRBNWZjWlYveDk3TFUKCZan0/gNREJlJMUf63AmjoIzvr/06XOz
-09AUGqKm4erQSojk+GT7V5ynpg+EKONBzVSrJ77znOZzLcJeCMhSUnR0wb1oE4vG
-KzrLCr9pXTTZLe9O/UDm0MHObBrk5agH8nTwh3XIj5OwfOdcCu50wlnlNHdbgRoc
-tYgvfQlS/ChG8YuTcqhRy0syliPMy24VXoJFpKFqC3fX+dz9yI5Zwfy8Hb48QOYt
-UEtyuohdgNmpecPTChGCusPV8YqGst59ZEBMiH5YfN4sy3dic6twIOUMKRVHXf9F
-oXil4vX4stqHjxvQOKiVT0guK8VNJ3u5iWmypfohGnunDATtrzNDTCnllVh3LMsd
-THSKSDKfpPUOSx6kd8InFx7DvkLqNZvDBtmnL3vg+RylZxqmUeirzVUxRDpEQkH+
-xQkwHqtPXL1Ffsnq2Li1TRqTa88FiHUN2NEomCM3ozUTkGtr0f3gyC1tbbtAa0y0
-lRaAQfTiiiTSDc/Js3d6G3xefam92FnnXCYt4V9oGEdNp13j616p/z2Kq+Hn2WCh
-wY7FP+YkKQxDpj5FXzZzHhMeoQIvW/92xi7xvzPWRmZr9GLkzgXmq4l0u8AJVHHb
-GIz3jrKL+ZExeXrAMu9t2NfB6Dwx8nYTvMz2c9pP7aZ6xX6R8yVXzBDTx4Rgc/11
-yrCI/FCCchBshsZdHjPIl6k7pH7AZwnWBVgzLAAxcwHbNx4Cxktv75/VOozTI/fO
-BhG28QNFi1Qgc1utP/VHeyERZzO/2fvLssh5uE9Cbm5fp62YaVBnSGqdmFsUNsb3
-NzJ2toZtbMiJ7ooAQvVtxJXF6Koxm7WT1qU52/5T9IkE/NJtkHAfXwTH1gTis3Iy
-PQjFJgHRZgpaXIXindDxVmT6KUQ2VzX5xrz9EwFiUlzechHQAfRFIWiWVC3uXG66
-NZYlqs0vPIvPXpb8Gv8QZVlB0PxZ293ndU435irtznUGQ/d62LNHoRLmx8NMg+oA
-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
-OK/x
------END AGE ENCRYPTED FILE-----
+---
+title: UPerNet
+public: true
+---
+
+## Meta Data:
+:PROPERTIES:
+:heading: true
+:END:
+### #title Unified Perceptual Parsing for Scene Understanding, 2018
+### #topic #Segmentation [[PSPNet]] [[FPN]] 
+
+## [[mmsegmentation config]]
+### model: upernet_r50
+
+### default_runtime
+
+### schedule: 80k, 160k
+
+## Motivation: 
+:PROPERTIES:
+:heading: true
+:END:
+### Since scene recognition, object detection, texture and material recognition are intertwined in human visual perception, this raises an important question for the computer vision systems: is it possible for a neural network to solve several visual recognition tasks simultaneously? This motives our work to introduce a new task called ^^Unified Perceptual Parsing (UPP)^^ along with a novel learning method to address it.
+## Challenges:
+### 1. There is no single image dataset annotated with all levels of visual information. Various image datasets are constructed only for a specific task, such as [[ADE20K]]for scene parsing, the [[Describe Texture Dataset]] (DTD) for texture recognition, and OpenSurfaces for material and surface recognition.
+
+### 2. Annotations from different perceptual levels are heterogeneous. For example, [[ADE20K]] has pixel-wise annotations while the annotations for textures in the DTD are image-level.
+
+## Solution:
+### 1. At each iteration, we randomly sample a data source, and ^^only update the related layers^^ on the path to infer the concepts from the selected source. Such a design avoids erratic behavior that the gradient with respect to annotations of a certain concept may be noisy. 
+
+### 2. Our framework exploits the hierarchical nature of features from a single network, i.e., for concepts with higher-level semantics such as scene classification, the classifier is built on the feature map with the higher semantics only; for lower-level semantics such as object and material segmentation, classifiers are built on feature maps fused across all stages or the feature map with low-level semantics only.
+
+## 1. Unified Perceptual Parsing (UPP)
+:PROPERTIES:
+:heading: true
+:END:
+### Recognition of many visual concepts as possible from a given image.
+
+### Possible visual concepts are: scene labels, objects and object parts; materials and textures of objects.
+
+### Construct an image dataset by combining several sources of image annotations.
+#### Multi-source dataset enforce balancing
+
+### Metrics 
+#### **Pixel Accuracy (P.A.)**: proportion of correctly classified pixels
+#### **IoU (mIoU)**: intersection-over-union between predicted and ground truth pixels, averaged over all object classes.
+#### To balance samples across different labels in different categories we first randomly sample 10% of original images as the validation set. 
+
+#### Then randomly choose an image both from the training and validation set, and check if the annotations in pixel-level are more balanced towards 10% after swapping these two images. The process is performed iteratively.
+
+## 2. UPP Network
+:PROPERTIES:
+:heading: true
+:END:
+### **UPerNet**: Unified Perceptual Parsing Network, based on [[FPN]]. Apply a [[Pyramid Pooling Module (PPM)]] from [[PSPNet]] on the last layer of the backbone network before feeding to the top-down branch in [[FPN]]. ^^The aim is to unify parsing of visual attributes at multiple levels.^^
+### **FPN:** A generic feature extractor which exploits multi-level feature representations in an inherent and pyramidal hierarchy. It uses a top-down architecture with lateral connections to fuse high-level semantic information into middle and low levels with marginal extra cost.
+#### Issue: empirical [[receptive field]] of CNN is small.
+### **FCN**: Fully convolutional networks. To enable high-resolution predictions, [[Dilated Net]] is adopted.
+### **Dilated Net**: Removes the stride of convolutional layers and adds holes between each location of convolution filters. To ease the side effect of down-sampling while maintaining the expansion rate for receptive fields. It is a de facto paradigm for semantic segmentation.
+#### Issues:
+##### Prior works show that lower layers tend to capture local features such as corners or edge/color conjunctions, while higher layers tend to capture more complex patterns such as parts of some objects. So using the features with the high-level semantics is unfit to segment perceptual attributes at multiple levels, especially the low-level ones.
+
+##### With deep layers like [[ResNet 101]], in a dilated segmentation framework, dilated convolution needs to be applied to both blocks to ensure that the max down-sampling rate of all feature maps does not exceed 8. But due to the feature maps within the two blocks are ^^increased to 4 or 16 times^^ of their designated sizes, both the computation complexity and GPU memory footprint are dramatically increased.  
+
+### Network architecture
+:PROPERTIES:
+:heading: true
+:END:
+#### [[ResNet 101]] $$ \{C_2,C_3,C_4,C_5\} $$ and [[FPN]] $$ \{P_2,P_3,P_4,P_5\} $$ where $$ P_5 $$ follows [[Pyramid Pooling Module (PPM)]].  
+
+#### **Scene label**: the highest level attribute annotated at image-level.
+##### Predicted by a [[Global Average Pooling]] of $$ P_5 $$ followed by a linear classifier.  
+
+##### Unlike [[Dilated Net]], the down-sampling rate of $$ P_5 $$ is large so the features after [[Global Average Pooling]] focus more on high-level semantics.
+
+#### **Object label**: fusing all feature maps of [[FPN]] is better than only using the highest resolution ($P_2$).
+#### Materials: On top of $$P_2$$ rather than fused features.
+
+#### **Texture label**: given at image-level, is based on non-natural images.
+### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_27_overview_upp.png?Expires=4760061428&Signature=JRz1n719ESAG6aXoVIS~Cubb4-bznyBxgLjahg1oWkDKDCs1uVdF~cDE-rjRmSj6LENUoxSO-nnpgRPb3ayxnkJ~1eC39vPVzLAe~65rrZ4BD6K2AcgDGmr1ZwPSwAB-dXJoXR0HOSLCy65bwAqQaIxVfbkb1Pjh3Y5HZcxxEPzdw2iypVisb0z7jn9~-PJFAOj7djT1CEx2jeqIDank2bVm65dQuQH7uc9I-9qgUilkhzDX01mhIjxPaWvEP5yggBN0SHLfD-qMc08ATYdL9ZeDzadhkvOCg0R3Z5ZmdCo5-3gAlylSY20VmSRM7h-mFe8wDbYTOn2YgTj0uc6TJA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_27_overview_upp.png]]
+### UPerNet framework for Unified Perceptual Parsing.
+#### ^^Top-left: ^^The Feature Pyramid Network (FPN) with a PPM appended on the last layer of the back-bone network before feeding to the top-down branch in FPN.
+
+#### ^^Top-right: ^^We use features at various semantic levels. Scene head is attached on the feature map directly after the PPM since image-level information is more suitable for scene classification.
+
+#### ^^Bottom: ^^The illustrations of different heads.

@@ -1,10 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBiRFUvVGFoM3FMSm0zOG5J
-ano0Y3AyWHljYWxVeEY5WFNTYWVJTEpaVFhjCjNqS0JvdHA1RlI3R3pqTHRHb2FW
-TXhZNGFxT3VXaUFYdVhKRjROcTQra2MKLS0tIEl3L3pUdURra3hROVUvSzc0Wlg5
-Q0lwR0dLT1RhRWtHbm1GVzkxcE5NcUEKpHqyHPgVcp8k85K7Gcab4wVXxBUigcHl
-8En00zKitz9xCVTqnqS+SJ386TdKtHw+c8Ic01mtU3d/zMCPBPKOAzYjuFM5GJZQ
-ZY421wOr55h0TqONbFSE4Nxt/fRL5YlJMIqiYsODkskIYiLjR27bgbehDcDgAG4y
-FswE16zjzVCdz4biEr+C7Tp3Q1fhpmhSXTV7sPySBoQUKYddKmPXls6XgjikAJVn
-6dq4lsjtkCqkyflFz8Twgy/vMpJp
------END AGE ENCRYPTED FILE-----
+---
+title: factor graph
+---
+
+## 
+
+## In order to have a non-zero $(i,j)$ block matrix, there must be an edge between $i$ and $j$ node in the factor graph
+##

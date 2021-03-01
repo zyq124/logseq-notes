@@ -1,98 +1,85 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBJYmg4bW4yTjd4YWMrSi93
-eDNpSGZFYlhlRnFDY29YdFJoSmpNYUJtb0JFClIyVjZCU3JHUkUwSlRUckVlaldU
-Y3VDdGVTMnRoNVlST0orQTVqZkhJdjQKLS0tIDEvRk5kRGpwQ1dTcW9kNklmeGkx
-dytSeUZUWnhvQUw5SUprZUk1cW9SOWsKvnzjI4qxWk6C7lxkL36VW4p1LgLj9LQ+
-1Eo1bBoIm39EynuxbGdTIit57WQDKwKltd/w8jEIxIMAUGX7xgxnZcHxbhQub2S3
-YNZiJdLhoETE+wohfLsRpBkVZvuj+2Miqd4dFj8I8cq4nfKDo63LfCUcZqu2CenV
-uyK2ZpajLeSjFyX7g4qhFAtPNY7Di+IDlvedIx3jsJGXzuVWg1h2eRJdUuDmHTta
-y0zg54ij+Qc2pDAzJkdcnSxOLEM2IORmz0anJLl7TozDQJw15G9IuMQgyoEv55FU
-I3/CQxogne5CSjG8uTa8LErgmDt/DLaIJtLGZMXWSkQ2ChenZWEDphhdOKGFXl0d
-D0FGRpHiL4fBSDvYQ4F/RTQTUSIFtO1V7wSs+FkM3/NCW0bxAsbaqP8grGvPBKoV
-/GbXWz9XFVS9xovXcm6qfNeMIXNzuuBY+S9glWisx1F5NNGdIDBUBTys8rOaS8AV
-Dnz1+VOyR37ckVVU+6GC3ITnWmRbw0M7A2qLB/zRZjbZ+XphY4/+Wwraiiki/vXA
-lErVuhm20JXJeZP3hWvkCLTQyc+lWgxt9YLAt1pIcD9P9n+qlP39iTFnw8DdCnPR
-loL1fyGfEjIE3Bhp7B0kOzTjO/NeHhhGAXXECB3207yeWptkvUuoMR6QdjAhgTCv
-fzXPA9YruA9vnkAk04A9+001lCCuRwL4njHZNNDwDLp2dUEQqL/bddaElf3erlnd
-CJ76BOl/SLP1BFh2lX6B0jc8ggrw/uU30yTPs9xTYUIRX5XLzNrpX3wdG0xdzz0d
-Kbpvqm+U0ghut3mH/Ktq4XT3zNVOciqJ107x4xjQcfCLtJXAwWMh6VOdAibCjgPE
-l1Hig5vQ3E4BQAamgHx377lRW3Pjb5iaE9xO4SgZRf0MTnaR3lTDSCIpDURji2ey
-/gtQ8C66urOMf26KUnWbGRxziEorD7fnszzj/IwI+PWV/lKFrmaeaoN9d90ArR55
-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
-l9QRDOuuJxzwZ+I/LQ==
------END AGE ENCRYPTED FILE-----
+---
+title: GCNv2
+public: true
+---
+## DONE Note not finished!
+:PROPERTIES:
+:done: 1606375371048
+:later: 1606375366177
+:END:
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### #title GCNv2: Efficient Correspondence Prediction for Real-Time SLAM, 2019
+### #topic #Keypoint [[Detect-then-describe]] #Efficient #[[Binary Descriptors]]
+
+## Abstract
+:PROPERTIES:
+:heading: true
+:END:
+### GCNv2 predicts both keypoints (probability map) and descriptors (dense feature map $\mathbf{f}$).
+### Inspired by GCN and [[Superpoint]] [[Superpoint]]
+#### Perform predictions at low resolution
+
+#### Then [[pixel-shuffle]] the 256 channels probability map to the original resolution
+
+#### Finally [[NMS]] over full resolution map to bilinearly sample the corresponding feature vectors from the low resolution dense feature map.
+
+### 
+
+## 1. Network Structure
+:PROPERTIES:
+:heading: true
+:END:
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FeWPtCLCfIH.png?alt=media&token=c85b5710-08e4-45e8-b70f-8a18bfd89ec1)
+
+### The orange blocks are conv layers with [[ELU]] non-linearity after each set of blocks
+
+### $$I$$ divided by some number is the resolution of the current feature map
+
+## 2. Feature Extractor
+:PROPERTIES:
+:heading: true
+:END:
+### 2.1 Notation
+#### Dense feature map $$\mathbf{f}$$ at low resolution
+
+#### [[pixel-shuffle]] keypoint probability map $$\mathbf{o}$$ at original resolution
+### 2.2 Binarized Descriptor
+#### To accelerate, and to match [[ORB]]: feature vector $\mathbf{b}$ set to 256
+#### Add a hard sign function non-linearity as a binary activation layer on top of final output
+
+#### Make it ^^differentiable^^
+##### **Straight-through estimator**:: Indicator of the hard sign function for backpropagating the gradients. It approximates binarization during backpropagation and avoids over-penalization to feature responses already passed the decision boundary by 1.
+### 2.3 Nested [[metric-learning]]
+#### Pixel-wise [[metric-learning]] is used in a [[nearest-neighbour]] manner.
+
+#### [[Triplet loss]] for binarized feature
+##### (2)   $$L_{feat}=\sum\limits_i \max\left(0,d(\mathbf{x}_i^{cur},\mathbf{x}_{i,+}^{tar})-d(\mathbf{x}_i^{cur},\mathbf{x}_{i,-}^{tar})+m\right)$$
+        $$d(\mathbf{x}^{cur},\mathbf{x}^{tar})=||\mathbf{b}^{cur}(\mathbf{x}^{cur})-\mathbf{b}^{tar}(\mathbf{x}^{tar})||_2$$
+where $m$ is the distance margin for truncation, $d(\cdot,\cdot)$ is the squared [[Hamming Distance]] for binarized features, which is faster and better convergence.
+##### $$(\mathbf{x}_i^{cur},\mathbf{x}_{i,+}^{tar})$$ is a matching pair with GT camera poses from the training data:
+###### $$\mathbf{x}_{i,+}^{tar}=\mathbf{\pi}^{-1}\left(\mathbf{R}_{gt}\mathbf{\pi}(\mathbf{x}_i^{cur},z_i)+\mathbf{t}_{gt}\right)$$
+where $$\mathbf{\pi}$$ unproject a pixel from image plane to 3D place using the given 2D coordinates $$\mathbf{x}_i^{cur}$$ and depth $$z_i$$.
+
+##### $$(\mathbf{x}_i^{cur},\mathbf{x}_{i,-}^{tar})$$ is a non-matching pair retrieved by exhaustive [[Negative Sample]] mining described below:
+###### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FBXSudpZ01W.png?alt=media&token=383880ad-c38d-4f93-97c3-3cce06fc9e7e){:height 438, :width 679}
+###### The exhaustive search will further penalize the already matched features with [[relaxed criteria]]. 
+####### Relaxed criteria:: Increase the tolerance to potentially noisy data.
+
+## 3. Distributed Keypoint Detector
+:PROPERTIES:
+:heading: true
+:END:
+### Treat keypoint detection as a binary classification problem.
+
+### The target of the probability map $$o$$ is a mask with 1 and 0
+
+### Weighted [[cross-entropy]] is used as objective function for the training.
+#### Loss is always evaluated on 2 consecutive frames to enhance keypoint consistency.
+
+#### (4)    $$L_{det}=L_{ce}\left(\mathbf{o}^{cur}(\mathbf{x}^{cur})\right) + L_{ce}\left(\mathbf{o}^{tar}(\mathbf{x}^{tar}_{+})\right)$$
+         $$L_{ce}(\mathbf{o(x)})=-\alpha_1 \sum\limits_i c_{\mathbf{x}_i}log{(\mathbf{o(x)}_i)}-\alpha_2 \sum\limits_i (1-c_{\mathbf{x}_i})log{(1-\mathbf{o(x)}_i)}$$
+#### where $$\alpha_i$$ and $$\alpha_2$$ handle unbalanced classes to prevent pixels (not keypoints) from dominating the loss.
+### GT is generated by [[Shi-Tomasi]] corners ina $$16\times 16$$ grid and warp them to the next frame using eq. (3)

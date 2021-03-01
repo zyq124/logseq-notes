@@ -1,22 +1,18 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB5MW9OdjlXSVN6WjB0VXhD
-dmlKdGc0UjhaOHVrNkJGbDhHQlB4SDhCZUVvCnphb1ZUbTNsNm0rT0w5NGpXb2VM
-UFZxMll0TjhmRXRZeDl6WnBWY0tSbjQKLS0tIGh0Z0c2V2RTbDhKRkROZHVoK3di
-WHJzTzJPOFdlWmt6ZXFVdVhEeWh3d1kKtnJEj1ggfmsYCQU5YwuPCoAv54CtmrGU
-FdUYz8nO/1FNrIhbYMa7tejSSu3ekjHj37MvUts1fN1Jz0jtHPKp+/y2Iy3gPuYj
-cYOusqSNRLLCPNHv6opTROvPphSgl99gxGNB0OEC7EjaEr/LrsPEPE86aixZ/Gmz
-YbISxoR332nK+tX9zyu+eBoeb84evZAte6X79QBof2AgMdnH0U4Extx+KCKx18Qe
-pZBXtjQvFzYhYCM+B8WRbeO+CzAJwEqF9oyx7qtYhy+hR5lO7dqG2Q8eC64wCXQD
-bWSCttTy9VlCehodivn2p5lqL3lZhuSOg9c9yxO7JHQv+i5I1Bbxa5Nk9fzGdrDu
-hESHTumT9i6Ynf4jIiTqDg4GVyHye2fCNO6FOActWhykvjFxk0cXQSiXhkH3XSyd
-XVS22oznGhFDQV9X86Ocwk3ykYp1RQEY3rm/rd5F13J7BIjgGPCXem8avszjvR0V
-+a15sHuadVqmc2VoITOY3kfx05sTaaLEbOoK39ETLpmclLg0Ay9Vxya8TkJF0luJ
-foRTD82t9ljqDBXW7zPGn9JWwWH/45Y6nsByHONHtg8HYsCOQuyVQDH1fFkidNkM
-uCuIyHoNjFWGUOM4midi21kE1fpY2nXcQKVRyYRgeLeykGWGu6jfYVech0NSxWx5
-StztwMaOqAJuNMs5x5y4hCpwLUBgD6RUAE7PtYkOueRh7s/Lm8xWSq9Afiez2z5G
-lCXcNPcmFh+I3/XaBlGB1wFEjCws1E9V8Dqhu54OjjjrOIwBX0uYSk+oxBMlWw/1
-sbnvoG5zsKJQWf1FqDgm1X+T8sj0fYv6u8y5Z7KmRRMC7zOSDRuK6p3ll9N5eXKs
-5dcJ6/aLmLqnvMCLMP63EYIJ/39BE1dp/NhF1WCPOfyjSRuQbMQap9DvRQD3jLNq
-RxamqmwQQ5RQ2ELZxuZIh4kJf4B9hudxT1Pzxc/gjUHyC2kOYqav27+e9jTJv8GV
-4MnV9ACpoUmc9xup8w8wySKkUDA=
------END AGE ENCRYPTED FILE-----
+---
+title: Padding
+alias: 填充
+tags: CNN, [[convolution kernel]]
+---
+
+## ((600a7be5-e4d0-4683-a21a-005a37507974))
+### ((600a7c1c-c6bc-4cae-8057-9f227c173c95))
+## 在输入的高和宽两端补元素
+### 通常补0, 叫做zero padding
+### ![image.png](/assets/pages_padding_1611301009617_0.png)
+### 如果高的两侧一共填充$p_h$行,宽两侧一共$p_w$行,输出形状为:
+####
+$$(n_h - k_h +p_h + 1) \times (n_w - k_w +p_w +1)$$
+#### 在很多情况下，我们会设置$p_h=k_h -1$ 和$p_w=k_w-1$使输入输出具有相同的高和宽
+##### 若$k_h$奇数,在高的两侧分别填充$p_h /2$行,这个比较**常见**
+##### 若$k_h$偶数,在顶端一侧填充$\lceil{p_h/2} \rceil$,另一侧$\lfloor{p_h/2} \rfloor$
+####

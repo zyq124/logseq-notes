@@ -1,81 +1,66 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBQMVZDU1ZndVR0M3lWMzdK
-d3dGY2JtOFNEeXVWNmpWQ1ZLWFFvSjBXdUJjCmtCSWpvaDRYUUJSTTdSY0hqY2Iw
-dTl5RG1NZXlxT29LaFliNHZ6UlJTNzgKLS0tIFFXTTY2Qmx4bTNTNENST2Z1SGl1
-QU15OFFyMUJJcjhyYlk4ekpKYXZsSzgKn0CkuKCCR9nc7rVYxeL34j+xdUk+62a1
-/23co0aO3XCW3ZCjw5jU4ej4KwL1p9o96Sk++/qKWzNf4yoAu/PpWDwUbwIVlsq+
-fk3+I/+Ue3HwrAaUAlVIiifJs2Mp8XtGmQwKocCal0iu2i42v8hpZDT0aqWDJvGn
-WYmgR3oYJz/Kf5kLew1IvQtpLPyvlcox9du20Bkp/zliotlNa0rg11efROVp+L+n
-tDSE8RUcCoYJ802MKthH3EjEGGZrGGG8U2+rRUAQAKsRiR5I+OiWwRS4D6QWbPmp
-1I0o60/ANc1oQdAJGChPPtyupduw8tc26sV7jH/b0SKbSEtRPn1hx5jbPF0lRTtr
-WMcI1k/tYkFtzPHELQpHNGIZzkzhIcCHyfnTrmEERuba183K67YOd7yCA+RglO8H
-yhV97+YHubbpQYlq71flJmuph4ldK+W5HfzG8gFf0OAPJX8c4jJSbgznaFea1OCf
-y7TwlcHhAPe0wGoKnFew2sqVepctN3smnKbCzUbrx1P/+08GIkkoa1LDfHoIHakC
-Zb81FxEyhz8k77ChpBbTi8LDYDgJ+kQ/1pCUUZYxB1WQqCPIHaHVhEfzvLieWSlM
-y8zjHHOpUtKwCeH+enIeEMAlhlzrXLiFyo+Ea9I6CVfJPILdeIk1WwF7sBpQ2Lzf
-HmyFG3o1nP+oYIm5/+xNVtiKtPZSWowqmrJya7D+GzOSSrUxZGHvWEvStBSzbPgl
-4x4TCL0G2b/IzJeF0PglbRF34AvOW7mVWpzTENDRalOyY3Yke4UA9jC/PGNMi/fS
-LqSS11fzhH3HBQ59Lfd5Y8lOuQegj+jjo4A4z3Q1A9bCUz6MgioYh7cBH4gWVHK/
-q0mGv8VB2wto2uVGdZock8KalkgkmOHgX7kBE2qtoqmrJ3YJFAXTbPMCWMPAAydv
-OTPJRIwBoJJnq2SAncb6o0cMQYzPyRmrx4IhFuvGf+ialPjgYsExKzqBZ7zx60XE
-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
-kmLxDB9aKqRL
------END AGE ENCRYPTED FILE-----
+---
+title: D2-Net
+public: true
+published: true
+permalink: d2-net
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### #title D2-Net: A Trainable CNN for Joint Description and Detection of Local Features, 2019, CVPR
+### #[[Academic]]: #Keypoint #[[Keypoint Extraction]]  #[[Descriptor Matching]]  #Detection-and-describe
+
+## [[Detect-then-describe]]:: Classical interest point detection and description method where separated handcrafted methods are used to first identify repeatable keypoints and then represent them with a local descriptor. #definition
+:PROPERTIES:
+:id: 5fffb4b3-72ca-47f6-b439-7d63456a4aff
+:END:
+## [[Detection-and-describe]]  paradigm
+### Compare two paradigms
+[[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_25_compair_two_paradigms.png?Expires=4759878442&Signature=PiQEPrEH67zjnYttENAuUb73AMKxr5T7y2T8b8taVom1xm85nxQ76L3qGpW1an6YWcMzZIUaOcIjgOW0DTbSuTTnm-UxmM0Sif2tC7XQ4K8NzZz3ZbxbTBFv6J22knQanPOt3P96h9tRlVqLfeRZrQiWnm~l03FFftV9pavgu5kx7BC8MYPS-woBXYccqdBI4jkBaF4RfOS6igUGSWbN0QWw4Kk5zCxhHa1rMYoqeS3N8bSJZBQeUMy54MvSoknSIRPOfwll4e7FFYeoi~a900U7PHVRcIEzJ5MDG~Fc38K2Y7k8gawqNTDdVfCR0sNmp9tLJpuGUoWjiP1l0pXWOg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_25_compair_two_paradigms.png]]
+## In the paper both detector and descriptor share the underlying representation, as shown below: 
+[[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_25_overview.png?Expires=4759878457&Signature=fiQhdlrka5Yjavx0YayzUK9iMTHZ1T-nb1mCoiMRpAOhQ4ur2VxHWDTC0LTHEgbHAE2K8mk8k7U8Tn~E0kZRUfuB5H54OJ9O~r1k8UryIHjCkl-GoLQLHfpCF5AJ69prPUgIx3uCdgvgrIS8hCvNZJEhQ5sI56rIjIXP35a8AGm9Ts0xgOF-jZ0pJRPEW-X8HzyvRgohqQYSNlDuIoZrkgj0bt0p8F4fSuT~uqAWydJip76fCaXchoZAxHXbK8lbq1HdnXXFbPyG~jGUrS4SiS8WMz4g-t35SMGXuDl6veFi53xn5addiLNfYZX32YIjm0UbJXZ6v4cUy-eqjkBZKQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_25_overview.png]]
+## 1. Feature Description
+:PROPERTIES:
+:heading: true
+:END:
+### Interpretatioin of feature 3D tensor $F$ is a dense set $\mathbf{d}$:
+#### (1)    $$ \mathbf{d}_{ij} = F_{ij}, \mathbf{d} \in {\mathbb{R}^n}$$
+where $n$ is channel size, $i=1,\cdots, h$, $j=1,\cdots,w$
+### Compare using [[L2-norm]]
+
+## 2. Feature Detection
+:PROPERTIES:
+:heading: true
+:END:
+### Collection of 2D responses $D$ from 3D tensor $F$ :
+#### (2)   $$D^k=F_{: :k},   \; D^k \in{\mathbb{R}^{h\times w}}$$
+
+#### where $n$ is channel size, $k==1,\cdots,n$
+### 2.1 Hard Feature Detection
+#### For a point $(i,j)$ to be detected, we need:
+##### (3)      $(i,j) is a detection $\Longleftrightarrow D_{ij}^k$ is a local max in $D^k$
+ with $k=\argmax\limits_t D_{ij}^t$
+### 2.2 Soft Feature Detection
+#### Amenable for back propagation.
+
+#### Define a soft local-max score
+##### (4)            $$ \alpha_{ij}^k=\exp(D_{ij}^k)/\sum_{(i^{\prime},j^{\prime})\in\mathcal{N}(i,j)} \exp(D_{i'j'}^k) $$
+where $$ \mathcal{N}(i,j) $$ is the set of 9 neighbours of pixel $$ (i,j) $$.
+
+#### Define a soft channel selection to compute a [Ratio-to-max](Ratio-to-max.md) per descriptor that emulates channel-wise non-maximum suppression:
+##### (5)            $$ \beta_{ij}^k = D_{ij}^k/\max\limits_t D_{ij}^t $$  
+
+#### Together we maximize the product of both scores across all feature maps $$ k $$ to obtain single score map:
+##### (6)            $$ \gamma_{ij}=\max\limits_k (\alpha_{ij}^k \beta_{ij}^k $$)
+
+#### Image-level [[normalization]] :
+##### (7)             $$ s_{ij}=\gamma_{ij} / \sum\limits_{(i',j')} \gamma_{i'j'} $$
+
+### 2.3 Multiscale Detection
+
+## 3. Jointly Optimizing detection and description
+:PROPERTIES:
+:heading: true
+:END:

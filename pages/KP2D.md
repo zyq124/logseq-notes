@@ -1,163 +1,127 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBqcWR3OGVleURSTDh6Qnda
-VDhFOXYxM1Rsa1B1YjVIV0hNMklZZHowSDJNCjN1Tk15ZjJMcGt2Y1ZzNVl3cDhw
-RmsxeDkrMU1JeVc0ZmlaNjlXcGRvUlEKLS0tIEE2ZGt5WWxuWWFzQjJ2ZFZlMkFa
-SVp2YXd6YnkxNUJFNjNGODNKdzhRM0EKTUNQ3OgMYNGJniFI+9dtkO1/DTsq0hfX
-6e3ZOI/Wddq32JiCRG7sFi2SEh2MMHwbB4BNL9ZD9F9OnIqE66SWKUC0mOYyJdCQ
-eWOKoJ8Y/EQRWAb+gbBI5n8aIFc6moSXHssh/a/lp3xHt0iY3Xq6vWUVTaO9v+ID
-bfyQkQnHMr59NIZao4ShjyMfc6Flht1yx9s4s14hK8CMmgSQL9E54LtQE56SYd6q
-8ULN3iY0FaN0op91ve/5YcNpi8mQU7EHxDzPI4sqoNSNYCkJaa4kcEeC31PJNiN0
-gmfqoM/vfLaaBKZTmogPLriNh9z/uiPb2UnH0e3I0kJ/rGIz8S5O/LE0ux1QUu6C
-IgO1VG6RYTtZG9gRFIfHLq8N+oElj3TwXvhBZ4Gcblyhv9Evxom27+wVA7nT0g8P
-0LHrjK+4J1zcPhpbYwwho82M3JbJ4pB7Fqh9e2YotZFF3FVv6lQjntXgyC9jNSm6
-Y6AzZRQaSsQtYE0Z9Gg9LsxRFUApEIDuQOXQroT8/PdhBsg/aHsMvAnrAD7XPMoc
-EkU8lsPMRIVrwqJhY1tiYZdkdtppvXpokZBeCkKFIryw4AFg8dMmuec8hcugVzS0
-9VDUJpcQ+hsT84dd2ySsMicAx/xzxHL18XX0hdDzH0hK7CYgSZSTBWhU+vsm98HR
-3SJpmgZ6VANbE7BcVbPg4/bGhxMl3GVjmMkZq39YBXw0G+57xUvT+RlB5mWpSZEe
-W3hWTFLz12MzTPcqM/J7ahAQtdTFoxA4AyUrvuj0Xf/tUePcPCaPlrp8MAM/ShjA
-Wi2NfcVJ0sr+joHeSh8ddBuQFW53O8NyW3MrdVjpEJOoTtyFV1k7Q5oX8m7UkTmV
-wPfzyauCYugEC1eVEgBN5PVyvMeOBykwhkrclwl5xGNmwXoUfvWO1IgLancWWwkl
-uieL/LTMqeS+Ega4P5hcaSWsD+6H6xWHskvXtVvyD/tXXbr+/7SKeUhNCv/ANDNa
-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
------END AGE ENCRYPTED FILE-----
+---
+title: KP2D
+public: true
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### #title NEURAL OUTLIER REJECTION FOR SELF-SUPERVISED KEYPOINT LEARNING, 2020, ICLR
+### #[[Academic]]: [[Keypoint]] [[Descriptor-Matching]] [[Keypoint-Extraction-and-Description]] [[Unsuperpoint]] [[Self-supervised]] [[Encoder-decoder]] [[Siamese Network]]
+
+### #code https://github.com/TRI-ML/KP2D
+
+## Abstract
+:PROPERTIES:
+:heading: true
+:END:
+### The learning framework is based on [[Unsuperpoint]] in a [[Self-supervised]] fashion by receiving source image $$ I_s $$ ($$ K(I_s)=\{p_s,f_s,s_s\} $$ ) and target image $$ I_t $$ ($$K(I_t)=\{p_t,f_t,s_t\} $$). 
+
+### We define [[IO-Net]]::InlierOutlierNet
+
+### KeyPointNet a keypoint-netowrk architecture that is especially amenable to robust keypoint detection and description.
+
+## [[Self-supervised]] Keypoint Learning
+:PROPERTIES:
+:heading: true
+:END:
+### **Notation**
+#### Input image $$I\in{\mathbb{R}^{3\times H \times W}}$$
+:PROPERTIES:
+:id: 60361390-93a2-4b9e-b2e6-d932868d45b5
+:END:
+#### Define $$K:I\rightarrow {\{\mathbf{p,f,s}\}}$$
+##### keypoint $$\mathbf{p}=\{ [u,v]\}\in {\mathbb{R}^{2\times N}}$$
+
+##### keypoint scores $$\mathbf{s} \in \mathbb{R}^K$$
+
+##### descriptor $$\mathbf{F}\in \mathbb{R}^{256\times N}$$
+
+##### $$N$$ total number of keypoints extracted (varies based on input resolution)
+
+### Based on [[Unsuperpoint]] with source image $$I_s$$ and target image $$I_t$$ related via a known homography transformation $$\mathbf{H}$$.
+#### ((5fbf7cce-8da7-48ce-880f-5565d06351ba))
+##### {{{embed ((5fbf7cce-b19e-44b2-bfd9-5fb23fdf8e43)) }}}
+##### Define $$\mathbf{p}_t^*=\{[u_i^*,v_i^*]\}=\mathbf{H}(\mathbf{p}_s)$$ with $$i\in I$$ the corresponding locations of source keypoints after **warping**.
+
+### Inspired by [[Neural-Guided RANSAC]] method define a function $$C$$ 
+#### Take input [[point-pair]]s along with associated weights according to a distance metric
+
+#### Output ^^likelihood^^ each [[point-pair]] belongs to an inlier set of matches.
+
+#### Mapping $$C: \{\mathbf{p_s,p_t^*},d(\mathbf{f_s,f_t^*})\}\in \mathbb{R}^{5\times N}\rightarrow \mathbb{R}^N$$ is the likelihood.
+
+#### $$C$$ is only used in training phase to choose an optimal set of consistent inliers, and encourage the gradient flow through consistent [[point-pair]]s.
+
+### ![](https://remnote-user-data.s3.amazonaws.com/ms3yhslJzZPWxUNrfg3XSH9RbSgXkP3y-f9GvX2aejwqjwvRmlwAt8pU1OqGBPXb2lctrVDIlva8SzmsdIFY3YBzDFtMgXllswRgfY8lzbhLHgvxq54mP1cWg7BBu_NR)  
+#### Framework for [[Self-supervised]] keypoint detector and descriptor learning using [[KeyPointNet]] and [[IO-Net]].
+##### [[IO-Net]] is a [[1d Convoluation]] parametrized by $$\theta_{IO}$$ with similar strucuture of [[Neural-Guided RANSAC]] with 4 default setting [[residual blocks]] and activation function for final layer removed. 
+###### Produces an indirect supervisory signal to [[KeyPointNet]] targets by propagating gradients from the classification of matching input point-pairs.
+
+#### Define the model $$K$$ parametrized by $$\theta_K$$ as encoder-decoder style network. Similar to [[Unsuperpoint]]: ((5fbf7cce-e8c2-4f6f-b73f-4f00fa094e09)) .
+## 1. [[KeyPointNet]]::
+### a keypoint-network architecture that is optimized in an end-to-end differentiable manner by imposing explicit loss on each of the 3 target outputs (score, location and descriptor).
+
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FTOQXLiMVDX.png?alt=media&token=738ec2fc-32a6-4d09-9758-56440c18df9b){:height 344, :width 801}
+### **  Detector Learning**
+#### Same points as [[Unsuperpoint]] ((5fbf7cce-e8c2-4f6f-b73f-4f00fa094e09))
+##### Define distance $$ d_k $$ as
+ (1)    $$L_{loc}= d_k=||T\hat{\mathbf{p}}_k^A - \hat{\mathbf{p}}_k^B|| =||T\hat{\mathbf{p}}_k^{A\rightarrow B} - \hat{\mathbf{p}}_k^B||$$
+#### Effectively aggregate keypoints across cell boundaries, by mapping the relative cell coordinates $$[u_s^{'},v_s^{'}]$$ to input image:
+##### (2)    $$[v_i,u_i]=[\text{row}_i^{center},\text{col}_i^{center}]+[v_i^{'},u_i^{'}]\frac{\sigma_1(\sigma_2 -1)}{2}$$
+
+##### $$v_i^{'},u_i^{'}\in (-1,1)$$
+
+##### cell size $$\sigma_2=8$$ and $$\sigma_1$$ is a ratio relative to the cell size (bigger than 1 can predict across cell borders).
+
+#### Predict keypoint locations w.r.t. the cell center, and the predicted keypoints drift across cell boundaries.
+##### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FIzwp9mn0iV.png?alt=media&token=76e44397-411f-42a0-a738-854c8c267d41)
+
+##### Warped point (red) is associated to multiple predicted points (blue) based on distance threshold (dashed circle)
+###### (a) [[Unsuperpoint]]  forces kepoint in the same cell (causing convergence issue)
+
+###### (b) Predict the localization from the cell-center and allow keypoints to be outside the border for better matching and aggregation.
+
+### **Descriptor Learning**
+#### ^^Subpixel convolutions^^ via [[pixel-shuffle]] operations can greatly improve the quality of dense predictions, especially in [[Self-supervised]] regime
+
+#### Before regressing, we first fast **upsample** to promote the capture of finer details in a higher resolution grid.
+
+#### [[metric-learning]] is used to train by per-pixel [[Triplet loss]] instead of common [[Contrastive Loss]].
+##### [[Nested hardest sample mining]]:: We pick the negative sample ^^closest^^ in the descriptor space but not a positive sample.
+
+#####
+#+BEGIN_NOTE
+Each keypoint $$p_i\in \mathbf{p_s}$$ in source image has descriptor $$f_i$$, an ^^anchor^^ descriptor, obtained by sampling the appropriate location in the dense descriptor map $$\mathbf{f_s}$$ (in [[Superpoint]] )
+#+END_NOTE
+##### This associated descriptor $$f_{i,+}^*$$ in the target frame, a __positive__ descriptor, is obtained by sampling the appropriate location in the target descriptor map $$\mathbf{f_t}$$ based on warped keypoint position $$p_i^*$$.
+
+##### The nested [[Triplet loss]] is:
+###### (3)    $$L_{desc}=\sum\limits_{i}\max{\left(0, ||\mathbf{f}_i, \mathbf{f}_{i,+}^*||_2-||\mathbf{f}_i, \mathbf{f}_{i,-}^*||_2+m\right)}$$ 
+
+### **Score Learning**
+#### Objective of $$L_{score}$$ is two-fold:
+##### ensure the feature pairs have consistent scores
+
+##### Network should learn that good keypoints are the ones with low feature point distance.
+###### Minimize the squared distance between scores for each [[point-pair]]
+
+###### Minimize/maximize the average score of a [[point-pair]] if the distance between paired keypoints is greater/less than average distance
+
+#### (4)    $$L_{score}=\sum\limits_i \left[\frac{(s_i+\hat{s_i})}{2}\cdot \left(d(p_i,\hat{p_i})-\bar{d}\right)+(s_i-\hat{s_i})^2\right]$$
+##### where $$s_i$$ and $$\hat{s_i}$$ are the source and target frame scores
+
+##### $$\bar{d}=\sum\limits_i^L \frac{d(p_i, \hat{p_i})}{L}$$: average reprojection error of associated points in the current frame
+###### $$d$$ feature distance in 2D Euclidean space
+
+###### $$L$$ the total number of feature pairs
+
+## 2. [[IO-NET]]: Neural Outlier Rejection as an **Auxiliary** Task
+### Use [[outlier rejection]] as a [[proxy task]] to supervise the keypoint learning.
+
+### (5)    $$L_{IO}=\sum\limits_i \frac{1}{2}\left(r_i-\text{sign}{(||p_i^*-\hat{p_i}||_2-\epsilon_{uv})}\right)^2$$
+where $$r$$ is the [[IO-Net]] output with $$\epsilon_{uv}$$ the same Euclidean distance threshold in last section.
+
+### The final training objective:
+#### (6)    $$\mathcal{L}=\alpha L_{loc}+\beta L_{desc} + \lambda L_{score} + L_{IO}$$

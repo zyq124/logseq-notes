@@ -1,31 +1,62 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAyTkRBTkNqeWppajVEaEx3
-WkxsbFdScGVBRzZ6RU41S2VxS1NPVDhrN2xrCnZhb2JLZy9WaGZETVE3WHJjWWow
-Q2ViVTRmekVGRDg2bEttOFJINVJIelkKLS0tIGpnNEgxWFhiYWlzcFgydVpVOWZs
-VFhTeVBiRzdUb0JMTnBneDVpRDdTMXMK0a7X39MYQTmtq2Acvn3sWMkq47xycpUW
-iG4bljn2uQgdLtPKDfGSLVqYfpXeurFJ/OAXlS6UMHE7rwlEm8aJprFmF54C94ce
-NspTmL3AokgAN/vFD0xfiwdgy++MGEmnzNHyLMQIWBSNAHrEFfduHwNr9MBmE6nV
-XvmXiCE6ArzWISH6r+BJ/MQZ8/NQOKkHNGgXKetXUN4z433UzVch2K5ETrmAwh93
-ZAEgrGnK8E4Cwq/E5I52Vt/8/a18z2ShXlLnpxCNsByL1F7Y5W7/+NN4288g3zAg
-kJLeXjLVSHYM58AstWrkPkYp8hp8nduoLnVZIq4tvPKSrKj9ov1o+DT3JAOYBS4p
-odXEgkiIWjCXL8A4RBSOAolfcS5tqAK14jZF8BM64A8KyiA5sHdqtOsLQ28IzriG
-b3viL+ontg+rqKk+wgPHzJx+8+JaFzoWQ5XQJfsImzfc4igWrXrz+Pn7qZMfwZPb
-M0BYTYJANqWxQXaOdCHR/hyoRepr60dpW0GCJ1EIYtrwygzunkfpmk87WYScOMok
-yoN+D5Ri2/Qu9feRfmkhknLxETnernFkQ/8wDcQxWXLjtg350T2Jg31fO6Prliom
-RPoEVokwP9pNZz5gewwRmF2gVUG9WDTgfLcaESwyeyTbPEpGMmn+z+y+tPvy8O6u
-H2f6FB9o5ZGVJ2NJwagI1bbrrDQ31CFDInqxOhHTg4ht8fR+BDKgc98ZeTUylpqm
-P7WvGJdI3a6lzzGWVAtRUkGbEn1nrSUIt/vXB1b+VmTyi9yduYW1Gv8ju7RSa0L5
-PSmlOm4Hr7YFzldIMNwCPJf5IDLyoWB4uAZB0a6jdYfAwgpNGlISMhqIMkH6yINz
-ov64LyD4p1QRhRbnLarRa37QQLC1gho10YPwtTv3o2W6OtU8IUEFfs6j2Q5F1fh+
-b1aSI5pXHuEvIoNBgdI7KFzgVBN8lNr9IrQfiSd8o2ep++g5kFtGDzpQL6Nt7m5L
-kZGDKITRzwop6SOJu/f7TCYiJKaESejfx/qsyxW//wh/FiaoCOhWgxMazZ6BUV4A
-ll6rMTI8N/0fvac5vAAxfgTJPKaDWjoSzd0iN1rRUi/rvIjbm7vIXbl3LPSZgqrV
-lNqEXvg5/2aVrntfmGhBZlizTVoCfXzxhW2TpkpjqYcro9uhy81Z6EhKcZ2hr+S9
-6g3u+xYXo9MTGLc1bZOrTXwsikxFunyyqBE/yjFPOHU2pk9VI79C0vBzMCBH5x5e
-gP6xnIKZ80Y3VzBefH7xvY9jTaAd8b40N/1VAVMX0mkNQL4DIpcryNJmRdIsf9sP
-bnx1JDYCxfR/OocaKYe99tIQfFnV7FyQ2RjOODtSWQJAU6N9T4XVlayw1Zv1o8/K
-I0f9ErGjxdVy5VTakfKfH4GUVqH4w2Xj1fikaNeudLGRExYKQe5XV8KfgxlGdpXA
-aA47Dj3XuaBeq3yQM8kp0b3Su82ekLvw3UpNv2bWLTPTNDJLlkzy4kAnFgAQRFPP
-iAcYbQuk2/z+v2CK2YD8TeJnqmL/pQrZ89HUbU3Kz46Lbt2SY5QOUCFkj007jB7i
-BIoDKN25uvQqT/i43dC7/F/gtst4cpHTpnFZ63mfhdZ1
------END AGE ENCRYPTED FILE-----
+---
+title: org-mode
+---
+
+## Headlines
+:PROPERTIES:
+:heading: true
+:END:
+### `Ctrl-c`, `Ctrl-w`: Move current head to another place
+### `Alt-up/down`: cursor navigate current head up / down
+### `Ctrl-ALt-up/down`: move current head up / down
+### `Alt-left/right`: change to parent/child
+### `SPC-m-h`: toggle heading
+### `SPC-m-i`: toggle item
+###
+## Todo keywords
+:PROPERTIES:
+:heading: true
+:END:
+### Shorcut
+#### Mark with `SPC-m-t-t`
+#### Toggle with `Return`
+### Keywords
+#### -TODO (t)
+:PROPERTIES:
+:todo: 1608515146262
+:END:
+#### PROJ (p)
+#### STRT (s)
+#### -WAIT (w)
+:PROPERTIES:
+:wait: 1608515175131
+:END:
+#### HOLD (h)
+#### -DONE (d)
+:PROPERTIES:
+:done: 1608515185964
+:END:
+#### KILL (k)
+### Progress
+#### Add `[/]` at the head before sub lists.
+### Tick/Untick
+#### `SPC-m-x` to toggle
+#### `Ctr-C` `Ctr-c` alternative (native Emacs)
+## Latex Support
+:PROPERTIES:
+:heading: true
+:END:
+###
+```org
+\begin{equation}
+x=\sqrt{b}
+\end{equation}
+```
+### For inline, close with `$` or `\( \)`
+### `Ctrl-c` `Ctrl-x` `Ctrl-l`: Preview current latex equation (cursor location)
+## Agenda
+:PROPERTIES:
+:heading: true
+:END:
+### `SPC-o` `A`: agenda menu
+### `SPC-m-d`: org-schedule

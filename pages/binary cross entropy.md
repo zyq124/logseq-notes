@@ -1,8 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBsYXpXODk5WG8zZzgxS1dZ
-L2s5aFlaQlljQlNKWVV4bzZkbkNLaHlZZkdZCmFZbStDbDlVRFhOWStzRlFVZUJl
-ckVzcUFpK3pab1dDZys0dS8weGhMaGsKLS0tIGZEWnJvcFR4Y0NBZ25nRy9RU1Ez
-ZkxjNGdITWxLNVdCbW1BME5ndEhmelEKyh7Uh5Xphvb9BCSJ+nS2Fbd63lCwSMO2
-vvBuS7vV4kKIsC09OhFDTZV30sFsX9K4e1konvdxb8Pzr1IR5y990GusO6nT2rj+
-OkkKYsP/xOZZ4ISkr2/2G40v2pltLBnzcm8R4LLlt3keyexswMg6Dg==
------END AGE ENCRYPTED FILE-----
+---
+title: binary cross entropy
+alias: BCE
+---
+
+## Binary [[cross-entropy]] 
+
+##

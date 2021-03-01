@@ -1,55 +1,38 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBObDRjSVZlMFZYVjlGMkd4
-OTJZSkR1RU4xMmIrMFNGdTNaTkk5bTMwaTJNCm1OOWlnQ0p6dDFBbVc3Zmk3MmZu
-VlBaWHl2RDBNVis5dHlSaWRpQmhTZDgKLS0tIDlJSjl5UTNUSkRhay9tUm5Wa3NO
-YWlhZS9IMmUvSjUxeUtFejhEd3VUcnMKx8XVVWxyAPleasoScSPLfTAoHWj4yZuq
-ClK6FyJ6BVseRWm+qn+yq3rfFnUjw5FlxP+LG6S0Zg1zSbze8RkKPhe5vQyC+GEB
-gLgWtfhBZ5LjrPu91Z+RD8eFOR/ogTcXehZJ/95uGod+a0iZy8Tw8AghrVupYcPg
-ebJ//y3kdDAK0WqcPyWSI22MO7YAoQ7LTD/Nl/Qfgi1TD9MzMTF5NhV1ubxmrZWW
-1xPjCCC6ZTZKdnPrDLdHO3/pgwOU4C0AYi5tcG4bIhf1a4L0TrENy/Qzyd2ltjLE
-2X12og+rawyqGfvAIuggfovQRUK49cG99ldiHi+qlfH2cWatX70DUoZnlQG/bNdj
-1HDO9rqoD9mNzLagQ2JM5MKu8AWeNbQ4IVqIy8Kq3VOadpkqN38hCO+5sBGsdhed
-EFMc2MlcWpRhdZFdIJJkXlW/L0XFmPPjy5imcyyBWhSdq/fn24WXbObcelIqoXvn
-bOkyOcy+RXXWKdvZIKhpxdFv0D5xla8HntE6A9IF0FBqOyl5FE9hP7rDarMi+JHH
-huEwqutxxaHyc736S4uYWFU8ytJnRus+VlG70ccOFhJatcFpnkZFfotlSG/vUiOQ
-SyH8L7EMlzfbnuPY6PIr352ZDEsk+mp6fycm+54o74kGjGLsPfPAT79cMgxe4pZO
-RU1Ms0RA/HpKChwRz9uhB2NkHmucMARjY2WebOAtfRt8kZp0+0sWHhRQL8eaiL1X
-6z4Ouet1Croz3c8OwoGM/MjZ8xlA8E5Ee3rneYs/wr4+ADdxWv9KK41zUvKQwREr
-Y/oGtjlV8iw7uxNpqtLD4iPMjfvHQ6LvVUEPJrEvxRZDcGFMjmF9VsihtPLLOT6R
-sd2q5Z8+5XGwzCIdqas3RpQEUSER3FQrOY//+XPVgYt3pfdN19LX7C09tb7Vitgi
-eIBZEAn20zAyy+kA+6LNQ8Swi6nenVQsTSbd7MOThHQOturJLSDufsEmZRYBJx1x
-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
-q/ewQ3DUuud9zflZ2YjzmE2Sq37GTIQhq9J6
------END AGE ENCRYPTED FILE-----
+#+TITLE: Learnable Tree Filter
+#+TAGS: paper, Markov Random Field,  segmentation, [[semantic segmentation]]
+** #paper
+*** Learnable Tree Filter for Structure-preserving Feature Transform, ICCV2019
+*** Rethinking Learnable Tree Filter for Generic Feature Transform, 2020
+** #code  #pytorch
+*** https://github.com/Megvii-BaseDetection/TreeFilter-Torch
+*** https://github.com/StevenGrove/LearnableTreeFilterV2
+** 为了解决 [[Non-local]] 中long-range长距离关系建模中的问题
+*** {{{embed ((5fe93262-f9e8-408a-a255-846024a37549)) }}}
+** 1. Learnable Tree Filter
+:PROPERTIES:
+:heading: true
+:END:
+*** 利用具有丰富细节信息的低层级特征来构建一颗最小生成树 learnable [[spanning tree]]
+**** preserve relations
+**** 如下图右侧所示,$k$点和$n$点分别属于不同的物体,理想情况下我们希望它们之间具有很低的特征相似度
+**** 但是由于空间距离相近，如果只依靠二元关系建模，则很难将两者有效地区分开。
+** [[https://i.imgur.com/rFwAXvj.png][Learnable filter]]
+** 最小生成树的构建过程保证了它会优先连接最相近的节点，也就是说它会先在人和车的内部进行连接，最后再将两者之间进行连接
+*** 可以看到图上k到n的红色箭头，它表示的是k到n在树上的路径
+*** 这个路径的距离等于其中每条边距离的总和，因此能够很好地将两者区分开，从而达到结构保留的效果
+*** 这里区别于传统的二元关系建模，树上k到n的路径是涉及到^^多节点间的高阶关系^^，即改变路径中任意一个节点的特征，都会改变k到n之间的相关性
+*** 除此之外，由于树是一个*无环图*，因此可以通过动态规划算法来实现线性的计算复杂度
+** 2. 即插即用模块
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://i.imgur.com/Phgotki.png][语义分割网络]]
+**** 图中绿圆就是[[learnable tree filter]]
+** 3. 基于Markov Random Filed进一步提升long-range特征表达能力
+:PROPERTIES:
+:heading: true
+:END:
+*** [[Learnable Tree Filter]] 缺点
+**** 由于树自身具有几何约束，导致滤波过程会被限制在一个局部区域内，很难与远方的节点进行有效交互
+**** 最小生成树过程是一个不可微的，从而降低了模型的通用性和灵活性
+***

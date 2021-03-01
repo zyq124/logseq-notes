@@ -1,140 +1,31 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBUeUllTThEWm9DWndPTjRi
-b3RUR3d0YWp2TSttVTNQY1krbzd5YUljOWtFCkIxbGFyRzhMMktTVm5sNi9TSmhJ
-ZVgzU0hXNC8rN3ovU2IzM2hHeXQ5MFkKLS0tIEdOd0xWMXNsY24zQjJnYTJ1cFBI
-dEUzaXFkQmVDbk9kWFo0SVYyRDNaMmsKqqfqXks7QIcSlxiU58X3FaoLkx7Ytq0u
-7QeGBDLaiQpBZViIO21MHfKSysN5XxEO5GBdbEiGRao9W06FIcmZmP6meOYe38iX
-3ZCaqP53lFMcNfTmBJzRUyQUePSZ0WUnpuXo3QexgEAXacbR2qxkYtZswYvBbo0H
-WjN6c8yLxnbmF+px429t9jX5vt12+AkEXVdwi6kUC4iCZxMlUyQN/+yoFORujUOc
-jYflQiQ/QvmrhMkwzsvVTUG6btUL/CJnVnk/TTrXu0OE+QKoEbi0pW5I/K/Pqjce
-z67+mQvZQuAreAwakQIZohqElO3l9zr+WI7rjjKxlF4HyG4jRDdmXH4VT/+/ieK0
-uZk7lIp6T9lyQfbwHVU1rnlmJ4S7OWCS3vnR8a2xm4seGLz2/YlnWLyKb07KwBlr
-KE0dgAhuKcWOnTBjFL1A5qN/km6zoRPluhfvtSrZ7XNQX2nmEEwZYPGFeSQBSh+o
-gglQ+y2R+eLfFdIyM8/HMgwkiToeMqsJ01o/aHQKuf5FXYLwlbvSX9r8BLW5Gv8z
-1TFX2Kd3hEuAdF3YmWpMcJMXFGUyC+LTOQK6dJjQBPGfyqYI1yTV+s5Rzr5hBQCQ
-MfkjjsyasFIrXRLgKyZBAo/7DMwuYPhkCbi2pd/c3YItmactez08V/Ir9jJ+j+FN
-PrQjfN35GcDigKAnYJE/uZiKdj28t7SB6w2yCz05oSIaLULRQoYyds3cPE/PR3Ld
-wvNd5TzSVTM2KyHzmoTq7/y2KATttsmiiAIm4dNsundseMmethFv/cj8CSy8uRbK
-44leZXBkEp2YmiqPLAJ9e2pbq3/w2A6NHW/KX0Af8In+FYQ7H7OUf74tXfjg586V
-EMJWyIFogmiKG5Arx8kzI8s8qOK7oZdud2o4GtZuB5VspDsDiY0fUnPlvQaTW6vf
-YDFsd5GinXHdzlr6eBLQpZnigUTS5pGa/oaCj81Qe6+1xSJTDQavgnmxt7DGyGdL
-yY41QRxXD6+O+VM9CgH5DrYPDXa38IW+C9dTJcfJEUDhCduCHQ+h4alHLFU9uajI
-eQqPxAmn3v4Ob8emDXsd+7TxkzVMPf8NtU30PRjtzZ0nokS9/7odMX5siQ99epNX
-7VG+onkdlLKK5aUvlvJe9DBxLR/kE1FHnPqpKzrjwCIs6CG1VfjJ4x5Cc0t2W0AK
-V5NQtQxMGLEHUkFWGLRBGtmF0JmBzj75sn0yCfBaXb/LqOs1Sdc1kip9VU5TjBBt
-M+svIaa4hBMob7FEA/ogUz8TM9c5lOHsKj6sUuZQEkSxzAxidsq/2H36RLkRZ0j6
-H9FPq1T8jm6pHOPRJNrIsXhrmDTb5Wse7n8lsmy1hsh0EbSjR7h3dbUrUnAsPw8c
-xrAD6N87YYAO4V9QJBjVd2O4IpgAhAgKLtuHavRYAXGzoReZVC1f0C+HviSN1Q4U
-uAursKb9aMR9/XAZOsAFbZBPctMcwVMKfpTbGuygxlm/1dPk2g4q/Zzi9ecab82l
-Hd7FfL74IX/OIpeEHI61+UWdVu/rMJLG/KldpDAAR8MuDev1UErdPSzTYTiiBaPb
-GRS4QXvU2sFV71SiCFArVyxBFvoVxCtCTF3zNwZejfvg93qBZBdzfTMstkBhDwvd
-7QYV2CpdsFpgYJjiqZrkklSFnIpAPx3n9RzLIDHbb/+0DDmUg3nPoijBwHQSqWfr
-Z7FmrFwm8AGp18L2nmgL94QsTEFijV0OxhAxi47Uc0b9YcfKwSQkU0dsDN6/Rj0V
-8wRfr9UJMEZ1a8fwtTX7VYEcKcxkjGZt8dQ8iWgNTDY5x/4bxNGq0Y3nE+iOWm/P
-OgVDZGAWnbA9hBnaLbRj/6kM1CF98C24CDgEv3NpaQ86am/R2l7n+Bf46tHMIj55
-h/L3JykLUh6hqTwmfnMM29eg+dUjFL9/hCghUQ+sNa7PwuLAWjecpxz1ReaBrsyZ
-Ck6S/vvd49rSyBc/udzyhCRWXcuTSNhe6AXzSOeLbnsTBCDcRwJ99qH8XK7ifkS0
-p8WlUqSpzADeSlyAsiDbI5YXZBsgaoKoOupRH9xb/ykiWeQy4KlZpYhSEVP7Hp8U
-g995mO9sq6yB5kExAQMeC+Wqr22JgD76d49bpb4qwtjn3Srm7OzFBWmTShZFp6DJ
-siuOa1LIkelWJa6INGYJdtK9r8sgYVcHb+sTqQns+ZYflh1GznwO98j8Aa/IgDO6
-llAFHpqYxc9lH8uqkRnIJj8ma1Xoy5v2ehhj9P2KWYD4KrDMcK8LJ+3tNXl65Meb
-+JDNj9DSxVy8kxmTCuS64izEQvpqkff3gd/mAU9GLIgtD1tezsUtBxWsRnASDOK4
-Vaoipku/jsdLUF30nB3xdEAi4u9Yacaws8l7zWnXdasgIsW2QKqvGLQQHFeRA60F
-KM3+GIjdtYJUox+mwX7w6dMqLDtGIYSyNoYcOyzFZLvbJRzJMisQY59RYTGWSvz/
-ZqToSEClKJz0jNoIkGMrQGSaPv+dX2fO0Mf3rdsVvvJZ4Nn9f9KP++aFi9uPrOnG
-FmFxapfLjON6JJ+Yqza/d52DlOzpJG9xjQfSKmwcxZAOzUK3738XZIVSaT0aORLY
-6Vrl9UHR4ZQS74s/CqJYZtqWqoi6bedUgV9ygBfLJzHMg7YjoGbzi8SnSvbm0aSw
-Qh79J7o0T9dyJ2JHzOhvhd1SONJzPTXXPirfZXtmTm+Q2wFzrD85JdTaiMdpx2aa
-P2fdBPxGBmOltGNBZCX8UEs913sU0/0GHqrDiOnrWsUCUTjeLFIqJe+4nJRoYZif
-H3eMjQ+nUcwFD1hoP46vTZCq+AR6Dm8cIfkpRyYOr6kxI5ZruhWqPT0deNLliZ1B
-w2w9YGQ6VIB8rVwVv3wAGo8CNDbgEMKYxbwztdMT8ofka4JOCs2P1fOADND6AWqm
-aBvkSDBQgMGyj0PgKysxcmWgq+u5g4aSMMhPar0w92UKE9t4S7YF25faH4vKpcS9
-cPzlj/jBHuVYExQ9qik0peOA9pXvAqBt3vL9fHe2iYylzUQsUG4voxU7jUI5vFoP
-uCZclwIJxIvl89FbFh01B3xRb5ARO/k7LfHBK8jTaAsuSIOFgdwLU5VdMxCRCrUN
-Ir3fz4ZIKJRNg5F0asPKPfwgGdt+UE7mkw52hyg6043zS3sWVG0Lg6+Bd1BbidFp
-wTMAMpweQtjardProYYl6qicnH5jLNA6VILzhBjFd3iswnhW1/ACZQcc9QecR6tK
-YRQ98Z8EQsvFsUSqs/k2cHhZgrAkBqVBCotF7NyaZgrtLM5/K8W8dyz2Qz5tVgPz
-a48WMlbuxiAKJ00ftz62FzRthPNu37HMTTr2CZlYvWIYchlCHnYX0TXJnA+7dnQS
-tbq7nGc3uxXo2QiATiyGCvXjM3GJ6U8RcrJjj234SrPTks9LZo73zA4Wrea1xDvn
-U69ZEphiAXw6VKA4pyhVWskh1DmIYLZC/LLQZ0YZ28G497AxORmZ3sQAx96TAXTA
-Em+nPIwnqvYRgyKwLtVHr6RzslCBabLf6KVZdGe8MAtYQwYBQxK2URExmhkJE91L
-HuApk3BBDkk9bzucGDsoyVBceUeEOG2ZqD7QoOZhkRNU+TGM5HA+g7ZNMwGOTExR
-Pjabx861XE77xES6aau36zHQRbgfWUw+EixWNmhjjHLQJ3z1H15bDOaMxs5pdVEe
-kRcvNsl9PkC1kpuQNqTqXf7p7PRktKIpo+AwA6jBZQKnbaR/QepUCdBOH8/kHbWC
-dN2x7j2CK918y5UZ2u4+a6prRQ0HkEavAyM9It2nLqsyI0HE+4YWnGNOk4Gtqa48
-u3Z0eraKDseFAzB7+64VFHKKkchTVQvjSjP+TAVFVHX7TpLbhAt/U86IY183kgK2
-+UMgqBV4dS5ffsCgM28+bkAgrw+NcEWEE3B4xPzDVfPuT+FW0JK2nIDWSnC4jDhc
-sbTzxnQx2uIvnsLvnHT9CgtSpAew6xi5RIqwjb5CIJQ9myzoyHc3xGSa3AE2olGG
-aAFyICi/ZEVs99iTA6w1sR4oAEkzeHgfueke7wGfi9NDAYw9Ztce9f9vdwOQT/OK
-VUzRvaVXgw8DF99drYZLYvW0ZBxnTCa8wBJ8vCWiPJNVEXNsiAVL13TDG37vg3gh
-RbJHzIP7+D4mAtloxzDaWQoD9MTIfcUVQHQ9/C91TUMJdqO+UYxstHE6whHABujH
-e/M6G5AEzJD/o1unctkUtsWm9OFaL/sVjkdlNpbAN/Yf+SFSQeQnqv6jSiN1ksNG
-D6c+eyoGfGNg5FbQzaRovxMm3xxFc4O5hvNnE48UN6ljOkK1rFmIYtjQr2FDvlKI
-D5XARA/W51Pnmp51wMSkajab99UYla5ciLM0EYEhPA+iSvklltMuiamiXQMMNNte
-gTlgPn9YCF0BSeRz42Uj0KLl8Qt5CzoPwOMw/BhLp8DwHXShsgepOo2z/XHa2dyo
-EhF4KSXl+v5FigMldFMnAK7TE1VNsSOt30CN9tzwybwCDFoQ//HzCifw12z50cti
-w8YCWDBy6LEGEMfGBx2Ld7IKtdiu11spJFF5gpLHNKZuMDQepTtNg3GLCDgxhc+c
-YiwHu1D2uz+6mDr3kcxkLuntqjPa1DoOYyzIViAYNDertG6IjDYMH642gcCP9kT8
-vh5GajJAhv7oXnc9b1prkURCJcdSOOoLxWiwOjiPE3BbGejXPoO353tfGTcBGOHs
-KTxWXXj6fxxO218DyvYDZhhKY1UpbCbQZIVYn4fGgtLuHYmVpqHt+4Ybb09AtoTz
-VdX6xy9zA3F0YIqn5xo6TQoVmmzcgjLMSf0yXupVz6OBF+JB3HHRqrOxaQhTqbo6
-yPjTm9OMO6iUubVvsnhO1KQcq2SkrU6rijwnjsQHLMuZNgRxxZWEZBPuwrB93Zro
-HkOoqayqWemBfryQuMJPc4MBQXBvq53R76GZhFXt8zBuTYTZPn1ODCp9HRpisYqe
-hQ07AtMFKtnxPyzvbS/n8rgt04SWCuehO2ON61PKsG6KGnlldY5JCDOhcyaX/N0U
-+GbQFnr7HjqXSJ3Y5KdKguhjTRWEUvaBJhjRA8Krh5vWIa+eB9vQKR/2UTkpeM1W
-KnGp4UqgJ05wkCvj93iD7sNFZy2Q8a1VzLaXW71l03f4TUGdwppfXbXvnkSORVWo
-CatsZAkb6pk9UoWxTQz4fEiPO1Inwej13vjBgpvmxGN5UIDsfr8JCSO8/X5/7zyn
-VGtF9Mt2dA/GCFvPb8XOeoO8nwySiJvOKFZledq6bRxnL92jIjbubaX3kZvclrgb
-GCdW81jCdcEDZPNFkdEIabpz+wWRW4xwV4fV1cXLQ+73OKKkHBYJ/5xkUEDfW6le
-Fldrru8+Tv+dxLP87j9uzzomOOD0aivW0J+dgiwbKSk7v7TRkqCwoJkxTz6hhTYq
-PVUzsW9f6gibBW3LW3FtkNtOIy7wm6y9Chvh9a1HsK9aw3fvin6CYgZuxg/VYqr4
-hKF7U2T94DLExK5OAz3rNGRung8GRaWtQzoQC0/qMfxJxg/S3Ph0syX3ZAvx7oNY
-TeiqHeutIo+yUYf5VyL+26KxEhgCbJ5FGld66hPgGc9W2jOmUQk01Pw7LKYL6VPx
-Fs/8wj7jg/LlmGUPvrESvam5sOyRe9GRA9cfXzvjbl0URPct0iD+cKdg4KAGEnRv
-AajyF39GQQIGxNwcM2bVeLQtq7ct6EHX1hCt8f9ISbONRviV31lBEVRizwAhJ9kP
-Z6iltSGhhJ/T6NXF4ETz50igJva6ZgrJWZ8Kni+4ZekcvATzb3v88scAeC/fQKXh
-/loKr8rHfY71Uqw0R33CfF1GAXsoO3WATVa/3ACe8GVsvuAEGIA54d88Ajrrlk91
-pE6ScgLpLPeexze4nNfSNa0+K5FxR9QN+x5tRTCOw+4j75Cw0ERe/nQhvpvjeXBW
-eL9FFaaeKpy/6mN2XqMHpNNp/NjWR78/gqNouZnCCdD0f/QkcaaQmHcXwsiMt9iH
-rzIVwvwMxu09WL+3BOryNeNGKUCR6lCAKCowyWdOMz/OllESr65N6sQ8hTJnUUOa
-aXozIRD8SQBLOhsClyW0vR/Vn+pxqC8ZoaDHLFSOhHXzfU/gJsrL9wfRMinlx3cZ
-TNbf0S/V/UL/xaiaIg3BPeKVoCnICKi5ioYV9X2uR2Hr7OTpxKySxOnY4j09aGI3
-NZjzm1fmoxy2y9+HknhSFaJpDEI6SzBlHi5wP3IToEgU9FWMZD/psK6Mt48FGYqX
-iwQOIJCOyaB+BBEWfaoikW05yilFwTECv043hU4z0A6Fm0WFseXd+gBRetyL9IB+
-69mZb6HTz5m/rmREc6wIUrMxPG8VA71RUzufI4PoxuqeCNgYkvqPzMhJAIP0ls5s
-OR38PxZLyvZb8swlT+RoGa/EnJ5r1vHB4Qyx4JHccn8WKyVuimkOF0BgpqJjl0/u
-KDao8qitQ0CEj8XmF6+i6FwWrWqLSL+/Yp52IhjcdDXQEBjLKVIwSFL0OwpkAUsc
-Aoc7yOmf6+cpJau9ThNW+pIfuXKWK1Kqt4SWOEAPoLHFvgPho4y1TcNM8fVyjRoN
-sZzIttGMzmIRACIRuGoJAsxvGr8x60Py8TuLsTLAfugs3CQHIuZLeQqcbzNoRQNH
-JHjNY5KvxttMQTq2TxWVqEnsbBHt9xAxfY7sQtAfaRSG+MhMkm1pLyZj+nHwLT4w
-P9hcD3ynWdBIAQwEliYml7Mjgi14CShZFjw6mDitMO+hDQNbAlKVt5qsUAiPZe06
-oDlNd/VI4CPf6KCaQV5OcEP5qmBMatV6Bt8TSS9HoPZTMxsT80PO3bReDH5/nRcM
-l0sOaZcVVzOxNoMP6AMvVDvUV+hVK70pG8ZFNMh5i4DwujishNHFtAzTPxv1EaJA
-vdE8QUCmWIu80Mw5auMPGDzNrcYqkJdPRvCsR7PwBNYEx5uoqICCyjjsenF4zEDx
-g28+914lnClJTvZfaaB2BWG2pzMFFu11a9uiR5doTTo2Zp6XikUxiXODIS/+4WQD
-6dx2/2N7qTOoOsXlXmYXybLEnucSbh+llbHHS8+k+uiHuZLQPxE6C3e4bdf5kM6m
-Na8rpTN2+2W3Q97r02UGE0TPqRvRjwvuTCL7nW5d2WkExg0sddVLX55SE/30cG90
-MgeGG0syd6gCvaovo0+fHEn1cox9KcOxb8lFZQZDbXOHD0O67nJ87z5+Nlc57Ib/
-P/qyTyfm3UJBFnZ7japF0gd//Yj35R5X29NNfqDliMwaIzLL4f3GE4jeTfC5p6bI
-SyWCkHavN8qdVmYUT+Fxptuh2BfQT14VZMH1CcDYp64jXo8caMFj/p11odGt4fn8
-j0oVzJKZpWvVa3oXEczJvL70Cc0z2QhS1Ph9xlDDl4cBkXpn0b//XjrskmJrlzKR
-cj3EpEjpgPtRJfD1Ps2rLdAYP06/jsftNP66d7kgvJ3LQWnBWFqdWNFQiUqw14MY
-+ijPDm0mvpdhDoFRqKE664ZzvlhpGyVWN72oa684MR/q03lh0laDJXt2Yt2eF7+D
-fkOA9p9ol/dBL/sITDD8cxsvLOM37cSHP49g1s1QSAvNDu8JRyABm6Yi+/khGaoc
-MoFavZ7bv1Yq49q4jiFht8sWuqVsVlSsPAAjUfwtrrv0iCyRzQEgN+c1V+/O+iqQ
-EiiDKzsRhKFzjs6ayfTHy2EU3H5pSjk8BXJWBRvKKQOwqY8NMT3rHb15zldACU4r
-i7QZP7zdT7nhwrKYJqoTxcNaeHBQN0wEroCejM17rBVYnZ82BGpfItq3tc2rmFZk
-7chwcYeRZjSe2IfTt9Azwd9TnDwnbWw3j2o/fguxN1/X6+S47dWNxjmkI31oo0tY
-aKV8YG5jJwjhdTOPqCOAW3U8XY76y20uNnsy0jUdsEFT+mTpi8iyP41Ke9cmC5Qk
-K2Jit/cLQ6oHSGxv8QFNfAw1Tyapo8KGRDhW3v8KtRuGqUWInN7R0HJHLC1+zLb6
-tZBFQXgWpnwxQbKPacrzJXyliCxtqtzReWwn3FIc4nHfbCkq4L7405567q0G+e/F
-vyNkitLSUiNiaHnsTfcLZsCNtI7ize61BHy6HKjUpKkE9sUc0F+k9lVGsE9PTHED
-CdnenjpoCqkUG8yYeDf7JC8W/L8TXm2X8hWdDZkSzTxmy4xHev8h7lW/yhIY3RyN
-jEn+4TDSmYOEjgQ7y/lWLUi71WIa0+Svk1JDeBmergGDfsjIgYtRoffMQINSRxUV
-j52TO4Ouq3xXnl1Kx1HlwykVBs3qpZ+qNv4VM2ACeqx9fBgB1FraZh0YjN/SvUF8
-6fzCcxYWZ9rk+UqJFZVephA32JppMkmFrO71RC3lJS12HdFmXY5o8b9uR1I/pXUB
-JqgP4RiQUk8bKTiIy8TTdCjd5qigh+oBYf75svsg/uQnkvMeXkZ0mWU8wQL6Uaeg
-PoaFIQ44VLE4zRA/gDgENBbkHgQatA3HhR6rPoRC9FHLxqPRpgfGQWmd0g9JTxAw
-0vonePzUbxgg8Vun8wvBKVBhDajyka0Wlm6C3vW9vHF6wUfWuO0lLEJ3dp6MXbeh
-zzhsGQ8=
------END AGE ENCRYPTED FILE-----
+---
+title: keypoint
+published: true
+alias: feature
+permalink: keypoint
+public: true
+---
+## Survey
+:PROPERTIES:
+:id: 5fffb4b2-afcd-448a-8399-c470f75286ac
+:END:
+### 2019
+#### 链接：https://www.zhihu.com/question/32066833/answer/511051905
+#### 还是和之前一样先说{{alias:[[Keypoint Extraction]]Keypoint Detector}}。不出意外，现在几乎都是detector和descriptor一起去学了，这个任务进展非常大。个人觉得比较有意思的几个工作：首先是CVPR'19的[[D2-Net]](https://github.com/mihaidusmanu/d2-net)，这篇大意是说detector其实没必要特意去学，直接从descriptor里取depth-wise maximum和local spatial maximum就可以得到。如果沿着这个方向做，甚至detector都没必要特意设计loss去学（这个loss真的挺难设计的），确实是个很吸引人的性质。但现在d2-net的keypoint localization还是很不准，这对geometry computation影响还是很大，所以如果用来做sfm或者slam这种对geometry很敏感的任务估计还不太行。最近还有一篇[[R2D2]] (https://arxiv.org/abs/1906.06195) 会比d2-net复杂一些，不过看实验结果似乎localization error小了很多，如果以后开源可以多测下。不过D2-Net和R2D2都依赖dense gt correspondences, 比如D2-Net依赖MegaDepth，而R2D2是用EpicFlow自己插值出来的，获取成本和精度都是麻烦事...所以最近有一篇[[Unsuperpoint]]，完全[[Self-supervised]]方法只用homography transformation（这点其实和[[Superpoint]]很像，不过做成了self-improving，比[[Superpoint]]优雅）去做，看起来效果也相当不错，期待它开源了再仔细测一测了。
+#### 然后回到[[Descriptor Extraction]]。这次CVPR关于descriptor有两篇oral工作，一篇是[SOSNet](https//github.com/yuruntian/SOSNet)，引入了second order的[[regularization]]，没有复杂的trick，感觉应该是简单有效的。另外是我们组的工作[ContextDesc](https://github.com/lzx551402/contextdesc)。做这篇的出发点很简单：local patch能提供的信息是有限的，而对于常见的repetitive pattern，很多时候这些patch就不是locally discriminative的，再好的descriptor可能也没法提供更有价值的信息。最直观的想法，当然是forward更多的visual information，比如增大receptive field，但有没有更高效的方法？如何去平衡local detail和global context两者的表示，还是有不少问题值得探索的。另一方面是说，spatial information有什么可以利用的？keypoint location又能提供什么线索？这篇工作的出发点就是去利用更多的contextual information，而不仅仅去依赖local visual information，去增强现有的descriptor，而非学一个新的descriptor。
+#### 最后仍然说下matching。learning-based outlier rejection在这一年里也几篇跟进，包括CVPR'19的[NM-Net](https://arxiv.org/abs/1904.00320) (oral), 以及刚挂上arxiv的一篇kwang moo yi组的[续作](https://arxiv.org/abs/1907.02545)。我们组ICCV也做了一篇[OA-Net](https://arxiv.org/abs/1908.04964)。其实三篇工作的核心思想都有些共通，就是要做一些clustering，去capture更多的local motion信息而不仅仅是单纯global的信息。在CVPR19的两个workshop（[Local Features & Beyond](https://image-matching-workshop.github.io/leaderboard/)和[Long-term Visual Localizatio](https://www.visuallocalization.net/workshop/cvpr/2019/)n）里，我们把ContextDesc和OA-Net做了结合，也取得了相当不错的效果。
+### 2018
+#### 首先是detection, 这一块的文章相对较少，因为通常你很难给出一个对keypoint的清晰定义，这样你就不太容易去用一些supervised的方法去进行训练。其中我觉得比较有意思的几篇 Quad-Net ([https://arxiv.org/abs/1611.07571], [[Superpoint]]([Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629)), [[Lf-net]] ([Learning Local Features from Images](https://arxiv.org/abs/1805.09662))， 其中后两篇是end-to-end带着descriptor一起学的，未来应该也会有进一步的发展。对于这个任务，我觉得最大的问题是learning-based methods收益到底能有多大，因为传统的诸如DoG已经有比较完备的理论支撑(scale space theory)，而且适应于绝大部分场景。在这样一个非常基础的task上消耗如此多计算资源，到底收益如何？generalization能力怎样？我觉得是两个非常实际的问题。
+#### 之后是description. 这一块文章就很多了，从improve invariance property的角度来说，deep feature确实更有可能超过诸如SIFT这种基于image gradient的策略。这几年我觉得比较有突破性的工作，一个是L2-Net ([yuruntian/L2-Net](https://link.zhihu.com/?target=https%3A//github.com/yuruntian/L2-Net))， 一个是HardNet ([DagnyT/hardnet](https://link.zhihu.com/?target=https%3A//github.com/DagnyT/hardnet))，同时CVPR'18也有好几篇关于这个的paper。另外也安利一下我们组ECCV'18的工作GeoDesc（[lzx551402/geodes](https://link.zhihu.com/?target=https%3A//github.com/lzx551402/geodesc)），俗话说百闻不如一见，我们直接提供了测试脚本可以对SIFT进行对比。GeoDesc也被集成到了我们自己用于生产的3D reconstruction pipeline （[Altizure The Portal for Realistic 3D Modeling](https://www.altizure.com/)），并做了大量的测试，所以我还是有些信心说这个工作是很实用的吧
+#### 最后是matching。基于3d point cloud进行matching的文章近年很多，（也有我们的一篇ECCV'18的工作顺便安利下~[zlthinker/RMBP](https://github.com/zlthinker/RMBP)），但2d matching改进不是很大，还是传统的那一套：nearest neighbor matching, outlier rejection (e.g., ratio test), geometric verification (e.g., RANSAC)。但CVPR'18有篇很有意思的文章([[1711.05971] Learning to Find Good Correspondences](https://arxiv.org/abs/1711.05971)) 做outlier rejection这一步，虽然paper细节我还有些疑问，但总体来说是极少数从raw 2d point set上extract feature的工作，而且把geometric verification给encode进网络里也非常有意思
+## [[D2-Net]]
+## [[R2D2]]
+## [[GCNv2]]
+## [[ContextDesc]]
+## [[ASLFeat]]
+## [[Average-Precision (AP)]]
+## [[Unsuperpoint]]
+## [[KP2D]]
+## [[LISRD]]
+## [[DISK]]
+##

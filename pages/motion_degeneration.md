@@ -1,9 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBYVDZBa0wvNUVDQ3duSHRV
-djhSdnVQQ2NCZVZFbmkrMW9YUzBTY3pwa3pZCjk0d0d3Y1ZEcnhGTzlMQ1Z3N2gz
-T3ZwdGk0bGZFR2RCM2huTndWNVVMYUkKLS0tIDc2MVpRNUc1dGtOeTBIQTNuYUN5
-Q2VOeHJlZk8vUmpHOHVpYk9WMTFNblEKi/wRW4Thz/4u9JhH0qqaiOQ93IqAOsIr
-opWfwlUgSaZpaNu4FB6T1IWPtO2YKtUgQl134hwan2wknFrcxD4zQ+0U9hQab2Lo
-uL254tbDWk9lLVOfjWpsSgFD8ASS8X1Qflpj6ANWIqwbbVSwL3GWPXbStYu5eTdh
-eEcynmxb
------END AGE ENCRYPTED FILE-----
+---
+title: motion degeneration
+alias: motion degeneracy, 运动退化
+---
+
+## 运动退化
+
+##

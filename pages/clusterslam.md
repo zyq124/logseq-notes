@@ -1,77 +1,58 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB2eC9JQzJiMUdOZEg0M0p5
-dnlWUXpzbnBRb2plNEJTMElVYjY2QVovSlNFCmJOdUhZZ21LTFlzT1ROZXg0ZXNk
-OEZqbWU0aGk3Y21XMnU4elJ3Ky9hR00KLS0tIENRNVhPYm5BSFh3YUlEOWhFZ2lT
-eVR3Nm5neDBDUXlZSFdsejFCdDF3dEEKP4XUeLIqAiAnMzhpMBc/EcIYivt3btyM
-4IuBUWfNiNbXM2vHqN/YNVXfC3jM5RSt+bv+sWLzf2H/sReQHh5rKg1iZDBnF/1T
-2rpKGUaHbfajBH/O2d0xAVEyCUbSb+ZlsT3piZY3w2qWsX8bc6/SFUu+eUXXvnL7
-/0CFjf/aDCbhriUaMXDpGe0NiQbfCfZw0CbcJs3q/o6EVLt6ZALHU9nB6zdVd9dV
-ij9evEJZmoePgQcqTM5tOLrtBWb/q3DqqLl2LxtNocfWMtZw3Z8pJVEHqpTIrfZn
-gdmXP3utUc9tlS/+1EPsOqVbsfrUJYRVJU1LfUrNEv+O3F4dhMxRNgqPKiFTcUR9
-5vt8tZxhc/9LC8AiaJQL04djPY4LzAdbYWpEDUVePVzy5uOSd6k4aysbuzlJ6EiO
-OIXcPyqaERNRZOtG1xmoWLKhvlQuX1Gvxa6/LnuE+gSgkDw+EDMUDTsmQhjscEOB
-IzIFvEU5o4SdLZ6n1dfAZt/MrCpwyzYudjGZAzXTy3zP6PkGndt7Xq38sWyDj5zZ
-kOtfEH68Z3hnAOQrIirpIsXDjY/As/Xh6LhX2niFoHp+IJPRlBebbqIdr21Zxrcc
-nhNqd8fBGvaWnHQnhgiaf55Axi3GzuH2xLoz/CNVcQmt63YAXmUyE1qa5QWuTWBZ
-eCD0Q3Je6/7Hu00W3ovX3P98UjXfrQug6TwqKegzvG2t+sw4D/eWzs8lYB+E4vCX
-gPMBnV4N+L1HksE1/8e06VAzcvAspAUOk4ehfkAxNcWTPEiOpJnwTLFwjUKyoaI9
-dyXBEFdBnoSefq+/ULd/VEc2qzj6P8L135RUQaoLfXUfnDMcpWCa3aY8x4io15V4
-yQNaN1ytnlkg5EeuZxdMrdZ9AvMjmAXsWkMCrv5yRKeTyrwRiJ0W28yY9eAz9O09
-ZtgubEhdWOnBsWGxAAoMECFmAysXReXMuvrNeV+tGqUNq9yhS+WdoCEf8ef0Q3yM
-qdVlor8Qcv2zKacRhiST+zOqIAGxf+CfT5Oghwgrpz8cri8SoA8Fzc25GqtS+OTs
-7gEfXUs1pYpwthHYICmA1wgme4/WTy0QKKNv1i+SLdlqGVzZAl3nCeajLTRd+Lrz
-IzIUb2EdYt8yNwnbfG2RZBaEX/0gRRE/cKWkdPgHsbB4mAL/iuh5eCrvaR6mfx4X
-yu9X1h4SnkVX9712xAxuluYbnVQzEFXArzCmm+TAPLKbfHHU47e5kGpXskOHOpmu
-fc7YVqS27NydPzWivPYHWpqso+aI9cgaKTTF4W6fYgGaUhWLBJUDnpFC9tJZLxez
-Cv8VJ5efmxH0mFiFgly6liN3ZjJpKMF5h9KNEHBSlCF7mNxZy9DFbCTulXzNHjzq
-9bOZRPDSKZcW3XoqdpR7FiZhR22g1SeCakR503Vw7MR5CIY6VCZ9ba3VSaz/Kph+
-whlJA1PtbgDy3qCu2i24sfwZ4CjJ6ObuKfZlEuNuzEAgqhkByBF4zYIlIjV2uKbc
-pYUqlP277NnM+hqngb1mwEVdG5jSiooAoVuO6bGQT9stA5POB/vUGRZ/EdnZlWb0
-abD9ELW02i3W/gHy42HVsQyPQOA5nuYrtyU7UDl6yMIUqawlcw2Px4HciNQihXMA
-hztlHt0JufybsxzBn3tOcPG4erzv3dZL7lGQNq4p+G89PS5uWvWJmLIFfc4xByPV
-I4jbBf3gRsnXawIYOuGmy6HOECQeYRim/byIcxFu1bsB1xUK9grMgOltL76f6/Dp
-lz7qr8IOFrYl/Jda29NbRQUaf5e63YhwLfd+UmtnxJlA/1y9Bz7jMZ9uJl5soADU
-Ywafj/WWPNzKo29l7FBdUaybCSVEEQFgSkTlEaEJWMTaBLELi0gWkxlyuhkOXP/5
-j8aL/qHAdVGmCVqsuDqYFReiVEIchclM5WpMKKkhhcwqEGTynWfMcaQsd0kH+3Gc
-7H1vkfdLzcz2JwUnPQK4XpPgWxIK17YEnwURKLEzWWRuI/0QPPMW/eaBxXK+2B3n
-jK1vlJ/BNU/+R/PBEKYDfCCK4U5tbCNHwSsA7OxIEezvwqBPnZaPMfVNJO61sMOX
-oFp47Zd90SYFTRjeV50epLAgmT2cO4Lk//tb7+wOFtRRJGMJDdDF3bZV5sFFVKpD
-7viaLfcUbnizAvTima/5lu0VkGFfwHG+xBkVOmuJwR0km9phbLx2uN8FlXPls0mF
-wF9IWmkmw1JMI5IwumIzbAH7TGiq66SeXPBKCdR9j7GLd//8qiqO84COjZlsJZ93
-iHS3ZBv7OH6oExuF82foRUyKyM0V86uU+0bHteMF8arsTbLk+Gp2Szz0xhHs2J+A
-3Jsa+T87QB4lkCwlzMl21lec2VkNtCpmVF5jiOegjYhzsWGedufgKVz2m5oyoR6r
-5jz/Dks4tSFoZ1c+7fLZjuzLo4JVZrRxuR0bmaS/3Zga3zZAahGU5U/mxPyIKpXJ
-nptQPT5RoRsIOjICnnxUk6KO11RhXrD1D2MKDy/NrJoVpmx2p+7He1fplpvwL38B
-7NEts7ImANf5N/06hXxKkezCwV1LgGCV0Mm2DvjUfGPmkpJ8DBg8VH9MPrB6vdLM
-gI7wl/GHlWfFss5/F45kHqAUdf54ynKdKNAF78VfnleHmWaY3AafURYBfz5RVNiF
-iZNBV8kPzvgp/RbbTr3QIw2Jnc+HiIB5P4IlsJbBmIqBpPbMU344vxSqjRt1L/97
-egIEX6en5PXT5I5ECJEmkK9LFedu33G5YbNKbE/OeHTVnUqwUa27H/nKrMgWbKSw
-2nXonDvoMJofJrb9T160dLPGU0KWH50M7vogRXahl5NmiRTG0SFQ1E3C8n1Fen5f
-1AZbt0HucMSEh1ar50SihnlW2grt5zJsZ5YFFx6Mqs/m+FI4Ux48q56updAn6ehv
-jQWkZhAa+9PsVjIo9fjSp9bPP6KuIVbKu9asExMugg/Hs97C7NftpAng/JXUIjbF
-/weOFMaamaAo7fq1W/TVeAw5i6eQUZQpug3SqD1tROdT1pPeHnq+j72MwJwT1kIc
-z1AUalDk5RrdbwFMPd8BAE2B+ny+HTdCT2QdqAOkztrxeYJ9EWiTfc53cKXz8Egy
-bxLaLmibc34FbB0HnHuPkfZJTA7EY5mk+7xJYCkUN02f2bPHpzJUVg6YZkcmhRL0
-RpVYZ2hVeDlpXQv4kaQHYNl3F/r35z9/GUWcqNz+b/WaZwLi52r5WeEq2Em64iNv
-l8H8EYOaMiUxwT+GFR37RCfL+y9A7A5y3jskrrTurdHwciDPF+sILZRbj+4Qwu1/
-NDt98FP5keCkYhDhCjAEQdrCwMEL9N/fl9MNkwo1S53tslKzG4ybj41XB+Uyghne
-LgkJ1gYrAHd79nSILkq6ECK8fN78eaVL/3TJM/tepRYXpKc+5f/Fuh05bRlWF4F9
-OemM58zhW3HLZhkOjdvdXRUkWLsYfcu97+BIeoptuorYTpzq/BDgL8HCVgpr8PrH
-rAyaoqCaJl09fasqi+VoEd2boBQdyJJr2O2cps/kz2cuC6NxMxr0N37RqlDeXUtM
-0kBlmnUNHVbo4tWKtqJ10mRRC+XrcO4Wg6+Wr7R0SPeaa+y0jUPUSDlPs823NEcx
-3GdkrfOLpp8mNX5j+eQRpjesYCuSlvGriIHqpHA79SvkDmSjm9YrjYhpOxVxWVG2
-LdrY8nJEpEm5Fk9mQmA46JCkAYYf5QpdR2FfYRzXbVk203cxCEmopw9OLVSHSiCl
-Tm5pU0Qj0vezvK4LuEspu/zpRHYg9kTy2IJA4yQJyxwrJdv1nmO91H166LVWPph8
-F1zrDTh0o9IavybZrcZyeS7AGO5OKc4Yi+SX+ultDn0yk/EGshRDvW4aJ1oa+nq3
-DFKGqWUsEYq8vwWBhiF6DigscjsgxFBy1AYthBDnDvlGvI5fI9o7wcteda3BoCsl
-9agNwB9/UO8eJpOAr4b7B56nlNicKbZhzveQVoLjLaXm+HCRswePzvY9yjrqP6xW
-Eri8EL6o9JS1Aw1IABwR2Ta6qNmk8OLckrNhCY4OflD2I4LjXRIm62kB3sBCXo+p
-axT1gCSIdcYVy/+f7owlSK5EOQXhbBpGzPXotcbiMBaSTTuDA2nvgfb2GOyyoRIS
-c4JdZ2r0Mx9pYjiHnrnoMGvy4tkI+caAWJnaG85PPqqZtQkJMALaKlZmFx/vsBxM
-i61+g1RLaapEV5OUeeg3Gy9umrbuymDbamKYRvsFyaY2T1ZyuYgBhSDOd++YR9RP
-dQlKHv5gIr5AeR68LTYAKWIx4pbmsVMy/URXU6r0GH7xsvmp2EOK41MZBBHPjIuj
-NHEgHSGd55wQzmoB/4u4XCeITXZUb/eR9wH7mS2+ySG2RwtBFaSJciZae6lhTYiV
-XeDrMad4XP5iK6EKLDvCx6k28r0SQsSL8yrCCwy8KL5FzC+F4j9r+5BBRe0eOu35
-cCs4YqEP1gfKhtRZYc7dcp3uq6zYkbVqUvC74lglD5cX1Hyx/Pl41e0MG7jN25cS
-qZM8Hg==
------END AGE ENCRYPTED FILE-----
+---
+title: ClusterSLAM
+---
+
+## #topic [[3D Object Detection]], [[Dynamic SLAM]] 
+
+## Overall impression
+:PROPERTIES:
+:heading: true
+:END:
+### The paper is similar in function to [[CubeSLAM]] that tracks objects and us it to increase the robustness of SLAM, and also is able to handle dynamic scenes. It is more flexible in the sense that the detection is based on the **point cloud of landmarks on the cluster**. In comparison, [[Cube SLAM]] models each object as a 3d cuboid, and [[QuadricSLAM]] models each object as an ellipsoid.
+### The paper is based on a stereo system but the performance of 3DOD is even worse than [[mono3D]]. This is due to the way clusterVO generates 3D bounding box through tracked cluster, which may not subtend the whole size of the object.
+## Terminology:
+:PROPERTIES:
+:heading: true
+:END:
+### **cluster**: cluster of point landmarks, rigid body, 3d objects. Raw measurement is bbox.
+### **landmark**: tracked feature points.
+### $q$: cluster or object, $q=0$ is the background (static)
+### $q^i$: association of landmark $i$ to cluster $q$.
+## Key ideas
+:PROPERTIES:
+:heading: true
+:END:
+### Based on 2D landmarks and sparse landmarks
+### Multi-level Probabilistic association
+#### feature points k –> landmark i
+#### bbox m –> cluster q
+#### landmark i –> cluster q
+##### heterogeneous [[CRF]] with efficient inference
+##### unary energy:
+###### 2d bbox constraint: point should lie in bbox
+###### 3d bbox constraints
+###### how the trajectory of q can explain the observation of landmark
+##### pairwise energy
+###### encourages label smoothness: two close enough landmark should belong to the same cluster.
+#### Hungarian matching (Kuhn-Munkres algorithm) to match clustering results from previous results (assigning index)
+### State estimation
+#### Double track frame management: temporal track $T_t$ (15) and spatial track $T_s$ (5).
+#### last frame need to be **marginalized** to save memory
+#### **static** scene (q=0): BA with marginalization term. Optimize both on spatial and temporal tracks.
+#### **dynamic** cluster (q!=0): white noise acceleration. Only optimize more recent temporal track.
+## Technical details
+:PROPERTIES:
+:heading: true
+:END:
+### object detection with yolo v3.
+### Motion model: acceleration is queried from a Gaussian random process. This penalizes change in velocity over time and smooth cluster motion trajectory which would otherwise be noisy. <– this is to be compared with the piecewise constant velocity in cube slam.
+### The center and size are found by using 30th and 70th percentile of cluster landmark point cloud. **This may be the reason for the low KPI as compared to mono3D**.
+### Object yaw: this is likely determined by motion.
+### **semantic 3d slam** uses batch multibody [[SFM]] and has a highly nonlinear factor graph optimization. The solution is not trivial.
+## Notes
+:PROPERTIES:
+:heading: true
+:END:
+### Demo on youtube {{youtube https://www.youtube.com/watch?v=paK-WCQpX-Y}}
+### the framework is not suitable for specialized autonomous driving use, especially for improved mono3D. The determination of size is based on the point cloud of landmarks, which may not reflect the real size of cars. The orientation seems to be determined using speed, and cannot be very accurate for still or object with small speed.
+### What is marginalization? Shurr Complement?

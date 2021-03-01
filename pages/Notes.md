@@ -1,18 +1,16 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAydGNrUS90R0lkNFo1SU82
-MHQ2NytMRFovdHNoK1dxNktUdVZsNUxqYmdzCnpDWU81NjE0OVprTU1qdXVKeitp
-VDZGL2ZGdW96OXpUazdHdzFFZnNMckEKLS0tIGNMYnZaVVhUdXpVaEdJWVhDeTMv
-TVVKTDhXUTlhZENTKzJWQ2p6dnB3SG8K9kjRbZdqE6PXTw2FTazGAN3p4+Oll+m3
-LuNQJ2EuVyHXxmfZ5v8e4xuyx3ybhZVm+u5f7HgSIFQ+jRkAdXDH4ACK8xqN8PqD
-ySi7LZEY/krsBtJay6U37+RSHZUx4k2XkN7uDn3JFEENbzIy5A8DDVT6sLpYyUGg
-CJ/9FLI4CaTVDxom+etm9sj2YyzbT6OwrkhsqnTcqLq2bkVYa/REl7jxC+xqNU+g
-kUZTslFFWmD+2gmqTbxeWWpsvsYVkHIFjCfZCCJVJ07egAZFNrOInWmFnzVFQchX
-EMkSY9JQR/zLtVL2pJbo1hHWacJBtlf0LV1WHIN9XnBWirOC25WGKNd/G+PYZHf4
-zMXqsmt1yeFEXnRnQW8nSPqSUzcVC20kIgLkMyxYPKfp89ZLtRKz+OS1kVXpXjFK
-dMIFILsR1QxUCRonHQ+0LoPj68/jGy31TY+qXM3FmH46bTWhi2Nq7RADnvHtQE2G
-dQzcUdBeyUqbh7pmfCMO27zpvbKcHox3aDRh1yVv3Jn4uR+vpvfISYEvUzj4EPsy
-jB25OYfwNxUDVFdyI89UC0Ctk4Wp6BV7jbSMu5cw2ImuKwX3y0LZTC9uBh8lKcOX
-/xCPkY4m2cFUiwrQmLQwMwjfJrrzEmW/x7goIQPQ1ca19XWmoDEOqdzm525PVWYB
-L6hrxsE7V4idN5chF0evxnM+TW0OMmQC9w3WiUFARz7VyrZ5mc7DJU4W6/MZA0OF
-dh72QR+TXC5v3+GDIrzYLnmvDB0E6krrS0zVuog=
------END AGE ENCRYPTED FILE-----
+---
+title: Notes
+---
+## This is my personal knowledge management system and I will keep maintaining it. Feel free to contact me with my Email:     `zhanghanduo@live.cn` or visit my profile site: `https://zhanghanduo.github.io/`.
+##
+#+BEGIN_QUOTE
+Consider how hard it is to change yourself and you'll understand what little chance you have in trying changing others.  ~Jacob M. Braude
+#+END_QUOTE
+## [[Academic]]
+### [[Keypoint]]
+#### {{query (page-tags (and Keypoint Siamese Network) )}}
+### [[dataset]]
+## [[Books]]
+## [[Coding]]
+## [[Utility]]
+##

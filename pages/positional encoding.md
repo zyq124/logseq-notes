@@ -1,31 +1,25 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBMSmVIUmtYYUNkZm8rZ0FF
-YkN6UVV2Ymt5c3gxbzFzdlVjN1EyU0QrVVNRCkFvU1Q3N1VDSW5YYUduV2paS2NR
-TUdUaUcyRS8vNitTMEZodnZNdUpMQncKLS0tIERZN3M0QmdFeStqd0xEY1NZcHdR
-Sk9jT2JKK3R6NnpWOFozOWdjV2N4bGMKV6sq336VJP8yjTCwqcc3dG9uG5bQkjmo
-0IVJ5rdQuzrMGbeNzxjjSvqcRvWsSbi/Htzxgmn+83FiTM+rl3UYSJi2XDNgK59f
-iNfUicRCsbiZF2U6s8mABRJfyCWLYCb0x+cE+TUh4WQVU1eyuFtPW12wuoyHSF6j
-QUNcIgo1WOYN1iX5KcKCYZuDHCjNMM6rmCw6SkJwgXlvH5gX8A014CgSFrc8tYB9
-/qXJsb/KWEpUABAK2VuFvXRfp1HeJXjLJuTtJtOyZ22ma7bhMFrc1NM9T2R48Mqi
-JmCIpV/bS3Y3j9VzhvH/74WtwJV8w8Mdpy5iQqzfH+F5IN74jvfKewm3zABT+ZLc
-YwXQPR9k01/4hhLgJQzD7yPnQ6PYgpmslJNkkN7tHvE5Ex2yQOWlvyVtzD2KBeRg
-12jq8svbm7SeGc0oZwRMQ958bkMDsjQq5pRSrzDJnzcpdijPPKiaINtmViEyyllL
-bZ5KyvT8y2y5QkLpgxQxNVDwaUkYCC9VzqF9osh7NbqefyIKxroCOpyMZNMDTGjg
-+TD+gxkAjSWtkJ6sUG1eGuDNmiShtSnKKzTgCrSUQiFc6M7rC126I1h9kIihIwDv
-DlR1I9REVvmUOQ7G0jWRIg2oCFZW2miJmvDiOboPEaQakTraNGv0C+qdnpyyn8BN
-AwM0/k3n7UauHeT3PI4VZRcs/BJVQo0vCxdqoPdXn6o/ZKLDagWduelj5l1l3CX6
-3sloWgztzmsNe2mcGQckNnJw+uanpw1sxZ8xBW6/srJeaPxKO9phhwcxmpN2/9Lt
-3rqULNXlNjVQ5oX7nX4ah13YhmGYnTMjUWrzn7/Agsd8zQSgJRh9b7JCaDWs06nK
-MJLgHj63T7ovoOB5c0Vm9OgsafLl0jTrp2pNfyE5gzIeOlHr/cj4jltiSnpJbGFf
-AEa8xnt4ieYdBnpeP7pKw6o080iYizRLzwYWeJkrhCnYZlLuqov0Axl1IRCkQeI0
-JEUCqrQAhepCSBnyscNjwiIprSI7zskv5d5NL7bZwUIYz9xtCsfC+ikwRo3jWyba
-lCV+AQX1a+WfsOIdsjUKIk2bk9KVOsItrleug4uE/Odxq0leDq5IR4/zw05NS7It
-Rl47tj4j16+BD4EVhsehd8EBEWCvD6kGU/nO7tBSj+fQ3u9qYm0MyyfVj5xffb1/
-p+nR/B2jTiH0cWg3kgeKoqFEB/Lr8co2dvSC+dWfx8TsLZPlHPXDYBsv0hslD3Tp
-aX6oCcoVqLYkerwu/LCtWVrcafKgSyao2aB+C86iJo1woL+DPsvU1RLLLEo/zwxP
-rlvkxMiXtHov9ZfW2FHbJxWSibF4MmTkSkE3lcLEFyvy4o4Ble3GfWmnQVv6b8uJ
-XAa7DR/xfMWJyUjSx1JyH9zr0hq+qRncNDRqa9TWP3QhaRtwmokNpMc1rOSE9IlF
-1AMPSrpjqLpKeq4cb3T6SFLbSvK1HFx3tBNCwPzE9Fr8RI+AIzI2QJe9DVqMg8n8
-NKZRNx4sygilTiNfEyNqcpk4iLm/d04jSLuL7YajmcXqjBaGfWJ3loqGFNZxPkPl
-Xg==
------END AGE ENCRYPTED FILE-----
+---
+title: positional encoding
+alias: 位置编码
+related: [[transformer]], [[BERT]]
+---
+## 传统的[[RNN]]中由于是以序列的模式逐个处理输入,所以顺序信息被天然地保存
+## 对于 [[transformer]]需要额外的处理,把表示位置信息的编码添加到输入中
+### 表示两个单词$i$和$j$之间的距离
+### 这样词向量会加入单词的位置信息
+## source: https://www.zhihu.com/question/347678607
+## 理想状态下,编码方式需要满足
+### 对于每个位置的词语，它都能提供一个独一无二的编码
+### 词语之间的间隔对于不同长度的句子来说，含义应该是一致的
+### 能够随意延伸到任意长度的句子
+## 有两种编码方式
+### 1. 网络自动学习
+### 2. 自定义规则
+#### 比如sin-cos规则 比如输入向量$(N, 512)$
+##### 有界的周期函数
+##### $PE_{(pos, 2i)}=\sin (pos/10000^{2i/d_{model}})$
+##### $PE_{(pos, 2i+1)}=\cos(pos/10000^{2i/d_{model}})$
+###### pos即$0$ to $N$
+###### $i$ 是$0$ to $511$
+###### $d_{model}$是输入单词的嵌入向量维度
+#### 下一个位置的编码向量可以由前面的编码向量线性表示

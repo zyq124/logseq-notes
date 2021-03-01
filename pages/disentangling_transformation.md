@@ -1,84 +1,55 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBPUThRWmJKaGlFdXM1dEsw
-ZUh6OWMyRmJEb0NhYmhoUWdneTdhSEdJdmdBCkl4WWhxZEJSc2VJMkJwT0pWZU1K
-UGdVSWgyMkFHaWxtVk53S2pyZis0alkKLS0tIExJajByaXZFZnhyMWNTRHBWQzlR
-UGhhd1JrU2JvMVBGYXZtUkVQeGtYNnMKTGAPJsuN6lRyRex9kEY/yOpnsegXqNXR
-0xFr44NPDQ+/nbAQxtnIB0J95gJNAycpemD0AJGbLOfenQtNxhODUrdjKNgyFFCC
-l5k8jc4fTL/7JqKA3D5e+zzVT9Bgn//q+FGqJQhbIE2r/coVxgBkZ2vDpelQqgwH
-JyVFaXFqAEn+S3uNOhgq/RttWNKlJ/90OnCH1GQ4uMtLQqtUWeB9rJVENTTnYHC2
-dm1HwcoALqhXZ7mCmo7LsLZLB89u38dDyoKmpmxwYPnTXS++BGMstU9y7p4HYs3S
-9C1Fan733StbrOHC6B60Z26xle4q5JvW5Xjuhux/6uL2vtFd130q767yEzepQF6H
-dAZzskojmwPEmnzILamCVoZfjT6WrAES3oLQrjcPamlHR1CFaFiWmUXYhu0/iWRr
-fSyhwNwJ5JRECxF8J5fZ5kpTGK4vPR9QclZjq9eW2UDAiq80c1uzoUbeAO1DvHMu
-Jx734phAk+Oh7VDiMCCGWH70t9qPXBDf2MuNMXQW0GoAbNsUq9ghYsNxQ0ZRjYnv
-tFINKyaE98F7Mdlepg7r3IxecWd+Vs4tvaeGbybQfqfYajWlgSK8uOjINzQa7x6g
-O1ud6z6F8n0AqfBkP1S/aSOtZl0P3k+lLhR99Ag88woyMF0AMi2d3aHnzdkHbl0F
-VFoMkNoPhTz3KAbBbkcAtc5kUiWWhDxNoDhExdQ0Eyjni/ZQZ201cqFy+/CCQAXb
-iv79TeM5GMPsHkMmvIjtdkYXmKboh1R+/e7TQQfLOMqcM5IowwLHzcGQ6Evwdj82
-uTAfFmDXTghzu1fnzmk6dLPuXXIEDVe+7dHOeuNV1CfLqv19O2Mk2tXmYBxGAmNS
-qtAbGgk3/7/wCoQVbsEqk4yf6KrhG4+vgGPo86vj8Rf+jc1d/3BymiKZUT1uKUjI
-SYzzLhHc3g/oIJ2t3s3ijYqNg/tRFX2Q9zKRD5CLHiNzN1KskqEfC3MqjbDD0SEC
-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
-D/9lg2wIN9UmxKk=
------END AGE ENCRYPTED FILE-----
+---
+title: disentangling transformation
+tags: [[literature-notes]], paper, monocular, zotero, [[3D Object Detection]], mono3D, reference
+public: true
+type: [[Conference paper]]
+citekey: simonelliDisentanglingMonocular3D2019
+publication date: [[10/2019]]
+authors: [[Andrea Simonelli]], [[Samuel Rota Bulo]], [[Lorenzo Porzi]], [[Manuel Lopez-Antequera]], [[Peter Kontschieder]]
+---
+
+## Meta Data
+### Disentangling Monocular 3D Object Detection #toread
+### Zotero Metadata
+
+#### Proceedings Title: [[2019 IEEE/CVF International Conference on Computer Vision (ICCV)]]
+#### [https://ieeexplore.ieee.org/document/9010618/](https://ieeexplore.ieee.org/document/9010618/)
+#### * DOI: [10.1109/ICCV.2019.00208](https://doi.org/10.1109/ICCV.2019.00208) 
+
+#### PDF Attachments
+	- [Simonelli et al. - 2019 - Disentangling Monocular 3D Object Detection.pdf](zotero://open-pdf/library/items/YJ67ZYLI)
+
+#### [[abstract]]:
+##### In this paper we propose an approach for monocular 3D object detection from a single RGB image, which leverages a novel disentangling transformation for 2D and 3D detection losses and a novel, [[Self-supervised]] conﬁdence **score** for 3D bounding boxes.
+###### Our proposed loss disentanglement has the twofold advantage of simplifying the training dynamics in the presence of losses with complex interactions of parameters and sidestepping the issue of balancing independent regression terms.
+###### 2D检测->3D检测->loss解耦
+##### Our solution overcomes these issues by isolating the contribution made by groups of parameters to a given loss, without changing its nature.
+###### 解耦的 regression loss，用来替代之前同时回归 center、size、rotation 带来的由于各个 opponent 的 loss 大小不同导致的训练问题
+###### 将回归的部分分成 k 个 group，每个 group 只有自身的参数需要学习，其他的部分使用 gt 代替
+###### 从而实现每个分支只回归某一个 component，使得训练更加稳定
+##### We further apply loss disentanglement to another novel, signed [[intersection over union]] criterion-driven loss for improving 2D detection results.
+###### 将没有 overlap 的 bboxes 的 loss 也考虑进来
+##### Besides our methodological innovations, we critically review the AP metric used in KITTI3D, which emerged as the most important dataset for comparing 3D detection results. We identify and resolve a ﬂaw in the 11-point interpolated AP metric, affecting all previously published detection results and particularly biases the results of monocular 3D detection. We provide extensive experimental evaluations and ablation studies and set a new state-of-the-art on the KITTI3D Car class.
+#### zotero items: [Local library](zotero://select/items/1_2D9DZC3A)
+##
+##
+##
+##
+##
+## Disentangling Transformation
+:PROPERTIES:
+:heading: true
+:END:
+### $L: \mathcal{Y} \times \mathcal{Y} \rightarrow \mathbb{R}_{+}$ loss function
+#### defined on a space $\mathcal{Y}$ (space of 3D bbox)
+#### $L(y,\hat{y})=0$ if $\hat{y}=y$
+### 2D bbox case
+#### 2 groups: dim and center
+### 3D bbox case
+#### 4 groups: depth, projected center, rotation and dim
+### $\psi(\theta_j,\hat{\theta}_{-j})$ the mapping of a parametrization that takes the $j$th group from $\theta$ and the rest of the params from $\theta^{\prime}$.
+####
+$$L_{dis}(y,\hat{y})=\sum\limits_{j=1}^{k} L\left(\psi(\theta_j,\hat{\theta}_{-j}), \hat{y}\right)$$
+##### where $\theta=\psi^{-1}(y)$ and $\hat{\theta}=\psi^{-1}(\hat{y})$
+##### 把要回归的loss分成k组，每一组计算时使用output$_j$, gt$_{-j}$，计算出对应的smooth [[l1 loss]]
+##### 解耦不同语义的各部分的相互影响，使得收敛过程更加平滑，训练更加稳定

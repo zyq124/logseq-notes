@@ -1,18 +1,23 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBFUm5TU1FiaUpUL1Z2SXVq
-U0NpbUJLSFFDSGhRdkJzQjVxSC8wNm9pYVNFCi9WYmJqOHdlWWlNVjY0UUhZMzN0
-cTFJNDFycy9NT2dUVWFpS0preHRiRmcKLS0tIG1FbHhhMU44SitEbTNTUG0raU12
-ZTd2Q21ra3ZaajdXK3NkZnRGbGF0Z3cKiXZB2BeS/RG/Apr/g7Md9XaRaFEas1Pl
-Tu2yweiNP549TwNJXwa/ZXU+3gPWAEaB67D8LVbbACwBoWYkCgZPaEQhfIYIQl0O
-MF3E4lAKKiX8xeCae1veWlvZJua6h0tOsoy9CPtPhgD3mOzL3H1dKV1mPNnl/B1O
-0mrtvL1QcvOp3GiwcyDgw6+wnsdEGSlNQzFwTMvKJ5nBzfIo8tKUtI/T6nzzRaJs
-bz3gtMpBEqmV4251au1AFg5tNxDNusirF86uOg2ju/1r+ChDD74EOslxGvmSsBdX
-JvFKTitIdn0m2riqyd35airF2Zoc1L2PAooHv+dye0TyX82WdWtfZ7rru9gwrZyB
-myaJa1DyWwfUjZ/vjBxy4A7bxwti7IOHSfO+9vRRqqAvUuk+LPBxCO2PYlJvMPGk
-q2nQr564iGUDgFMptlBz8Rm7LDaBIKjBpe4+/VcWdNwMYIngAagVTTw26IOL+cWg
-0YzPltG49uLNQN759Zi7Vp+O9OOgckeoLAs0dJM5PeYXCB+/saJaduGhhSMWQOxv
-U3EvZjFpCGurrHX9TOu9gCHE03mWXHnMcSwGl3DY26f03zrlQk18vodkn9Zehhal
-H3Bs7cPGduHmuo/L14Cg9Rx+CAIsWqBWUt3iY5O8VzyMs7146Em7hShuxoREqPxZ
-RiQ8QuGO9wP2BgXASk5kNTikO6oqPXHKuR7L+D5OQyOtXE94/gvjj78BsNlNczVQ
-GQDPeLfAgxSX3P0Cgsn5ysMi9+U=
------END AGE ENCRYPTED FILE-----
+---
+title: Python library
+---
+
+## Debugging
+### [[tqdm]]
+###
+### Print
+#### icecream
+#### Rich: https://rich.readthedocs.io/en/latest/
+##### `from rich import print`
+##### `[italic magenta]hello[/italic magenta]`
+##### console
+## Tracer for logging and profiling
+### viztracer: https://github.com/gaogaotiantian/viztracer
+## File related
+### boltons: https://boltons.readthedocs.io/en/latest/
+#### Atomic file saving
+#### OrderedMultiDict
+#### Queue
+#### Chunked and windowed iteration
+#### Trackback
+#### Mapping for nested data transform

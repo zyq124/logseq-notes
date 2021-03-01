@@ -1,8 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA3RExQLzl5WTJVUnBFTllz
-a0ZpUElKd2U4RjRVSGxXdGh0Rm5Ndk9xdVRJCmtvek9GRDZJQzNjMUthV1NJWlcz
-N0ZlbmpPZkI1R004dXpkeFlJTzA0Z2cKLS0tIGx5T0N6cjRvWU5NY0R3VEZMNmVD
-ckZjZGRKaU4wYjY3N1VkZDZmdlFubGcKI/42401nufoIRFZcqVdImHen2ZsxXuxJ
-TbKKSTmk94F9kx0Hz9DpQ+7t8n0gs5KVyTpDRfAR6UpIWheRomjWL0gOxBAfdpwW
-8ILf+fGbBN74yXYhbWgEtoEhVVFRoBhnVJaNKdUqz7HCx3gtqiLPaP8=
------END AGE ENCRYPTED FILE-----
+---
+title: singular value
+alias: 奇异值
+---
+
+## #maths [[linear algebra]] 
+
+##

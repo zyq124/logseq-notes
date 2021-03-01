@@ -1,13 +1,12 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBCNFMrd1UxY0tnbXY2cFhS
-V2FybXdUOWFGTFpyb20zS1VFZVV1YXhDeVZNCnFaVWh5eGt3Z0diQUpDMVpaMlRQ
-N3IwQXAra2MyMldXN3lvK1NITUZDUFkKLS0tIFA4MFpyOGM3UE0wRzJwbktIOXU0
-aFd4UHlpZm5KaGFrQWp4eFovZ3d6WjQKtDhRWYg94j/c8fuO9tTZY+6I9Me92M89
-GGFz0eBvLlqs+2iSLDM0GqAV3LRtqWMxk9dBWiie+8r8bUS6QLRoeiJFneASKyht
-0B7ZgzfSReH0hlmqauBaj6TYAIhpy0w6gHre01iTeMdUReEFZYaXQz1yYxv1ytWE
-TuR+RrS+I0rjliQdYn//2pA+MX29svc0tNqFUYjiEQ1MbNYuJgNS2J1u05NRXoeB
-5c/junQyz8izAp4fN3OzR9dVx1yfvGmC1VssK4mfaSG26M+bHcufFKE+D36hTrWv
-FX9v0RV74pg8/GtXCEJpcE0gWsC+cgyoGJg5Dwu9ODTu5JmP6Qhp8eaFzZ2RXuNn
-HMSQmgBBvQYC/E+NuOYk1aplEBS4Ftcp+P0bd93od7a0oW8cDGwyILvCAnd5Vzvk
-FyrWXnPTog==
------END AGE ENCRYPTED FILE-----
+---
+title: single-stage
+alias: one-stage
+---
+
+## 单阶段
+## [[object detection]]
+### 传统detector预定义很多anchor
+#### 密集的anchor有助于提高检测精度
+#### 然而在预测prediction阶段,真正起到检测作用的只是少部分anchor
+##### 计算资源浪费
+####

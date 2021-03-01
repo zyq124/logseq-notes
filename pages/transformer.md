@@ -1,211 +1,233 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBkVlBDNFVaZk96OUt1OWdt
-ek1HZW5ORDhkTTh4WmlXRHFSb2dHVDJmYTJVCnpydnV0M1hNZ2lFeENxVVEwUUFX
-dnBxNFBBMDlkZU5DbUVHUmRET0J1MkUKLS0tIDU1bEhwMGt1TnZjYm1XSkQ0VXJs
-TDFyYU1vWVNxL0lJR1Z3U3RjdXVEYUUKCCaZ+mydixWVK7hDkvQT8hYxKceL0ujp
-MVnXRcidwNLLCjCjuvevtC8qNS9Y7wKw1Dg/v274Bu8Zxx9kL50bDNAuxJIMVgIq
-KL3SMzMM5JvBVch/DGHs7uTUCGXGd0OHRfvdHYDqHz+PenhBaC7wnvYVHctih7qT
-GSLApDypRw4rztK32SV/hH1C3wuDaLQfRa+3J5mlSp/y5byvtSifjDei9LmMrtr2
-835qsFx4h49HgryzWEGmxpk+1m3ZiBeH1b/d/3Lam84a8PKnKX52g9wTK/gtyr7Q
-VSWmrmBeMnKHtG0iFxT3FkQD8VSsffXgn+y7J+oa020rE6q7gCyzigr6BooHQLL2
-DzcQp+ZZ46rjwegsseeC3hPQZ4n2//gsMBfLNdBcanJGUPGZYHpVQ3kjoEai28P/
-DdkNdlF32SqoU8vWdPryHtSSNVqhjzv66FUOVKreCLTm/TxAq0iVA3a5Q1+SotP9
-HXwDapYQ9P1jkdvJ3cM7aUeJW+cPrSVwhwvBQxvw5Zx+1At7gYv0sv9c09JM0BVe
-sVkBKQZ15ZuMv/lUpZ9c0r+Ka4OnopkSGAPvK5xHvngLLt3U+3+z2mwpyurGFXuT
-jrtO/h2J8hnz933KG12Y7yFE1bp/PqWf7GrQnBH5uacjBNtxbdDo0wykTGUkZSzJ
-oKUyoyQ/v0lHdqJHQMALIZtqf5RpZNUccJIjb8q5LEypCDKnxwJfNG+6YxTAg5LV
-aleJpR0HO+VRy5BiUe2TlLK9hb1lo7b0XkxxlZ9lPprrUw7BGjXFrV4g2VfuJM5z
-7XX5TtZ959RWdS4C6mDZrsUoHCDA+GXao4iB/ahxO/u3/ushUQS9YuCFdhHdHC/F
-piiGYLKYVCg7HxkhtiEkPtAc/qSD/H5ZWy3uxsl5uKeDepKcwvtYSZp0sPFCZJ5f
-+QvMM14kEAaUWa1z9VvDbJrESkFHAOQuYMkjBJhDV//4pNGy+Cx9g07t17OnVAbX
-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
------END AGE ENCRYPTED FILE-----
+---
+title: transformer
+type: model
+related: [[seqence-to-sequence]], [[attention]]
+---
+## [[sequence-to-sequence]] model by using [[self-attention]]
+
+### The original paper: [[Attention is all you need]] , NIPS, 2017. #related
+### Purely based [[attention]] and dense layers ( [[fully connected layer]] )tt
+### 整个结构就是用 [[attention]]层和 [[self-attention]]层组成的
+### Higher accuracy than [[RNN]]s on large datasets
+## 相关资料
+### tutorial
+#### {{youtube https://www.youtube.com/watch?v=aButdUV0dxI&t=30s}}
+####
+## 回忆 attention
+:PROPERTIES:
+:heading: true
+:END:
+### {{embed ((603070b8-5a03-4cf9-a04b-6defdb8f56e7)) }}
+## 剥离RNN,保留 [[attention]]
+:PROPERTIES:
+:heading: true
+:END:
+### 1. 计算**Key** $\mathbf{k}_{:i}=\mathbf{W}_K\mathbf{h}_i$ 和 **Query** $\mathbf{q}_{:j}=\mathbf{W}_Q\mathbf{s}_j$
+#### 其中$\mathbf{W}_K,\mathbf{W}_Q$是Parameter matrices,从训练data里学习
+#### **Query**用来匹配Key值,在decoder中生成第$j$个状态向量时使用
+#### **Key**用来被Query匹配,相当于数据库,是encoder中已经学习到的
+#### $m$个$k_i$向量组成大$\mathbf{K}$矩阵
+##### ![image.png](../assets/pages_transformer_1613881863023_0.png){:height 200, :width 705}
+### 2. 计算weights: $\mathbf{\alpha}_{:j}=\rm{Softmax}\left(\mathbf{K}^{\top} \mathbf{q}_{:j}\right)\in{\mathbb{R}^m}$
+:PROPERTIES:
+:id: 603216e2-71c1-4006-9977-3f2577cd5c65
+:END:
+#### ![image.png](../assets/pages_transformer_1613882016261_0.png){:height 113, :width 169}
+#### 这些weights介于0,1之间,相加为1
+#### 拿一个query $j$来对比所有key向量$\mathbf{K}$
+##### 得到的$\mathbf{\alpha}_{:j}$就是query $j$和每个key的匹配程度
+### 3. 除了query和key,还有**Value**: $\mathbf{v}_{:i}=\mathbf{W}_V\mathbf{h}_i$
+#### To be weighted averaged
+### 4. 计算 Context Vector
+:PROPERTIES:
+:heading: true
+:END:
+#### ![image.png](../assets/pages_transformer_1613882655930_0.png)
+#### 用这$m$个weights $\alpha_{:j}$与这$m$个向量 $\mathbf{v}_{:i}$做加权平均
+:PROPERTIES:
+:id: 603216e2-c974-4adf-ae94-0d8df86d6685
+:END:
+#### $\mathbf{c}_j=\alpha_{1j}\mathbf{v}_{:1} + \cdots + \alpha_{mj}\mathbf{v}_{:m}$
+## Attention Layer in [[attention]] without [[RNN]]
+:PROPERTIES:
+:heading: true
+:background_color: #793e3e
+:END:
+### Encoder's inputs are vectors $\mathbf{X}=\left[\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_m\right]$
+:PROPERTIES:
+:id: 603216e2-4340-4642-b5b4-182b3724d859
+:END:
+### Decoder's inputs are vectors $\mathbf{X}^{\prime}=\left[\mathbf{x}_1^{\prime}, \mathbf{x}_2^{\prime}, \cdots, \mathbf{x}_t^{\prime}\right]$
+:PROPERTIES:
+:id: 603216e2-3a05-4d05-b04f-736715f15c89
+:END:
+### 这仍然是个 [[sequence-to-sequence]] 模型
+### **keys** and **values** are based on encoder's inputs
+:PROPERTIES:
+:heading: true
+:END:
+#### keys: $\mathbf{k}_{:i}=\mathbf{W}_K \mathbf{x}_i$
+#### value: $\mathbf{v}_{:i}=\mathbf{W}_V \mathbf{x}_i$
+#### [attention layer](https://i.imgur.com/lRuneZW.png)
+### **queries** are based on decoder's inputs
+:PROPERTIES:
+:heading: true
+:END:
+#### Query: $\mathbf{q}_{:j}=\mathbf{W}_Q \mathbf{x}_j^{\prime}$
+### Compute **weights**: $\alpha_{:1}=\rm{Softmax}(\mathbf{K}^{\top}\mathbf{q}_{:1})\in{\mathbb{R}^m}$.
+#### [a1](https://i.imgur.com/MtGhesX.png)
+### Compute **context vector**: $\mathbf{c}_{:1}=\alpha_{11} \mathbf{v}_{:1} + \cdots + \alpha_{m1} \mathbf{h}_{:m}=\mathbf{V\alpha}_{:1}$
+#### [c1](https://i.imgur.com/vAiQ7AO.png){:height 286, :width 727}
+### Compute **weights**: $\alpha_{:2}=\rm{Softmax}(\mathbf{K}^{\top}\mathbf{q}_{:2})\in{\mathbb{R}^m}$.
+### Repeat until
+#### Output of attention layer $\mathbf{C} = [\mathbf{c}_{:1}, \mathbf{c}_{:2}, \cdots, \mathbf{c}_{:t}]$.
+#### $\mathbf{c}_{:j}=\mathbf{V} \cdot \rm{Softmax}\left(\mathbf{K}^{\top}\mathbf{q}_{:j}\right)$.
+##### Thus $\mathbf{c}_{:j}$ is a function of $\mathbf{x}_j^{\prime}$ and $[\mathbf{x}_1, \cdots, \mathbf{x}_m]$.
+##### $\mathbf{c}_{:j}$依赖于decoder一个输入$\mathbf{x}_j^{\prime}$以及decoder全部的输入
+### 生成过程
+:PROPERTIES:
+:heading: true
+:END:
+#### ![image.png](../assets/pages_transformer_1613894923064_0.png){:height 285, :width 239}
+#### 例如上图,生成的$\mathbf{c}_{:2}$作为特征向量输入 [[softmax]] 分类其得到概率分布$\mathbf{p}_2$
+#### 通过$\mathbf{p}_2$进行抽样得到第三个单词,编码成$\mathbf{x}_3^{\prime}$作为下一轮输入
+####
+#+BEGIN_NOTE
+这里跟[[RNN]]不同的是用**context vector**作为特征向量
+RNN使用状态$\mathbf{h}$作为特征向量
+#+END_NOTE
+### Attention layer: $\mathbf{C}=\rm{Attn}\left(\mathbf{X, X}^{\prime}\right)$.
+:PROPERTIES:
+:heading: true
+:END:
+#### ((603216e2-4340-4642-b5b4-182b3724d859))
+#### ((603216e2-3a05-4d05-b04f-736715f15c89))
+#### Parameters $\mathbf{W}_Q, \mathbf{W}_K, \mathbf{W}_V$
+#### [atten layer](https://i.imgur.com/5yTcLzG.png)
+## Attention Layer in [[self-attention]] without [[RNN]]
+:PROPERTIES:
+:heading: true
+:background_color: #49767b
+:END:
+### 不是 [[sequence-to-sequence]],只有一个输入序列
+### $\mathbf{C}=\rm{Attn}\left(\mathbf{X,X}\right)$.
+#### Inputs: $\mathbf{X}=[\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_m]$
+#### Parameters $\mathbf{W}_Q, \mathbf{W}_K, \mathbf{W}_V$
+#### [self-atten](https://i.imgur.com/x9iLP0L.png)
+###
+#+BEGIN_NOTE
+$\mathbf{c}_{:2}$并非只依赖于$\mathbf{x}_2$而是所有输入向量
+#+END_NOTE
+### **步骤**
+:PROPERTIES:
+:heading: true
+:END:
+#### 1. 三种变换
+##### ![image.png](../assets/pages_transformer_1613895733828_0.png)
+##### 每个$\mathbf{x}_j$向量都会被映射成三个向量
+##### ![image.png](../assets/pages_transformer_1613895755025_0.png){:height 145, :width 703}
+#### 2. 计算**weights** 权重向量
+##### ((603216e2-71c1-4006-9977-3f2577cd5c65))
+##### ![image.png](../assets/pages_transformer_1613896011017_0.png){:height 223, :width 492}
+#### 3. 计算**context vector**
+##### $\mathbf{c}_{:j}=\alpha_{1j}\mathbf{v}_{:1}+\cdots+\alpha_{mj}\mathbf{v}_{:m}=\mathbf{V\alpha}_{:j}$
+##### ![image.png](../assets/pages_transformer_1613896181992_0.png){:height 233, :width 496}
+##### ((603216e2-c974-4adf-ae94-0d8df86d6685))
+#### 4. Output就是$\mathbf{c}$
+##### ![image.png](../assets/pages_transformer_1613896315262_0.png){:height 309, :width 547}
+### Single-Head [[self-attention]]
+#### As seen above which is called "single-head self-attention"
+## Multi-Head [[self-attention]]
+:PROPERTIES:
+:heading: true
+:id: 602f1494-1008-4ce6-8660-be856c3cfecd
+:background_color: #497d46
+:END:
+### 多头的好处 advantages of multi-head #pros
+#### 扩展了模型专注于不同位置的能力
+#### 给出了[[attention]] layer的多个"表示子空间"
+##### 多个query/key/value的权重矩阵set
+##### 比如一般使用8个attention head,因此每个encoder/decoder 有8个矩阵集合
+##### 这些最后再concatenate起来
+### Using $l$ single-head self-attentions (^^Do not share parameters^^)
+#### A single-head self-attention has 3 paramter matrices: $\mathbf{W}_Q, \mathbf{W}_K, \mathbf{W}_V$.
+#### Totally $3l$ parameters matrices.
+### Concatenating outputs of single-head ones
+:PROPERTIES:
+:heading: true
+:END:
+#### Single-head outputs are $d\times m$ matrices
+#### Multi-head output shape: $(ld)\times m$.
+#### 每个single-head self-attentions或者attentions有相同的输入序列,只是参数矩阵各不相同
+#### ![image.png](../assets/pages_transformer_1613914438265_0.png)
+### Self-Attention Layer + Dense Layer
+:PROPERTIES:
+:heading: true
+:END:
+#### ![image.png](../assets/pages_transformer_1613909859278_0.png)
+####
+#+BEGIN_NOTE
+这里各个Dense全连接层都是相同的 [[fully connected layer]]
+它们的参数矩阵都是$\mathbf{W}_U$
+#+END_NOTE
+#### 得到$m$个输出向量$\mathbf{u}_{:j}$
+## Stacked Self-Attention Layers
+:PROPERTIES:
+:heading: true
+:END:
+### ![image.png](../assets/pages_transformer_1613910927125_0.png){:height 321, :width 583}
+### $u_{:j}$会收到所有输入向量的影响,不过影响最大的还是$\mathbf{x}_j$
+### Transformer's Encoder
+:PROPERTIES:
+:heading: true
+:END:
+#### One block of encoder
+##### ![image.png](../assets/pages_transformer_1613911278318_0.png){:height 225, :width 273}
+#### Encoder 结构
+##### ![image.png](../assets/pages_transformer_1613911365517_0.png){:height 319, :width 219}
+###### 一般有6个blocks
+####### 每个block有2层
+####### 每个block有自己的参数,互相独立
+## Stacked Attention Layers
+:PROPERTIES:
+:heading: true
+:END:
+### Transformer decoder的一个block
+:PROPERTIES:
+:heading: true
+:END:
+#### 第一层是multi-head self-attention
+##### ![image.png](../assets/pages_transformer_1613912924192_0.png){:height 172, :width 324}
+##### 输入输出全都是$512\times t$向量
+#### 第二层是multi-head attention layer
+##### 输入是两个序列
+##### ![image.png](../assets/pages_transformer_1613913097213_0.png){:height 225, :width 525}
+##### 输出的也是$512$的向量
+#### 最后一个dense layer
+##### ![image.png](../assets/pages_transformer_1613913397387_0.png){:height 294, :width 248}
+#### 合起来就是一个block
+##### ![image.png](../assets/pages_transformer_1613913572312_0.png){:height 265, :width 263}
+## 最终的Transformer模型
+:PROPERTIES:
+:heading: true
+:END:
+### ![image.png](../assets/pages_transformer_1613913985342_0.png){:height 303, :width 517}
+###
+### 最后输入到[[FFN]]
+#### The [[Pointwise]] [[fully connected layer]] is called [[feed forward network]]
+:PROPERTIES:
+:id: 602f1494-f1af-496b-88e8-0890899d2c25
+:END:
+##### linear transformers
+##### non-linear [[activation function]]s
+## Vision based Transformer
+:PROPERTIES:
+:heading: true
+:END:
+### Input
+#### transformer输入需要sequence
+##### 对一幅图像切分为path -> sequence
+##### 降维
+#### ![image.png](../assets/pages_transformer_1614234369994_0.png)
+#### 如上图,在9个块的基础上追加一个0和
+#####

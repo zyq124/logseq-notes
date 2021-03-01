@@ -1,14 +1,18 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA3V2hkek5KcXNGU3VxRTYr
-bFAvcUJacEk3REpQL0EvNmVEREJuNURsNTNvCmYyV1FlSG5kU0lLaE4wa2Z2Tjcy
-Z21HT2R0RDcxTTR2R1JUREorUGdNRncKLS0tIFpIcnZHamdVaFVmYUFTZC9hRzZQ
-cXNTc0hwdXZlMmtHMnZYV3VPeERodXMKWRKM8LxuGQFPwZzYcEWTExIWpZ+8biEZ
-bvwcnRP5W3KzbQkoAIJhBj2rp0Apacm0a8wqjI0VVDscyStgHoTvestWQT77w81P
-cv6RvggLysL21Vu/7BKx75RjHPD/KCdF/OG/v4L22Kb3CjePGmrojE9+XdDEX/tY
-FrxdbUr7y/yrDIwIc5LZ5sdiDiy9jPhaEO6+RHM2WznZR6GSF8rtLCmD0cMcKKyy
-jm43r/tJQT//5RJJvwJAph4mfGGrBndMsvWmk1L7KuF+gFr/OSCsga0cDZs8Grp+
-NBhN5rNUeHZgOrj70ymD55RjoHIYfKuwwca2TT7822ztl5Iy/cEdFVvo3uQNnvkj
-iFe/g11q5YsCoeMxBeb9nEWb0TPPdjbhN3kRZCgFrpEwaZfMblv/k8oDPb4CLhZl
-9f4i4jDCYKhBY378zwPbw80Yaa64tbyBXepqrBrI+7m+QzvpRdoRmgRg05iPtdL/
-nQ5bBrNnyBzs
------END AGE ENCRYPTED FILE-----
+---
+title: Visual SLAM
+public: true
+---
+
+## [[Camera Model]]
+##
+## Motion Estimation #kanban
+### [[FIrst-Estimate Jacobian]] Estimators
+### [[Measurement Update]]
+### [[Hybrid Rotation Averaging]]
+:PROPERTIES:
+:type: [[Article]]
+:END:
+## [[Optimization]]
+### [[sliding window]] based optimization
+#### [[double window optimization]]
+####

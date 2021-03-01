@@ -1,30 +1,13 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBOam9OUDNCM1pERjZLbTcv
-bEtoMElUSTJDc0hZcFVOaTlLa3ZvOEQ3b2tZClRBYXFvbmo2cFJTdnBQOEltdWRh
-ZWQ5dWREaWVTUEFJRVljWVBtL0ZYUkEKLS0tIEpPUk95STdOUk1Sald4bkRkN3Za
-Yzc5OWkxWDJ6NmFJVTJrQVl6MnBUdm8KD7j0N91Qsy8fW36ezTrHqxT+ArVVDn6Y
-0M/5kqDu44o1Xy/dsjKXD4r9eqnXxnu5YdDCPfDGJmovb7eK4PwjlPXmB9BCY4VN
-zcqf5g7qGjlGBq7BQozlakFbmXUj6D6P9GUI1RYz8Q2m6W5fjDqn+WQLhptMDZVZ
-WrU6K/GIPZFtLGPTG0dh7AhNNaYbXFiYESdWiDR620CMIFl7ejCilYLJmanH8I66
-ckrgsGdUcVst9weNtmY5lTpJJh4Nf2G/DgTmD7SeF0178Ke0X6fn3rpYfTYzJD2o
-ZduIee0WCZKJ745S7c6jbhsIzIpOWd2By7AJbBCdnKoxmwVJo8e0bJqgswJy9wVb
-1rRW/twXTv+TH4uqpdFh9QJwtbCKshq0t9xQeKywXvCrq2Vd1yjaPr5pO370CyTL
-Lv6Q3jVyfHtCZNlc2bbBBV5+LHFMWf5KVkuAL2EGkHFn+HxS0eQZCLgqvvQWVjnU
-EuxM46t+iDeIzFZSP/RH6hYJNk81tCFlxnUZQvP6/8AKTiQ57jjcnENRTRzjzJ3T
-giLOwvVB8RF/ooDomJAZFYc3ge9gjBxv5E87sD2zNLmDMrzQP5MwQ7zEED9zXBXC
-ZECHdmTmGWVN9DAdkIG9RvLTp3qVENOzbJAMzyhUNLGrTMZei8jDoAh8gCVdhx8d
-WcJ9rG5OQSFSGsbU1yu21qKPxJ+FOHUFksZtw/7Yk807Z/igYEcrUoeQDYTvLOVx
-4AiDPtyxDK7+afaQt2tiv3Cj3p0dOIt9bkzRPI8BJnxhugFFIASV/BdTf3yujyWD
-xZTa7fufEuXrsPq6md7ZP2/I06nhTqoPOfmjvyV9A1/Hbz4/1iU9gMjOubb50UXi
-HQ315pVV7s8NjdLqqqdDap6lyRJobmrJhZ44n1Eshcbp4FIueHwT2ZQHtcATV9Ds
-vexmrQPxgA1foO01ucpjXjlsS33ceAZqoQ4YPxP3rZFReTu2vJsaypfHFvYmLIc7
-+FvGQLu91T5qhdhpElUuWb/HL0VoXnJBeHisM8sdCvPkTBEheoaKdoOlosi7XaQl
-biMJeijkFFNE3Mwdsl0LQDhaLcckqPKplqaLliLF8cnTD+os/gUHuYFVNo50kW0D
-y8O2SCMrXUyf7ZmHnXxeQKgC3g1fZId+NEk3g5LTOAqpc8gS2/khFOlsP2M4sWrr
-skOL8pVmkKeiVh9OHsDvGsMSRG6stzTUhB0Ok7Q0Rdu0FsuRnhAaoSEBgOtETx9o
-/sgyQCVQmbF4q0H8qetc40GvvziGt6L1pKgS3xpmfOAqeCcfVkCRhAnL9+/3ayMa
-CIfyWpav51/coOmpuXYD8rUn2oFAqzyN4by18roll2lDrollvamjYA/y6CC6Ma1O
-j1tsCfCjzvNsH+pAHFZtPPele/5UgFe/Ih8UCzu9ZwuaTdoWbttQ/qnFSQprtsKI
-hzDQb3BSgO83rAxdjjNto+k1Mo4SR7xeXMHNwVl6MMEN0hS9g3LEap3j2UOYZmqW
-P9zIyioiuk9Ar8iqGlbZrI2mTYpOJykoc46nCIOPuhKxLkuC
------END AGE ENCRYPTED FILE-----
+---
+title: deconv
+---
+
+## deconv的其中一个用途是做upsampling，即增大图像尺寸.
+### 而dilated conv并不是做upsampling，而是增大感受野。
+### 可以形象的做个解释：对于标准的k*k卷积操作，stride为s，分三种情况:
+#### 1. s>1，即卷积的同时做了downsampling，卷积后图像尺寸减小
+#### 2. s=1，普通的步长为1的卷积，比如在tensorflow中设置padding=SAME的话，卷积的图像输入和输出有相同的尺寸大小
+#### 0<s<1，fractionally strided convolution，相当于对图像做upsampling
+##### 比如s=0.5时，意味着在图像每个像素之间padding一个空白的像素后，stride改为1做卷积，得到的feature map尺寸增大一倍
+##### 而dilated conv不是在像素之间padding空白的像素，而是在已有的像素上，skip掉一些像素，或者输入不变，对conv的kernel参数中插一些0的weight，达到一次卷积看到的空间范围变大的目的
+##### 当然将普通的卷积stride步长设为大于1，也会达到增加感受野的效果，但是stride大于1就会导致downsampling，图像尺寸变小

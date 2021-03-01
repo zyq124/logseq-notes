@@ -1,19 +1,19 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBTOUFEaEt6bkpUUWZkOEVW
-bXpHUUd6Mk9scXZlWVBYVUFxYzJoREtTSFhVCnN1YkZqTERkaG1SbzlneXZuYmYy
-QW8xR0VDYmEzUmJWblZXMkJINmE3aXcKLS0tIGlMT0haaGYvbktvMm9CUDRDSGI1
-eWtaUlYvL0UrdUQzYW9KczdEZUZSaEkKe4YvU7u/GwhSowR+esOKCeXtThkk0/7W
-P/fbhCpo5SJGHFSFbnSWDvZ6XUOPErbuRFjcmGA/J2mRg9i1CVDEiSNfDcek7JPJ
-/UN7mTlSjXCDqztRI9bTW4VFYedt+RPSwHl60BMZ+ea1uPrCaqLzJrFwZFOeJOdw
-L01vJpNmzs5MXr1siZ8Dv4PW1m6j08pK4bn9ywKdfGRvCbudF0lLDTNCxhWNiTwT
-F/xP8XiVywz/2IN27p0/b+GitEpwdjPwyCs4gPo887NdxJv9FFLbe92CgkQqS1Th
-JI9F49NUP8Qk59511O3MsY7THQU96Ry8c1RXdi0Uw9qkpx26gg1b5VrH8TLoeMZq
-4uBf85PDpM/kuRXYSGvsEl9BRVEgqAzh7o2MisOJbq45jPAblLQvdSFtI2K2CG4t
-15CeAfMQzQkTZLjyxxB19mydUhjLoVvPDk3Ox4M/clf9g1qzlxfNd6xubbrjwqSF
-iZxXHWBcv5nWAE8XtlMGPtEDoSRdvJ7n/FttqKzfpHwUHSru836Rx4xU7c4ifSCl
-Ke9JWa856D3hFv5ui+K4xbCzP4P0gKR/YGO8lSz5h5wNHpAdvPPxmOu3KfXyLUK+
-8ovHmGWQesqtsiuDuB1UAcXkbNDwYdW7yQopWJMtGYW/kjkaRVLxzoXZ8yuRTBwk
-2BFQVbwh+1gsFMQv6fb3m8pXri4MdnO4q48aA9FwP/+oB8wiNi1UBPSBs7iV79U2
-djwMWfnzTiNmAHsqiJU7sowmJnqes9wTYirURN7iDO5q9TtwEFecHLsor4r/nNFl
-yCEUBCVWqMbWCZ/xt3rvcJzR4rWk+nYlYg==
------END AGE ENCRYPTED FILE-----
+---
+title: CLI tools
+---
+
+## Clipboard manager: clipit
+## Music: Tizonia
+## Screenshot: Flameshot
+## File Manager: ranger
+## Pattern search (grep alternative): rg
+## File search (find alternative): fd
+## fzf: https://github.com/junegunn/fzf
+### fzf-z plugin for zsh
+## autojump: zoxide https://github.com/ajeetdsouza/zoxide
+## Shell framework: antibody, zimfw https://github.com/zimfw/zimfw
+## Disk usage (du alternative)
+### dust: https://github.com/bootandy/dust
+### ncdu: https://dev.yorhel.nl/ncdu
+## regular expressions: grex https://github.com/pemistahl/grex
+## resource monitor: bpytop

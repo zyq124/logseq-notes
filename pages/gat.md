@@ -1,11 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBOT3VEa1c4ZThhWWhCdVFL
-dDlwN1dLajV3MkdEOHFtOG85K0tJcnRCQTJvClR2bkh3cEZNQnk0WDNhVmhjTGp3
-cWViMVV2ZktaNE5LQy9sc25nWlFYdUUKLS0tIEhrVHhxQUU0U21hS1V1VTdIRnc0
-SUd3WElWNmhUN2MrOEttaWtDYzYzaTQKOYWMTvsLgT1RXQslfLrgZjNLBQkha4RG
-Ww7kJsWYXAES99M6VkkzXv6pfGrqO6HPxG6Wx+/HRDUZWSD2/FXRzpg+yckODOxV
-J8I3XcLatnpn985LVxntI9LJ6BsoIpqUvv8s458WvDXxK0uVXoGzDCVYSjjEo9WH
-AYAj2jnt19UzlfCMFUxjFkCf5iQJJk2GK+Bu6pmJLNusimI9CDBqgwyuHUPKQbKe
-OBlOrz353Xr8DzXDcJV/DsCvDfLuXlXuDORQUZrR4o5yjJyNMz4tlosh2hzsWWhQ
-E4DBk7BYcQLTtk/iFAM=
------END AGE ENCRYPTED FILE-----
+---
+title: GAT
+alias: Graph Attention Networks, 图卷积网络
+---
+## [[GCN]]进一步加上 [[attention]]
+## Paper
+### source: https://petar-v.com/GAT/
+### arxiv: https://arxiv.org/abs/1710.10903

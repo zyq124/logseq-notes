@@ -1,13 +1,19 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBRZDdSSEJQQUJnR0VFbXZy
-TGpJUmtlWnRkN2RrcWNzNDlPQXJPb3JDMFh3CnVBRFpqajZZdXdRdCsyRVFzdHN3
-YmtTNjg4bDVXTVI4SEZSTlV1dWIyL2MKLS0tIGt5ZmZxQkREZWFsaVhxTzYrNUhv
-Q0ZHdHo2VFp3ZDFOTWJHNkVydU1uWWcKGQn7+n6S4X/3HWn+Hn42KDO9CwSzMt2i
-WrCG0nLT55z1jNMpfpkz3sjJSmaBYZlrc1n2zb47n8aXQq2XAKXB7mg59Bdgd84X
-h4GeEAvpzxQY96nzSUMMPoXYsdBDVI21F/4g/jVLm/qkP0glDH1gvmC07+SdJfTS
-tg9BTY0lES62eWGU84rh0yzcJNth7Nt5sD+z1EzqfWQBECDKTkknb2IlTs/Unmer
-LvMreYGK3V9MI6zKg7Mg+RPlrQRERODXFpYoMPxa8eH27Kvla5rP7RndLNIkGS2M
-MRWyRcpCDSbj8V3gtVZjV66WZPxmyZhU+t7c0tuSlzBxihhJiKXhKDD+MX+Li5VL
-FFCz/40KjTdhYFueDQmeBbUlC6Jip5OSUWLFqNQbiTSWIKnW+zef3VM7PwWgQLIU
-MKLpNG4WJuAPnQ/dlPGQ6d8oWij1I9Q+2EHB
------END AGE ENCRYPTED FILE-----
+---
+title: interview of SLAM
+tags: project
+---
+
+## Basic [[maths]]
+### [[Matrix]]
+### [[概率论]]
+## Geometry
+### [[Kinematic]]
+### [[epipolar geometry]]
+### [[Triangulation]]
+### [[PnP]]
+## Visual representations
+## [[Kalman Filter]]
+## Parameterization
+## [[Visual SLAM]]
+## [[Visual Inertial SLAM]]
+##

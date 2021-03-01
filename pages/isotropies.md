@@ -1,10 +1,7 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjSW9BR1IyNm5ZSTZlU0V2
-WXFhYXc3RHBna0VHOXN5dHJoTC9aZjBoS2pnCkpSaEZRbXNXY2ZiRERBTkhVczdJ
-YmR4dHdLV1NtVExrbDMrOE1QYXhHMjQKLS0tIGN2c21na3M5U3NiYmxDcTBlQmpl
-N3g5VjN6WlpYY2Z0cXlTcW9yaHBTSTQKttCQJwRhf4FAYKWMXY3kmwMYXThLfpyL
-FI7zp4ue0k44deNylZqqBMs2JfQu2fqdecYXQNW2RZLhJq4/vbAMJGDvjSSfgXfK
-tz8PdONuoGOe/DsTGgHHo2TnavS4C2UyMT5akXFnDfV+phzXsaX9NUUNoM4ZfpG0
-4kb/MBiIJ1l/zxqkPygmiLvhKX8peMG73OCHYmGXT+cVrLgwWPSsGPniIjybCVKF
-DiEKfMNxQ7CrLNPJWlRwcf0tMPhnGPScMKJN/MIiFw2/1dcTSdst0CKO
------END AGE ENCRYPTED FILE-----
+---
+title: Isotropies
+---
+
+## Two lines have an invariant under a [[similarity transformation]]
+## Two lines and two points have an invariant under a [[projective transform]]
+##

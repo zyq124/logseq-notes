@@ -1,17 +1,15 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA0dFZiQlMxMXFIWWN2NE83
-Q0NMYkh3VXhSeTNrRjF5cmJ3bWtDQjhwMW5FCktYaW5PeW5mOTdpTzNXUHM5Rzlw
-MU9nMElYK0IyaHRxWUFOSE1BT2ZYZjAKLS0tIENWSlgzcXFPRDRxVERmc2pjZEVW
-SG1LMER6RDRMQWxkQWplUlN3aVFoS2MKc7fuY6hpdKniiiRs2wi/dk68LJXvWQ+0
-khVicsx8eN332PQo5PFIHh376flU3TYA0AwNFmbUSD5PcycmJzE+lVMTRHLsHGZo
-1N6Ypmte97/mY1pQ5M/cKpHAcCfoC0c0Ezk+kAgd9uzdBTrLVWHWBpFAg7nxY3MD
-/T76b0A/MLMmKoBKyJ7RCJ7tgPNI5rKcLF4nDyahIuWtFU06gLaGF4MXeVJC+vcK
-0yg8traDSCyT9uDJvHHyiliZJB5BLRzna756bj5vuZVo+qf7w5GZVh8VYxsS8YU7
-jh62AMJy1iO1mKfnWkMfBGQLEYt0sAollmC4yL0bDukK14ruNAHjvefkYaa8eji4
-ZDvA8/Aoe4kFVmzvikZeB+ET1nXW2+gc3+lfFMld+cXb7p5ca5v4rj0sFglK/OgV
-DXthldPNw2wlBQDcR6VpgAp2HRXQolRen0/TOeApX7aWFVOMIm6tTDitt8E7Kmj+
-fuhzaEFSiCCkU7jkaCE4YuWcFJpj7yC8UqOfyj7Ye3hiZ2UZq0cJ85kUoJ/T1cPc
-pUhuclf1JICgi4f5tJvpRF3Q/+PJd7taNJN9C4TSvAybviXBxz6EDZ0aJd3mPBwd
-uaY22ZsPg/1YXYdOAWQijQFcB2rCLsMS59PjLXsSat8E+mQHX6lprpHh+8Qh7tfE
-DtvmEg==
------END AGE ENCRYPTED FILE-----
+---
+title: Stride
+alias: 步幅
+tags: CNN, [[convolution kernel]]
+---
+
+## ((600a84d5-8444-43c8-8f1a-1715fa57a135))
+
+## 将每次滑动的行数和列数成为步幅stride
+## ![image.png](/assets/pages_stride_1611302193196_0.png)
+## 高上stride $s_h$, 宽上stride $s_w$,输出形状为:
+###
+$$\lfloor{(n_h - k_h +p_h + s_h)/s_h}\rfloor \times \lfloor{(n_w - k_w +p_w +s_w)/s_w} \rfloor$$
+### ![image.png](/assets/pages_stride_1611303389399_0.png){:height 95, :width 673}
+###
