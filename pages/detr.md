@@ -1,210 +1,253 @@
----
-title: DETR
-type: Article
-citekey: carionEndtoEndObjectDetection2020
-publication date: [[2020-05-28]]
-authors: [[Nicolas Carion]], [[Francisco Massa]], [[Gabriel Synnaeve]], [[Nicolas Usunier]], [[Alexander Kirillov]], [[Sergey Zagoruyko]]
-tags: #attention, #detection, #transformer, #zotero, #literature-notes, #reference, [[object detection]]
----
-
-## End-to-End Object Detection with Transformers #readdone
-### Zotero Metadata
-
-#### [http://arxiv.org/abs/2005.12872](http://arxiv.org/abs/2005.12872)
-#### code: https://github.com/facebookresearch/detr
-#### PDF Attachments
-	- [Carion et al_2020_End-to-End Object Detection with Transformers.pdf](zotero://open-pdf/library/items/LJKH5VA3)
-
-#### [[abstract]]:
-##### We present a new method that views object detection as a **direct set prediction problem**.
-##### Our approach streamlines the detection pipeline, effectively removing the need for many hand-designed components that explicitly encode our prior knowledge about the task.
-###### 取代现在模型需要手工设计的工作
-####### [[NMS]]
-####### anchor generation
-####### 不需要设置先验anchor,几乎没有超参数,也不需要NMS(因为输出的无需集合没有重复情况)
-##### The main ingredients of the new framework, called DEtection TRansformer or DETR, are a ^^set-based global loss^^ that forces unique predictions via [[bipartite graph matching]], and a _transformer encoder-decoder architecture_.
-###### Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the **global image context** to directly output the final set of predictions in parallel.
-####### infer固定数量(100)的预测集合 #practical
-######## 每个集合包括类别和坐标信息
-######### $y_i=(c_i;b_i)$
-######### $c$ 是92(91+1)个类别响亮
-######### $b$ 是长度为4的bbox坐标向量
-######## 输出的时候就会有两个分支: bbox分支(b,100,4)和分类分支(b,100,92)
-####### 图中物体不够$N$个就用 $\phi$ (no object) 填充padding
-######## 计算loss的时候bbox分支仅计算有物体位置,背景集合忽略
-###### The new model is conceptually simple and does not require a specialized library, unlike many other modern detectors.
-##### DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized [[Faster R-CNN]] baseline on the challenging [[COCO]] object detection dataset.
-###### Moreover, DETR can be easily generalized to produce [[panoptic segmentation]] in a unified manner.
-###### We show that it significantly outperforms competitive baselines.
-#### zotero items: [Local library](zotero://select/items/1_RJB6MLHT)
-## Overview
-:PROPERTIES:
-:heading: true
-:END:
-### 两个关键点
-#### [[transformer]]的 [[Encoder-decoder]]架构一次性生成$N$个(100)box prediction
-##### 有几处针对目标检测对原始 [[transformer]] 进行的网络结构改进
-#### 设计 [[bipartite graph matching]] loss
-##### 基于predicted boxes和gt boxes进行bipartite二分图匹配计算loss
-### ![image.png](../assets/pages_detr_1613963899263_0.png){:height 143, :width 749}
-## 1. DETR Architecture
-:PROPERTIES:
-:heading: true
-:END:
-### 三个部分: encoder, decoder, FFN
-### ![image.png](../assets/pages_detr_1613966635630_0.png)
-#### CNN backbone to learn a 2D representation.
-##### flattened and supplemented with a positional encoding before entering encoder
-#### A transformer encoder takes a small fixed number of learned positional embeddings
-##### **object queries**
-#### pass the output embedding of decoder to a ^^shared^^ [[feed forward network]] (FFN)
-##### to predict either a detection or "no object" class
-### 1.1 Backbone
-:PROPERTIES:
-:heading: true
-:END:
-#### $\mathbf{x}_{img}\in{\mathbb{R}^{3\times H_0 \times W_0}}$ -> feature map $f\in \mathbb{R}^{C\times H \times W}$
-##### $C=2048$
-##### $H, W=\frac{H_0}{32}, \frac{W_0}{32}$
-### 1.2 encoder
-:PROPERTIES:
-:heading: true
-:END:
-#### a $1\times 1$ convolution reduces the channel dim of the high-level activation map $f$
-##### $C$ to a smaller dimension $d$
-###### 维度压缩
-###### new feature map $z_0\in \mathbb{R}^{d\times H \times W}$
-##### reshape -> $d\times HW$ feature map
-###### 序列化数据
-#### each encoder layer has a **multi-head self-attention** module and a [[FFN]]
-#### 因为transformer encoder结构是permutation-invariant的 (顺序无关的)
-##### 每一个attention layer的输入加上fixed [[positional encoding]]s
-###### 反映位置信息
-###### 考虑2D空间,即xy方向
-###### 每个方向128维
-####
-#+BEGIN_NOTE
-位置编码向量仅加到Q和K中,$V$没有加入位置信息
-和原始做法不同
-#+END_NOTE
-####
-#+BEGIN_NOTE
-位置编码向量加入到每个编码器(6个)中
-原始做法只有第一个编码器输入位置编码向量
-#+END_NOTE
-### 1.3 Decoder
-:PROPERTIES:
-:heading: true
-:END:
-#### 跟标准transformer区别在于
-##### the model decodes the $N$ objects **in parallel** at each decoder layer
-#### 因为transformer decoder结构是permutation-invariant的
-##### $N$个input embeddings must be different to produce different results
-###### shape $(100, 256)$
-###### 被称为^^object queries^^
-####### 在学习过程中提供target和context image 之间的关系,相当于全局注意力
-######## 通俗理解: object queries矩阵内部通过学习建模了100个物体之间的全局关系，例如房间里面的桌子旁边(A类)一般是放椅子(B类)，而不会是放一头大象(C类)
-######## 训练过程中每个格子(共N个)的向量都会包括整个训练集相关的位置和类别信息
-######### 例如第0个格子里存储某个空间位置的大象类别的嵌入向量
-######### 但是这个大象类别embedding vector和某一张图片的大象特征无关,而是通过训练考虑了所有图片里的某个位置附近的大象编码特征
-######### 属于和位置有关的全局大象统计信息
-########
-#+BEGIN_SRC python
-# num_queries=100,hidden_dim=256
-self.query_embed = nn.Embedding(num_queries, hidden_dim)
-#+END_SRC
-######## 训练过程
-######### 图片输入到encoder中进行特征编码,输出的编码向量就是$K$和$V$
-######### **object queries**是$Q$
-######### 计算QQ和KK,加权VV得到编码器的输出
-########## 第0个格子的$q_0$会和KK中所有向量计算
-########## 目的是查找某个位置附近有没有大象
-########## 如果有会加权输出
-######### 整个过程计算后就可有把编码vector提取出来,特征已经对齐了
-######## 作用有点类似anchor in [[Faster R-CNN]],但是是可学习的,不是提前设置好的
-########
-###### 被decoder转换成output embeddings
-#### Using self and encoder-decoder attention over these embeddings, the model globally reasons about all objects together using [[Pairwise]] relations between them
-##### while able to use the whole image as context
-#### 一次解码输出全部unordered set
-##### 因为任务是无序集合，做成顺序推理有序输出没有必要
-##### 只需要初始化时候输入一个全0的查询向量A，类似于BOS_WORD作用
-###### 然后第一个解码器接受该输入A，解码输出向量作为下一个解码器输入，不断推理即可.
-###### 不需要在第二个解码器输入时候考虑BOS_WORD和第一个解码器输出.
-### 1.4 **Feed Forward Network**
-{{embed ((60389635-8602-43a5-9b4d-dc077719605a)) }}
-### 1.5 Auxiliary decoding losses
-:PROPERTIES:
-:heading: true
-:END:
-#### add prediction FFNs and [[Hungarian]] loss after each decoder layer
-##### 作者实验发现，如果对解码器的每个输出都加入辅助的分类和回归loss，可以提升性能
-##### 作者除了对最后一个编码层的输出进行Loss监督外，还对其余5个编码器采用了**同样的loss监督**，只不过权重设置低一点而已
-#### All FFNs share the parameters
-#### Use additional shared **layer-norm** to normalize input to the prediction FFNs from different decoder layers
-### ![image.png](../assets/pages_detr_1613987449992_0.png)
-## 2. Loss
-:PROPERTIES:
-:heading: true
-:END:
-### 2.1 Object detection set prediction loss to force **unique** matching
-:PROPERTIES:
-:heading: true
-:END:
-#### 为什么要匹配? #motivation
-##### 因为输出的$b\times 100$个检测集合是无序的,如何和**gt** bbox计算loss呢?
-##### 需要 [[bipartite graph matching]] 双边匹配得到匹配索引 index
-#### ground truth boxes的个数(即图中object的个数)为$m$，由于$N$是一个事先设定好的远远大于image objects个数的整数，所以$N>>m$即生成的prediction boxes的数量会远远大于ground truth boxes 数量
-##### 为了解决上述问题,认为构造一个新的物体类别 $\phi$ 表示没有物体
-##### 多出来的$N-m$个prediction embedding就会和 $\phi$类别配对
-#### (1) 用 [[Hungarian]] 找到cost最小的 bipartite matching方案
-##### search for a permutation of $N$ elements $\sigma \in \mathcal{G}_N$ with the lowest cost
-###### $\hat{\sigma}(i)$表示无序gt bbox集合的哪个元素和输出预测集合中的第$i$个匹配
-######
-$$
-\hat{\sigma}=\underset{\sigma \in \mathfrak{S}_{N}}{\arg \min } \sum_{i}^{N} \mathcal{L}_{\operatorname{match}}\left(y_{i}, \hat{y}_{\sigma(i)}\right)
-$$
-###### $y$ denotes **gt** set of objects (size $N$ padded with $\phi$)
-###### $\hat{\mathbf{y}}=\{\hat{y}_i\}^N_{i=1}$ the set of $N$ predictions
-###### $\mathcal{L}_{\operatorname{match}}\left(y_{i}, \hat{y}_{\sigma(i)}\right)$ [[Pairwise]] matching cost between **gt** $y_i$ and prediction with index $\sigma(i)$
-##### 这个matching cost 考虑class prediction 和 similarity
-######
-$$
-\mathcal{L}_{\operatorname{match}}\left(y_{i}, \hat{y}_{\sigma(i)}\right) = -\mathbf{1}_{\left\{c_{i} \neq \varnothing\right\}} \hat{p}_{\sigma(i)}\left(c_{i}\right)+\mathbf{1}_{\left\{c_{i} \neq \varnothing\right\}} \mathcal{L}_{\mathrm{box}}\left(b_{i}, \hat{b}_{\sigma(i)}\right)
-$$
-###### $c_i$是target class label (might be $\phi$)
-###### $b_i \in \left[0,1\right]^4$是vector to define gt box center coordinates and height, width w.r.t image size
-###### $\hat{p}_{\sigma(i)}(c_i)$是probability of class $c_i$
-###### $\hat{b}_{\sigma(i)}$是predicted box
-##### 重点是找到one-to-one 的匹配,没有duplicates
-#### (2) 计算loss function
-##### The _Hungarian loss_ for all pairs matched in step (1)
-##### 跟常规object detectors类似
-###### linear combination of a negative log-likelihood
-####### class prediction
-####### box loss
-###### 提供输入的$N$个输出集合和$M$个gt bbox之间的**关联程度**
-#######
-$$
-\mathcal{L}_{\text {Hungarian }}(y, \hat{y})=\sum_{i=1}^{N}\left[-\log \hat{p}_{\hat{\sigma}(i)}\left(c_{i}\right)+\mathbf{1}_{\left\{c_{i} \neq \varnothing\right\}} \mathcal{L}_{\text {box }}\left(b_{i}, \hat{b}_{\hat{\sigma}}(i)\right)\right]
-$$
-####### $\hat{\sigma}$ optimal assignment in step (1)
-####### down-weight the log-probability term when $c_i=\phi$ by factor 10 #practical
-######## 解决 class imbalance
-######## #related [[Faster R-CNN]] training procedure balances positive/negative by ^^subsampling^^
-###### The matching cost between object and $\phi$ does not depend on prediction
-####### in this case the cost is constant
-##### Bounding box loss
-###### make box predictions directly
-####### 不同与其他detectors w.r.t. initial guesses
-###### 为了解决scale的问题
-####### linear **combination** of the [[l1 loss]] and the generalized [[IoU]] loss $\mathcal{L}_{iou}$
-######## GIOU is scale-invariant
-###### $\mathcal{L}_{box}(b_i, \hat{b}_{\sigma(i)})$ defined as:
-#######
-$$
-\lambda_{\text {iou }} \mathcal{L}_{\text {iou }}\left(b_{i}, \hat{b}_{\sigma(i)}\right)+\lambda_{\mathrm{L} 1}\left\|b_{i}-\hat{b}_{\sigma(i)}\right\|_{1}
-$$
-######## $\left\|b_{i}-\hat{b}_{\sigma(i)}\right\|$ 为两个box中心坐标的 [[l1 distance]]
-######
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAzM3dTcGh3TUVNUXBPbTVl
+RzNWa05lVVprS3c0SHpuQk03SllkRWxqT3dBCmUyVDRmNFZReWZBdy8zRGJXMnkr
+TW4rTUhRTjNiSlRCT3BDcnVoQmxGSGcKLS0tIEQ0WHRyc1RVVy9wdkxxNHU2WWdY
+RHNmYkJkamorUW9HeStldEYyNUcxQjAK/YWYONnI1yi7fZRMKkPqLJFWIjJIPFSz
+UYVEqGNzocs+t3tQzYlT9fYNXbgBwFHG6V8Db8Ol2uS9d6qoWbXeAsCZW3Cny++A
+K2xOjdvNZDxhBCJlJqT0UbH4Jp/9HBL2+jBKUG8JMplo3UwBHQsPatf9hFLdNKXH
+WVWqAEC+mysfft8835OWtK2+2awmB0VRCvwV4pAgSSeBixrYEgmQsaztwxCrsPPt
+xyHF9JTrGrv7Hgza/htIlVMz8h6jF2g7zd9GGu5VhzDXxzzPxm11ej1RF4Got9cB
+JOMd75m4VW9VyV29cnNQ04/baeQ0ZwPOuyB73w8IQaai1s+g/EYNuk3mDNEolGff
+NDs+/xeVek96ULYncsdH73zS77A1CJNWAwRvDcBPcif8YNsVCqGq9Tr2fvVIxRbq
+nkXY/IjXR2vrQqjc9zeWcd+fJ36E5/yc5mKM7YO4HfDK/8cxq7xF29HhZRCzz+A7
+AfWFY+z4MYhIzt10JHEPO8lGH2tzDJJJ4q4YzRTU+P9pT5OriP2U8KSo7qNwfYh0
+tp9Ad6rcP1rufAa99533hTO9fUbxnWTUoiDvMqKx9plNch8klncv5Ul6Sroto116
+ZV91jJDlRq6NH606H8TOENVm/SY6fI5J0sKMTcgh+X1Kro6rvkAv3r4Q4Z9kaLZ3
+Xv5H/RLD7Litb2HwBD7b67/mzcdfOT4eKowc5uzBbopD3ZQoeoha7ws6o+GGBs3C
+/HyWcbXnLFbBK69MOFrwEAUteaPai45usgRYJmeMApyaa+/1pJuNIbeI9eN3qeKC
+i2x7t75dOMTn2pi+qXoRhJuRVEzvA8aYoyP+SHqk4+UIJ3b4dT0ZN8OkZ/Kik6zA
+mlWqmw83iR0O4jRdCX0eWQwMwRuVjqEICZ0JkSpPzAXzYClV1p6Ys/erAURP731C
+wKm+ZMIkA7DoexjhLFYsZHI9Y4piQkKEjAq1Y1itPeXn20Z9U/QKE0wtioIIeTz8
+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
+3aJwnSDLqehXNR7S3gs=
+-----END AGE ENCRYPTED FILE-----
