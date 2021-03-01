@@ -1,10 +1,11 @@
----
-title: segmentation and MOT
-tags: mot segmentation
----
-
-##
-##
-## [[GMPHD]] filter widely used for online 2D box [[MOT]] methods
-## [[MOTS]] CVPR 2019
-## [[video instance segmentation tracking with VAE]]
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBJZHFRRThadDZIeDhpQnlv
+SUZhQjRIV2tjV1pIaTdKU2duMmc4elNWSlR3CjZjTjJBUkd0anhMMmFocFF0dU00
+MnNuV0lIYnNoWlRqcWduWTRJNUxMQ28KLS0tIE12RVBzUHBQdkJlTzFyVk4vOFRS
+Z2tSeUdxNk1XL3VTaGx1dmtIdURpQXMKFeYWn3h9E5ZvvqPd8W5WSIAXeU96554c
+53Ez1x9QBL0Yu7VQPcEbtXpc3HfooG1PabZe2FN5Qy/bS83N0xtIo2+m1Ml7/9jC
+8X/26mYwlXYIww0nZYXb1bDZuwnyC9KWzWYkE2Ty1YYEdey2Qzc6WpXUKOweaXC6
+Yu7YV0d9ue4DDd+nLH/33/BTPFf1GJ4+eJPq84a21MPOwfN7H+N1Imk1X9mk2Wtt
+SA6NuUmemkXgtDvFu7foldsoDJ0O1V/XNk61oXew5ifakmuTtMZapJphaC8qxgDO
+A0ZzCcmN/vRqLliIMsldqtdtu2TrNA==
+-----END AGE ENCRYPTED FILE-----
