@@ -1,8 +1,11 @@
----
-title: GAT
-alias: Graph Attention Networks, 图卷积网络
----
-## [[GCN]]进一步加上 [[attention]]
-## Paper
-### source: https://petar-v.com/GAT/
-### arxiv: https://arxiv.org/abs/1710.10903
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA4WlpOcGE2d3Q2QjFZQlR4
+Nm00cE93S2hyQjA5bjhRZTBBbENwc3pFTEZRCkVpaTA4THBUMHhIVGZLb1lvL1Fz
+T0hEbVgrOGhYNHVKT0ZIOHgrUkI2ZVEKLS0tIFFBb1lXckNHL1VraXF0WEt4U0Fm
+WWFwZHJrRklQRGExWnNYeUVFa2tmM1kKLAq7Gk6pya+ggrlUrvCozZ3TTx20koLS
+jgKSN1N+9N8rtwLuar82lgPPOf0w8WZCbnzbBp7OraG+xPDkoUSsf70h6mGAbPEm
+EwponOyXAD/6b4r6NScEA8fc0AFutSQgv/P8QK2XRYkSM5vaLjg1ViuaXt8Pn5pT
+0uxhC6KmiYz+/13L4SbSnF/fDy80Dby8eleIm0oScE1dwDiVg0K4h/LkXQ48siNj
+ivV1PqXhRyYIv8eP3dD5Q6C4YTxZmfLAz4dJ9dCbeYBQMicWf5Qfm/2XLLWK7nJ1
+EwQLuj99VNbIq4+qGSk=
+-----END AGE ENCRYPTED FILE-----
