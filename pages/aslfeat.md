@@ -1,107 +1,123 @@
----
-title: ASLFeat
-published: true
-permalink: aslfeat
-public: true
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### #title ASLFeat: Learning Local Features of Accurate Shape and Localization, 2020
-### #topic  #Keypoint #[[Descriptor Matching]] [[D2-Net]] [[R2D2]]
-
-## Limitations of local feature detection and descriptions
-### Awareness of estimating local shape (scale, orientation, etc)
-
-### Localization accuracy
-
-## Literature Review:
-:PROPERTIES:
-:heading: true
-:END:
-### [[Lf-net]] and [[D2-Net]] empirically yield low precision in two-view matching or introduce large reprojection error in SfM tasks. As the detections are from low-resolution feature maps ($$ 1/4 $$ times original size).
-
-### [[Superpoint]] learns to upsample the feature maps with pixel-wise supervision from artificial points.
-
-### [[R2D2]] employs [[dilated conv]] to maintain the spatial resolution but trades off excessive GPU and memory usage.
-#### It handcrafted a selection rule to derive keypoints from the same feature maps that are used for extracting feature descriptors, which ^^couples^^ the capability of detectors and descriptor. ^^Good^^  
-
-### Detections from ^^deepest^^ layer might not be able to identify low-level structures (corners, edges, etc) where keypoints are often located.
-
-## Contributions:
-:PROPERTIES:
-:heading: true
-:END:
-### [[Deformable Convolution Network]] in dense prediction framework. 
-
-### Allow pixel-wise estimation of lcoal transformation as well as progressive shape modelling by stacking multiple DCNs.
-#### Leverage inherent feature hierarchy. Restore both spatial resolution and low-level details for accurate keypoint localization.
-
-### Peakiness measurement for more selective keypoint detection.
-
-## Network Architecture
-:PROPERTIES:
-:heading: true
-:END:
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FaeNGx2iSyq.png?alt=media&token=5b050b88-2111-4dc9-81c0-d892ca64f1f8)
-
-## 1. Prerequisites
-:PROPERTIES:
-:heading: true
-:END:
-### Output features $\mathbf{y}$ of a standard convolution for each spatial position $\mathbf{p}$ is:
-#### ^^(1)^^                 $$ \mathbf{y(p)}=\sum\limits_{\mathbf{p}_n\in\mathcal{R}} w(\mathbf{p}_n)\cdot\mathbf{x(p+p_n)} $$, 
-given regular grid $\mathcal{R}$ sampling over input feature map $\mathbf{x}.$
-### DCN augments the regular convolution by additionally learning both sampling offsets $\{\Delta\mathbf{p}_n|n=1,\cdots,N\}$ and feature amplitudes $\{\Delta\mathbf{m}_n|n=1,\cdots,N\}$, where $ N=|\mathcal{R}|$, and rewrite Eq. (1) as:
-#### ^^(2)^^                   $$ \mathbf{y(p)}=\sum\limits_{\mathbf{p}_n\in{\mathcal{R}}}w(\mathbf{p}_n)\cdot \mathbf{x(p+p_n}+\Delta\mathbf{p_n})\cdot\Delta\mathbf{m}_n $$  
-with feature amplitude $$ \Delta\mathbf{m}_n $$ limited to $$ (0,1) $$.
-
-## 2. DCN with Geometric Constraints
-:PROPERTIES:
-:heading: true
-:END:
-### Original free-form DCN predicts local transformation of DOF like $9\times 2$ offsets for a $3\times 3$ kernel. It can model complex deformation but takes a risk of over-paramertizing local shape.
-### Affine-constrained DCN. Decompsed as
-#### ^^(3) ^^             $$ \mathbf{S}=\lambda R(\theta)=\lambda\left( \begin{array}{cc}\cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \end{array}\right) $$  
-
-### WIth additional estimate of shearing, as a learnable problem by [AffNet](AffNet.md):
-#### ^^(4)^^              $$  \begin{aligned} \mathbf{A} = & \mathbf{S}A^{\prime}=\lambda R(\theta)A^{\prime} \\= & \lambda \left( \begin{array}{cc}\cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \end{array} \right) \left( \begin{array}{cc}a_{11}^{\prime} & 0 \\ a_{21}^{\prime} & a_{22}^\prime   \end{array} \right)\end{aligned} $$
-where $det(A^{\prime})=1$. The network predict one scalar for scaling, two for rotation and other three for shearing ($A^{\prime}$).
-### Homography-constrained DCN
-:PROPERTIES:
-:id: 60040400-994c-4a4f-bc52-315547409fd3
-:END:
-#### TODO To read this part  
-
-## 3. Selective and Accurate Keypoint Detection
-:PROPERTIES:
-:heading: true
-:END:
-### Refer to original [[D2-Net]]:
-#### Section
-##### Amenable for back propagation.
-
-##### Define a soft local-max score
-###### (4)            $$ \alpha_{ij}^k=\exp(D_{ij}^k)/\sum_{(i^{\prime},j^{\prime})\in\mathcal{N}(i,j)} \exp(D_{i'j'}^k) $$
-where $\mathcal{N}(i,j)$ is the set of 9 neighbours of pixel $(i,j)$.
-##### Define a soft channel selection to compute a [Ratio-to-max](Ratio-to-max.md) per descriptor that emulates channel-wise non-maximum suppression:
-###### (5)            $$ \beta_{ij}^k = D_{ij}^k/\max\limits_t D_{ij}^t $$  
-
-##### Together we maximize the product of both scores across all feature maps $k$ to obtain single score map:
-###### (6)            $$ \gamma_{ij}=\max\limits_k (\alpha_{ij}^k \beta_{ij}^k $$)
-
-##### Image-level [[normalization]]:
-###### (7)             $$ s_{ij}=\gamma_{ij} / \sum\limits_{(i',j')} \gamma_{i'j'} $$
-
-## Keypoint peakiness measurement
-### The [[Ratio-to-max]] (Eq. (5)) has the limitation that it only weakly relates to the actual distribution of all responses along the channel.
-
-### We modify it with ^^Peakiness^^ as keypoint measurement:
-#### ^^(5)^^            $$ \beta_{ij}^c=\text{softplus}(\mathbf{y}_{ij}^c - \frac{1}{C}\sum\limits_t \mathbf{y}_{ij}^t ) $$  
-where softplus activates the peakiness to a positive value.
-
-#### Similarly, for Eq. (4) we rewrite:
-
-#### ^^(6)^^             $$ \alpha_{ij}^c=\text{softplus}\left(\mathbf{y}_{ij}^c-\frac{1}{|\mathcal{N}(i,j)|}\sum\limits_{(i',j')\in\mathcal{N}(i,j)}\mathbf{y}_{i'j'}^c \right) $$
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAvMm1JLzZaTGxGTDJycXAx
+UzQ5MWJLQ0xQTWVxb2dwbTZlMjZRRjdhNjBJCkJIVnVpRGt2dndWUmkxbkpITDBn
+WmNNZWpuM2hKOFpudEhzSGRKczdKU1kKLS0tIGVPNk1jMUxobDdXaVk2RWxaVGs4
+dlNVU3FkZXhzcm4yY0paMDYyU0xWTzQKmnLnh/rzss2t3zluj/HMVk84gq8ZqQlu
+yHUNHrLLYBqr5Fl/+w4Uoed+0qETo4TBCId9WFG0jjjw4ZGP/IhjllQk04f3vjv0
+NgkDEpZg3cySp8uKJnSGTYsktQPAE7mxdk0j6inr1Kmz6bK8P3PiDH5CoYQRhVjN
+kEEvFgkUjfj+2062N9KcCXIKpFLb1s31Ok7ufbI8wcEA/jPl2DobpEzdPNp4vmGF
+wJZV2jk9OKhyvd6zbtImoCDNkUb2d6khPET0o3I4iqcXeyr2Gh8LiWXI2OqK+1Yl
+9/OCozqJ8M6QwDfVFQXEfRzL88+GFYKeNIZm4HS9OSH1M+RjaL284BWXdR2swS0x
+iM+DGQz+sPWtiUekHkc8EB7ZSzE3cPT4cb54sIyEp8EtjZRAUobCuRABbAhi9rLF
+ch4ZraGEXOnutAm8ddlBeoB7AIa2QBZOMS4xjyifuTn/TJf/4ik0sH+qHDLKo0zH
+ioeGmmHekR8RBzqA5Qi+Lo2In7xkEvv4ld30Tw2kOT8QnGJFT+g5aWOcid+L/kG9
+RI/uUCt8LZA/zHQTDZe7yfqpZXDeTTIMGvbfPS5AiIjidzFoK2JfdXrFKgR2aeNo
+CsPZ3vFeVocg/mNPJ9iAPXotgYTMPfM2Ssmc5/HsrYbD/DYSIUfzE4E650wwCVN9
++SjMId6EUG3wyetdqyK6E/lgl1cof68KYCfc4P0NLFgr6H6p41i9zMOVmFCQcuMi
+lOiPEgbmuo1o3BF1PYUYC0gDOsG2I2IMKz+hdLd1MPMCOg533gpUKDmxnFZy8A2B
+wWgqemGjIWew4V9nP4TEX9dtOCeYxc89ulpfVNeUNh6uBwvqRsBD53DbR2kgMnEH
+WtuDW/XHEM1dpVCP0yex7pDmsHZYTGF+1eB/LllEgbuEVok30ahdcHKAyGbTO2Hk
+LbB4sa09PhJ4fS62Q0MCytOis+80TxNm723KV88otFjZMYTnys9zTxUPvG+iqKu8
+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
+TgEx0wV0VXEbHUUtq7Ob0wYW7jzf1MA=
+-----END AGE ENCRYPTED FILE-----
