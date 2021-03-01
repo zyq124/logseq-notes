@@ -1,20 +1,26 @@
----
-title: homogeneous coordinate
----
-
-## #[[multi-view geometry]] 
-
-## A point in 3D-space is represented in homogeneous coordinates as a 4-vector.
-### the homogeneous vector $\mathbf{x}=(x_1,x_2, x_3,x_4)^{\top}$
-### with $x_4\neq 0$ represents the point $(x,y,z)^{\top}$ of $\mathbb{R}^3$ with inhomogeneous coordinates
-####
-$$x=x_1/x_4, y=x_2/x_4, z=x_3/x_4$$
-### So a homogeneous representation of $(x,y,z)^{\top}$ is $\mathbf{x}=(x,y, z,1)^{\top}$.
-### $x_4=0$ represents points at ^^infinity^^.
-## A** [[projective transformation]]** acting on $\mathbb{P}^3$ is a [[linear transform]] on homogeneous 4-vectors represented by a non-singular $4\times 4$ matrix
-### $\mathbf{x}^{\prime}=H\mathbf{x}$
-### $H$ is homogeneous and has ^^15^^ [[degrees of freedom]]
-#### The [[dof]] follow the 16 elements of the matrix less one for overall scaling.
-## Planar projective transformation
-### the map is a [[collineation]]
-####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBwc1JlU0RuQTFUalNnN2ZN
+ZGZUWFlQbFMwYW1PbEJCTnBsd01Td0RVU2lRCjlyTFFhaGlQVDR1OHNidkxwaC9a
+OWd3WTgzSUw4dkZRTGJDTGl5WUdzSlEKLS0tIGdiemlRMUZhZW0zY2FTV2h5TXR2
+WWszdVZDNFpLckx2cm9Da09IMmlaTDAKUtAIeSiHtoLIJygNjySIKheqGPCWxEK8
+81RCUwIR+4CRTU8Jf84ZzjBih/qzy7E3LcTDFJd7vQfyHkeEDVyUj0t+BxlcAeyt
+zN8or5jjBvnJKuxPt9I+Xf9FVnQLzOgLraB4r7w9V0eRaqaGbhWQi7yvfCwqUjkZ
+gqKhLcyB6ZtA9pxwk0tf1g/4gH7unxWhXUnmK+meeXl6QEygjcuIbe+fOXf3D1g2
+ujOOhEg8h76xFtYLH9VUXPOnn4UOHfOWUuVr5meOAVf+jvFjK4z6yZIpD/Q777SS
+pQgB12YLYvHWIVIQwHXOqSPrs+/hCHH+0rGX+Qkx5llspsJjfRf3y3qWvY8LgFdh
+BvsLJoGCIg51yXMjFNru5lYBeGBXoxhwahjtbhO3aSoSbN6zQ8GQbs/0Vm86gtM7
+28i5M08Kc3BW+zR/HT+zu7Y4pJCK2fbLk35FChF/3T3kD0EfjTti1aYPsuAGdRYM
+0IZC+kjgCXwxLDb1XMZqnwJP1DV0I6X98iVuDnTkVZZBzBfj5oNx1osfULJrZI81
+9bLatR0rHA9qXfjLaw+oGzqoY7yTTTEHbcDv4OBsozKulCqk96c5uikHFdMMoGnS
+zgjPwvoTDuQifqaIwqjHFe87WX4okDeng6UU97KdfIM04i6hy63hYYZXdQIlZ4EJ
+sj73NAvD+85cozmAp37mcj+m+0bWQXMWCy0O9T3clqnDbk5SdjAvZBoN1D+hexOj
+/CgYZmBnziOeZqaBjFz2NUoDHpf+5o0aqhsNnMIHSywrtQitENcrOIP7Hkg1KIqb
+MkQ/ta1pwuzuvSzmqvj8HYuTOL8bTPddvTjkp8FkS0oZziviVlEd5YS6bUJAdpaA
+2voPfzR1Sfd+8nhLVWkZqc1prrRc4lOZjiV9ZiTLC8XNYXlIyJRtOA6hBPS/4WPW
+iub//JZ0yjdK/QlLWn/nyRpKWoDwh8KLvNWzxpPEJ3nWXdX11aBjJ5S6qz4MqEm1
+5J+tRcDoItZE27fFQhjJaxW4HAJyXbwqMCOgdlTCt7/gFNwSKbc493OqqUyDOJEP
+u7NhhF6k2xWrX3Pt1J1lmHrjGIuNxbunHUQtAjpDRMnmq/o5IdxyBVW++ZpzMAYk
+EJFTsjlL8luk/35SAClKunSWFspd3DtfyuH6h9epfckoHHsglpKWPbsIABIULNdn
+l3srsmFo7uSL5QAwbrzlQACv63qFFZQcFSCNefsPrQeQF8RRK93vbosV/Zmqr6JX
+uVStsKHTKfEbVetYN8f0XX/2/I0=
+-----END AGE ENCRYPTED FILE-----
