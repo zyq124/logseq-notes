@@ -1,12 +1,12 @@
----
-title: degrees of freedom
-alias: DOF,自由度
-tags: [[epipolar geometry]], [[motion degeneration]] 
----
-## Read the book [[multi-view geometry]]
-:PROPERTIES:
-:type: book
-:author: [[Richard Hartley]], [[Andrew Zisserman]]
-:publication date: 2004
-:END:
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBwRlFpSGI2RUxGSnZ4K2N1
+aDlMc204bGRweEZpV2NvOXhENDFSa0RLRWtBCmhkMnZTcTlKd0xZOEpJajUwczBD
+UDNpM1hMMmR2QnVsQzNSb3JzT3RpaWsKLS0tIDVUNDk2Sy9LclBkYmFMTUM4V0ZP
+QXpNWjRqSWo2YXBhT2J2Zm0yNFdMajQKa/plHVCk6uP0fHoh1I4mMrByYn5bh+q4
+rDBQU3+B0CHJ9HMnzXU4seMESo2r3ZZ2s7Xd/ohL3tgGwtv7aiuq9B1tHWL5aoy/
+Z284dhNPYn+8MAhLQfcBkHBj1gcOOzYxiUGYoDCQwpl3neNEYA0Mg9qkpGvBi8fK
+Vd9xgDKP5ZfnzP0KKs4v8UgXJX7tTUKATr9beOcOKYlBhXLTpF2pVOEOFPCBYcYf
+DwHkJ70//DmvaUW7W2rzsRTeLX8H+Bm4Du8Cy5KHkiujvtk4k8O0DwFDpwb7+qSq
+E6jTSVK1LD8GRiU8qGW1sb/xK0ROuSkQDBsJuANIJZICwzJAUlN5Fj12ON6iHsFd
+MvlyTiFv112NsFyIraxUOWFq5SV9ypwNIZw=
+-----END AGE ENCRYPTED FILE-----
