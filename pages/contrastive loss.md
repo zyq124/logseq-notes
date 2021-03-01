@@ -1,15 +1,15 @@
----
-title: Contrastive Loss
----
-
-## contrastive learning框架有两大目标:
-
-### 不同的原样本有不同的表征，负样本的存在就是为了确保这个目标
-### 同一个原样本的不同augmentation结果 / view有相同的表征
-## Contrastive loss function
-:PROPERTIES:
-:id: 602dca30-8789-4c00-8cc9-b034eccd08d8
-:END:
-###
-$$\mathcal{L}(A,B)=y^*|| f(A)-f(B)||^2+(1-y^*)\max (0, m^2-|| f(A)-f(B)||^2)$$
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjVDRTRmh1WmN5WjFzUk92
+SzdRYndaMStLUDBGR0ZvUnFnVWN0RGE1K3dFCmxWUlpmczArUEpvTHUyc0xXYjc1
+WjUwei9sV1RGWWZuM1BKSVBpNXBpRFkKLS0tIHRCQTBhWXdXZ240VlhDYWRNNTZF
+SWh3eXBFUHhqT3psb3IzZ29FbEtNV0kK3+uGhj9cGuciA9VBBKAFdrDKM0WP1eLw
+kMK5U9M9jos+gMxMS8DfKTWL8wG8xoPXiYMyuT6GslAy84pgeiVSW0yWQ+7gXz6w
+L6YZ95LI/VvUzHuCzvv1T3Du+eMelVcwSNDFWSz6D8E0Dyq/FHxRv286R9WxwQg6
+IWZ47KCrZWIhYB40+zAf4Ab4LY8MxijrgjiBuRd4laiodjanW+EC9OabwQFI23Tf
+kW7KpHT6h6QTN86XKWWOAC+hy9i85ONl2ZRvLfr69uXKtn6dJT3xOwfszkLE1+kd
+UCY9J8dTE2hlz440fYTz5bXB9AuMrsVv0d/1/zWBZD1+1rMjWwf9EgqODoygdo9k
+O1AC5ZuaoO8BkvHao93zmrnacnEczJypqqYAbChRrUYdFPouMMng+FOyMi0fEDV1
+XKwGbgRKteZWYilNMr17fCvtlugl7VzpybD4kc+NvFkgUlYR5yrbiKmfjLkeml30
+Wc/3wLecS0Xzfs4Eq0VG0R5Z2dxS77CeRwRUST85FUzDjKEav3dHFJI678MWdL+h
+hdr9CtVFJF0+9EhIpHo7TxmlhzfU6mnSBtvkxEcBaOFSzU/QCGWtaBzJ7HjuODA=
+-----END AGE ENCRYPTED FILE-----
