@@ -1,30 +1,37 @@
----
-title: DISK
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### #title DISK: Learning local features with policy gradient, 2020
-### #topic [[Reinforcement Learning]], [[Keypoint]]
-## Abstract
-:PROPERTIES:
-:heading: true
-:END:
-### DISK for _DIScrete Keypoints_
-### based on ^^discreteness^^ inherent to the selection and matching of sparse features.
-### Probabilistic model
-## Notion
-:PROPERTIES:
-:heading: true
-:END:
-### Given images $A$ and $B$, extract a set of local features $F_A$, $F_B$ and match to get a set of correspondences $M_{A\leftrightarrow B}$.
-### $P(F_I|I,\theta_F)$ distribution over sets of $F_1$, cond. on feature detection params $\theta_F$.
-### $P(M_{A\leftrightarrow B}|F_A,F_B,\theta_M)$ is distribution over matches between images $A$ and $B$, cond. on matching params $\theta_M$.
-### Solution: estimate gradients of expected reward $\Delta_{\theta} \mathbb{E}_{M_{A\leftrightarrow B}\sim P(M_{A\leftrightarrow B}|A,B,\theta)}R(M_{A\leftrightarrow B})$ vias [[Monte Carlo]] sampling and use gradient ascent to maximize the quantity.
-## Feature distribution $P(F_I | I, \theta_F)$
-### Feature extraction is based on [[U-Net]] with 1 channel for detection and $N$ for description, as $\mathbf{K}$ and $\mathbf{D}$. $F=\{K, D\}$, $N=128$.
-### $\mathbf{K}$ subdivided into a grid with cell size $h\times h$, similar to [[Superpoint]].
-#### Crop feature map to cell $u$, denoted as $\mathbf{K}^u$ and use [[softmax]] to normalize it.
-####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA1UCt5c3A5UWFyZ1dzcGZH
+N0pNS3U0RGdvLzdHTS9vWmhDRWpXSkw1MzM4CjlaYW82UlFLc1RMTUdQdDlLNGVi
+WldlWDhPZTcvTUgwVUlsQjZ1UE9Tb1kKLS0tIGFYU1lNanU0dk82U1pDdFQ2aytu
+YlNKTzhPdVNmTmRHTWFTRnlZcXZUd1kK4IqirYDrcL7PUVKpH1bZIUI2WH6yLDmR
+qSf08aiZ05a6ERz3lILNyHt/MFbO+lpGLJifNhhbkAy/Fb7xr8chT+GMXXoHEXGo
+JtaGI+5nQH0WXBTG8z08tRThQjhcfsa36+DFmQMtZE4ZcVbOwWcqXAymTIX2bGCm
+8YMY8Imdby8lR60ns+GWqqqb/5MuSx4ssCAFHm81+Sfm2o/IWPFk+MoUNUEAi8Xo
+zBa3/fQYOwoSM459roWnsDd8g5GANtHBQ05Exa1WerwRSnGuWCMseSBPY++LP8hZ
+Tl2/wsayrf5bsCcwoCAIOZJ0SOi6AbFMD80PJ+zxs1oQ7W2NFPVHYYkeIKvfo6HD
+DY+/K25XmNOgLh/mWArbsXNrVb06hv1eEOxNXoIo39Aene56bxr7kwnvqt8qTPgx
+/HdAGNZI1+Kfjxa0KZWv1YWuKpGY/JNZbSsVsXqU2VNUnx4Ggq0/UbkVCsdbzTwO
+Of6Gg0wr8pPxAzILgSCPkGUIERVfI0fWfDYbELa1pzvovpoQf2Rg7iK575vTUtVZ
+7IjbXePfxzHoACl/cMsGiWnEw2zGgA3CUWfepaHh6Aq3M/wTDEOHbs6KIrvK6dhC
+cL23ZQB4rsWukPVDWjkdBFRFIPeqaNSVc1Vaxx5GaHPRWXWlCJXviogmGURl68Yr
+1qL/NhlyIfJgFQFA66wAgkKT0odpXxuHBvXmMjMT3U8srIc39UNZYoIDf3yYsQNU
+dzjZlayBI5WrDJ04tysUvF/TzBafiJ68WhvTUQlHbExanQzjRVpQi1HBXipzjPZJ
+s8FuUmtsj2swjNGRf2/+8RLP0x2AQvYj8GfjEDHi0JHWBSO6Y7OhQVFXt/jWw+NL
+eDK0ReBIMPR54+ZIboV9PVYos+Ic20X/V5v8KcUcPKsSfndlPywwArBoMfY3cNvT
+v8XJs48mgRVIab85wU6kQNz9fr+C+G86qh8A4IzCBtkKbwp7xGMl4IfscKfHYAC/
+na4T+/Px/H9d8LbdNwoe6jHK7S4TN44wZ48nMG6N0vSiE8We1VNdDA2fglou5lu/
+cGKqviD/IpRlf9jpvRxguTlG8tITQTyo2iDEoNx7BgHolyaWcrLPxEp6Zc8QbJLo
+d/EK3qO4c8pglWjSMrHACaDwc+yyzqET+s13236SbSr7bZhhd2udBM1P8gJiA0KN
+ZmKcjYAi+8NKxwK/ZBULjWVl6vycbSVRfUQCOVxud0IvUTuPflIpm6KJV8c7lWqR
+AmSI3G+JbNXiYfeqkQ/JAFUkEgQyV+9m0QkZj8U+igp/h7Uja+uDPH+j5+QrfDEg
+YZgs5ua+1DcihP8gq//rlFA3uohEn3NJ48Osv+KmQ1l3jXV3EWuX3AwAAX09Tx1r
+lfT8R2RoKXGWuCH2FkJhRE1F4+iBhi1klBW1r29t6ioekD1kRFwsNSzCZhhAd3M4
+xlvXiSVY8804W+uGBXzeHnVBaI/X/CBEfSG0U5VDc4NR6xdfSPF/gboa8CsAafIS
+XRNmll/BFK0WhF4gxpI6k9GGAZhMcM0BLNWx7aJDrRudmq4qluHXIWv0noa0braZ
+Erwrv8T0bV9fBgFgIT0sGFayH4+P7Hgi1Ihr66odGuYpd1nSFonqKsvJg6MsD45V
+CqHgd+Yjjk+xNST9S43DzsthKN4/MKuwRODgmvsV4kpQ8lbBGUe6DCvBsDehLZtS
+Wv06gQZ62Ur2afPmevLqdZYmTKglRk23cPLOCnoM9/SOCxp0tj6djDkPCN3WWoDJ
+kzKHxsvtzdYfYrNkKJYHRmXkfOwGhr/RYd3tQbGYjW1jdasRXF4eYgO60eAO0UiU
+ThVXsg6x0dKAl4DU3Pko5T6UFQOJCQ7HG92XB33VqX8YBQCk1/42UPmh48JIEeZe
+cCXnkwa0lrguk2A+9BW7JCcbrfCKrPC7xS2AnRsedjQfmt6vS3YDc4GJF/aDuDJG
+61Kvh1eVuzucr9UYsLIMYwqyG/PRc19CisR3xP1eE27B+18=
+-----END AGE ENCRYPTED FILE-----
