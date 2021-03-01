@@ -1,40 +1,49 @@
----
-title: Measurement Update
-public: true
----
-
-## Minimum Mean Square Error (MMSE) Estimation
-### Consider the following static state estimation problem:
-### Given a prior distribution (probability density function or [[PDF]] ) for a Gaussian random vector
-### $\mathbf x\sim \mathcal N (\hat{\mathbf x}^\ominus, \mathbf P_{xx}^\ominus)$ with dimension of $n$ and a new $m$ dimentional measurement $\mathbf{z}_m = \mathbf z + \mathbf n = \mathbf h(\mathbf x) + \mathbf n$ corrupted by zero-mean white Gaussian noise independent of state, $\mathbf n \sim \mathcal N(\mathbf 0, \mathbf R)$,
-we want to compute the first two (central) moments of the posterior pdf $p(\mathbf x|\mathbf z_m)$
-#### Generally (given a nonlinear measurement model), we approximate the posterior pdf as:
-$p(\mathbf x|\mathbf z_m) \simeq \mathcal N (\hat{\mathbf x}^\oplus, \mathbf P_{xx}^\oplus)$.
-### By design, this is the (approximate) solution to the MMSE estimation problem [Kay 1993](http://users.isr.ist.utl.pt/~pjcro/temp/Fundamentals%20Of%20Statistical%20Signal%20Processing--Estimation%20Theory-Kay.pdf) @cite Kay1993.
-## Conditional Probability Distribution
-### [[Bayes Rule]]
-### Gaussian [[PDF]]
-## 3D Feature [[Triangulation]]
-## Camera Measurement Update
-### Perspective Projection Measurement Model
-### Distortion Model
-#### [[pinhole model]]
-### Perspective Projection Function
-#### The standard pinhole camera model is used to project a 3D point in the camera frame into the normalized image plane (with unit depth):
-#####
-$$\mathbf{z}_{n,k} = \mathbf h_p  ({}^{C_k}\mathbf{p}_f) =
-    \begin{bmatrix}
-    {}^Cx/{}^Cz \\
-    {}^Cy/{}^Cz
-    \end{bmatrix} \\
-    \text{where} \quad  {}^{C_k}\mathbf{p}_f = \begin{bmatrix} {}^Cx \\ {}^Cy \\ {}^Cz \end{bmatrix}$$
-##### whose Jacobian matrix is computed as follows:
-######
-### Euclidean Transformation
-### [[Point Feature Representation]]
-## #flashcardtag
-### What is a [[PDF]]?
-#### probability density function
-#### 概率密度函数
-### What is [[MOT]]
-#### Multiple object tracking
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBtamY3bXJrZ3NmVTRHM2xT
+RkhnTzhrVlF6eXlLMlRZTWJBWDFnYjUrcEU4CmZnZU9rT3AxUk9QUDFiM0MycVow
+bzg3d2RoZlRKUmIyZmxFOCtDU05xd2MKLS0tIFEvQy9NODZkWkxhZlB0M0JXcmhC
+TWxjZUVQVGFTdGJRZS9EeHdKRzNRZDAKlSlMRmN8nGAKnNJWxaM/C8l0D7jaNVa7
+D2ou1wP8+hG6DuU0Dgzwml8FdIm4vK+AXfvz8R36tSJY0TMWXNWyZs3xEg16mXSB
+qpFnhqYwCLvycu+qXP7HPfBUdV0Jcu1VmPex+yijENBXkbOF8HS07VwhH6YPZ+/y
+qf1RbP3FS9PIgHvN2tsOZpTm1mCRGBBf6i4tU1J1+2mjahsY3jAkYtYFFyVWFNM+
+s9X61fbq6dguPCXDENpbMF0KJnewKJC0/rsv1fPO+AI0GMGim00R0BLQ9dTrLn3u
+qGB0o3sIQCfo66zvMShIAHWwTeofuAyo1lt52wfnqnEYTHZLDnLo7PA7GCyWA4Mx
+L7hJN5IL/Hev9MeXCjogkfHMN8lwBk4eRStMmLOe+6GPcBLVq/jwGbFFq7ERskFf
+qArLILdxcI0fhQuLewc9+H2lYlMefe+Pe+bButOC1pCs6MhWNfg4baLRVXQCIHQU
+UBkHlApXvKFluzed/1ZvnaLej+l1C1LSWk/bRR47Ib8fc6dDTW0lEzmTd117jiuO
+n/fHARChXzf/sJUFvaaSnR6uAvd7CV+YLAS4FrsoNybdzIXuS6MCFF8DgJZYnq4y
+gSEl0BAFmPRk8mGzo9W54JIR4xF5Cv69PV1GhbON7oEe25XB69GuArtr5OA01i2S
+raTwDmQx1zqux7fh5bdqKjdxmj6+/jyqowWayciNmKUbrczwun56wu1EsQ4kUvEy
+IVS/h0TJK8CGDQX541nS8FdzO0Z5MktBg70Z98ityf+K0uZtBdwpeZLOcrgmlXkQ
+1bTWZHXwPJ/HUc/CldkdiwFhjHiEOhoG44PBukvPNlz54+J1/0F75WSHk1/Woy7+
+138n6D7RxiRKyOHeGU1Eg9P5OS1wULLBTDD9sTXDBH6msg3SAFQsouWK17ohwK+s
+UDyZjk3aTW4UMxjtaVIXGvlmQST5pETOHA66RTBIHHcrfTLbQroZ+TU/5I0f/wA7
+IZ41pdDCi0haRgse5uMWsWTF+koBwTyvfgKy2c9E/5SkD3oevKXezwie8PqgC1i3
+UrlZIZhjgpz8WPIzi48adnu48ox8wgsp8o6V8d4M/P0Cy2w9g4Vnv16D5fg3dvBs
+rHQ8I0nfntGTvRHo8DSmnf8vWoLfL8g3aaXyhDzPPJNq7PznI4V0Ag7DYABaWAtZ
+9UvRt5bYLK7JJnNzsPnjXnGA8Z0aWVYn9UMQpfGVFD/qm6d7Odb2ZHMz2w0BUQp7
+O9TP7OqhXktbEOrIfGsecSwhDHPqW335Ai3B5jAF7OoWOIrvZXgsP5pBdntb6j7w
+ZVM24V+PBN69hSODPeHGXAYbrMcKWMU1WV+4/IRCc7h/tkYijB/22SPnT2JAzXXJ
+iTqAgpEkNML71NQzfJ5fjtI+DFki1oRbU1h48z9KJbAaIfjHTCTWj5o7v7GPcCY5
+K7urKoBVTSiaSHBSjhspR/u91LzVoOQpKlDcVmGmBVILGUxHYcKQGSyxYNGb8Dbu
+r4y2OF8h18irpdlkgUAW/yIz7TRsqRyliv1oBjNQGTzU9eBLIWXGxFW+K2nc9Xt1
+ivXm9z3g0pW3NyU6Uke+BARFB9SYzgE3M7U7VpvhoNjqbi5csqkbSoeLMmfbJHV/
+TLtHH4XDgGX5DYFe0de03DioehWlBUbGm+x1W+1fyRp1M4YtTp5YFs6ISR2T25D8
+va4PQFuhx4r2ZYmU0wSFqiCeogv2QUxNVwIc3+59OcrrL4oCxVEyFU9T8Hip+atJ
+dIHY+hLxcO+wjO06KXEbKcSJpR/Cvk4RuVSELgsqD9I1Hriz5a3eRlFBEGcHYsxf
+eCAZNjIDl3OacdYqa2kUH/5kvfNt66mU0Cgsif+aU00tAXFAG4udrv+DZomHJszy
+NxqlZdqOPhuKJYJkl3gIrCj1Kv9dXXgain3PycBSjW4tO+WmrcF0/8RiEEFnIeYP
+9O7BktizhRBpV0Ckm7AL9qR6CzILPjGsCvp+vQCx5gDkFcvhb+Uy1pjGjW5ivi8d
+i1kfiMt36SoNwu4TnS1E/2ucsluVBjKieVw78L91TO8TNSnLt8CD1gHioW2XplLi
+KcUqsmOqTsx4X114fzzySiwHuh5HHmW4/tgPtVld9ntdwFApQ5hS2SkOodc7wcy1
+OIHqfaN4YJybcdB+AYe8hpp4sGHv2u+71mSH0ze0pXouy1ExLF8bGI3zjJzuYBdX
+YfExBS0rlvQ1haXeEAzbXq/fw3iN07x2HMGjGYRFoGN5AvY8ts3QmjraK678cC6q
+h7Vra/NuUIzYANCPYLI9H+73hKqAOkuw/NjVmpxjm5f7FTNw4G2hOfd0/C3KqwKH
+3sNy9ZvZ8rDq28M5xkZKP7bggx7FL6YMfn1xI1eq6fZYNYzYO/e1H5aRJz+ou9XE
+lavW641lEPe03Z69ZwErEHriVHpadGSqCDFgt6HCXooU8ew+QYQ715RJApaUmdeu
+fS4b7AwuXzylOBauFrZVPRG4hpConHE7exAQXAd/w+E955Dc0WoF1UrvGyZigolk
+nEf4AOx/6sSKKecxXtRH49TKfJpsqrzq9+LrXEkGPIs1gtFF8jpzkZ6x9IbMrziX
+DSYTOhLGYJqnirBXGxNSDuy1SYiKHAEKlEklFp9AVi9eijsfJmWCO7iDd9WAw7RD
+hRnqbeAu1wzTBuCWsBhw2ifnZ1JtntK3OQk/od0Qmlmq+/8COC9tyH8mp/x5Sjrj
+TH8W6JximfynXYbefajPQPl5FrM=
+-----END AGE ENCRYPTED FILE-----
