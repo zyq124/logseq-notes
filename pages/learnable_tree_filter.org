@@ -1,38 +1,55 @@
-#+TITLE: Learnable Tree Filter
-#+TAGS: paper, Markov Random Field,  segmentation, [[semantic segmentation]]
-** #paper
-*** Learnable Tree Filter for Structure-preserving Feature Transform, ICCV2019
-*** Rethinking Learnable Tree Filter for Generic Feature Transform, 2020
-** #code  #pytorch
-*** https://github.com/Megvii-BaseDetection/TreeFilter-Torch
-*** https://github.com/StevenGrove/LearnableTreeFilterV2
-** 为了解决 [[Non-local]] 中long-range长距离关系建模中的问题
-*** {{{embed ((5fe93262-f9e8-408a-a255-846024a37549)) }}}
-** 1. Learnable Tree Filter
-:PROPERTIES:
-:heading: true
-:END:
-*** 利用具有丰富细节信息的低层级特征来构建一颗最小生成树 learnable [[spanning tree]]
-**** preserve relations
-**** 如下图右侧所示,$k$点和$n$点分别属于不同的物体,理想情况下我们希望它们之间具有很低的特征相似度
-**** 但是由于空间距离相近，如果只依靠二元关系建模，则很难将两者有效地区分开。
-** [[https://i.imgur.com/rFwAXvj.png][Learnable filter]]
-** 最小生成树的构建过程保证了它会优先连接最相近的节点，也就是说它会先在人和车的内部进行连接，最后再将两者之间进行连接
-*** 可以看到图上k到n的红色箭头，它表示的是k到n在树上的路径
-*** 这个路径的距离等于其中每条边距离的总和，因此能够很好地将两者区分开，从而达到结构保留的效果
-*** 这里区别于传统的二元关系建模，树上k到n的路径是涉及到^^多节点间的高阶关系^^，即改变路径中任意一个节点的特征，都会改变k到n之间的相关性
-*** 除此之外，由于树是一个*无环图*，因此可以通过动态规划算法来实现线性的计算复杂度
-** 2. 即插即用模块
-:PROPERTIES:
-:heading: true
-:END:
-*** [[https://i.imgur.com/Phgotki.png][语义分割网络]]
-**** 图中绿圆就是[[learnable tree filter]]
-** 3. 基于Markov Random Filed进一步提升long-range特征表达能力
-:PROPERTIES:
-:heading: true
-:END:
-*** [[Learnable Tree Filter]] 缺点
-**** 由于树自身具有几何约束，导致滤波过程会被限制在一个局部区域内，很难与远方的节点进行有效交互
-**** 最小生成树过程是一个不可微的，从而降低了模型的通用性和灵活性
-***
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBhTGNjbEFQYTFEU25FbW83
+a0Y3ZEpZd01EL3IwZUw3NlZxTHNUVHVYankwCnVKZnp4U3hxbjdncWRXcCtvbGIz
+azFNK3ZqWi91aktWVEpkVW43L0dxTWsKLS0tIExzbVpUT0x5N0srUHB3WldpRk1V
+SnVlVGtLYnNSOXZNaC9NQ29VdlRFMncKBF8Jn27cggDiKft2pEMBmEuiR/FGP3L/
+jXJq/1lsmD7JyMWGeQAdn9zLuu6xvPZfBjKtoF7XWT2LksF21y5p4O40RgVdaNuP
+3olK3asgg2asYIJwaEfX/tSApU0XWazCzgv0T3OKJhY/ZJAerCPq8TVLgS4YDEvl
+pE5E0CB20M7h/rjYUmtcBVJg1JNlz4IB7qdO/7F/JEolk2v2fkl2AElgOJyI1X0u
+aqp3rfPQaz0yF/2LJiXDYGQ6xgEjPLBmIjomm3hOsJU6/ZDE5IzFcgjrDpEzl8pN
+uU8zEw4X4EX9zRAqJIc0CrLD5+cxd1Z39K0y48atEy1D/rNGdFsb0EHzyR8TUCpQ
+/2/Rw4xyKUF8J+1XduGGEexCDCjBmSoRH+fhg6ZAPss+jEmVrQe7cI7okUo+IaLh
+jtxFWOnFQBjXvwt33zELf2dSTJorHJISCQjFT/8WrnusK9Ak3FCaCgUxXW180jhl
+w+e2CHuFF3x0Wc3C2QhDBqfqD4f19rApUcVx1lBakKGa6gaetXdkfd2ch0hLukBG
+8EJnjI/V+NF0YkpfjXmp0/GnPVutXkO2QQSfFqyHWQVRQTl2H8C+baS3Uw6p+RMf
+5/OKVAvuPnsKvGQ/Fo8uJpXMHcM3Hda/yRkjdqEI36vbFQkI5k5iaQnu7P8mn3x0
+sth6uxScv6FHxJz+33kDbz1RHTNjstNfv/4HCp7x0FK9mEeSwPgqcfrpgb6mQLNj
+W0cbaZ9t2vgV64sOZ4YxRP6aBwE5Vh9AzYSodnJ+aayOg9ibsIrVKnFWaaRwenfQ
+dXrtjtZTG+eZLRjhI/zZpd4hyGENlg4q8v4roffdEke1jCScsXtl+Mm3bC4n0NEd
+mg2nr20kcfda85AH8w9jV36d+A8a7z7kgHewIZpORXCK0AgsZE3bp/ZbjIGhOt89
+Ah5CkllLt53aWKMTW+jGiAkW6oHF0j2Tq+WLvBRtgk54z9kpYyCnqngVRZ5ale4F
+HPG28A5SMe3/5tcRlmnQGB/hHjeJ+2vA6RILsgXTPfEw2Ao8M4661gkG50IX9zTb
+cm0LNd48xhVuRp8qRcwDxwoR40pPtYG8TaZqmEYlNX2ubuAiSUNE9S6DcEPZ8S2T
+GuE4z7qaAfJKU5cUtpft4/WRA7NhWRbu6yDbfBp7bY3u0iy7kelAhLPChrMDlV8k
+JITGOszUn5PfamrKqvWEqCdOZtKwMxsupgqw8nYAy9BQGs1gPslchCwQkoJUY01u
+6l+s5vwTPk7gPnFS97h073gVpmab7m09sruaIMsR61/0O92uUmUptPY/EWmQAF7s
+mKL0NKbCKfC0aF4S5zxSiA8mziqNhZNYlA7pW50pdUnB7HRHPCz9SDH6DBucU7Sm
+lXVpFR3WKfiOrGlGh5WBzHyjdon23hmkTqNSZPdMP7d2ruF+U5wgfdpd1BzIWGEy
+eF1bNg2iyWkuCCtvY54BoO+N1vE3gicm4DZcx48C93YrFr9CTwyKkft2uktdTGvT
+nciHwWxg4VPbIm01Vq07TACY8CYFGwYB1eYEZgGr/ayXNpMoupqP3fKZc8jKwfYY
+K0tePUF8nsNfUfQr6Pe2e8JM0cH0zOxXnFn+lPHNFbWqMgt13C2mcirv7J2xwN2Y
+GnWb1ZwKuszyk3VlEqv1HV1yyC1mDqWrk55/D1JyFhY+l8BEtXXF3XvpIbAabqNM
+n5fJODoWjzeRWrDa+Ob8UsoudcytF4bieugEozEByJcTGB53PHAfHvt/z42CdnL9
+V8+7dHI1E2osbZjs5HvYQDWQOu4HseDL07M7znYv48u3x49+Cv8dhzZi3yVdDUDW
+vv8gS2uGs9zQVkn9F2cmLOhDWMEfESWmceOIN3+zvfcvBaWbKF12dfLrJqWAZ+RM
+iGSDvHrswF2M+HCllJWkflAxxzhQ+wQi39aT0dF7ztq/Ux1CAIWaZR1HRS9Tt3TM
+c4tyK7mtEMJSgJjyOedUd3Nzpv9WAOAue//9NuABPfik31UlaRXsNzEGArzVOEUJ
+daWTKaIsE8VB0q02j7+9NNsKr+P3JO+bFBFD3jqq2rwWbLhwDUsxnLb6LLnkPW4L
+R/ZyR4fKQr4bSTsHuDdIAS1VnxGKwuF2ZLEdg2ssBeVF/uwRibp1G8TPGFhQmrkD
+zDnShPRYc+TQCjLqX8ZuK5gXNE1MPqMcidr9s5Pst2VdNLD11wDLE1yyP+qiFVol
+oq3INKeEEjKmXHGv4tiewkUDgvUFmm8LM75KPt1shYUSWg2Icr2cJgJins6doXyM
+v67MF7gglNsi4V2z6UDmlMX2FeLBQwhbGVngvc0MxfWhDX32PeNe2NoP2ugqNi9L
+Nv3z0eb4olDB1rR+5Xk7MHOnThHGaWSig+5kh8oAZxiii47P+we+0wQdXIMI1TAQ
+h6huyd5GVhulbemfXXpPyhjbRyvxlF9QM0rcBDILlUL8qCkP9EovK/DLMuzms0+e
+2/LWaNkxIaUssFHG/q9+T7oPRWEtQnawjloz3QbCxh8MWpmS1Mfij8Ln54hkMCfr
+bm0FPtGXC1pMJZ5udGH8EvMBx0mAfFfIWPYhsp0QPGf0Ze0VScR2aePzNq5DYVZQ
+Ql2plbVNq5SPJkJklVJzpAHkGStB9sPFuJmMXSNBXXJ8awgnQRjVua5lZTtllTZ+
+PUG9pfhcgMEWP5sB6yfGBF9dK55m7Ur/1N/K2M3PdJSxUidegKrgHE7LZ6D84ls+
+NvDOzrSNHH4QsNnomQJm4GWpLhwpUI1senN/M5c9dWYlbrrKQknqvXSIFnLPyMYT
+NLq9Uz7WNLQ1C6fFrrsE5pLPCUmFToQhKIPY+ZKJkSdzgUcyTIN6YshNQLiI04Ro
+QnQjBI9F7WVF/QGxrlBhxJ05OemnU+3M8w/O7AP5fKU+LZsQyMmdDb8c3tO3QYne
+2ko9dmyY0qFbVbfaFU7B6qSY7G49RkwULmuFfo3/to9SXsw1p0W7WECMN/EGEtWz
+73wOarcUsqAD55NCCjuqWuNxcsFhplzhEyGQOJ5fnsty3motMwZUqYdc1jnscpS/
+rEsazVf/Ffnm5bvzAfrqH+V94wpO7zPk5aM4C7yBz+i1Gp3/rYT4hZkoT9bRZUsK
+xOu3EvQMsk4f7eXElJN/9+l0XZfSjej0ROJn
+-----END AGE ENCRYPTED FILE-----
