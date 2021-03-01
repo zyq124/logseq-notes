@@ -1,22 +1,21 @@
----
-title: sequence-to-sequence
-alias: Seq2Seq
-related: [[attention]] 
-area: [[NLP]] 
----
-## Input and output are both vector sequences
-## [[Encoder-decoder]] strucuture
-### [seq2seq model](https://i.imgur.com/0v6b9d8.png)
-### 缺点: final state cannot remember a **long** sequence
-#### the decoder looks at only ^^its current state^^
-:PROPERTIES:
-:id: 602fb310-8bf7-4748-8f48-d08f07aacc17
-:END:
-### $O(m+t)$ time complexity
-### [[BLEU]] score是评价机器翻译好坏的标准
-### So need [[attention]]
-#### [[seq2seq]] model does not forget source input
-#### [[decoder]] knows where to _focus_
-## Commonly used in machine translation, image caption and [[NLP]]
-### [[RNN]]
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBIbG5RSGJpeUs2ZkJoR0Rs
+WThWU2NMbVo3aVc4dVZTSXJ5Znp4Vm1WSEdrClN1SHNwRWlZMUl5N1N2TzZaRzVS
+MGN3emFaSWtSSms3amEyd0RHclUvWTgKLS0tIFFUZjF4aXAxVHE3UitzWWVDRTRt
+TWl0NmVPV2k5WDg4d0xUL2pzT0dUU3cK9VGj88gsLk9JVJv/AtZKY1o8ryfNgy6C
+HD5SMJWWGwWRq83YocNAGDYC1adifocT52hU/nCSKLpXKxwlvoa51/sCzF1gG7QS
+AAMHdplWMuNxTFIhMx37fkkx9YZc4Mtwk4pBZRKitFr9klHZnGv3qpPxRQStD9Ce
+FRkr+s3WrSQnb2PpcObF3LdwXTCXmV/9VAwZHuyQzS+HxGtX7/6Pn9EGpYswmb/A
+CbMsds7xQ80M4nOUN/M0A9o+DNNhDZvoXdcZYabWOMozpkCZZEyxR+35r3iH/dLz
+wzXxKpJrTFhnVMAzqMIQ4KHdUl5zysF5ir3zPFBcUFNMJlsaZ4oxysQ2/M8kf/O8
+Uc3MhH2N+mo5+5F3RkDPmBgWryulA2ABtQRAtdAXiFuBrN49chpFxlq8O94Bup+q
+AxMIQ6LbA1DZbp08AIPZP7+e3VwldTYC9F9sYgng97yjtieS3tUEdZJZVikTh79y
+dLTf+GhF+WjPhCPuvLSWL+WfttbR3K0LWZuvmltFqiINwagVV5uS3nlhnPs4mxjv
++8oVC1vjEJECwAsqVNy4ekqHkGT2z4Jy+pmmwhH0CipMOMEaPvWC8uvbzXRiJW/z
+H3yOUEjJEuiA8oZNuj14bVX4lAuxusj5p3uauIaCmqA+Wr5oxSUN4MTc17+sr5CH
+OUUpwQAoZYviDLSlKKISsIQaDg3bPA6v6pMBABGMdkc7dOycSWAYbhOL9/5Mbkqd
+vzSw6C1IzL1Pm2YXzFh4zrfcR+7fQcxdEoluP3eI9wPiquzSoQDvVMe0h/Boa9cZ
+t57mFjW7i336+TOi40qcxyJ/KREkAVam+9sRskg0R2i1UHprrobgd5/ChU8ljfO5
+5EHiXbNH/jeDEhlR2TtJMOv5RGJKq0USYwElw/Gd3nDFeZSls724k8s7BCBbjwWC
+a9svqd4NyEV/C6LKjUcfld4=
+-----END AGE ENCRYPTED FILE-----
