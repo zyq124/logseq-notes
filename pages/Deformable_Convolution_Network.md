@@ -1,32 +1,55 @@
----
-title: Deformable Convolution Network
-public: true
-alias: DCN
----
-
-## #paper
-### Deformable convolutional networks, ICCV 2017 (DCN V1)
-### Deformable ConvNets v2: More Deformable, Better Results
-### 同样的物体在图像中可能呈现出不同的大小、姿态、视角变化甚至非刚体形变, 如何适应这些复杂的几何形变是物体识别的主要难点
-## Deformable Convolution
-### 就是在这些卷积或者ROI采样层上，添加了**位移变量**，这个变量根据数据的情况学习
-#### 偏移后，相当于卷积核每个方块可伸缩的变化，从而改变了感受野的范围，感受野成了一个多边形
-### [deformable conv](https://i.imgur.com/ABfMmYo.png)
-#### 上图是在二维平面上deformable convolution和普通的convolution的描述图
-##### (a)是普通的卷积，卷积核大小为$3\times 3$，采样点排列非常规则，是一个正方形
-##### (b)是可变形的卷积，给每个采样点加一个augmented offset
-###### 这个offset通过额外的卷积层学习得到，排列变得不规则
-##### (c)和(d)是可变形卷积的两种特例
-###### 对于(c)加上offset，达到尺度变换的效果scale and (anisotropic) aspect ratio
-###### 对于(d)加上offset，达到旋转变换的效果rotation
-### $3\times 3$ deformable convolution
-#### [illustration of 3x3 conv](https://i.imgur.com/90ECFxe.png)
-#### 有一个额外的conv层来学习offset，共享input feature maps
-#### 然后input feature maps和offset共同作为deformable conv层的输入，deformable conv层操作采样点发生偏移，再进行卷积
-## Deformable ROI Pooling
-### [[ROI pooling]] 是把不同大小的RoI($w\times h$)对应的feature map 统一到固定的大小($k\times k$)
-### Deformable ROI pooling 则是先对RoI对应的每个bin按照RoI的长宽比例的倍数进行整体偏移,然后再pooling.
-#### 同样偏移后的位置是小数，使用双线性差值来求
-### 由于按照RoI长宽比例进行水平和竖直方向偏移，因此每一个bin的偏移量只需要一个参数来表示，具体可以用全连接来实现
-### [deformable roi pooling](https://i.imgur.com/f7fd1hq.png)
-### 如上图,ROI被分为$3\times 3$ 个bin,被输入到一个额外的fc层来学习offset,然后通过一个deformable RoI pooling层来操作使每个bin发生偏移
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBVc0lnNEdnSkZmMnFuN1R0
+RUNRRUp3cVM5Ynl6ZHpleWZyQnR6WnhudkhNCmV0cXQzZFU1Y2lEdnRCNWduRnZs
+c1k0VUk4YXVGUk5ycEFuMHMrNCtkS28KLS0tIDlOYWtQUzV5SXN4eDhRZ1FyYkRM
+OURiMzhSOGdzNTA5WTNrQ3EyUlZqY2cKOzz7jGGq8uoEgTYodjPYk20l+ccjNlcI
+Xc5eZhF0PIhP0v9UQtj4roCCDhe5tPdEsoND2wZ272KIHGGTKf1ygOJWTqcWq0GM
+9G/1adswD8dAJlZSITYjHpIlfcl448dA84uNDRTGjtcTXk1NnPKCmSUr/ZqI5Hfn
+RxUpXA0hk8ZawvU9Yosfn5MG/2svK8dDbd7LmSYSZMeunRRYjLeZsvbH1H/6Q+jM
+xTJJzN9yb4FYJs6pxU6abcUZHq3r+O16X80wdfOG7QMBIxPJg/iIQGLEb+q0RjzX
+LJZ+/8rJzz1M2mGME+xNmHpILDYd3M7rJOm95R2piF66sWJT5SreaW3wXM2m/agj
+mpGVijWyI9Z42mSnQOkXRK3TO1VH7JfQEBE8lhOOo8UDIvutlBiVTpjc1CvVwOdv
+OQ6KEUijdLAiKJ+X+PpQpwdsrwQQQ9MlP5GK7/q2KuYGH9GUsOsTy+/VWkuLomW9
+X5UUW/E2ZJd+SkNIy1weBvl47HRiCLCuw3abpXMz+wc1se52xQ9fUxpGBhJ+BIst
+dD2sfYqTcBPu9lh5scydEcSzP6U61p6w/B/0I3KiTK0ta2C7Z43t1RyWQcmJSF7E
+T3fAsG65uBhhKh9Z2OupA8gWshlZbvUWVOsSL3dWxVMcGs8rH2JUsADesMSozvat
+ieXqgR7zQEB+/SPDNEsHAhlRPQHPe21ZOUPDRtwWrHDUywre49YYbELtWJnH0Yhn
+4Ex9W7Q+GoWZfx/0qcIEGaSJwxzELdl50E8tgpuDf0GXm7ML8aV+yyF/4KzgV1JK
+YBDO5FjdZ747bpLUC/AvFrFbJblg/9+YtSAx0HnERWjiT0PQXbukGNj/hgCN42iD
+nFp1e87M32vsYEw3D9mc4S6tP/T0c2iJWjeJtkbrTW/Qp37cuAq1++RHFqVezbyv
+u1mu3FVGzUXsl/GxqNtdVYlp2+lFmkskacE95u1yjN8MgDSMEKBN2E97402sQPNI
+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
+-----END AGE ENCRYPTED FILE-----
