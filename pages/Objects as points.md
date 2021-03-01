@@ -1,38 +1,53 @@
----
-title: Objects as points
-alias: [[centernet]]
-type: Article
-citekey: zhouObjectsPoints2019
-publication date: [[2019-04-16]]
-authors: [[Xingyi Zhou]], [[Dequan Wang]], [[Philipp Krähenbühl]]
-tags: [[object detection]], #single-stage, #literature-notes, #reference, #Keypoint, #[[end-to-end]]
----
-## Zotero Metadata #toread
-:PROPERTIES:
-:heading: true
-:END:
-### Objects as Points
-### [http://arxiv.org/abs/1904.07850](http://arxiv.org/abs/1904.07850)
-### PDF Attachments
-	- [Zhou et al_2019_Objects as Points.pdf](zotero://open-pdf/library/items/EF6CK3WB)
-
-### [[abstract]]:
-Detection identiﬁes objects as axis-aligned boxes in an image. Most successful object detectors enumerate a nearly exhaustive list of potential object locations and classify each. This is wasteful, inefﬁcient, and requires additional post-processing.
-### We model an object as a **single point** — the center point of its bounding box.
-#### Our detector uses keypoint estimation to ﬁnd center points and regresses to all other object properties, such as size, 3D location, orientation, and even pose.
-#### 直接预测bbox的中心点和尺寸
-### Our center point-based approach, CenterNet, is end-to-end differentiable, simpler, faster, and more accurate than corresponding bounding box-based detectors.
-#### CenterNet achieves the best speed-accuracy trade-off on the MS COCO dataset, with 28.1% AP at 142 FPS, 37.4% AP at 52 FPS, and 45.1% AP with multi-scale testing at 1.4 FPS. We use the same approach to estimate 3D bounding box in the KITTI benchmark and human pose on the COCO keypoint dataset. Our method performs competitively with sophisticated multi-stage methods and runs in real-time.
-### zotero items: [Local library](zotero://select/items/1_2UB3K7BV)
-## 1. Preliminary
-### ((60361390-93a2-4b9e-b2e6-d932868d45b5))
-### Output keypoint heatmap $\hat{Y}\in [0,1]^{\frac{W}{R}\times \frac{H}{R} \times C}$
-#### $R$ is [[Stride]]
-##### downsample the output prediction by a factor of $R$
-##### set 4 here
-#### $C$ the number of keypoint types
-#### 使用$Y_{x,y,c}$表示heatmap中的第$c$个通道位置$(x,y)$处的值
-##### $0$代表background
-##### $1$代表detected keypoint
-###### 所在位置为目标bbox的中心
-### 若input image位置
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBPTVJ0cysxUXFHY1M2SUJn
+NFQrNlFINU5wYWVFVEFiem5PclFTVU9lbGpZCmV2WWxLbUt4bTVuWkN6b1Jtekk0
+RjVOTW0zTzdmdTZIY1ZjWnArSWp0M0kKLS0tIGppZllFY1ZOM01iWCtSTllGNmVK
+bjBOajlVdnJsZlpTdG5ValFzblZzazgKTrsPaExMICFE3J0Pm4qz2G3Qe0FUHmI2
+tUr8p+Bh7HQe9Ll0uELoEY3NpkMzMJhpizpYoL8R5g8a0SqnDbWWkJid6XRxB9lq
+xa2BQ+ZoOpzv3MKgKuytbukNUZrmxJDjXB5PpxP9eLn/whW/J3EkbtKgCt4Io9gF
+FbPxqxyJaS4A6H4iZs7+YXM+QDM68PWZqD2UVonaCe6MFnWSXVz9bWqxg9AFLAL2
+UCW2whlYSgHTF4ERl7TUyJTV0HQDNESqJQxK4wSdO8/2HN/Bxz1wcmwofvUM3xLL
+o9MesYRnLoV0hcGabUS/Z6KU6gxPCm/zOWU8OFuHklmLqDeJrhSQyLQX91eKorBv
+7J9r2TH38uzjPVEyNVwUCHlFIA+X/aqpNGvGB7iNcSjUUHAYXm+nVx5P7IqaVNJV
+GG2Zk+79Kj5LlwPx5qtmRNz6HJ4EDIM2akcyZAylC8kQdViTjO3p0ERCUjeAtCDS
++3DkBy71hiqm8FiBqPu52JbyPrgWQpWO9bheu4aNPUrxGICF89lKLi/IcHJhbqDn
+wlj8eOA/RP95Gh58rIM63AotbDIFW/SwdyvBX38/m5ntBVNpNK5pdhGypYI7J8fw
+aqXAh4YwIM2EvzS8Qi75KK/GWI+2x2zuwtGkdnkaVN6z1GV6+ZoexJNCvjJCRqQD
+ZPDVfIl6Z/F+lTkZws5kj0mBOWHlaqLrhEbGg2DuAqJGCwvNXAQaiFNQpRRFB0Xu
+VY3cTY3tDwcyRnGfkxrQmxy+JNK4fNk1OEHFUwtK96LiBVZ35gGXZK60LAVhXyQO
+IQnxsl2Fn06o1EBt5L+oPZZiU+U5hKA9g2E+DKgscohCvQTIxEqMKNCw0DEHTauy
+mheGCinKDj24cx0mQQp9sFLR5CXuebHCfF1RIDfIBHq9X5SG02fLMdPFE7pwbaIf
+rCLSK59Clq2BRRuDLU9ug5xCSoJreRLzDLmrsy70UzylfPUg+SxaBkV3jcKJSY/A
+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
+-----END AGE ENCRYPTED FILE-----
