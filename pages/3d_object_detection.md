@@ -1,54 +1,51 @@
----
-title: 3D Object Detection
----
-
-## Problem Statement of monocular 3D object detection [[problem description]]
-:PROPERTIES:
-:id: 6017cf83-cea5-4a5c-b118-55af96d8aa7e
-:END:
-### image $I$ with a set of $i=1, \cdots, N$ objects represented by 9 keypoints and other optional prior #RTM3D
-#### Define keypoints as $\widehat{kp}_{ij}$
-##### for $i\in{1,\cdots,9}$
-#### dimension as $\widehat{D}_i$
-#### orientation as $\hat{\theta}_i$
-#### distance $\widehat{Z}_i$
-### 3D bounding box $B_i$ can be defined by
-#### rotation $R_i(\theta)$
-#### position $\mathbf{T}_i=[T_i^x,T_i^y,T_i^z]^{\top}$
-:PROPERTIES:
-:id: 6017cf83-1500-4901-aa16-276935f2f6d0
-:END:
-#### dimensions $D_i=[h_i,w_i,l_i]^{\top}$
-### **Goal**: estimate the 3D bounding box $B_i$
-#### whose projections of center and 3D vertexes on the image plane best fit the corresponding 2D keypoints $\widehat{kp}_{ij}$
-#### can be solved by minimizing the [[reprojection]] error of 3D keypoints and 2D keypoints
-##### with nonlinear [[least squares]] problem
-#####
-$$R^*, T^*, D^* = \argmax\limits_{\{R,T,D\}} \sum\limits_{R_i,T_i,D_i}\big\| e_{cp}\left(R_i,T_i, D_i, \widehat{kp}_i \right)\big\|_{\Sigma_i}^2 \\+ \omega_d \big\| e_{d}\left(D_i, \widehat{D}_i \right)\big\|_{2}^2 + \omega_r \big\| e_{r}\left(R_i, \hat{\theta}_i \right)\big\|_{2}^2$$
-##### where $e_{cp}(..), e_d(..),e_r(..)$ are measurement errorr of camera-point, dimension prior and orientation prior.
-##### set $\Sigma$ covariance matrix of keypoints projection error
-###### confidence extracted from the [[heatmap]] corresponding to the keypoints
-#######
-$$\Sigma_i=\rm{diag} \left(\rm{softmax} \left(V(\widehat{kp}_i^{1:8}),M(\widehat{kp}_i^9)\right)\right)$$
-##
-## Lidar based
-:PROPERTIES:
-:heading: true
-:END:
-### [[voxel R-CNN]]
-## Monocular based
-:PROPERTIES:
-:heading: true
-:END:
-### [[disentangling transformation]]
-### [[smoke]]
-### Keypoint based monocular 3D object detection
-#### predict 2D bbox center and offset from projected 3D bbox center.
-#### [[RTM3D]]
-#### [[RTM3D++]]
-## Pseudo Lidar (depth prediction)
-:PROPERTIES:
-:heading: true
-:END:
-### [[3d detection with pseudo lidar]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBoZ01ja3NaQWtSUFJZT0NN
+ZTF6MDduenZoL0ZkZmlBTlFyd3Ftb0E1VjBvClF2dWJSaUh0VmZuemdmcTliTktM
+b0ROWHJiem5sTG5zSDdvM3UzTm9wOEEKLS0tIHNLcEFCTEpHNlU5MXRiTnREeFdM
+ck1KYkhrbVU5bHhyUGVJL0Qwc21ONFUK9BWKjjykQVTCwQvEcwLiKp4JMLN7lzpJ
+F320x3MlzSrvIz9lkFokF17xy1Nrx4cC5ES4wATpZM75EtoybzRoF1JENSmw1uJY
+23T4mPR58rWQtQCZOYbQUxmTdjRksG3faJiaTml8P0zsKWMJkTk3xsDtvnDE8TSJ
+/l/UE50DEyYAWqQH9tbM/E8aMwFE3N9MfUJUPn6vg5cPrO/QpT6PzvBeVE6BlPN/
+LSkfmk+dfeH7Nl4sT25yz9SrbxBgwOQXgG/ID29H88guAJkRbfbvV9Rp9Qk9s5/w
+BpAKtH0gnS8xvr7O9aVk7SnhFtH2DSc6z4bQiRs8GYrlWKMQLZZ7W3zPk7CYSvHC
+TqdnC5ZpV/iu8mRHkFJ9HFHT7iD2LvG7MClsJxpEIMP9IR7cGVJZnbg6Wvb4Vj1m
+nsn9SualLI4JoXjuXgwwhp3P9aC541Pq8ie/nx1t7J+aHFLdBwkjPdTRzz1/WvP4
+s1klImZMHoI4AX7IIyGLuGCc7B6ipgc+NLoBMFIz/sO+Jh0JSQmniboFkNcbEctq
+wMqCQRPE/OeU9BfsIg4LWvMFoGhoHGJiVOKVqb4q7QeFNgi2qhZzkOf6K3WN7PUI
+mZnKaEpuVUOEffIQqZWZw++hvuAka08zzzAVwMf69hYOagQQMs2M7yNwZk7vsOpR
+snpHab5QEM89fZUF+2l1/F96mOWmJtX6A5UrJO7WBNu45FcgIS26x1Ch2llyd24N
+2eeji4b1GcO3m7UgKi841ZsCLSqi0irrTZawJsWBL9AazUoIlQP3tU7AXlcli6pR
+B/AkED2sDx74dAFel9SDHtE2iCapwKVXOq9BGRdbIOH2WCYygMeydrb0HlXydkVH
+AjcFi/cZCZwOx9vE9I5EyrDJdhqXRL65sLyT7q0U0ZPm+bcBK9ezeafcNPn5tJZT
+oJ54MZk1KeN9GKcQMLsKYKV3bbLU/WIGcCE/EgeRdLOrNcDCNpzoEo+X3dr0n/SS
+Y8VRpi4FVqPXGdOe8nBq63HWHQ9LcAQRRDPGgZ7karyeXv7NOLmrhi23rypVgWu3
+PUC0n46B/jrMJakHXfwjSVzD6S6EpQ2VlyCsaRsdaQN9dBPkN2c2EiYnype0MWUS
+zXToU0AfAmgJfXnHEnH9KhnhPPfOy4as6h9R5eotSDQoCnJhPXXOaZb0DI/QvsZs
+Wy+N8QxEMfSyPqfbdXtVMkRmv02jDgBQZ8q1R6lWmsAIX1HwSmcy83WQdzZeD5mF
+65vO3WWJtTwWy6KHD96Igeql/NyPrEMXIyTml46AyqC+xiTR6+6gNRvkjE3bAq6c
+12G5pf28cGV0T4iEmXymEAAdINjhYso2eR6PZhplU5+/H3xDOfmE3Z+sMt/FHO9D
+N1PKgxigHxH4TUTwXNpWRU2f1wuEe3QwnB7LsWj+2d8m7XaU80z0R9W/HiTLPa7V
+LvaHZ6L3sEWJpofK4vDk6Te9Q85HaCcxtWUxhMv7EWgq+RFAffy67HndpXSmQ8IG
+hvaoDEs/aafPLqwPCMGq/B45P2xq8gam95WMJb1VC/v5eefn8SaygAbxE/qm0QEQ
+bpDThNDI3SwAJqonhiBOlav9QCjzg7xxDC/mTwnEz0JlToBiFkwnQL7UsJjdGLyj
+ARZYCc0kuXXY2e0NgU07uNrnk7bt2b7o6FNbqcnitAt9rK24ZgAHYfHDiODhgVU9
+pkB1EZZWxB0UBlwMn25DkUQHpxVGGBJ/3n6HOzYIfGKjWAXak8EGhGn9+NrUJK7s
+BIyOKthKec2W96GOMmakjorVH+6zz+u9RnEAgjYDf3THm1bVZXvcFhZt60QgAUvA
+kfNsd9E3xe2zUh39x48H/33xuB3RRM0l9pyGMGfD4OewX45ltt9Az5WIB4rkT4XZ
+vziDI02eweYxvnjW09WITjYDhpcHSwEEvdcSxmyT86/gvTA7HmKo/Tff3F1z771H
+fSMpegCGFy1knbeyIU0PUfD1RGpldbwlevSWnSHzcksLTtCYgqT71lJxS/9fEt01
+Ige+WJ9SJekE31xGsp9S0Dh+13Gfm3TvPFEpHPUy1yAysyiDUyOZq5HzFZycwHH2
+WFcW5o4Sb3JrqsZ1SAb2ZfpZ9uVfikaszeR2egTkjdmaU6jEjUlZvDqypQrlVzmE
+gctBw6NXjyvY0Ajg8BmElFPHD13H8CHorkujYIfTcroORWCcKH6qttPU+CbyTOis
+tXvzoRfPmmcljNUuuYWs5+DpM7Uj5JNjwVM39yVmCnsjAyxKripSErRhXdAz3xB6
+w/wSVC+RMEKJJLSpzoUR9eW034B0gQU24qpRZCFx7H459yGGiFoupAtFgTdUTKuz
+GqjxezrDjHalXCTtXhLUcDKhVR8/LimLZf5+xYnvKofg0AdpVRyO0bShxh1ExI5K
+ICzXwvpU/ALuGWasQll9NCPRl6CnNHMfiYM4FqA11zPT6H9q801AV3yXkuFY51ee
+XqFGEZ2uiugE0V312PZk7yhwI6dncxy5NiA3wS6w2Xu9qWccniMhxImExTqriAac
+rObB4QQgewsnLiAiCF+i9PkDROb0gJAvtaLVWzy9BHT1hpFdrx0BaVOKIQ2Zd1zf
+aLnokgWk/gNFjPwKf4YFeeC5H+YX0Enrp7ZJ4T6AesE2wc5gXQoObaMJiY8lOFys
+6p/wgK5GGSEJqEDigcWeC2VJFsi9GRDlJbuf9D8mCCdPd6NNeWqCzF4G25VDwgpd
+5vZaQsH3gbe7gUCppP+rtQY4C3oMHh1yQ+q6yXK0fwhm2zJf3+tFI9l1Ktv53n//
+cukFM5lIORJtgfV3yrxDbDj8iqFSw8VvlwYtD0TpJeQMv8iEdcexKmPtjKojKpJ7
+pXDPNBZBxI69REH2e5oZzit5ug==
+-----END AGE ENCRYPTED FILE-----
