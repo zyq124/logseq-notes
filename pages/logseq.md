@@ -1,87 +1,44 @@
----
-title: logseq
----
-
-## Query commands
-:PROPERTIES:
-:heading: true
-:END:
-###
-#+BEGIN_SRC 
-+BEGIN_QUERY
-{:title "📅 过期DeadLine"
-:query [:find (pull ?b [*])
-:in $ ?start
-:where
-[?b :block/deadline ?d]
-[?b :block/marker ?marker]
-[(< ?d ?start)]
-[(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
-:inputs [:today]
-:collapsed? false}
-#+END_QUERY
-#+END_SRC
-###
-#+BEGIN_SRC 
-:title "📅 临近DeadLine"
-:query [:find (pull ?b [*])
-:in $ ?start ?next
-:where
-[?b :block/deadline ?d]
-[?b :block/marker ?marker]
-[(> ?d ?start)]
-[(< ?d ?next)]
-[(contains? #{"NOW" "LATER" "DOING" "TODO"} ?marker)]]
-:inputs [:today :7d-after]
-:collapsed? false}
-#+END_SRC
-### 查询所有包含特定词的标题
-####
-#+BEGIN_SRC 
-#+BEGIN_QUERY
-{:title [:code "Pages that have \"clojure\" inside"]
- :query [:find (pull ?p [*])
-         :where [?p :page/name ?name]
-         [(clojure.string/includes? ?name "clojure")]]}
-#+END_QUERY
-#+END_SRC
-## CSS tips
-###
-#+BEGIN_SRC 
-/*Supporter colors:
-https://github.com/mrmrs/colors
-.navy { color: #001F3F; }
-.blue { color: #0074D9; }
-.aqua { color: #7FDBFF; }
-.teal { color: #39CCCC; }
-.olive { color: #3D9970; }
-.green { color: #2ECC40; }
-.lime { color: #01FF70; }
-.yellow { color: #FFDC00; }
-.orange { color: #FF851B; }
-.red { color: #FF4136; }
-.fuchsia { color: #F012BE; }
-.purple { color: #B10DC9; }
-.maroon { color: #85144B; }
-.silver { color: #DDDDDD; }
-.gray { color: #AAAAAA; }
-.black { color: #111111; }
-*/
-.tag[href*="/c-"] {
-     display:none !important;  
-}
-
-.tag[href*="/c-"] + mark, 
-.tag[href*="/c-"] + .page-reference > .page-ref {
-    color: white !important;
- border-radius: 5px;
- padding-left: 5px;
- padding-right: 5px;
- font-weight: bold;
-}
-
-div[data-refs-self*="c-red"] > div:first-of-type .block-content {
-    background-color: red !important;
-}
-#+END_SRC
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBqeUM2RmxxLy80RDJaU0ZO
+dU5yZXkvRXRWdHJyQ1VJeWpYSHlYL3VENFVrCm9la2lPN2dlbFp4bjQzWFFOV3Nu
+WGM3M2NwdjhMUXRvVWkwSU5EREJzYmsKLS0tIEFadUlHeDk4RC9qMFphT3UwYzJD
+UzZFTFh2a0tYa1o0YWJqS1NuRVdaeXcKeXSLqfWgZ0zkAlwrBDxy4Aou8vsBLGmZ
+1K8eyZ03o0NX6VvSK/J0pMH1+niCpCAysOjAS0IFY5auRQOsPsSXjb4578M9TETa
+9gW0qAfO6mJ8aMh7D5AMesmuj5pZHGPY2w4ese/xzJLYwZAwgpldKHdsrFw+W2hY
+yq1QwUPwVVtfaXn+HrjcA7nzYeBcSHoYwcd5bOoNrJt5I3MI9WU2hbndJtPXCOVI
+0CqztGvpLJKC65iDot48Gv3SOAnvgLyv4hVpapxFABeyuQT0K23H9nmbYdlEj6EB
+sD/mgfu3wA0oaUeiy7nBt1wd1moHqKr2xvaqD5X9SpuVaAe/GNQb4yUOf+e34pUv
+wQqY4X09nbVV2X02wDLlg7yVvCynVIgDUi5V3uWtWI5OVxPe0mzIo1NUYRFgdn7R
+ZLi8wZ6RzC0AyKDZ6MXNSy7QXbGuc5HZ8tamkBC50KGT62NJKlzp4MJZmk5J5jsq
+rUL1DQC0g6b7UUmwJimznOLbERYqTetXMbJEPvhxn5KhDbQf0pAtzFB9I6pRDOWo
+kI01AClPv0aJsHOBmEgvjhAANGoRNgX3gpzI8F/GuzY2r2IQQb1A2U6+7hJpuQia
+4gfco6/LvNaQT3ZIwmtVbBKE8nufgDItslK4BlA7wZ9bLbu1t3mcLNrvPhezpW2W
+UXG4Wc254Q/mS5aIRJ4JzxOrrmm1OohWUuZ3yu/wRepisYq3Lk2IySKx/T93r4xV
+wtll0VT277I5p5LcJLLukRVqxyNIlo3j+dLL/MWJnYpQbBjx3uicL8iYi8lEenoJ
+xk/aZJA0XYxuzw7PJNVE28yGPJkxiTyb1x47EnFGTWgx3PpQFWrHjG9FJm5FJe4f
+2HgQjrTF0aWQpQfqYU0e8QNyGzA7i7fYADDJJOIzgUhA/l01ooqNIfPZGcqVLA4K
+5KHMHQNeiJJXKUsojqeYATnQ+cuY3D6nuC97rmmhdeT40BQ5KHBhT4zVTUn2hbqu
+9VMW5awwWqvXPVNLu/WRyZBnvDs9d5luvOgqAIWO3ow/TKcIcSlNKaegvtU6tVjx
+guPhFCpHofQOB998PRXJYdWUN3Xn3QLis32wKqOFkeTfwbBz3SHiY77hhojqpoLF
+96Y0231v1ofI036g3nv2Gny+MQ0xOjAGQi5LUOoKzaMeB7wUhwczcsLCkuZUsEbx
+OelX9ShMwgo+vVKhIh2C23oR1LUHNUH3cETY+WxynLs+U9CjAJvvY/iKtepNKPIE
+/LDdmvlX+PFz2ocK/3bcRJrvuXTrF8TPU8QKWgU0x2H4+kRRmlUx1vs4s3qFvtk6
+sQo5m4cFxjtCOXefaYPc0OmWcUEV4oXSvJIhS02n9AJunOtxRPLQw8Ase2ZxuMks
+GXExa5azC8UGGqqNTAcZjazodBtm/NaVOyRNOOinfzLE481ABtD2qfjGpV6hhEdn
+fUf6t1Ysv2RzjEz5eEEfbcSo0P9/o/RskZF8F60FK8IjC7ti6VDJS0tWpUbsArXO
+EzxdteyCd7L8DhnPfFO+fwLWceblOU1HfCcQD49XtuPvsDzhSOL6RhcFAdoCUeBn
+WfW5QZBpRzGWoFo2kD54CTEFZGm9HK0cA1W2LNA/VCCrBWc6+5z12rAYXQJsksLN
+8+juUOHfiYp+wAqxTWv/Jx6ldg8Nhz1gbnM8qCRlNn2G6StBn8f8hK7giX+lc0fr
+GvFE4uW66jUJi45IUgwebmsLbiRFq6WFz/HYQwsPeevh/pEAoju6NhEXAHk65SQv
+iTu8t6tCFrXLuVm3N7sMaaD15TMDIATZ7mogelMt8hpUM5H2r79xqJtpf4GVrCPH
+IA5v0BxsRYyd951qKYgD9oyeGrBB6/3guJCH3GpOEXEDVBZki+6HnHXQwdiKXDz1
+6YAsjyBAcqjB45yEZczwN+/tyYPxRp3DWtmyuu8rNuJF7wb18kd3AJqPRQjRDmpK
+FuVmc8xc1CoMnwZSMgluk1FagKfrNGfjCzf7tMZPnHNpdGHfzYAYsFuqSpB2jGl0
+SHmH77p1clYJ+KfK8EoYzGsQN1004EPhwwaAu5VfoJRUVTWMd4dT3PT4Qa+2l20L
+6S83OLXXPgCS86wiKP5+KHi0DaVswFLgqK9VT/H7Q1NKoNBatUd1ZiyAEB9UG/Qf
+15A1C7tI6yFLDcoH47XqAsK6FqlVfWYvhMy10eBStqxT3Rlcl3U+MHUL9ZUNxIft
+BKGi0IPfFF4Pla/4aICUHspStnw6RjCiiS7NDKUb+Ud3bkjqmVMIt4ocw1M7Dj0p
+7zpZMDZU7MI4e2wLYUe/Bqyge8aWxvrVxNhTOqhDzD3S/THC6MppJCo+09PNRzDo
+ihsVt8jeuXO626la80RLQlQbhYii/kyIPdSRzgb9eDRJsWNXDM4vP6Pwqu7p/uF5
+arFLyJKKyTr0tNLyCRV1pwv2nTfUdIVXo6GS3tknpl7N5vbTtpcm5Q==
+-----END AGE ENCRYPTED FILE-----
