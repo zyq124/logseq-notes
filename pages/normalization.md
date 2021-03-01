@@ -1,17 +1,18 @@
----
-title: normalization
-alias: 标准化
----
-
-## [[preprocessing]]
-### 标准化后,把不同图片**映射到同一个坐标系,同一个尺度**
-#### 一定程度上消除因为过度曝光,质量不佳或者噪声等对模型权值更新的影响
-### 过大像素值分量(RGB)主导权值更新的问题 转为 RGB分量都具有相同的*数值分布*
-#### 一定程度上消除gradient更新的收敛慢,无序的问题
-## 分类
-:PROPERTIES:
-:heading: true
-:END:
-### [[min-max normalization]]
-### [[z-score normalization]]
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBhNDdrclNJMzV0S1Q5Q3U1
+eCs2bE1sU1UwL0M1VUVwaUIwOW03Y01LblRBClVpTkxweDZBd0k4OVVYTWY1cDVD
+NlZvSGErL1JwQlVMR0RmQ1VjclRCQk0KLS0tIEFxN0ZINUlYTjdLNlVsVGhWYTBv
+b1l4cjRaeFNXcllIT0RxTkxBVW50MTgKmsdNTGDYh6R4FLLTL1jZQ43Rtbq2xsMF
+0cfOX70inkMCl1Y5LsR/ZXtLtCT4612rJehjYm+NfHutcYt2awuZv6PZlp1WKt+r
+mqv/bKLSJTbczVOmnLQRp17W2FRgCo6naEBUEYWsoUWYS9mmaOgJqhnpX2+jWfGV
+NQn1UjXHCbwPOh+Pepe96/BPJFbhMKMztnz9T3JNxN0VRt6B8dx9N+dsG6Si0qwF
+I4KTzZuoSQmvuLdYyZJQEE+JLBxA6NN8StSYkZMEvmGW0gnsMubCnXR9oA9jBk8T
+LofbdEV0XllgbhgPVRX4dJspPhfchQc80/b66IbACSNZ7WXFsimMqFGmRY7MZ2nI
+TeXwtSujXy4MpzSFdaUqmYp/fyHBzsOWbUM9WmJGFwQr31fh3c0R92uybZa/ikb8
+KrbpxDndrdz54FCFdHBZuVAm58Xiev/IkYZL98xblMDfO5JoJqo8im/tDSSkGMwH
+AAD8wRYsk31oIOBzRAkyKevlKr5i3TcXPXpadh3rLXp/8v9QASZSeR6A8VvzgcuU
+lAx+tef0kSS6EYnpA4dKabohUojF0K1R5Pl4JOqQ4dD4YkscXd2sM+nX1GJBDZ6a
+9if5Fq/+nObThqEuinqpon9GIZQtVk/jCaYCRS38bgDqPmFKVTIgzr5wsyyGc2wF
+FJ7IIJ9Vt1loGX0IIE5SfGhpywshlxVNMYcPFZN7hh+IdienTS9VOi3cTiT8LJIX
+4J8kNdPEcHmg7eVBN0Qw
+-----END AGE ENCRYPTED FILE-----
