@@ -1,97 +1,121 @@
----
-title: TransTrack
-type: Article
-citekey: sunTransTrackMultipleObjectTracking2020
-publication date: [[2020-12-31]]
-authors: [[Peize Sun]], [[Yi Jiang]], [[Rufeng Zhang]], [[Enze Xie]], [[Jinkun Cao]], [[Xinting Hu]], [[Tao Kong]], [[Zehuan Yuan]], [[Changhu Wang]], [[Ping Luo]]
-tags: [[MOT]], #zotero, #literature-notes, #reference, [[transformer]], [[query-key]]
----
-## TransTrack: Multiple-Object Tracking with Transformer #reading
-### Zotero Metadata
-#### #code  https://github.com/PeizeSun/TransTrack
-#### apper: [http://arxiv.org/abs/2012.15460](http://arxiv.org/abs/2012.15460)
-#### PDF Attachments
-	- [Sun et al_2020_TransTrack.pdf](zotero://open-pdf/library/items/2YJ93IDV)
-
-#### [[abstract]]:
-##### Multiple-object tracking(MOT) is mostly dominated by complex and multi-step [[tracking-by-detection]] algorithm, which performs object detection, feature extraction, and temporal association, separately.
-##### ^^query-key^^ mechanism in single-object tracking(SOT), which tracks the object of the current frame by object feature of the previous frame, has great potential to set up a simple _joint-detection-and-tracking_ MOT paradigm.
-###### ![image.png](../assets/pages_transtrack_1613701384462_0.png){:height 211, :width 359}
-###### Nonetheless, the query-key method is seldom studied due to its inability to detect new-coming objects.
-####### ![image.png](../assets/pages_transtrack_1613701407945_0.png){:height 211, :width 388}
-##### In this work, we propose **TransTrack**, a baseline for MOT with Transformer.
-###### It takes advantage of ^^query-key^^ mechanism and introduces a set of learned object queries into the pipeline to enable detecting new-coming objects.
-##### **TransTrack** has 3 main advantages:
-###### (1) It is an online joint-detection-and-tracking pipeline based on **query-key** mechanism. Complex and multi-step components in the previous methods are **simplified**.
-###### (2) It is a brand new architecture based on _Transformer_. The learned object query detects objects in the current frame. The object feature query from the previous frame associates those current objects with the previous ones.
-###### (3) For the first time, we demonstrate a much simple and effective method based on query-key mechanism and Transformer architecture could achieve competitive 65.8\% MOTA on the MOT17 challenge dataset.
-#### zotero items: [Local library](zotero://select/items/1_H36YUSUS)
-## 1. Pipeline
-:PROPERTIES:
-:heading: true
-:END:
-### ![image.png](../assets/pages_transtrack_1613636460588_0.png)
-### Both object feature query from previous frame and learned object query are taken as input query
-#### query两个分支分别来自上一帧目标特征query集与一个learned object query集
-#### Learned object query detects objects in the current frame #related [[DETR]]
-##### decoded into **detection boxes** on each frame
-##### provide common object detection
-#### Object feature query from previous frame $F_{t-1}$  #related [[CenterTrack]]
-##### 上一帧检测分支产生的object feature vector
-##### 位移预测, **object propagation**
-##### decoded into **tracking boxes**
-##### associates objects of current frame with previous ones
-### Image feature map as **common key**
-### ![image.png](../assets/pages_transtrack_1613707753540_0.png)
-#### current and previous frames are fed into _encoder_ to generate composite feature.
-#### learned object query decoded into detection boxes
-#### object feature of previous frame decoded into tracking boxes
-##### 上一帧目标在当前帧的位置预测
-#### Box Association
-##### [[IoU]] matching to associate detection and tracking boxes
-##### apply [[Kuhn-Munkres]] algorithm to IoU similarity of detection boxes and tracking boxes
-###### unmatched detection boxes are added as new objects
-### Built on **transformer** with [[Encoder-decoder]], with stacked multi-head attention layers and point-wise fully connected layers
-#### ((602f149c-8acd-4c88-ba97-c4e189bd8f16))
-#### ((602f1494-f1af-496b-88e8-0890899d2c25))
-#### Encoder generates keys and decoder takes as input task-specific queries
-### The encoder takes the composed feature maps of 2 consecutive frames as input
-:PROPERTIES:
-:id: 603070b4-7f4c-40cc-bc24-59e0d20ea247
-:END:
-#### catch useful ^^correlations^^
-## 2. Training
-:PROPERTIES:
-:heading: true
-:END:
-### Training Loss
-:PROPERTIES:
-:heading: true
-:END:
-#### 同时train 2 decoders
-#### set prediction loss
-##### predict classification and box coordinates
-##### set-based loss produces an optimal [[bipartite graph matching]] between predictions and gt
-##### 1. matching loss for training detection boxes
-######
-$$\mathcal{L} = \lambda_{cls}\cdot \mathcal{L}_{cls} +\lambda_{L1}\cdot \mathcal{L}_{L1} +\lambda_{giou}\cdot \mathcal{L}_{giou}$$
-####### $\mathcal{L}_{cls}$ is [[focal loss]] of category labels
-####### $\mathcal{L}_{L1}$ normalized center coordinates
-####### $\mathcal{L}_{giou}$ (generalized [[IoU]] loss) height and width
-##### 2. matching loss for training tracking boxes
-###### optimal bipartite matching is removed
-###### matching index directly from detection boxes in the previous frame
-###### training loss is the same as 1
-### Inference
-:PROPERTIES:
-:heading: true
-:END:
-#### Track Rebirth
-:PROPERTIES:
-:heading: true
-:END:
-##### to enhance robustness to occlusions and short-term disappearing
-##### if a tracking box is unmatched, keeps as ^^inactive^^ until remains unmatched for $K$ consecutive frames
-###### $K=32$ here
-##### Inactive can be matched and regain ID.
-#####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBycGkwZ3BQQnFlNDRZUVZV
+QkQrWlUrV2F6cG40OUhDNTQvbVBHQmNBaTM4CnNRUlQ4NVZ6MS9tbjZLNFg1UGRN
+aStLVkZlcUxpQWNOMXN0WmJZK0xXblkKLS0tIEZJRTZIY3dmZE1pUUtRQ0Vtbm9I
+SFV2N0Y4SFdrYUZ4eThvcGZFeGZLancKXNqS2MU1+1cz7itMWnkmtkhfQB+TlZVR
+R/qa9rVThhtVHdyWyLymiloBvoIBu7BHZ4Z+iiNEKK0pzOShspRUhX6kgK2ZHiOk
+GcrDaJeANvJ6BKym7I1uBCDMAK3fe7vxLUvvJxQa/2PFwgHcfaWGafe7xojP64W6
+/gXRuVW5oi4RyWIC4sCaJBvEMM2sHI9kuPE3GNSSTYAZGi0J897ttwUAH+c7Rxmn
+rB7yvU3fjlugcaUKryYXm+lRcUfuw/bQYlVvvG8Eqhy92mG4sehNSBvg6cigsjWw
+0QVdnUAXfbkDKiLsl0B4gQmQne8AFWsj0Jsk/3U1WBwubOUri6SZEKG2Cv93BBkp
+9vdhr3GY4E2hFk0ahbDbdUToRJEvaapHuPH/5IvaaW9zFfIUI7YrTVzt9T12550e
+P27r5uOzKN2cOaoHS6SL8aTXEXWjW1FQqYggf8OeROZL7Abrmt11ysbIHKFwYuWs
+UjlH7eJalVgpNHdnQace+RzY3HvyA+ZLqDYhBpNhUoKT3xVlIuohFuNCe+hWZQ5F
+lj3f0KQc3VAG9Iwu7nRwNg93xNTUfpX9gi7H0RmVSToiqLG38ipkPPfXKSTOAjsE
+YBwP4PxAd38tGW1wOsX35hgCHfBtwNBmhHBCUD6OhAoV348RpG7ZMf/lR6LV2Raa
+oiTxT8YEIhCHeOfEZDvtKJ2dAmezIN+l7i+MTjak/NVE4Q56JXBksJx9tRPLNyCA
+sZPEcbDd5werue6ZGrkdKmS893mRGjV8y8oUPZnvPPSlXOp27QM9zUtvEoKxmEce
+e2sUkaMimLZWjwgnq4ezX/8NpvvO8p3Bxl4uXwyyif/uBM6KkftwSwnwz00NqHZf
+vFpP3HkJL8I17f2ycvCWO03jDyuzNKrp/OeagkhTtTVfTIKUclFGTgLoOapo4Fvp
+5sGWY1HIDvrNtiSSBWaHh11kz52cZGtWORiXg5DGBYFJIeac5NH3KTKP62HLokJr
+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
+-----END AGE ENCRYPTED FILE-----
