@@ -1,12 +1,21 @@
----
-title: metric-learning
-public: true
----
-
-## It is a general family of methods that learn distance functions from data. While much previous effort focused on learning **Mahalanobis distances**, recently the metric learning community has focused on learning [[Vector Embeddings]] to be used with standard (e.g. Euclidean) distance metrics.
-:PROPERTIES:
-:id: 5fbf5a26-4912-470d-b02b-594f29bcf4f7
-:END:
-### In this light, the problem of learning local feature descriptors is an instance of metric learning. For [[nearest-neighbour]] retrieval, optimization of ranking performance has been studied in metric learning.
-## #Utility library
-### [[pytorch-metric-learning]]
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBSeG1iWDA0anlVK1doakZE
+UE9QWjY3Wmk1RlJEU1ZFN09hbXdHUkVOSzEwCkhNSzI5MmxaN0Q5d2VEK0RyNEQw
+QjduKysvZUIwNDZEVk5uNnpXYTRWL0kKLS0tIGdsNVNOM21FeS9wZ3hWNlpnMnJq
+cmE4eEVIVWM3YnBJS2NhV1VBY29yNHcK8tRNq/4uq/yBHDG5R+6wg+/KURez3y4a
++074kOHX1jZBCRyOoFFLcQ//JDNh2QQQC0YcqLRTdptGj566/Yoo0K5vkJIhPjAS
+cBnRdQ/wGYkI9jHLd7UtGqlh4DVLwyqsp0Ow1Hve3M6N/s4rxXjNhzNc9Zsl4oSH
+Xy0cY7/pX2i0KyhdgeYEtAq+gieSFdGgVK+pv4vPXHPo6NVsoaazZ4W2okvRRMSr
+IgUyGRrInqGmwfIjvz5wJ7eJRAsdvk9/xYfufDRG4MIaZU8nAe/a7/yDl4Vky3Ks
+znfgz5NagjVEUTdTRn1oZARQuw+X0L4WKJXj7IL4eTs9FpZRIds3SH0YchX7I9cc
+YSxLMYgEcMpyxI1ZKRk6/kAjV9pb7OrgX4QfDtayUO7x6hbRYDcjLJPQ/cM2cxlx
+/F3g2z0RetfT4EKPdRz9wB20sJdZhcOBrAyYF0FHT4NEuNOEVBq1HR4T8E5vWIc4
+IEnRyO1NdnhGnbNxGRCDGGijeGw87TYH9J8R0H+kTg4ZR0J3slggqzriv14M9VvD
+If+djfwpqz2zOdbn0B+JTv0cjow4b55xpoKTujkLUpIt9/JXnj/HFe639wlGjkcF
+Ps80Cyu2Yq6VIbJJgnymt24055figsb29xO8EE4XtyfaOV9C9nAWK/8oqZRp3YOf
+YpzXkqF83roHLp7PUvt25tP1ARG0YebLi4HFzpvPndGN0QKV7ZDsXWAAQWI4tzGi
+fmOvo7ZCtLn5XfiAsCxgr4l5FEY33i5OJMvegUZ+XNJL7DdUZjsu0NyIWE9JIRrc
+bVZFDEV8/2m5vBag1mkg4X6u749/lc2Me/YcMImrlrKk2VFJ/0vBNDZjNxdnvZ49
+k+jwDkCWlyg71OgdmhExBsZ+eijV6HdvZ6qIJeYO+zmz1Wk6dvwboTEtGAgTc3Xx
+gDxnrQ==
+-----END AGE ENCRYPTED FILE-----
