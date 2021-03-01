@@ -1,79 +1,90 @@
----
-title: video instance segmentation tracking with VAE
-tags: [[VAE]] [[segmentation]] tracking
----
-
-##
-## TODO  To read!
-:PROPERTIES:
-:todo: 1608191817524
-:END:
-## Structure: 1 encoder, 3 parallel branches
-:PROPERTIES:
-:heading: true
-:END:
-### auxiliary branch
-#### predict future frame
-#### reconstruct loss
-#### learn finer representations, meaningful semantic information encoded in latent space
-### proposal branch
-#### object-level information for connecting objects over time
-#### attentive cues to reduce false negatives in augment branch
-### augment branch
-#### aggregates pixel-level features extracted from different layers in encoder
-## [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_17_seg_track.png?Expires=4761774928&Signature=bWAasSKsLNWPwdakaI0qyeOScAQZ0RrL7iaixe744FvvyLI6uit11uyh5Lee9GYnj-fuRRTrTgZ4-g78VcfP-AQPt5HeAXR85c0y-SZdIx1tewePik6cwTuytZczGKhhNGj8x9GQCds~jg0vKfZR0YY57PSG-4gb8nz1lqrPfQp1ZGsfI9j2NLawAvuQe9WKpipDkg6V32o7~K5aWPLeO5tqCXaA6h~0r6SoU44BmziOxJU2WYjirtki~g~NcP53Vxu5F3wsy5BD~~nKRe5FPqP812zLPcDQwaf3iUmurV1XPwySBJENsvNstoMJJYwIF50C0DohBxI2vHelj85wrg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_17_seg_track.png]]
-## Unified [[VAE]]
-:PROPERTIES:
-:heading: true
-:END:
-### Video sequence $F$ with $T$ frames $F_t, t\in{\{1, \cdots, T\}}$ with $N$ instances belonging to label set $C$.
-### Input
-:PROPERTIES:
-:heading: true
-:END:
-#### Current observation $\xi_t=[F_t,F_{t-1}, \Lambda_{t-1}]$
-### Structure
-:PROPERTIES:
-:heading: true
-:END:
-#### Encoder $E_{\phi}$
-##### maps the current observation $xi_t$ to:
-###### a latent variable $\mathbf{z}$ and
-###### a spatial prior $\mathbf{\phi}$
-#### Auxiliary Decoder $D_{\theta}^{aux}$
-#### Proposal Decoder $D_{\theta}^{pro}$
-#### Augmentation Decoder $D_{\theta}^{aug}$
-### Output $\hat{\chi}_t=[\hat{F}_{t+1},\hat{\Gamma}_{t},\hat{\Lambda}_t]$
-:PROPERTIES:
-:heading: true
-:END:
-#### Predict future frame $\hat{F}_{t+1}$ in $D_{\theta}^{aux}$
-#### Generate a set of detectioni box predictions $\hat{\Gamma}_{t}$ in $D_{\theta}^{pro}$
-##### $\hat{\Gamma}_{t}=\{b_{i,t}\}^{n_b}_{i=1}$
-#### Estimate a set of instance segmentation masks $\hat{\Lambda}_t$ in $D_{\theta}^{aug}$
-##### $\hat{\Lambda}_t=\{m_{i,t}\}_{i=1}^{n_m}$
-#### where $b_{i,t}$ and $m_{i,t}$ is detection box and segmentation mask for instance $i$ at frame $t$.
-#### $n_b$ and $n_m$ are number of object instances at frame $t$ in $D_{\theta}^{pro}$ and $D_{\theta}^{aug}$
-### 1. Conditional Variational Bound
-:PROPERTIES:
-:heading: true
-:END:
-#### Add a conditional prior $\varphi$ extracted from $\xi$ to preserve spatial information
-#### $D_{\theta}$ estimates the parameters of distribution $p_{\theta}(\chi_t|z,\varphi)$
-##### We need to maximize the **log-likelihood** of observed data $\xi$
-##### **marginalize out** the latent variables $z$ and $\varphi$.
-#### Use approximate posterior $q_{\phi}(z|\xi,\varphi)$ to obtain the [[ELBO]] from [[Jensen's inequality]]
-##### ^^(1)^^ $\log{p_{\theta}(\chi_t|\xi)}\geqslant \mathbb{E}_q \log{\frac{p_{\theta}(\chi_t|z,\phi)p_{\phi}(z|\varphi)}{q_{\phi}(z|\chi,\varphi)}}.$
-##### The loss function follows (1) and has the form:
-###### $\mathcal{L}(\chi_t,\theta, \phi)=-D_{KL}\left(q_{\phi}(z|\xi,\varphi)||p_{\theta}(z|\varphi)\right) + \mathbb{E}_{q_{\phi}(z|\xi,\varphi)}[\log{p_{\theta}(\chi_t|z,\varphi)}].$
-####### $D_{KL}$ divergence, a **latent** loss as distance between distribution $q_{\phi}(z|\xi,\varphi)$ and prior distribution $z$.
-######## As [[regulariztion]] term to avoid departs too much from prior.
-####### log-likelihood part, a **decoding** loss, which measures how accurately the network constructs the semantic output $\chi_t$ by using the distribution $p_{\theta}(\chi_t|z,\varphi)$
-######## distance between $\hat{\chi}_t$ and $\chi_t$.
-### 2. Variational Inference with Gaussian Process Latent Variables
-:PROPERTIES:
-:heading: true
-:END:
-#### Video data strong spatial correlation
-#### So to relax the assumption that latent variables are [[iid]], propose new scheme
-#####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBvWGpqanByRUZuV2hlRTg4
+M2NNcm54V2NUdWk1OGc1N012dFI5MGRpVEhVCkh2bDFZREs2OHNqSmFub1RKWGNN
+aDV5VWZQZGNsenZybkFsWTY4OThNYmcKLS0tIFVsUFpoZWVvRWEzeTlnVXpjdlhj
+dVBEM1pCUkNROS84QmcrWUlVVnhWeW8K+TLdOBnUr6YFa/vvZO7XYK6VFUNCLWNE
+sKog4j+9wMxBIAmeWSwk8kBsENMrPlL2l4yoeTExSoLht5SlH5xBhaNGDKRCpTEX
+0NbcFS8zZPIivFVFkMSUIw1UL8vhxr8PYDaTWhY836w3+1WBYi9PpbXE/aNLwb+i
+P15TMj+kw35VLs0SHgCZHb5BWCvvclnf/CQ7HnQEtzHsp9MgmZgqTw9oe22YqDoT
+u1sYH2Ih6o1OAI0HTbKcEysQp6yCJQmFVoFhfmp2GoERvMeAkE6dhEgD4UciHxdF
+REhSh8E/NIBvn59Hy191tUk9EAMJC/fYtsYYydgD1aMUp9jv+AWIRtr96OMHn9yx
+dmHMLWa4dbAIbXOTUiakdWmQbNvj0fGJaS0Wob8le0qLrLd4q9AO41tG9HPLAqrz
+DcfCH76fjcVZcCkatrfFbvIM3uLzTg4lowy7QtxgZ6EYAyrFOzPWKL1m2P6FB8mH
++4xFvYe9MNmJNCElYtfdhSoNwtspBxYDDzcHWfouYp/10rp9HRcoXGbjggpXHxi8
+UTL9Y0ptLFbjvPoZBofm2R7+Zxt6qJIukRXORIVoDWtZFzjF8dlFpkaBX2zKObu/
+x8uJM2+GBkbMzdFZJ9Lw/wHMj5PNJJsWC1KmtC4M0j8FOH24k173kjbEapq2+uP4
+91YGd0/FY4ud4RRnApZUPWewIeM51HkQrKy9/F4HwHEvMlwK138UhEX9NZuzcSqw
+GXJjnld9cZ9usioDiV5+U6BaBuVsoGWEoJXtfz0woXIOvnUjWo/0pM0l/mBClqMz
+BuktmWfL483elPcteW7EwUdHSOdUPONMbdJjXHIEk8IE5PiCibwcHVLGTng8+K5K
+IJ5G2CvxXlMG2xsnnmpmPG87UGtHNyjeXfSyAMzfdeBkli43UCx9PvHF9bGbS/dp
+TgPiObypqfqzS2v3zAPeOcl29Jk9LGaAqRPJA+yDj3X+nbnODehFIZk4cRYCHS2P
+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
+-----END AGE ENCRYPTED FILE-----
