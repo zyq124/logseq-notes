@@ -1,99 +1,91 @@
----
-title: Kinematic
----
-
-## Nomenclature 命名
-:PROPERTIES:
-:heading: true
-:background_color: rgb(83, 62, 125)
-:END:
-### Identity matrix: $\mathbb{1}_{n\times m}$
-### Coordinate system
-#### $\mathbf{e}_x^A, \mathbf{e}_y^A, \mathbf{e}_z^A$
-#### Cartesian right-hand system A with basis (unit) vectors $\mathbf{e}$
-### Inertial frame
-#### $\mathbf{e}_x^I, \mathbf{e}_y^I, \mathbf{e}_z^I$
-#### global / inertial / world coordinate system
-### Body-fixed frame
-#### $\mathbf{e}_x^B, \mathbf{e}_y^B, \mathbf{e}_z^B$
-#### local / body-fixed coordinate system (moves with body)
-### Rotation
-#### $\Phi \in{SO(3)}$
-#### generic rotation (for all parameterizations)
-## Operators
-:PROPERTIES:
-:heading: true
-:background_color: rgb(73, 125, 70)
-:END:
-### Cross product / skew symmetric
-:PROPERTIES:
-:heading: true
-:END:
-####
-$$\mathbf{a \times b}=\left[\begin{matrix} a_1 \\ a_2 \\ a_3\end{matrix}\right] \times \left[\begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]=(\mathbf{a})^{\wedge}\mathbf{b}=\hat{\mathbf{a}}\mathbf{b}=\left[\begin{matrix} 0 & -a_3 & a_2 \\ a_3 & 0 & -a_1 \\ -a_2 & a_1 & 0 \end{matrix} \right]\left[ \begin{matrix} b_1 \\ b_2 \\ b_3\end{matrix}\right]$$
-### Unskew
-####
-$$\mathbf{a}=\hat{\mathbf{a}}^{\vee}, \hat{\mathbf{a}}=-\hat{\mathbf{a}}^{\top}, \mathbf{a\times b}=- \mathbf{b\times a}$$
-### Euclidean norm
-####
-$$||\mathbf{a}||=\sqrt{\mathbf{a^{\top}a}}=\sqrt{a_1^2 + \cdots + a_n^2}$$
-### Exponential map for matrix (**exp**)
-####
-$$\mathbb{R}^{3\times 3} \rightarrow\mathbb{R}^{3\times 3}, \mathbf{A} \mapsto e^{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$$
-### Logarithmic map for matrix (**log**)
-####
-$$\mathbb{R}^{3\times 3} \rightarrow\mathbb{R}^{3\times 3}, \mathbf{A} \mapsto \log{\mathbf{A}}, \mathbf{A}\in{\mathbb{R}^{3\times 3}}$$
-## Position
-:PROPERTIES:
-:heading: true
-:background_color: rgb(38, 76, 155)
-:END:
-### Vector
-#### $\mathbf{r}_{OP}$, from point $O$ to point $P$
-### Position vector
-#### ${}_B\mathbf{r}_{OP}$, from point $O$ to point $P$ in frame $B$.
-### Homogeneous position vector
-#### ${}_B\bar{\mathbf{r}}_{OP}=\left[{}_B\mathbf{r}^{\top}_{OP}, 1\right]^{\top}$, from point $O$ to point $P$ in frame $B$.
-## Orientation / Rotation
-:PROPERTIES:
-:heading: true
-:background_color: rgb(121, 62, 62)
-:END:
-### The most well-known parameterizations are Euler angles, rotation matrix, angle-axis, rotation vector and [[unit quaternion]].
-### Active Rotation
-:PROPERTIES:
-:heading: true
-:END:
-#### $\Phi^A: {}_I \mathbf{r}_{OP} \mapsto {}_I \mathbf{r}_{OQ}$
-#### rotates the vector $\mathbf{r}_{OP}$
-### Passive Rotation
-:PROPERTIES:
-:heading: true
-:END:
-#### $\Phi^{P}: {}_I\mathbf{r}_{OP} \mapsto {}_B\mathbf{r}_{OP}$
-#### rotates the frame ($\mathbf{e}_x^I, \mathbf{e}_y^I, \mathbf{e}_z^I$)
-### Elementary Rotations
-:PROPERTIES:
-:heading: true
-:END:
-#### ${}_I\mathbf{r}_{OP} = \mathbf{C}_{IB} \cdot {}_B\mathbf{r}_{OP}$
-#### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_14_t1.png?Expires=4761520316&Signature=VtSP6R552prqdXTO1mMhxajiCuRMpWxga68kGyHSqORsRxxLvYytvs7qJPb~mj1dKzlVqb4bw4tJo5ZDr6FDRqC5dBbMaoie1R4iXLxlpWc~VFurxOxwakAiQXdp2aNcOute2nqgXi606pI9iW9Ac6fCUiy89DiDIZuSNTnAPp~rCCyMKh6Rn6bA5-RFd0snsCgoKNWUInXal~EnHCuO8aO1pWUnp4lbVhMZV3C~7g3KwMz9G-ePiWYFVW2sTlhnXtMCMvRLJ-rNriIivSrF3ddrNZkVPX2fFRI1QNNbfUofW39MLey3b0yT~3FbJqTGoSX9pYyUNeRMVdhWddL2Hw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_14_t1.png]]
-### Inversion
-:PROPERTIES:
-:heading: true
-:END:
-#### $\Phi^{A^{-1}}(\mathbf{r})=\Phi^P(\mathbf{r})$
-### Concatenation
-:PROPERTIES:
-:heading: true
-:END:
-#### $\Phi_2^A\left(\Phi_1^A(\mathbf{r})\right)=\left(\Phi_2^A \otimes \Phi_1^A\right)(\mathbf{r})=\left(\Phi_1^{A^{-1}}\otimes \Phi_2^{A^{-1}} \right)^{-1}(\mathbf{r})$
-### Exp map 指数映射
-#### $\mathbb{R}^3 \rightarrow SO(3), \mathbf{v}\mapsto \exp{(\hat{\mathbf{v}})}, \mathbf{v}\in{\mathbb{R}^3}$
-### Log map
-#### $SO(3)\rightarrow \mathbb{R}^3, \Phi \mapsto \log{(\Phi}^{\vee)}, \Phi \in{SO(3)}$
-### TODO Read [[14 Lectures on Visual SLAM]]
-:PROPERTIES:
-:todo: 1607932959022
-:END:
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB6M05tSVZsclFqbU9PdTFG
+dEdvZDMvekovTzdtekNnNXBDdW9PTXFqUFhvCkJDLy9IcFM5RFRkOEdWWVBlK0ZL
+TVFEQmVHcnJXdHkvOGVGM1BVZFc4dVEKLS0tIG0wZVBvb0dsK2xBYWhUN2s2UUZM
+eFRvZEQxaWU2QXdCZjUybnpSNHVFOWMKn6FNudIp5RYiq+1rDXiKid8ux9R28M4g
+Q5C92zkn1SZv6Iq9GVqry8OUYvrSz0hd8EYZ23gVGKbxtHlVvbLrYyInzi9UH0zh
+ftuC+1syRmH22jhqj0HeWvjfaFEiPywY8xOYK+w8R9urHd5sn7UGAuhrto/1Jl/F
+Mj2mJSEsBMA66Q2D02y468WH4vRP+eB9C/B+2KnIRnfv00Eu8okZqln7fNR79Mq2
+d+/ENfreW0N3uVGMM7rC5zO9B2VM7GfyJVqPpL7MxK+zgUHtPsMNANCLtb8JFeOI
+BRboUJ2gG7yJckfEOW5n5mOG0jMP9FJ74eyRe05oRF3Mgwj+5tOU6NKAIK7U0HD2
+BWHTJqFxPA+iEUYSfrCxTtKnTNVYNRnsDbDpz/54UM5v+J3R5z9YhrUi7ntZIaRf
+J9UbtGXLjmXQiu8QnSDgpIe7AmW9SEntN90Ezbf4ZctG1HQGG0UgjZFvwNbtJBFE
+opf0sRZwFeBOZ/vbfpaIbCLfd5H1hEJ32jpteBuNOcQB7/kOUPQU2vwwtlrxv7ij
+29/f0jffxKA2d6Ba7cReXp4lw3JB1bSFgJSSfGiKhC7E3wf7n6rmVn6ZAaAxJHJ8
+mFHAr4CVHWQbarFO0d8aDVzWQrWzU/5SDxZalIKE0OkFmGNHm7Tus5EX0gxutF2i
+Qz/v/jgZpo0J2C18sEE5u9NSzzx0yHJsKJYpX/JyZpiB6Rz87BlJVEbY7qqDBa4+
+f80BuKmn/AiOx2jnNNrSdZX9iE9iYa6nq5OQL0qRj2NstGLyREb4aCcOvw3RDWFy
+sk5VsjNjOlTfqd52kihj1z/1pJp/D4MxYNswQUpJNe2v7oNeNZZRazSTn7ryf5bY
+6WA1HGsCtUrMZW1iERkGDRMPRhseyrcmYn3rMLLTiwHbIc2fAorOygadC+wZU5Mg
++FPbTB0mCUTX9FecSDoRZKG6HUPnVnOfFnpp1iBSE/bCoJGOiAyMJjahqueq2t7i
+SmOrWaBVRtALd6DSBlzmbEYUByfcFLY3A7CT0Cd51e7iGeR2POURh997UMKMIGMS
+vel/ehSkqq3hyQ8guI9ZZblMwxclxaX5LqpJnJ3ECb2Q7IkUb7od1b3kLjSvGarc
+iUhLUUJs/DZ1Hhqy+iIhWrtHyZ8oT7pDBVX6lXhChuHhy4+iqMQ6ItNWji6vE0TE
+zbpGAto4emhtmw0RaAld06Slnqv7Pip25C7S1sPAQu7RPLJKUPbNqplpuTCLjoV6
+L7pHa10BJOkUu1Tpiwc3Vm9PYGJjvkxm5ZEPVCuHUoZ4zrDpjfHUbog/dzZlk9FJ
+JV8fSNxQo7+hYeIQO21X47AJ5We26ZjRG6I/MJue1Wm1R3qpjDjexZ20xLbA8XM1
+iTgYy+fwNTh8ZVcpaMHECu25dMGgxFHSLd+qoJPsJckdgNV03ziwT1eWGr2rh5gZ
+rehi4tKltQ55xbA3tsPkfh5A8OxFx6BEveGdWeIwJujkofbuDjqYv0aTrTjkuWHa
+WSe/X/UoQhxgR18BViogp325CVlObFq8n7uq7dbNiDlV30a4Tes1bbSFKATIhe8l
+P8n8A0WwLEUT+tbRqxjBMk6okVWt5/et7q4766SFAajR9OH3Ex+IWBl0ctpzfsif
+1IXbyoyWuhAoTioct3k2KUDPBPh6ms89cO6PnscCmLiOcOmnTnOZeMCcbHNkocne
+4hC8WXkuFwAqxYLCt4jIud2DL1v4EYUB/I42FOBbYypg3StSX0PrTSK/gGKxajHh
+92DWxTMoAIPuF3D5l+gkNO3lBDJxQCvXQvPqCxUiezSdxhDXNoL2i78O2jjIV/oU
+iZvhXFHMzclfc6RCOA/zWizH72cSun3V5/mRpzTKiVWi6Qbm1B2GRN8lZSLKUr7T
+gpygXO28cNWnoXaBcOH3uUGQNPUh/KRCNIjJqWpLZyrIr1MIKKltjB/Hh/vzgNPv
+d1Q35Qu+dRFg25OV4uMFlncqIqPzrFD4FodUSPJ7FhOrCuCxEQNqLtM1t2WE0v5z
+riYjzTO6YxpL9lt9IGTUKzLs2oKq/eI+XY5dowMjoWL/QCRGUPdrvcogaSozPR0F
+7pvAjtmhxm/f4/HLDk5qtI/1NSsVAWyMazRBp+JrdPu/d/N13yfEblYKJaluSJKf
+QfmTLf3HQL851r0Ru0wjK3FdPgax7xLwjwGwpoDYyk/AZ2FNDMldVVsHokWU6E0w
+FQFSdURuKv4//PgOZ1cvtYs16uOo/+kIHoCS2wbybNbabVVQ4UK704a+Pi5axF5K
+zRugqgze+/d+xBM9J5iYvxF1qm2L+KOK7S8rlupk43pwTVMxHTaQgQszb2oa1aj3
+sqqsTkPbl81jExA0/YpAy1ZFqoqm0UYGr+x4WlWra+XBWc8gL9ARPdm0whmo5P1K
+S2aYTb4r6kLiHqseGHm36gR5lMWYJBV1cgOx9P7BxzEvwQ7h8SFtJp9U1w1qyDYg
+HRa8/s9VNV/AVqcdDm7c4MwVgaVy8E06Jozlx/sefjb0Pso2BgLFBdrCAf3ikZfW
+mTbtZ23sMhNSFapPA+Bqa1B8IVtgSlXxSgM7pxX02ukLfmeUdSdcJMXaStf/9+4Z
+RcgVV2rsureDUeYv0umtmKOoqKBfJXtpzQinE//rkJJLAQgj5wf4f16gJlSy6OtJ
+qHrWv9Kw3BOkNKVrHRiL6buPjPhDY6js9cXZw5I7M015iwHMPtEdCSObjntnBext
+x6pQAv0YehhpDxQzB3fMhzYNCFKjqpbh5MnOUGi2iBFVUBn2TDtnC2FQenQTxdKO
+gz4Xz6f8Ca0yTUH1a4xwxOWAzIQqfS8vr/K259THfdHlddazWUYfy6OeZKv8Ic2f
+kz3CfhtuZvmR5wLMuTc0AS353CeEypA6E60V1fjxMtaSHHkaDCpOpoTMq19/qhTd
+p1jotLkCmX/kSn5umFX+rCcw1V0NTBoS3ET1yS/ICs8H4RyXr+jcO3YdJufR+qhq
+0KjD9dY3UJHvXkJW42yWbDijgJfpeSGYxE2KXrPoX9FcQTNlUTPcZcw0AkY8T44+
+CMlLXqlxCgCRymInm+Bz3BjY8vSzgHcmcwf2OiBl/r3U5w33DUp3dneujCLj70MT
+lAu53kESSwDyeHS7Kkcbyym26Tp7KNekh58bjiqWGoFHWUsiOUcEUfISJk1AHqDZ
+PQvgHZT8Bg1ioumri88/A6IvQ/R0Gww2Ake3COAW31rw8nlXBg7ZNu0K04kemi6g
+Ovwc5ibWK5FCe9vKCZNRzw93iourOE62Wu1Cf15BUHEm9rrPM1OFiEX0dv9zJCDO
+ukQe2ZUR0uhyx/kIRis7ShCZvlUGw49V7DzN019gq9VsJ7NKwQQdlBZS0+23Qq+S
+I/R4cEbilwGkRt/aU8f4NIWaJ0paJkv/FIXSVa7M9Ip3yz9hBZ3risX2uyOhLMSf
+ny/wvNViN7Nr2t5bnqA4zkcUVx8G7/lENHAiGBaZLiZyUuxzs3aipZdmQMwpeUbo
+/srMmnlvUWooGvhLTZwpXHVwmoqsvrg5QvEFfy5jZYJSmBCV/6gvqY2WjDVDghhZ
+0qwq9jWHbOScnYxGTtQr6vUNwTnCqGYNpk+Ofm7cUglbMvp2ou39GBhwrC2f1vVU
+6kTtnx0B/IAGbmXAhmV2yL6C1t7xr317fjPaNdg5nOHm89E4jgQc9LDFQ5g9rf7R
+zaHYDuV8v5mqOhweXz8HEkhqXGPt9b7iY4XTTWZuZvJgbfHewkR3Gjhs/H927+pT
+Si77Jr0xd1NRxJcMXsPUhBteHEpgAwGydBNg6MUuRlP8HP8dSVF1x96j2TKmT1uc
+ddZBgP0vzIG0mqLpjXUQvCJ3rKF0zc1KSHL6fhXG9kDd2L4oanmu7Pu1OB/DFIut
+lXrOhq2FG5neTig9GB5bG4pHfAz/2bPdskTVccjRLrxZJidQ/d0Mtu8GfIq9u1I8
+PVt0KYOlhS18NVqozdTX4+5VWEHrYDnf5jEy9IHzxvrYyZ1TKMZ0v9lRkW5eVsCr
+o7x2FDAdDCi4K+DVD9pJfEv/vmVadDqFHX3HBVp73v8Bg8BCX7MUwdtG0yyr9xwo
+oZSk3VKx1lrD3j9UhsCvsRt8NWMg9JAm/zHODahUaE4k7HBAJCciQFSYqY+eivMf
+aagWqBt4DqRQ/qWTeNwkL9snNnZv9yEhacFNwGYMEvYuyGcc4ISFwYjEeKJY4WcQ
+40gnwERbpZ5zsldCjxcB9AplJyGsUElyTMr9ZnsUBRZZnH/WcUxt50dasPbXcdi4
+n9bHCW1hRIp84le1Um42DoGDmUEFvcrN5yHO/j+LgwEMFMazZtPEqdZlLY1LAocE
+lkz6m8pEXpHA8Ct+OA4+IhDpi7/+Jwa5Glm2PywDnPmt/3vv/kPTUq1Nn1OQKLFh
+JLjkihEAXL2jtQ2FC3Dcke9pTC7sXER/G9KpMYaikF+TgtpHOi1+ohTdUmLwG9Ke
+WajhvmL68b5dvxSpTrhiE+FUCSU8FazC5Ji4IJ4WxseV3YmQpN82DidOBnzM1qb+
+1F7kQID/y3cn6RDN0vJJ8lYX6fiDXFpQoRyNiTYxv4HVh/bADioDzMH5jjP4tS1P
+RnWdo6R+c9Wg9GJwAMyZqqFZT3jDOS7/b2H56OVY0A01FkwUZiOFAAyRUPNlhqOt
+/WGp3+KQ7r7LkvL+pF8TuUNJidOMmH3w+48IYCNFpvG0INprys781qMiBsNf1r3d
+SVl6IucyDIxxzZd+Z5i2sW+8DujymybHRmQiJ8NbOHMZ7PmH26oJHrdSBFYX8xCp
+i9oDVbr0BhSC6piv3xV9e4Dtfssb+y2ovZwFBHokb9GXEkELhOKTRW1F/vx6CY59
+xjJjXkAzdzVSTVTbc1fvdNaI0X3+Itq9np6YLCX/Dxs2Y1EsyjXqVJ0Mt10wLdqZ
+o6Quh4eW5jvadsTpA7nV2iCIyOwh6S+olQvW/I5qlrFlSwCzT4cxYMsZXnBcpaVs
+pcMvbmc0JKPhk4zT2El0io+AsHcXtmjmOWz9i9J+pkGyRvXfV9R313rZ0hK2DXmU
+5lTk/bELNfR518oTE+T1VNB9kK5PxEiHhOZfHkZ6EPGJlJki63EQSKT9/4F5r3LY
+4D/om54+dhZNhBZuW8fcFNF4jO88Ynd7KkGFU22EGeQHFTF5KlHQYD0TINIIYI09
+Au4j/x1yq7oJOb1mMlyfBL2VhTVGj3N1O2aKLrJohdIIW0vlq8/pHlCkkopgQ4JP
+aLnUcje6NiMcj/bdSl96G7+0W2P7Cj2P3kzGENg+FTz0AwYnrZ4cWlvWbZa+UoOW
+PYvNnNrrd7fTBhi1DhkAKlJFR72vMyk+X6/RNTlmcbgUU0OEoIvdKJax1LnbsEIt
+4qmvJsuU7SXz8bJ2gaHDIAcYgygwI0xEyyqaXEQaxCw9+mmPodbTM+PTBQBUPC6/
+xyc/Jzyo/zLV45MzM8+jrw==
+-----END AGE ENCRYPTED FILE-----
