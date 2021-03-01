@@ -1,10 +1,12 @@
----
-title: min-max normalization
-alias: 离差标准化, rescaling, 归一化
-tags: [[linear transform]], [[preprocessing]]
----
-
-## 对原始数据的 [[linear transform]]
-###
-$$x^* = \frac{x-\min{x}}{\max{x} - \min{x}}$$
-### 当有新数据加入时要重新进行数据归一化
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBmT0NZdDFKd2ZudkphWTU2
+dkRETjRyWnp5OFZ0eEZyUHA5c3dGbC81V1hZClRwSUU3dHk0K0wvd0JrS0xsdmJT
+S0xpTkFBNUlEQ3FEcVBiQ2VnQmtzVjAKLS0tIHNLMkJLS1l6Q2lhSzZWdG0zK29F
+bmwvSGUwem1IT296SWw0a0FZSlNmY28K0ERXpQw0JqHAHq9eoIt/kaP8XKozuT4s
+7VQWRA1HBet9s+I9yV/OfZk3DK9dJw9vlk2TgBPKSUR+QdPw5ZZcJCQVOu0WwHlM
+JIcsRsaMxvckkkEe8xfR60YbwlanxQCardO+h87iLImoOEmvQxyDqgNbwGmzWqTq
+dkpl+1G/mrIqxYsNpwX/XKj0GFMmHSvNnFUrY0Ni6Ex624vn8u7v4IY+IEeqdQv4
+R+NsIVSPdvtBmrwf06LQTx+UMAKss0t0JexNYsRtNLQKQhpYWq1qyZM4uYnXPs3M
+XAho93RHzBVH9mPR6/G53sS7ygqAXSycPKqVVyHII90/pUmk7zOReWhjxkCrn4Gp
+bC8J3RzSzVXbMLw40ihYjgzS2LucKuqB5Uyo8oQssepATqAunpweTABiMNcYY4ch
+-----END AGE ENCRYPTED FILE-----
