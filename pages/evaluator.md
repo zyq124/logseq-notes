@@ -1,24 +1,17 @@
----
-title: Evaluator
----
-
-## Evaluater 提供了最小二乘函数const function的求解，参数的更新等接口
-## Constructor
-###
-```C++
-Options {
-	int num_eliminate_blocks = -1;
-    LinearSolverType linear_solver_type = DENSE_QR;
-    bool dynamic_sparsity = false;
-    ContextImpl* context = nullptr;
-    EvaluationCallback* evaluation_callback = nullptr;
-}
-```
-###
-###
-```C++
-Evaluator* Evaluator::Create(const Evaluator::Option& options,
-Program* program, std::string* error){
-}
-```
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBUWUxkdGt3VVMvandWeFI5
+bTJUREx0bUpEYVZWaFFFbUZvWHdvU1lsSEdBCmxCcGFLNXEybisxY3dKb1U5T0p3
+N0htNktIdXRlL29aK0Y3REovYy9DZncKLS0tIHJMNlBDNFJ6ckRoUU1sWmhSc3ZT
+dXo3SW5td2V2cnYwMjJWdkdTcUJIK0kKpzsZzaMfBczGRPX+hWRLqeopmozq1wZ3
++IsN5pwa7/jKSq3Mruf9BAA+WDBjLC4cMLj02YBbDjCLTbXEC4dkYXnUm/psT0WY
+FdKgylh2OHWtgv+Dxbsl2M6n2Bkq6NOmQSrcJbIcK6VUQ+965aC7KMmCvQQI5Ggj
+Uv8tPluSWH9ZPz+8DgoT8qn9WlDYM1d8aQaaB5+d4HifKaDeSwAz83hjb3eaUgij
+YvFIEvhkm7BBq/rwO/OS/EtBy6MUdTRM3snYEQBsBVdW3ZfKwWBLFzfgO4br3y4U
+LT3fhe+E/pZWPYhYma6TPCw2WA0vE6MQQpGe3d5WitW9xUmQKwJdusgw5HFcxpEC
+qjtByuEp+yYFG+0U5uEWvtoOVnjm1HvJRFJ7HGmg+B4Ocsx44LKAAjp+vv07CkXa
+cqU0+3idD8BYp8gA2b/cj8JOZdzYANDC9UTWlm+k3LqSFMAIxW/tHeLiuxg68xFz
+aHAwiocNEr2Q2LbqX9eZ8+KtLQr0vF5+O6FIXKXI/DOMazCi1CyYddeNwmyckVgw
+hfOAeejpsYr8iGUJVx7E2XW1dx0WN+HFZpVOeXTq1GWQPeXRa1EVemVAs/JsOHX1
+aJA+SGnp8sE+3n2Js0Wciy/aS1tYGKQzpVLOe+Ma5Up/N6HlZDR25+CEi3D5egGJ
+NiJ6NJtsoUlkjOqo+cNcd1qgRAevA6I7
+-----END AGE ENCRYPTED FILE-----
