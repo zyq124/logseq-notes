@@ -1,25 +1,31 @@
----
-title: positional encoding
-alias: 位置编码
-related: [[transformer]], [[BERT]]
----
-## 传统的[[RNN]]中由于是以序列的模式逐个处理输入,所以顺序信息被天然地保存
-## 对于 [[transformer]]需要额外的处理,把表示位置信息的编码添加到输入中
-### 表示两个单词$i$和$j$之间的距离
-### 这样词向量会加入单词的位置信息
-## source: https://www.zhihu.com/question/347678607
-## 理想状态下,编码方式需要满足
-### 对于每个位置的词语，它都能提供一个独一无二的编码
-### 词语之间的间隔对于不同长度的句子来说，含义应该是一致的
-### 能够随意延伸到任意长度的句子
-## 有两种编码方式
-### 1. 网络自动学习
-### 2. 自定义规则
-#### 比如sin-cos规则 比如输入向量$(N, 512)$
-##### 有界的周期函数
-##### $PE_{(pos, 2i)}=\sin (pos/10000^{2i/d_{model}})$
-##### $PE_{(pos, 2i+1)}=\cos(pos/10000^{2i/d_{model}})$
-###### pos即$0$ to $N$
-###### $i$ 是$0$ to $511$
-###### $d_{model}$是输入单词的嵌入向量维度
-#### 下一个位置的编码向量可以由前面的编码向量线性表示
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBrMzYyTFBoc2loUkthMmdV
+OE9OekcxdCtZQ2V6blFwcFVMWUdIRitSb2s4CmJpOVRjYnJkRkM5MzV3SHdKVXBK
+VURnblp1TzZwUW93TFVZSGpYdTcrSnMKLS0tIDd4MEkrQlhoOXFMblhuallySG9s
+eEd0TWFZWkcvTjR4dDRQOExiNERveUEK+ItuQFtzHrU1jcj5qE/isvTMaLmq5sia
+EPObMzhUfJuvuR4XLHefGorPkCJLyMJC+spG/TYCcdOrwGCcbEhaHsuLkZcRqgGb
+PADj1tm8ZpNzMnNxIndu8YOdAjvrVJKBMz21MfUvLsjECdYvl8TRe8bnFLy9ouZY
+LEfmGO2WA+/g1AtLi8OJLVxoADWumtxT7il2PqziCf1tLTL5/dxY6RVtZvN41u0n
+UinND/3Uon46B88cA4PYQiMHd1qT+7Pdi4bD9jmY8Y/WIdKksxa5W0TvI1C24a15
+kscFkqGMQBur4psv5o9tFLSB5gXW4No02WPTdlwnKWwTT1QRmjfCj6Ig35X4buh4
+tdW6ZkEWWzSxjxJH7CoqlHlUt4t7fRZH9SdpGhlgg/ZXcRr0O5Imsw2haOHiR0QO
+x32PR0QpsNjyiMdTuNF6eeWS6deCK2i1h9sXC25EoQ+HhOimcn5DW8w2HJ+WEG9v
+Vppel88DB7QykXWQfVP6glGmajNThlmcEamUrSbez0lnkWsn9leiu8HhhB4keLQA
+Xp2BVc2wIshR+Tgxt9bWlZAnx2rPteS9D5XWq9eGqEdZ5croX1N7ylrNWxdn0HiY
+/yj+4bOEL9urOrotOR+KoIRBIQucf5fa+uEccuItwkcZv2RkTrHrzVqiO5T2WUI5
+4tM4nBF6qo8DGvK6MHM5zTuh7uOcfYvYiK/+T6sZkQmifHzW/HMNz5pBy7wNrZ3h
+oV24AhVxKCa71xRG+bo2mF1eRInzEEkdDIOzLi3qPDS0vArU0YSvl8gDV3WbW/9e
+UMqNJMhhEZw7hs4Hf4UM5sU7/I8ewL93jNNZ+xGaVv06JNW5xkwq2AwnFaqaI/Pk
+1k8BjxFpA12Qe4K/bKTgWS+XSNrCcHSEEHfItWBV8LgWH4uBGFksCKcZLHj4E7t5
+3UGFZ7MoEdhDylkoyEyjsardo/chx4gREU2YwWsuUvZ/xgNaJoaszKGMSyZPi+oo
+HdhqYYeDLXMC5xXhriRNMywdsJuuWo6P64EbTfPSIUDoAkHH4HdDzczB1QbLm90B
+3FYWR2SmhE1zYwp4mACYhHQm68vucMluHrDkUE//l3jVzf2ZAfwczHVKPKdD0rQS
+mmpMi+qajBFhOnIKiaesZfuB+2n+X6wyau2RRhZq/xeqbLocrIfIMq0qbEp23qgn
+I8eaRLTdBVa0mj4hcQHcvbznOkX5C9fjn/Uh13ye2Y0LEhanSSNeQBx1ucGX2gQK
+hPdkGl4pX9szEGnlvFMy2b1Oa4NA1An3TmfpQBvbh+lJzORaZHS7QXohjAgO8z26
+Qs8dA3D0Re0d3Vpf3uNnjd3OqQbKVIw/b010Fr7s4jb8euoaJ/M2knbWGJBMqwKn
+4cbkem74MT4wn9nQsDG79MZ2t9bPyrW7MVvP+FSUNCaayoUZ6+LGE3ag9jeFWe3w
+20DzICdDKsKtMQgi7fEAINtv4bx5Zp6k7kbGzstxWAqnc/CJhc/ZNfnuyupb7ngy
+MaZN7TrX0y4pveLfBFbFYu6i/lDZ+5BdQTbZ87c8BLaEfjmX/IUBUamliLsjOA6m
+Cw==
+-----END AGE ENCRYPTED FILE-----
