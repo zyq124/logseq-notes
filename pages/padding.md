@@ -1,18 +1,22 @@
----
-title: Padding
-alias: 填充
-tags: CNN, [[convolution kernel]]
----
-
-## ((600a7be5-e4d0-4683-a21a-005a37507974))
-### ((600a7c1c-c6bc-4cae-8057-9f227c173c95))
-## 在输入的高和宽两端补元素
-### 通常补0, 叫做zero padding
-### ![image.png](/assets/pages_padding_1611301009617_0.png)
-### 如果高的两侧一共填充$p_h$行,宽两侧一共$p_w$行,输出形状为:
-####
-$$(n_h - k_h +p_h + 1) \times (n_w - k_w +p_w +1)$$
-#### 在很多情况下，我们会设置$p_h=k_h -1$ 和$p_w=k_w-1$使输入输出具有相同的高和宽
-##### 若$k_h$奇数,在高的两侧分别填充$p_h /2$行,这个比较**常见**
-##### 若$k_h$偶数,在顶端一侧填充$\lceil{p_h/2} \rceil$,另一侧$\lfloor{p_h/2} \rfloor$
-####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBJZmRCMkh5bWh0b1lmRkF2
+bFI1SDJoVldSOTNZV0xHSjA4M3NnR3hHZ2xBCjFXL2xsTUphTkgwaGhSdVBMQS9P
+ZEJ3b1NHN2hrVjFnNzhlaU83UDJ6SEUKLS0tIE1GZjl1RVVpR3dLWXV1YzhDYS9p
+cS80eExKb2hFTTJjQ0NkTytlTHE0RTAKjxKwa702X9qp1aQPI02X1tqIm2E4+Nsi
+hILUlEkqI5LpkNokfwFW0NiFVWDnEyYVMhW3h8EQarDCLg7TvHowOLSTndSPmMt4
+tnMTZyJvxyX9YryGQ79DwkMBVNJ0EIqWMwuYlc2QlWHmWhIg1s91LJkhkJBWCUt2
+9kMP5XG72TQPEtSBv29jisOFVmnUAw02GbwcK19b2xXkNsoK5R0z2RRVF3l/5EI6
+3QVNPRvuizGAEK9yfmxFVAZ4vUOniYzxifK9GP7VESgG1syAyFQ//HXjhf7jYMGH
+hGIKbzPWS2Cfzt6DWJ4YD7lpTwZK/Eu4kT98h4EoGObiRkCdf6K5Uh78dPkSDeGo
+9nfEEvtss7NFY0KrXgC7Azua8ClUl9zQ5hB6yR/ReXGbdW01AjhCUy5dd41GRl/8
+X3JmgDCusMrXYLh6wz4R4Mx2cjfhUhVeLY9JbDZIfIOuykWUtNnAQc3oXfD8fhaA
+yI3CbBiHlyn5dxeCjpxHFSdJor6ijbtDLgs5sPPNIV8XrmQgeEx24/ZieJy37fN7
+wENimsNyKdRgssYhp+7K9wP6eQOd/skp3YlypeoL9RLZ7dEREVy0fYbqrr4aicPi
+xonMt6oZSM1RlZrYxeIkfjjAXk8NTQCvh09GtejVj14MiLi5MaxiQj4/XkffcRse
+b8a5XNdwU/URg8oN9g9hLK5XZH4VS6yogHTRBryCIkohZQU73qh/Z+viWdhz/83X
+SDEx1FZnBqYFy30d9BjxpkRNClrJ3liTvbsdcWX6OXK5D6N/B+A5IGMq6j471/dY
+stQwk7qYRU7Zq6jKEia5PqrVtQ2roXmVjXroX8wzQJqIPFgsmiHGUfZYFB11vViE
+hp2nUqlc3wzBarwZllbwKZyg2W1Bc4nQpwhNCYCOc6w45qaA7lK/YuFXIK2Rjai/
+UtgdWGm3stOdXNZy3L2dLTLAqNRR2j3IC4zPEc7O8qP6NLvWa/+wD0iYoA/Gnlya
+5SDkkNci3XJHYjvPmOc0jIZ2Z7E=
+-----END AGE ENCRYPTED FILE-----
