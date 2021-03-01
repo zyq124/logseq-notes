@@ -1,22 +1,51 @@
----
-title: Hashing As Tie-aware Learning To Rank
-public: true
----
-
-## Meta Data
-### #title Hashing as Tie-Aware Learning to Rank, 2018
-### #topic #nearest-neighbour #Ranking
-## Abstract
-### 主要解决的是在信息检索或是[[hashing]]的过程中遇到的相同海明距离相同排名的问题，检索的相同排名的其实对结果有很大影响，很多人都没有意识到这一点，采用一些随机的或是无法公式化的方法来打破相同排名
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FIUoqVFoNB3.png?alt=media&token=e4a09b16-a827-4781-8220-e3129b6781cc)
-### ties:: items that share the same distance
-#### 相同的tie可能有相当不同的evaluation metric，比如[[AP]]
-### tie-aware ranking metrics implicitly average over all permutations in closed form.
-### 文章介绍AP([[Average-Precision (AP)]]) 和[[MAP]]: https://makarandtapaswi.wordpress.com/2012/07/02/intuition-behind-average-precision-and-map/
-### 对于[[Pointwise]]，[[Pairwise]]，[[Listwise]] ，在论文的intrduction部分我第一次看到了Listwise这个词，之后查阅资料发现相当于信息检索的样本不同，[[Pointwise]]是完全从单文档的角度考虑，没有考虑多个文档间的顺序，[[Pairwise]]是将一个文档对作为训练样本，任何两个不同label的文档，都可以得到一个训练实例（di,dj），如果di>dj则赋值+1，反之-1，于是我们就得到了二元分类器训练所需的训练样本了，但这个只考虑了两两之间样本的相对顺序，没有整体性的考率
-### [[Listwise]]是将每个查询所有的搜索结果看成一个训练样本经行训练，[[Listwise]]根据训练样例训练得到最优评分函数F，对应新的查询，评分F对每个文档打分，然后根据得分由高到低排序，即为最终的排序结果
-:PROPERTIES:
-:id: 5fbf5c9c-c6b0-4c2f-ad73-31f65deb8b64
-:END:
-### Architecture
-#### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F4WkYUA-eQ1.png?alt=media&token=95ee5bdd-6091-418b-82e6-c5033cb870af)
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA5bXVNd25ETDhPcGhiQ0FF
+VXZHcklsR2dVTFhTbW1rZ0dnaERHb0ZtZW5vClhIcHAxZ0VXQ3gycHltNmdGUlVw
+YkZHcUtydk1nOTRxd042ejFIa3ZWaHcKLS0tIDVHSitRZUl1OEs5Z3EyUmNlMFJ4
+YkxDdzNydXE1Z0x5blFHWnZvQWRzRUEKDjwDs1nH7cxi5lNxyKQS0ODO8cQaczJ2
+1Gcj6iuTqhAXWOh0cUhIIQj3YHqU3AJBI6JPZL5uQWnG0EAuP9Af+LEA/2fC/wrS
+8eCFBlptZTTTZzu6G6Hl1zR6y3HywQ671Cn0Smg7yeJ3pymh0vFY6fH1p3hDSTny
+Dkp8/CvYYHX4sl5h2mI5UrHGPhmwj7uXtdca5Fwjkc1iDWIAE9V4R4soGo6yDE2a
+1QKF7Kk+KS3wSSTAmrgd5AG+4+HlWCLercT0wuDrdXwsD92azZ336qGA5BmZFk3c
+N4HiTBuAGmbJKkv/AN587cBW93GcVmG3mr9cgMuMJPPgooNWzN7eXx9lSXmeRXRV
+/4hnbvViNrdIjYRn01dCjHtDr5OWaXypn8bKY4iwGG645Oc8oZ/hfG8HerUytsPc
+w3aUFPuUCLHbEBYAPqqLEBOtD/urtP7kPRvj3nHbGwW8KNycmo7UtI55u2f7ZXhN
+D3QTgm971+fEEgLCGqKHe2nKYfbwYS2cSTxv3bX5xupoHJDt1W7r/GbmchlaooB2
+II9c03NhXYbgBcY5whRxP6RNAsNaI44AsPd024VB2AdHgHu4ptHFVeEeUR3Q8wnT
+ohrP5km7cz/eCdveW/ciY+sXuBb/lQGdLuZFi9sgxMrBQgfslTCDUTZhJLjZnJgY
+nXnrpneEfkzfxKKSguopBdiNF4xjd/sLXXSA/lgDGQWju1A1OeGaq/58y2mhEn1X
+XxHuTt/gD0XMX5OpTMjE9LQ8moOg4kZCj/2fX7OprwDdHrorGvw+USjT4Ok1Sf6w
+9QPoKmzye4YIHQNNxKhYcD7yZs8Qn31Q1jq4JSJPsqWw4586ScR+phPzmqbff30m
+9tyY5B8a/WP4MXTpnpT32jUKvaMvdnbOr4BzozCAsIH80Dlu2y8J0QFmkme4ftsK
+OneK5rCMNNjVhM3qmXANl3hl1sRLaLDw1TLxP/GQQzrbKVnWk6ibI5Utoxb9JpWN
+k6MwgyltZocIc2norImCzP02spJjny6oU299QKLURDZEuX19tmalD8eB9T3qC9iZ
+j/qPUXF9BRveZ3ozByfwHTiW6A9EzZQftCQz+rHqqb0zHQwXkaKp0rpu0kGezs2K
+faxz8qCj4/ul46REamh10Uay6IU4+UyVxQz5LRzvnNmHxs0WPesSvMGloZtWoTCC
+s3GvfVt/evq+iwhe8k3hjvCK3y/RB1Ve5IGBHh9Vtm3Q0frvPGJ4zkjpP/CJQt/4
+gvQUsxp3BkzQiQT6JiojrsO0SXYdqs3wJYMQfw5SRYxzl2kQ/oPZTw16F0utFuYz
+MiloRw2OC5vZ+eTDyDNADvRMxhNV8hTF5e6VkW8ClVtACz4YKMxI9OXfBSpXx/np
+cQUGe91wZztQFnCfqnfOEFWdW9u+6vgUZSZaqnH76LZFnYNRrGi+vvEyvLkEbkuK
++JoXGrBrx0oBCqqcgdaC7CJ6Im/qgNe04uwc82q09CY1/qMV48q3TqHCYkfwAN9X
+LYw7npLO5pEBYHTk09JjNTFlANjXh84zuwKMQ0TLJi1xLm8vEuGdk8doOtIZcycq
+ERLichVB5l00FbR6GjbME2lpsOLP5oFJXXMSLpsct81C2PSolMXd9c6OVR+f3nE7
+ZMpDFx9Oi1uIA3Ytu+e1+CdT3VwarPRBxmAaiEzWW31cuo/gpk2SQF73cwRLa4Ij
+Gc/KxThrZKk3k3Ok5y6nmqO8LnJc+wMlAYEc14UgF1mfgsZF2hjuu4vZXFSRN5lw
+EMZZQMs+itBKgFNQzBJaNd9+SjUjr5WEWcXCbGVuSUpmk1qKCG9OijK5C1HY9w8r
+hOndwmZ0qgbaow8s4v6aLKRdNMt4LmxEJpam16dgrnzcjKpc5q10X+355gzhhhO9
+aYPpQlxNldr8z+TKSlI4DjBNgntMK4gf5bYtFiqty9ptmGMbEt5rKbpY+s8aKdQ7
+Bcw4XpA8fcmWH4gR3u34/CYV9oBtzYp1EbKJHidtrrfaxv77qAvU/f05ty9OcFZ5
+8D2qEb9RHp2MVripjqlAHTNrKdhOp28naMyOA8UoUiFXyxP73k5Y0eMQJv2bltgi
+Hl8LK0twXjnBn3xaDoMJtm2pB4B1uFnd2ACaQpMz7rSKnFACy1+OJeYOibahM9BC
+BVZqCGrCD4QmoM2Ge8Uzr+TDkqi/DVfzyCYf+zXqHWKArIVB5ki4XiK/F4L+4P4F
+Xb7xjv0pWm++jU5NCAXUUwY/fTAiGy6eLZeABnkaAnNkxyTmhmchgev7/dVD/Q17
+5hIyJBSXmoaXKDdSNHt+beVOZycsY7it4ZtFnXPNXC6Z/eZKCrbIAkwMcc3b2vm9
+waQuFy7+MArgIGg5A7e9tYT6ePkJ/E85Wu0VltZoFlwsWTR+RB2ZrotqiGHtbBTy
+c31NuUkoRkwQImBa6Ip38RtaC5N1ZDmm3auPHrtRNbzNcNYnq4Yq6BY+Ln/uX/bB
+j/scfYwvFvtx8uxZw5ajn+CK+UUjW7vxlxoLGg8l+KuiJV8BWjQ99ymR/GLz6pl/
+E1NRxVvcAi5ooLbitXtZ6gSoXMRvGkm6teCEHkdpSPeCCzRBKfdwsqm/yayQ3+4t
+79Vm069idVZ8znbr3BaKbvtyJJBYB4qNNXD1CrK3YDpIZI8m9KFjh6wNuTO+bg3K
+E1kKEueVKKY5D48PY+zSt7z019Bkmmf5uK0+V1AnIFuTWbtmJTYYVwdzeBj6vfha
+iV2hhKEG5ZjihCrnRez0WJ/89XF+TFiFGaA/VlRlX3fW5l0wsmDMF3nadtEpFNkt
+UwM9xnt98T2+y4EVY0Y292Tinjm15IKtGxHyk0qCVYcUP562891syXDj5Oog3TyP
+qNPRTcMgh8Xk+PVtJAbSHJI+q2CfXujod8Q+MryM+j3V
+-----END AGE ENCRYPTED FILE-----
