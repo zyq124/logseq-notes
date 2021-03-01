@@ -1,94 +1,124 @@
----
-title: RTM3D++
-type: [[Article]]
-citekey: liMonocular3DDetection2020
-public: true
-authors: [[Peixuan Li]]
-publication date: [[2020-09-01]]
-tags: monocular, keypoint, #zotero, #reference, [[literature-notes]]
----
-## Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training #readdone
-### Zotero Metadata
-#### [http://arxiv.org/abs/2009.00764](http://arxiv.org/abs/2009.00764)
-#### PDF Attachments
-	- [Li_2020_Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised.pdf](zotero://open-pdf/library/items/V4WX3BIL)
-
-#### zotero items: [Local library](zotero://select/items/1_NJDIR2WJ)
-#### [[abstract]]:
-##### In short:  **KM3D**-Net, based on [[RTM3D]].
-##### 简介
-###### A fully convolutional model to predict object keypoints, dimension, and orientation, and then combine these estimations with ^^perspective geometry^^ constraints to compute position attribute.
-###### Further, reformulate the geometric constraints as a _differentiable_ version and embed it into the network to reduce running time while maintaining the consistency of model outputs in an _end-to-end fashion_.
-###### Our model only requires RGB images without synthetic data, instance segmentation, CAD model, or depth generator.
-####### 不需要depth prediction
-##### 网络结构
-###### Benefiting from this simple structure, propose an effective [[semi-supervised]] training strategy for the setting where labeled training data is scarce.
-####### Geometry Reasoning Module
-###### In this strategy, we enforce a **consensus prediction** of two _shared-weights_ KM3D-Net for the same unlabeled image, but different:
-######## Data augmentation
-######### we unify the coordinate-dependent augmentations as the affine transformation for the differential recovering position of objects
-######## Network regularization
-######### propose a **keypoints-dropout** module for the network regularization.
-########## 用2个keypoints就可以recover 3D bbox.
-########## 用4个Keypoints没有明显改进
-##### 结果
-###### extensive experiments on the popular KITTI 3D detection dataset indicate that the KM3D-Net surpasses all previous state-of-the-art methods in both efficiency and accuracy by a large margin.
-###### And also, to the best of our knowledge, this is the first time that semi-supervised learning is applied in monocular 3D objects detection.
-###### We even surpass most of the previous fully supervised methods with only 13% labeled data on KITTI.
-## ![image.png](../assets/pages_rtm3d++_1612340941295_0.png){:height 547, :width 775}
-## Structure of detection heads
-:PROPERTIES:
-:heading: true
-:END:
-### 1. Main Center
-#### ((601bc1fd-63f7-4414-9ba1-46d0bc745a5e))
-##### $C$ is the object categories
-### 2. Keypoints (9 ordered 2D perspective keypoints)
-#### 8个vertexes和1个中心点的
-#### They are geometrically and semantically consistent across differen
-##### ((601bc1fd-5096-4749-b664-129aca28bc13))
-### 3. Dimension
-#### regress the residual value $\delta_D \in R^{\frac{h}{4}\times \frac{w}{4}\times 3}$ to restore object dimension by
-##### $\bar{H}e^{\sigma_H}, \bar{W}e^{\sigma_W}, \bar{L}e^{\sigma_L}$ following [[disentangling transformation]]
-##### statistical average in [[KITTI]]: $\bar{H}=1.63, \bar{W}=1.53, \bar{L}=3.88$
-### 4. Orientation
-#### reress the local orientation $O_l \in R^{\frac{h}{4}\times \frac{w}{4}\times 8}$
-##### w.r.t. ray through the perspective point of 3D center instead of
-###### global orientation followed [[Multi-Bin]] method
-### 5. 3D confidence
-#### predict the 3D bounding box confidence $P_{3D}\in R^{\frac{h}{4}\times \frac{w}{4}\times 1}$
-##### by 3D [[IoU]] between estimation and gt
-##### also related to confidence of the main center
-#### Combine them in the [[Bayes Rule]] $Pro=Pro^m_{2D} * Pro_{3D}$ to obtain the final 3D confidence.
-##### $Pro_{2D}^m$ are extracted by the heatmap after the [[Sigmoid]] function.
-##### $m$ is maincenter [[?]]
-### Multi-task loss
-####
-$$L_{sup}=\omega_m L_m + \omega_{kc} L_{kc} + \omega_D L_D + \omega_O L_O + \omega_T L_T + \omega_{conf} L_{conf}$$
-##### (1) main center heatmap loss $L_m$ are penalty reduced [[focal loss]].
-##### (2) keypoint offset coordinate loss $L_{kc}$ is a depth-guided [[l1 loss]]
-###### _dynamically adjusting punish_ coefficient of different scaling objects
-##### (3) Dimension loss $L_D$ is a [[l1 loss]] w.r.t. gt
-##### (4) Orientation loss $L_O$ is [[Multi-Bin]]
-###### split the whole orientation field to 2 bins
-###### empoy a hybrid discrete-continuous loss for the training of each bin
-##### (5) 3D confidence loss $L_{conf}$ is [[Self-supervised]] by the [[IoU]] between the predicted 3D bbox and gt
-###### with standard binary [[cross-entropy]] loss
-#### Given the predicted $\widehat{\cdot}$ (kp, D, O), object position $T$:
-#####
-$$\widehat{T} = \argmin\limits_T \sum\limits_i^9 || kp_i^{\prime}(T, \widehat{D},\widehat{O}) - \widehat{kp_i}||_2$$
-##### where $kp_i^{\prime}(T, \widehat{D},\widehat{O})$ can be defined as
-######
-$$kp^{\prime}(T,\widehat{D},\widehat{O})=K \begin{bmatrix} R(\widehat{)})^{3\times 3} & T^{1\times 3} \\ 0^{\top} & 1 \end{bmatrix} diag(\widehat{D})\text{Cor}$$
-###### ((601e644d-d5ac-473f-b30b-b4eb7fea9ad5))
-######
-##
-## Semi-supervised Method
-:PROPERTIES:
-:heading: true
-:END:
-### labeled training data is scarce -> semi-supervised training
-#### labeled and unlabeled data in a batch to optimize the model jointly
-### ![image.png](../assets/pages_rtm3d++_1612771860640_0.png){:height 348, :width 852}
-#### Leverage [[affine transform]] to unify input augmentation and devise keypoints [[dropout]] for [[regulariztion]].
-####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBGNVhERmhZWG9zUVh1VXVq
+eVY2cUtqL05vL2o4bWYvMEhZdWJZQmgvSHk4CkoyMTVRdUdBVHdLT0RhMy9XeDB6
+VkJvam1PSFdEazNETG41dVZuMEZKWFkKLS0tIDlLRHcxV0RENjMxdWJJSzh4cHZE
+M3NxV3N5dm01dks0ZHl6REFTdlI3b1UKTR87BEDno1RHqcqDHEaEIzzjt9TWka0H
+jqRan/dY5jJwf47o5CQFcMEebBwtVLxbg/9IHzka4CMrmZQo1Yqn6VBVfD6Bu5C0
+qhdfPFWX8p2LAytZ6jSz886qaW3axKjVPDmoLjWa5nKlUZwUkbRTEJa/DgSybb6t
+yw6drZ0k7ti/G6Rl79HZJ5NwjuR5uHb7ZfB9GdvTY/qHhU1190ot/KhQsOCN8xhk
+2IPq6tTxcNNBpejDl9IdhNvXliO1QCr/x8uvOEcbqLBEDAU0Ux+FcLT61IymHiLv
+/jQK3O7LSVVliA05dBQYp/izqv8rebcVKsdTUra/TNs3wnxQg+mZnj0l3B8BDbML
+nbF4BtimkcgS57rtl9P71YMEhfZ/VAmmo1Z3Gb26sVnYCy35ahYb4yf3lltUGiqG
+2ygo/l/GYSV3QVwpBb/C45axYNIFJBmW+hUFv6sRAs6yqi6aB7hvLpdbvaIez0kd
+iclmWYhMN2J7J89CAbDfWsgFUQdBVNDqWQQYtibJQuAwWYzitTGqHKLytUkiIsGW
+7Qe5PiWpGLx+q345iVLDH9J4kpmuBd2fAs84v6mtF8uU15+bObxJkBtbsxl7DCKz
+Dr1I13VZ/AYABZlJ9NgDs2hhWQ8BVG5TZeM5iw5TrvUU8jN1eJTF6YeZ+XFD5TxD
+xgvvTgmffqL3EFIzWEfIaJ/gC18UGIECfczb1dRxyvR1fxb72UeE5QYIOLs/6raY
+iBSUqeFL6rAt598oSo7AsfowihknYnjabKPqGy4pOGCp34yXSX5MtbZBRv73Yldb
+dOiHpWk0wOHg40y8l1pnYWivSQNuwGUzYQHPzvdtRrGGpaCBJOXNT4UgKzEG0pGv
+RzCd4LMZDpjQKg4yzPOLIxY8bpFIC6IG2Ydyib4KgS2XiNHXHNcHVRTXCrdDxVYv
+o5SkXBYhYYVOaST2ozqp2uNjgJZWwWQ1opYCZfYicK2Hjf3pxIswHsRlYa2TtkJZ
+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
+++8sdbFryOfCj6Bx70UD5rg3YSrNCc8=
+-----END AGE ENCRYPTED FILE-----
