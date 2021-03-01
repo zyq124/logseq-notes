@@ -1,6 +1,8 @@
----
-title: distribution
-alias: 分布
----
-
-## probability
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBQVlArSnRDRnZWNndmRm1V
+TWJYMzZYNVZwbEtTU0haSlRocGZrczI1b1g0CkhjVk85WE11WHlJeFc3OGY1WE9B
+L3pwWkxvb1c3dE5HblRuT3lnRWNPQk0KLS0tIHFZeDhBamh2M3BIemNsbUFNYUpp
+TUhUbTdFMFNaWStoYVlaMCtZTXAyUXcKYkJULukWZ4dbJ3wGYDEcbs+WgCYach2O
+VbT24JohuPpvtX2q+7mEP5ngm89rpNdjFjuEs29/skJViK+q3YEB0uR0pFreZv+d
+iWUMkfVfvhPY64ZOYc9jmqo=
+-----END AGE ENCRYPTED FILE-----
