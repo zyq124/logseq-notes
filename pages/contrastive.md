@@ -1,8 +1,10 @@
----
-title: contrastive
-alias: contrastive learning
-tags: [[Contrastive Loss]], [[Self-supervised]], [[metric-learning]], [[Siamese Network]]
----
-## Contrastive Learning
-
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBoYm1RbGpSUGFwRXZBWmNm
+WGRaajFFa2VmMGxpSUFVa3l5ZTdkWkozbWdvCmo5M1ZsY2c4Vk9ZdXFEUXVhaXJn
+bVVGSGV3TjdDT2lPcStiWGZXRmNaVVkKLS0tIHIwbW9kbGduTVNqWlNUbk1Xd3Ja
+TVhtWDFtMlhIamZZRjFlWFJPbWtZWk0KS2GZDeWAll5QeEnmUrgRBPwXY4zGFPh+
+wAvjefsIm6tZ5fLOFheERoKydB4n0kUHWJ2b9I6S3OqLHrr+HiN6kZdchYa+MbYn
+wJbPiHo5dXopsI9vumQfKwJ6xfG5OWn6Ks2uS9Z3CnONoM4PIdgutwhx29zi53PL
+qWJFcoy858O4Bc7dJ+EA3EojoDxZ5Jy2G2jEhVRBNIlaqfHvknh9g4m2F9Dfz2wi
+ULcQ+5ACbEPVyexJjwn0Vayf2fHge0H3DNrK2+tOTvWvlX7E
+-----END AGE ENCRYPTED FILE-----
