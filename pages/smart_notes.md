@@ -1,37 +1,40 @@
----
-title: smart notes
----
-
-## Book: How to take smart notes
-### Keywords should be linked rather than isolation.
-## 1. Writing is Thinking
-### Distil the knowledge in your own words instead of just copying.
-### 写作是最好的facilitator for thinking, reading, learning, understanding and generating ideas we have.
-### Writing is not what follows research, learning or studying. It is the **medium** of all this work.
-## 2. An External System - as second brain
-### [[Zettelkasten]] (a slip-box like note-taking system)
-#### 用来记录你会遗忘的东西,这样解放你的大脑只是用来思考
-### Fleeting note
-#### Fleeting notes are only useful if you review them within a day or so and turn them into proper notes you can use later.
-#### 保持写journal的习惯 great habit to cultivate
-##### 怎么解决不知道写什么的问题
-###### Journal Prompts
-####### https://app.getpocket.com/read/3237441796
-####### Fill a page with [[writing prompt]]
-####### Maintain [[journal prompt]] as backup
-######## TODO Create a random journal prompt template 
-:PROPERTIES:
-:todo: 1611539644159
-:END:
-########
-### Literature note
-#### Should be brief. Be extremely selective.
-#### Has to be in my own words. **NO Quoting**
-### Permanent note
-#### Synthesized information by going through fleeting notes and literature notes.
-#### Should be written in a way that can still be understood even when you have forgotten the context they are taken from.
-#### 尽量详尽和正式,可以直接用来放进articles / paper
-## 3. The Emergent Approach
-### Embracing the knowledge
-##
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBudlBNUDNTRzY0S1Rra0Fm
+TXlOdy9wdTVEMWpKeU1nY2ZIU0YzRmlwV2pJCkVhL0FvcHNwaGxvRXdlaXRwaE10
+N3hZOUFaWlduMmJJVGwyZXZHSlRhOW8KLS0tIDUveEhhbmVUUndCaDZKNUlZNE1U
+OEp3Z0JqVTV3WVpSMnU0bmY2Y3JxWkEKUMzvTSGtUnyQNvc9jkeTl8+s7t66r/Hb
+BSgtsajXo20zpvi6AV4e4zO4eTxFzk24QXtH4fNtp/fxfVLXRt1uy5Bap5VNmRLy
+R+62XUqBI2uyv48c69wfdMA0ondh/aDaBuT8xEkcAyLg2m1QOXdq7bGMiIAl6DQU
+8Ak98Kbw8YBZHo4fSxXVyNsm0C8S5faHuMu8Ms3JesOfcvT5+sn6cuxwjgb7r5Kn
+jrkyWXMXgmxYRvwxA1xaVyqZ9O6qihIZWnTN2e/nzC9yl93RU4HuRq261DQD9Sa4
+Bx8Cven1+jpPumR7n10dN9gzDXIARZUR3w15U6iquy2iPGeZZOAlCv4Ne3Wd0lwu
+mg+qhlZZQ9L2xJNJac4VmBOx4qLkWujTPNaDz8zdkfGwa+NJ9ODrhi+K9KRJsGCQ
+Rnlm8vHQsr/G/usWFJNB1ntCJiq5QgboUsMcGAdueVtDaxrbGHTy0UkfXJeLQZxf
+1umvh/ofXNZ0N97sw0D7SqgLprR1O7cVv+o1vmMWHks9elrvSsETRFBC5bkweDBL
+bFmN2MvKldu0h/P/Wja+XazdZkyNXN3aYsTVwkyQvCeg97KZ/LzS0YIZdxtpR/64
+DdqnUF4HEUep9LB7Sut+VODCewaJCuw+GcoaG9kSGyObCrr8x4WdsV0qRPmRZUEN
+sKMU29ME1ZCWK2qG1dN4Ym0Z58972rD60YoEyeD2OKEPQm+DJ8R+WTd3+hLdHwPy
+5f3QXpR1GEYedtJXCr2RVC3K+deWRuX1FtzsT+RREwXgc7c+3B9G/jVWhf8xaElR
+bfGgauJdF8b3QBifr/q87sO1+R42ut+ZCy4jJUYzp6pQnZT6mQFIaL+RroJWxlse
+A87nwCmovEtatbtNVzpqcz2nmUekXzIOeQqbqiRhSe5j8Gn4XjqWb48uh9V+8FVk
+/6L0EQQjn7r1PVfG49Ufu/45snStPJR2ZK6RqnQqfCO8vQH2gfqWvyMaKJdjid7b
+0Y32J0/svfSzb7sFkbMAdIvCyDmUCJ4wN04deN4FL99coYuUx1PgN+8uYaJirw05
+mHsnadtpUpDVyR5nml1qOldzAvA4Ch9rMtBAelRVPFeSkUTHG9HOH0mL6Yi/SYvz
+oznahoGgvdAv/WGJt9MC5rTOLemn9Etsz8Tp8sW9aofBCKwMZhzZhqpryqH+VppA
+eO4IB9d6PFlmz+ruuAw4UqNewEaucT+wrD12MH7NUZKK/2ci/ukpkgAcD+3oYHnY
+tRVO9W1OQYCmWlEZJJ5KWw2YKtpWTGOcRB/E4+0oZoUgsmcG5SOQIQubSH2QDDzC
+09xnu88W5XeXT6gSCD1Lqe9HgoHnt/ajglzdSlEKZ3fGHWfqyZvIjKPKjAaWQ/o5
+kf7YO93cLeXaXWlSo4/+FlaS/zjrPBH35Dwu1jQ5Fh1iFtp2owGjF3E5rlqIC5Fh
+XywV+DmMCumxL/ETCu8J+jgvYAio3qps2qUTCgYEJ88rajjE3nczDD7cVt/8MeI4
+6ZtglhTeHyaUPAGwrLbnK5XbgI9uHUZbIBRVQUQrD3ByeSlk7djn6K4uTCubMpl4
+GeBr5+chLrwCZyBDngO6/hO8d1wMR+A8chqQKdbB6BKwe8aulK0ZwOmp4xYFTsod
+sBxwOkQ++4bFVLTMOY16E4hn2ws2yMn2tNT51IrXfc3J/wPWwZDfBBgV60JeMBEx
+5kbWZ9siaHkmYU6HN9V089tQ9M3LoNOUsZ20xJBR6j9Gy7n+RDjils2XM4l8IAyI
+fTofZxD9X5P9QqRhSfYWJltQPO235g/g18werTT7rskXx92C8M3kSbG+fwm1cR2u
+cokHEKtwNl+FiUz2I/ikfOpL84Xz0XXfzjVN7biQCsRf4U8wbs0DyReH0QCF8E9m
+dGjcCMzBWhTR3V5PzvzbdTseaLMTf9+otdGDDlbXIOMfNDGDsoZ8xGAgpWaKI33w
+bSfJMt4FQsaiPGfDsCB9tMb4GhGSEjYT84LGehiVm+dTx7AYCHI7KwU3SEcVJDib
+YGX2Lh8xGeCXR7iB/dM4u1BmJatLX5vjwrWvIm7p9/ZOlX3ovCr1N3w78Kv37No/
+p8UgLwRl1QclU75pAfNppZw1hKPADy9kEfG5e4o2QPN6m5+4+OuHCL3k8DjWV89Z
+VNBf3R5mw6hK
+-----END AGE ENCRYPTED FILE-----
