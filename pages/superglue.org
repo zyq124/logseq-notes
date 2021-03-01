@@ -1,42 +1,71 @@
-#+TITLE: SuperGlue
-#+tags: [[graph network]], [[Descriptor Matching]], #attention, #transformer, #GNN, #zotero, #literature-notes, #reference
-#+authors: [[Paul-Edouard Sarlin]], [[Daniel DeTone]], [[Tomasz Malisiewicz]], [[Andrew Rabinovich]]
-#+type: [[Article]]
-#+citekey: sarlinSuperGlueLearningFeature2020
-#+publication date: [[2020-03-28]]
-
-** SuperGlue: Learning Feature Matching with Graph Neural Networks #reading
-*** Zotero Metadata
-
-**** [http://arxiv.org/abs/1911.11763](http://arxiv.org/abs/1911.11763)
-**** 
-**** PDF Attachments
-	- [[Sarlin et al. - 2020 - SuperGlue Learning Feature Matching with Graph Ne.pdf][zotero://open-pdf/library/items/27S4XGIZ]]
-**** [[abstract]]:
-***** 能够同时进行特征匹配以及滤除外点的网络
-***** This paper introduces SuperGlue, a neural network that matches two sets of local features by jointly ﬁnding correspondences and rejecting non-matchable points.
-***** Assignments are estimated by solving a ^^differentiable optimal transport problem^^, whose costs are predicted by a graph neural network.
-***** We introduce a ﬂexible *context aggregation* mechanism based on [[attention]], enabling SuperGlue to reason about the underlying 3D scene and feature assignments jointly. Compared to traditional, hand-designed heuristics, our technique learns priors over geometric transformations and regularities of the 3D world through end-to-end training from image pairs. SuperGlue outperforms other learned approaches and achieves state-of-the-art results on the task of pose estimation in challenging real-world indoor and outdoor environments. The proposed method performs matching in real-time on a modern GPU and can be readily integrated into modern SfM or SLAM systems. The code and trained weights are publicly available at github.com/magicleap/SuperGluePretrainedNetwork.
-**** zotero items: [Local library](zotero://select/items/1_YITE6WWJ)
-** Abstract
-***
-*** matches two sets of local features by jointly finding correspondences and rejecting non-matchable points
-*** 特征匹配是通过求解可微分最优化转移问题（ optimal transport problem）来解决
-*** 损失函数由 [[graph network]] 来构建
-**** use [[attention]] to solve an assignment optimization proglem
-**** partial assignment (handle partial point visibility and occlusion)
-*** 受到 [[transformer]] 启发,同时将 [[self-attention]] 和[[cross-attention]]利用特征点位置以及其视觉外观进行匹配
-** [[https://i.imgur.com/jnHec3w.png][Feature matching]]
-*** acts as a *middle-end* between handcrafted or learned front-end and back-end
-** [[Graph Matching]]
-*** 这类方法将特征的匹配问题描述成“quadratic assignment problems”，这是一个NP-hard问题，求解这类问题需要复杂不切实际的算子
-*** 后来的研究者将这个问题化简成“linear assignment problems”，但仅仅用了一个浅层模型
-*** 图匹配问题可以认为是一种 *optimal transport* 问题
-**
-** Architecture
-:PROPERTIES:
-:heading: true
-:background_color: rgb(121, 62, 62)
-:END:
-*** [[https://i.imgur.com/6sWQRoA.png][]]
-***
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBZcGtrcm50SGM5cDUvU0tV
+cmZiUjBzS0x3d09Sa20yRXExUHozWTJrUmhVCkRIeU5RMDF6SHRmbmI0QTlWbVA2
+bkhxcWVxVTR2Wk95TDc3czFSTlZJb2MKLS0tIDMycFR2NWV5YjY2NE5DNXd4QkE1
+emFlanJGNnovQmd6UUc0dWhkc2NmWlkKnw2Wnv6O8kDaJmbdjjGkPdtn0JmAHUez
+gHfMUy8Y58Gns6jY1jW0VR5XnUpaUVLQmNZfjBS28F5fwdplQdd8Rre19ND6rROT
+GjpVDEeN05IKZW8lZ7O+zrNH8SsJPTdFu1fuJYv41dSQmh4MQDqyKIZdmP6ywDvY
+qOIV73I84g+B0W1tN3hx5o31L57QxB78auFuaIQV6Mi40Q6W1DLMzSTKSwaExvd+
+nxgnVpaY/2ahuUE6LnxSGBXv3SvMf12PFflYj4TA/2Aq1ztb9S+GV/k0YUKCakSn
+w7yelpcWQ7XWHTRpaqLjMJShqZNLZUlp1gU2VpRZSujDTPFixPmmAbaZDWi1f9Wb
+dJ7e7UOEqM40EgQiW5Sj5QcSMcwvl8oBDaQUQVdoNynpMoUdT0GxS9NGIjUdIF3A
++0IMiR03Ql9a170wwUpw0uAA+hoKvlDpC7VfPc7B9QjujfXDBIyUA0H/t1DX4ujd
+Z4VI4pm4r/+y952J77kd3QoLoz+SvLLs7LU0q/8yLAf5YlXZ9Qd2C82YkL+thgJL
+xkt43nlQLLwj/KG3BMrlPOSHHyMepSJ4UGmLU3FtZKTrFaeOOPSLyHkeJ4mt9Lw2
+OvgIfIsMEChTQ/fC2m6FddwTZLcooQYr3x0qYH6/zSBgmiPz4kM6B5Hm8/8aTEKE
+ZwZFEm6dTg48cj9ggCxDpxofT8EaB9mhFoT4l9drW1pEz0NWik3nM8WqUpNP+aRy
++xcio8lToa09fOUO4ZGNWVrfuN4Me+LfLdx14+MFe4QiYznP4l98unRs5/Dhua7l
++jtniXblDDPh86Z/A8/FX2skaqZ4NTYDGN9z8CrhW1tiktunia1p1IpAN7GfrDDY
+jOCpkSt6mb8tXfOfBCUAVdK1beqKWtnvYFUHAo8RAD0Uz4bPb9yTN4gfqFOktU0t
+cFPF1h1Fu2IJAGhJUjEzFIK8GPbHqSKv9pq78RGPVDydX7cFb6CJ/3Knfwisieoq
+ItFswQx0vnqm0a5gXjoGpJU7w87FHmm6K4mOehHbYKF5NHpybot+cwM+V7dgKOIh
+fcIhTf9KUSoIPr9fdYILox3ETfFfEuPiraYEdlsDg7DCDC5KapCk1ma8rgX8sBe8
+MnqxOpeFw5B5XbJD7ziT3nGcJIpkrN7MGRakLACnqfktGCht7HkXf0BsLPX2JQF6
+csZg+08HZtCAGqc++AvYaKiPhnHXng0Jqo4SqRFvouYjbiJ6akZBwec6bg1tUyKi
+Rjoc/xPOo3oeSZE2UR2CYdLVOjfiuGYbnLOva5ppp0hLq1xFJy2ocEcDqC9NQMky
+jvMAeGjJD3hXyaefxwTb1XHu8VQJeDrc1GoMRxi+gRx9FPqnoEM2H78A+foJE8Gr
+cM6nxmNgyHTe+fCnFv3e50iw12kidkcoLYxbSGiLY63F1QtMV3S2x0o1nopjxYnl
+Ts9qosTegDoDvQC3ILTA4D+WF0gk6YhZDm4ubxbc0Jl9bAG0TdeMmUFvqCCNi+VP
+72/1YDhWeH2op153g+4KcLQzTq/rfaJIZPTbKfIiCVz/KFvGx+3N8qIj0b/AznG3
+KeDJFWy8f7IIPJbwucBfXOYbijsWunsEMhuMY89poLVEELCf8VHoT6KWeXdTrtV/
+fnlSOZhJT/IlAVtGXCAPuMhKWQffdesdf2RPpOx7N/DES+h8TcgM8ueILsHqAQZ5
+i7DFjfBGkac0ZVSTF2+z5XDaDY0C4yVjlN1v4Xme1JWQxGw8tefHH1E/aS29t98a
+GkxUumtdohWJdY51GXdr/s0wo5QEbbiG9fnfVaPeuWjWyo5jRyp3+s6npFrZZyf/
+6Fs8xd2DyqZwQy+v+PRsH9LO8azU2AENcBHyRjT+UiGR+a7TqccFF3802R7wxpoL
+/qZemDXJfU/gaZ8nt4EVC9qAjS1EErHVOYNZcqefD4Bxm7MrlpjLgaXZbXtikgrR
+E3CmnsdAJLdUI4slVoABbRJYy1nd/awLisoMMOiuFjdpx7h3Qc0yOttQqrg2OzSN
+WWyQNtIV0r+xzyyl+0MxDmZn+4EYJt2C30UO7bY8s4Lp1DwKj6cBylt7nEaQFSzr
+JKvh7+4V7tm+NyezLizeb2A32sW9KXfUMu+CzEm2SSzoKZrzfiTI8n+jySdEd1GH
+5rGx7s3fcInzjSrNo/pDePyRSLtvM79qVYusmL1xBqnGJmC3Jk63L44tt8u/nf6g
+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
+-----END AGE ENCRYPTED FILE-----
