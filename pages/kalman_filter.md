@@ -1,11 +1,16 @@
----
-title: Kalman Filter
----
-
-## Learning Resources
-##
-## Kalman filter pipeline
-### [[2021-02-06-10-54-30-kalman-filter-overview.excalidraw]]
-<iframe class="draw-iframe" src="/#/draw?file=2021-02-06-10-54-30-kalman-filter-overview.excalidraw" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
-### [Kalman Filter Illustration](https://github.com/alirezaahmadi/KalmanFilter-Vehicle-GNSS-INS/blob/master/images/kfg.png?raw=true)
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBlWUh5c05ITVZ6U1hXL3ov
+YnVwb1N6QWVTQ0pOL2hUTS9wa0U2RWJnOUFrCm9vOEUyZ3FTVzd3aGZ0TmxqSzNF
+OVlKZGZxWEFJNjBOU2hMeWlFeitXUHcKLS0tIDUxRENITDJSdXcwdjF6c05NUHZE
+eHFLSXpTQkJTc2VlVStBeXl2cis2OG8KWVubauFPCE1whPa3S8zVQ8sIgCdMiKGw
+w7cfQUV4uoLC92ACu6LdyvcexKFyhPYAiHlPc/3tVBZXPIME0Cmv2T1GodoCuY0d
+eJ5FSNyKizkXfsDm+pP/ZTG2hLWU+ClhgXsa+IvQAQUhuJqmIwsh+XfRki1ogeGX
+EavXPpRYznlaw3QaeJ/q5iCCAnmQ+DknQ9AGpubtoGI7k1xvc8/nF54YSLBeK3DN
+ENRyh24bkOPlJtocRexi0gX+aB88cwvlAnWl+i1pKNO0BbpbV1t1uargL1acWpDC
+0BqBNW+8OHUXOlS+XWIvniuPXU9eu9GDrFotuquhCFzxR/jGCQNBxOSfQnD2PruJ
+iUwc/OZD41b7pbaIsCmByc0AtuQANtyXdwsH4bkyY1DOkFPAOLJNk+W/CkWzW7mX
+Bp6IvGinN7f0C56JLc5EU7ZSIRfIk+VYpi+Mt+4LMP+Rwita3EL+fD7GWACz0QHu
+BjuWQDL0yD0KIP0e32AgxD9ecVDDxHsME2F/7ZSNGViFhRKOdZXRHFP++kLX9v/s
+tc65mXBwmGSfXiQ09u6wHbhd4PEG/KATrf9PMRrEAPc5FnL656n99KJUSKaOQbky
+8LsI2C4cCug4D8dp6J8sv36T1hIPo5kbsA==
+-----END AGE ENCRYPTED FILE-----
