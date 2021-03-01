@@ -1,48 +1,49 @@
----
-title: attention
----
-
-## The original paper
-
-### Neural machine translation by jointly learning to align and translate, ICLR, 2015.
-## RNN + attention
-### does not forget long sequence
-#### decoder additionally looks at ^^all the states of the encoder^^
-#### 对比standard seq2seq model
-##### ((602fb310-8bf7-4748-8f48-d08f07aacc17))
-### [[decoder]] knows where to _focus_
-### But downside is much more computation
-### Simple RNN + attention
-:PROPERTIES:
-:id: 603070b8-5a03-4cf9-a04b-6defdb8f56e7
-:END:
-#### 计算权重的方法 #related [[transformer]]
-#### **weight** $\alpha_i=align(\mathbf{h}_i, \mathbf{s}_0)$
-##### $\mathbf{s}_0$与每一个$\mathbf{h}_i$的相关性
-#### **Context vector**: $\mathbf{c}_0=\alpha_1 \mathbf{h}_1 + \cdots + \alpha_m \mathbf{h}_m$
-##### 1. linear maps
-###### $\mathbf{k}_i=\mathbf{W}_K \cdot \mathbf{h}_i$, for $i=1$ to $m$
-###### $\mathbf{q}_0=\mathbf{W}_{Q} \cdot \mathbf{s}_0$
-##### 2. Inner Product
-###### $\tilde{\alpha}=\mathbf{k}_i^{\top}\mathbf{q}_0$ for $i=1$ to $m$
-##### 3. Normalization
-###### $[\alpha_1, \cdots, \alpha_m]=\rm{Softmax}\left([\tilde{\alpha}_1, \cdots, \tilde{\alpha}_m]\right)$
-#### Decoder更新过程
-## SimpleRNN的decoder状态向量计算
-### {{embed ((602fb278-dac8-4e2f-b66c-5e92a7ce3cc1)) }}
-### SimpleRNN+attention
-#######
-$$\mathbf{s}_1=\rm{tanh} \left(\mathbf{A}^{\prime} \cdot \begin{bmatrix} \mathbf{x}^{\prime}_1 \\ \mathbf{s}_0 \\ \mathbf{c}_0\end{bmatrix} + \mathbf{b}\right)$$
-####### 考虑context vector
-###### 接着计算decoder状态向量$\mathbf{s}_2$的过程中
-####### ^^重新^^计算权重$\alpha_i$，因为根据定义$h_i$与$s_j$的相关性有不同的权重
-####### 计算加权平均的结果context vector$\mathbf{c}_1$
-####### 计算decoder状态向量$\mathbf{s}_2$
-:PROPERTIES:
-:id: 602fb12a-10e7-43e6-b790-bf72c0e70b6b
-:END:
-###### 一个context vector$\mathbf{c}_j$有$m$个权重，decoder有$t$个状态
-####### 所以一共有$mt$个权重
-####### $O(mt)$ time complexity
-##### [attention+rnn](https://i.imgur.com/irWmoeR.png)
-#####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB2aHZQaXIzbmppZG1qejZ4
+OVIvWmZMejVlVW1JeGJaOGpHUEZsMitVSG1RCjhvOENhdmZxRHE0azRweFFCZ2VI
+RFArajVuYm9Jc2xKU3U0V3c3RlcrdmsKLS0tIFh3U0k4N21pa0dVd0g4RjBwRzhX
+Sjl0MFpTUSszbDRSSmxGUVhsVGxLM1EKkNz/+yb9TvWQHtvjNfW5FayuqwKkmIRR
+q52RqMp+j7N/BDn68MdMp5PSO+ulRmlh+mN35Xe+v7UOHWmUWiJ0PA4FiAXTOXog
+Vz/JcP6jodKjE/Bs7Rf6/UcYas3FbJrGumcTlWsHyWew+5U9RSaaGlh+PKScieiQ
+jKAEnBQKmUOA5MXqNebSPblRfhWou9sd83/8M0L52duEJFMnPL3shHez2fzXOqxB
+Ky5Zn2pV+ybYJ5K7+zqspM2MDV/vLuehr080FWjKupTsTlPOZYbeI4wMNQNfcLQy
+ZqMOV2LS7dnuatdOpPTHAOUjfGrNVR4bkZdFNPdA+GHAmWjvYpINgsKoUaNEkmEa
+GoyjYgp1EMqvyQtbAH6bxK0Z7WIPJbwHDtCUMH8BOSVABnhJpYz8Aecj/lbGcsIG
+3r/7unq04XyfCrkZ9mQi45ekZpOrN30hzhtcULo4OFhhsrHFSJiWspz5QHnEAmZp
+tU+DERSYjEozuRfjvRV6RdraKTkuiYiLlL2LmL4Bx4+sP8tuvUHXuxVi+kAaIE3c
+9U73UxNYUomQ3bvCRGlOfCSjNDYiUCIYEpSRE4y7GFJ6EY6PUo8T6fPgBRf628J/
+uNQ6ZvqQjVpk3MzvQTBfBal4oRF4P7s6SmM+SbF8YxjbWF4V+XIavEnga5jTpbWh
+XH+0MpM6wMBBAJ2fnQzRmKae2Qc4TXw6Hmaq3+jr7Hfi0L/8+AgkRLFpODgChzcT
+aDCwfPbAnsimGtVi4K0z9lsKPCQvYC0pNbnNBOYJh/TG7O4O/C/eH+Ba85DELZrX
+7+cXE7nOaNmcPQsw6OIPUvE9is8jkPRhG1IqwscZQTm/CfnOMdpPLFgqFM3vZId7
+2M3klj4Kr8Wg7vOU8LzHO2Add3jipznLG0CH0QNbpoL85+v10t/p/Sxoba1viswb
+wx4lrcRHWbJghnH6QEn016FU1znwZ1ILKZvE4gXtMB8+LnqJ+OKePSJu9uxVQb3+
+bTmmgOx1ARqHZjasK0A9Vms1ebBbsFSOF+Cjq2vUTU9ZfiEHSnHac2UdGWwmtUbi
+rpitalUX1z+pX0aJ717M4kRCLXTlhUNQkiW+KRsX3jyih+VQNMULyrAkkeqhS1zh
+4X6c74clvw7ztYsonLBqmO7BGuu3MnCqWvjN95jvOObN1frKPH4PBFPywwRqKtax
+3zCKUkt+9Ua82BF78ZubOvz/saLVeO2XOkfhJj39gUEh8P6HfSpvNqloq+uBawq4
+N8gEl1keiJrG/Wpn1W27hV/6Qt1iYfaI8XXRkbgHrZ1NcIT//SfY84fKdlU6butf
+og+woW+Jv4XA5hVodYTD6wNi/7pl/I/wPAa7js2qH7E8ukXF9glRWNbvZ8A+aA61
+m3Zj1uoFn24nPioKiraXwp1i8n6GBuaClyUD4r+bSIwbAG8J0lU9MawUQ6MvZMbg
+Er4cEsrf4RNis4FaWd3au4uMMz1mlBKlIO1DIgt8QWQRt3BY3KUd3G8D2Qv0tVbq
+fMW1+tL9I0tANjYaI1aZatyGRCHjU0QohKPof7Jn55NSBn4sHphfio96gDpUtue0
+GEcQB2hDPDDzA48N1nb7l8zleKm1B9tKUBUZhWzrVHnVwf4J6q+WBmpr0Po7o5sy
+/TZoDA2cvX96gVQ4XnCUE6hUxgbW4rqtKjeHNye2CeSIVqb7kyH4woimH5ySVhnE
+Izo5ARW163OMonnw1sJzw1HzOx4oIEOcpqCbGkmeNx0OGbhh+905FWwSb8BxOSqW
+KLRHwDdl0U2bjXr6Y7XsYqwrxukTbbKmqEGuJEDPVnpUuD4/vBRc46CbxhymYc8P
+r0L+JPnJSKrqXpP3IHPtuTaoFDMiCBCxzoHHMrCWyj0P9NXx8CmftxwAuxImN8PH
+TY+pIb6WE7Aefwc6JBgeKAlD5CZU8rKQglTUo4sKHBaTUBjnaHJg7+Jlv6RuHrqX
+oasfo+Z5Oo0+wpSQESABbqnIOySHp0yhH3XQXZMrKaMJ0kYQdWJwf7CjU6xjiKX+
+PBTamozMBkxPwM7MEsJ0Y/790knKMc1C/GHRNikMxbxV53ZGstc0xQucwwcb2ALb
+L/YyYYme9DxHr3bqDuf4ig4c2aJgx8/7WBBt3jqqR8+TX07q6d8bGjouSHcx7wIF
+kGDLNUa+OVpvqHsSFNAK6kIgiV7ZTDKrMshu5FKaPd1F3F4uzHt7lfzdpbJm6Jcc
+TtvB5WdaKxIXmikzNfu0z8d6mbRf1vZ/6NxIM2Dz90miSWVVydgvxfpHQ1sRxNxx
+bhV6JxbCZFuproi8RiwDirN05zqsCZMaBf1yyNpX60KXybzIV1eH5rodDlLC8V9X
+A0v53sW4WAAeHFUYc653QF681XOYlGmGelATKYis/uk7dOH5S/UCLJ3Z7FPhqnMX
+6CCLNBWC+ftotnjEeD+TyydkAqyAoQ63aN+Ja4D+VpIafV0/6cmoWZJJiEjpUp+X
+QSdCx8AN7LaUx/55TdoaOiEkkdi5fCj4vwCGI2Ypte6YxczegbpGMsIpLVcX75Ow
+EEzav1fFuvM3r9upXIYhpiyaZVHlW+/J9hvLr6avl8fUGga+BanVVBlOSg8EEzxC
+oUdMk92b/GsHtvap18enA4x/5LSpKyYgVo00Px/S2nnUQO1QQk0s0A0A1rtVDUdS
+JGghNATxbUa1sNmN+1ZSFE366Ysv/MLZJG1dkn/wjYbzbT5aUiFuOhdovkE/szFB
+sGCQKmtuk5mnWE6afyKjBeVOwFLC0cXweNSYCmI/tYaJjg+89QrNIok/
+-----END AGE ENCRYPTED FILE-----
