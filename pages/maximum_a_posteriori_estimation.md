@@ -1,7 +1,9 @@
----
-title: Maximum a posteriori estimation
-alias: 最大后验概率
-tags: [[Bayesian statistics]]
----
-
-## In [[Bayesian statistics]],
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBRZGNzZm1YTFk3cnBEOTc4
+TU9qOXRaQlBxNVlXbkJKejdmME1GcCttVm1zCmNsKzJiNkYrVWt1d3U4Z2J2UkNh
+bGJUdWUvbWxKQWhLcHo3ODJJcXZnWU0KLS0tIDRHakNScUd5U3c4dzdGL3ZWYlFh
+azg1YkM2TGVhRWI1Rys5bnBJMlpJNkkKZSiQLmqaKoNwNd5/2AGgpWGEjl/ZDuCM
+NiyUWSIBPP2e8WQpEEHCLZ8Y6zjrbeyNQecQmgvEjbgOh6PuFNoGD5SEpUgw+fan
+DBaKH3xCuAdQ4migiH0D9mhlF5qDDhMY9CxikqJL8KBJQfKWgqWr5mAFu7pwWXlZ
+w5PFbURKzdYJobt0GpmyRVavNBsrlaBrtS+TTPngEKcFpnJCK3PPLOhwiCOytQ==
+-----END AGE ENCRYPTED FILE-----
