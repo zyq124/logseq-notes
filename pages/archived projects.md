@@ -1,18 +1,18 @@
----
-title: Archived projects
----
-
-### GMC: Grid based motion clustering in dynamic environment [[dynamic SLAM]]
-#### 1. Related
-##### CVPR 2018, Motion Segmentation by Exploiting Complementary Geometric Models
-###### multi-view spectral clustering framework
-#######
-##### Arxiv 2021, [[Learning to Segment Rigid Motions from Two Frames]]
-##### 2017, Learning Features by Watching objects move
-#### 2. Challenges
-##### {{embed ((602cf422-e94b-4cb7-801e-7f18a44e20ed)) }}
-### Object-aware SLAM
-#### 1. related
-##### [[VDO_SLAM]]
-##### [[RTM3D]]
-#####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBSWm9rbHVISnV2bWZ3cnBq
+blQyMzdmMWpPS1V3K2I3Nk9QV0x3NlM3NkMwClhjWXF2L21HKzZ2MVBEUGJSb3hk
+MlR1bk1ldlhqcEh3ekxuekJ4eHg5YnMKLS0tIDNKUExsQURMSDFKd1pmemowWHRr
+eUpVaFplVWxrUTg2UjV6TGdidmk4eVkKnKXnnkc4QHqCMuMxEwr1iAiMIMu9eSNo
+oVilJzoMh+ytacRAeAWFw17omiOHqI39tj63M3fhBNUzxmSmrvaD17uNLgeGoTLB
+Y+yWikDjeHyd1lAab0KWOTnk4e/xDAeMndWfRiDbe2gH7g0nsGKwjEHHye71EzjK
+UY8ukNRkLWemooTIPrRVvJyasKm4kpzz1hKQmTaGgd0ZN+kF6htR3ERaFpcsPAk+
+uVGIqhMlXQ2iBWzxJXsmktG8hWVF8jlsEOXUyyyr7Ntj7PLfxVpYy3idHTQfS2jA
+VxEgtPeJHbjh9I48VYrnAYVDxTVug1/bBwhS9rNUF87FYxyCVQXzrWJp+ImtnSWe
+TmMo6AOYOxzrrOkTCcSV3Nzvlak1vIdLLWKCNiEcVAbZbtS9/mTWFOEdqbnRkd2d
+EeiNgsAo+yKRE28/n2/7DprTR+qEUDtAbeMxGGMCFZbhlFY6UvffNpRY+nceuelS
+VZtg184FaWH8Ekk3+KgOn3GOxG1eYl3+Xt1gH7Q6lErsZc+8M8YH6R0TUYRhWNcj
++/kV9vIJDBMK9wH5uWM9qzoUqIn4VQBGkAPymToawRnAXcNLe9Ppcys6D7trZlCE
+K5lcysUH1rbim50VLRlFaMBweUHmMoSQUw4jH1pyhQ33d/cihMTtasXxNJ++PQlf
+8QWPzNU4Bc+O03D4uk0xXBZNFWoUA/UYCQYLq0VLwAqRidyU/g6IA1oXAXUrp2hx
+PpGO9+OpLrdYE763dblA7DuYBF9rJGMB6XZ/HiY=
+-----END AGE ENCRYPTED FILE-----
