@@ -1,7 +1,8 @@
----
-title: emacs
----
-
-## [[doom emacs]]
-## [[org-mode]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBtUmFSU2c0SUZydkllNy9l
+NmhPT2pNOVhKTUUzdzFEWkRPekFsa0xrdnk4CnVRV0gzcHBXdWZnc0ZJdDBvRVYv
+TGNtUXFSUnVocjNpS2ZOUWNyRHZSbkEKLS0tIFVuWUVsSUFhMnFXdGxabGFtSTdn
+UGlXY3RFL1NUcExTTlN2RkljZ3V1SWsKi5/t6SpeCkIn9evGaJq2a7fpSZA2CtxE
+VawS9KS7nese4dYeKUDaQQ2Jzn2yiwTDloAgm/vDZE0GQlvaFNAmH5wySNBuA3W1
+08zYAFIbFoB2vZUklfAsyhrn+A==
+-----END AGE ENCRYPTED FILE-----
