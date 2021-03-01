@@ -1,10 +1,13 @@
----
-title: DLT
-alias: Direct Linear Transformation
----
-
-## 参考 [[multi-view geometry]] page 89
-## Given a set of four 2D to 2D point correspondences, $\mathbf{x}_i \leftrightarrow \mathbf{x}_i^{\prime}$ to determin [[Homography matrix]] $H$
-###
-$$\mathbf{x}_i^{\prime} = H\mathbf{x}_i$$
-## Solving for $H$
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBMeTZraWF1cTJHRHgrRHBt
+U1ZBZzZvbnZESkp2TjcycFZ1aFc1M0Y3VVZZCmZKbGFXcUdpNEw1TkE2dWtvczho
+TWRscy9WTlFUOVZiZXZLa1o4cW16Y3MKLS0tIGlZQThWUjFOd2ZEQzAxMmNTTnFx
+d3JlYXljZjVGTHpPWUZGZ0pXc1I4dTQK3tdLN2IFZtklBnLFBU6eWEfndnZiLuOQ
+Hv7X+Tcf3iZ3csA8Mub0+Gae3yOdjr9P6glY202WioEJC1td/L1HCqflTZ5TNCvu
+8jxxCi/+hV2U7QYRD66ny6hh5Mz+AjcXGX5GKX2LGNM5pBao5ceKwHN0M+Ef0st4
+CZgGPBY/Mgs6ShuEJyuuupErplcc+H800ME1khQpPTuN1pRzx3uDnT4US7CiPzUU
+DqejbFgZcjORjUPm/Ac/xG4rygCsW9cdRjK2+H+3QyXGLdGa4YHyjKd7ik2jttuD
+X6IWt+TcU7GQ46OFdbYhE4XC6+WgB8lkRiQpteSMTvoWtn6dPsJxHt00rXTRFtSg
+eEvtWplctDFJLIl5tgcKRkK9AMw740aJBpGBiiwYbMNXEYRjibD+JF1lnUsmocyp
+Z/u+9QIAOkzJmjPQW+oVpRO+1t2SoWP+kAwMgLg=
+-----END AGE ENCRYPTED FILE-----
