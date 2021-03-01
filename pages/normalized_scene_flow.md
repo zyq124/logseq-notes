@@ -1,11 +1,16 @@
----
-title: normalized scene flow
----
-
-## a vector pointing in the direction of the true 3D scene flow
-
-## Can be "upgraded" from 2D flow $\tilde{\mathbf{u}}$ knowing motion-in-depth $\tau$ and camera intrinsics $\mathbf{K}$.
-## When augmented with true depth of the point in either frame $Z$ or $Z^{\prime}$, normalized scene flow can be "upgraded" into the true 3D scene flow.
-:PROPERTIES:
-:id: 5fffe3b2-f45c-48f4-8e43-48db5120bbbe
-:END:
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA3bmNTRW56L0dyT2F4WDBk
+K2dEbHZMTWxWWnVWMnJrcU5ic1gwUzN1WEU0CkhhejY4UklFYlhFcStEbzNQZnIw
+VEtWT1J4WGhyUGVsUFlDSjdVZnVHRkkKLS0tIFBLejRIWXczYU9aMHdland1RlNN
+VUl6eUN6N1JGVlBPd0NPWllPY3hJUUUKGIC5cyQiOI+3pDY8yJO1XZD0L69iqo2b
+PLTKUlGdlIXZMfhesNW5vOD1Ws9Zp48Qld+e38ulo6ZNME+/3OYckFsfQpZvolkE
+0Iy6thinwiIVKFgaSEuZkVs8Bn3VApk8VG6s3DQRgaRtabk1bKNPi9BGbaolvwZE
+MoSh8x9/z+VoIhOV0qCs0CrXkaqwsBJC3T+QXkjGpd0fDIWBMqKoJDkVZ6Tc3niW
+yeSeVI0PdDa2vi9/edyNqyFA5KizMWijfQ3sKg6Ma8YwrfFwwAJlIxXjqXdKRadT
+N64Sg6BdUZwgW68mMW5aUsg33Gh8kRbGCIcEJP/foHvfjmF1RTfHFhwkdJyZmOWe
+oCmD8iFOMBUUIoZqyA1GEUnI+mrpZStBxD3P0glLN6eM8Dlyu3Dk1IC+PdZ7Dzrs
+AFCmKNK6hYCcIlqI5Rf6yw0SSY0UydeCNeYg2d+CsWtGuzyx3M4MLl2v7GfDE/4n
+REZEf1TbVSRLBJqIjrWoXrTOvdUQ05Fs5Q2noKIhqh3xpQAZxZSjriyXOTYrfEns
+qHwxmDlVbp56h+d1XGUhe2mx73tRs5k1d6pCiMBZQQeGuPN9Yd/MD1viLreu7/5W
+zvpbWcZdCiCXmt1Zx94T
+-----END AGE ENCRYPTED FILE-----
