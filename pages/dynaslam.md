@@ -1,202 +1,244 @@
----
-title: DynaSLAM
----
-
-## Keywords
-:PROPERTIES:
-:heading: true
-:END:
-### [[Dynamic SLAM]] [[slam+tracking]]
-### 评分 [[4💗️]]
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### DynaSLAM II: Tightly-Coupled Multi-Object Tracking and SLAM #readdone
-### Zotero Metadata
-
-#### * Item Type: [[Article]]
-#### * Authors: [[Berta Bescos]], [[Carlos Campos]], [[Juan D. Tardós]], [[José Neira]]
-#### 
-#### * Date: [[2020-10-15]]
-#### [http://arxiv.org/abs/2010.07820](http://arxiv.org/abs/2010.07820)
-####  
-#### * Cite key: bescosDynaSLAMIITightlyCoupled2020
-#### * Topics: [[slam+tracking]], [[dynamic SLAM]]
-#### 
-#### * Tags: #Computer-Science---Computer-Vision-and-Pattern-Recognition, #Computer-Science---Robotics #zotero #literature-notes #reference
-
-#### PDF Attachments
-	- [Bescos et al_2020_DynaSLAM II.pdf](zotero://open-pdf/library/items/L2CWES3T)
-
-#### [[abstract]]:
-The assumption of scene rigidity is common in visual SLAM algorithms. However, it limits their applicability in populated real-world environments. Furthermore, most scenarios including autonomous driving, multi-robot collaboration and augmented/virtual reality, require explicit motion information of the surroundings to help with decision making and scene understanding. We present in this paper DynaSLAM II, a visual SLAM system for stereo and RGB-D configurations that tightly integrates the multi-object tracking capability. DynaSLAM II makes use of instance semantic segmentation and of ORB features to track dynamic objects. The structure of the static scene and of the dynamic objects is optimized jointly with the trajectories of both the camera and the moving agents within a novel bundle adjustment proposal. The 3D bounding boxes of the objects are also estimated and loosely optimized within a fixed temporal window. We demonstrate that tracking dynamic objects does not only provide rich clues for scene understanding but is also beneficial for camera tracking. The project code will be released upon acceptance.
-
-#### zotero items: [Local library](zotero://select/items/1_69AP3XQK)
-## Notation
-:PROPERTIES:
-:background_color: #793e3e
-:heading: true
-:END:
-### Camera $i$ has a pose $\mathbf{T}^i_{\rm{CW}}\in \mathbb{SE}(3)$ at time $i$.
-### **Static** map points $\mathbf{x}_{\rm{W}}^l \in{\mathbb{R}^3}$
-### **Dynamic** objects with index $i$ camera, $k$ object, $j$ point
-#### pose $\mathbf{T}^{k,i}_{\rm{WO}} \in {\mathbb{SE}(3)}$
-#### linear, angular velocity $\mathbf{v}_i^k,\mathbf{w}_i^k\in{\mathbb{R}^3}$
-#### Each observed object $k$ contains dynamic objects points $\mathbf{x}_{\rm{O}}^{j,k}\in{\mathbb{R}^3}$
-### [Notation](https://i.imgur.com/0EKVpFo.png){:height 448, :width 480}
-## Object Association
-:PROPERTIES:
-:background_color: #497d46
-:heading: true
-:END:
-### 1. Pixel-wise semantic segmentation and [[ORB]] features
-#### If an instance belongs to a dynamic class (car, person, animal)
-#### and contains high number of new **nearby** key points
-#### new object created -> assign the key points $j$ to the object $k$
-:PROPERTIES:
-:background_color: #978626
-:END:
-### 2. We first associate the **static features** with the ones from the previous frame and the map to initially estimate camera pose.
-### 3. **Dynamic features** are associated with the dynamic points from **local map**
-#### 3.1 if the velocity of the map objects is known, the matches are searched by [[reprojection]] assuming an inter-frame ^^constant velocity motion^^
-#### 3.2 if the objects velocity is not initialized or not enough matches
-##### constraint the [[brute force]] matching to the features that belong to the most overlapping instance withint consecutive frames
-##### handle occlusion by matching map objects
-###### not previous frame objects
-#### 3.2 higher level association -> [[tracking]] by
-##### key points overlapping
-##### [[IoU]] of the 2D bounding boxes -> instance-to-instance matching
-### 4. The SE(3) pose of the first object of a track is initialized with
-#### the **center of mass** of the 3D points
-#### with identity rotation
-#### TODO 这段考虑一下与 [[smoke]] 进行合并分析
-:PROPERTIES:
-:todo: 1611031368308
-:END:
-##### ((60065273-b8d6-4dc3-9c7c-a0d07595c3c4))
-### 5. Refine the object pose by minimizing [[reprojection]] error
-#### Static representation
-##### 3D map point $l$ with a stereo key point correspondence $\mathbf{u}^l_i=\left[u,v,u_R\right]\in{\mathbb{R}^3}$ is $$\mathbf{e}_{re}^{i,l}=\mathbf{u}^l_i-\pi_i\left(\mathbf{T}_{\rm{CW}}^i\bar{\mathbf{x}}_{\rm{W}}^l\right)$$
-#### ^^Dynamic object error^^
-#####
-$$\mathbf{e}_{re}^{i,j,k}=\mathbf{u}^j_i-\pi_i\left(\mathbf{T}_{\rm{CW}}^i\mathbf{T}_{\rm{WO}}^{k,i}\bar{\mathbf{x}}_{\rm{O}}^{j,k}\right)$$
-##### where $\mathbf{T}_{\rm{WO}}^{k,i}$ is the inverse pose of object $k$ in world coordinate.
-### 6. The camera and objects trajectories, as well as the objects bounding
-boxes and 3D points are optimized over a sliding window with [[marginalization]] and a soft smooth motion prior.
-## Object-Centric Representation
-:PROPERTIES:
-:heading: true
-:background_color: #264c9b
-:END:
-### Reduce amount of parameters to be optimized
-#### $N_c$ cameras, $N_o$ dynamic objects with $N_{op}$ 3D points
-#### Conventional static SLAM: $N=6N_c + N_o \times 3N_{op}$
-#### Total $N=6N_c+N_c \times N_o \times 3N_{op}$ considering each camera
-#### If 3D object points become **unique** to be referred to their object:
-##### $N^{\prime}=6N_c +N_c \times 6N_o + N_o \times 3N_{op}$
-### 为了降低计算量,每个物体上只考虑一个点,相对这个物体是静止的
-####
-## [[bundle adjustment]] with Objects
-:PROPERTIES:
-:heading: true
-:background_color: #978626
-:END:
-### Joint optimization
-:PROPERTIES:
-:heading: true
-:END:
-#### [BA factor graph representation with objects](https://i.imgur.com/MxHR7DR.png){:height 578, :width 728}
-### Key frame insertion condition:
-:PROPERTIES:
-:heading: true
-:END:
-#### camera tracking is weak
-##### same as conventional static SLAM optimization
-##### all the key frames connected to it in the [[covisibility graph]]
-#### tracking of any scene object is weak
-:PROPERTIES:
-:background_color: #793e3e
-:END:
-##### if an object with a relatively large amount of feautres has few points tracked in the current frame
-###### -> create new object with new points
-##### local [[BA]] optimizes the pose and velocity of the object and the camera along a ^^temporal tail of 2 seconds^^ together with object points
-###### sliding window of 2 second
-####### object points
-####### pose, velocity of object
-####### camera pose
-#### If both object tracking and camera tracking is weak, jointly optimize!
-### 1) Smoothing with constant velocity model, object $k$ and observation $i$
-:PROPERTIES:
-:heading: true
-:END:
-#### object smooth trajectory  (动态)物体轨迹光滑度一致
-##### 只跟前后帧的物体速度有关
-##### linear velocity $\mathbf{v}_i^k \in {\mathbb{R}^3}$
-##### angular velocity $\mathbf{w}_i^k \in {\mathbb{R}^3}$
-#### error term of object velocity
-:PROPERTIES:
-:heading: true
-:END:
-#####
-$$\mathbf{e}_{\rm{vcte}}^{i,k}=\left( \begin{aligned} \mathbf{v}_{i+1}^k - \mathbf{v}_i^k  \\ \mathbf{w}_{i+1}^k - \mathbf{w}_i^k \end{aligned} \right)$$
-### 2) Couple object velocities with object poses and 3D points
-:PROPERTIES:
-:heading: true
-:END:
-#### $i$ 和 $i+1$时刻，$k$物体上的第$j$个物体点$\bar{\mathbf{x}}_O^{j,k}$在两个时刻世界坐标下的3D位置差
-####
-$$\mathbf{e}_{\rm{vcte,\bf{XYZ}}}^{i,k,k}=\left( \mathbf{T}_{\rm{WO}}^{k,i+1} - \mathbf{T}_{\rm{WO}}^{k,i} \Delta \mathbf{T}_{\rm{O_k}}^{i,i+1} \right) \bar{\mathbf{x}}_{\rm{O}}^{j,k}$$
-##### where $\Delta \mathbf{T}_{\rm{O_k}}^{i,i+1}$ is the pose transformation in the time inverval $\Delta t_{i,i+1}$ that object $k$ undergoes.
-#####
-$$\Delta \mathbf{T}_{\rm{O_k}}^{i,i+1}=\left( \begin{aligned} \exp(\mathbf{w}_i^k \Delta t_{i,i+1}) && \mathbf{v}_i^k\Delta t_{i,i+1}  \\ \mathbf{0}_{1\times 3} && 1 \end{aligned} \right)$$
-### 3) Joint optimization in the local window $\mathcal{C}$ with each camera $i$ observing a set of map points $\mathcal{MP}_i$ and an object set $\mathcal{O}_i$ containing each object $k$ the set of object points $\mathcal{OP}_k$
-####
-$$\begin{array}{l}
-\min\limits _{\theta} \sum\limits_{i \in \mathcal{C}}\left(\sum\limits_{l \in \mathcal{M} \mathcal{P}_{i}} \rho\left(\left\|\mathbf{e}_{\text {repr }}^{i, l}\right\|_{\Sigma_{i}^{l}}^{2}\right)+\sum\limits_{k \in \mathcal{O}_{i}}\left(\rho\left(\left\|\mathbf{e}_{\text {vete }}^{i, k}\right\|_{\Sigma_{\Delta t}}^{2}\right)\right.\right. \\
-\left.\left.+\sum\limits_{j \in \mathcal{O} \mathcal{P}_{k}}\left(\rho\left(\left\|\mathbf{e}_{\text {repr }}^{i, j, k}\right\|_{\Sigma_{i}^{j}}^{2}\right)+\rho\left(\left\|\mathbf{e}_{\text {vcte }, \mathbf{X Y Z}}^{i, j, k}\right\|_{\Sigma_{\Delta t}}^{2}\right)\right)\right)\right)
-\end{array}$$
-##### for reprojection error $\Sigma$ is covariance matrix **scale of key point observation**
-##### for velocity error, $\Sigma$ is associated to **time interval**.
-#### The parameters to be optimized
-#####
-$$
-\theta=\left\{\mathbf{T}_{\mathrm{CW}}^{i}, \mathbf{T}_{\mathrm{W} 0}^{k, i}, \mathbf{X}_{\mathrm{W}}^{l}, \mathbf{X}_{0}^{j, k}, \mathbf{v}_{i}^{k}, \mathbf{w}_{i}^{k}\right\}
-$$
-### [[Heassian matrix]] $\mathbf{H}$ of the problem
-#### ![image.png](/assets/pages_dynaslam_1611136460786_0.png){:height 305, :width 344}
-#### Hessian built from the [[Jacobian matrix]] associated to each edge in the [[factor graph]].
-#### Notice the sparse pattern of map points and object points
-##### Size of the Hessian matrix is dominated by the number of map points $N_{mp}$ and object points
-###### Orders of magnitude larger than number of cameras and objects
-##### Applying [[Schur complement]] trick to solve
-###### run-time complexity of $\mathcal{O}(N_c^3+N_c^2 N_{mp}+N_c N_o N_{op})$
-###### the 2nd or 3rd term will dominate the cost
-## Bounding Boxes
-:PROPERTIES:
-:heading: true
-:END:
-### for [[VDO_SLAM]] and [[ClusterSLAM]]
-#### for every dynamic object we estimate by the centroid of map points when **first observed**, like point cloud
-### we need to find a ^^common spatial reference^^ for objects of the same semantic class
-#### not only dimensions and space occupancy
-### **Decouple estimation of trajectory and bounding boxes**
-#### 只考虑每个动态物体上的一个点的6DOF轨迹
-#### 这个点是center of mass when first observed
-#### 这样两个问题就分解开了,互不干扰
-##### dynamic object tracking
-##### camera-object view point (point tracking and optimization)
-###### 这个点就是那个第一次观测到的点
-### Initialize an object bounding box by searching two perpendicular planes
-#### that fit roughly the majority of object points.
-#### 假设objects大概可以构成3D bounding box
-##### [[RANSAC]] scheme
-###### choose the computed 3D bounding box that has the largest [[IoU]] of image projection with CNN 2D bounding box
-### Refine the bounding box dimensions and pose
-#### pose relative to the object tracking reference
-#### image-based [[Optimization]] is performed within a temporal window
-##### minimize the distance between 3D image projection and CNN 2D bounding box prediction.
-##### Must be at least 3 observing key frames of an object
-##### soft prior about the object dimension (object class)
-##### another prior of the initial box pose to constraint optimization solution remains close
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjK0tGdmxVZGxUdEJtVi8y
+bjVsNFd6RCtIU2JGMmRNL3V5T1dkUUJjMmo4Cjhzc3BmRXowRjZ6MmhLSGx5ek9p
+M0RudWxiTVV4RFpteERVK3p1VGExTnMKLS0tIEF4U3d5YW5VVlFUekNtaWZodnF2
+RHYxZkRPVkwxbG1TSmpQVHh1anc1cHcKng2OfePIDzXPTj2kWfGCut3gQi2IwNfS
+XkPcUqVLu9CKQdKkJSMY4K8FgnCvbEzuGo5zrX8aV8NFE3fWbEEcc+frWQ4/S+2q
+0rzLD7I94WGC/njm5j+IAdi1xQGtQ9h8eRobQTi+gkQnzkJj36t6MSIS1fXGlZBh
+FNSjqIrymwLjHR0LyMUasv+clWYkUnb1T6vjtkRlZPf/sjHGtymRv2sD5bB90K6T
+MMQh/V2NUkcjQkhV6D+AUcfYk+yxdnPpgIV0+vHKGxt6nAgjb8nxqqiUCJqrmyHV
+s+zOKXpRR7hWUJM87PSUni63zPfkZRZbC5txYAOfE9p7BblRNqe1yUIwA7Yb+EhI
+jorSuiwO5M9uAqZc5CvLkXwACCG0HJvqZJdhyv7UIJVw4CAtv4i/eny4wn09HrUq
+fyWuUqGrsVF7Ywd6iktlFz7HK0mS4/BGti7RvknG1DrSqwtTLCLMlXrun6KJtMKk
+E6lhxDbSV98cvtGhPsQ5nsTx7ZKP9pAEjm0jnwrfbDhrdRTXjOoBrhjEkv/2eB4A
+QJZH9JtVz5P9WCrU7lezlT06AfNR4/70gM7qBWBkmdDYapmlOfVnobLUq+SPcFug
+Y+WcYX1u23HBKp4uruqfHDDZyq6ZKI41tzZLsMT8eDemWWLH6MFB0DqQJWaFuIWh
+zIbEbUfTMU3PE9yWxBcpkonUfSbdW9jDxYsGSQIF1Q9gk8n0kEue1yzcEtTPP7uV
+OAW1bxtUAv0UzDr6Ka8zqFgkIf26/q6e0a/Z4opGlOHx0VVGTcxfmyjXciNCe8st
+FOEI1MrfO+ghdIKnjEWOAL/PddSbJUwnTXbpm2qoDOe42HFuZEFGueVTeFp+ANBf
+OC4LG7RJErCM2vOLbUM2QvAXi8mOGx0EV2Z/l/mz+QKBJY+f51QzYP8Onk+cA78c
+eIccmuj0UZsNllnLhotCrgEyICnPG5z8+dJwv4fWzM0T/yh0/tvhc67JTQxAEY00
+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
+c7SDKmsvCkjTAH6quyfG5zhUtw==
+-----END AGE ENCRYPTED FILE-----
