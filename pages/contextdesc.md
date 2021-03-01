@@ -1,16 +1,25 @@
----
-title: ContextDesc
----
-
-## TODO  Read on!
-## Meta Data
-### #topic #Keypoint #[[Descriptor-Matching]]  #Cross-modality #[[N-pair Loss]]  #[[Deformable Convolution Network]]
-## Two core stages:
-### Preparation
-#### Patch sampler
-##### Takes images and keypoints as input, output $32\times 32$ gray-scale patches
-### Augmentation
-##
-## Architecture
-### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_27_context.png?Expires=4760064033&Signature=cfaDYxBux1BRgGuPh0CtWQBLHCBh07cZoQSqfDeWP9A3pw8GMGrapgVCHXHk-FuU9J5yaeA1iintX9ybBY-bi1aGt-IcnOlxzEVsNE8q~GXdUGnAHTb8Ge9BofKCbdr9hPJ9wVkbQ0-cL5U5nJWDLBowNY9GwYpZddZiibBf1aM-oEBGubovkDzv7QS~kbqNROV4nY6keyGMkRBbJEiBUynMneaEfNG-bQBKRQbw-OCHUTYS6Cpv8BSNCCQ65z5CStPLOI8Fg0vxRAfrFjkJklcNtQwLiQhUfBl-gQo6jOI1f~h~QpydAx0SDolDYStGsFovZbF~DmYEr01XeY3E0w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_27_context.png]]
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBqSjdsWlYrQzQ1ek1PWlFn
+NWJZcjZHZzNORUxTSHFnUDZlUkpJcHg0MEFZCkNsWmJNNmwxL2JTT3hUaWNzL1po
+SEErRXF2a21CcVdCTENoVHl4Tkgxb0EKLS0tIGM2R1hrbWU2T0gzS2hNd3g1dHh6
+emVmcS9FLzhtMFVaQTVlMVBibnhsNlEKj0PWtySwQxC3g5pn2lzS/YfxTw797kmn
+VCSsyy9UKvJvtMZ2RPWtnvWUtzyrHR1ZKwWVOs8XxhyGLKLrRevtz0z3CQlidsFb
+grTcHEROihqG8TwBwzc2PTGCiSo9Ghv0gDFKwblV4SKaFGMWg0Z7skHi5uzP4mUu
+Dn9hFZUBZhDAbV6ATjAx9FlMvlmh3zvn8XGO6InLaKm+EZKPi4O0IKIll+JUDQR3
+C9aidXYfnYrBEKDZI+q9mjqgoNqLFsixCiVFbaEyx4OJhjoVUpDPMis109Y2oZ9W
+9cKDAlu5Gp06MmoHV7E3rK+aTZcTHU7Ht91AN3MDpJtMONuVLhGsZrubma91KaCQ
+rpVBEMMKkqPnZiSlS4jkxzHjThorUty5SJZCmE5f9MxaBI/reL4hnC9LdlJTHRdB
+t9SSDEYA875if4bkzt/3B1Q9HSmQ/m0+KCbnmrGt6shh1AIVnvMNmM7cWAe1aLaZ
+EpjCqhDviwB2dB3x/mRQvJhdibERzDg5nrlCt8ZbnmoZJLAxBmpgGRq2fsSZHcSH
+bGncQjH/qyxNn7pcNrV2OD28oBspmWV8hSDRYqF6T0tn4JuvlR2T5gqpCOaJ8eW6
+/1xERJPZtAAGsN3zLOaA+MJuMYPOV5qE1sP0tvKfiUCQQgt1ZoPOsCxu0eExT55j
+tKpLLROPFGCWETKfaSObn2vkbf7mz+xm8p36M/YhECEzo9cZlkyN6kpo/QwwqW3d
+eORQadiFgGpMCnzHQOi3t5c4lcWxvU5DLiL4wf1ayVroSioPlrP3IR/FddpWrVXg
+zAzq2WQH8Jt4eSEi+6LXVMPQtiIOh4JrHlr+2O23KsT7UMzWK5/myV1qirFNP7SY
+Ojn4qI2XxvUeAmNo4/22fX6H6I9L/aaoSJfOzFacAhS+CabE851Qj3fVsHE9RQpj
+27Ye5mTEVuZrljzrrap7P5GZQqzix522mfFNq/STFGACXTtM/BkiuKPBJFFHjZco
+hxghZf9c+PYWafzK21gFYNf0qELjt82kI/XPFd4//E54Tg2HvC4GCyK3tX4EL3Rn
+ydkH2bxG0WyxgA43DtKEEJTQNQY3V8he/sdLAeKv6doSqOCj0MSnGPIDQhx8l4+J
+RQUCdrSgdmzGCa1DAXS5QHXcjhejAg48+dF/8vv0ILGnIF8G/FpIWi+6sTxDaVg2
+CJbv1wVGg+weq5fVI7pfRdKSSKFPuw==
+-----END AGE ENCRYPTED FILE-----
