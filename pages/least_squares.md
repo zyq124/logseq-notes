@@ -1,8 +1,10 @@
----
-title: least squares
-alias: 最小二乘法，最小平方法
----
-
-## 通过最小化误差的平方和寻找数据的最佳函数匹配
-
-## 数学优化建模方法
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB2WmwrZVJyd2cwVjBVVmZ4
+R2hMTk5OTXpWL2dwakFleGhsSGJuT0R6ZkhVCktsTDAxcjgzdXc3SkJ6NGVUYUdJ
+eGNZaCs2cE51eDhJUmh0cFZmL2FQVWsKLS0tIFFqSzJOeGRteklQSEhLV1BIendF
+NW1LUExINEkrdkFReGVKYmNqZWNxYlkKiOV+iJ7bZ7WH1k8I/O1sMOmja7ZQpgUp
+JIDCclN2j3DAfLGCs9XnYwAMQ9uYEYWQ9Hlpm1GepcHsJ4OfytiSEbeIUkgb/jno
+RDecWdiVi29bQlae9Z95KRZHp7HoVxX5wcHqSXWyl2LC0HhBt+AcfXiGRB5+zTcg
+CwEBwli9fuRw0fcphg1Nn6Zx9tpCPFsxzOTP3EHMy0Z7ZYtG9Z7REm83t7tqLOtB
+0dapOPN4rYu12lHY9N9wcazy8XTWPhxALtDmG9cjXgXqDA==
+-----END AGE ENCRYPTED FILE-----
