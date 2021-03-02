@@ -1,200 +1,126 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBWbHNlL2M2MWNHOWJyZ3JF
-OFFtcVRrTnp0VmJvZjNOdnphZlB4d3FjMGxjCnVwN1JVL2hRUFgzcExSdWdFUm1t
-UTUrOUxaeXVFeW1ReENZUlNPb3RjNmsKLS0tIDR4RnAxaVNFeEFZc0wxYVQvUG4w
-bEYyK1cwVFh0TW41VjU4bkpsbXJTUTQK60WjN8lIgAdLitwQgkf6B/bkf981LD7f
-sxA72aDT28sMAq1ePPlZC+iZSkhgzQnaGq4mB/+ZmBihDNt8j4PUdjQ+BBi/0edy
-eDldJsE8vVlJUwFOOjt4I04oY8wsTsS1lYshEuBxx3W0KHHE3x1TiOUNuGF5QCj9
-esCQzBt1Te3LUKY2eQV0GM9rm/wqqXCyjLFX2H6/Vql8OcAAZ1AE7iGXISx9l5mH
-p3rWs7sijwGG6Rls6o9j6rH3t9wZHgIAlI09HKQqAkjJw40YM2eQNBHz9rxAoc4k
-WHHF2krk+qm/iLiNyzTTYzORSaPxHn+KdrC7LRK3xoIVFigKu45gtHFAq2jT/462
-S8uVjk62QNO/Iw/xRDMIDq76Xm/xxQYlH/Mh/bjQGZBlLb3dKyb8xhPMr3yQd9hv
-m69J/30QK0LhwVb1jKPEsqXRVJsMuv5gexC0vYVqAyJmoEtJ9hMkClDbzoLW8163
-rbwHQOHXNarF8vnBcEW64femD4ERwnYQJRF1wEzF50ncNenxWe5/ItyITuU7z75Z
-nTj6cGnzLGr6dL0rXRSAdamG7UIdpSYLMRmKaM1Xt6doAHtwr4JeazZAMeQiP/vY
-CCHEi5WK05zbr+/NkbDAyBHS156OGVEIrf9crxCMkCLyYS3Ml6oooHyRfJLgtRwH
-OEuu5LVdM+3Ap4SYPZtPg2aLMZzWdNQXo/qFzfn02lMDXky03vqUxUJszl6QOKy2
-7UZJ51BfPe02l1oYQhHD2YZC+/VdRcmhzpJv74qemwiBx80v5OosRxBTbdkB5xx9
-4j7MKl3cdeFJJP0YmULDodsZlLQ1nGuWWlIkkxFRx6el8a5AFxqgaqGikCfyKYIq
-OqOiQ/TgSKW62P4Xhj8Otf3d/9BTiXvaOUeSC6p0NXSAe5bNR8fT7cxNvfvqq2PT
-iPtzqW9b06UohuK9/LnXZ3zldUPdEZMYqBUls00NfIkiCmPBUmHeb/S06F6tE0Nb
-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
-t38YQyYVHbNNFGVKsII=
------END AGE ENCRYPTED FILE-----
+---
+title: VDO_SLAM
+---
+
+## 1. Notion
+:PROPERTIES:
+:heading: true
+:background_color: rgb(38, 76, 155)
+:END:
+### Coordinate Frames
+:PROPERTIES:
+:heading: true
+:END:
+#### Let ${}^0 \mathbf{X}_k,{}^0 \mathbf{L}_k\in{\mathbb{SE}(3)}$ be the robot and object 3D pose respectively, at time $k\in{\mathcal{T}}$ in global reference frame $0$.
+### Points in 3D space
+:PROPERTIES:
+:heading: true
+:END:
+#### Let ${}^0 \mathbf{m}_k^i$ be the homogeneous coordinates of the $i^{th}$ 3D point at time $k$ with ${}^0\mathbf{m}^i=\left[m_x^i,m_y^i,m_z^i,1 \right]^{\top} \in{\text{IE}^3}$ and $i\in {\mathcal{M}}$ the set of points.
+#### So a point in robot frame as ${}^{X_k}\mathbf{m}_k^i={}^0\mathbf{X}_k^{-1}\cdot  {}^0 \mathbf{m}_k^i$.
+#### Define $\mathbf{I}_k$ the reference frame associated with image captured by the camera at time $k$ chosen at the top left corner of the image, and let ${}^{I_k}\mathbf{p}_k^i=\left[u_i,v_i,1 \right]\in{\text{IE}^2}$ be the pixel location on frame $\mathbf{I}_k$ corresponding to the homogeneous 3D point ${}^{\mathbf{X}_k}\mathbf{m}_k^i$, which is obtained via projection function $\pi(\cdot)$
+#### ^^(1)^^  $${}^{I_k}\mathbf{p}_k^i=\pi\left({}^{X_k}\mathbf{m}_k^i\right)=\mathbf{K}{}^{\mathbf{X}_k}\mathbf{m}_k^i$$
+### Optical flow ${}^{I_k}\mathbf{\phi}_i$ indicates ^^motion^^ of pixel ${}^{I_{k-1}}\mathbf{p}_{k-1}^i$ from image frame $I_{k-1}$ to $I_k$
+:PROPERTIES:
+:heading: true
+:END:
+#### ^^(2)^^  $${}^{I_k}\boldsymbol{\phi}_i={}^{I_{k}}\tilde{\mathbf{p}}_{k}^i-{}^{I_{k-1}}\mathbf{p}_{k-1}^i$$
+#### ${}^{I_{k}}\tilde{\mathbf{p}}$ is the correspondence of ${}^{I_{k-1}}\mathbf{p}_{k-1}^i$ in $I_k$.
+### Object and 3D Point Motions
+#### The object motion is homogeneous transformation ${}^{L_{k-1}}_{k-1}\mathbf{H}_k\in{\mathbb{SE}(3)}$ where
+#### ^^(3)^^  $${}^{L_{k-1}}_{k-1}\mathbf{H}_k={}^0 \mathbf{L}_{k-1}^{-1} \cdot {}^0 \mathbf{L}_k$$
+## 2. Camera Pose ${}^0 \mathbf{X}_k$
+:PROPERTIES:
+:heading: true
+:background_color: rgb(73, 118, 123)
+:END:
+### Given static 3D points $\{{}^0\mathbf{m}_{k-1}^i | i\in{\mathcal{M}}, k\in{\mathcal{T}}\}$ observed at time $k-1$ in global reference frame.
+### 2D correspondences $\{{}^{I_k}\tilde{\mathbf{P}}_k^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\}$ in image $\mathbf{I}_k$.
+### re-projection error of camera pose ${}^0 \mathbf{X}_k$ is:
+#### ^^(7)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k)={}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
+##### Parameterise the SE(3) camera pose by elements of [[Lie-algebra]] $\mathbf{x}_k \in{se(3)}$
+###### ^^(8)^^  $${}^0 \mathbf{X}_k=\exp({}^0\mathbf{x}_k)$$
+##### Define ${}^0\mathbf{x}_k^{\vee}\in{IR^6}$ mapping from se(3) to $IR^6$
+### [[least squares]] **cost** is:
+#### ^^(9)^^  $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_{i}^{n_b}\rho_h\left( \mathbf{e}_i^{\top}({}^0\mathbf{x}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0\mathbf{x}_k)\right)}$$
+#### $n_b$ visible 3D-2D static background point correspondences.
+## 3. Object motion ${}^0_{k-1}\mathbf{H}_k$
+:PROPERTIES:
+:background_color: rgb(73, 125, 70)
+:heading: true
+:END:
+### Reprojection error of object 3D point and corresponding 2D point in image $\mathbf{I}_k$:
+#### ^^(10)^^   $$\mathbf{e}_i({}^0_{k-1} \mathbf{H}_k)\begin{aligned} &={}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0_{k-1} \mathbf{H}_k \cdot {}^0 \mathbf{m}_{k-1}^i \right) \\ &={}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left( {}^0_{k-1} \mathbf{G}_k \cdot {}^0 \mathbf{m}_{k-1}^i\right)\end{aligned}$$
+#### ${}^0_{k-1} \mathbf{G}_k \in{\text{SE}(3)}$ and ${}^0_{k-1} \mathbf{G}_k:=\exp{{}^0_{k-1}\mathbf{g}_k}$ with latter se(3)
+### **Cost** is
+#### ^^(11)^^  $${}^0_{k-1}\mathbf{g}_k^{*\vee}=\argmin\limits_{{}^0_{k-1}\mathbf{g}_k^{*\vee}}{\sum\limits_{i}^{n_d}\rho_h\left( \mathbf{e}_i^{\top}({}^0_{k-1}\mathbf{g}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0_{k-1}\mathbf{g}_k)\right)}$$
+#### $n_d$ visible 3D-2D dynamic point correspondences on an object.
+## 4. Joint Estimation with Optical Flow
+:PROPERTIES:
+:background_color: rgb(151, 134, 38)
+:heading: true
+:END:
+### Refine the estimation of optical flow jointly with the motion estimation
+### (2)+(7) =>
+#### ^^(12)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}^{I_k}\boldsymbol{\phi})={}^{I_{k-1}}\tilde{\mathbf{P}}_{k-1}^i+{}^{I_k}\boldsymbol{\phi}^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
+##### where $$\mathbf{e}_i({}^{I_k}\boldsymbol{\phi}^i)={}^{I_k}\hat{\boldsymbol{\phi}}^i-{}^{I_k}\boldsymbol{\phi}^i$$
+### Minimizing the **camera pose** cost with [[Lie-algebra]] parameterisation of SE(3) element:
+#### ^^(14)^^ 
+\begin{aligned}
+\left\{{ }^{0} \mathbf{x}_{k}^{* \vee},{ }^{k} \boldsymbol{\Phi}_{k}^{*}\right\}=& \underset{\left\{{{}^0\mathbf{x}}_{k}^{\vee},{ }^{k}{\boldsymbol{\Phi}}_{k}\right\}}{\operatorname{argmin}} \sum_{i}^{n_{b}}\left\{\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{\phi}^{-1} \mathbf{e}_{i}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right. + \\
+&\left.\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{0} \mathbf{x}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{p}^{-1} \mathbf{e}_{i}\left({{}^0\mathbf{x}}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right\}
+\end{aligned}
+##### where $\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{0} \mathbf{x}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{p}^{-1} \mathbf{e}_{i}\left({\mathbf{x}}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)$ is the [[regularization]] term.
+##### Here $${}^{I_k}\hat{\Phi}^i=\{{}^{I_k}\hat{\phi}^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\}$$ is the initial optic-flow.
+### For **object motion** cost:
+#### ^^(15)^^ 
+$$\begin{aligned}
+\left\{{ }^{0}_{k-1} \mathbf{g}_{k}^{* \vee},{ }^{k} \boldsymbol{\Phi}_{k}^{*}\right\}=& \underset{\left\{{{}^0_{k-1}\mathbf{g}}_{k}^{\vee},{ }^{k}{\boldsymbol{\Phi}}_{k}\right\}}{\operatorname{argmin}} \sum_{i}^{n_{d}}\left\{\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{\phi}^{-1} \mathbf{e}_{i}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right. + \\
+&\left.\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{0}_{k-1} \mathbf{g}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{p}^{-1} \mathbf{e}_{i}\left({{}^0_{k-1}\mathbf{g}}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right\}
+\end{aligned}$$
+## 4. Graph Optimization
+:PROPERTIES:
+:background_color: rgb(121, 62, 62)
+:heading: true
+:END:
+### [[factor graph]]
+#### Joint optimization of 3D point measurements, VO measurements, motion of points on dynamic object, object smooth motion observations.
+### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_10_factor%20graph%20of%20object-aware%20slam.png?Expires=4761190329&Signature=V70cE14yCCGcGrWcptKJgkYDxlJGTlkCnYt8OGb4D40sC-MtlPauxpcnNhCgIRzWGCo~HcoTZWI3RvB1RJHdH4sJK4Y31DA32fqtXtGpN64hmU4S993kqkmgknB2kY9LhaNKJhQ4qXhGsY4xXoMd6b085tCMS9P5MlIl-W~d1~YrkdGVNNqHywXFb85VsSErsy3Vcnt3H9tFlWqgnBp-gxZQt~6SfWdCq~uzKllKEOrSdSEla4Iuas0mXyRBttgFH4c9Y9nDdfnmK9aW61eOrBv8hzBQeT-aa69ylIj8nHiSSCbiq9D0cVTN67t5AUp-MFNgo3W9kCOEvTtiOAxlJA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_10_factor graph of object-aware slam.png]]
+### 4.1 3D point measurement model error $\mathbf{e}_{i,k}({}^0\mathbf{X}_k,{}^0\mathbf{m}_k^i)$
+:PROPERTIES:
+:heading: true
+:END:
+#### ^^(16)^^ 
+$$
+\mathbf{e}_{i, k}\left({ }^{0} \mathbf{X}_{k},{ }^{0} \mathbf{m}_{k}^{i}\right)={{}^0\mathbf{X}}_{k}^{-1}{ }^{0} \mathbf{m}_{k}^{i}-\mathbf{z}_{k}^{i}
+$$
+##### here $\mathbf{z}=\{\mathbf{z}_k^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\}$ is the set of all 3D point measurements at all time steps, with **cardinality** $n_z$.
+##### Shown in white circles.
+### 4.2 Visual Odometry model error $\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})$
+:PROPERTIES:
+:heading: true
+:END:
+#### ^^(17)^^ 
+$$\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})=({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})^{-1} {}_{k-1}^{X_{k-1}} \mathbf{T}_k$$
+##### where $\mathbf{T}=\{{}_{k-1}^{X_{k-1}} \mathbf{T}_k | k\in{\mathcal{T}}\}$ is odometry measurement set SE(3) and **cardinality** $n_o$.
+##### Shown in orange circles.
+### 4.3 Motion model error $\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i)$
+:PROPERTIES:
+:heading: true
+:END:
+#### ^^(18)^^
+$$\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i)={}^0\mathbf{m}_k^i - {}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i$$
+#### Shown in magenta circles, is a ternary factor as _motion model of a point on a rigid body_.
+### 4.4 Smooth motion error $\mathbf{e}_{l,k}({}^0_{k-2}\mathbf{H}_{k-1}^l, {}^0_{k-1}\mathbf{H}^l_k)$
+:PROPERTIES:
+:heading: true
+:END:
+#### ^^(19)^^
+$$\mathbf{e}_{l,k}({}^0_{k-2}\mathbf{H}_{k-1}^l, {}^0_{k-1}\mathbf{H}^l_k)={{}^0_{k-2}\mathbf{H}_{k-1}^l}^{-1} \cdot {}^0_{k-1}\mathbf{H}^l_k$$
+#### Minimize the change between consecutive time steps
+#### Shown in cyan circles.
+#### ^^(20)^^ ${}^0_{k-1}\mathbf{H}^l_k=\exp{({}^0_{k-1}\mathbf{h}^l_k)}$
+### 4.5 Others
+#### define $\boldsymbol{\theta}_H=\{{}^0_{k-1}\mathbf{h}^l_k | k\in{\mathcal{T}}, l\in{\mathcal{L}}\}$ as the set of all object ^^motions^^, with $\mathcal{L}$ the set of object ^^labels^^.
+####
+##
