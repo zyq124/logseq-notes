@@ -1,22 +1,17 @@
----
-title: Utility
-public: true
----
-
-## [[git]]
-## [[emacs]] #cheatsheet
-## [[vim]] #cheatsheet
-## [[Python library]]
-### [[Deep learning tools]]
-## [[C++ library]]
-## [[FrontEnd library]]
-## [[CLI tools]]
-## Backup
-### Mackup for syncing settings (dotfiles)
-#### https://github.com/lra/mackup
-### Manual sync of my own repo
-#### https://github.com/zhanghanduo/dotfiles
-### Chezmoi: manage dotfiles
-#### https://github.com/twpayne/chezmoi
-## [[Zotero]]
-### [[Zotero plugins]]
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBEa1d6dGhqc2c4S0RPOEZy
+aldHQm9JL3ZqQ28wU2duaU12ZHlHZ0Z4QjI4ClQ5K1R1RWJIbDZYNHFtTDZDQVhu
+aWxvR2xQdFd1bHBMejJGY0tCcGovTmsKLS0tIEtpM3lwMy9kZDh0WGtrNnoya3NQ
+cUljT3BGNGxSZnV4WHNnR3RxYmhsSHMKPEW73f9h0Uxmd7T+8nVttqcT7UaTvDim
+uvaLAPEKlG3tJJNL8S/dC+ZagWFD7VfiImDzyuRQQZ8zfM4wZDbgbFiETxPp4KEN
+D3S+emJd/3dWq390urUAU1kqIF43ZjGWAiQPIiVjUi8pFFjDKH8hZdMlh4GtIMxl
+tgOpVQ+vIqDvjY9Zth2pHjeYv95y02Oq2N8PQBvB7OKgMJ+jxzZKKmX5c+7fJwv5
+lcTpvGVtd0QUTfS770EKZdeGo06ptwWQqC6DqE2dGI7vq9lJKFn2ee2vze+Qe7cL
+msVZJ+hiO7eyHv1Gpbc6u33cMspFmawvEVruCQAOZG9tIgJ1mnJRaGek7xmPwpAr
+eP8za9kKoryNE74CeK2OLXPqL98ssviUDUlK8kLXtXba9hXCMZLMHqJGlK0zx/T5
+H1dbu3kXffbXDxx8ituCNE+aB4cWrNjWGJJEUK4GIHjEKrmfVfJxEqqBHmTzJ28A
+lvGxSKpBd2vE09z60HRI3phj5vWN1FfToAvWViD+Ev7VS4xGBh63GPnUx+z3iFEp
+u2vmNQeiRzfwtCQAhhCkJxbZRZZI769fQ8eCtKMXgc4MGrS7cAgXpjug5/WHxzaD
+2NBrseQUH/QNtor3J7K7qBfXdv2mvUJ1neVVWZsGA3Ag5xgyBZf757lY1gltYRAQ
+GjUL/w==
+-----END AGE ENCRYPTED FILE-----
