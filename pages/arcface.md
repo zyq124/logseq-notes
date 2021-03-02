@@ -1,53 +1,57 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBoZ3BPdzUyblBkQUtmOERY
-V3VTMXREaGExLzZnblJMRnlmZ3U3YnlvWEMwCnV6VURibW1LczY0VjUrOHZXMUZl
-cTNzZUFvOUU5U1hQaDVHSG01dEtvQWsKLS0tIDFIUS85L3VUclM3bHBVclF1b2o4
-S21hUEVZZm94cm0zWVk1N2xKbWU1MlUKvGtg0Drx6k2nlCRZZAcMT4Nsp9uCj5sG
-V+tM0IpmaTrQVyQ6VH9y7RUH7a8ayDAK5JwHywVKlhcjH/CtnHe3U6KuqZdlUTi6
-BBW31QWt+KOXKgBq0mw/nFSnH29dN7X3/WKci2WhMJhPuyvS/KLlnYWWyA99DGjt
-XY3DHuUq2MgLaheC6wjhej1Pf3CMvWe9gn+JF9f0TG3/WXoTPscGBj89ug61APoN
-pbkfRH7v5oPnoNQ1+L2oVrqppCvlXy+TKVJdyq/Gh13Jtdik15z33EfH6ttjPu7C
-R+Fx4Y3/eqvzOc81I/eMjiivgjWvkfV4yTozXncCJdsfP3xOgwYIROTQwEjmRgC0
-THc7cvuFALuVtWCjPCNPb3a9sW2dT1xrewfKFRCib+cELeccr7r4DJD9H+4joSHj
-ZLxGXypgrfRBEzouwuzAlxM66vJvxtBie3YepBpbxzbtrNSEbiMwrgooAgbeqSqx
-WI/2BVK1eZn90TsTdQ0rpueMRm/3hXQcM5lJmc23Px39z7reYd1pWUXqCqs5fdmq
-tG0VaGDAfJxGwFpH9oW3IPgQUrYEY0FiYgvurlOVbdzcRx4anxlXdnaJi0zoR/IP
-PJz/a5twaQg0xvlEWk3wL0W45GYEV5DQF5uccwKLg/I64SULWP8gp8LuGvT72vbT
-0Kig0XZ6vG6ik+c014QDl2YahgqSEXJcRFT89SAiaod4iLvyGoGXoRpFndXYofxT
-MSE1pGca/CxgJpBGXzEd9yb52Pn3CUZJPyLnGGoF1t3I81A9fr0F/avQOACHjPBC
-13Pbi+NBeP2FQ47q9XZIORRDcUcnmM16BbP2Ktt7r9FCeWGvubMhp3zU5+g3khJ4
-2XPeOMbopzKrByeDlxGDP+cGv/z417nzT1WTt/VZ1ZAiu5uY2YRVNmGlD5Ycz1BB
-+j/T4/Ig88W0Uy88UBCS0efcd2iQPnd8PA3Nu8YeNGsTYa5DpIEMPAiYTmCpamI0
-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
------END AGE ENCRYPTED FILE-----
+---
+title: ArcFace
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### ArcFace: Additive Angular Margin Loss for Deep Face Recognition, 2019
+## Abstract
+:PROPERTIES:
+:heading: true
+:END:
+### 在[[SphereFace]]基础上改进了对特征向量归一化和加性角度间隔,提高了类间可分性同时加强类内紧度和类间差异
+### 对特征向量和权重归一化，对$\theta$加上角度间隔$m$，角度间隔比余弦间隔在对角度的影响更加直接。几何上有恒定的线性角度margin
+#### ArcFace中是直接在角度空间$\theta$中最大化分类界限，而[[CosFace]]是在余弦空间$\cos(\theta)$中最大化分类界限
+### 训练（人脸分类器）：ResNet50 + ArcFace loss
+### 测试：从人脸分类器FC1层的输出中提取512维的嵌入特征，对输入的两个特征计算余弦距离，再来进行人脸验证和人脸识别
+## References:
+:PROPERTIES:
+:heading: true
+:END:
+### https://zhuanlan.zhihu.com/p/76541084
+## 4 Kinds of Geodesic Distance (GDis) constraint
+:PROPERTIES:
+:heading: true
+:END:
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FiDlS4jGqkv.png?alt=media&token=e4962c77-861d-498f-8d9e-55237abc4c73)
+### (A) Margin-Loss
+### (B) Intra-Loss
+### (C) Inter-Loss
+### (D) Triplet-Loss
+### (E) **Additive Angular Margin Loss (ArcFace)**
+## Network Architecture
+:PROPERTIES:
+:heading: true
+:END:
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F3vCP8VbDkt.png?alt=media&token=1b529fdc-6bd9-45aa-b271-4c45cf51cabc)
+## 对比
+:PROPERTIES:
+:heading: true
+:END:
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F-2CQgZ9fIj.png?alt=media&token=404cac07-7afc-415e-8211-cbd25d01cf38)
+## Pseudo Code
+:PROPERTIES:
+:heading: true
+:END:
+### 对$x$进行归一化
+### 对 $W$ 进行归一化
+### 计算 $W_x$ 得到预测向量$y$
+### 从 $y$中挑出与ground truth对应的值
+### 计算其反余弦得到角度
+### 角度加上$m$
+### 得到挑出从$y$ 中挑出与ground truth对应的值所在位置的one-hot code
+### 将$cos(\theta+m)$通过独热码放回原来的位置
+### 对所有值乘上固定值$s$.
+###
