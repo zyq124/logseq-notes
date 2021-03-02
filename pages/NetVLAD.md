@@ -1,59 +1,57 @@
----
-title: NetVLAD
-public: true
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### #title NetVLAD: CNN architecture for weakly supervised place recognition, 2016, CVPR
-### #topic #[[Image retrieval]]
-## Abstract
-:PROPERTIES:
-:heading: true
-:END:
-### 直接在可训练的CNN架构中嵌入VLAD层是不可行的，因为VLAD中的$$\alpha_k(x_i)$$是不连续的，因此论文作者对 $$\alpha_k(x_i)$$做了修改，提出了NetVLAD.
-
-### 训练一个模型，对于每一张输入的图像$$I_i$$，得到一个固定长度的向量$$f(I_i)$$。依此法对所要查询的图像q进行操作， 也得到了q的向量表达$$f(q)$$，然后依次与数据集进行比对即可。
-
-### 怎么衡量两个向量相近呢？这篇论文用的是欧氏距离(Euclidean distance)
-
-### 1. 为场景识别任务构造出了一个可以直接端到端训练的CNN模型结构，NetVLAD就是该模型的一个layer
-
-### 2. 构造一个弱监督排序损失([[weakly supervised]] [[Ranking]] loss)来指导模型的参数更新
-
-### 3. 效果很好。在两个具有挑战性的数据集上超过了非学习性的和现成的CNN描述子，等等．
-
-## NetVLAD
-:PROPERTIES:
-:heading: true
-:END:
-### 把[[VLAD]]中的指示函数$$\alpha_k(x_i)$$换成可导的$$\bar{\alpha}_k(x_i)$$
-#### $$\bar{\alpha_k}(x_i)=\frac{e^{w_k^{top}x_i+b_k}}{\sum_{k'}e^{w_{k'}^{top}x_i+b_{k'}}}$$
-
-#### $$\bar{\alpha_k}(x_i)$$表示把$$x_i$$分配给聚类中心$$c_k$$的权重，取值范围为0-1之间．
-
-#### $$\bar{\alpha_k}(x_i)$$越大表示$$x_i$$与$$c_k$$的距离越近．
-
-#### $$\alpha$$是一个常数，当$$\alpha\rightarrow +\infty$$时，$$\bar{\alpha_k}(x_i)$$取值无限接近于１或０了．
-
-### 最后得到$$V(j,k)$$的表达式
-#### $$V(j,k)=\sum\limits_{i=1}^N =\frac{e^{w_k^{top}x_i+b_k}}{\sum_{k'}e^{w_{k'}^{top}x_i+b_{k'}}}\left(x_i(j)-c_k(j)\right)$$
-
-#### 其中$$w_k$$,$$b_k$$,$$c_k$$均为可学习的参数．
-
-## Architecture
-:PROPERTIES:
-:heading: true
-:END:
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F7rYkbYZqhN.png?alt=media&token=3fd69688-d5c6-4ea9-8d8a-2c7a4902658b)
-
-### TODO  Read on!
-:PROPERTIES:
-:todo: 1606462977225
-:END:
-## Supervsed VLAD
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2Fwai5aWdSY7.png?alt=media&token=5fd74c67-6b94-4a8a-b955-995321e690e7)
-
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBoRTNBTVNudEtmZ1B6Z2g1
+WXA2L1A3bE1FVldjWjFBU0dWaFVrNjlnMUNBCnhmbkRxdEhRemVId1hzc3BjdGE2
+Y0ZUSVNFdUFqN2gxOVpRVjB2WkYxem8KLS0tIG9xQTZ1OU4yYS9ueGpobXVqckg2
+MDRRRzBZYnpaL0Zpc0xXK3ZtVHVBZXMKAG0sEf2rN/f6tuHKzY/zXWm48aSlolKh
+YYlIveLJ432harDYv0d/nskD/xfDtvfA4/dv3P5MbmQgBE2cui+K7DWNqt9vQDts
+WV98f9KxkGR1tA35eLMhKaE4SV4W60p3FDS7RMkOHdl9qP+2uyZK162uBug5S5Gf
+XS6/EPKu8fUtWO4KkBJNHI8PVm3uhxllRzssSE4SrnZVX6ubPc5K7TsTm+EiQAPh
+yHaiFueVyclm75QsGTyBqNUxJSRHq/M1BCki+G2JUAcEJTwTQNag5Ta1oj9Vfpco
+dhumRsDbzQUaoQ+SLIuQ5z0hu19SbVbGgSE/SJ0nlNtznoAT5PM/ts5WpLOVdZDU
+wyHBCjlW31dzS9img3aDg9oO2kNmS8+UNkadPm8WHEpYYzsR9vGq7i1yKkMvRIq8
+u4JKaKcWLbmlWIu4G/8nz68GEyOcZTB0WgcBbn1j6UlD24puNuXmUIRezmgwKhtL
+6MzxMdUbDH2fd9EArHDvqJfDsq9S0Q5j5QdLxeGhlyFRb/hhVsudh1YZh4kitYkD
+Yo8IM907cSGJeuThrwi7ces0O/VQpJmfqmeP4uKHELRMBDawADFQmZAxvNcQqbGA
+poqb5oPwyVXBL67GlxaLEkQ11KYMx5v3aO1NrDF2EYu4dlWzZfS/krO2MnRUDCi+
+gtz48+sqFJGn72YHoEP4rCkmJedCGQ5qGZS9LldJ0MQ1GTf80aV2tmw+3Q9FTmGo
+sATi4rIXNTF+6UkIdJAhu+1N//j8p9DRYm8B9zLr1wG3ipDefev8xtDkWr3W3iSW
+txypBB+pmV6WDw+7+pr9a8VAwz/SqSWLyLeozNU6a/88emZBo2XjPQPNCswpoUsk
+ikRP/nXDHhkgb5urJ2MBthx44OXcRhqeZK0nVwyf/MMrWrZgUHHkpct2Biq1Ufg2
+d0jA/BXTHPKnxIGXsk4vIKOhfDNYURX9EyXEKtUDsP19dKVp9Nfj11q5MaJIt53i
+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
+JuAqnNcjhvKJOaK4I+rXTNQyUA==
+-----END AGE ENCRYPTED FILE-----
