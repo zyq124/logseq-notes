@@ -1,34 +1,29 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBlNURKWDlETnEyL0xrWkV3
-cEFxbmNhOGRkVFMwZlF0RDBlQkpMTjlYcVZnClNIdDJHUDA4LyswNjgxZVRtU1ZJ
-cFhndEFERnhEQ2J0RENRUWVWQm5nclkKLS0tIEFoN2g0QXBKc2FTQVJERFNISmM1
-ZFY3NXhYc0M4VVI2MzV0MU8ydGRzQ3MKxxz4oPqChS8/Gx5J9tog4coWkaXZPbWN
-YNgJxM3VC6XumEH7pTmoEKs9UnmtY0GWG5BtkkIvDjTalUALQnmREjDGuFKwnZU8
-pLuBnYfo61djb2Xg9xtD2DvSXwYmdhYSiTkcazoiRnszOCRJBIYjjXSCX0dQG5rE
-Lm/PkiNeSn70lEsO3+ReNRPIPn/5rp1K5+hQ1Kw0ksAQVwB6TKYijTRdWh61ur56
-43oOsQIsdsr2vE6AqXwNjaOax2ehPFD2QVOszTa/03KZGwcvvWT93NnGlGZps7y2
-jK5euCc7fJcpZm6HxRtF5DOfR4T3hi1ctjkSuSLvo7LZ9wuGBycLJXj98ZgKU4up
-KXJ9kYaq0wN+Y7klMvQcBVLcPqsiYZHYaqK6WHntlyRGY8OPXl4O+bD/2UiGlT2L
-7I/XpN4q6wwE1fFLTQb+FHOevlYbdjWfJhZiTQpRYdvu9IndiHDYQ2h6crzGmKsB
-UiRdPFYRhbMtcLxrDxgsvPAi54jisNwz6T+zKP95FuPLWFIltRqghbRBZoXdiCC2
-htZjko+OcDebGH3T/yLM9dcEEpTqGaLJpbdSfGhD4NVYmpL4MhtRZveT5x8N/elt
-PbSjNUrhdxYaVjTOiTdqmTMKcOUImx4M28XWUYvZspvzoMSn4uK5y3PqSJxE0OTH
-jmYijcGfZcwqWg0zjdaufcKEPt2+pqc5RAQ7I9SYp2nVSoUsvFbgdk72JZA5L3cn
-X0FNM43jR+YeFQ3CxqHRQGc73DDRogKwtK7enTWfzuhkCFOQyLE/G8r0YXam9SiD
-0lJ3CYLEQfK3ZEyCzAk7XY9bDB3AIZ2YxNpTTqmjh7RWL5A2zPuXH6MocfQ12bTY
-rI5Cv6yc5XcZcobagcOPLeRnezmyksy8qapn1OXTRI+acqGGSvpN47tDOr9WG0TD
-RMVv8DI3ucaGzRlxyZUaikchdCYG5kvAX/AeLGfd+AWSSN5PvWPxF1R6GjEsmwrf
-FW1O9PU22jO8FzaELoQcF5n4Y34Qd4OIRssYn1qXFtJqdtC4JpDaVqe452wr2MKb
-5CWx96wQuuH3hIL5BUvqy2cNH2RUfPXAxXeZMcDp8I1SAditZiqzwoXqyzbbRpus
-TlSatNkHxksxXA5jFRSqIxBLoBw7xBdW1XHnmtsOyzyJGy/OrmCEV9dFAZDpksT/
-jYmd3b3Q3kVI761nOk1BRUpgEqkKDIKXGGMsUKYprZrV0FTxSMtN8qBhy1pwMH9c
-Jfg8zffjw78Nbo1PhqKlgAX4FKY3Ex1qXNAA97Azoue6D2Oq1Tp/xXD52I39wRWx
-HW8Dkgihxd2e9lIhSlxtbZHzu0f2nt/UbJIMnZM/4OZV7C7ugp1+KRYJ81caoCPa
-+dHXhZyPT5ErHg8Q/RfB0uTwmCHyYRZ78K7dOMWoAtI9IchVwsJoapEJcOlsh5SR
-07aseqDJXIgYGZ5rioJEl5jHzk5wB7G4QU75wVtNrUJzQU+Ck3HV0Ckzca/bu1lJ
-yD5YO2SKQmkl9zvalX0S5XorJni/dnfTdhyxHGu3O6JYk0NGzvRIzM5tWFDAqDLg
-W/k4Z4v3qGmFacpUOe3wbu2n+9rvXrBEJRhbqwA4OtIYmnducEJlnyMKDdeUUMk5
-tcVl2jcXQfYqcvJHSLfULLdnGc3lha+eW63kqFViCA1aCEyEO9jorWFreowXP5Tz
-dKwgO0gJARnjBT4LjD7hrekrBS1FNqZuY6kV3hgdT7KBmjlrqYVnWVCvTgDARo+u
-K69g+f7MnG9P4KRazc5r7np0J+AmsyJshqsFcwp/LyrWHiI780Kh7jLDUJA=
------END AGE ENCRYPTED FILE-----
+---
+title: epipolar geometry
+alias: 对极几何
+---
+
+## 用于匹配特征点,如果匹配成功,说明这两个特征点是同一个空间点在两个成像平面上的投影.
+##
+#+BEGIN_QUOTE
+The epipolar geometry between two views is essentially the geometry of the intersection of the image planes with the pencil of planes having the baseline as axis 
+(the baseline is the line joining the camera centres). 
+#+END_QUOTE
+## Point correspondence geometry
+:PROPERTIES:
+:heading: true
+:END:
+### ![image.png](/assets/pages_epipolar_geometry_1612509591157_0.png){:height 340, :width 775}
+#### (a) Two cameras indicated by centers $\mathbf{C}$ and $\mathbf{C}^{\prime}$ and image planes
+#### (b) An image point $\mathbf{x}$ back-projects to a ray in 3D space defined by $\mathbf{C}$ and $\mathbf{x}$.
+##### 两条epipolar line 极线
+##### The ray is imaged as a line $\mathbf{l}^{\prime}$ in second view
+##### The 3D space point $\mathbf{X}$ must lie on the ray
+## Epipolar geometry
+:PROPERTIES:
+:heading: true
+:END:
+### ![image.png](/assets/pages_epipolar_geometry_1612509853623_0.png)
+#### (a) **epipoles**极点 $\mathbf{e,e^{\prime}}$
+#### (b) As the position of 3D point $\mathbf{X}$ varies, the epipolar planes "rotate" about the baseline.
+##### The family of planes is an **epipolar pencil**, which intersect at the epipole.
