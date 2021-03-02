@@ -1,9 +1,10 @@
----
-title: collineation
----
-
-## lines are mapped to lines
-
-## preserves incidence relations such as
-### intersection point of a line with a plane
-### order of contact
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBUaUZodjR0djFRTGpTbUdI
+ZzVnbUpGQVpZcVZXNGppTFcyb1piV1cyTGs0ClhEeExETjFZaE92Vk0xemVSMFVo
+S2Q0RmZ2WUNicUhJN3NTbE9TQWE1QTgKLS0tIC9yRU52RjZvMVd0UVRkdmQzZ0tu
+cU5WZzVzMFM2bCsvVGtKRzNzWFp6RWsKiSiBJshnto3MfsCiAvxtFnhFcnaBOHti
+BX4xL8s4iKnxKKtn2K9Xod9PPiyQTA6aH4I1y02ock/N2ShOqikJY6b5OzQjhTP7
+pVXMiFHsUhgqKNWpmRehSLHU9eHYtAKiaw9pGLXgDUxY98SMHIA16eeo/WFKTLgF
+KbD+ZAj77G8vB5P+lX+4sNm6OqpniNw/uCILUpU25GFhsakdOJcjsSJoFIoqy2pP
+mYfo9gYcwBHour4afFcw9b3cZsWZdkrJJQIHYcXkkw==
+-----END AGE ENCRYPTED FILE-----
