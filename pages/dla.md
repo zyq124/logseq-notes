@@ -1,15 +1,15 @@
----
-title: DLA
-alias: Deep Layer Aggregation
----
-
-## 参考
-
-### Deep Layer Aggregation #toread
-###  Zotero links
-#### zotero items: [Local library](zotero://select/items/1_9PG7JLY9)
-
-#### PDF Attachments
-	- [Yu et al. - 2018 - Deep Layer Aggregation.pdf](zotero://open-pdf/library/items/B9RBSFAY)
-
-#### online visit: [https://ieeexplore.ieee.org/document/8578353/](https://ieeexplore.ieee.org/document/8578353/)
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBHQ0Zad0ttRWY2QzZaZzZ6
+ODRZKzg2UFlRNnVnaWM3VVA5ZUY3Nmk0MEMwCkZycFdUeTlhM3hvVDRyK01Eak9k
+TmFTTEZIajJDc0JiUFlvUE5yK3VlSlEKLS0tIFhyeVN4QThmUGVMY3NZY0VVVUJS
+dWFiNkM1TVBwOTYvSEVDRXdJNHc4SDQK90SDkdyGb01sPh7nSESqSrGJZZX9edMe
+SUpGVC8pJwGt46VVKVm1JFuelGFw6cKgEtEedcrVX+rgXFEaThQEjbkDdUpp9EoK
+/suP27Nw4HmsjQrKClU2iNLxwXyKjaWqfBBzXzkwSX2pacsKj9I1lLlhYyHQpcTq
+5bNsPvQv+2r3xiZJ0GMNrcV3+U07zcyhxhIQyUqUGYkh0srZ54R/yXFK9i3fX+yw
+P5YL/PO69uEmbUgMlO09VKWLcrY/r4ZK3jx8pYwa3IyoE/6tr/AbgQ3Z/eWHCj4H
+HHRe3IoqUptwUObNanq1xZB2mO7b3px8c1hMiiaR8suIWs05m/nYLMv3XsF2hLMm
+lieMF4Km1d+DPlnS7GLzRk9vAV2SZ7YFuo6S8YCDvrKGS2AmdwaBzQCl1kiNL8TL
+Kwk+n799Lfz+p5CgAJahvUVVTmv1sOOiUbYW8jDsRf8IbQbDmQXZgnqx+EoYIRJN
+VyoUMGEkcmquW83dQx2BWd/WtQjp/84aFgRMpX4G+PfhC5WBh/eeDxCo2U6J7uM4
+COYg/QE2HQfTBKxxBxI+pacXjEyU8h6SC1hIVIBIdBfZJZUG
+-----END AGE ENCRYPTED FILE-----
