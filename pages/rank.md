@@ -1,12 +1,16 @@
----
-title: rank
-alias: 秩
----
-
-## #maths [[linear algebra]]
-## 一个矩阵$\mathbf{A}$的列秩是$\mathbf{A}$的[[线性无关]]的纵列的极大数目
-### 行秩是$\mathbf{A}$的线性无关的横行的极大数目
-## 矩阵的列秩和行秩总是相等的，因此它们可以简单地称作矩阵$\mathbf{A}$的rank
-## 矩阵的rank等于nonzero [[eigenvalue]] 的个数
-### 等于nonzero [[singular value]]的个数
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBTeVdYdWdoWDh6MjJKM09E
+Lys5SE50T3NLYWM4bk8rQStWMmI1c3BVTTJZCm9oVnRPOFRPdjBaNFJialpiRDhU
+Sk5uN2tMMjdJeTg3N0txWEhYeWRES3cKLS0tIEZzbllNM3hkb09yZ0RYQWNxUDZi
+MnFLU1Y4ZFlIVjJxenk4R0EzM0JTRDQKWxAwwndKLT4rumWvyYRZ77Z84WmAOlbG
+bKXzLG6x8EXHRWU4PDKUS931gjSLFMdmiwpsKx+EmA2GxsQf6QMXud0/2iBPcW0F
+5LreoXgXfbKBRVimPjwwj4GtQ4RdkxNlfEjhEzFuP2ngOw6/f4xDOtFsGowcRi3Z
+T8nptNZytD/9oEDD7EeM+AjdUmloo/hdMWi8E+0VTwJUm+FWPeMVLNx2FpIDUMC8
+0S5nkLblRrXDWD7vzHv59W5LkfrryYeZCoe8qlGOnRG/MeI3aziHcvrbBnJjE6pg
+wqpK39UDO816rPLrvJ0xx89Lk6yqsWuUU2uGAgH+BBDj0JDaVzaRS3ptvUTjxLDy
+1ZEVEE6n7a1myJwDFQkjPWJ/BCKpbnA70fKwMJ6Nsg/VwYA/4tF4gH03iwhSZBPB
+DQcHo41df8WNbqFb0B8WtKB1nUwdUkoW4323UbrY3iAzfyZwmdfBWjmi1Zjs0QGM
+rvl8IpI3W2ZlNPGteCyN7HQCSGTtOqQ1FmpEqdQYx+AJk6rGs4NhAeezysMNmnvW
+LF7L6bCfIEgGv6cZ716n0kmvIHV8zMWRTkpVNhiGdtE/AvAD0/bmX/TEyLHgxHcq
+hMfcjKM=
+-----END AGE ENCRYPTED FILE-----
