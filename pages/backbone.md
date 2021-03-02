@@ -1,11 +1,10 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBXcGVuV0JRREt6VHJ3TUM1
-clVPMS9oenIvTUIwcTJ5dTBqdGpzWGQyQzFvCmlDWnI0UUtBeFZiQ2VSeExiZHNV
-a1lZaUxoRTAyZDRvUk5aU2pwWVlZNDQKLS0tIGpEQXdRaVFrV3Y0K2RMSldneEZS
-S0dlQUZvamNURVlOREdCRWZkVUpVY1EKpNz5oXek6hUVITc/JPRNbvMWE+lKIF2W
-DSGbCIAtdvUHogrvavfBHA9EKQN6JwjzAW3FT/n5SztImrd5bUo0z4MCIqXhr8eF
-26Q+ss+0S7lpifHbn3bT5MV63PCYJ8zTuJw/ZwxBVlwc7ntzat9eZrMZtPEyZs0p
-Yh6oDvv01ODMxQzOKsWD4PPj5x9BYR9cmRxmvMKbvbxHfKzGNdqnlZhrmUUzGaTW
-fS4Awf7phLivBbQi5hAI74DwCXyRN6u+I31xaUDnnRDCMWNfW2mqXwoYdUKJakKR
-DtCGO1v/UrrA4pYxLKm8YRYbNMh0cClTIvtkSxOrmeejV09oII9M
------END AGE ENCRYPTED FILE-----
+---
+title: backbone
+---
+
+##
+##
+## Backbone on [[Segmentation]]
+### ![image.png](/assets/pages_backbone_1611297300063_0.png){:height 267, :width 689}
+### (d) cited from [[deep dual-resolution for semantic segmentation]]
+###
