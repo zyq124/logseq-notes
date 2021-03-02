@@ -1,16 +1,18 @@
----
-title: relative bundle adjustment
-alias: RBA
-tags: Optimization
----
-
-## Relative objective function for [[bundle adjustment]] 
-
-## uses a **relative representation** for frame and point variables
-### So global position of the frames must be recovered from the relative variables
-### computation large
-## No need for full reconstruction
-### only on a manifold
-## [[RBA]] is equivalent to [[BA]] if the network of relative constraints forms a [[tree]]
-### works well on exploratory scenarios where no cycles within the [[active window]]
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAwNll3V1NYam1zUkVjYjVW
+UTAvM096MFVGMDVzZVppYkZOa0R5YW42aUM0Ck9EMlNYdEpNbDdRMzE4bzg2aXR2
+VkVtSHBjbGZ4R0hhMFdDUllMRkpIY2cKLS0tIElCOEZJZnFjNGxNVTl2UHJoNTZV
+dDdOVFlpcGxRc0VhT3N3RTNrMUwzMmcKxWx2ojdN8OgKSwkWxr3RqGNDvhJPcGG5
+1fUJViMd3Qx2Hgv574ubK/uFOjPSeSm2sdepK/qtLMo2uMt+htlKfLb5bMS1LvSU
+dhbtTdmREk1HzQ5aYB1V+Jv95e+TszGAU3Tqcn63Kl9CP1FLFE+cZ6w/0MGFa6Wu
+NX3pP4OV1FRr0r5O0xK8RjV+1uobZtbtM+gVfKtccD1xbem56vyxa4b+hHOC7g6K
+tSDNj/Y3SRoJchy3pYqsNnU9kNTurCufO3S5HgT7GGN+0xtJY+YxTgKgc8FpxwBv
+AGtPq7Jhl/QZFZpuxjRpbV2o7NBkGTsYlApNITO06CBRU5IpEVsypkM9Z+cSeZfQ
++CzdQoCEVpqpEhrhmJM9KO0gh14TWgqk7G2bRxhB++eonvKp1epAJ3ZSNcn7R7Ps
+AOtDj2RQXxB4r3LfIzLcn9H7UNh5WeBljOOub6joU+CHpyr2ogWhaJt6Cxs0DR2D
+fG22sW0btKOd3eHoG8RakJVMaGH+2FzmeQBaxYi/rJjHqUvdESbbrhPPlI3vP9zk
+lWQzkPj6RuF6cpbw6jRpNoiKy9vsz2V9bSZe6PU9FsxsfFI/93p37SjZAz+bfe21
+gTyQV7o+cloKQB5II3XQSFFJjmwUJSFzy17IS9SvGfFXe40WDM2O3B0fNBrMqq5e
+gVv5IilpoYWFgJNrvq6yGOel+wkn7ippiAYJ4aPKhK7r4olXe4x4TDHX/JpJ/coc
+i2ul2UsKE5E4Obkhkhhpa82i6cW8law=
+-----END AGE ENCRYPTED FILE-----
