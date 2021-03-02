@@ -1,10 +1,13 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBpQWgwZ05VU0RuL21oZ2JM
-dzV3dE1BeEYzY21HOUE0eUlVZUhvSEtGTFc0CndTSjVlM3BoaHI2T3Zhb3czTmtE
-VnovODFNMmI0MVFjb3dvMlZpZnRWSUkKLS0tIHlIUkRzc2krcFovQnFKRlVSSW1u
-SHRSZTltMEFzeWgzVnYwMVZkRm15WEkKSO9K3Lse0XY5ucOulMcJeutfBM7ls+5w
-wasZT92Vl92e9+1rti4U7iX/p4xTVoNvSnLpOO7DjI10zN3SOjo3HylWNFWfPnK6
-Z1wOz2A5m2Wi0NEo//iQmP54Ito/8KzdM052+tIJl+BnTrQpiwluL/Lz99qqph4L
-Ujulxiyy3FMb7TKGVySGMDtytsHRcrUH76VPhh6sVtGWTb5f2hoNIEjRJ+3Rvc0s
-tjgZI4NfcfWvdPWGvsb5eDzKuK457QPp4oD/470HB3XqXYljYzaxM2Cz9A==
------END AGE ENCRYPTED FILE-----
+---
+title: Academic
+public: true
+---
+
+## [[Keypoint]]
+## [[Image retrieval]]
+## [[Segmentation]]
+## [[CNN]]
+## [[Robotics]]
+## [[SLAM]]
+## [[tracking]]
+## [[3D Object Detection]]
