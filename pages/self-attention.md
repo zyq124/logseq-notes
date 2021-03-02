@@ -1,24 +1,20 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBTckgwUTUwUTlIeHFINVJW
-SXJWTllYZ2I2aFJlTTVZeFdQcU1xNjlWMlVZCkJHUnJOMXBWVW5KUTdhV3dCUVUw
-QXhEQmcvZ0NFbmV0OGlqQnNyT3ZWQ0UKLS0tIEFwWjY4eDhwSHhuaDRjcVJaZVZK
-bVkyekRzWm1YT2xaZXUwVUdmOWRqMEEKWitZBiF79JSNEC4rPQWIFo9m3PnDLH97
-r9gHA9HINzIOJ0d/eLa6CtfxF2rzNeiSTDsaeJsCS4IxUrMG6N4GfTIVzBJtnbPU
-ilFLNO4WPfyrKVmQpcwzXLlG+BBMiGBoEXNvvnvOTiXgxerZpHPKWUQTFMOk/8Zq
-VDzFTgaCavOn4GEmgxrT3oAejoD3q4ZIsmbOJ6py43A1zx0hF4lm+VD1ZaNQlKtu
-b29S1yXl2klAnQumFN45fMDYImHVnuMrhYfuc4/9B62MPcQTRYDAfPGttljp53D9
-PnU2hf+UUFdlQVdZbotReejhCVrs0T7ZxEeHBQDfwrvkkWlQFq/zCv8gmRGQ5Myh
-JYeeD+l0RxlypUPNK3h/XYHzkpSlaJJbF8NHS8F9bLc/8et13FpwgOyGJsaWBeLT
-5AMuE7hGd/NO5eMMiS2qGIFBVnVXvIKphJ4CRvcuPCUyEzi0EHAkdb9Y1tzpXQfb
-yN9pZL6PipphwQT5r8RE/Kv9qkzcHPEfpwLd20nAlQ8upG9NLNQkJYC9H+4iznP5
-Yk29mPZusrGaaJbX3zrLDXAwgK39KDyM8BBnefXlUWKsocFqU1Vo9J49jR6BJtmN
-mwvhoTbHnHwOAn4s9GO0jeFFl/8v3H2gd8/vMb6Ug8KpaWfwJc1AFSbdWA2o/ifI
-JFI65CIIqEf7tIWXNPvMfSDAe4EryjMd0KDRW6uacmsTpV08NfDyppY04/elZmVy
-MnI50cDgyBpbm+xCA67wtQLYhKO5GfN5MDeJX7rqr46jLeKvrLeA/6I/ENdLNDo6
-jWoJLZ4G4DV2For9QfqYY41OTjj0je5XGAdF9M4/LWLF+h0QCZPH+r+qaQWkFDtu
-90VmNcGUZ3pMvr7BX0W++DleZQmLfgkQIhllmXud7TTYaiyMGrmkklbDX4j7xJho
-ay4N4u7hAaUJWdSmQBxT6rTOCCkWK21Z6Vy+Fnz2040lA54dfbZnmOVSiQIa/5La
-ZwYF/HXWo2aBHoVQUwPZ9PAZrYEOk7iDifb3PNPLs/rtZP2kOa6P5IgbAkhCVuUb
-jNz3s28ODPStm12tyDdQ3lS5m1PEQapQi6VwuQvrHV7ECXMUFEV2EW745qgmXe9m
-ypngnJsdFkUDGJxL
------END AGE ENCRYPTED FILE-----
+---
+title: self-attention
+tags: [[sequence-to-sequence]], [[attention]]
+---
+
+## The original self-attention paper uses [[LSTM]]
+### Long Short-Term Memory-Networks for Machine Reading, EMNLP, 2016.
+## Multi-head attention is called self-attention if the input query and the input key are the same
+:PROPERTIES:
+:id: 602f149c-8acd-4c88-ba97-c4e189bd8f16
+:END:
+### otherwise, [[cross-attention]]
+### self-attention不局限于 [[sequence-to-sequence]]模型，可以用在所有RNN上
+## SimpleRNN + Self-Attention
+### 计算状态向量
+####
+$$\mathbf{h}_1=\rm{tanh} \left(\mathbf{A} \cdot \begin{bmatrix} \mathbf{x}_1 \\ \mathbf{c}_0\end{bmatrix} + \mathbf{b}\right)$$
+#### 这个$\mathbf{c}_0$就是context vector,具体计算方法参见[[attention]]
+#### 对比 {{embed ((602fb278-dac8-4e2f-b66c-5e92a7ce3cc1))}}
+####
