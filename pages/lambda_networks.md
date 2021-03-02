@@ -1,16 +1,6 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBZQXZFeXYyWHRjZDZqYTc1
-ZkJURWF2dmQ4YTdReHR4dk5BeEF6VjI5bHpvCkJ6dzZaWFl0emlVYnh4cEwxZ3hj
-bkMzV1VZbzV3Y0Yza0VrNmdzM3hqMG8KLS0tIDR1ajJ4ZVBjOTdHNmxJd2NzaDVz
-Z1RSRHdNN1kyYm9LZDBOOVBFZ0dUV3cK7XyJSB++PvN13I558Cpde9atxFYtayq/
-ymTj661N4/T/0GztTaUhDiRix1xLkc+3UOo22qH6wNpskG8f9YRhceYpQlw67j1+
-YtEtTA2cjx5dqAZVzvyNNmofmxkl9UX0mXfgNIXbBn8/JafXKwZcxr2Hw6oFd/fE
-8dptXBbFzINYhbj2oMuFxnjJvBAZMblpYn86dkGzgofMxTf4Zxx76d2Jp1pfyAO/
-YzE+eGrcHrlJR5XQoFAw9umzT5WxXD5iRd8BG1threxYgjn0eQEVkIDEM10kjRs5
-8cFJ3RgvMBVoeC80TnGhGHVGJB+YFWzWK6pqVeiDAohpeYMEkA0CizPetAZOccwp
-9vgIoVvKcOZIClh7C/uAL+GeG54V0Tup4tJrvsK9PHqrerfZkFMggZu3ejQFo0TP
-0Rp84FccdKgq+BKmYb6PMHgmWTqumCHa76MW3EbUEYbQSHTuHvHKYCDOzplSCtC6
-55jBSdJhe0S1emY6AkdobQAqv1KhsANlGj70e97EJOiBqA1Z5b1eS9//QVrAt8p7
-s69uXZjmb91HqLGb8rQxTqPTwUgyvxFmgHdzSVPax7vApNZsJh4t0SQpJUUkz1NX
-7zoKwuTKkmiiIRU6/DSyJ6rSccazjpR4T3juC7c=
------END AGE ENCRYPTED FILE-----
+---
+title: Lambda Networks
+---
+
+## λ layer captures interactions by transforming contexts into linear functions, termed lambdas, and applies these linear functions to each input separately.
+## Lambda layer为捕获模型输入和上下文信息的结构化集合之间的长期交互提供了一个通用框架。它通过将可用上下文转换为线性函数（称为lambda）并将这些线性函数分别应用于每个输入来捕获此类交互
