@@ -1,28 +1,30 @@
----
-title: NormFace
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### NormFace: L2 Hypersphere Embedding for Face Verification, 2017
-## Abstract
-:PROPERTIES:
-:heading: true
-:END:
-### 在一个人脸识别任务中，特征的归一化是一个提升性能的重要步骤。本文主要研究训练过程中的特征归一化的影响
-### 通过数学分析研究了四个与归一化有关的问题，可以帮助理解设置参数。基于这种分析并提出了采用归一化特征训练的两种策略:
-#### softmax损失的修改，优化余弦相似度代替优化内积
-#### 通过为每个类引入一个引导向量重新制定度量学习
-## Pipeline
-:PROPERTIES:
-:heading: true
-:END:
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FrkSKf8gepa.png?alt=media&token=fa37c4ae-7e28-440c-adfa-a07deb200558)
-## Normalization
-:PROPERTIES:
-:heading: true
-:END:
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FCp7FQXFUoy.png?alt=media&token=675156b6-7526-444b-a1e4-8d0fe0c8943c)
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBzZDJLUlVvZUlLdVpOZkkw
+dHBsaEJ2bDY1YlhvYjBndTU1VVNQekY4YlFvCkttbS9mblQ0eTRQbkZ5bUNIemNC
+cFdJMXdOZTBUZ2pVNzQwV0F3eWQzVU0KLS0tIEZCM3NGTjkrT0xNNkxqVFV5OTE3
+ejQzNlU2WFdsajJZcEQ4eCtSejFIZGsKm1U1qpIj9pJto/jTz99ZK4DEd2dIEkNW
+/Uu0YKlISTjPH9TreuhHFqvfv9lmMtTlc4XkwNpDn0a9UE0zmdVg9aMQDI7CbdNT
+vvShv3fcUUsGinIRCQHTyg8UY3ZhamyX40xXK/BvPAPu0DYJcrp+PyLpgemnOH1I
+X2JJQtlqgzJOXBj518Uj6M67Ny8O/Rr0tUKTZ8yJP3vtamnyfknRxF8f1ycPkSlH
+mHr5GWUTBBogHjLVJbCDIdTT8zAv+jV1viLOPoUB1yHLiN0yGIMM4NvWgrey42zt
+dzngnDFuzNB3PaJxEgK3bn2JqDl0WuC4210HgoBFy4mLXHD0jYUhIWrUn2V9F5Gx
+KqOemuNyRSl2YqCTI55ks1Mx/5xF8yDc8QlRPwZWmotzTjM6jaIXxiJ9nDE4xRq8
+VXykUSi3dkQBYP9c9mi3gSyjhGc33+5L0XUN7sCCcH+s94EuZ3NTZi5KqYAWEJ7m
+oBLumg2RaipJ86AnjiYpIRyPiqZryqGqmKfwqmCdXQP5+ZXgGpbZpl1UWexGNAE/
+FvtbQ0VB2CT21xkUXgFv8lYmzj9NeHza0it3YgRd6RQRAhsp9177OY8pvEUs+fws
+cPYP5yl+Zw1M0CYTW2EbWLz7SDH9A2ZRIw48Mf1sx9qQLBBBGMIElr9T9fZ+Ihib
+LamRlFf9wrcECPecPJDJr52wzs4sRWRF4k2fMd8ez0dEh2Cc0tvru2UR4gL7DhE9
+WAx+Gm1oMt6OKbQSUSIIWFfLzkIxjauWJtUp0ORlSEms8EpKnAjQtGNWivRQpcyb
+1drucQ5GefcHVrGe8FUUO3grfqBy0xTwkJCHNuBMns1NrTtGouRjR0cd1LBZKtmR
+b9z989HX2TxWO5fbfDjE7/FlU9GNvwJ1Zf4nDbFFSYk/bz346BPeKuPS5jXxCoEA
+MzdzyI1eGMRzV0ltvxn8zneXh5arPcAtdRWepppaPJ0daD+UcOiD82MJdVfIhxWl
+7iHE4UtyqtYnyl5dfuPIGyn9Kq/Z6HB9SN+btveMUjorVAxhm/Q15p2tKltHSVh3
+4HL2BpD/PLrdL26EyyFopIoi5DUhzp1qO6XhIWHNDnpCIpkbsF4MaAMdNFvCnPft
+27UVv14KJGJUX4ZI5MDb/MmU+MthcLsPhgsM6Q5Oax2YmVsgNrXjuVnd1er0/C6Y
+8Lwp7breJGdVFkvMT2rtlQFeCZ7jchqg/lZsj+EewxQ7hK1KL60URLhbgLWHlCCn
+AaDCZF2UM0y5YlsdGHnDhv5Xhw4hxkVYjkuNSPg6MRBG47ynyTtvweNPUOmBrO+A
+LIrPQvVh1C5DJcVXJH33iuLRkXfmGqWjeUGHMqqqn6iD/Y9R0/xDWLcEUzhhdnxc
+84u4ymMzyw7ACtFMi7XW+xprzyqrXcg0bW/6ppslZZACv3f5sM9FyldoHHzKo8gU
+ryfOdliAafFoB3iCMClRSFX2NhENBry6xBdyrjWBzD+Xkb51ySmjHVlSTqHNcuNa
+wOGtaw==
+-----END AGE ENCRYPTED FILE-----
