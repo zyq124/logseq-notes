@@ -1,51 +1,54 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB4ZEM2NkxrMHBTM3lDcnNj
-TE1wVUp3TXBPTHVheUt6UzQxVFNjOThhTXlZCk5Rd0h0QzM0bFpSYU9sbnhERmJY
-cVBGTDFOb00yYXZHWS9HNFliTWNJUUEKLS0tIHpYd3FTSGhFYzhGRmp6aFpSY1pj
-QXRtMkNhVnZVQXRJelYyQ2hSSC9oSm8KjLvEuOcK1HQ/+3opk8EYMD5sl3pi69GH
-Z9qvKilT9jGWaOpRrq0oo0PFI0OnxZZlqkwiwC1pAR0CJ1iRSiFb82xBDBHpbS7W
-kU4s91ypfUUir7kpjSHfoH45drrt8onrsOGl7wgHDsUfNvxAbIfMT0iWO7g8qEca
-1UcxXTZ3Vz9MWbzK+qMsxKLXNsRTcwFoy7c+qPjUN5KwYzoOOP+KkCq4aCw9VnHM
-E9LeoAF2wWhO9z7CNyiJbXEqMzp7WpxeZsBCKMqxRu3kRTru2Yjy/Gz4ln0PHLoh
-yV6ZNr6xR8uW74FA02FNqZ1MjiV34rQdDdw3UL6+MwQ5o2vgAbjGwekIbsptxyk4
-w3u5Kz32Q638PV/4Hhb/Hr+WjwFmjhBkwFbIM+OxZssr2+x7rwDDM2BE6IfuKXVg
-5eOMgM9dsMRxlHQz71Wx3vruLP8lrrHcWi0bFlIeZ+jN5I+xehMYY4+jXWeKNEKD
-AAF131g6ePSBZsCFv9ytiDv0RR8xbykilZ7YxIzk0Scd3lFRkyeuo61pss+58TrS
-QVKfC7SmdTtu8Ll+/xsbN/1rrqgtBS7cDfKAKInaLHmrnXikYBWnY7yFBkjZobHx
-lF3ock8YcSwRDpIkenley3ij33+K0TD4hUYlCoSk6oFO1rCekA4vEtoeePeaBP48
-ygWLg0WoG8TttPECF+ta7DOSUEn2tZi7pvjeTgFkqpTiU+uurCY8wTzwBIE6YSRm
-9krwUAeXy3uzT15ggtsHBFixkYFa/i0KbthNv+WctcEnw8bYfqpKVKbL4Pq+MIdM
-BOWPvghQKlBmTCP3tQ2OpjV1nmeAzZq049RV7+oAA3kO0vzckT3rgIjJnYiygXog
-/kmu3Sa63IRLIfhIC6Om0u82cABd9p8aIGvSvLtpZGNjcBeYAG62+fwTGw2LRIKi
-ZgENzqxOEShryrwfg+mIrJB5cJI5GfN+wad52n6TZZmOP5nJ4unrSygFWb0bK4zA
-Mp1Rq+hsvvzy6mPpsQqbco68NK03+rl9BcbuKFXaJWdA/Mo5SPY27/oKl2M8e4Br
-sMb9RVLGZ4uyO4B2zCkzBZ3bPRA0vqKeyYlnznZA07AuS79JyWW/6NJfHex5zS+K
-ULGv000VUuu6AzHe5SbEogi8NgBRsnovTuwkPT5jZGOBDMVs0JraE1mR1tD1g/08
-/2TUj0NW4qjKP38o1NQgvAP/E4EDKRpiUoDy92SIj1g1Mg74XVmzNQI/ekQvWcFV
-LOSWa2nDXp1q5xAC/kuw+SFOSRyjPk82re64ynlf2drNwhcGVnqBQ7gjvpiPFexr
-AxCuLqyZjqc64OmNkhDf6SeOANoT6a25923wNwNm7Qq82b/Ai6TnDoU+RxcK7pYQ
-Ky4/t2CQgZDNSrLyKRPOsOOXsPL2f6Ctea4hgJ/i4LwbyDcCZ5uGlMIdjfgmURWP
-jgc0Apxuu2Emunx3NpnPrDUwSSnoIMBcHLCtPHjefI0vKLGb24flsG8AEOncTNs+
-7G5NgfHXUcbDgbaxwkKm9q+NtmBY10OSquQNQcWQbXOWGe7SEFyaNKXgUT6lUXIs
-CpOKbEJjKVl2KIoWxboI15PVFgq0lIzngnPWk8kL3pmteeb4G258JtTTvrqWlZif
-CYr/sSInycdtRYRnek7+A833b90RKmc2IylTR/q1eybjHrucjHnpkM8lz/U1FswA
-Efwns7hXLR7GTjioFNVfdIriOSWqJBSUwiuefyvA7RV6EJKrlY9dVc+uy9vovpm1
-zTHsdfOLC1kvbC8Kmlo9883ajBtz+KiL0hd2auM8cRcae0TLUlZxtKYvtqW+R86+
-Z9fJVx6ey0hAX/XV87lBng3TS0vsGpEcN2UvWjcj98+SyTvdetXao/Kf3twp18ba
-zxu8oFvySuh5di6aqMsN/KEmWDzRFoDzLLsYAnRdJr2ifh0N2gICVfMklEQzTFNQ
-PbGJVJK3pui8fhVd1DyLPqJx30BpnquMWV0Dz9t42eEuCOQb3JWL0Ijmr93IuQOr
-ECeshdN/Xos55uBYxlpGJkwHvN5hE6zqDuPpSXX1gPkB++2rvfUpmsmNVKMrV8By
-yHrV6C1lC+KNh3wDkXmat3b1blHSVWjfGn6w7o52QZmEF70gUL92KQVeAgrsbGJQ
-bE+zQdmXWvPpiHWIq9aIz8AHkLWydhQsKliv11HKrbUVGmdFVrW7Gv+yL5JSTe8p
-AFEsJZdFstXkD8cY4CPjbY38zrddAGm9zfetBxRGxWYPjLGVHFQ0ZcysaXUeiKlW
-E3vlM7SW54dJKuF3pkqjGhjoeUUm5mrMf+4zgnG8sIUVZVz7pfXmv8LpDyXuLaGC
-VgpmlISJGQAGI7kEySEyLxgGiwfDiSZWDYzlI3Fj/0mA9FjwDK7tP+142Bm1WG8w
-CgDgD6HknbG8H8bLQrsCMMJTR3YowoPV571WEGI8dCyvH9Vo1y7nwjddU5Z9Bc9x
-42+qvIzR9nncbXgD0XihdHEH+2tA6f/F+ILk9jS8gOUGMuWkgaehLNuyjMEESIW6
-W/BBKDn8OB9CsXIai5pY/hYUjz0Z4Yp/op+/xp6B/BzF0yJgfcpyxNbPIshisCBv
-fg1CDDd9Yt4uPNdOnsk/MUqdBpWmFWiMncX6ayqf0NGLrcePomuEYrBQCEuiCAfv
-J3Vg97YBjNlbUYM9pibj8fQWDXVmnfVCh64Mj2giLzIk4+KAGnPA/Fml5qJevXCB
-piG9XXkqJVcYea0TyNiBrbGDLCjUtoOPvUvVjp09YIvx3MsKa82FC74sAqiR0KMy
-QK1ahlRZct11u2YqRoQXY43OWKcl5r3+7cxe9i0fQO++bhAP/7liroeN4mEbw8cp
-iJBJw0vyzyODGTBrt8Q2GCIj4w==
------END AGE ENCRYPTED FILE-----
+---
+title: 3D Object Detection
+---
+
+## Problem Statement of monocular 3D object detection [[problem description]]
+:PROPERTIES:
+:id: 6017cf83-cea5-4a5c-b118-55af96d8aa7e
+:END:
+### image $I$ with a set of $i=1, \cdots, N$ objects represented by 9 keypoints and other optional prior #RTM3D
+#### Define keypoints as $\widehat{kp}_{ij}$
+##### for $i\in{1,\cdots,9}$
+#### dimension as $\widehat{D}_i$
+#### orientation as $\hat{\theta}_i$
+#### distance $\widehat{Z}_i$
+### 3D bounding box $B_i$ can be defined by
+#### rotation $R_i(\theta)$
+#### position $\mathbf{T}_i=[T_i^x,T_i^y,T_i^z]^{\top}$
+:PROPERTIES:
+:id: 6017cf83-1500-4901-aa16-276935f2f6d0
+:END:
+#### dimensions $D_i=[h_i,w_i,l_i]^{\top}$
+### **Goal**: estimate the 3D bounding box $B_i$
+#### whose projections of center and 3D vertexes on the image plane best fit the corresponding 2D keypoints $\widehat{kp}_{ij}$
+#### can be solved by minimizing the [[reprojection]] error of 3D keypoints and 2D keypoints
+##### with nonlinear [[least squares]] problem
+#####
+$$R^*, T^*, D^* = \argmax\limits_{\{R,T,D\}} \sum\limits_{R_i,T_i,D_i}\big\| e_{cp}\left(R_i,T_i, D_i, \widehat{kp}_i \right)\big\|_{\Sigma_i}^2 \\+ \omega_d \big\| e_{d}\left(D_i, \widehat{D}_i \right)\big\|_{2}^2 + \omega_r \big\| e_{r}\left(R_i, \hat{\theta}_i \right)\big\|_{2}^2$$
+##### where $e_{cp}(..), e_d(..),e_r(..)$ are measurement errorr of camera-point, dimension prior and orientation prior.
+##### set $\Sigma$ covariance matrix of keypoints projection error
+###### confidence extracted from the [[heatmap]] corresponding to the keypoints
+#######
+$$\Sigma_i=\rm{diag} \left(\rm{softmax} \left(V(\widehat{kp}_i^{1:8}),M(\widehat{kp}_i^9)\right)\right)$$
+##
+## Lidar based
+:PROPERTIES:
+:heading: true
+:END:
+### [[voxel R-CNN]]
+## Monocular based
+:PROPERTIES:
+:heading: true
+:END:
+### [[disentangling transformation]]
+### [[smoke]]
+### Keypoint based monocular 3D object detection
+#### predict 2D bbox center and offset from projected 3D bbox center.
+#### [[RTM3D]]
+#### [[RTM3D++]]
+## Pseudo Lidar (depth prediction)
+:PROPERTIES:
+:heading: true
+:END:
+### [[3d detection with pseudo lidar]]
+##
