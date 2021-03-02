@@ -1,191 +1,195 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBiWlVpcFg1RTI4S20wMmhr
-ZUMxcWFGd1U0cFdqTXpMaEN1Tk9rQ1JiWVdVClZjY1Buc2llMmQ0ZVBhSm5uU2lt
-VlVJOEdZbEtGWHhLWHdCYlZlc1RFQncKLS0tIEZXRXowaTFOSlhlOU5mRC9YSHVX
-bmJpUnVhR0Nma3o1ZGdsbmVEbk53bTgKUtR55s0JoW9tTL5ACB30HsGIPOpCVhoy
-r3UN77Ntg5ihWSozJ66ayihzZ7TSHLVvVz/LZ9w+b4Jug+wYcYKxBbMCvrPpGbvQ
-cJyTESj/1JaAwm2Pi83BhEKFdM/PV4cLfTZCE5xinVCORwnj9i27Pegs4uo4WqzL
-sqRCVX+1m4f4gbKgi/RG5NSMqhm9L/oLYncUG9IVZplg35LE3g5d+L7a4T7NNcHN
-HXSX3eMvgY+3kPKKeytaWKXchN7qxmZwjmmIZbvh0PFmOPWqdW2CGY9WfUxiOls0
-C0xoyCPkXwEFMykooDqDTm5mJHMvuFinO4nQQZzDYxtCnT+/MT43OmqnNTdzolLe
-tvGAaMPi0R+IiProQA614wA35I8B97mkjvBVQiRACqR7tr3/4I5DHcRkoHxdMy8i
-Ol4LqbhXPYnPVOeanLgJLcMxpOjjcrNHwmkfukjutQ8c395kUYqxludzC/eCwx/H
-9Za270244h9IbwQ/PTS4JRJbzH1FYh4xjU5JhtzRC/vdH10UFysrNUIAcumgLtQJ
-agP4e6SFHszqTe519FI+zla2pRpL52rik0leOUW2C36NUzhlgwSxdBAgfesmNxM1
-vNUwhT8krnol0SuezWt63e8BhLjiX6xaGVoufqHTtJXj6zXUqfMp7mA1RPgPQWdZ
-CGFuVtp300Hgb8dN8pQ8zd1oY7hDZE3n/uL0w6t7+ZUFvjnbu9TURXEAU2iE10sw
-T9wwQL/4a+XFf1icuf13KyVyzWbTf6E+VPHjo+11lfXCcNkoU4URAocTt0iZh8QD
-SH1QfFLfl8jMGUozN6zXA6W6wn39N59Hnf3IMxn2qUAWg4cyWcjHvSM5pyc+fqUy
-czDUBuYc+GMKsgz/vuo8KQ8D1Wv/GBZHljx4ckbGWL6X95EnfgSvaXVYi/0z7Fxh
-IxB6tBZNLe6cCyi6k1nuuZkU5Dz+udQw4j9gMoH/dxgarfXuNhcUzFUd667JMwZz
-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
-zQGgUsEPZVLwuTp4Ntcyzl2BDanHFCeEj48cGaLu1sgW+lm8HKA8lDbYzUZwuygs
-SQqCrfnjuG6HM+OdVKOhRS2xB6Ng2vjcBnOOlGUgvaZXFRWjlMiqOyh/PaTh6+El
-VLpw57BdZf1cJF6v2aAhDPQeQkMdQaV/uc+2d6cpWqJn7Z5OjEBonj2Cnh0J88c4
-Hf2ypG2yWkQrgFyE1p3Xd+NJDMiXoXur8CbG9LAqMu+LJak6YgsnR+OafnapB7Vz
-aWQJwSrBrpKziVAh7MUis8mYk2KGwYkptLW/uKhagOwsSwUUmm8HXGkC2ToyOsUu
-GaqAMnqi/0n/J0cZnPjPZxpzRdbTcDwnheHs1LvoolioNm5O9lfE6zpLNNbknDOu
-zovHy4qza32VL3QUL8lD0V9XLv9H0PCixAWZpmPMOmCcF/Cm2rI3FPkw9Z4vgq5r
-ZJJmV5lDJGeZadcflZ9YcvO3xNKLvgOVVnMq9NOLl3YHniTny5pcNCUuYxyH7quy
-hrf4C1GV94o6bBO8KLVW6swjGNSU/hZR23TPNdnIky5liNcvi17FQ/JPKYUXfpI8
-hwM2zjZdLPytPt/tvIluRBY3L3NTkxAy2T7pXZo7q9zYKKJjI1TVZGHNbWeLXjDM
-EG+pB7s2rBmcYKrTbhKyvrUzCIyCynqUS/fD/oTf35XUZ3h4Kei/ZMNuzkfCO06f
-hjF5LqSjJ5Gre9lsER9LbL3e0zLP+RnovapQ0nXr3pNx4DBrJEeI//GKpvc+aMto
-lULWwW2l3N6VFjZmi6DQxY6+xDEMB68RO3yGkrOQWLrZ75+tcpq8PDsHlN6dWNLT
-OnRsPX6tcW1zf/MKTDI/tqURovDh/n55nAnYRiUnLLKLjfO2EJSviidHz91nGyMV
-hc4Q9TQ82MPX0N4Quy/e9wFCfkjAm/+jTdZBlnRnuQk6kQmLt2LJKgqzDy4DuE7G
-767PUBoOZ0b37VNjDLeUUluez3tP8H4TSWFfeMzr1OXmuKqJiMMk2+TSw4N33Mh2
-/UqqRp3Yik5aiM9/N45fQwK2vT63NFz+2pdGir8ZSJrHpzWtv427HexJymJiNflc
-yoxNfUgHyj5Er1cyc9vN/YemEQ4eV4hDOQIvEfmkGhhSypXrflXShuoDxcgxjbeo
-fOB8OG7aL/OU18C3M899yfyQyvN7zmN/0fkmd9SmsYNBhFBM3aYke2kF8N703gM7
-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
-iU/OJ6w/Oo7Dszw0N5YBVGC5KiPLtweINzk=
------END AGE ENCRYPTED FILE-----
+---
+title: RTM3D
+type: [[Article]]
+citekey: liRTM3DRealtimeMonocular2020a
+public: true
+authors: [[Peixuan Li]], [[Huaici Zhao]], [[Pengfei Liu]], [[Feidao Cao]]
+publication date: [[2020-01-10]]
+tags: paper, [[mono3D]], [[3D Object Detection]], [[single-shot]],#keypoint, #monocular, #zotero, #literature-notes, #reference
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### Title: RTM3D: Real-time Monocular 3D Detection from Object Keypoints for Autonomous Driving #readdone, #精读
+### Zotero Metadata
+
+#### source [http://arxiv.org/abs/2001.03343](http://arxiv.org/abs/2001.03343)
+#### #code https://github.com/Banconxuan/RTM3D
+#### PDF Attachments
+	- [Li et al_2020_RTM3D.pdf](zotero://open-pdf/library/items/NCHMGMTE)
+
+#### [[abstract]]:
+##### monocular 3D detection framework in [[single-shot]]
+##### 传统方法
+###### **projection constraint** from the 3D bounding box to the 2D box
+####### 4 edges of a 2D box -> 4 constraints
+####### the performance **deteriorates dramatically** with the small error of the 2D detector. 2D的微小误差会导致3D严重恶化 #related [[smoke]]
+:PROPERTIES:
+:id: 60193c1d-a8b3-4cc1-8ee7-80577c19e580
+:END:
+##### 提出的方法
+###### 预测 9 perspective keypoints of a 3D bounding box in image space
+###### utilize the **geometric relationship** of 3D and 2D perspectives to recover the dimension, location, and orientation in 3D space.
+##### 效果
+###### the properties of the object can be predicted **stably** even when the estimation of keypoints is very noisy,
+####### enables us to obtain fast detection speed with a small architecture.
+###### Training uses the 3D properties of the object 不需要 external networks or supervision data.
+###### [[KITTI]] benchmark 数据集
+#### zotero items: [Local library](zotero://select/items/1_I3PQK79E)
+## Structure
+:PROPERTIES:
+:heading: true
+:END:
+### ![pages_rtm3d_1611822344140_0.png](/assets/pages_rtm3d_1612493901522_0.png){:height 579, :width 751}
+### output main center heatmap, vertexes heatmap, and vertexes coordinate
+## Keypoint Detectioin Network
+:PROPERTIES:
+:heading: true
+:END:
+### Backbone
+:PROPERTIES:
+:heading: true
+:END:
+#### [[ResNet]] and [[DLA]]
+#### Downsample input image with $S=4$ factor
+#### Upsample bottleneck thrice by 3 [[bilinear interpolation]]s and $1\times 1$ convolutional layer
+#### After upsampling, the channels are 256, 128, 64.
+### Keypoint [[Feature Pyramid]]
+:PROPERTIES:
+:heading: true
+:END:
+#### [[FPN]] is not suitable because keypoints in the image have not different in size
+##### 作者认为FPN更适合不同尺度的物体检测,对于keypoint没有意义
+#### Propose new **KFPN**
+:PROPERTIES:
+:heading: true
+:END:
+##### ![pages_rtm3d_1611892704096_0.png](../assets/pages_rtm3d_1612493934466_0.png){:height 387, :width 703}
+##### detect scale-invariant keypoints in the **point-wise space**
+##### $F$ scale feature maps, resize each scale $f$
+###### $1 < f <F$ back to the size of maximal scale
+###### yield feature map $\hat{f}_{1<f<F}$
+##### 生成soft weight by a [[softmax]] 为每个scale分配重要性
+##### Final scale-space score map $S_{score}$ by **linear weighting sum**
+######
+$$S_{score}=\sum\limits_f \hat{f} \odot \rm{softmax}(\hat{f})$$
+###### $\odot$ is element-wise product
+### Detection Head
+:PROPERTIES:
+:heading: true
+:END:
+#### 3 fundamental components
+#### 6 optional components
+##### arbitrarily selected to boost accuracy with a little computational consumption
+#### 1. Inspired by [[centernet]], take a keypoint as the **main-center**
+##### one point connects all features
+##### Since the 3D projection point may exceed image boundary
+###### 我们选择2D box center point
+##### [[heatmap]] defined as $M\in{[0,1]^{\frac{H}{S}\times\frac{W}{S}\times C}}$
+:PROPERTIES:
+:id: 601bc1fd-63f7-4414-9ba1-46d0bc745a5e
+:END:
+###### $C$ is the number of object categories
+#### 2. Another [[heatmap]] $V\in{[0,1]^{\frac{H}{S}\times\frac{W}{S}\times 9}}$
+##### 9 perspective points projected by vertexes and center of 3D bounding box
+#### 3. For keypoints association of one object, regress an local offset $V_c\in{R^{\frac{H}{S}\times\frac{W}{S}\times 18}}$
+:PROPERTIES:
+:id: 601bc1fd-5096-4749-b664-129aca28bc13
+:END:
+##### from the main-center as an indication.
+##### Keypoints of $V$ closest to the coordinates from $V_c$ 被认为一个object上
+##### $9\times 2$ offset用来约束9个vertexes点的位置
+#### prior infomation可以进一步约束9个点
+##### discretization error for each keypoint **offset regression**
+###### center offset $M_{os}\in{R^{\frac{H}{S}\times\frac{W}{S}\times 2}}$
+###### vertexes offset $V_{os}\in{R^{\frac{H}{S}\times\frac{W}{S}\times 2}}$
+#####
+### Training
+:PROPERTIES:
+:heading: true
+:END:
+#### 1. Keypoint training
+:PROPERTIES:
+:heading: true
+:END:
+##### The all heatmaps of keypoint training follows [[centernet]] and [[cornernet]]
+##### TODO 这里增加centernet的工作流
+:PROPERTIES:
+:todo: 1612150493417
+:END:
+##### The loss solves the imbalance of positive and negative samples with [[focal loss]]
+######
+$$L_{kp}^{K}=-\frac{1}{N} \sum\limits_{k=1}^K \sum\limits_{x=1}^{H/S} \sum\limits_{y=1}^{W/S} \begin{cases} (1-\hat{p}_{kxy})^{\alpha} \log{(\hat{p}_{kxy})} \; \; & \; \rm{if} \; p_{kxy}=1 \\ (1-p_{kxy})^{\beta} \hat{p}_{kxy} \log{(1-\hat{p}_{kxy})} \; \; & \; \rm{otherwise}  \end{cases}$$
+###### where $K$ is the channels of different keypoints
+####### $K=C$ in maincenter
+####### $K=9$ in vertexes
+###### $\alpha$ and $\beta$ are hyper-parameters to reduce loss weight of negative and easy positive samples #[[focal loss]]
+####### $\alpha=2$ and $\beta=4$ following centernet and cornernet
+###### $p_{kxy}$ defined by [[Gaussian Kernel]] $p_{xy}=\exp{(-\frac{x^2+y^2}{2\sigma})}$
+####### centered by ground truth keypoint $\tilde{p}_{xy}$
+####### For $\sigma$, find the max area $A_{max}$ and min area $A_{min}$ of 2D box in training data and set 2 hyper-params $\sigma_{max}$ and $\sigma_{min}$
+######## $\sigma=A(\frac{\sigma_{max}-\sigma_{min}}{A_{max}-A_{min}})$ for object with size $A$.
+#### 2. Define residual terms (to regress **dimension and distance**)
+:PROPERTIES:
+:heading: true
+:END:
+#####
+$$L_D=\frac{1}{3N}\sum\limits_{x=1}^{H/S} \sum\limits_{y=1}^{W/S} \mathbb{1}^{obj}_{xy} \left( D_{xy}-\Delta \tilde{D}_{xy}\right)^2$$
+###### where $\Delta \tilde{D}_{xy}=\log{\frac{\tilde{D}_{xy}-\bar{D}}{D_{\sigma}}}$
+####### $\bar{D}$ and $D_{\sigma}$ are mean and standard deviation dimensions of training data
+###### $\mathbb{1}_{xy}^{obj}$ if maincenter appears in position $x,y$
+#####
+$$L_Z=\frac{1}{N}\sum\limits_{x=1}^{H/S} \sum\limits_{y=1}^{W/S} \mathbb{1}^{obj}_{xy} \left( \log{Z_{xy}} - \log{\tilde{Z}_{xy}}\right)^2$$
+#### 3. Offset training (maincenter, vertexes)
+##### [[l1 distance]]
+#####
+$$L_{off}^m=\frac{1}{2N}\sum\limits_{x=1}^{H/S} \sum\limits_{y=1}^{W/S} \mathbb{1}^{obj}_{xy} \left| M_{os}^{xy}-\left(\frac{p^m}{S}-\tilde{p}_m \right)\right|$$
+#####
+$$L_{off}^v=\frac{1}{2N}\sum\limits_{x=1}^{H/S} \sum\limits_{y=1}^{W/S} \mathbb{1}^{ver}_{xy} \left| V_{os}^{xy}-\left(\frac{p^v}{S}-\tilde{p}_v \right)\right|$$
+###### where $p^m$ and $p^v$ are the position of maincenter and vertexes in the original image
+#### 4. The regression coordinate of vertexes with an [[l1 loss]]
+#####
+$$L_{ver}=\frac{1}{N}\sum\limits_{k=1}^8 \sum\limits_{x=1}^{H/S} \sum\limits_{y=1}^{W/S} \mathbb{1}^{ver}_{xy} \left| V_{c}^{(2k-1):(2k)xy}-\left| \frac{p^v-p^m}{S} \right| \right|$$
+#### 5. Multi-task loss for keypoint detection
+#####
+$$L=\omega_{main}L_{kp}^C + \omega_{kpver}L_{kp}^8 + \omega_{ver}L_{ver} + \omega_{dim}L_{D}+ \omega_{ori}L_{ori} + \omega_{Z}L_{dis} + \omega_{off}^m L_{off}^m + \omega_{off}^v L_{off}^v$$
+## 3D Bounding Box Estimate
+:PROPERTIES:
+:heading: true
+:END:
+### {{embed ((6017cf83-cea5-4a5c-b118-55af96d8aa7e)) }}
+### 总结一下,就是需要用 [[least squares]] 最小二乘优化一个reprojection error of 3D keypoints and 2D keypoints
+#### 9个2D keypoints $\widehat{kp}_{ij}$, $\widehat{D}_i$, $\theta_i$
+#### 3D boxes $R,T,D$
+### Camera-Point
+:PROPERTIES:
+:heading: true
+:END:
+####
+$$P_{3D}^i = \rm{diag} (D_i) \rm{Cor}$$
+####
+:PROPERTIES:
+:later: 1612240416554
+:id: 601e644d-d5ac-473f-b30b-b4eb7fea9ad5
+:END:
+$$
+\text { Cor }=\left[\begin{array}{ccccccccc}
+0 & 0 & 0 & 0 & -1 & -1 & -1 & -1 & -1 / 2 \\
+1 / 2 & -1 / 2 & -1 / 2 & 1 / 2 & 1 / 2 & -1 / 2 & -1 / 2 & 1 / 2 & 0 \\
+1 / 2 & 1 / 2 & -1 / 2 & -1 / 2 & 1 / 2 & 1 / 2 & -1 / 2 & -1 / 2 & 0 \\
+1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1
+\end{array}\right]
+$$
+#### Then projection of 3D points
+#### Then Define camera-point error
+#### Then minimize the error with Jacobians in se(3) space
+#### 参考 [[Visual SLAM]] 的 [[Optimization]]
+### Dimension-Prior
+####
+$$e_d=\widehat{D}_i - D_i$$
+### Rotation-Prior
+####
+$$e_r=\log{\left(R^{-1}R(\hat{\theta})\right)_{se(3)}^{\vee}}$$
+##### map the error in tangent vector space
