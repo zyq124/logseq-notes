@@ -1,14 +1,16 @@
----
-title: Coppersmith-Winograd
----
-
-## 步骤
-
-### 1. 首先把输出通道按照6x6的大小做补齐，使得整体的大小为6x6的整数倍，填充后的输出再加一层padding
-### 2. 处理底层feature map层
-#### 把底层复制成扩展后的输出层+边的大小,空出来的地方填充V值
-####
-```python
-copy_make_border(bottom_blob, bottom_blob_bordered, 0, h - bottom_blob.h, 0, w - bottom_blob.w, 0, 0.f);
-```
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSArWmFiUzV2SURSdlBXZ2RV
+bFNJZmpmdHAyNDU4OFZDNFdGbjVsU01ISGxFCld0YWRvSmVJb3owbG5ET0ZQUDFh
+Q0kwVUdNdzRJajhFT0p4VW5SUlRGTTgKLS0tIGllSWN3NS84dndYU09iWVBYOE1t
+OVpydmZDZlZnRlh2a3VOR1YzM0haQU0KChcJd+hy1Y2XvETrOKzgJ1Wxr+ybsbAq
+6v73UqVpeDpZ2UyzSAMGKw9IMREK6n+3kL67zCMWD3VX3TVsd9J7wZYmnphNI77N
+PsVDIezfEd+y/PtGk+0RcYjvOstdVNjlUG8XpkDNCQugPX81+/pH0LiGfC3mKiYu
+woKKSSy4Kb96nKLFuf4LwTBxwX2WVan6k0SzsNoAwfIkrWZALhiFcHJDU9KgRASN
+It6h4i6teVSCXEeiMtcaZwYJgA7STslWbCV5hkugcGS6MCiJErZjKbxykgiu65FA
+jCjluU6Jeh/Wd/n6IrHdyH+VWTGPm+v3pHZU52A+o6Fgbp2bhPQmA/iF7UrWBxgQ
+zgMKV2izfyyiTZD6ZDw5UHuKpV/4h9o/v9d9/PaaKDZt7zsfQgyTQv4fClUQXpc9
+EuwyT1eS3EP2hAtxbSqgjM3BlHmmsQKsUfItsBcNAdIoF7hxzofFDekCdKCSxB2w
+yFfVILLbtO9vmQat/HVZO9YpGZcw4msR1L1/zoxSeWOJ+sS98/icUUli7+WH0RMD
+eNj3aKNyARVb1Beaj4x1QIrpb4gdjbUCZUOOyCEjH+YJu1ECYnE6JmHRVOA77fMB
+yIPo27A2QFjTeRE=
+-----END AGE ENCRYPTED FILE-----
