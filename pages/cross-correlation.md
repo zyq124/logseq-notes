@@ -1,21 +1,17 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjVEIwZE9mOTlQdGRmZGdn
-OWNTSlpxeXNYdWhzcC9xNktDWkJRUU1vVVVVCjJiZGZWdExzTVpzMjlXTGRlWHJp
-QUxwNk9LSHdEYkgyV0FOUnlKcVUwNFEKLS0tIEw2SjFpclNYQVpzd0ZhNnNJcHVm
-eUxtNUpvUlRSRTQ2R1AzRGl0aGZ0bVEKU3TTWugGQ8EcPUUinnNyEJ1LDuUNS/B5
-VNe0CpuPNCZdtmubHjCi5M1Ht5wq/uRhJ47WyXs6iW+hQuqYZMsaUjYWFO0zjnOO
-HPQOy6yk4KG5T/e7LQH48mTGLziP96RMVcqkCbuAtvyOwed6zl+OYxvhwFTzoFfp
-fHGq+Yhy8cWK0QIfwpbKp8Zcwaweek0jQJwTodiEkCya2yrXu5JaNZIvW5pBiZzr
-t36s+W7WMa/5V5oRGDeiGKNj4J/Xsp/ORG044H/psVVvUkTEYRDf2xSa7/fS5dbQ
-4vKFu+YW9snK1d9yFBmBBXlyH+KZH+NvY128OzQhoFrtyPEgz0m13Jf+8mEXJvah
-CfoHtS0DQ/x1ullfR1vXKAmOi0l8qHBycKtbdrc4RZLCtfqtdxNk6k9gBcTy/Eba
-W6efIyfJDldcDHvciOW2FElzrZEnioSUTiKQ8wKvRqPjNzdf5TjF3dofE7+p9/je
-kgviA5UBCtMXMoY489IxCBTnDyA41vy+JFDVgbydMj938SIP7nEMi/V+85ZTJ7uJ
-pdxxztTUwLZSIZv5Z9ApLsGahB/GTRf0jTIoKGTHADIu2Ml29PSH2VYFmHpYAhTW
-FgGqHSSY+ycVb1go/uINNWqnPyWrIp5NU3Uwbe2VHl+kdykyaAXl0ugWgVmEyAXn
-cTUKD7KCmq/9yio9+7hyd3Fsu3dySGvTdch6HY/Xaij4me8AwJMH3ylImOkVhWHX
-pN27aMi0xkCbM49rCgE2a76CaR7Ebpfa79lWi2tGSnf6hYx9n/rZ/QwEm5rArcbL
-UStvCIBU2qaHOwcbgUHjPecavIzlR+aiOaGvwNxqjyi5bm4DTAqThdHjTU5uTyln
-BqeoJyWVDSS+fQMjytFmwv7Anc1W+TtQR6+dZX8HD5TlkM0uwkXxlvw1rji7ZKwv
-G5/2cfWBIN33jurCf4jeqjAkIg==
------END AGE ENCRYPTED FILE-----
+---
+title: cross-correlation
+alias: 互相关
+tags: [[信号处理]]
+---
+
+## 
+
+## Given an image $\mathbf{X}\in \mathbb{R}^{M\times N}$ and [[convolution kernel]] $\mathbf{W}\in\mathbb{R}^{U\times V}$
+###
+$$y_{ij}=\sum\limits_{u=1}^{U} \sum\limits_{v=1}^V w_{uv}x_{i+u-1,j+v-1}$$
+### 用$\bigotimes$表示互相关运算, $\mathbf{Y}\in{\mathbb{R}^{M-U+1, N-V+1}}$为输出矩阵
+####
+$$\mathbf{Y=W\bigotimes X}=\text{rot}180(\mathbf{W}) * X$$
+## cross-correlation和 [[convolution]] 的区别仅在于 [[convolution kernel]] 是否翻转(flip)
+### 在[[CNN]]中使用 [[convolution]] 是为了[[feature extraction]]
+### 所以cross-correlation和 [[convolution]] 能力上等价的
