@@ -1,53 +1,20 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBuYmhaejdCZ0ZoZDVjZWRZ
-QXdna2VtZ2ZHa2pjN2RZNmRFMkttMzBiSmk0ClEvYmNOenZqWFNEejdwNUVDNitH
-ejV6SG90ckxGZ2xIM0FwUHNxWUVMN0kKLS0tIC9zRUZKWHJGMGdRUUUvR1VjZFhV
-bHYwdVZXRTIzUG40MVM4MzNPcGJGaGMKencQ+8K+ia8u2+6fY/7tXCmw9vSxsqOU
-tS48ZTQITE0dxMW1w2dYlgIAOi6FAAurGVfUptP2K17UmmnFkZlDTQbICr5FGZnt
-y4LP5LMXLw50pP8UerZ/fL6qYEMUL6j5+E2PlzelI3r0ELkjLtlT2BpEx3qDkqu6
-jaxVjr5x/f9XF+UYiL34wwsjzZ6TyMDVGnGhNeV/2YrOqEuhAlqIPuBRcgp/7Few
-nAJMu4uPYjSYkzmynNwgGduPTYHYDR9r72L6SLuNTgOxHHk4iTnpW8+iYSj8voXw
-q6iVGIHlvhW3nybgZAXJwJNrBAVuOJXgzEqe0A6InyAG4ex11cHtMaG/SsbZ4DHO
-rIcdvkNWWX7Vfcm9okHPpq3YARLLPGBuKc8th/Dc5SN2/VsyWATkUIXEiTGf6bqJ
-ocDXHwk0N7DlqujV2HcbPVZa9JxVq+xrljL/d2cprfgy3nM9a7DUxa2Fo0OAiPS8
-u9MUNYWjNET20j/iW1wbtaVxbG1R+czUgqLtQ3iqCCMY6XBPJXLoc8t4zr+IVl7D
-6AnutLfkI6U0DEZWmrLnypH5/ES4qXKKwq3+8BUoG+L3wedudwmBvM5/QEynpPsI
-xTcMIdOZdu3UC3TtFbZx38Z4kUrrgZD1NVIIj3JFB4CBmMVfQFo5bLmysmv37H+P
-EV8/su0c3bqWcuDAiS3kN8s/oTGFkL47pVE00dpmsOh7Uh5fH0P+vPef/EHr1ott
-61vMhgL3hHtL42zJh/M4ua7K39FEz3dHX6/q98cpdBX3d3mekaucMHZjeguGnjm8
-1sXkg3MT9900+Pqd1AZQ+zlugq3PclnACRdi/M4hm+lkL+AAPpy9mvP+fpfVOL8p
-OSCTblW95zUp5zl+efY1BNkbzJLIuo/OmN0TEcnfNtDnvVmSU7RM9R3g27PqWgvt
-Yg9VVXWFGfyiQgeV5NbwKp0wGmWBD768ScpiinwKcoUWG5eA29LPcqGl/gVmvIY+
-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
-ixX81oqvIeLMMdvh46c=
------END AGE ENCRYPTED FILE-----
+---
+title: my contrib
+---
+
+## Unify global and local image features into one auto-encoder model to conduct image retrieval and keypoint extraction tasks simultaneously.
+### Motivation
+#### With the recent advances in robotics navigation and visual SLAM, loop closure has been studied substantially. To address it in practice, both image retrieval and geometric verification tasks need to be accomplished.
+#### Therefore, keypoint extraction and description are required not only for local adjacent image frames as structure from motion but also for the system to validate whether the retrieved image pairs share the same landmark overlap via epipolar geometry.
+#### However, traditional SLAM systems take local visual odometry and loop closure as separate stages, thus wasting a lot of time extracting both "global" and "local" features, with different models, resulting in redundant processing.
+### The contribution is to learn both the hierarchical representation of an image efficiently to extract an image's global descriptor, local keypoints and local descriptors within one model.
+### We also design a procedure to enable an end-to-end training pipeline with self-supervision and triplet loss.
+## A versatile localization system with online and offline mode and multiple sensor support.
+### The system builds a multi-view stereo (MVS) pipeline to obtain the trajectory and reconstruction of image collections.
+### In addition to online visual-inertial SLAM system, our system can extensively optimize the whole image collection in offline mode to get an accurate prior map.
+### With the prior map of arbitrary size the system is able to detect and retrieve revisited scenes to leverage localization accuracy.
+### The incremental loop closing mechanism can largely reduce the searching time by checking consecutive loops detected near the current frame.
+## Dynamic object-aware SLAM algorithm
+### The system can estimate the camera poses along with static and dynamic environment, by extracting velocity information.
+### The system exploits semantic information to enable motion estimation of rigid objects without any prior knowledge of the object shape.
+### The system uses [[YOLO]] for instance detection.
