@@ -1,8 +1,8 @@
----
-title: Productivity
----
-
-## trello
-## asana
-## clickup
-## Monday
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBuT0NtS3lpR1U3WjJnZFFC
+YUFYekt4QVBJQzlFaGI1RHRleHlNZ3FIOW1ZCm1Kd1hObDVDTGF1RDFwcis2bit6
+Y2VVV2k1ckptUnc0YTdoMGQwaFcvU2MKLS0tIGlwOXhjMVM2OHQvaFBFTnh2TEU1
+ZVdKWG0xZ2JqeGhpdHl4aVBVUitaWmcKf1GC80YCUSstqvKR7bg5Gzl//TtMKGH4
+jeLDxzLdxQKkdBKgHx2Rzq1qhzODDmcgDcZNMbb9hCyzm0+VNur0D6itVs01Iqlh
+iSBxmErtzWma2gJZmrZOqnL4xkP11Id7/3xccs8=
+-----END AGE ENCRYPTED FILE-----
