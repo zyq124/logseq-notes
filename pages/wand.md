@@ -1,15 +1,15 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBVN0Fkc3ZaS3NWUnRPQ21P
-aDJHM2E2dWVETHlRU1Joc2ovZmJUZ3FaazJZCjlTSjBTSEtGc1lLSHg4cmJoRVp6
-QVdwWHh2YTdyNm05YnN3TDJqK05xb2sKLS0tIGJqNmZPdmxnajBnMTJIc09YUnYw
-Y1RQRy91SmRTYW9rVHVnc1VvVjcxOHMKoPYlbCVA/R8C1kvT1xhUYGG080u5RVgm
-Wh6o2rKe30AaPyrMn0vVff1sNAQYiHPHmG+U9/pHO2qGH2mdQR3L5iBc+1uflApT
-rNrYwephVGeb18l7fpaXV6Eg6XhUDkr+KmxVNORnw3Co4x02TBFeC3eo0L2Yq89j
-5Ghdfy/2w7YlWCIaNHjO6VAEv5gvs8pcY/oal2ZeFNPNO+Z2CLHfGfH43gHE/p9Y
-IJIq2tVXaCce2WqJGO65cf1PW/IX1Z9Qa1Ns0aobZBK5M1Mu+oPPg1IK+m6QnHvk
-u0GJsWr0JGVWLlqJkJESBXVY+4amdJBx4WMfbHjQlxeSxgjqIJ45MddHJCIX8BDp
-MK6e4gBqwa8B2LQL8MO7qveiodbYaEdUqaXjbeFrnPcI5KmI7sCmWWqDT3cJQGia
-l6sXFyEJciucX5sf2nmOZj5CfxWngJJF0b+nCRL7vLKKK3TkUn62/tUJS+IeERa3
-IFw0eKmALHcdHcvPI1PZRj1lbHUUMtNmmIW4KQb+GvSVwfBtHrAWcP45xaaTB6kO
-YuFU
------END AGE ENCRYPTED FILE-----
+---
+title: Wand
+---
+
+## Weights & Biases: https://wandb.ai
+## `wandb login 9102b6f7f0b01ff77a0c132e5873828e1d104a55`
+## Support frameworks
+### [[pytorch]]: https://docs.wandb.com/library/integrations/pytorch
+### [[tensorflow]]: https://docs.wandb.com/library/integrations/tensorflow
+### [[pytorch-lightning]]
+### [[Keras]]
+## Modules
+### Project dashboard
+### sweeps
+### reports
