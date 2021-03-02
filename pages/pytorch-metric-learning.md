@@ -1,16 +1,13 @@
----
-title: pytorch-metric-learning
----
-
-## #code https://github.com/KevinMusgrave/pytorch-metric-learning/
-## url  https://kevinmusgrave.github.io/pytorch-metric-learning
-## Modules:
-### Distance
-### Loss
-### Miner
-### Reducer
-### Regularizer
-### Sampler
-### Trainer
-### Tester
-### Utils
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA4L0RLeTN2U2loeldyRTI2
+eko4U01tVTgxczNtY2M1OWcrcDNJUlU2UWh3CmV4dXc1MVU0SFhPMVhQemZUTWV2
+cVNBK0c1ZzljTEEzdmpMUm1OaVQyTGMKLS0tIDFoNERXQXBOK1pUelprVFFxK1Jj
+cXNFYVZrTTRlLzE0OWluWG5mTXRYRkkKYmuKDeLxF+kUDldMhkbt/ybR33Gfkwof
+Brsf26KEedWwND0y5Xel5RPxwudnrEqpqwqdRN7IO9SUNeRmYSxdOX40Pn/uo5lx
+Wt9THtHP06nupqQrsLXq9dn+0RHzRIfJNaZoHSONArcgBPIGpak0ZJvIfPO7qRwi
+tahMQU0UqVN5Np/ZCp+Ijt1+EyrFfDxpB+NCwbfsri5P0KSVYRwPml/G6E2h783E
+5KH46K5ObNx9gZQessc0twCFZ1lf7L+2QesUWfbHeHowHFji/oy6n9iskGi9ALC+
+53Oc49RcIAzF2oMdnxS08jFPmAX/uGfB35Y8P5LRuk5y4UY9BWY6htO5q6xIM59T
+w9MarNuunjkgvqq2E5tp8UoSn2/uHgfF/AWQg8VUVXfxg4wmE9b+c8TP/3IKD3qk
+uwOrMtHj3Aw=
+-----END AGE ENCRYPTED FILE-----
