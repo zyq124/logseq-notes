@@ -1,21 +1,22 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBneFNEdVdrSWYrQ2RiZWNY
-YnRadjI0emhKUW05UW9XVEpDTy9oSEVqdW00CitJaW5wUzNtMXhEUEFIWmE5a3VD
-aTl6VzhsL2JFRTJXQk1DdTlpcmR5MGcKLS0tIEJLY3pnTmUrL3dPWTJEOFNyQ0Qv
-M1JuVUtGR2tSdGV2KzZsMDlKU09tczQKE/p8kYjpTs9EqlTgmxDiuboiQhPepL/X
-m4D7yM3wYnpKRqL1qpoWWSYcJ6ZjIr8HSBSntCF2QZTs3wxKYCJCPlNkRtlEM52G
-Irgg2ALmNSQOSQRAPVR2xX6QnHtF/peA5ydklfqRMUP8wHM7Umt34UWieDHSq3J2
-VIMJQrLsefOv7PdIKzL4Z/ykmuBwSnU0FhJvUsUaQAZdph1Z04x6AJGruLHHKYaR
-D5v1FTHCVAMGY8RQTOgnzNNEkyayYD7XbFl5jsk2HsFliuHBmloP9NMVL7iAdzPF
-6YnKoIkWnW9cTrg7Ee6CkZOhvT4lK+htGdTmjq+tW62zHCUbOzwCOgDSogrhZ7+O
-2Epl/ci63eAG7ta2ol8HrxUNcd1vunkopoDmxpT97MY1WliroyyeFxJYPF3fdEbN
-D9j2TyXomLX8szp0alvKRdhZNjkI7p5J1YT/iEMmW4rE6JRAi58pnsV87DBbvImk
-IIKwEvnBPECHzqMMFvqopm709BNYIcCCLe+6tDEj57jyjhKGx8wzs3vhf4B1vRU2
-nMOijL2shTRPsnEEZO8D/IiAmXuKUkwUpYop6EY2Rw7U0l8f0HRssEQIfINB5JQQ
-Yef9A8Efa64nudVN3gc2jlSkRi2YQgm1NvJjf7SHY0kWbudbSUJyB3k3cDwMa/lA
-/4OIVdid8rpjbiryYBFQxN/95FOjkIXdEFX07Veq1ldLODVsq1kzZg5jA5XBwU+A
-S+JDf5luk61P3XMqiGNUVBHkqgSPq8Qep4o0PlfokQZTLt/mR0gU35CFdCone+Bq
-JkzaCxYFYBYAp01TG3Uak2T9bJc4S8vW7mrWCsmF9JZxBA9umdfYMR/rHadi5gn8
-N4u1SaN+ZPKBzrQQYQ2T4hpWivpLQ+LRjQwbV2hCEhUewnSyXsiqHjKeR7b9EgFe
-DSZNDF+04bWT7chI6PfQJRs=
------END AGE ENCRYPTED FILE-----
+---
+title: sequence-to-sequence
+alias: Seq2Seq
+related: [[attention]] 
+area: [[NLP]] 
+---
+## Input and output are both vector sequences
+## [[Encoder-decoder]] strucuture
+### [seq2seq model](https://i.imgur.com/0v6b9d8.png)
+### 缺点: final state cannot remember a **long** sequence
+#### the decoder looks at only ^^its current state^^
+:PROPERTIES:
+:id: 602fb310-8bf7-4748-8f48-d08f07aacc17
+:END:
+### $O(m+t)$ time complexity
+### [[BLEU]] score是评价机器翻译好坏的标准
+### So need [[attention]]
+#### [[seq2seq]] model does not forget source input
+#### [[decoder]] knows where to _focus_
+## Commonly used in machine translation, image caption and [[NLP]]
+### [[RNN]]
+###
