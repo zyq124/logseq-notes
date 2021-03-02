@@ -1,42 +1,38 @@
----
-title: Siamese Network
----
-
-## **Scalability**: for [[supervised]] learning: need to retrain new objects not in our training samples.
-## 1. Similarity Learning
-:PROPERTIES:
-:heading: true
-:END:
-### Siamese network = shared weights
-#### Obtain an encoding of the image $f(A)$
-#### Compare the encodings
-##### Distance function $d(A, B)=|| f(A) - f(B)||^2$
-##### Training: learn the parameters such that
-###### if A and B depict the same object, $d(A, B)$ is small
-###### if A and B depict different objects, $d(A, B)$ is big
-#### Loss function for a **positive** pair
-#####
-$$\mathcal{L}(A,B)=|| f(A)-f(B)||^2$$
-#### Loss function for a **negative** pair
-##### Better use a [[hinge loss]]
-#####
-$$\mathcal{L}(A,B)=\max (0, m^2-|| f(A)-f(B)||^2)$$
-##### Brings the elements further apart up to a margin $m$
-##### If two elements are already far away, do not spend energy in pulling them even further away.
-#### [[Contrastive Loss]]
-##### {{embed ((602dca30-8789-4c00-8cc9-b034eccd08d8)) }}
-### Training
-:PROPERTIES:
-:heading: true
-:END:
-#### Update the weights for each channel independently and ^^average^^ them
-## 2. Triplet Loss
-:PROPERTIES:
-:heading: true
-:END:
-### Triplet loss allows us to learn a **ranking** among _anchor_ samples (A), positive samples (P) and negative ones (N).
-### We want $|| f(A)-f(P)||^2<|| f(A)-f(N)||^2$
-### [[Hard Negative Mining]]
-#### ((602dcba9-ab4b-4e7e-8477-78254183d3ec))
-#### ![Screenshot_from_2020-07-13_11-42-50.png](../assets/pages_siamese network_1613614107790_0.png)
-####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAzSGFRUVl3Q3BCMEhKZXQ2
+SlQ3YVNUbmdHZElMM3hhWFF4WFZLUEU4dHo0CndiaFVWK3RwTHRsWnhmRGNVZDRy
+eWhLU3F1Mkl4RWtaa01HUk5yekVRSjgKLS0tIE5ZSGtrenFuNkhvTEtHTEpud3pt
+YWoyVnZ3SE8xdkdIQ0R3aHlIQTJkdHMKv+ut4Ce3NFnfIqJE/fxoGYXzi1Ab5+A8
+CTKrBSyFJsWJa6MbQgoji+rneQS/R8tHbcABZ892i0qsFDVWVwzNxSyeKijzXIjC
+06sd0kg5nh2gd//m1AXTIJVVpomZg5oMBnF2MqUHsiCbM75RXb0CQQTuion3hhYr
+Njky+NucRJGaXKqIonEgf/p0xfLN2pxCF5hlJFfc297PwjlrMPQ1HSOjNRGWQAkN
+fUFf6V8gzjZFq6gx3ob2FVNl3cMLfY5wESo9WbAu7faucixlDLafSblmN9nkLiYj
+bEHdznY4o2Xw0Z8GelEwtQ4K8CmwycwuTkF9O3IQh+owJ46RULvkOf6Hh1RuaQbf
+wSJdxb2a1cZ+YoVfGpOywn1jjCmjNIPrHlG5oIv03xSnsdmsekm+UG2f8HlS46C2
+SsFRRCbbDkV2sLikBGcLzyHJmF+wf84MuS4Lw8eEtbcNzfv0NW3fNVSZX7IisHF8
+AF2EJWRHRfsyoeC6BMfZ/2k+WbflMpl9BjZJDgC9nqDcMRzj+AsutXwu4iVXhu3a
+0CqkmD3g/pjBvRrl30cco2hnFPOaCza+CYEoeRbiJ8QdBgb/wRPTW2tzrJLvl5Cb
+JodZ/N4jVflrkKt277QrnTZnf73khSThQlEvNV1ImR2UpVQFjzK//x1nmEVzPy1V
+QzT0GKPF46goc85cfN6zbREoCdkeBRc3s3S8YS2yE3JzNlEr+LqWVwAZPJGqka/N
+1hnTqvYHB8ag1FeO09bd2JpLEd6dUfA2uOpqG13UqAy5BdCc0JKQdZ+AOTNx00Y2
+OQ3EjREhFIDtPXVtT+Ac2z83lioD+pOKd6wRunVtTqudwb7cy8QnoWZjiNsoLpg+
+13/Dp+iTfk4wNMHg0Iq17/efhL9FGsZfapdCfdD7yCe0BSyHVhQ+ETYsW9FEF10s
+bUdgjQvKWotENDYVCIfziXTG8RTVAiFKPZffJvxhK9pfKjHStN78FEh/Xk54/GGU
+RdHHERa9G35dsZ3t0RHvJSYEQHKG35SUjk6RaMu0sCcdVB7JrVndBG/wK7Vk6K1L
+2yh+pC69ctCp7MpDtJmCtqcGcyQpVSLiGxp4APUwObzQgxCNYbSwsG1GBZgJXmFR
+1n1LG4SldDE+hox4t9G5enesx0nqh8VDnBpIRA8D4tJC17SBVnbmq2+JxQ5SQlFa
+PHOIaKbPTdjUlF0MJyIWGYI+2/Oqy3RLwj8bJRuJ1V7KZPH5LYMtEKdtE1WKgmzb
+5ZwGwz4rzAW+ag2wVNQCc0soaaIdc+9jFOGG3LqiChUWYykiqlGmqLoaQ3EBjY61
+nxMGX7dnum/+vFnhaE1T+mMZbjVXmTYK4R5ezoh96kkmPu1KfhCdqq9dnkQOCnGe
+0xkXLuUXDpgNocb0tYXQgPj4ilTThHv8YKwdMRZ8z+hD5u6hUwEcdESkpD6JfKGh
+1QGMIWhsL9NkqsUh5OyIld0dfXBE+xy7QRI4Tfnudx/TOwJFGv4DqcHTYa3QoyKt
+PfdDVWc5arKG3+VHya2y5832o8RRaZ0JH201QZ5IFFjmy73S69YWuDLohR+/5VuY
+LkzizuHfkDjDQoEZW+hgGQC3tVLV/pSQM2qLHwnAjqzJnzLYf/UFdQBXmkbes3ZM
+VUXMLrqIX7zHp0+wO8TRtTcicD0flTT7jkg1NG1A9ijqwhuosH/hgnYmN2YI1bYN
++NAkkmhm3HohTDmFBW8Jcb92IpMStKxxYAxsjXKmFnObteW5kyTOvf1d7yH6jiXv
++s7WfFexGjk7Hc10p89Y6zPU3uufkYDH84acTDaDP7QQCFkD4AnBwaUMb8tcsgvt
+CYxRYeigtE4y8eTd9IOrMIQecdA7pgbmZCNyMEfF6JjjeONnMvwj9i24CwMHlaqA
+llh7m3oLXID61nVNXLA+AEqsysWiPpYkU19WCtkKfnh3K85YxNnvoTrTPmwoWSPT
+jCJtqKUcgTGwHLiRJJWeOv9wyx+vvr5r6UKUq+QNNkCnCwJuoDqzUAbxdyMI9NDA
+Jtsosd2yt9bdYJYMQqCGdQNA8hk62hRqnHKNFiVJtNJcBBKVGZ7b
+-----END AGE ENCRYPTED FILE-----
