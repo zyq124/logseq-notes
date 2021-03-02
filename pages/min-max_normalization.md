@@ -1,12 +1,10 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBhWGljajJ4QmYxMVMyWVMv
-RUZ0R1BGYU9UcVpjVlE5RXV5ZkFpK2lRc1JZClpwMEVSM1BFbWtMYkN0KzJaVXVK
-VWI5VGZOcG1jZ2dNamVTbEorQVhURWcKLS0tIFZSbGdFZWluSitLQnJDRUs5bUhV
-Tm83Vzd3cWdOV3pqeVpoSFlKRjkxWXcKlG6SUubEqhk5pGuhsfIg0OTd00pSVvyh
-4kXhEf39Hqy3mlrpykFUZ+xlBQeQGiCiWUiqDxR9etmZJpU6wlwvK7a5aZWQ9L1W
-MDWUduvHXrhT5dFvj3bsM9jcONh9ENvsLfaFe/O7Nc7pZGzgqFAyRB7qWpkbGiPR
-DzHElz9CJAI/+rkAxU7FhOp7HIths1v+5FqR2IK0QO1Iuz6S44Ly79DBU6MeDyk6
-o94RSDM7NdQhPZM19kuI4sEsSpxZsLccogd7YS4oQDCta8MKBlMJk1jCrF88XH63
-xxHUsQPbL7xV+cm/IjpatcPp6CoSZlieJsDytn7hAW91l8aUNDybpUdNAMuNccFG
-eDNP1U9ZJTowNafOHPVunjwCqVAcwOvh7iAOc6ozREnVuqjt+ZmK5P+hWGd5TZCe
------END AGE ENCRYPTED FILE-----
+---
+title: min-max normalization
+alias: 离差标准化, rescaling, 归一化
+tags: [[linear transform]], [[preprocessing]]
+---
+
+## 对原始数据的 [[linear transform]]
+###
+$$x^* = \frac{x-\min{x}}{\max{x} - \min{x}}$$
+### 当有新数据加入时要重新进行数据归一化
