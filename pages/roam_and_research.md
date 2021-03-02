@@ -1,21 +1,21 @@
----
-title: Roam and Research
----
-
-## [[smart notes]] [[Academic]] 
-
-## url: https://www.roambrain.com/roam-and-research/
-## 1. Storing research
-### metadata template of the source
-#### type, title, author, publisher, year
-#### keywords
-#### abstract
-#### highlights
-## 2. Recording research
-### present how research was conducted
-### provide justifications for the methods
-## 3. Writing
-### 1. Prioritizes writing over organizing,
-### 2. Links ideas together (manually and automatically),
-### 3. Harnesses Return on Attention in ways that other apps cannot
-#### the more you use it and the more notes, research, and information you put into Roam, the better it gets.
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBwbHpoTlVBK1hYOHdnY0xR
+MzR3dWZLUy9CdXE5WG03a3JqcFNpRjludnpJClM3UGFKMTk3T0E1WjdieGRQOTNr
+YVczd3JFN3JCS001ZTI4N2U3SGdYSjgKLS0tIHJqSGFON083WVJwbmdGeVdUMkhp
+RHRSWEF2TDhUc21MazRzMVF4ZC95WFEKb5krj/Iz6aW1PVXxg4HUfLDqqnzH3/p+
+YivsgP7W1FvxRcjbcVATUU0Uv/ckbI17FQETatguSEJHxPBp2K5/RRuuh/mLLcyu
+I4G7E1YQaB+VSLyDnRg0Va8p6Y8K71pvNjn1NWaqmHBrgieYbM+AWPDdkYCNYER8
+SpW8Z5/yVqUbq26jWe3MNPTV7PhGVdDpVbNlUK1rX+6qffGaxgoo1GEcGMNDlJZg
+ERDcbBE+rnRlxW2B+dGKEw88SROVQRK3piHGmbS87ujgIgjAP7oA9hErqSSB/lIU
+ScPoJdXTZ/KmuEv3iv/N9840itw9NC2FWKCR/YxLXct1aTXSNLK9DWh5jZJgs49y
+gCYdtw5R7T4s+DGQVzkKCYAa25RxduYuhRjUTi2F3lNX2uLYyKkcxPdqu2sSYDRG
+8cWj2Sk3VKyJWA6fLymFQM4kOI0k6LH32A4nsBhrCXvEkItPEfy+1n6P196k9fEx
+54XIvopv2J0z2lKkv0D849P9WB3PS9EfiIEKh98Pezmy3rdFv71X0/N5Xb/b0Sph
+GLTlGSgM3Y/Ej3Oogv9xkuIGrCz6n0HmbTNuX6hv8Ui5VKMlI+nPPI0IsMf5CSxm
+n3qbhkI0YecQL2DH8MhnJOhwiJqWPZawZP4+pZg4HmpXJ+6PFM4HLjtIoZJvRfnA
+pWZlnRHuHR+1gsMQ1U3EvhZUwpGMcSzYaNAEykKZn7oZ2dUYpXKI7iyLpW08pHlQ
+bHYkm7YBZaG06uySJkVxX8B/F6AEToQhFSts+NOHNEwjvHUr86zifZvUhGyaxScy
+0ydAAZAAxJrN0yghxbbB6SjFTsQj+U0iwsedML3Ky8Ss4h84n9wKXMbONpGKoyYp
+OjM+BU0n8PRRkezVFaiCoY26M6DP0mz4EIxrzaOaCLaWHmCFMeJeYQ7TYHl6nS/S
+cxvU
+-----END AGE ENCRYPTED FILE-----
