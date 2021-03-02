@@ -1,151 +1,211 @@
----
-title: Point Feature Representation
-public: true
----
-##
----
-alias: 特征点参数化, [[feature parametrization]]
----
-## There are two main parameterizations of a 3D point feature: 3D position (xyz) and inverse depth with bearing.
-### Both of these can either be represented in the global frame (全局坐标系) or in an anchor frame (局部相机坐标系) of reference which adds a dependency on having an "anchor" pose where the feature is observed.
-### To allow for a unified treatment of different feature parameterizations $\boldsymbol \lambda$ in our codebase, we derive in detail the generic function ${}^{G}\mathbf{p}_f=\mathbf f (\cdot)$ that maps different representations into global position.
-## 1. Global XYZ
-:PROPERTIES:
-:heading: true
-:END:
-### As the canonical parameterization, the global position of a 3D point feature is simply given by its xyz coordinates in the global frame of  reference:
-####
-$${}^{G}\mathbf{p}_f
-= \mathbf f(\boldsymbol\lambda) \\
-= \begin{bmatrix} {}^Gx \\ {}^Gy \\ {}^Gz \end{bmatrix} \\
-\text{where} \quad \boldsymbol\lambda = {}^{G}\mathbf{p}_f = \begin{bmatrix} {}^Gx & {}^Gy & {}^Gz \end{bmatrix}^\top
-$$
-#### It is clear that the Jacobian with respect to the feature parameters is:
-$$
-\frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} = \mathbf{I}_{3\times 3}
-$$
-## 2. Global Inverse Depth
-:PROPERTIES:
-:heading: true
-:END:
-### The global inverse-depth representation of a 3D point feature is given by　（akin to spherical coordinates):
-####
-$${}^{G}\mathbf{p}_f
-= \mathbf f(\boldsymbol\lambda) \\
-= \frac{1}{\rho}\begin{bmatrix} \cos(\theta)\sin(\phi) \\ \sin(\theta)\sin(\phi) \\ \cos(\phi) \end{bmatrix} \\
-\text{where} \quad \boldsymbol\lambda = \begin{bmatrix} \theta  & \phi & \rho \end{bmatrix}^\top$$
-### The Jacobian w.r.t feature parameters:
-####
-$$\frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} = 
-\begin{bmatrix}
--\frac{1}{\rho}\sin(\theta)\sin(\phi) & \frac{1}{\rho}\cos(\theta)\cos(\phi) & -\frac{1}{\rho^2}\cos(\theta)\sin(\phi) \\
-\frac{1}{\rho}\cos(\theta)\sin(\phi) & \frac{1}{\rho}\sin(\theta)\cos(\phi) & -\frac{1}{\rho^2}\sin(\theta)\sin(\phi) \\
-0 & -\frac{1}{\rho}\sin(\phi) & -\frac{1}{\rho^2}\cos(\phi)
-\end{bmatrix}$$
-## 3. Anchored XYZ
-:PROPERTIES:
-:heading: true
-:END:
-### We can represent a 3D point feature in some "anchor" frame (say some IMU local frame, $\{{}^{I_a}_{G}\mathbf{R},~{}^{G}\mathbf{p}_{I_a}\}$), which would normally be the IMU pose corresponding to the first camera frame where the feature was detected.
-####
-$${}^{G}\mathbf{p}_f
-= \mathbf f(\boldsymbol\lambda,~{}^{I_a}_{G}\mathbf{R},~{}^{G}\mathbf{p}_{I_a},~{}^{C}_{I}\mathbf{R},~{}^{C}\mathbf{p}_{I}) \\
-=
-{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top( \boldsymbol\lambda -{}^{C}\mathbf{p}_{I}) + {}^{G}\mathbf{p}_{I_a} \\
-\text{where} \quad \boldsymbol\lambda = {}^{C_a}\mathbf{p}_f = \begin{bmatrix} {}^{C_a}x & {}^{C_a}y & {}^{C_a}z \end{bmatrix}^\top$$
-### The Jacobian w.r.t feature state is given by
-####
-$$\frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} = {}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top
-$$
-### As the anchor pose is involved in the representation, its Jacobians are:
-####
-$$\frac{\partial \mathbf f(\cdot)}{\partial {}^{I_a}_{G}\mathbf{R}} = -{}^{I_a}_{G}\mathbf{R}^\top \left\lfloor{}^{C}_{I}\mathbf{R}^\top({}^{C_a}\mathbf{p}_f-{}^{C}\mathbf{p}_{I}) \times\right\rfloor \\
-    \frac{\partial \mathbf f(\cdot)}{\partial {}^{G}\mathbf{p}_{I_a}} = \mathbf{I}_{3\times 3}$$
-#### Moreover, if performing extrinsic calibration, the following Jacobians with respect to the IMU-camera extrinsics are also needed:
-#####
-$$
- \frac{\partial \mathbf f(\cdot)}{\partial {}^{C}_{I}\mathbf{R}} = -{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top \left\lfloor({}^{C_a}\mathbf{p}_f-{}^{C}\mathbf{p}_{I}) \times\right\rfloor \\
-    \frac{\partial \mathbf f(\cdot)}{\partial {}^{C}\mathbf{p}_{I}} = -{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top
-$$
-## 4. Anchored Inverse Depth
-:PROPERTIES:
-:heading: true
-:END:
-### In analogy to the global inverse depth case, we can employ the inverse-depth with bearing (akin to spherical coordinates) in the anchor frame, $\{{}^{I_a}_{G}\mathbf{R},~{}^{G}\mathbf{p}_{I_a}\}$, to represent a 3D point feature:
-####
-$$
-{}^{G}\mathbf{p}_f
-= \mathbf f(\boldsymbol\lambda,~{}^{I_a}_{G}\mathbf{R},~{}^{G}\mathbf{p}_{I_a},~{}^{C}_{I}\mathbf{R},~{}^{C}\mathbf{p}_{I}) \\
-= {}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top({}^{C_a}\mathbf{p}_f-{}^{C}\mathbf{p}_{I}) + {}^{G}\mathbf{p}_{I_a} \\
-=
-{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top\Bigg(\frac{1}{\rho}\begin{bmatrix} \cos(\theta)\sin(\phi) \\ \sin(\theta)\sin(\phi) \\ \cos(\phi) \end{bmatrix}-{}^{C}\mathbf{p}_{I}\Bigg) + {}^{G}\mathbf{p}_{I_a} \\
-\text{where} \quad \boldsymbol\lambda = \begin{bmatrix} \theta & \phi & \rho \end{bmatrix}^\top
-$$
-### The Jacobian w.r.t. the feature state is given by:
-####
-$$\frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} = 
-{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top
-\begin{bmatrix}
--\frac{1}{\rho}\sin(\theta)\sin(\phi) & \frac{1}{\rho}\cos(\theta)\cos(\phi) & -\frac{1}{\rho^2}\cos(\theta)\sin(\phi) \\
-\frac{1}{\rho}\cos(\theta)\sin(\phi) & \frac{1}{\rho}\sin(\theta)\cos(\phi) & -\frac{1}{\rho^2}\sin(\theta)\sin(\phi) \\
-0 & -\frac{1}{\rho}\sin(\phi) & -\frac{1}{\rho^2}\cos(\phi)
-\end{bmatrix}$$
-### The Jacobian w.r.t. anchor pose are:
-####
-$$\frac{\partial \mathbf f(\cdot)}{\partial {}^{I_a}_{G}\mathbf{R}} = -{}^{I_a}_{G}\mathbf{R}^\top \left\lfloor{}^{C}_{I}\mathbf{R}^\top({}^{C_a}\mathbf{p}_f-{}^{C}\mathbf{p}_{I}) \times\right\rfloor \\
-    \frac{\partial \mathbf f(\cdot)}{\partial {}^{G}\mathbf{p}_{I_a}} = \mathbf{I}_{3\times 3}$$
-### The Jacobian w.r.t. IMU-camera extrinsics are:
-####
-$$\frac{\partial \mathbf f(\cdot)}{\partial {}^{C}_{I}\mathbf{R}} = -{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top \left\lfloor({}^{C_a}\mathbf{p}_f-{}^{C}\mathbf{p}_{I}) \times\right\rfloor \\
-    \frac{\partial \mathbf f(\cdot)}{\partial {}^{C}\mathbf{p}_{I}} = -{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top$$
-## 5. Anchored Inverse Depth ([[MSCKF]] Version)
-:PROPERTIES:
-:heading: true
-:END:
-### Note that a simpler version of inverse depth was used in the original [[MSCKF]] paper @cite Mourikis2007ICRA. This representation does not have the singularity if it is represented in a camera frame the feature was measured from.
-####
-$${}^{G}\mathbf{p}_f
-= \mathbf f(\boldsymbol\lambda,~{}^{I_a}_{G}\mathbf{R},~{}^{G}\mathbf{p}_{I_a},~{}^{C}_{I}\mathbf{R},~{}^{C}\mathbf{p}_{I})  \\
-=
-{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top({}^{C_a}\mathbf{p}_f-{}^{C}\mathbf{p}_{I}) + {}^{G}\mathbf{p}_{I_a} \\
-=
-{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top\Bigg(\frac{1}{\rho}\begin{bmatrix} \alpha \\ \beta \\ 1 \end{bmatrix}-{}^{C}\mathbf{p}_{I}\Bigg) + {}^{G}\mathbf{p}_{I_a} \\
-\text{where} \quad \boldsymbol\lambda = \begin{bmatrix} \alpha & \beta & \rho \end{bmatrix}^\top$$
-### The Jacobian w.r.t. the feature state is given by:
-####
-$$\frac{\partial \mathbf f(\cdot)}{\partial \boldsymbol\lambda} = 
-{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top
-\begin{bmatrix}
-\frac{1}{\rho} & 0 & -\frac{1}{\rho^2}\alpha \\
-0 & \frac{1}{\rho} & -\frac{1}{\rho^2}\beta \\
-0 & 0 & -\frac{1}{\rho^2}
-\end{bmatrix}$$
-### The Jacobians w.r.t. anchor state are:
-####
-$$\frac{\partial \mathbf f(\cdot)}{\partial {}^{I_a}_{G}\mathbf{R}} = -{}^{I_a}_{G}\mathbf{R}^\top \left\lfloor{}^{C}_{I}\mathbf{R}^\top({}^{C_a}\mathbf{p}_f-{}^{C}\mathbf{p}_{I}) \times\right\rfloor \\
-    \frac{\partial \mathbf f(\cdot)}{\partial {}^{G}\mathbf{p}_{I_a}} = \mathbf{I}_{3\times 3}$$
-### The Jacobian w.r.t. IMU-camera extrinsics are:
-####
-$$\frac{\partial \mathbf f(\cdot)}{\partial {}^{C}_{I}\mathbf{R}} = -{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top \left\lfloor({}^{C_a}\mathbf{p}_f-{}^{C}\mathbf{p}_{I}) \times\right\rfloor \\
-    \frac{\partial \mathbf f(\cdot)}{\partial {}^{C}\mathbf{p}_{I}} = -{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top$$
-## 6. Anchored Inverse Depth ([[MSCKF]] Single Depth Version)
-:PROPERTIES:
-:heading: true
-:END:
-### This feature representation is based on the [[MSCKF]] representation @cite Mourikis2007ICRA, and the the single depth from [[VINS-Mono]] @cite Qin2018TRO.
-#### As compared to the implementation in @cite Qin2018TRO, we are careful about how we handle treating of the bearing of the feature.
-### During initialization we initialize a full 3D feature and then follow that by marginalize the bearing portion of it leaving the depth in the state vector. The marginalized bearing is then fixed for all future linearizations.
-### Then during update, we perform nullspace projection at every timestep to remove the feature dependence on this bearing.
-#### To do so, we need at least *two* sets of UV measurements to perform this bearing nullspace operation since we loose two dimensions of the feature in the process.
-We can define the feature measurement function as follows.
-####
-$${}^{G}\mathbf{p}_f
-= \mathbf f(\boldsymbol\lambda,~{}^{I_a}_{G}\mathbf{R},~{}^{G}\mathbf{p}_{I_a},~{}^{C}_{I}\mathbf{R},~{}^{C}\mathbf{p}_{I})  \\
-=
-{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top({}^{C_a}\mathbf{p}_f-{}^{C}\mathbf{p}_{I}) + {}^{G}\mathbf{p}_{I_a} \\
-=
-{}^{I_a}_{G}\mathbf{R}^\top{}^{C}_{I}\mathbf{R}^\top\Big(\frac{1}{\rho}\hat{\mathbf{b}}-{}^{C}\mathbf{p}_{I}\Big) + {}^{G}\mathbf{p}_{I_a} \\
-\text{where} \quad \boldsymbol\lambda = \begin{bmatrix} \rho \end{bmatrix}$$
-#### In the above case we have defined a bearing $\hat{\mathbf{b}}$ which is the marginalized bearing of the feature after initialization.
-After collecting two measurement, we can nullspace project to remove the Jacobian in respect to this bearing variable.
-####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBhMlhIVzZ1UEVvRkpEUm4y
+cDBXTUFKWFljSnhXc1BUMisyVGxJdmoxRUhjCnRabWhWeTRPcnI3NGh0L0ZYYTFq
+MGJ5NS9tSlBwNzdNTTNUY0lSZTh5K1kKLS0tIFNjMGdCUSswZkNxTmF0TGJpQ28w
+RkJGcVlsV1NPWXJ5Z1MxbCt1Rlh3V0EKEgQ7Cix6FX5YNaxIdjgqI0QllS9NLnkK
+xPy4bwUWmdin+8lLACJTxbe+yEGoqee1mKPACu76eVPBtmjC/GuxHxqYd5zzu0SX
+t82LL4ssQ+MnYv8syzesv5Nnc5cbFITJJf35xNMVdtnunvnieWS+Abx9a4bH2Slg
+pSeQwe6xdDB7xAgrUA7g3+1G97ePAgSj64KtxwIfC5SQ3msY26BV01pWWUJzb2lK
+i8wZMJ91cu7yBvCGSKXpGsb7lntqvtTZGN/qfg6xG7ky011olQrpsGVHQL2k2Fqo
+OazwdlqSNWnW5BiG7SR+YRZ5KLug0XH1vkgcyKs91oCaY+U19eI3qO1BQETIFR4/
+F+/DCeWB8Ha4Jqv9sCFD0TCiq95ziHdtZOJ79zy4YTXKDl7T1hku3pzaYRcnDJYt
+4pcLLNMEREEKVJ7Fz80QNpgqASr2hsRgdMedapMWQobi2SvbwGaKNYznSb7TPbie
+OsYb8Pku64fAEsAIdXNDwcyX3neUCvJmOnMEmFUvUutK4SjdOyrRM1bES/j+pnoF
+zNc3ns3FyDmNsLiGDgp/UoJVnxQBwHXSud0Ox8P0B1y6ohrY/yhHJlAk3tnAuGNk
+/Kbkc93Re/xq0VgmSDEkVMr0QNk4LMaOaCQ7tdRx1jgZEfJ9f7iiXcYkA8GrGlVR
+dCHn/v/XO0JToJEUcPtsoLDJCmPf5vSKeF2EJVI/4o7SBi9GYSOrs2WUH2CV9aof
+y8BXXjYfgZfvUX0ZJvNyx3A6N8dISKonaxzpRRIN+x/6J7o8FaFXVTm84kvjS2ep
+HDMp/z+RfnUPIvuzxtPhAKQdT/yZGmECmXUao5qambjsNtLSP20QC5vk5yEqZgzC
+RhszQyAiNeWldpeXqdNQY/TwJnlklimolKnQW+GQeYa2/En7JwcMOSaNxKndjCaT
+JVJqhoe5bWW26sQPVHLmq+nk45ZBo6hm+QvzEE/TvTgs6Eb4OD5sCKH/4JwOluiF
+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
+HB0SwdGVl9o=
+-----END AGE ENCRYPTED FILE-----
