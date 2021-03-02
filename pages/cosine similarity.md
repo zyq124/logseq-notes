@@ -1,11 +1,12 @@
----
-title: Cosine Similarity
-alias: 余弦相似度
----
-
-## 
-$$\cos{(A, B)}=\frac{A \cdot B}{|A| |B|}$$
-## 通过余弦判断相似度：余弦值越大，相似度越高。即
-###
-$$\rm{TopK}(A)=\argmax\limits_{B\in \gamma}{\cos{(A, B)}}$$
-### #toread
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA4ZHZUM0Y2TzgvY1lWSWFW
+akU4ZG9hQ1REK1lNc0s5VkNNMTdRNnk0OVY4CmdSRWR5a1A0RTZoOWxXb1NsUytJ
+S1VDbEVKTW96SW9BSFRDdHVmYU96S00KLS0tIDRISktDUFdoNGFFaXYyRHBBd3pC
+VEIyKzlicXZUVnM0TXRUZktFWEwxY0UKkSz42dmN7iC3YbPdiWh4JfnO0kCxn2rF
+/+wbPA8/21eRq7pLZyFbgIaIUicZOrnBPzXP1Q+PoaqHlYbbyhi3tY5gGyhnptcC
+tE65b7qaVr9qEdtMB0X+eVoQ32zMsWE2zPV3EPTiKXPxZMXjRVEgZLf87sD0jgS9
+Ox1dggmO+p+K0Kr+2gG4sNzTUpM5KSxVmiy+ptzcXA2SKVaCPYeFDVEOxhk3t5Of
+JmeGUxxzXK7FTK4A1ggdeko5ECDxnEAPOv60STLLpSD4rXeXeYiMkMbne2Zohbcc
+CvNA0UV9CFV2IoonOg3CDfM6JawXg94AohL1eaxu2Y9YNBqkNrPRdZjem1gdRMYg
+wPOYXrkHCKfDUSQdN0PJa2t2k2FQ
+-----END AGE ENCRYPTED FILE-----
