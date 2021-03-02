@@ -1,11 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAxMWN0bHpwTVhtWXpGR0RJ
-WXUxcDFFeXdBZlFXaDNURGx2Y3ZBZUdRakRBCkRTZmphUnE2UGU4Um5XVDJ6bko3
-RVNRYTJvRkdndWFmVk81UnoxU1YwdWsKLS0tIDJCU052SEZTZkNyNWNPTkh6V1RU
-OGFLd3cvSEQralcydXo5cExvaGEzcFEK77dQmn0BXAAsR8navTdgGOQ5FsqpPriy
-4p1Yc5Zm0ftr+5YzAxKXRZzKUTBRBNu7mZ9c79dG4dvRaM7fhXEVYhVGPyQ5spHS
-e//wCxYbZmIbNr1GuH9UdaMAbma37p9kP2Nt2JaEWlR66n3tf0oAiGkHTWcXGliQ
-m8OCeisvA1mpIJoKgnbq+sPdxppCugkXSNk+J/G6UlD2mIF0hSvP2PrgNXShZosc
-XTlWZ8/wajI7vpvzs2ApFrdX9uCBgnxdf/HsdsPwl9/fTkyS3cmMYXDNwiOt44kd
-FsVwUYSOkVoioGa5rFh13rRVqTEeBtUcVu+JGS8Q0ZSnp5vS3+5PHc5Y3I8ZfWXv
------END AGE ENCRYPTED FILE-----
+---
+title: projective transform
+---
+
+## There is a 3-parameter family of projective transformations which fix (as a set) a unit circle at the origin
+
+### i.e. a unit circle at the origin is mapped to a unit circle at the origin
+###
