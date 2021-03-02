@@ -1,11 +1,9 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB5cEZmN1kzeUhYU0hDQldI
-QXQ3UmZLN1VzSDhoVXhsQ0tEWUVocXNKeWpVCjNLdDVtTkpNMlJQclJPbUpCVUlB
-TXZTc3F1c3JFNUh6eml0VGhBeU9jcm8KLS0tIDd2UmxRYjNMcGVOdGxSOVQxTG9D
-OUl1MjB0RjZnS2dSWHkrbDdUTjhEek0KUhVCDrCPb6wrNfrr8D//o3PrlX1qGFYz
-ePYB1AoVzkR2bog4hrg8A1fPbSeZ5LIhb/m8bclxPNmjK1j/RnCmRBnfIsCT2VLz
-QNuU59+txXfSGuoSMNiLE2RTKgAFSPITL86p6Vio/gJHt/91uNSP9bq1CO9FStOG
-Nid/vVOUn1HOZ33B+UQCAWphED4w7rOI7CR1gRfz1TIUWPz7LyAnmjqeHFfP5514
-0/28uMIVwF9iZ4tN+e+ZliwBzPG5qkMC+NI9cWxbbhaZsG5ueR17KGv/gMuk5KRx
-lUe617ZeNuBLUZBpJ9Zvy3J6+Dmx5dZlKQ==
------END AGE ENCRYPTED FILE-----
+---
+title: Sampson distance
+alias: Sampson error
+---
+
+## 参考
+### [[multi-view geometry]]
+## 一种复杂性介于[[代数误差]]和[[几何误差]]之间，但非常近似于几何误差的一种误差
+###
