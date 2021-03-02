@@ -1,37 +1,30 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA3NlRkNUZwN0tldEFpcTUz
-MW1ON2IwRFFIbkw0SnZtcHNGL3dweXE4Slg0CmszUDdrTWc4bEcxTXNTTkdrcFVt
-d3JTZ0RobE4xdVFRcTZNQ0FJNVVROGsKLS0tIG0rZkZnbU9jaGZtQk5QZXJOQkg2
-Zm1hYnJLSzJyVWhpME1zeGRWYlRnRTgKgjZKre0hJoucgGH2OU+A1mQFBc+tV35X
-KcnhlahUH0/Vg80S0zlhd3mpLqkaRErKaM3zHQmH3r3exZbJPPGqR8p5+XHRdjle
-NitZ8exA+mqb1J7E8UFnWuQXY1DDgSzcrSsHoTIMe4G+ILZWRvsfJ+nI1AB5784V
-T+8yzvZvL57dn4PrJZ38LvBkBBqEXE74KEtfOtNQGFWc6qn6UECvZ3b8YmzpRGsY
-OMsjSh+BY+nBpK5kqi3ZYvylxU/+RL5wpwo3ruuSzdZYRo5e5kz1oSFBcIifldvU
-3pjlNO1OMArwzNfyJzU/IDLY5B3nR1TJSJ2jocWDLqFzNmP6DlTV4UK1+rkUlFwT
-MA/Lvly4+cZE8Pv/gai0h3TsPIENHVr5gv1jvclMPAkBRm9S8VdvYTuri0LM+C4Y
-dpPJ5pWyTKGlxWVuOcltQeWSZxOEpcJA5p5nW9NQ7buiWSpZN1Euaxq21tHbLyGr
-waO6qQ+TUzdmqkP2JwkwTtQaO813lLUj4HRyDtVimB16XI/uc86mkx0GM6MeQ2Xl
-4pYyL707Xkdu+cAtZ0MtAhud7JDlMhYoNIW46YRKPGDnnSzDgAeWpsbw0QKnDzsf
-35OG0QtJLMKwsXPIQxHfFIGkBAC331FcVTg3ilEC6KW7R7ipQHs8M7l4TflyCRKO
-vi5YbXeN9B3tuvoh4KLX9JAGPjPvWU+xVfYh9ZpPZWSzD8gXI9CEGn4JsKXWTiUu
-Y7otZpToYvE8HAjNLIAb1LKf1tmpCM79/Vg7OP8TRsTuxeIitypA5FRcxoDwAO4Y
-0Ht20VmTNPr5gTtih/c+OUcM0guiBDujeldOzQ5Ybyu1qCBX25/a1rcWE+cHOR0Q
-S2xTn+Ai20yDnZ62L5E+bxmBGFucMtix39gMecLj+nHUCuyOLzsCdM3gQXmtb0j0
-MhcDCzEhSNwSvJSHsFBav8cbK+yJQ7jS9QX3N0abtUevNG6eMPS6DTjf2LQIQIY6
-wuyvN0qCWijmUd3BlE8bd86GNZygUu8O1wOGcvIspQPtR4kfBsbiIEVFdM1N3oi3
-5BkEs2dBV4Hc/mPoV/bIu/jGl229NcrBEOip4/NwKTZOLB2bGTaTYcOqNoVc2w05
-mgDMFG/NDjXsjmp9/sUH/KQmsz6aCD4nu2dLU2+z+IgWLxUxZcN+QIdEonJcKXbd
-oiOOO5diQU+odWa8ikrk64UFgOXOFHdPrSyG1/KKn7SBLlM38zaO2//sce20bYF3
-5Fm7fKfqMKV12099XrL1HP5UM92IIq1PYmrPY9abOn1xd/j2zoWLnQELqivIC0OP
-CgW4sIbQ1sLjgyhzBv4DwDFGFqKo9/H0BkoSu7KP74QsnLNPvKA/MF/CbaRHYIfX
-+DxtnZMDikDADB3ZFvBfxkKN35sT+5Gkn06z01TTOgnS1RehVWOt1+o0a9wig3NE
-M0L/EqoLyPhXYGTqGLc2WbfPZ2ShnaTuzMB8gZbXlB8T2cKg6odfbrLvPEX4IA46
-WPyF9QCJWvf1oLMPznlM4NW7AE3M4SdEcG+WOPT7J96JL03ueajIkm7Xq48G0uYf
-5VGXUs2gJqZKeKwdzVQDwEvZxX7AzN2Cogf/2U0DjA9hdCuIe4asy2WJ7GmkZO5E
-3RM0gOiTjdflIyp0EA67I3nlbzYD2TEbtXWwTrtze10BKyr7jZvIAPDhnpWnevDQ
-XUN4k6Am6OI2TSQC1S4Qgx34cTCrwRrxSKYhH8ObZ/hUZg/EYvd4UOj+Aw+tRWM/
-ccKEWSZhzN4gLdck7VJ8fpbQtlYEL9eMiV9bv6kB9uwv7X3GCCadAdfEVFXEBXn4
-34A8Hke0PDgCixwZcb2VWB/qINe2L6aRIf4Z9zL3N9BaRUjtT7V89bJXi55iZZ0H
-yLE8fqulFtmoPOLmvFPJatNd1zfhEL2z1hLUDgymboZmtEFYj/PR4JqxCdHFc+YQ
-5i2YarkaSSB0tCv/3Q+H9ffHgacBmOBewQbhvTqRKAX7SPc=
------END AGE ENCRYPTED FILE-----
+---
+title: DISK
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### #title DISK: Learning local features with policy gradient, 2020
+### #topic [[Reinforcement Learning]], [[Keypoint]]
+## Abstract
+:PROPERTIES:
+:heading: true
+:END:
+### DISK for _DIScrete Keypoints_
+### based on ^^discreteness^^ inherent to the selection and matching of sparse features.
+### Probabilistic model
+## Notion
+:PROPERTIES:
+:heading: true
+:END:
+### Given images $A$ and $B$, extract a set of local features $F_A$, $F_B$ and match to get a set of correspondences $M_{A\leftrightarrow B}$.
+### $P(F_I|I,\theta_F)$ distribution over sets of $F_1$, cond. on feature detection params $\theta_F$.
+### $P(M_{A\leftrightarrow B}|F_A,F_B,\theta_M)$ is distribution over matches between images $A$ and $B$, cond. on matching params $\theta_M$.
+### Solution: estimate gradients of expected reward $\Delta_{\theta} \mathbb{E}_{M_{A\leftrightarrow B}\sim P(M_{A\leftrightarrow B}|A,B,\theta)}R(M_{A\leftrightarrow B})$ vias [[Monte Carlo]] sampling and use gradient ascent to maximize the quantity.
+## Feature distribution $P(F_I | I, \theta_F)$
+### Feature extraction is based on [[U-Net]] with 1 channel for detection and $N$ for description, as $\mathbf{K}$ and $\mathbf{D}$. $F=\{K, D\}$, $N=128$.
+### $\mathbf{K}$ subdivided into a grid with cell size $h\times h$, similar to [[Superpoint]].
+#### Crop feature map to cell $u$, denoted as $\mathbf{K}^u$ and use [[softmax]] to normalize it.
+####
