@@ -1,42 +1,28 @@
----
-title: multi-view geometry
----
-
-## Meta Data
-
-### hartleyMultipleViewGeometry2004
-### Multiple view geometry in computer vision
-## #Matrix #maths #fundamentals
-### [[Orthogonal Matrix]]
-### 一个矩阵乘以可逆矩阵的[[rank]]不变
-### 矩阵的[[迹]]：矩阵的主对角线上各个元素的总和，是矩阵所有特征值的和
-### [[对角矩阵]]的[[特征值]]是其对角线上的各个元素
-## 1. Projective Geometry
-### 1.1 Transformations of 2D
-#### [[affine transform]]
-#### [[projective transform]]
-#### [[Isotropies]]
-####
-### 1.2 Transformations of 3D
-#### [[homogeneous coordinate]]
-#### Planes
-#### Lines
-##### [[null space]]
-#### Quadrics
-#### Dual quadrics
-#### Twisted cubics
-####
-### 1.3 Estimation - 2D Projective Transformations #reprojection
-#### [[DLT]]
-####
-### 1.4 Evaluation and Error Analysis
-## 2. Camera Geometry and Single View Geometry
-## 3. Two-View Geometry
-:PROPERTIES:
-:heading: true
-:END:
-### [[epipolar geometry]]
-### [[fundamental matrix]]
-###
-## 4. Three-View Geometry
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBUaWZHZi9WdUVPTk94TTlY
+Wkp5dUN4K0dRK3VLT1Y2RDQyYW9LcU9tdlFnCkJ3dDd1TVlnN1hFN3ZGODdEZUNu
+dGRManltczBycnI2WWExTVcvNDJSRHcKLS0tIFNTSU5wYmtZQkFuUFN6dTJTWFZ6
+ZCtQNTY4UkpIb2lhKzJIK0llaEVlb1EKS1ooH+JGluu/cTRsv5TnvzNZ3pjCMw89
+109yM4WFDFWZ6J9rMMT5/FHbs1E68t3qdKa5XKizpyySQhsRYFNG4yQkvZkv+ggT
+96lT74t9SCYONP484QJT673Xkho2DZ8og8NgxTa55MF8PaBc2jJEakny0OtcYUf5
+0wz0L71wT1AS4dJQgvCVmZtbd5SN1UgyT4JfGS/e0P++ObU4AJafyKi1Bzbt++aZ
+YVVZUdS4OvaDBCtWDIFLhHyXODZMXALt0rHkE4cRFZZsJQnzs9Bos+nRoJZngqzV
+sO50YlOBZJ+fBAIHnh0/XnKbgKrZ9h1+MVbatEbXrOe8Mr/YrbcDVLtJ/L2khoMx
+jYzggiucd4ojbVR6JV3vOmQqjtpOPUrEMYEoOPXlgRuZl4XTdC0Wxb788bWdf3V3
+Az0Vsxdr7u3LG0eJas6dYQDop+zNva6xvXtCT8lm1eSZGVwenkYatfqbCp+OnifX
+sVGxGCT6WDynT7oZ7kRn938sGNVEbgEBsylrxMVs/Xm/4I0sqlIxMVh/t/DWxQ2p
+93vBI8qdSiA8T1/raPlZWFZReQo7Tn9r89gI+hOFkFrduMvfm0xKhQd5eaUIPZ9P
+djzNxI6WagPLT67UQlq1APlti0irb57tbTvrVfYHsQo9GZsMdSCljkVmjji7XEiU
+w1yZWm6ff+5av7kaUu6IkBb2jzZwna+d7l7WK4tNLiAq9Rhr8mB0DQPqMdjvVOrQ
+7glqb+olNGObPoFk1FLk4rUJFgeMf57A/ANhQPLySmtfWXWMsUMLtfNYfIIk/A9w
+q68IEXoZ2vnSRcamC/eocaO+P+kE9ekKX2A272m0VsflvfdzhaTgRXWcBnL8Uk0Q
+VVPCH93sG1E/C5YQ0b89xF8jkRwouYW3K6up2qHdUsT20wfrYFATNONIjY7aMJvq
+74XQ06N1eICWq3Gdia43qqV3UzrTXyHgzUogd7N8H2nVWy72lTbsQ71ObMxIfiIE
+vnuJUsLw5nhCpZDRjrGvzpVF+d8TPJz8dTt2l4+I5lS2BLRx1Gsys9mVbJRAK2lS
+2IdWOTk0RYqmTDrOyWgKOS+7krxQeP4/EL5J1gbTdzVRMNNfohSDSF74IoeSy8mq
+XdKKJXrW6TwLUP1Yfv3UpH2VVGVsmkThFSaPbRcTGyDw9qadilNEW9Fpn3lDiCzH
+DQ4OrnCCSP4zuUXZvI2oOT8VlNtwv/4kfM+H20tIKv2uNrxvT7rNDy/ippAD3X4L
+vhYVmBFUDpnkMRUd5DJE5XhGyLyKNviK5BhE4BSRw+fv6qRtb3aSci5vfbpvpkZp
+9gWf5I/adfLpBigZLrDwbk4ke6vmQeunX0s4Xa5FIuQ7lfFEIXCdiPnerzU+3HgK
+2xsdrHrnnDt0N1FQFZp/cMaB2nE2KiptB4i8
+-----END AGE ENCRYPTED FILE-----
