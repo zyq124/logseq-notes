@@ -1,23 +1,18 @@
----
-title: Python library
----
-
-## Debugging
-### [[tqdm]]
-###
-### Print
-#### icecream
-#### Rich: https://rich.readthedocs.io/en/latest/
-##### `from rich import print`
-##### `[italic magenta]hello[/italic magenta]`
-##### console
-## Tracer for logging and profiling
-### viztracer: https://github.com/gaogaotiantian/viztracer
-## File related
-### boltons: https://boltons.readthedocs.io/en/latest/
-#### Atomic file saving
-#### OrderedMultiDict
-#### Queue
-#### Chunked and windowed iteration
-#### Trackback
-#### Mapping for nested data transform
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBlaXJiVExIRFBwZUpLZzFz
+T1ZWSUNqUHNsMEpNblEvMS8xWnRBeW5BZUFRClNVSWw3b2E1a0REZWJONHZMVlM2
+OVhRZGdPdEwwdCtybC9GVitsUUk4QlUKLS0tIFJJaE5laWVnUm9aS3o0Rm5kNFJM
+UGVHNk40dVNhTUtrWlNxMDFDSVprWEEKobnJPAayIObloj2vplQOjLd10VpYiMdh
+lEmyJvEKyq8RTDnh1dAGgmXxRStVLNZPb0N/739T5AL7TH0NKCWqPQhvXDGXb9MM
+0vaLDKCIrXHpfHwUMxb5cwhubWQ6+cY7tLv4Vc3sn/7kEOz+uMSien5BHV5BtaQJ
+63/DNUS+QSvD/7MSATR5CMDc98IhgMB9eENxLJrf+7CIWeHIHshtKv9Zga0wK4FB
+w86o7135Xm9+WBJgKevBh/wXoMz1a5BJXUmKp4YylayQn4DRgIDdgTNcYIq/qRL5
+3trONa4GYWtJ2lgKoHUta3gy1VGrbYb8b2BXqkypDwUTQ7NvINSZAuSqBypA4inO
+CChtrdeb8B2Sjeg7QoUttkmaleyYlIlxRQPNi4cOAkkKaM3AfDgoWHBykH3b8VBO
+ov8FtPHIh+OK8Lj0yGPP3H4E7ERXM5gQ6c6Yj/zssDLMkwJJgJPwqjgs2M4Ml/rU
+m9h0UTLg5w4veshk0c3s274BvnvBiI3RnCA5+/PeOfm5Pj+DDygJyTByJSTuSNaI
+StzP/+CL+6XjCJrza6VOsddAzAfWpsiiUwz4jMGK8JWFQFZ/MV362qAazgSAdOzw
+ju0t3v/GByNidcj+hwCNOYBhC5x5LOD5h8Tn27JFqpufLeWB/vK3Q7cdLdL90GVX
+s2LvewniuGnS5YdC9W1qrCKNaopkznZjCvoNZ5bZpTtWgHynV7RuZX6lfs1rgQ4f
+V1t8SCc33v/r411zzicqhQaxWag=
+-----END AGE ENCRYPTED FILE-----
