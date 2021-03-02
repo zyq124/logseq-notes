@@ -1,39 +1,62 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB2UmsybVZyN3lKQVpvNHMv
-TWhFaU03NHo1UnRpVFVqRlllR2g4ZmplcFV3Cmo2MWRtWk90K01kSWVDTyszL2Z4
-eVhVOG9YbjQxbzFOdXBHeFNqVk5yQmMKLS0tIFhHejFZU29JUG56Z01ZbmN5RitF
-QjBZd0Nrakk1Y3hsSFJoaUJOQzRJbDgKWsJQ3kpmPQar7uxZo7Z2J3bVFYTZJtrf
-+WpcV+qxMjmEAyBKTHfmjtM10ug/YHHppoQBFHRBhdWLNAacPU/xJBBOIgmhmIm2
-R6rLCzNVoy0ZzP/j7RmH72AjeSkmnuDZlPG6ZjKoGQPX6wiQQoyKEvO86FEyHJKB
-iu4dAYG+xD2TB8wdJ/as+qwnVK9yQRhXCHgePmFj5Nf+OGZxpkFFN2W/F3mWNq8O
-V1ZU11bPor8CJ4u55B8b+GiqalQYNc57rIj/2ejpLwshIqFXMEJ0YwNFb69ustFm
-HOzcbncOF4h1Rg+2qArgMN2xj8yhtOZnkqDvfCRs+3IShQct1a4BwjG1TdsiqTvr
-gc1JL72m6YmKZP3cf9pib6nJQerfPn/BmO/GMb9Um28bBlp0j31FB2siyTd3Kc8d
-2Z8bZLFXXooQskBFG9oas7Mk9c70Gfo9NK0rMvaqQU8sAiuVgEq1AmoTzfegWBOW
-Tjvt+SV0VG1kjZSJW3kOWILvBT8/+rM2TsvJzHbWlG+PT+i/QrtS28vXsu1NqrXC
-eWXCpOB3QvHN3qoWIHe0ExMhWxKajMOpUYPdIHElI5dFNJWcKPnNuFMndAq07EXA
-NfsqwTFYNUSbjKbPXmK1WFPZQfRavoRU+6BIQyb0kw1UDt/QcQr7/tHdD1aKfbNw
-sVg0tUXYTOxVc4ZnZDwXqkJ7POWZnM84gmVw5e80MDuSq8M4dFYZcSQwnxV7qu24
-TcyAFqU/96q/FJqBOlH9yxNF2n280iakh7nn+FsFBLQk8bWimA6ZD2FhYXVNLYWt
-4SrxUitZ/B+UuWezuJX5kV9sHG0UAq6AwW+6jHxZkMg0Mxynx2bC2c8vmDwtVM+i
-3NJfaKYFSL2QlEr5VuWXUq9wG5wv5VWcecyHkS62SQpMJ8CWp18jiMFKchugNotR
-sxMT2ewfntNd+FISnk1kOFgButZQkOPUnvmdh42mhBlNEtga9kbfFfVrn3Ce6zHr
-wtvps3FZpMTrK9r0MhSYI0pA6ED05Kmjec/TciZSzabGuMGv2CA61+ZPvlJ6CQvH
-U9O7Pa2oPfvoYw+2GGCdOmqYkxSMLtSET+FN8c80wdHTdQg+HhT1kIFlod14RSP8
-nv0MIUNojVryh2LXXa1Wj916n6s3aeueqvdtLUy9zMyIcfEjbXy9lXmZHoGlNuSz
-kvrOdxEWA0M+UzCZKEeRTBGXWbcQqmAM42A+CJu8A65/kvw8sFErwYstmkZn1v0U
-PYqNFCnS4BZEbmBW/SSehmWvZ2UVwYDF/sosylakR28WxEX7qzzZCQAQZ2ZzuR4s
-km2tRPvgtMJs82/Odi8ny6egZ9CPHBxByVGGQ6XwM36J7Emdblg3u0d5JLTsHNaN
-Jwxgccx8th6nMTYkZYiXpo7oNXkj8S158IzbTHxmxAX0YnGToDFJcokPuSb0i6Qj
-vwf/MIAMb35Am8lUDWX3RBifU+AhwwFo3ow7VKChjfe0Vj7p/R22v7gTYtxVqYnt
-iEGlRNWjMR06nNrng/PD83qZ+yN+ufZldpHFDxGi0voCCD86Tptk3jLJLia8Uv6i
-f7qpxXkE4xZ2+Zre8WWnfHywSghtAd5iRv3LCvcjagkbx2KLpfz2gAEouk44ivSD
-NYILN8BV1RFyRbvhdWhMWr8as+/HwA0h18zVGEqEE0l6FyQbWRRKOCxRfML+kCtT
-7PqggS7XhqbpXsd5urT1rWgGhNY95/vVFzqTRL+BR0DKRZpCiNTouj7y2ND/eU64
-VoQF8cZPZ2A639Qg55byl+hYnw7HXEL+sBUY/3wdMUQAiwiwQ5CBZrcls6m/B1zx
-YJYvmEFxcvBKUGpoQIIQQQ9FWaC6vWCiE/PVGKzmM5creUk/lnOWGOqNmI0Knt1I
-obBqJu/1c7SJUWXMkCtJqs37J2fZFaX40o1lcDSQQr/tzSzREP7QaQClPLauKpCT
-j5xH9S8z9+3vI367oneQHwjW7Aguw0/X/D8ztUE5ckM20N16xc8nvsi2wYPffkHl
-fdtVay0L46684heMDAmZMWeesQxLEONT/QE5iF3Rv6TbPCdVvSFA9GgxrwrXjEO5
-qrUbFZB+sle+bUc8O+vNj16vW1lIQEN5bi79NQdeXMIbKcQ=
------END AGE ENCRYPTED FILE-----
+---
+title: My workflow
+---
+
+#### Literature Notes
+##### Tags, aliases
+##### Meta Data
+###### Summary (用自己的话来总结)
+###### Citation key
+###### 评分
+###### 跳读/精读
+###### 正在读/读完
+###### Zotero联动
+##### Reading Notes
+###### 问题
+###### 这个方法我是不是可以用
+####### 找到了答案
+###### 这个部分的内容follow up 另一篇文章/跟另一篇用的方法类似
+####### 相似的部分做成双链,加上标签,生成新的concepts/methods
+####### 怎么相关的要写具体
+###### Questions (标签)
+####### 没有找到答案的
+###### Research Ideas (标签)
+####### 新的灵感
+###### Related (可选)
+####### 虽然logseq会有linked reference自动汇总,但那个太general
+####### 但是手动加一个会更快地定位,因为这个更具体
+##### Permanent notes
+###### 更深的了解
+###### 在literature notes中很大概率是空的
+##### Writing skills
+###### 好的句子摘抄
+####### 句式
+####### 词汇
+####### 经常在高水平论文中看到
+#### Permanent
+##### 相当与entry point
+##### 层级结构
+## 自定义标签
+### concept
+### 模型/网络
+### 工具
+### 定理,引理
+### 问题描述problem statement
+### 基本方法
+### 关键,重要
+### 状态
+#### 正在读,读完
+#### 正在写,写完
+#### 正在整理,整理完
+## 自定义properties
+### type
+### publication
+### citation key & bibtex
+## Working Project
+## Completed or archived project
+## Topics
+### Hierarchical tree (subtopics)
+##
+## Tricks
+### 中英文都需要
+### 中文在heading简介,内容尽量用英文
