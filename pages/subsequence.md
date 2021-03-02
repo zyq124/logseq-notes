@@ -1,12 +1,14 @@
----
-title: subsequence
-alias: 子序列
----
-
-## 和[[subarray]], [[subset]]之间的区别
-
-### 有一个数组 [1, 2, 3, 4, 5]
-### [1, 2, 3]是一个subsequence,也是subarray
-### [1, 3, 5]是一个子序列,但不是subarray, 因为不连续
-### [3, 1, 5]是一个subset,但不是subarray也不是subsequence
-#### 后两者要求元素顺序不能改变
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBmb2FQVGVNdDVwUnJnazF2
+WGFQWEk5TXVSanJJVkZ2bnFWNjYwRHkvdjBVCnN1SU9abW9VRU9leVVhR0FGMG1G
+aGp1NGJBSWQxTmNvYWJBYUIvZE0xbWsKLS0tICs5NDliNGZlTk1vd2YvZXMxeEpY
+Rmo1UVFFbHVVTUlpN21WaS9QMlc4QUEKi/v20A9D7Ih6z3pGVOrxJuDSwr5mw1PK
+RJWWoNqYqDKwx8dXNMUuUQTwvg8dUn9WUjVbsxO3knkuhswH3yUkWNXZt+q3eHK4
+AsFDAOoTS8VOpqRWEHwVpTOVcXwzScpcBYCZVpHgex3CZstMLN6himKvAOiuf4m8
+JAAyHRZfdketqA+9/Jg/Cj5Uqv0IcplED+F+nOrfJK8hc/RxDsceSp6efyxWOX0O
+SqTrDincMl+gvVIXEVOiSSDiCR5RNHPuOKJKJHhi8DB0lmxzAamCsCspJ5qjrHrG
+LbH93FzY6o3bo64xW5qTBLNYFKyVRLjPsKooQVjNtXDMJjNuckCOTU+1lRMSbdmE
+Y2tAx048LPHP+YVzTkB+h7PfqSRn0JAEUCRiHXTrMqCbN8sr/ybFEslHtiucieG8
+PmObTzLyaX9o3Tts7Fp7cxptmt2cHEh4x0udCIe1//tyDwCsFtUGHQ/VIxX1FOOq
+5jCeLD1IW4Yt9v0qRujx3V8N4fR64H4835pFhA==
+-----END AGE ENCRYPTED FILE-----
