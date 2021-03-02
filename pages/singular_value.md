@@ -1,8 +1,8 @@
----
-title: singular value
-alias: 奇异值
----
-
-## #maths [[linear algebra]] 
-
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA1Uk9GRnd6ZXFNWUxuUXBZ
+OW5tZGhGWjVrLy81TmQwRjZJTFFzT0JOTkVvCk5QeEo0OFo1QnVrV0dpbUJxWVlw
+RWJDTlEvcTgzcWNjNndac2Y5TmhZMWsKLS0tICtBdTNCVUFya1NlNHQvWVFZMkc5
+MlhRN0k0TlV3WThrMENwc3l4ajhpZ1UKxDSAP3Vc8AsXjZfio5Foxgc1B5Mear+r
+PdpssmA8kbeU0nLcbW55Jb1kKPOW+q2g5VPgvDRvrAhQ3oZ8MpDGodu2Jd3HTY7A
+9mrPe8z4ZiC5vyIQWAhyoZvf3hI3rQbTG1B3H6vf/SZ2KCUPjk29ztM=
+-----END AGE ENCRYPTED FILE-----
