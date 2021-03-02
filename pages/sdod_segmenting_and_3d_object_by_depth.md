@@ -1,59 +1,48 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSArb2JPS2psUE1pWDQ0TDBu
-MnlFbzNCbDBiaTNhaThnR0svRU1PM25zY1hzCjJFSFUzSXF6NWZQQ2h2Rk8rYXNz
-dGFaMWFsRENyNm9CWmtxbmlPdDNvWWsKLS0tIEhoZVF0MGFYOER3OWRpTXNOMk1C
-ODdqZ1JxMkNqTDd5Wno2M3RjaXRjbGsKmy9lOLYzrBmO95XeR7f6S1ZOT+KkXqwo
-WLu4LHsuSvEQlGFVHmgs5RZYePozwoimDX76uKgSJ5PC2+PfbfFP7EjbaYVGYsdi
-5bvnk0yQXdd34ooBU/8OALXXrYVNmkO24MNxHP3GYWxHw9xkJQBU8a35wpSXns+a
-qtQQL0qQrkSa2Qy0ipSt2DNihmhYRDTTaxd+IB+Lv8cGmBAEvQ3AtakJmPo4pNZv
-8M40+IoiZBAsi6vAoNh4gEZl8J4xpvXslJUUgUoBmGU55/8VPd7TuEyQL3oPyV+/
-Em5X4v4LvHD3kG75lql+6aFJ0HtKDOSQV19nuYQS+tlpKHrbmM9C2O6v4FAzlFL/
-+Y0ilkGhpIBGvlT1fH2GkVvhvfO4t88cmvRCYnDoE9sbL+QUmE+xea8Mc/f0JU0E
-/0g7UbwYE84p/JSSt7Zt6O43w7sFwgZ+naoW3c1Nb5/zu4ois6pjyEUJ/FL2+dKu
-f6P65dyKd8Is5aAyXy6wqnvhDYhFZu5ZTueJPCljAekMZEhucxhVSOXDm1XUBTmu
-iwhvD9Wc+mvb5yQMdYZzFjoL7FVajrl4t5jVcdqEAHP6CCr10uGBLbzAnGna+jia
-nzs6XH0v20les6mAMdJ3LthKxO229Twq5bSogjCPHm3+CHHICfmnpKhvC4WQOlMn
-flJN1hBUAIGq7mkCQRMvgbLHkM7fWr/BwSvJXSjeLMX98Why2BJ4zehoFbdjfXis
-bEkIZpgUBpyaToVU4aL8JaoXFCeSG8m1ebySINP5JJs0Y6HRTs88wm7OD3ffkd0S
-3+a5OoEhlkalRGi9niOYKu8yuiuMmMRiHy1YW0z4XtcPI9fo82iyhXx7TfcWuQBT
-FGR7Nt73AXBH4sjCWaFI6Qa8xJTcs5vcbgxBrxIImheHyGtDsi1PsRH3gxxwNU5w
-tAyveXtjk3zal59snVMDitBou+iLzpAVsL6uNcoWOweziT9v8al1x8Vfjdr+Rxq+
-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
------END AGE ENCRYPTED FILE-----
+---
+title: SDOD segmenting and 3D object by Depth
+tags: paper, [[3d Object Detection]], [[segmentation]]
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### SDOD:Real-time Segmenting and Detecting 3D Object by Depth #toread
+
+### Zotero Metadata
+
+#### * Item Type: [[Article]]
+#### * Authors: [[Shengjie Li]], [[Caiyi Xu]], [[Jianping Xing]], [[Yafei Ning]], [[Yonghong Chen]]
+#### 
+#### * Date: [[2020-10-24]]
+#### [http://arxiv.org/abs/2001.09425](http://arxiv.org/abs/2001.09425)
+####  
+#### * Cite key: liSDODRealtimeSegmenting2020
+#### * Tags: #Computer-Science---Computer-Vision-and-Pattern-Recognition #zotero #literature-notes #reference
+
+#### PDF Attachments
+	- [Li et al_2020_SDOD.pdf](zotero://open-pdf/library/items/2B246AUW)
+
+#### [[abstract]]:
+Most existing instance segmentation methods only focus on improving performance and are not suitable for real-time scenes such as autonomous driving. This paper proposes a real-time framework that segmenting and detecting 3D objects by depth. The framework is composed of two parallel branches: one for instance segmentation and another for object detection. We discretize the objects' depth into depth categories and transform the instance segmentation task into a pixel-level classification task. The Mask branch predicts pixel-level depth categories, and the 3D branch indicates instance-level depth categories. We produce an instance mask by assigning pixels which have the same depth categories to each instance. In addition, to solve the imbalance between mask labels and 3D labels in the KITTI dataset, we introduce a coarse mask generated by the auto-annotation model to increase samples. Experiments on the challenging KITTI dataset show that our approach outperforms LklNet about 1.8 times on the speed of segmentation and 3D detection.
+
+#### zotero items: [Local library](zotero://select/items/1_9K7KARH6)
+## Motivation
+:PROPERTIES:
+:heading: true
+:END:
+### Try to solve 3 issues by using **depth**
+#### 1) [[instance segmentation]] -> [[semantic segmentation]]
+#### 2) combine 3D network with instance network efficiently
+#### 3) train 3D network and instance network together
+## Structure
+:PROPERTIES:
+:heading: true
+:END:
+### ![image.png](/assets/pages_sdod_segmenting_and_3d_object_by_depth_1611562152144_0.png){:height 293, :width 724}
+### Two parallel branches
+#### 3D branch -> instance-level depth category map
+#### mask branch -> pixel-level depth category map
+#### match and crop the two types of maps -> instance mask
+## Instance Segmentation
+###
