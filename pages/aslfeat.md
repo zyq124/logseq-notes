@@ -1,123 +1,107 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB6SklSS2xxZktGNzRqL3p3
-Vld5SGRDWUpRbGl5dU8vVVBjS2NHaFk4SGpnCmdkQUZRVnpFUmVEaE1pNzdHK0Fq
-Y2E1WUd5Q3pKTjNBRzZMMjFaK2tUeFUKLS0tIHY5ZUxJZW1IbzNOS0FLRDA1Uy90
-bW05cWRYQXBaYWZsbG1CTUtVNUEwWVEKfZ1pQpRUs/0lqhWBM9yu8nCzfp9+O8Yn
-R4SGNRH5yRFUaA1JH3qYiejRrwTBPK62cT8tOkGzFiIx25o0FnQZLsndOe8Qqtfx
-CiGv4BetV9/H72No55RkLpDFwL9emomx19v1Kp0IxbBHsHY7DXbBP2K3bQb0Egdf
-e+pZQ25ITTOobZXfc00wo/wosWZE23Vfjb/1MVBFNzZ7r2bG32rcQDcie5oMvRF2
-xk7/NEzASp8Dbmh3dMTf0BFG8ZvWLkmwQYjueZgZhg6LRKbV0MrpCDeU+Jej9eZG
-3D7jExKeK5ydc0HmX//jM4yPH5e5r1ny+umidNG/WDJXAu+meJeOoq0S3sM+Pxl0
-Rjvbh5U/tjsfWjlBk9lLHgvsfHD3b/20m5z+1uAtUvDRWkrNL6tTQxC6NvgvLQsx
-8DKa4j+qPl+7f8uQqiUgYR2vSFSW5b0Q4hVrmRemfByzRBl2f5dFCrKyBOirUbyp
-H/Yw3aWyEBLQOJc5L2wOTZosn7991WWlOMqQvi8KAuP9O3nNXW5RZb9NFCLhtdbW
-2y4FkCE43fuOk6z1Z7jRMhqS4TNtAm3BWGWlmKshSUUZF2exHaiMvJrJ7GOW2c8E
-HX4VLwJru0ht2yPJ2eYLXw/2/keXMeSgKrGRxqp+P2FhY2Ua3QA3QvYHIeKQokgq
-aBZoRGutSqOfd/JbbCtbkYRcS34UzhFUHQ6lwROjIoPki0onFZtDzrUH/UDS7/Hq
-+61wVi/1U/U4DcNCFJWhQ6EK9aFalFW7iAf41xPFqBferMrmGKgKyZxGZL8ik/Ke
-Pwri8ZxmV/hQl+MrkEFfznKmz4yhFV+Z1QViMOlloXkx0ji27uJD5lato2qAGCWm
-9K9QBcskjZPi1gQ4Fx7EOC9hoqjTqk9ONCzy9mW1IlUXSQnCqRR+GhqO7EiQgtxd
-/UfeWLSh7jrQrh0AhU8Dgl7bnOBBnQ5HjZs+gbrWeiRfMVl4KaiGXB2TA3aGviNa
-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
-ucaocxWB80m8bN2VaHQkKSdu9dRk+Nw=
------END AGE ENCRYPTED FILE-----
+---
+title: ASLFeat
+published: true
+permalink: aslfeat
+public: true
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### #title ASLFeat: Learning Local Features of Accurate Shape and Localization, 2020
+### #topic  #Keypoint #[[Descriptor Matching]] [[D2-Net]] [[R2D2]]
+
+## Limitations of local feature detection and descriptions
+### Awareness of estimating local shape (scale, orientation, etc)
+
+### Localization accuracy
+
+## Literature Review:
+:PROPERTIES:
+:heading: true
+:END:
+### [[Lf-net]] and [[D2-Net]] empirically yield low precision in two-view matching or introduce large reprojection error in SfM tasks. As the detections are from low-resolution feature maps ($$ 1/4 $$ times original size).
+
+### [[Superpoint]] learns to upsample the feature maps with pixel-wise supervision from artificial points.
+
+### [[R2D2]] employs [[dilated conv]] to maintain the spatial resolution but trades off excessive GPU and memory usage.
+#### It handcrafted a selection rule to derive keypoints from the same feature maps that are used for extracting feature descriptors, which ^^couples^^ the capability of detectors and descriptor. ^^Good^^  
+
+### Detections from ^^deepest^^ layer might not be able to identify low-level structures (corners, edges, etc) where keypoints are often located.
+
+## Contributions:
+:PROPERTIES:
+:heading: true
+:END:
+### [[Deformable Convolution Network]] in dense prediction framework. 
+
+### Allow pixel-wise estimation of lcoal transformation as well as progressive shape modelling by stacking multiple DCNs.
+#### Leverage inherent feature hierarchy. Restore both spatial resolution and low-level details for accurate keypoint localization.
+
+### Peakiness measurement for more selective keypoint detection.
+
+## Network Architecture
+:PROPERTIES:
+:heading: true
+:END:
+### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FaeNGx2iSyq.png?alt=media&token=5b050b88-2111-4dc9-81c0-d892ca64f1f8)
+
+## 1. Prerequisites
+:PROPERTIES:
+:heading: true
+:END:
+### Output features $\mathbf{y}$ of a standard convolution for each spatial position $\mathbf{p}$ is:
+#### ^^(1)^^                 $$ \mathbf{y(p)}=\sum\limits_{\mathbf{p}_n\in\mathcal{R}} w(\mathbf{p}_n)\cdot\mathbf{x(p+p_n)} $$, 
+given regular grid $\mathcal{R}$ sampling over input feature map $\mathbf{x}.$
+### DCN augments the regular convolution by additionally learning both sampling offsets $\{\Delta\mathbf{p}_n|n=1,\cdots,N\}$ and feature amplitudes $\{\Delta\mathbf{m}_n|n=1,\cdots,N\}$, where $ N=|\mathcal{R}|$, and rewrite Eq. (1) as:
+#### ^^(2)^^                   $$ \mathbf{y(p)}=\sum\limits_{\mathbf{p}_n\in{\mathcal{R}}}w(\mathbf{p}_n)\cdot \mathbf{x(p+p_n}+\Delta\mathbf{p_n})\cdot\Delta\mathbf{m}_n $$  
+with feature amplitude $$ \Delta\mathbf{m}_n $$ limited to $$ (0,1) $$.
+
+## 2. DCN with Geometric Constraints
+:PROPERTIES:
+:heading: true
+:END:
+### Original free-form DCN predicts local transformation of DOF like $9\times 2$ offsets for a $3\times 3$ kernel. It can model complex deformation but takes a risk of over-paramertizing local shape.
+### Affine-constrained DCN. Decompsed as
+#### ^^(3) ^^             $$ \mathbf{S}=\lambda R(\theta)=\lambda\left( \begin{array}{cc}\cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \end{array}\right) $$  
+
+### WIth additional estimate of shearing, as a learnable problem by [AffNet](AffNet.md):
+#### ^^(4)^^              $$  \begin{aligned} \mathbf{A} = & \mathbf{S}A^{\prime}=\lambda R(\theta)A^{\prime} \\= & \lambda \left( \begin{array}{cc}\cos(\theta) & \sin(\theta) \\ -\sin(\theta) & \cos(\theta) \end{array} \right) \left( \begin{array}{cc}a_{11}^{\prime} & 0 \\ a_{21}^{\prime} & a_{22}^\prime   \end{array} \right)\end{aligned} $$
+where $det(A^{\prime})=1$. The network predict one scalar for scaling, two for rotation and other three for shearing ($A^{\prime}$).
+### Homography-constrained DCN
+:PROPERTIES:
+:id: 60040400-994c-4a4f-bc52-315547409fd3
+:END:
+#### TODO To read this part  
+
+## 3. Selective and Accurate Keypoint Detection
+:PROPERTIES:
+:heading: true
+:END:
+### Refer to original [[D2-Net]]:
+#### Section
+##### Amenable for back propagation.
+
+##### Define a soft local-max score
+###### (4)            $$ \alpha_{ij}^k=\exp(D_{ij}^k)/\sum_{(i^{\prime},j^{\prime})\in\mathcal{N}(i,j)} \exp(D_{i'j'}^k) $$
+where $\mathcal{N}(i,j)$ is the set of 9 neighbours of pixel $(i,j)$.
+##### Define a soft channel selection to compute a [Ratio-to-max](Ratio-to-max.md) per descriptor that emulates channel-wise non-maximum suppression:
+###### (5)            $$ \beta_{ij}^k = D_{ij}^k/\max\limits_t D_{ij}^t $$  
+
+##### Together we maximize the product of both scores across all feature maps $k$ to obtain single score map:
+###### (6)            $$ \gamma_{ij}=\max\limits_k (\alpha_{ij}^k \beta_{ij}^k $$)
+
+##### Image-level [[normalization]]:
+###### (7)             $$ s_{ij}=\gamma_{ij} / \sum\limits_{(i',j')} \gamma_{i'j'} $$
+
+## Keypoint peakiness measurement
+### The [[Ratio-to-max]] (Eq. (5)) has the limitation that it only weakly relates to the actual distribution of all responses along the channel.
+
+### We modify it with ^^Peakiness^^ as keypoint measurement:
+#### ^^(5)^^            $$ \beta_{ij}^c=\text{softplus}(\mathbf{y}_{ij}^c - \frac{1}{C}\sum\limits_t \mathbf{y}_{ij}^t ) $$  
+where softplus activates the peakiness to a positive value.
+
+#### Similarly, for Eq. (4) we rewrite:
+
+#### ^^(6)^^             $$ \alpha_{ij}^c=\text{softplus}\left(\mathbf{y}_{ij}^c-\frac{1}{|\mathcal{N}(i,j)|}\sum\limits_{(i',j')\in\mathcal{N}(i,j)}\mathbf{y}_{i'j'}^c \right) $$
