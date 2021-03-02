@@ -1,11 +1,16 @@
----
-title: eigenvector
----
-
-## #maths [[linear algebra]] 
-
-## an eigenvector of a [[linear transform]] is a nonzero vector that changes by [[eigenvalue]] when that linear transformation is applied to it.
-## Geometrically, an eigenvector, corresponding to a real nonzero eigenvalue, points in a direction in which it is stretched by the transformation.
-### [[eigenvalue]] is the factor by which it is stretched.
-### negative eigenvalue means direction is reversed.
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBTT3lxeDRpN3Z6dVVpYk1G
+dkdwa1hrMmJjVDVIYk4zcjE2bmpaejB6T0ZRCkJDNzhCak9taG5WQlVxQzNVenNM
+YUZMT3Iya3lXSFhaRTFsMmpQcjkwMUkKLS0tIExzczlUSmIraUc4NTVsUVFld2th
+MmsrOFl6UEN4MEVoSWxCNjI4WGpoNlEKQ51d+XTNqFvlZTWn8udo4W49dMcWr50q
+zlW/jNbT26x0G8WT4wpSrhafVK/hyKzRGqStd5BxZ42/K9S5U7JXgrZdEBIwa9X5
+xn4mSbYABsGErJoanA13d0JsgeA3s51Dd591jiU0wOJz1c14+avyNDXvl06ja8ia
+Yin1c5bj7IZN+un78HrTec4yEBe81b/S9qwAj+ewCqbFw/6dO463smNWOpotBOtF
+GPEXW6SPCQpy8a/Z9FotlGAcurNN73C5IpNqvUSOlXG0VKdkNHGIE/OYaEoP6mvh
+/L3atk7nmEvPJNEsDxTOBbeNh4bJYkhzGrXXPgs07WUnDEZuDEoDG4kuXKV5KsVj
+R54exTdGIA88T9QCY2S5p9L6sIqU+28+9h+X8iQDDsCpbGStU177r51L4fGPbYOa
+UENPWuq8wsY2C/r5741Nc23o1ThPxMEPS0a36SQSJ6lowO4lXAm7mxQqABSKGdqo
+TKgycmeEA1IRyZwvw/H67eLLQ66cMuWp/6YrLcPTrsZnr9xzfzkOD7JiZBPabClV
+Ke5x9lk0p5UyxHTHiQUS3tYV8fEfPriBCQoTFSTrWc2Z/eKtm4ZnrrNpOb6Pwc4G
+hxRK9IBBmRMmpm9nqr2GvDZ/7fKJz+64QbVOJFiFoMGRSj/A8Xl/ttR+qQ==
+-----END AGE ENCRYPTED FILE-----
