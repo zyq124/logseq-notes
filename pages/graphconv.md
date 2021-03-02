@@ -1,47 +1,28 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSArTHhxdm1zOWdoOUc1djBR
-Y08ybWZpTlMySHoyMC9oR3pKZXFIR1lVSDNvCk9BMWYrVmZXOTAzM0NEczJmTE5L
-WmNpNDlEZDBLcm5JVXBjR3FOYVAxTnMKLS0tIGk0Z3Q4TFdVVW9xTUs2KzJ4OXJl
-TkZkZGlpVEVQRzlVeGsxMXc1SE9vdmsK4Th3YE+epGpCMO/DeervWNYHfz7g6K4T
-T+v2A5M+qLVcfYqBbejt6+LGzl1Kgl7IqrJo2GL25GTwCS2Jqe+w8+7ogk1ei0Ev
-fbCxwHv6goKzbQZhYC2lCcw3J8LMRNqnPlEYdaSaQaR5LU1FrzyahXRYf5/mmPqB
-Eh8hyfyDpWLdCoXNH0Ez0ukAAhcrRKMOV8JWiKf+LidI+6GqxGgAHkk8cfEbY4DT
-ZXav3+NS7E9amLvrRxDZQrJirrbwyScZOicIiE9h6bzg83vyBbf5auP7HgQQi7Pk
-gagdt4nMVA0oJsql4i+UM0p/G2VYL+aNRlJZxcjgO/GbmMowbAk5zjjZ+TZLqBK6
-hewEYF7dOt9S8hpsEhbsDkXAU5bgc2PZxU5gOCywDrat9/Tbxe8GZkqXEhDqZfGu
-Hz9/JZeJpda3EcIbxakG4UpAP6q+yizqEWUiKn8y9Vo0cCSCsXg3keQayjJLUhnE
-z61uypaTf4CoYz6SzluoXzRzcZZkWUH3u/PLMTEKXFLIj9p0eLMG02plOShKCTr5
-ZKFUI5sVRqdE1RP7eGGsEvQvyEzuMapNRNiKTYdAJA1DX8/AG2TcQTRgqEMquC0f
-R0npuQk8LzmFcbYU3vtPtMe/YWqOyRV5WqFfD1T+LGFUsyxrdhTjAfsrA7UffMpG
-G9A5n8+b02458dWwRB90vi64zsZcAVDuImnIUXg7WUTd41EmRWnBEQCKa0c03EDU
-pXuFWGCr3nzeApt3ZV+uXnPuqYtVRiNCAxb858uv+ih+QoIZ1hHfrAEQ4iG7v2RE
-Mv+TCpOEGhp+xD7m5Hen5kfcl/2tljP1fViOHZiKxLjbhcJthWtwmjMZowZPsBPC
-hhf5RuUQEJ03ApeD/iKGDqsmywIy4o50zqJf6N+r3q0XUBNFl0cgw8s0SVXzOQEU
-WklCKVv0Py0Xh3OY7GzBOY6D63xeJGWcuNEY68y6TCt2E18J8XoZUb250K4kYSCg
-VzeffN2SSjommeI4nmEUubGms4o8Wp86jCfPhj/BQ2fIQHVOIS68WkSCYgLGEa5d
-xG4kZise3pKFPT96nH3BVwZuQeamMlkUvaZbQsgQB7tTjkbVjFgFlaCH4xsKOQMW
-Ckf10/PuwCkJLv2bFVWXfCBukmGq7CsF8+MMyS4dZVZqZy0tvrR4+WahUaqiktd6
-WDXR05QQmmDuuRqzG45r0cUDw573pGJFrcNUwgeWF+SQFGTHKDXsytcYfsrm1ybL
-X2HF0BOVQ0NgwHcyz9OEYqYaQsTI214VcNG+LYP3BGOWvCVGGa9PX5K2Ygbz/JZU
-mQsXt2mKdqbjMooO5g3wvwoutNlYg+LjgWNmPFck5yYEO01Z8mze9wvwOC/lA2sn
-XxtwXTX3AMg/ntAjWxZNueyTX48PCji9AwyJbeBtCxkocgy9nqPB3gtmoDshYHhh
-BUho9umdf3kyQB9uT/uMOjXaJj1G1PeJklEPB5dGQ2b6K+44tK+BAgKf8jVEE2m+
-qxAe+pDBvck53Yt+ixs3dcWopVIVzqckfFsrtnsAf+NQO7o0BbQG+g9ruBfsa3SL
-HkzsiN1d+XPHY655IRVNwJYx4uAHE/X64VrxWIztqmtK9/Avh7wrYf6ZvTYenwOW
-iungJwDytoqAVj/6q9Gl05C1iMUxZfa8uEJgHZsaptkA7otVZg+eRKjKJze0WgXr
-Nh7pGGqfJNA6FT5+nBc+iPCOnY1nV3XbGqBBrVOh4GghvFPUzn24xg/USUAzMyi/
-K2XfXJDLkhOWvYI3UTFpEoJQeY5PsUTUcZWNs7R5rL5GFQpaXZONUXWghY3/7z+v
-s3lgQE8ueeb2EHz0pdPIBmHM8xHOJnWWYCXAcVZOaYsVQ2ei8b4KNHWKZlfz3pr7
-SEPehu83Oa4EGEKdl0N96RPpXbrEC74kqa6lMy46Wd+baJ4d6Bwgo8kjTyr6/6tn
-FmhCjqoFYAwerU5JANecPaBoA541dSOHFl813uIko8gO8dkBis35g/Cu9L9qSY7u
-s1yAhz1Vo6FK68WtsUptTIPfFjqKLSZKur6b4tsQVgBbt1f6xQ0RG8UM3wGOy2Vs
-a4XkRBk+BI83eG7XbmrrgOqS8amvePwiOKR14kwp4ffRxTvGZNhTqye8U/zKbWFN
-4W3INQJreJxpj8eijzde2Drb9Xax9oM5P1HWKkvbg7siVxzOje/dZsP57YCvtw2W
-aruJuk25rv8gxRDsWr9ngvME8qmdGmYJ4SYjpo6cDOWjGsEBuOxgUpsmwbF0KBER
-sJ+bz0h9HNW/l1sdGrR5CwlMLtx9awGqKlticXjloG5Sa9PIb8AYAkaRCvo+BZd9
-Crs2WEa/OVMx8pXVu5CgRVKvt53eEGmUwhhc5JZ9qTMK7wgjecsmij93O+YcDe2m
-xdIRwrfKvJUpNangogwuboSqcBjvHfvEmvfAy3dJe4vOFIcLS418+GbGfavGJO9v
-WrCzxe5Wc4W0mTfd3nwC7LiPK0z8D/jY889WFXuffyRWpLRsK0ZAvNXCPdEoxM1D
-EkSyBl82Jo4AQEnnQHmsia9xJuZeyO05vr6HECx7pB8lVaxMKG21LlJom4pEhGdo
-LRvzyONvfGvFOp8u/wFK
------END AGE ENCRYPTED FILE-----
+---
+title: GraphConv
+type: [[Article]]
+citekey: morrisWeisfeilerLemanGo2019
+publication date: [[2019-07-17]]
+authors: [[Christopher Morris]], [[Martin Ritzert]], [[Matthias Fey]], [[William L. Hamilton]], [[Jan Eric Lenssen]], [[Gaurav Rattan]], [[Martin Grohe]]
+tags: [[GNN]], [[graph network]], #zotero, #literature-notes, #reference
+---
+## Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks #toread
+### Zotero Metadata
+
+#### [https://aaai.org/ojs/index.php/AAAI/article/view/4384](https://aaai.org/ojs/index.php/AAAI/article/view/4384)
+#### DOI: [10.1609/aaai.v33i01.33014602](https://doi.org/10.1609/aaai.v33i01.33014602) 
+
+#### PDF Attachments
+	- [Morris et al. - 2019 - Weisfeiler and Leman Go Neural Higher-Order Graph.pdf](zotero://open-pdf/library/items/8GXWTCT3)
+
+#### [[abstract]]:
+##### In recent years, graph neural networks (GNNs) have emerged as a powerful neural architecture to
+###### learn vector representations of nodes and graphs
+###### in a [[supervised]], end-to-end fashion.
+##### The following work investigates GNNs from a theoretical point of view and relates them to the **1-dimensional Weisfeiler-Leman** _graph isomorphism heuristic_ (1-WL).
+##### We show that ^^GNNs have the same expressiveness as the 1-WL in terms of distinguishing non-isomorphic (sub-)graphs^^.
+###### Hence, both algorithms also have the same shortcomings.
+##### Based on this, we propose a generalization of GNNs, so-called **k-dimensional GNNs** (k-GNNs), which can take higher-order graph structures at multiple scales into account. These higher-order structures play an essential role in the characterization of social networks and molecule graphs.
+##### Our experimental evaluation conﬁrms our theoretical ﬁndings as well as conﬁrms that higher-order information is useful in the task of graph classiﬁcation and regression.
+#### zotero items: [Local library](zotero://select/items/1_3DMILRNP)
+##
