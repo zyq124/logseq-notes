@@ -1,87 +1,132 @@
----
-title: UR2KiD
-public: true
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### #title UR2KiD: Unifying Retrieval, Keypoint Detection, and Keypoint Description without Local Correspondence Supervision, 2020
-### #topic #Keypoint #Detection-and-describe #[[Keypoint Extraction]]  #[[Descriptor-Matching]]  #[[Image Retrieval]] #[[Self-distillation]]
-
-## Abstract
-:PROPERTIES:
-:heading: true
-:END:
-### Combine keypoint detection, description, and image retrival jointly in a single unified framework.
-
-### Leverage diverse info from ResNet architecture, extract keypoints and descriptors that encode local info using [[Local Activation Norms]], [[Channel Grouping]], [[Channel Droping]], and [[Self-distillation]].
-
-### Global info for [[Image Retrieval]] is encoded on ^^pooling of the local responses^^. 
-
-### Method does not rely on pointwise/ pixelwise correspondences.
-
-### No supervision needed. Does not need depth-maps from an SfM model nor manually created synthetic affine transformations.
-
-## **Structure**: generate local and global description in a network pipeline $$ P_{joint} $$.
-### Given training supervision: [[Anchor Sample]] $$ a $$, [[Positive Sample]] $$ p $$ and [[Negative Sample]] $n_k$ ^^without^^ pixelwise or pointwise matching correspondences.  ^^Image pairs are from SfM model, no GT needed.^^
-### $$ d_g, \{k_i, d_i\}=P_{joint}(I)$$
-
-### Overview (with backbone pretrained CNN [[ResNet 101]])
-#### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_27_train.png?Expires=4760063782&Signature=IzkKGRRLA5QDRuwFrAcdStCrxIcFO4CaSu9K1~uzQy6M1CCxBxhFc1zFlR6GNGsVKTi6LvILChQMX-ddnG49-k2ExeYerSRxvGbyWjL5a6JKAfaC66QNp2crlMk2jLJHn-YbSREp4VjakUdEHl3nbBvB5KiP2FWEhBiVEa5neg2SNkIUhxMRu1i-1bBv65VUBHf4D4e0HUXI63euJUHVcl3yGH-dfvbREUvawLRnetIkD5UrPN5E8YaMkRGlU8W0nvpaS~cJeeztqPa~CoJUyUDdyBM~H8YXUFA6yc7KuG~Ua2aU3kBNlPzSPBI35XacMXjVvgqyUMF9x1u3EdFp0w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_27_train.png]]
-#### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_27_test.png?Expires=4760063770&Signature=HhOEyWWmQ4wDycnGbbTPuYLVHEcraUr90PAnw96luo1Q8MIXYpf2KMSRM7gL1-1nNIRMxM0yidNvfDr~DZ-nAiUk1Y8MhGAhKpQe3BB-1d4o41Qf6goRTo9KEwvo8Q02N3yuQeoD~fA5aSeFORy6gQSuylj20kLEX2oWjL~MTqQqP9FgBk1No2j3mr2lqtdV64Lc5N7dWfu1~-l6XT2xmDwdYde9ujRr-kKmSL3R80UjS19nB-74dl6dDKpl4bVwMPyIcbMwX1RoKRGI1Qv-gOHnmZsm70ihasAWZB8QMF7IK2ONlFzQQJNSglrZwbRFvJvjUO0daamalctshD3rqA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_27_test.png]]
-#### Multi-level feature extraction for local descriptors from ResNet blocks and [FPN](FPN.md).
-
-#### Final global descriptor is the concatenation of multiple different [GeM](GeM.md) pooling results.
-
-## 1. Local [[Keypoint Extraction]]
-### Based on [[D2-Net]] the idea of [[Detection-and-describe]].
-
-### Keypoint confidence of $$ i $$-th keypoint coordinate out of feature map $$ F $$ is computed by thresholding the maximum response $$ F_{(x_i,y_i)}^{c^*} $$ ^^across channel dimension^^ $$ c^*=\argmax _c $$$$F_{(x_i,y_i)}^{c^*} $$$$ $$along with local [[NMS]] and edge confidence thresholding of [[Harris Corner]] detector.
-
-### Based on the idea of ^^independent matching for each channel^^, aggregate the concept from different channels as [[GC-DAD]] for both keypoint detection and description.
-
-### **GC-DAD**:
-#### Group-Concept Detect-and-Describe, [[Channel Grouping]] method.  
-
-#### Unlike [[D2-Net]] taking maximum value across the feature map channel, this paper depends on [[L2 Response]] as the importance of keypoint.
-
-#### Divide feature map into different groups as independent concepts $$ \{F\}^g $$ with $$ g $$ as the group index.
-
-#### If a feature map $$ F $$ contains $$ K $$ channels and we want to uniformly divide into $$ G $$ groups, then $$ F^{g=1} $$ is corresponding to channel $$ 1\sim \lfloor \frac{K}{G}\rfloor   $$ and $$ F^g $$ corresponds to channel$$$$$$ \left((g-1)*\lfloor \frac{K}{G}\rfloor+1\right)\sim\left(\lfloor \frac{K}{G}\rfloor*g\right)$$.$$$$  
-
-#### $$ i $$-th keypoint location out of the [[L2 Response]] map of feature map $$ F^g $$ can be computed.  
-
-#### Combine the keypoint sets from every group by setting a [[L2 Response]] threshold on the [[L2-norm]] of each group $$ F_{(x_i,y_i)}^g $$ along with Harris edge threshold and 2-nd order displacement.
-
-#### Challenges::
-##### Final descriptor is memory costly since GC-DAD only detects keypoints and the channel dimension is preserved, out of the given freature map.
-
-##### Manually selected groups is not the optimal choice since there is no clue how to aggregate them.
-
-##### Solution: [[Concept Dropout Dimension Reduction]]
-
-### [[Concept Dropout Dimension Reduction]] 
-#### Randomly drop the feature channels in the training phase.
-
-#### Conceptually selecting different groups without manually selection, brings the diverse concepts into matching and avoid overfitting.
-
-#### $$ \hat{F}=\text{Conv}\left(\text{Drop}_{2D}(F)\right) $$  with feature map $$ F $$ the high dimemsion input and $$ \hat{F} $$ the low dim results.
-
-## 2. [[Descriptor-Matching]]
-### Matching loss for affinity matrix
-
-### For training the discriminative local descriptor ([[reliability]], given different input image $$ a, p $$, and corresponding feature maps $$ \hat{F}_a, \hat{F}_p $$ along with the matching affinity matrix$$ M $$ can be computed by [[Inner Product]].  
-
-### $$ M=\hat{F}_a \cdot \hat{F}_p^{\top} $$ 
-
-## 3. Cross Dimension Distillation
-
-## During feature mapping, low dim descriptor $$ \hat{F} $$ cannot capture whole info from $$ F $$ by only using matching loss.
-
-## **Distillation**: Transfer info from teacher model to student model, as in [[HF-Net]], with the extra dataset to train.
-## Here distill indirectly:
-
-## $$ L_{Dis}=\left( M_{high} \cdot M_{high}^{(det)}-\hat{M}_{low}\right)^2 $$
-### The distillation happens on the matching affinity matrix $$ M_{high} $$ and $$ \hat{M}_{low} $$ with corresponding soft detection score $$ M_{high}^{(det)} $$ for the high dimentional feature $$ F $$ as described in [[D2-Net]].
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBvbkU4V0RXMnI2eFZUUHFR
+RnVOT0VaeDQ1UHdoNTdMV0dzS1FTOXp2Y1RzCkpQKzUwbFlkTFkvSVZ6clRXMEE4
+dFBaaE8wWVExN0EySnhobUxlbnZnY0kKLS0tIHlqclYrYVFkTmdBWEhjbWNpY3Jl
+cS9rTzY0VkNFY1FUVmFQdjNnM1ZMLzQKjpUhwk3/LDOIyLwnklpVkWhRbughlV29
+mR+IBVkcVTc96L1WWl9J3wYxMZdN83QvgKfscQWei4S/QkVXB53X1Kh5+3PTMJ+M
+9f5iUYi/E3b2nRuwgmU39VhgQI10/xvy26h/jIfSmDTyCliElBP6Y/3mOdazWSaI
+bRusL4/8cxAC57QYCXglKUpsigjurEGJ/M+iYTmhcoDJ6hUgdZwCEij5fryFM1i8
+2RRtb794KMIfsEDJxT9Gs1Ccx2mHGMcqfYGrrDBp+XmjL9h4+9fPuJI3IOJewuN9
+k9ZDBi5v48wAiYB2NZeKA/W9pmeb5G2LfN4C0nkv5owgTKDmwXmfpHbfozSlW7vh
+yuEzwaygnQZ2JJGiOMA2wHNkjJXFMo5Lb7lf5RsgKKlaM96G7PkTZjpKm3IM4hWd
+AN38RYKddaBgJs+eEJ5vWcrqjEnhbrqqXIrNpbWGsZJFne0Bnvko/yWAebFe+eiz
+m86BAzt7PTZvph/AZUsBCmD1Z8wUN6Lz6TtyphtPDYDuQN1BBH4AVMOF52y767xR
+bDaeLgJrrU9V8bq0N8rIeoBcpPSDRa8oD840rVDbaE7Tzzo4sONO/C/+KC7/417Q
+nge7UA/sByguMR/I3rLiKWqdOSFxUCGXu6G1ak37pVxs1ri8+suBdMsBy/+rVcag
+TVTRp71haHWx91iVk8o7OpJWZ/wuvqtx93F7B5dKpyVGIITbTDNfIvIEYlbToBbM
+PVKsJhnEnQpaE3vlDKQlrnpP2QLY+a8W/ZgyK9TAumZ1EGaTPM1ej5DakHOohTgH
+wUWCrAEQ/CpqGM2ADY09loTKc992TGFzQ2jo/RzRGh2LgWnv0K4BSzQDogNKr2tC
+P28Ckau4q0F8J7zSd+k2UdrPXw0xIadP/HZSlCwnMKLBHzUl7DDBvTKiUGwdBTau
+R4BYT02YhhGii1/lE4gNUvDOGLMJQFwfoSguKwd5GmpS3qApdo+F6IAVgdHmH8Lu
+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
+qVKXaKgDkbb8PuJYxAL4kASG6cE=
+-----END AGE ENCRYPTED FILE-----
