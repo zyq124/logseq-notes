@@ -1,176 +1,139 @@
----
-title: Triangulation
----
-
-## 1. Linear Triangulation
-:PROPERTIES:
-:heading: true
-:END:
-### We wish to create a solvable linear system that can give us an initial guess for the 3D position of our feature. To do this, we take all the poses that the feature is seen from to be of known quantity.
-### This feature will be triangulated in some anchor camera frame $\{A\}$ which we can arbitrary pick. If the feature $\mathbf{P}_f$ is observed by pose $1\cdots m$ , given the anchor pose $A$, we can have transfromation from any camera pose $C_i,i=1\cdots m$:
-####
-$${}^{C_i}\mathbf{p}_{f} = {}^{C_i}_A\mathbf{R} \left( {}^A\mathbf{p}_f - {}^A\mathbf{p}_{C_i}\right) \\
-	 {}^A\mathbf{p}_f = {}^{C_i}_A\mathbf{R}^\top {}^{C_i}\mathbf{p}_{f} + {}^A\mathbf{p}_{C_i}
-$$
-### In the absents of noise, the measurement in the current frame is the unknown bearing ${}^{C_i}\mathbf{b}$ and its depth ${}^{C_i}z$.
-### Thus we have the following mapping to a feature seen from the current frame:
-####
-$${}^{C_i}\mathbf{p}_f
-	= {}^{C_i}z_{f} {}^{C_i}\mathbf{b}_{f}
-	= {}^{C_i}z_{f}
-	\begin{bmatrix}
-	u_n \\ v_n \\ 1
-	\end{bmatrix}$$
-### We note that $u_n$ and $v_n$ represent the undistorted normalized image coordinates.
-### This bearing can be warped into the the anchor frame by substituting into the above equation:
-####
-$${}^A\mathbf{p}_f
-	 = {}^{C_i}_A\mathbf{R}^\top z_{f} {}^{C_i}\mathbf{b}_{f} + {}^A\mathbf{p}_{C_i} \\
-	 = z_{f} {}^{A}\mathbf{b}_{C_i \rightarrow f} + {}^A\mathbf{p}_{C_i}$$
-### To remove the need to estimate the extra degree of freedom of depth $z_{f}$, we define the following two vectors:
-####
-$${}^{A}\mathbf{n}_{1} = \begin{bmatrix} -{}^{A}{b}_{C_i \rightarrow f}(3) & 0 & {}^{A}{b}_{C_i \rightarrow f}(1) \end{bmatrix}^{\top} \\
-    {}^{A}\mathbf{n}_{2} = \begin{bmatrix} 0 & {}^{A}{b}_{C_i \rightarrow f}(3) & -{}^{A}{b}_{C_i \rightarrow f}(2) \end{bmatrix}^{\top}
-$$
-### These are perpendicular with the vector ${}^{A}\mathbf{b}_{C_i \rightarrow f}$ and thus ${}^{A}\mathbf{n}_{1}^{\top}{}^{A}\mathbf{b}_{C_i \rightarrow f}=0$ and ${}^{A}\mathbf{n}_{2}^{\top}{}^{A}\mathbf{b}_{C_i \rightarrow f}=0$ holds true.
-### We can then multiple the transform equation/constraint to form two equation which only relates to the unknown 3 d.o.f ${}^A\mathbf{p}_f$:
-####
-$$\begin{bmatrix}
-	{}^{A}\mathbf{n}_{1}^{\top} \\
-	{}^{A}\mathbf{n}_{2}^{\top} 
-	\end{bmatrix}
-	{}^A\mathbf{p}_f = 
-	\begin{bmatrix}
-	{}^{A}\mathbf{n}_{1}^{\top} \\
-	{}^{A}\mathbf{n}_{2}^{\top} 
-	\end{bmatrix}
-	z_{f} {}^{A}\mathbf{b}_{C_i \rightarrow f} +
-	\begin{bmatrix}
-	{}^{A}\mathbf{n}_{1}^{\top} \\
-	{}^{A}\mathbf{n}_{2}^{\top} 
-	\end{bmatrix}
-	{}^A\mathbf{p}_{C_i} \\
-	\begin{bmatrix}
-    {}^{A}\mathbf{n}_{1}^{\top} \\
-    {}^{A}\mathbf{n}_{2}^{\top} 
-    \end{bmatrix}
-    {}^A\mathbf{p}_f =
-    \begin{bmatrix}
-    {}^{A}\mathbf{n}_{1}^{\top} \\
-    {}^{A}\mathbf{n}_{2}^{\top} 
-    \end{bmatrix}
-    {}^A\mathbf{p}_{C_i}$$
-### By stacking all the measurements, we can have:
-####
-$$\begin{bmatrix}
-	\vdots 
-	\\
-	\begin{bmatrix}
-	{}^{A}\mathbf{n}_{1}^{\top} \\
-	{}^{A}\mathbf{n}_{2}^{\top} 
-	\end{bmatrix}
-	\\
-	\vdots
-	\end{bmatrix}
-	{}^A\mathbf{p}_f =  
-	\begin{bmatrix}
-	\vdots 
-	\\
-	\begin{bmatrix}
-	{}^{A}\mathbf{n}_{1}^{\top} \\
-	{}^{A}\mathbf{n}_{2}^{\top} 
-	\end{bmatrix}
-	{}^A\mathbf{p}_{C_i}
-	\\
-	\vdots
-	\end{bmatrix}$$
-### Since each pixel measurement provides two constraints, as long as $m>1$, we will have enough constraints to triangulate the feature. 
-In practice, the more views of the feature the better the triangulation and thus normally want to have a feature seen from at least five views.
-We additionally check that the triangulated feature is "valid" and in front of the camera and not too far away.
-### The [condition number](https://en.wikipedia.org/wiki/Condition_number) of the above linear system and reject systems that are "sensitive" to errors and have a large value.
-## 2. Non-linear Feature Optimization
-### After we get the triangulated feature 3D position, a nonlinear least-squares will be performed to refine this estimate.
-### In order to achieve good numerical stability, we use the inverse depth representation for point feature which helps with convergence.
-### We find that in most cases this problem converges within 2-3 iterations in indoor environments.
-### The feature transformation can be written as:
-####
-$${}^{C_i}\mathbf{p}_f = 
-	{}^{C_i}_A\mathbf{R}
-	\left(
-	{}^A\mathbf{p}_f - {}^A\mathbf{p}_{C_i}
-	\right) \\
-	= 
-	{}^Az_f
-	{}^{C_i}_A\mathbf{R}
-	\left(
-	\begin{bmatrix}
-	{}^Ax_f/{}^Az_f  \\ {}^Ay_f/{}^Az_f \\ 1
-	\end{bmatrix}
-	-
-	\frac{1}{{}^Az_f}
-	{}^A\mathbf{p}_{C_i}
-	\right)
-	\\ 
-	\Rightarrow
-	\frac{1}{{}^Az_f}
-	{}^{C_i}\mathbf{p}_f
-	= 
-	{}^{C_i}_A\mathbf{R}
-	\left(
-	\begin{bmatrix}
-	{}^Ax_f/{}^Az_f  \\ {}^Ay_f/{}^Az_f \\ 1
-	\end{bmatrix}
-	-
-	\frac{1}{{}^Az_f}
-	{}^A\mathbf{p}_{C_i}
-	\right)$$
-### We define $u_A = {}^Ax_f/{}^Az_f$, $v_A = {}^Ay_f/{}^Az_f$, and $\rho_A = {1}/{{}^Az_f}$ to get the following measurement equation:
-####
-$$h(u_A, v_A, \rho_A)
-	= 
-	{}^{C_i}_A\mathbf{R}
-	\left(
-	\begin{bmatrix}
-	u_A  \\ v_A \\ 1
-	\end{bmatrix}
-	-
-	\rho_A
-	{}^A\mathbf{p}_{C_i}
-	\right)$$
-### The feature measurement seen from the $\{C_i\}$ camera frame can be reformulated as:
-####
-$$\mathbf{z}  
-	= 
-	\begin{bmatrix}
-	u_i \\ v_i
-	\end{bmatrix} \\
-        = 
-	\begin{bmatrix}
-	h(u_A, v_A, \rho_A)(1)  / h(u_A, v_A, \rho_A)(3) \\
-	h(u_A, v_A, \rho_A)(2)  / h(u_A, v_A, \rho_A)(3) \\
-	\end{bmatrix}
-	\\
-	= 
-	\mathbf{h}(u_A, v_A, \rho_A)$$
-### Therefore, we can have the least-squares formulated and Jacobians:
-####
-$$	\operatorname*{argmin}_{u_A, v_A, \rho_A}||{\mathbf{z} - \mathbf{h}(u_A, v_A, \rho_A)}||^2
-$$
-####
-$$\frac{\partial \mathbf{h}(u_A, v_A, \rho_A)}{\partial {h}(u_A, v_A, \rho_A)}
-    = 
-    \begin{bmatrix}
-    1/h(\cdots)(1) & 0 & -h(\cdots)(1)/h(\cdots)(3)^2 \\
-    0 & 1/h(\cdots)(2) & -h(\cdots)(2)/h(\cdots)(3)^2
-    \end{bmatrix} \\
-	\frac{\partial {h}(u_A, v_A, \rho_A)}{\partial [u_A, v_A, \rho_A]}
-     = 
-    {}^{C_i}_A\mathbf{R}
-    \begin{bmatrix}
-    \begin{bmatrix}
-    1 & 0 \\
-    0 & 1 \\
-    0 & 0
-    \end{bmatrix} & -{}^A\mathbf{p}_{C_i}
-    \end{bmatrix}$$
-### The least-squares problem can be solved with [Gaussian-Newton](https://en.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm) or [Levenberg-Marquart](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm) algorithm.
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBMY1dBSFZrc2NCOXRaN3pP
+Qi9ocFk0Sm9YZW5Sc2RDNHlWNkpwVVdZdUJFClJzYUpVM2hkZVJxU25sNmx5TTVW
+cWJEOEs3MWV5a0U2STdzZ0dvN3RVSHMKLS0tIFNiM0YwY3RRUEZud240dkQwNmxJ
+ck9ZbmllZE1uRWlJMlBNYzhJRmxONkUKMLLE0HfVxN9kFXpemOi1DNX7/VcxHuw5
+ZSwsceC/7kJzWXhWw9Gok9WbGKdWor38sHLio6f8e3DDI6k5aKK7focgttTEFQCF
+vcQvNhi9MrnOoz0gmOUuDJOdsMSKWliwRZhuiH+HUCglubhVdQ6yuoQC7+mM32ga
+w3traT7g+ACiGkxE/+jW2wLYKA7femMeJOthw/DaOL4PpEwzF7mV3tg73c4UWlIY
+flNOsRRYQ7SRKKe+PHPacXdnhNuPYspnZ2EtrM4HQzxtdm3ZnFSu6D53orukkYrV
+5v5FagIQGJ2h2IWI24arbb0bNGwNhSy6sv9ZqZTcBjW0CF5s1JacdiM2qEU0IM39
+PeLwoW8bIXommNx5t2oqeOwkkoNUtoyg9qNTaKMgyKJdAVeAVg5pQFui0rSSagr6
+NY29Kd9iX+qs00sj/j0L9hCstyxde0rW9e1cEzonZOn85uZaEVORt2zNJUIMLFfC
+3G1hvMvMJ5gPWw2+dyFCbnS2c+LJry6zd2cp5HpXB0Rff2YTiMRzDzgj/KdZiJDW
+4W1VvgFMphGyhdXD4P//QIj3q0oRGEaBbErrYm/3Yn6won4uZ7xTHAx+cSme8B4A
+yVjkDSTmyIINPvU9V2QPzKMklZVoAFcrngolfWzNsCBE98xQhxQCKR4etIYPtFHr
+qZQnaLLFuSQjlru3iaxv49aEx8pc1PeFdC9Wpfl4S3tlwal+GlNuqfKCAwf5J6b3
+y4n8UNOT1dximroz5Ava5Ov0JUpMzgbQ5lDNQgWdABIiBdKAhgW3DW2/igRwaXPN
+V8KzcHeQ1USboN3IaZblXLhlqoPBsBUGydOqO0BLkFJ10HCH8ozBQaKtHucahWkv
+1ranR4x2RABC0Ta23UfVB/7XwKdPFKwyqOuyddAZtLv4d5/sWQLtcKftDQbOAXFo
+UFVFrgF72rhWk/f4dAzdJFIhQmmz9FkBMcktEguI0YIwn+5Bry4TAniCp15EMmQx
+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
+-----END AGE ENCRYPTED FILE-----
