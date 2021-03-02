@@ -1,8 +1,7 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA5QUswRUZoVVNrYjJBdzk1
-RTVobWhjU2RZMkJCN0JwempSQllGdVdQUUNrCmlBSkE4TldGMmYwTHM3Y285Nmhv
-ZkdDZFNzZ0NINlBxbnExUStqaEcxcDAKLS0tIEtMQktCNjJlZkZwNzZhdXhVNEJk
-UkVVMlk4RTgvUEtNTmtSSUV1c2thaTgK9nPXccN8lm4O6xW3eRsdpL2FXfOUKuYZ
-UqAwo3H4vnv9ZafX4ts6+JJ+XYPfBme5Apom7skvNFVoXRee8eia/s+niInCuGz+
-WUNTKRFRlBu5KGDDVljYgpFDYtCeNFBiDQBK8pltdiTuJaj1VEMiGe/2Rze0oD0=
------END AGE ENCRYPTED FILE-----
+---
+title: Dynamic SLAM
+---
+
+## [[Semantic Aware SLAM]]
+## [[segmentation and MOT]]
+##
