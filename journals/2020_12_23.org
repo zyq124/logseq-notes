@@ -1,25 +1,25 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBtT2ZxTHFxVTJwZUlhWWFj
-Mk9EN3hkQjJibklMTGJoVnpRRVEybzVYYmxNClJ5MG91M3Q1b3dZa2R5Rmk2THQy
-cHl5SEp0Y2hnV3NCQzNKSnllZitDMmcKLS0tIE9OQ1d2Y2tJMU5RRkkrM1VYRkFT
-clJpTmljWTdoUmxNZGpveCtGZzJDTE0KkDKG4qa0TdxzFKVlRBdeTc98oRb6u4Ep
-SL4Vw2oSSOZTfuJBnagdqEp1h7FxEwIllfyjkYaBaTG0ZM8+svrsAMgeu+34OX2W
-FjuVMs7dOCefyjmmu1slDkfSt4ft+Z40SR9TAbvoyuEUlJhrdI6UMqMYoVUj5k0w
-xgqm8uBzOhWKaKYjxi+d11GqaK4qdu6ojUHdT5uu74rs2dgp5C8t+wNPhgo5C1SI
-LsdGphyQl0EvDiP5F2tGX+sILM93hgFK5Vvl7qdDIwyBSEGO2emT0UytjjZptaou
-WC4NrmVMJs49phX0PILGEVsyRUsFbbKcwI2RCQyGgYwP0i0QL7hyY0J1Qks9tzPA
-ZqjqErPH18zzsgzDz3Uaf50/wPbt0h9P4J6pOJ5K7E+ysRRCjgJSvpa+0I3M6I3H
-zSBDIMxOx1m4kzI8DA2F8AaxWx5YyYlTkv9+NHXdli3e/AuZXcNZh6DuaKaz4HYu
-hMDi1LBtTCN4I6B/85FSaoFoHnyzSnjr2u8x5E7lE32abLkarrnTMsix2YYmRsY/
-YDaB0epYz2NsnYgqlEuh/0hN4HRWYovUsUNX9hy8Y2lwgvsNvZqEpfhmdhXL3FI/
-T4sJswFykE/esfpIPjpD+2jk2EGeWvN6jUSOkCi6Eh0caao6jSlA9jlKY2zE0LkS
-JUk1NZ6ApRzFHEURpjAJWCnMfhKlmsVFTT/Du+wj76Amh4hZlEy2ln0SP8nJ72Pj
-DLFdxxkASzoYSrHsVWN5Nr+Fkfq1G/RsRoCQCEkej+zUucKVyhZlKshgcMzzuC63
-NcnseiRkHiyLf4m2LPRr6QovWKcrja+K55Gzyrb2LLCQ903ckqnIxR7Q0l39snP4
-N5I3fqRcwes24zaZbv7743XtU2N8YK/t8MuCuigCHLR/NUt2DqI9gAFSawoRIzVz
-yZN1Yd1gEDodigUyc0JNz0LSLmkMnv8JHXMVNT63K8ZoLvoB+vBND2v59ouWaS/2
-lZqxQoR9dEo8ULtb+Kht/pDwHAeRp542uJBFgOP/CJ4cpzOWyxojnk2JlNuMSsIl
-LzXAOyR6ATLUprxGD/kBuzeVg8+BeY69CAWf+6jIoy0jILMEH70171+51zwjxXoS
-i606Cb42kffycqbGtMvqkoOzk3sfN/ojsZCMt06WIQ9qtSF1YUmC6FWGJcEOl9mj
-ZPI3NUKqPmiJTljF4wIqRJG3BA==
------END AGE ENCRYPTED FILE-----
+#+TITLE: Dec 23rd, 2020
+
+** Annotation format in [[MOTS]] #dataset
+*** #url https://www.vision.rwth-aachen.de/page/mots
+*** png format
+**** The png format has a single color channel with 16 bits
+****
+```Python
+import PIL.Image as Image
+img = np.array(Image.open("000005.png"))
+obj_ids = np.unique(img)
+# to correctly interpret the id of a single object
+obj_id = obj_ids[0]
+class_id = obj_id // 1000
+obj_instance_id = obj_id % 1000
+```
+****
+*** txt format
+**** Each line of an annotation txt file is structured like this
+**** `time\_frame  id  class\_id  img\_height  img\_width  rle`
+***** where *rle* means run-length encoding from COCO
+***** example
+****** 52 1005 1 375 1242 WSV:2d;1O10000O1...
+****** object id 1005 (meaning class id is 1, i.e. car and instance id is 5)
+****** image height, image width, and rle can be used together to decode a mask using [[cocotools]]
