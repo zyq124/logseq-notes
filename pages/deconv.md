@@ -1,13 +1,30 @@
----
-title: deconv
----
-
-## deconv的其中一个用途是做upsampling，即增大图像尺寸.
-### 而dilated conv并不是做upsampling，而是增大感受野。
-### 可以形象的做个解释：对于标准的k*k卷积操作，stride为s，分三种情况:
-#### 1. s>1，即卷积的同时做了downsampling，卷积后图像尺寸减小
-#### 2. s=1，普通的步长为1的卷积，比如在tensorflow中设置padding=SAME的话，卷积的图像输入和输出有相同的尺寸大小
-#### 0<s<1，fractionally strided convolution，相当于对图像做upsampling
-##### 比如s=0.5时，意味着在图像每个像素之间padding一个空白的像素后，stride改为1做卷积，得到的feature map尺寸增大一倍
-##### 而dilated conv不是在像素之间padding空白的像素，而是在已有的像素上，skip掉一些像素，或者输入不变，对conv的kernel参数中插一些0的weight，达到一次卷积看到的空间范围变大的目的
-##### 当然将普通的卷积stride步长设为大于1，也会达到增加感受野的效果，但是stride大于1就会导致downsampling，图像尺寸变小
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBqakNaclA1UXg3Y3NPc3A1
+WHdxVXhmdHNxY28yMHBab2h4SzNveWpOQlNjClU1YzhnLy9NalJzKzh0MFVWbGtL
+Mmh3WGFEV3VMTmlPSlVaZEhhSUtnMDAKLS0tIEljOFJEbloyMzMvcVo5bXFPYzY5
+QjBRaVp4V0VQYVA2UUw0cHlFSlpPZDgKR1mUoAm7hOHi98wTEIwJjPb7jh4iinCN
+ftD8yqOTnGi1CKsE3YxTKXtybpkydh0wedtUh5qMpr6PIsBTXvI2q8LZaMo9iAjw
+ks47tTHycODrL4/41tRigRPvFBrCW7AvPkGnOaRBWy28GvyI9kICW+eJMGKB3uhB
+t0G+hsaNnEW5tS+A/01SCaZO7mzUOnctMNMn6uKsH6Fyrc174f3XwNZ1vvvpeYWM
+6mf5e0pUY40lAkgGaZFPofRWR+Me9gdSDU62dJ53NSM1EIzZNRojEu2KeFOzzNr9
+sHnPj/VbJxo8PQAOrTS1kHe19sGsSwrrMb39bRzieV4ZdilnqSHruY/G75WvJUx2
+fG//Qbn28j0GmSEm4f4wta4OfzGeCXo1hW56iaagTadoEh41UdkIn0d0NFTahrmM
+foMUygwGFVUsTuLPnzXTez+zIeuupJ9nIpRKURFR9hv7RVE0PZCr/QvZ1zRBomsf
+DNzT67I/L4feH+VUHcccQDzVsPcMAXj5Vbn1w8xcakZB5bfY12198y3fZO6Cjrsq
+ZqX+GUrjy7Ki/HupOoa6VUROjIcnOfsdN/+H+DWWu0DPdL1lewq0cJ/zJtAbjaHT
+FzeuCY/LbG39WHQ73SM32Cr+0+p1WearSfcuczTYsuWVkbkvRbGt6WQKE6slUJxb
+g+FSe/YFBQq7ndfD/tVVrChTwa+1OcAh1QYHOCZr2UhtxXfDIn5ikzkvYrI8zQNn
+QP2F64Y/YsHuqVqTJakPNpPUIOt/ANWv1S+nHvGidQ8sqyabPdMXirMzgs5NGs8x
+9oImQ0M/EDWhMZoS2ONaYvrGzk9F7uWO8CUJ4QL7ijDjAkFq7OsSqk7x2Wj0hYBQ
+ERkweaaDiaxircJhXa2sTz6RUHuAex77+SRFMqOinxpjKspV2DFI54cZefBjjK6s
+10C3sjxbagWYGFPT3du4PbkmyGhwnsTT2X1vCPj7PdNatJg2OG30ZywyFwfnW+pc
+v9dQl11Cysfz+6nHMw/0SOH1KEEZa17Eq4PtzwvkoeupIbPVyczXciCo0h9mZEKY
+4Y6/bkx/Vk7g2ghPb69R83xXve8B7ZdwNIcwrI4yKFrOwMbEh/cvaJpah/BdrP+T
+OpSRbArE3XeMmJNisMyTxzEQEVRwyQa+7u0HGph6+sN9DSwwoFcMASzfwnHYckKT
+vbixAO4gMZhaitjdlbOth/HqF8srkMae2yx2HcE96OzSm8ZeL1xdKQoRAJ0EST7w
++tdR5rtktzxZbsEUMcF0v0kLtWLkVVYKanHUrUTGcpu+/7FUzJXXUNPN5tdlDFrb
+cJ5lE7P7HsN6cBWl9NNoT4h+Z+YIGpjEHMDFnC34ucliur5nTw/gAEZMPz7/6RME
+OlC9Zci74PA8x9PsHNRcHVoWW5D/ccJWsGysZDYYvoUhkFkV8jxjfT+kERVChluv
+2Om3GPSoZfNDUyf/tpeTJUa3n0boL0HBBryf6xXUBXssZQNudc2CloleL5ZwadG4
+Z7MVxHM5Bx2UWeoe2Qx9XFbO49Ah5q9IVvMhReyXnE4SQ3uG
+-----END AGE ENCRYPTED FILE-----
