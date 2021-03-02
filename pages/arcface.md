@@ -1,57 +1,53 @@
----
-title: ArcFace
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### ArcFace: Additive Angular Margin Loss for Deep Face Recognition, 2019
-## Abstract
-:PROPERTIES:
-:heading: true
-:END:
-### 在[[SphereFace]]基础上改进了对特征向量归一化和加性角度间隔,提高了类间可分性同时加强类内紧度和类间差异
-### 对特征向量和权重归一化，对$\theta$加上角度间隔$m$，角度间隔比余弦间隔在对角度的影响更加直接。几何上有恒定的线性角度margin
-#### ArcFace中是直接在角度空间$\theta$中最大化分类界限，而[[CosFace]]是在余弦空间$\cos(\theta)$中最大化分类界限
-### 训练（人脸分类器）：ResNet50 + ArcFace loss
-### 测试：从人脸分类器FC1层的输出中提取512维的嵌入特征，对输入的两个特征计算余弦距离，再来进行人脸验证和人脸识别
-## References:
-:PROPERTIES:
-:heading: true
-:END:
-### https://zhuanlan.zhihu.com/p/76541084
-## 4 Kinds of Geodesic Distance (GDis) constraint
-:PROPERTIES:
-:heading: true
-:END:
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FiDlS4jGqkv.png?alt=media&token=e4962c77-861d-498f-8d9e-55237abc4c73)
-### (A) Margin-Loss
-### (B) Intra-Loss
-### (C) Inter-Loss
-### (D) Triplet-Loss
-### (E) **Additive Angular Margin Loss (ArcFace)**
-## Network Architecture
-:PROPERTIES:
-:heading: true
-:END:
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F3vCP8VbDkt.png?alt=media&token=1b529fdc-6bd9-45aa-b271-4c45cf51cabc)
-## 对比
-:PROPERTIES:
-:heading: true
-:END:
-### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F-2CQgZ9fIj.png?alt=media&token=404cac07-7afc-415e-8211-cbd25d01cf38)
-## Pseudo Code
-:PROPERTIES:
-:heading: true
-:END:
-### 对$x$进行归一化
-### 对 $W$ 进行归一化
-### 计算 $W_x$ 得到预测向量$y$
-### 从 $y$中挑出与ground truth对应的值
-### 计算其反余弦得到角度
-### 角度加上$m$
-### 得到挑出从$y$ 中挑出与ground truth对应的值所在位置的one-hot code
-### 将$cos(\theta+m)$通过独热码放回原来的位置
-### 对所有值乘上固定值$s$.
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBiTitxd1loWndKdkNpaEtW
+bkdjNkxyNVlGV1NlaEJEN2p0OGdkOUFudlJvCm5Qc2JrMmhNakJraHJ0ZURKOGQr
+ZnM0Nmw5L3V3ZGRvL25tMTM3cXNkc2sKLS0tIE1yRm5MN3QxVlhMa2tMRWFZZkx4
+dmNaL3ZDOS9EYUszalU3QlJpU0FoT2MKRIuV1Mj9YkVGleo1RyKcai3VIRDvcGis
+j9HOjnjz7rWCwWMM1xhPU1vi5Huwl6Q4MF0eAUvT8JTSw4uqaIvqVlwt85qUzpct
+4nGS16RqdTyK5LK1XevwA87hClF5O3+KnGoI4lDEAabvk8bZNx3p1j3xS0CZ2WRV
+yae8J8rLOtMh+JLDzX8AswMWcPgKdMp6JhQ0ALqKjFZSUc69e9k31ePkZ+34yHvr
+nkEg5KAOu3LyiY+xRaLc/LIUEjl/+zJ8biIWQmFGeqWJir9fwMJZs8iXguKBKr7c
+Uy1tV11imr0vlwO6fEOxeG9NMA94nwhatP7K4Z1glopBgcPkWlcAluIDIcRbhKYN
+8+7TIH8eiSELfK3es1idQr5+5APjLVLqBf5nYvreLNzv7joINBJ//HIS54Ugrq9x
+bwEll7JydTlTNbG2FxabXEj/SdnHasXi2T9vaSIGcV4LDEG86m7irBiJMyGtMdR9
+/wIGeFyVf4iwAyH3r8DzuVm8YPDBnJ3gmfWVvzN1sKOm3ruc0PKo5BE7QoQjebIv
+HirPwMS/CCh/qqxYi37K4ZIfgGKXUkf42/4l5vNOl6PZ8Jjj1lmu3yL/NFAtTHZt
+u4US3Rlw+ZOExz5f74cdDBucouK/6Qhnp+j6iX5I2FWJnUHZY02fw1oHr0ksRJsV
+IogKuYKfFBzRoWsrexqFlmrQEFXXrx8AEOGzFwVn5TAx2yMjKYppu/1vVOrnk7/k
+08EKcfg/yEm4mrS90Mpt385bI6hD5qtWCFBHaH49V+sA77/60a4RuIZgP5v6Jecs
+EYpMk+68CkHyp8PMpn8YtlekqUADxWXAy0b4GI0BrBRd/SENUrDxm6ecZAqy8xiI
+CkoHi5hV740BScAsu5eaTZiu23l5OUjlOHh5xL2RCN8geJWZUMpltRZyjyikgLJT
+SamICaL5DlMNKe50k/MnymDMSPGwW0vNqiSgCACz93V/VT8iTaSbPrmNR+A0KOP5
+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
+-----END AGE ENCRYPTED FILE-----
