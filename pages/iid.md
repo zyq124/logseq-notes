@@ -1,8 +1,5 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA5dDFHRzhialhiNCtMUTdv
-VExLY1UrNFJrdFBBRXkwMWJkNk5WQ2lGK1dVCkF4QXRKSXliWHpIaGJxaENDUkx1
-bFlPWDVtZDh5SEpQczd1T1JXbjQ3eW8KLS0tIDY4ZjVBLy9Vcy9PQnpsTXBZUm1W
-RnhvcGZwYnc2ODc0aTFVRU94RUh6TFkKNbckHmhFEZe24+k21s3S9EdkZgX+rKxC
-rPgJcZ+ivtluhov7shfPWLYe06WVSMEXL6qMVDtfhnPUeGnZOvedfTU6q/XcSQd6
-Zqv09xXy2pM/KNq82Cdk0snhB/YwE0QxdUczfgHGwsJT4VSq1FEW
------END AGE ENCRYPTED FILE-----
+---
+title: iid
+---
+
+## Statistically, identically and independently distributed
