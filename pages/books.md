@@ -1,13 +1,17 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2UFpBVDR4QkNmL0I0WnZ4
-UXFYOWNkOEFhYWp3T0pyOGhmMm5sTTBVbWlrCkJwa2RZMkY3SkFYVndMajFEaW41
-UEMvdXRPcTBMaFh0NzlyQk51L1lrNDQKLS0tIHg5MGhpQ0RpTTdTaHh2UWFIZ1hD
-T0RUWENxMHRobW1pNHBiOG51VlluQ0kKDHRAV/fwB5+XjAK/pxGOolloQWfulWWF
-cWDJJpfCSNbx8LxJ2q/KNWPnmfeD6qu+/YpjfO8X7zKUmdrhlKQLzT/XU480d6qk
-TutM4CvbYrFBhOj5wM8QkUJ+vEK8I01Ej1oFy3biGVUPDQnJ8oj/kNSM+GHzKvoe
-FQgP5DL5iJ99Okm2YBGVf8gjhuu9TBcl13ujhQV71E2/vTdV32M2Q8eTbLyExaVT
-0XFamrFBx8FH7740A+LburRO8W5psmcu5BJ/7X0nf2Mnc3j7qzVGu13rpl46Negt
-oo+AlAckLSN50HyPGxw0GdJfHnMfALh7BepJcr07D2b08KBMTnnoOkxBdTgK8gc0
-CM92EWLaKRsmxu2f9Ef2ytrpt2nU/oAl2uydnz4Ry4BZGl+OV/FwYlOoO6+d3V59
-0tgvxtgwylKXndu6KueM
------END AGE ENCRYPTED FILE-----
+---
+title: Books
+---
+
+## [[14 Lectures on Visual SLAM]]
+:PROPERTIES:
+:type: [[book]]
+:author: Gaoxiang
+:category: [[robotics]], [[algorithm]], [[cv]]
+:END:
+## [[C++ Primer]]
+:PROPERTIES:
+:type: [[book]]
+:category: [[C++]]
+:END:
+## [[Effective C++]], [[More Effective C++]], [[Effective STL]]
+##
