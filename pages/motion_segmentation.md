@@ -1,6 +1,8 @@
----
-title: motion segmentation
----
-
-##
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2ODl2dzdjN0IwNDd5dkNp
+MVVmVlpEUGJBVUdMTWRHYzcyVXJmSzNaY1MwClpueXkzRjB3cHA5UDFKbnEwV2hk
+dkhJQU5aODBrcHF3YUlhVW1BUFRrUlUKLS0tIFZTYURoK1JTbmt5bjc0YUhOZXZy
+UktEYVdSaWwrcmF4bzZiSHJ6d0tvbEEKcoo/sc/C9F/30hZ5dXjvepUixb/tU8gU
+6azDUzZlwsK44jDw4tQ+ge2Rp08pyQ5J2m0Nfq/mf8ENTGrQIVcWfbi2EK1qUZ6t
+WQ==
+-----END AGE ENCRYPTED FILE-----
