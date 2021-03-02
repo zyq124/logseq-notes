@@ -1,9 +1,7 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBDaVdLR3BPWHZpaFhMYjlC
-Zzg3Q0lKU0NtRFhycWY4R0hkbUs4eGs5L1gwCjZIWVhEZzQwOHplejYvc3Q3bE1i
-ekZTbnBSRUo4UW9ReVhReVpRSjBKQkEKLS0tIHJRdFhxQ2hYL25HcXdUMkUza2Nq
-ZHdMNVJUdXM0NStWWDBaNEQ5VmZFbE0KH7D3cJZePecqZouCf9x/utx6SBU7n4cx
-6U4tbSYB1L+oFotvtAX9Up1+9iqWNYQ1af2ptNX32QFLQGXcI4dhb9dD98gD+FkJ
-Blza2sQDz6wFK0LTG9zcupYfsSKHEgitzZ9ROw6JMI2shxYMZd+2v7r5/kSq9O5m
-IO0P0JGLWP20cPQfaVgZ+oimGM08o4vrsHW/wUEa8A==
------END AGE ENCRYPTED FILE-----
+---
+title: norm distribution
+alias: Gaussian distribution, 正态分布, 高斯分布
+---
+
+## 连续[[概率分布]]
+##
