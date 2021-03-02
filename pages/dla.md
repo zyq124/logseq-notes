@@ -1,15 +1,15 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA5UnVydE9UdW83YWZDSm12
-ZFFwQ1RKMzhuNFEvLzVxZWE4YzhEZjJvbkh3CnRZL2Zuelh5ZDdFOXF5dUR6a1BX
-LzZ6Y0w0Y3VYRE5FTTRMaXF2SzZGelkKLS0tIFBJc2hHRlpRQzRNblB6NTlqVEFr
-YVZMbDRCRDg1QUUyelBuaUNFRjVFNnMKyL4LcJ/BIP7evB4vMjlIFMYEMciZZuNO
-vU6MtpSkv2OzVvzwDpGYK2AGyZBpRaF1j5yNYapQkZAlSaeKvtZflLuW6zwAGjXj
-5GgySuPd+HjiX0gqod1w32MzRARqVZ6pgfYXO2xW7brXonBIfHSlsWE6hhj6tBo8
-LZ+FSKKXez0Fv03ZdqTGmk5DkUguldmw25MqFXHiGwgJ5rh6hvo8+ZDsJw18qeii
-/EJ0LkyUTsdcwnzwNR4FOSemwRv5R7l+c79pFpNcqhdcr0y3OxMNqIRipxnPlt70
-jSUSFHU6ckn9RkB56QKFnjDm6cvs7p7JcyxJGYfZVGZFjFIEQXq9sWN//sbJ2amr
-FA6L9mQku2wZ5K1eHBKBpUKGWLS5vo8f2r1u4Zx8LQlpNH6rAq4QZv/bGrvsgL7A
-uJornw/si7F0qF53WM7g6kQvsNm7bWuhtsG5hzE9qdPVewMri7IyagFewHpfP9WM
-2Xhlk0UcfKl6dHlNCW3pjIfoW7LbLjpjk9aBP5BBUoa7zijc6yDXVNp0v2E2n/B+
-nBY6DCNc7/mDgVMY7EGLLbNRNU1TI477Tk4FXmXhDYbpa3+T
------END AGE ENCRYPTED FILE-----
+---
+title: DLA
+alias: Deep Layer Aggregation
+---
+
+## 参考
+
+### Deep Layer Aggregation #toread
+###  Zotero links
+#### zotero items: [Local library](zotero://select/items/1_9PG7JLY9)
+
+#### PDF Attachments
+	- [Yu et al. - 2018 - Deep Layer Aggregation.pdf](zotero://open-pdf/library/items/B9RBSFAY)
+
+#### online visit: [https://ieeexplore.ieee.org/document/8578353/](https://ieeexplore.ieee.org/document/8578353/)
