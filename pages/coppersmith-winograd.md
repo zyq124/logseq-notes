@@ -1,16 +1,14 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAxdy9US2U2U0xhd2kxdzQ0
-bHBFS1RWK0UvVnE1dFo1SUNYYkdVaWs4cTBjCjhGbkhKWkVCZVE3djdpNURMZFJj
-UlhaakFyMG9zcGd4N1ZiQmpCUi9oV0kKLS0tIG14anE0Y3ZrVVZYVzhoQmFXZk54
-aTVlVEJkVTV0K1pGbzArWks1Q0lXcnMKidIBkxog+dkngNoMpGVawbSn4zXXM6ze
-VVmdTtEOvne0SeEoEEZHT5ydTHF4W1s5hiwywsOPC8R8g5W/EPJlWfsuD3KYzYrC
-uv7hYHqosFEuXRC3J+J9vf9Axlr99tzoQ3hYan2wJw3ZFjmqmPd0jemtBmJM2zF5
-U9reo6bUFf94FYt/cgG9t/5cdwQk6U0VuyzWjoRYz9wemy6wQ16R4/JOIsuvmH6k
-NzB1bY0bG3sBxwnYQqxPC+WHXsxr6MeMEaLuOc9JF8ksqzyST9FR7oNm9bfy9Rk1
-/Hahww125MJ/ZrSo0CxZkYscawyqhnlRUDEz5Z0x90ekRhATL0uAjhlJ56HgngsX
-Bg09IQsxt0eqHVnKXwEMSVUKe9faZ8FbJfe5vnhXCH5qKftRrDN52ktgXeYC+LY1
-omrReKTKe1/1alRKDWydHQSrc4Ton/J4SAWZpt5C97hRvB9ljDWTZ7Ib46B6Sk7U
-iH/ZVl41u65LA+QPlwvIo0VBU35jLcXbh2MBBLmhsjx99GtYy9iMkKB3pWDEGpOo
-GuOZZIBgOjLE7qZImdKDvA8C8KnDCV9a/XmO0NsZ6FWdSSZCTw5NLkSEnEMOpVV4
-+cvGborfKRZTr8o=
------END AGE ENCRYPTED FILE-----
+---
+title: Coppersmith-Winograd
+---
+
+## 步骤
+
+### 1. 首先把输出通道按照6x6的大小做补齐，使得整体的大小为6x6的整数倍，填充后的输出再加一层padding
+### 2. 处理底层feature map层
+#### 把底层复制成扩展后的输出层+边的大小,空出来的地方填充V值
+####
+```python
+copy_make_border(bottom_blob, bottom_blob_bordered, 0, h - bottom_blob.h, 0, w - bottom_blob.w, 0, 0.f);
+```
+###
