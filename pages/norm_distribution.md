@@ -1,7 +1,9 @@
----
-title: norm distribution
-alias: Gaussian distribution, 正态分布, 高斯分布
----
-
-## 连续[[概率分布]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB1MWNPTGJ5UmZnNi9OOXk2
+eG5wU3JLOEZGTVV3dUtERnoreldKbGZYWVdFCitIRHlTVEdLbyszSXFtZVNsNWtJ
+TU91WTZKSnlzOGpGZlZaQXRJbXhmZE0KLS0tIEVNV3R2SVZORXdITVI5NXByQWwr
+d2hTSVFHWkF6M3JPeEZUWFVJOXBzN3cKo8UBRu27SW15j4czotAOcytuCGm6I6tN
+m9sLRPfPZjBayONoWOijTi0MwFu/4zIzp5QsBjPoKl48PYqhSzVxqdhpgzpnkh4l
+sf/w3q/D1cNLdBMfj4uQkdgCqgDj75rBFlf5TJxwrLCDg7oM+DXQqSwIXsskiOlZ
+vz5PSKrMxzA2GnK0QEd6mkc9j2HYSeLz1iA+2mvTTA==
+-----END AGE ENCRYPTED FILE-----
