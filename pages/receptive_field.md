@@ -1,24 +1,33 @@
----
-title: receptive field
-alias: 感受野
-tags: CNN
----
-
-## In [[CNN]], for any element $x$ of some layer, its _receptive field_ refers to  all the element (from all previous layers)
-### that may affect the calculation of $x$ during the forward propogation
-### receptive field may be larger than the actual size of the input
-## ![image.png](/assets/pages_receptive_field_1611300458316_0.png)
-## Given the $2 \times 2$ [[convolution kernel]], the receptive field of the shaded output elements (of value 19) is the four elements in the shaded portion of the input.
-:PROPERTIES:
-:id: 600a7d0b-da69-463b-9183-3e56d89b77de
-:END:
-### Denote output matrix $\mathbf{Y}$
-### a deeper CNN with additional $2\times 2$ layer with $\mathbf{Y}$ as input
-#### output a single element $z$
-:PROPERTIES:
-:id: 600a7d65-a79c-4c1e-a790-ef1ec76c1116
-:END:
-### the [[receptive field]] of $z$ on $\mathbf{Y}$ includes **all the four elements of** $\mathbf{Y}$
-### the [[receptive field]] of $z$ on the input **includes all the nine elements**.
-## Deeper network gives a larger receptive field to detect input features over a broader area.
-### 更深的卷积神经网络使特征图中单个元素的感受野变得更加广阔，从而捕捉输入上更大尺寸的特征
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2YWpSTjExOE5lTm5adXhJ
+Mkh5NzIzY0pHWXYwbk8zWERWQzV0OXlkRGcwClErMlhoKy9wM2NOcFdua2M2ZDNN
+QmJ5VHhCc2cxb3hPWXVIZHFZNHg3cWMKLS0tIEZhNDZYZUJpWU1uZkcveG1kbGR3
+bmhQelhyNGF1WExOdmRVa29Ta2VjSjQK08Ny9j8i6TU37yexEcWdvydTfJueN/U+
+9oKfe8jnoEPG0OPBP8iDaaSOYRw3xyQaSXvkt/8HshO+x2Xflk2LWbYiz30jSeUI
+tY/KJ7wZAiKa3K3zQgbNz5fHMD6oF3rlRkJxQvY5CRwXFK7rZHJ7SlZ8GzwLNlux
+VmDCCx2wHSvB5pWVofxHB5wQVUFy3AX948bLU549tXCguZTM02RMC6g8m8bmYVC5
+/+j8zoP/PdfVe7os/Q+tB1Ga50HqliyI6RMds25bMGLewoYXiBYfFCcXHkY+5uIQ
+jJPSWZz/HJEPt4YLxC3UIHK6s2EbPAkHbtrY7iwiSEas1GOGQqoJ/EoIU3qTsMiJ
++g+oZ7411qjuE8KUtRA2CXeu5QArXYYd7+2Hwcz3DDvAiljjLcZd6eojFgCVFq3x
+NdN2S9kzeA2J75rlkAmsx3a3Wyp/ITgEVkMsnNwRUqo/+SC57ks0io8JS6jTymF2
+RYM9E7ciG0Mgux2Nzy3GtZuKfFy3o9yHXTjp9+fb9Qu/MRSu8A0fVtwpK2xEfSlE
+6iv/vqdRti9A3hzRr2ShZYJVe8GNbmAYGrVmQ9aoGmPsg2DAR0gBSENPlZ3HeAkv
+R2KSV9KCaxD5b8Fb2J90vDGS1t32HF+/MHFWG/wQBbNZ/H0Kgi1asH6bM/0gFtWI
+kzqOD9XtlqAJiD6XOTk9r/PavnGILH+Iwz58/5S+abs5uSV/p0IS4u6YFY6TYTVo
+I2ZBKVICWh6cfGE2dWzvXY2eg9/qEz/rwt0KCj67UmfDAO4PJ3lQOZVmuPZFAJgB
+NTyZ5LhzYWwcEdMpjJFcadWWpD9yGhPvXxEf0CZiMDocmHolhxNByPidKXVz0F8h
+jiiUxMSFveroipbfYaI4k1osBi55kI1C8BNJRxko9ZW7u2ilF++yWhFftpbyadlu
+eLlzlKLUDHdByRETeEialGdjR8YYf6wwkT5CpSnoXOdqYZjBh9GNoeJclO+YbOTs
+8pygJhDQXWBcYgqQhc5qsmamvzlRCl40CRn6VTnZvZu5EKsXIwOQh7/gaaNaspGI
+4c6596kDtgK8qFAJrZLjTihtzKaDWWtmB0VAmoJ+2O5Kj3tV6LkK35HcEI4RIR91
+akdU/3PEcqF/sjzzclHAyB1Vy1AcA/OzBV1sxElQj3fPNkXtgdhA7v4vLzi5lxsy
+nX36n4sgeo96S9hg1qaj7Zb3ly5m7ZGdYFOzJkS7DNagge3fmbg5nvJZDdK5op4v
+i4Fj7WOQi13pBR9gmhm5r2o8LwWHqOSR344G9yEZmPWntZT/fT9q+w9JI3vznne0
+K2w/Jc9CUNNck97t9wFFOLqblP0tZTt6zPM0HZ+KH2osJvSRHqJvbNPL0GZnAjeT
+uzRGTg4OwOTDRGUnw+QObgxjLnMatmEcz5Ew2I+oN4cU4bnPoqNus8AkaMZy5I9e
+fm0MdoV6lLGoqdnaCEZAPVP7rYc0PKE88Pqf74Iv6ziQnykGFtBMW1UdBUV204d7
+75XRYHvBRdTGog7iwpmNy48/50SMo/+mR/NGoRJ5jlBpDtninjoREXPJA9Du6h1j
+WLf3v++GP56RcvmpN6eX3B0E1t4YrSZiGe8eUJ3hPJoZx7KX6p278C/HWE/bCub4
+/JZhLQEU5vX0bY72PeIKJgF2er75CeBoyLQBqjEjfmcyLKFp4Nl3biXJ2Xluu/hw
+JmIakHVH1AmigPo=
+-----END AGE ENCRYPTED FILE-----
