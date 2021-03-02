@@ -1,47 +1,29 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAwSi9sYmJHdGJxQVlKZUZY
-Um5GdngweWw2bUVFRUNWSzdqMGhMdVkyY1c4CnBvSXU5NFpqUDlCdHd3eXR0SGNz
-dXNRR2hrdWVjQUZiQzNNcHN1TzFHNjAKLS0tIGlXblBBN0o0TzNmVDUxeFZnZ0Zk
-emZmZTdUbG1KR1JVKzdHVHNxVStMRXMKC9iItX4RSuGpU/2OLFn8KPyhHZEnH5lp
-5zKSPRlC8mw/aEWtWaBN+pSiVta3yBChPpZOAziLLPBeVH76njGly3oyaRunlnXI
-qyHJo/YPggTV0VX2++j8nZD02BfIfMRN8mQWvqp4+3A+caKpxyrDH3roawS0ngWN
-bCh6lO65JMIKpx9A7R5Xg/EGxLLSeZQWO3GH8UC+n94xPP+jrfr9UW/hwjH06YtX
-8MEtvDjcBfW25vm3OKkrihYZ4hhI/A/MO9HwrYqMAnw3v7RhZdfz+EgKDRTqM0dx
-olYCPswpTq4gO/BBHzraPKvdpnAy2phLHnPEKFPYRfbnyB+rgv6x5dGRRDV7dR0T
-Sc2w5Z63Ay0HHNR1t5jaWUQMsCE/spvylvBHN0hKOo44P9kp55wq9CpOELQoCy1p
-Vh2Fixnv1jNFG12Nr/Rn1Ls82LI2cmE5azDOWdBqu5v19X6WHuAv3/P7Gt9lQK5d
-iLbpmA18YaoFVxCo9gCmuGny5UcN5KUP1kx5LKLkZ8jt2o6Itv/cc4nD5jF2rqJE
-tPBhzf601EIrYh1ifApDdTXk1kGA6Scx47lo1weN2ZX5gx59SEW1FZBZCceo54Ka
-FBbd2kNZAKK2MsBK4XYVUaA0PVrvAZSbz0U1g/ULD4D+uPZUtaAQhM5zsSQeTO4s
-HxO4KjtCztE1+DDFSgHpUL7XIRXeJqb37q+jyia6tRLhYhH144s3WOVGa/l4F91H
-neoXOJmJ2lUutPO956/VdJGpYZV7RiwK2OcA8oA9sjr7QDgxcfky/BvQQvngP5ht
-KLeOcD4fBSThI+NOa6e+cbFOv+57T15gxlJdpD7igKNDhdUw8M8n7dWEsqy3LRQ/
-v1EU1WxWhRh3wzSXHwU8WoJMBRN9CuSaxg//zGDSwRTGd3++3OVqpnomIi+9JIFg
-3vDg9KgesNgdAaEgPBPFVCWeoid5pOXTWo0T5jfejuGfblxVE9Feo8n8VpcN//Jp
-dRrzzDs2ELv0BHuLCQ9DjWwRPX/s2wulTqm/PN5temGqrtYxz/2FdKRFQlXzdPUy
-7gA3DwuR/VenAb9mk4Shz7mpE/NZxk+AUHVwnO5Kr99l6ZsDLGSsbvNZe+6Iamay
-i0yZ/5rn6xeZbFfB2HRZZNBGIq2UjallfxEqFBxIRDaRjRNJOXki61DHu5Pm99U1
-PoGTL7SWQPhD8b27oKuZg676YehR1oTZW22W/mt570HRONKTqI+ljeXRVB/TUijT
-1UdFhAceTR2JGCJpe/7i9iRu97TyYT95G7hjetUI5U16wmeSJkp3xyKzv67jxLLC
-AXMGKDifFtbI2VkkwkKpOxrrKXSmwizu5uvIq5X7iM1ySkY+t34oMWatLjoZ0Ry9
-XpFDc8Wtvun63aKZj+zu2Gs/pjF0M9hZvlpu1CYo4E2m70Q9ExS8K3WvSENyYOII
-iRc0U4M8iFt6culSHm2xvOrC9oWNYBMtXeH7XI/QZC55rlnrKbRiwDjyokX+EO2G
-NhY3gQIXJ7Srd7TOhSSxSLV82iKcXSRSRzvZ/YVpK3FB5wvcrvSwz9kYVJjONz3J
-426uCefjE9bXrwMG5ACK6ro6hXlCzEpl4aWvDMDvMohw+pgeuwvXfY1Lsb2jnOru
-vUrjdWrvtQNoWseHfBoETAM0FhPLfePNFr/DIMGsFRtv54P6fZifm87ZV8X/WfT0
-c2xenpiJ7qIgXZgW61FnyHDAhFTi3l9o9HqXecC9GVWO8Oq2J+Hs2cexyefa+ZEM
-XwRQH05QUq7vanbuiVRwvkC69tmAiPn44AV5zk3+AbrnLb1CP2Y1ZXCuKAy085DV
-/4HgVK2QyCJ3ijm4LHpR9AoW1U5j6oqF16iEXIbrt9Fr4VtXdCRlh7uttfJxTTNd
-4ezYUL4/lNitiSlAFS5yEoeY0+f/Ne1lMTDOwhCD250UpnARcqI93IOQLNMy3XHq
-XeZ9cL5A4aEFi7BKeJ1WUMgb7+J2jTXR+Kf/OqaR4cT2IXE0XgasfdHlLbYirO7C
-h7d2YzSWxziSimxU9KiM231ZP3GI1IQsMkajGTJDVqNeejH2CnoyU1c3AxrzmRIn
-GN1rQwykiq+jIUqsvfL7OxrESQK/6ZHf70WkFB2PerA7UO7m9Xnrfgm57FbbYQAu
-5Aajy2KKTijwIECjHo/3a84sG6j5b08lEaFXOLDbD2cFuG0C/n8X8u5Qz4riZYtL
-R833Icm0Am78R5IrHkirPk7gZ4NkmoP1YXVgKXfst1vNCl9sp6rQdXycsyYOJ5Dl
-ZOz2tqcRrmwp6pJGl9kMVWzbm6Ar7pfreafIZK9hZDaDojWg3jDLaRcknlhh+hsW
-JNiNl79NCGg5R8z8ZZdWZPBot27XoJt3Tt9EbktdEKwW7ZcNk44UE0xlEyVTFrcp
-T23oqTrRa0LNraodtiFL7QVw8k+vuKWOczC4NXwcmTsK023jdOSrkrfK6kMNYfPa
-ClCU10F63EZ1uZvE3G87YyNfQaLJITg9PrHdtSnOOOapV7w7p1mH7l7l+MAEg7P9
-dleQSwr4t1ka2nn/JB2DsskG8lrP89KTwV5ZyWMnR9ZIJwXFM+/1Xq5aF7ut8AVv
-w19yDbwFvadYU8VL0t0hBwfMJdRgFn0KOxTb
------END AGE ENCRYPTED FILE-----
+---
+title: deformable detr
+tags: [[object detection]], paper, [[transformer]], [[Deformable Convolution Network]], [[attention]]
+---
+## Deformable DETR: Deformable Transformers for End-to-End Object Detection #toread
+
+### Zotero Metadata
+
+#### * Item Type: [[Article]]
+#### Authors: [[Xizhou Zhu]], [[Weijie Su]], [[Lewei Lu]], [[Bin Li]], [[Xiaogang Wang]], [[Jifeng Dai]]
+#### * Date: [[2020-10-08]]
+#### [http://arxiv.org/abs/2010.04159](http://arxiv.org/abs/2010.04159)
+#### Cite key: zhuDeformableDETRDeformable2020
+#### Topics: [[Detection]]
+#### Tags: #Computer-Science---Computer-Vision-and-Pattern-Recognition, #transformer, #deformable #zotero #literature-notes #reference
+
+#### PDF Attachments
+	- [Zhu et al_2020_Deformable DETR.pdf](zotero://open-pdf/library/items/663HLCQ7)
+
+#### [[abstract]]:
+DETR has been recently proposed to eliminate the need for many hand-designed components in object detection while demonstrating good performance. However, it suffers from slow convergence and limited feature spatial resolution, due to the limitation of Transformer attention modules in processing image feature maps. To mitigate these issues, we proposed Deformable DETR, whose attention modules only attend to a small set of key sampling points around a reference. Deformable DETR can achieve better performance than DETR (especially on small objects) with 10$\times$ less training epochs. Extensive experiments on the COCO benchmark demonstrate the effectiveness of our approach. Code shall be released.
+
+#### zotero items: [Local library](zotero://select/items/1_J3K668QF)
+## Backbone, matcher 和positional encoding的实现与[[DETR]]一样
+### 主要修改在`deformable_detr.py`和`deformable_transformer.py`中
+### 有效之处在于multi-scale deformable attention
+## 相比于 [[DETR]]直接回归bounding box的绝对坐标,不依赖任何prior information
+### 引入了reference,回归的是基于point坐标的offset
+##
