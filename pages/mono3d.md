@@ -1,17 +1,25 @@
----
-title: mono3D
----
-
-##
-#+BEGIN_QUOTE
-Monocular 3D object detection methods can be roughly divided into two categories by the type of training data
-#+END_QUOTE
-### 1. uses complex features, such as [[instance segmentation]], vehicle shape prior and even depth map to select best proposals in multi-stage fusion module
-#### 速度慢
-#### need additional annotation work to train some standalone networks
-### 2. employs 2D bounding box and properties of a 3D object as [[supervised]] data.
-#### build a deep regression network to predict directly 3D information.
-#### Then apply geometric constraints from 3D box vertexes to 2D box edges to refine or predict parameters.
-##### 4 edges -> 4 constraints 太少
-##### each vertex of a 3D bounding box might correspond to any edges
-##### slight error in 2D box causes sharp decline in 3D prediction performance
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBxUmdub2V1am5XNmlEb1FY
+YXZ0N1FUVnp3ZnJORThlTWM0Yi9WOUNmWkRvCmxVM1ArVTFZY0ZXNmN0bU9ZaVBZ
+NUxaVXYxUXdyRVBDT1hOWFcybkU2NzQKLS0tIFRuRmN6S0RhVEl3a3lWcmhUWndo
+THlBcWVQdXVrdW1nbkFlQlp3amxrb2sK+OHDrwxeppit1is8J9eqiUQtWiQcvn5w
+W+6DCSVOYEFfLVoAS9nDPIQiJyls1mLYE17irxNEkvD6HOx2xUO5IsxwnWYDZyRi
+TmN3CMHs2l3qBlh0uLslfLG/SjazkHLmu0qesyCl6JfqVYrLaXFXC1s1CZvYqoLZ
+5dVkmb/YvK3XPfuBiXJXb7pYwrNg+x5wW4W3tVyFVW+OO94YuM4OFSZr898pouOQ
+4AP2K/IBVQ6f28IVZKyKVqH1cFurBPgd1RHwzdDXkSEPYZTjHQunGw//r1PQDoU1
+66InmaWSHxnzOXQaHoHpfsaRa6o1/rVKGIKChM58MSy2FNB+EsxOdpPrGlrWlZQZ
+1ow1JM45F5Y4Ez/6RNxIuKIHt6cBpSHxQ/4hJ0CBp3PBbX2fhnKKl/SM9ldL8Lqs
+rE86o2XzP9a7VGd9RcAmG++vmdOgYdcbSMILSQH5QfCn5TdDDKsfpK/7nAzneoM9
+iRlFEbpglZLGEeyFXW5dtKPswIpmANkzqOj6eIe9+lD0aqLQ2Q1FXWkufm9CTDJt
+q1CAIvu68wKcN4Su97Mu1bpxraQDzS0iFOBL6kAhn8kkgUiSjiaD+t7LLFocYWny
+Fm/dWRmzftZRBgPTpFY0daRjACBzyBeBGCWJy0R0cyLhKYqxld+p/IwwLJP/AeLO
+SJVu2bEOj/m4dW9kvy36sGVQ/AW4gInO/1M/b6SHhYK0UanjKAitxkfZ5VOhsFPP
+neH7MoVKH3FdeMB7rX87v/HmavpKd35N7nESgGSyarDG5qHCdWAz70KJkVuIULDn
+Hym0sk+F0yA+/48hfCs4l1Qd8O7K9ixZmvD+lvvudazzCSuINAnnKPOPCDK6uIYp
+XlImbU+q4uEXdD1B/pj+30Iq036ZCOBFEyhMxvfpduxxAowyKJpj2o0OK/kxdwH2
+E7sNwbRiFCMAl6mDPunGugSbEgBSc7Y1Rfx1pdg0FX6RoPYl6xA9WPOGJdN7H7zD
+nDtCQ65c7L5fuQb5fC3FqvJJFHFKbByG/LfqBfbV3eFFerff88sh37C0dMrs9UHC
+tcCptw9nPrUlrbAws+wLCoUQTVMSA0M/S4Zop+F6joifgwjk7VfGhSlmdZ0Qr9vj
+CfLf7saoapuHvaMKngH0DlemN9Eh19vLmPFb9ZnLfmRxm5BLBDpUdZFU5P1hw5c3
+gqI=
+-----END AGE ENCRYPTED FILE-----
