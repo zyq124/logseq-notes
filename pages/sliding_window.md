@@ -1,21 +1,14 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAvSGJ4blQ1K2s5d1Y2L3hO
-SFJRYWFxd25mVGtTa1JrS3lzR21ZQ2tkcndjClVhRS9XRHZLQXp1algwZHZZNTBu
-Smtpemd5TDVLeFFMdFN6dUlSR2RDc2sKLS0tIDJyVnJIUlBKbGIweHlBajhFd0Qz
-dE9ya1VxYnZIM2lyTnlEUUxmVnllS00KTl7DRTMrM8/j/5TFKqaVPIiD068beguh
-jIG+eQDWw0vhv5wJ25g3KyKKtjF5UQnvMz+ssnzq0he9y0U3oBTqMeyDcT/mnDFD
-I9JTXEs6bek5E+cKQ13Chcr5u0OQN6/ST8/ZC2YeXav3aPFx2zHpDVMN7tE5zcdl
-oWYLflzYpBuGc38g6hWGsXt5/8urkBLT0Tf4axh89r8b6kKnPOrynrRcF0EkiUM4
-0jAkeFJBWNqK2t4d7xdJ6CZbEzuR+RRGX2V++vNLLMGuOf6X+PAzkf+cwAoMvCGR
-bzRnq2IuTPlKCBSh3zobXgtoP/OY4VVz2B0FSNiwtefoSgFJP7TFDPq+U3g6fFe3
-bEGahJd0G4Lx2uqO153nCyihHwmf58AfBzjg+eCr7zv8xGnVhHLxvqCOSVwlk94f
-eVVSFlmAblA7ZY7LXkPMKtznCBj+LlBG1X6k5ErkCPiFsSmc5Zmd96XCSQsOcslt
-qWRt6b831YG2A0nxqrqFdEEFYBklh3jg3BcskX4+jc5QbGqf+ANuV96FwODqLzsK
-1ArFEOBC+IpnlPT4lJtxyokhVR5lcBxOmPQg1quFoWfwGHQIU/zIBha4rYqWIl/3
-703xP1TLaHxkS6y5yQ77bRRUBoqnDEJ7PD+mQBxlk4+t5WanWPRBS3evDeQxVJv4
-CIgCL3HoG6P5tIr+6pBkF7jDon0MMs1zh/LjGUxAjANBTxvrHY9co+/CV+eixI1V
-qSa3O5uXFUorcWzUDTKTGch0HDW3QOt6PKXGdzrSX7FlrnoDTtAPJYUOgZtqf3VY
-VKViJTkKx7pjmzcrH+O4d4IEgg+jxzFJt1ujos6JhA8JHZ697IccpBZjeoNXWdlw
-Je5u2GTyVpH5ZgPfdgxB8GHzspjIhwo1WERDFcqKW5loTSsn/9EIA3Xiu1QO9/rB
-xATqYaenu9xw4xWzskQMeNDjGIPFF+HVtn07xhiJhIhQ
------END AGE ENCRYPTED FILE-----
+---
+title: sliding window
+alias: active window
+tags: [[Optimization]]
+---
+## In order to achieve constant-time operation in visual SLAM, we can dynamically define a sub-set $M_{\mathcal{A}}$ of all $M$ keyframes as the active window $\mathcal{A}$  over which to apply optimization
+
+## Usually most recently captured frames
+## [[keyframe]]s are fixed at the boundary of the active window
+### all thos keyframes with co-visible points are included
+## Works well in exploratory situations
+### with large but few loops
+### For a loop camera motion, the number of keyframes at the boundary is large w.r.t. the total number of keyframes within the [[active window]].
+#### fixing them hampers convergence
