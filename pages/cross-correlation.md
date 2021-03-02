@@ -1,17 +1,21 @@
----
-title: cross-correlation
-alias: 互相关
-tags: [[信号处理]]
----
-
-## 
-
-## Given an image $\mathbf{X}\in \mathbb{R}^{M\times N}$ and [[convolution kernel]] $\mathbf{W}\in\mathbb{R}^{U\times V}$
-###
-$$y_{ij}=\sum\limits_{u=1}^{U} \sum\limits_{v=1}^V w_{uv}x_{i+u-1,j+v-1}$$
-### 用$\bigotimes$表示互相关运算, $\mathbf{Y}\in{\mathbb{R}^{M-U+1, N-V+1}}$为输出矩阵
-####
-$$\mathbf{Y=W\bigotimes X}=\text{rot}180(\mathbf{W}) * X$$
-## cross-correlation和 [[convolution]] 的区别仅在于 [[convolution kernel]] 是否翻转(flip)
-### 在[[CNN]]中使用 [[convolution]] 是为了[[feature extraction]]
-### 所以cross-correlation和 [[convolution]] 能力上等价的
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBnTWxUTTdXK0czLytWWXlY
+RVA5U3J2bVp3YlpjQ0NWOXEzWk5IMGpCaVJNCnlRZFZMQjExRHdYTzNHRFpPL0dS
+MWJhd0tCbHBTU25LYkxaTW9YWWJ0WkkKLS0tIHNhbWtTQXozNmxSYWVjM1BvVDNn
+OHFadm5Sb0U1RHJMY2UwMFFhY0RPcEUKHgjWJfxtKAifJcLoI4Fv3aenES8juJX/
+cQZ6rAnVkmlnPF6Tghdp+8E2vqiiC/rkESG8c7K6yqU81IX835SscSrETnavVj1T
+odyzRsetAdi5YQ23Ji+tErbBxcT24hU/6cU8gi+q4jqfo7w4agPJ88SOwI8CBvTb
+1qKNV1QV8vsr9w/tyfRf8fB2Z4vjmTSlTBXbEkhr5q4nkL0YDHnRHMWU6Fyc0Fu6
+TOEHVSMacCLlI47t8z9NRFP22FpozYW3NBV+U5ENSfVMO0nZAWKI3I0MxsxBfrrr
+vbua2tnZdwJXUjl6xAgXPrq6az7MXgoKwyg3gGGnyXlJdqQqawjwYt+ArhZdQ3aq
+xMHIKTm8obGmhLXxqd+y70fjkwkBVjFk196hYs8icpffQdhcDYhVpzIpGYv0Yqq+
+JhXDWDwV0gFQvc62mgv8W6G885BiqnVk0SFsdZ+YesiYjzhgabxBPI8UbRmA8Xe/
+ajdbX5XFDbeOesEm0TSVGAQIuZjq5R9xIL88DmZqLwmwqGq/jnS2dEuuBy+9o15y
+SCFyQTf1NvDqgUhKXPpT4jctnp0KBkjmLsP2Xx2n1RCoYIXxZQK+DP7pYKAmWKsz
+8Gjh0SFtoq2mgLpoI0B/WHZM2oycMBRJdAz9hQufCs+HwJMv4auOxkEFguPDbnBn
+pRdwE1r5oa23EsgCcUHLjoo437N8+Ybg8DJCnbTGsWjDNRM6XWaMLcohEgnYJwSp
+fyrQ8Nbrh5U550FZhsduA8fX9s+cNjHaNrsaTRy8Vg2J6LzBCefU0i5+Q/k8OCl4
+gPMzE0v9RjuUtzM6XbsXbyzhv2ZUioGBoRumXiObRQxwOWZf/f0NopAWC1q3lwpz
+/S5sJrZmHktqubIqJcNncLZvSPcnJZst3rJZwCD8WZqJZ8fpbk10VodZKUvqG30y
+VdMHQjUFwAVxlznV7UTwcZmVOg==
+-----END AGE ENCRYPTED FILE-----
