@@ -1,17 +1,15 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBUb3VxNzdMZVoxanYvNzBj
-R1E0ZGJSU1dqbFpCOTNvRzZ2eHhQU0l3a2pRCmFFT0pHRC82RXE3SEpiMlVEVlJS
-OTNWUTBuSnVPemVuVUEvejlLOGVPV1UKLS0tIFlSbGRRYWJrdkNuOW03emNIcHlD
-RnlFaUtBa2VOa0hXRW1jNlE0YzJHbXMKRdrYwqi3zjLjdMaQkiU4eNpJG4JhPIQg
-KA+wC9KXUgzowK+nnKltZ+JMBeMLbD5bsuS3ndSxWxVnVXmjeNiThJu8sApoAqyW
-S8EGxwXof3xTR23ZHtaFFZY6IS1b6cZ0o0rhUkqUm/DBc/V6NRcue/z1vWIH//ZO
-3v4dCfRwFft5LrjeTuvZeBKRtiOfe8Tx+0pWQYqWZfn58nKEI0hJLpEWhXTz3OyP
-s7hRDYS/A9/F7Vy6q8ZNx3WCSw0CPhJZbF/ec1Pwt6qslRoveseUeRIuRgfotrGx
-lh3d+u1VL0BKtTK7HfLapcgw7zi43EOCAsqvrqaaKApbh+6KjOVFg4JrPqTFIwvH
-tRk5N6hwOmE9qAgY+v0DGI5XPtEpz2mSMTY4TLm1BFhxsf6x2wbLb+/fZBNRCmNQ
-UW1HXbH76bdXzs8lzwgSh5UYa9WE4uZ3su+ldodjn7070Zo7dlbJ5haILTeVY7x0
-hBMOtXJm8Dc5cQaUEN7cgI92dHZXoeS2yZLxI0356uXeT6UHiNeh7qxw8LpjN2Ui
-JeXlJAwiCYCNenRJ0lJHaRk2huI7oP8a4n0tc0FeuUkWLlyc433ZtoarwV24txKD
-QtlH+1YRsLlYNyAeZsVbvgStUmLT/8S9sDitWWerBWBaIWDxIUJ5e9P8v0xCOndG
-B+JXFQe1gQOPSIth0qRQEJnstSOGQUFu1OpIIYi1P0QfSeJHrxBaUic490ZP
------END AGE ENCRYPTED FILE-----
+---
+title: Orthogonal Matrix
+alias: 正交矩阵
+---
+
+## 其转置等于其逆的矩阵
+
+### $\mathbf{A}^{\top}=\mathbf{A}^{-1}$
+## 正交矩阵相乘仍然是正交矩阵
+### $\mathbf{AA}^{\prime}=\mathbf{I}$
+### 则$(\mathbf{AB})(\mathbf{AB})^{\prime}=\mathbf{AB \cdot B^{\prime}A^{\prime}}=\mathbf{A(BB^{\prime})A}^{\prime}=\mathbf{AA}^{\prime}=\mathbf{I}$
+## 一个矩阵乘以[[正交矩阵]]，范数不变
+### $||\mathbf{Ux}||^2=(\mathbf{Ux})^{\prime}(\mathbf{Ux})=\mathbf{x^{\prime}x}=||\mathbf{x}||^2$
+##
+##
