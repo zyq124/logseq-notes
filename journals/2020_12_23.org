@@ -1,25 +1,25 @@
-#+TITLE: Dec 23rd, 2020
-
-** Annotation format in [[MOTS]] #dataset
-*** #url https://www.vision.rwth-aachen.de/page/mots
-*** png format
-**** The png format has a single color channel with 16 bits
-****
-```Python
-import PIL.Image as Image
-img = np.array(Image.open("000005.png"))
-obj_ids = np.unique(img)
-# to correctly interpret the id of a single object
-obj_id = obj_ids[0]
-class_id = obj_id // 1000
-obj_instance_id = obj_id % 1000
-```
-****
-*** txt format
-**** Each line of an annotation txt file is structured like this
-**** `time\_frame  id  class\_id  img\_height  img\_width  rle`
-***** where *rle* means run-length encoding from COCO
-***** example
-****** 52 1005 1 375 1242 WSV:2d;1O10000O1...
-****** object id 1005 (meaning class id is 1, i.e. car and instance id is 5)
-****** image height, image width, and rle can be used together to decode a mask using [[cocotools]]
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB3UTM4VmJINVFmMEJHODNN
+YUtsUEJpcFlZdWFtNnZGODBhc3FKbXorSm00ClpjUGVMa1VmRmdIMFlFQnVNZksy
+MnY4YjhyU29GL0JGTjBxWVFsaStJdmcKLS0tIHAvbHdZS0ZQY2dCQXZGRWJ1ME5o
+THBMYTVXV2xsRThSb0pmVUUrSDJGUW8Kid5ONBK5EVqErIJHLVAymjCVtGrQfajo
+iyE0o9FIbpZva9rMnoQWkSPCDNfTkQhTwQimE3bsHQo3VgVKy2xHOXFQJP29Qkey
+FUwdkKm5LiWuZ32cryjfWWiExLscMqmYUqqMTROffjtR13Zur+N2921lBJ2iLvK8
+eCR3NtFPcdh2BxMEWhNsgjJCq7oJaBHj52m3+5jboiwnx4FHR0OPezUdrVecAmgA
+JWIvx77QIkHWdsSSiOKaTL50gVXGTBqKWbeHjK1sTb5qRIeIyKChwNaKIRz65Zht
+H9Xo6ZYJdeVzhkJrBBrytuDbLRCGUm5uJaFlIDrrqiRHCAfB+tuiG1tr3hhWPrKG
+zjPazE+/KIN5i9OhiqMUl65RcX1futCiKV0F3DYHGYH4E1vrE2mZQpq52M7BETwC
+W8LQFG2TB97dyJkX8UUgm1s1IH6KUOUFqbdrsuvjrqoW5qCul0ywPDEGvzL/BdaY
+GGeam8AVARb6UZD3CelhMhPgreQ7wHBxC9UAkIRB+Suns7+E/uUTqWRNXCtY9b6c
+CxyHC8pzvFjVx2Kes9McwM/iQvHK4xsZuwY9MOAuqxgczQYgnmzGzDgETbbcD3Yp
+HY0RJmXVAmx2fr1m2MK6DAse/+Llwpidvx91h2mvB0QrzAzeBbrPGx0cShuOVWtT
+i+0I16n1HYD4C4Kg7XRGdmcXNem7clTAAxXjSELMz1j2GwIxmkdBL4RDG1I2OqpM
+pKbYHLYD2rA++kNRWEKBlIGWTBF5SuanQKT1Ab6067L8BtJcRGCu7TVPz7Q2hPBL
+1IOfynoCBIPWBVEl70sgjCBvg+l/s6z864n26i7DLXccW9k4B+5EY267LEeFPJBr
+dfXFmT3Q6IuvM8pkdL+QSCww5Gkw30lm1Q6DqTrYUDJ8PKMTAS3lJNbheN+/e2zc
+m+dNnwnC//3z39AOfKtqHd38Hxvp/1WKh6zKy/Zm7IOb1Cib9xNNy2u7aQy69zOP
+l3cdbTHL2HdtFxPGKgiNUALSjvf/vr1GE/392HykisBUJoJSf2Zic7/yaLkUAFpi
+A92R54uQKF0rxfxJTqkTBT7f3r9UQOt0aWAzAAk+EidrWlZf4VXG6wdT2FUNkyQ5
+m5MKvvR10QJ+IH5B8cUFahxnoAN88bukA2u7SXalhrIOt0CBbuHgqBIhp1eSlGWO
+Q09uG2kG8ec8982xhJf/wBYj+w==
+-----END AGE ENCRYPTED FILE-----
