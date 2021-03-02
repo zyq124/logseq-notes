@@ -1,97 +1,79 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA3TzBVUUR0VkFNcmdKSGZU
-MDUxTDRsUzFtQWVISTFwM0tZUEp0MkJuRFhJCjA5UGRYbWc5VGtuZ2lydHJYcCsv
-d1c5ZythZHBwRXptTjhHaVk2cFZLSDAKLS0tIDVValM1WVR0eU5YeHhnNGVWUnFu
-Mi9NYzJTRE1UMUNPNzFQTm4vUkpFYVkK6bRQ+sGW403ECGAhwJ2bATvv0m2NhLIw
-ycEjYfI46C4f6sy55x3vjP1tgrIjyiS6mfeInFbHfJ0rQfAOiNG5VLGNPFCgA2gj
-TwPyqHNsaQ4JT2YNJr2shVMlqYqJGey1juttEPD8TYbk5B0dWDNRuS56FbqFdbe9
-IW2ncRlzj3+llKsg3LsOhJq50DbIkAwofCT+Vg8wwwQcna/UQQFVTA5sBOdNM0YP
-LOyDrCEnQE1tTJ3ndNak5G0KCY6ik6O7yYkN8L+RXEbrCUgBlY0vKhpX1Tf3A19r
-xHu1sJK+6/JZ1D4VqulHhjMckbk6vdUT1QdTuwL71UCSgGmOtQyOd/hztcH95F1F
-ZHJtynGBo5leBZhOpDjEd8kQa07El+TCySPGUL4BKjEAHkxhnYLbeZvtoDeQQc2i
-NaLbF/meg+ZmoCvoyN5jFgzH2V4KVhwd0Na1xxOX0T/N/vWDLnrMVSfECMUjR8+7
-PQybQip8D4uks+DyAD5OC7p9awY2Yohbcn4ITKy4jdijTX/yVC6xIk6Jnh5rtJzY
-M54dQbA61e4YntdrYLR8YYDatssqFAOuPrxzHHRWjXd1CK/tYnhodJuFis94fexz
-frdzNMmfqycfhaxMRJNple7TQvZ7cqJYT1aFcHKhgMvlX0ojo6+9xoblPc5G5A+M
-98wVAFYX5b0zbaLu1wMjIbapQVgBXxrZJ9077RVjMqaAnwza8K0s9EMaA+wQfwdf
-OBemSrPLHYceAAIjTTruHpA4umdd8YEaLc69G0S71c8Us0f6QAODq1lVh9Z8R5L4
-5ohcLuN509WrfPsIC2sijTjYgPueUt4cO6/fRxhEGs7/UlrSP6FK9B19oKJ7PcBF
-LuyqwJjdVsZbdWvoDyTPJB6MB7/pPOC5K6dRZrJ8eKGdC2EOhVyY5Cv7TXFUOUqY
-bAUpnDDqtKVBFzbr4SYIZ+KxFfC4iuizNpFVqnheRhnulOEiHXs9Lihm1ty/rAsP
-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
-sME=
------END AGE ENCRYPTED FILE-----
+---
+title: optical expansion
+public: true
+type: Article
+publication date: 2020
+publication press: [[CVPR]]
+tags: [[Optical Flow]] 
+---
+## Upgrading optical flow to 3d scene flow through optical expansion
+## Optical Expansion vs [[Optical Flow]]
+### ![image.png](/assets/pages_optical_expansion_1610542666164_0.png)
+### [[Optical expansion]]:: 对于一个区域,在前后两帧之间,面积发生变化的比例
+#### 例如c图中，中间的大蓝色矩形的面积，与左上角小蓝色矩形的面积的比值，即为这个矩形的optical expansion
+#### 一个物体的optical expansion大于1，说明在3D空间中，物体在向相机靠近；如果小于1，则其在远离相机.
+## Optical Expansion v.s. Motion in Depth
+### 如下场景
+#### ![image.png](/assets/pages_optical_expansion_1610601931342_0.png)
+#### 倒数的关系
+## Normalized Scene Flow
+:PROPERTIES:
+:heading: true
+:END:
+### motion-in-depth $\tau$ 结合intrinsics $K$ 计算normalized 3D scene flow vector
+### ((5ffeb0b3-fc27-46ef-8016-74cebe53cc76))
+### 3D scene flow $\mathbf{t}$:
+#### Relative to camera
+#### factor out camera motion
+####
+$$ \begin{aligned} \mathbf{t} &= \mathbf{P}^{\prime} - \mathbf{P} \\ &= \mathbf{K}^{-1}(Z^{\prime}\tilde{\mathbf{p}}^{\prime}-Z\tilde{\mathbf{p}})  \\ &= Z\mathbf{K}^{-1}[\tau(\tilde{\mathbf{u}}+\tilde{\mathbf{p}})-\tilde{\mathbf{p}}] \;\;\; \rm{where} \; \; \tilde{\mathbf{u}}=\tilde{\mathbf{p}}^{\prime} - \tilde{\mathbf{p}} \\ 
+&= Z\mathbf{K}^{-1}[(\tau-1)\tilde{\mathbf{p}}+\tau \tilde{\mathbf{u}}] \\ &=Z\hat{\mathbf{t}}  \; \; \;\;\; \rm{where} \; \; \; \hat{\mathbf{t}}=\mathbf{K}^{-1}[(\tau-1)\tilde{\mathbf{p}}+\tau \tilde{\mathbf{u}}] \end{aligned}$$
+#### denote $\hat{\mathbf{t}}$ as [[normalized scene flow]]
+##### ((5fffe3b2-f45c-48f4-8e43-48db5120bbbe))
+## Learning normalized scene flow
+:PROPERTIES:
+:heading: true
+:END:
+### 两种办法 [[supervised]] fashion 和 [[Self-supervised]]  learning
+### End-to-end network
+#### estimating [[normalized scene flow]]总共分三步
+##### (1) [[Optical Flow]] estimation -> $(u, v)$
+##### (2) [[optical expansion]] estimation -> scale $s$
+##### (3) [[motion-in-depth]] estimation $\tau$
+###### optical expansion is refined to produce correct outputs for a full perspective camera model
+#### [[Local Affine Layer]]
+:PROPERTIES:
+:heading: true
+:END:
+##### **目的**是提取**dense** optical expansion
+##### 对于2D图片中的任何一个像素，以其为中心，抠出来一个$3\times 3$的patch
+###### 假设这个patch是一个刚体（rigid body）的一部分，并且平行于像平面
+###### 假设在前后两帧图像中，这个patch是平行于像平面运动的
+##### (1) Fit local affine motion models  _(dense layer)_
+###### Given a dense optical flow field $\mathbf{u}$ over a reference frame and a target frame
+###### fit a local [[affine transform]] $\mathbf{A}\in{\mathbb{R}^{2\times 2}}$ for each pixel $\mathbf{x}_c=(x_c,y_c)$ over its $3\times 3$ neighborhood $\mathcal{N}(\mathbf{x}_c)$ in the reference image
+####### by solving by [[least squares]]
+########
+$$(\mathbf{x}^{\prime}-\mathbf{x}^{\prime}_c)=\mathbf{A}(\mathbf{x}-\mathbf{x}_c), \; \mathbf{x}\in{\mathcal{N}(\mathbf{x}_c)}$$
+######## 这里 $\mathbf{x}^{\prime}=\mathbf{x}+\mathbf{u(x)}$ 是$\mathbf{x}$匹配点
+##### (2) Extract expansion _(pixel-wise layer)_
+###### compute optical expansion of a pixel as the ^^ratio^^ of the **areas** between the deformed vs original $3\times 3$ grid
+####### 这个仿射矩阵的[[rank]]就是patch的optical expansion
+#######
+$$s=\sqrt{|\rm{det}(\mathbf{A})|}$$
+##### (3) Compute fitting errors _(differential layer)_
+###### compute **residual** $L_2$ error of the [[least squares]] fit
+###### pass it as an additional channel to the optical refinement network
+#### Learn expansion (**supervised**)
+##### challenge: ground-truth
+###### Common的方法: search over a [[multi-scale image pyramid]]是不可能的(因为结果sparse and inaccurate)
+##### For each pixel with optical flow ground-truth, we fit an [[affine transform]] over $7\times 7$ neighborhood
+###### extract the scale component, similar to [[local affine layer]]
+###### 抛弃高error的pixels
+#### Learn expansion ( [[Self-supervised]])
+#### Learn [[motion-in-depth]]
+### 过滤条件
+#### $s>0.5$
+#### $s < 2$
+#### $error < 0.1$
+###
