@@ -1,28 +1,42 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBHNTB5SmtVOUpYc0tFNVYv
-NDkwbXFHN3FSNHU0b1JHUnkwcUhRcWRWcmlJCmg2cFZnQ1Ezbk1DV3pXWlRqZVdD
-a3J2TkZQOUJWUitxVnpWN0M3SVFXT2MKLS0tIGtVOUZvWEdRTmh2YzI2enhMMy80
-eFhWdXVCSXZLTzNuMEZTRjVMcHFlbHMKLNGegs4igozEw95NNvFWQffBDLiaB601
-AfUK/C9FTIKLe5ql+skTwy75Y00cueM3aRDmsvP8usapzvapf8Nhxd098yUCW+fD
-SWGBqwopKABLPjPLheyFV8VJE0212iB7uCBo30q1/WP878M1jiXx6tKZhv+IbdpN
-qO3TAMxF7+Gd7hOQF/Cz0ol7KsPA0BjYliZzLdhyXpjDWT7lx2z3rpApxOCr0PmN
-pBTu5XtEhCCpH8W3bNeVP7zGqH+dKYPeZZA1bipJ/imlPNy8Rz5jbfBBT846sxQA
-ziTUsC9BNJ2rmrke8hV8yJZDCAnWcvVKw3eI8MWSwIbDE92+pUkhfSgCc/dC+/JQ
-rrAmOBj+zv+Z9UxCv+LYBIH1O7R7yvq9oTsvdc3htOI4gHxvkvN3Z366zkbLeHMw
-Ot0cs8iJlCfDgoUZMoPfVnWb8hv3SWdHXcCez2bigp0bCUVpkyPfjZMhrG6EZEcb
-SLHP+CyThvnPpiESOEN4Brxdvq8k7WT3XepSPTQ33fVzbVtPSaLpMlUS4AU6FeR6
-eNyMkGUSWjkio0tOYOR5EcetAFsNEp5B2Cp/EhAV9i2eCHQuHGOKArsOLunQnBzp
-6kYyWjmClNcLPNILLuZGbTZwuAbLIfFrK9cCD1LlASIXASFZKGbYThkcIkDoc+Fy
-BF00efULOWA3u/RlqPjmx5XIEzM5xK4AVyjQvLr97mNfiAcY05nQAMAM9A+WuFUD
-ebrvuI9YcAur6dsNaekLQSYClfIp3xVjNdSafjqsMXwuRLcKI8mnt1ibxc4CVTWH
-mB/bK+k6X1BuBjYKsY+sVfZl1X3KglM9ayfpMpmqJI3MWO8Orw0QUKtMdTyoTClL
-AwFKcRhLtr0QUwkNNNEDWIz3shJSkQ7a7PINhhbvel7aR/UoRdf1jeU0HErOmd6Z
-PwK6PKiTen69BjiP35MBsXHY7QVvxNBGsWgqxCEUTHssqZKQrp5ySlzgFGUY/FZF
-+MsF+EJ1U9A3Qxa4+m+mUN6ySigMFbrdmMKz7thmcslFBaQVFpw2BMtPT0YdhQ3S
-YoUxmwSW+nP4OYTxxjbroE9F9Py5iYxF1ijkHbMYalUy1gNQdH5ricLTMwGZVYBM
-4nArYe71PopP0QXBA3XZ0DektTs4GE0GiWt4c0kxLk/v5Gyev1P5dW6HHnevQ9LT
-wRSwC7XlYSgUld+TuXEDpUP9e36kEUan/ldx1WDs94mcF2xtbSq+1fTUEPJb/5kb
-1q2Zgqo7pvQn0ZSpKmUViu7Log20YAbBelvIwBLlfqlZO9Gr8cFCp6CAeuGiVQUe
-3BRBLhAau3+wPefPBXAlh9vIW5xdB2L2D7vs81AdpEAOExOKgHJFBJhqihE1n5H1
-PmDp3t7slgcsrF7gWz+fWOsLzr/rYQ8IQLw/
------END AGE ENCRYPTED FILE-----
+---
+title: multi-view geometry
+---
+
+## Meta Data
+
+### hartleyMultipleViewGeometry2004
+### Multiple view geometry in computer vision
+## #Matrix #maths #fundamentals
+### [[Orthogonal Matrix]]
+### 一个矩阵乘以可逆矩阵的[[rank]]不变
+### 矩阵的[[迹]]：矩阵的主对角线上各个元素的总和，是矩阵所有特征值的和
+### [[对角矩阵]]的[[特征值]]是其对角线上的各个元素
+## 1. Projective Geometry
+### 1.1 Transformations of 2D
+#### [[affine transform]]
+#### [[projective transform]]
+#### [[Isotropies]]
+####
+### 1.2 Transformations of 3D
+#### [[homogeneous coordinate]]
+#### Planes
+#### Lines
+##### [[null space]]
+#### Quadrics
+#### Dual quadrics
+#### Twisted cubics
+####
+### 1.3 Estimation - 2D Projective Transformations #reprojection
+#### [[DLT]]
+####
+### 1.4 Evaluation and Error Analysis
+## 2. Camera Geometry and Single View Geometry
+## 3. Two-View Geometry
+:PROPERTIES:
+:heading: true
+:END:
+### [[epipolar geometry]]
+### [[fundamental matrix]]
+###
+## 4. Three-View Geometry
+##
