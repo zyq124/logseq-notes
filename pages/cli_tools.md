@@ -1,19 +1,19 @@
----
-title: CLI tools
----
-
-## Clipboard manager: clipit
-## Music: Tizonia
-## Screenshot: Flameshot
-## File Manager: ranger
-## Pattern search (grep alternative): rg
-## File search (find alternative): fd
-## fzf: https://github.com/junegunn/fzf
-### fzf-z plugin for zsh
-## autojump: zoxide https://github.com/ajeetdsouza/zoxide
-## Shell framework: antibody, zimfw https://github.com/zimfw/zimfw
-## Disk usage (du alternative)
-### dust: https://github.com/bootandy/dust
-### ncdu: https://dev.yorhel.nl/ncdu
-## regular expressions: grex https://github.com/pemistahl/grex
-## resource monitor: bpytop
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBRSFJWSCszdmxEblhqUGFN
+T1NSYkJ2cXpSdTRiT0xZY1JoVFlVOGRMd3pjCk5YNnRBM1h4ejZlbGF1MjFhRTlv
+TklnMlpuMkZNMTZDYmNodFJBQkdPNlkKLS0tIG00cGV0ZjdYMEkxWjA0ZTNQd2RW
+VWMrM25VczNlWXZRanJtblM3bUlZTGMK6nOYLpl5YVPd4UMhFJFTJozU2Ny22SUz
+6a2LTdEd++DLaKnn2ncfyFKTuur2JKcb9L5muFMQekpIKP4WjjH4THX5QFtuJyMl
+O3ij3YW+G6LFrYYGErjMfJOdt5cT4ql9xuWhALBScAA0nnQN0izICe7nbsg/rPkT
+SyseAbnsiDDrJlY2jJiT6gAiM8GhusqHioz9J9mEeDeiQ4QHGg9NepLWdYz0r5VH
+NboeTQYa87IKdd1ptnGyJ9zVabt5heGyWotF7bXao9nMxbnD5gA4OQdQdVV80UVS
+iziZUgHawGCu+z4wuaVl4qHfRei6gHaRNMHlraioGPLACLQ4HuxMHpSx/epF7xk6
+M5UPx5jlDIOUw49MJ+5aStXZCDwVkfEzin/SxsYqV/ZL9wmAX1MbHnd6QDefjft5
+lhlCWTSL9W41YLqI2wbeeABIsycMUSM7YU2naZur7UYP22vork8zeDEtF9SvsdiH
+/kYP0J6tGA9Gzoi9aTKMQDneAPQssITbBO3rWNQfNRZVgssERY65Am+/tebdsXkI
+AZo3hLytoflHnJUsPC81K6w5cKfKnGkV8N8+mdWJi9i6HnECYE/X8VKnu+uxlbwg
+AlwmNo/qQh1gmzKSbsNH1OJ0rXZE9Udca9JR7EYJMl6Vm7MBJDhSc+WUEcZv53Eb
+nTx2HWwknmy4LjrEybJbTXqo8/Xdcj0UjLVqbWkfcvYy6Euv9UTkNKhI3OnDzVrJ
+Ig0TCkjZkGs3tRmFf+BqjYF8epSoeV/q4LnQP2hoshg5brCbRdAJ7l9CaQ8UlA+P
+fT8+L5SR+feeQ1ACJotJUSza3U6L+ntQHg==
+-----END AGE ENCRYPTED FILE-----
