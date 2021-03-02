@@ -1,27 +1,38 @@
----
-title: MOT
-public: true
----
-
-## MOT based on Deep Features and Localization info
-:PROPERTIES:
-:heading: true
-:END:
-### Given information
-#### object class
-#### object bounding box coordinates
-#### object features
-### Dissimilarity score between objects in current frame and track history
-### [[Hungarian]] to make decisions
-### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_14_Ch4Fig1.jpg?Expires=4761537078&Signature=PD1cVxzUQvQQtRUYI5JQOHxePq3HLeOQakpzbyxDnh6TuE8QbVntZaaee7FCNN4rGOwNlMxuJ7WyParwzmeIW-HorspzRhRszFxH73X2S8ipQIEcYej6yuScZqFisqh0yX51f4PngPPSmDOZs6ICiKCEHKcFZFDr4T751zCT7R1fhnlvSZyJACiXNzuJNczbLuFw~4TRgEGttZcFq6vG9SMdPglP01iX9ESn-BMsX-FAKCWdjYit8fr4SqznwRkXNJKgjwnxPYfi2uu18dLwYTjPPfJAVU4ecfIMaqQI6XcbMQmNTk-6vxUGZsaIp3-C1Gk1rdQchvx3-XLMIswT-w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_14_Ch4Fig1.jpg]]
-### Data Association
-:PROPERTIES:
-:heading: true
-:END:
-#### Dissimilarity cost for objects detected in current frame and tracking buffer.
-#####
-$$\text{dis}(i,j)=\begin{cases} 1; & \text{if} \; i_{cls}\neq{j_{cls}} \\ 0.5[\text{app}(i,j)+\text{loc}(i,j)]; & \text{otherwise} \end{cases} .$$
-##### The distance must be normalized (width and height resize)
-###### If current area is smaller than track, track resize with interpolation (shrink)
-###### Otherwise inter cubic interpolation to resize the track's feature volume over $4\times 4$ neighborhood.
-##### [[L2-norm]] to calculate at each feature point in each feature layer and summed up.
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBFZ1lSRGtObkhBQmlWVTJX
+Z1ZnNXBhYjFpV0thZ3RjeEkraXVVSmd5U3hRClc0Ky9Sd2g3S1Q0UWRwb2loR01n
+NnpHbjBBOUJyNFpRNGdjVjN4dHpvTXcKLS0tIDlGK0ZyVEduOWN5WWFpOFNDV1Fy
+OHhoWFRIbVZNR04va0Z6MVRQbW9MZmcKA9mBV7e6diwbid8qp+/VtU8zNN+/t3cl
+BQnugWgBwDeg8mJRDYA1xQ3icRIG2OPsupIrIQ8HxFU+y0O7JJQ59Gt5KTZKZCkf
+rCsN7xpRun5fH+DUyfWEMIkTYZr9jy47d+LzqU6RfvfFVGYKXFftTi42uFfGBD8V
+86/UWJDHYvVj+yYRk7io8ephiCpM1RaHKZ0KjU2JGaez72OlcLsHE4gzy2+HKOLa
+X103234v8+iUwYW3R7q4ydaSAjdrGdEqM7hTyuILzHzQW9Nps5F9RZSf6E9PW9zq
+9Tm7YbRIaH4LdAzPO4VwRYyZ0tPpp35S4Fxx57fKUmZvOcQ/1ULJwtGVCcxdx+uM
+dmQiJLtIWafIxa56riiY4rU5bw0ePRXbr9bKO03d65SQq5AVTs1yHmhQ2wEHukjj
+aWnDwrpbL1bQ9uiU/pql6SbuhuMQ1+S/CAvSqfIeKigDtwUXl3/1NfupzJbty/Si
+jRZzIk6KPAAJTDEfBlfuNsRzWl5Lwj9X3akzIqNvU+F88xuCFn44uRCk2O/riMgA
+TTseJpfKajZU0oUtRv7X2vkk7VDeHGt4vd9CKAWfXqPET1i+QTuryLUQ7YIaJZvp
+UVzNCWIEb+8rNlldHpvOD/kMJdltXrjigAOg+ExG+div8NtMin+G32nFCD3FjO5H
+yleFKxEEjgQl4pqS6z+FR6qBFe4+5a8fh54vZDQGErFT+mxqlU/Uzg7HxE42yx86
+1k+GHNvTAsBEJApqH7cACxuN2WloOHnivnYQUbHu3SVu57Bmz0Hlxs8FpYNrW4vj
+ZfC1NEQsm7nLbSChOS60q6OTTUfvWFRNr/ugyxqHL5Rhejng42x+rrruoqSFfg27
+crqj1k/gWDZgIPOGaqC41dUNqdW73aqqRyywRwpCZwzI6ugeJA5YeBm4H9Ub1wJB
+YNoYnUNwgU5WCaZQsHCSXcJbpdwi21S//tYYMy4EqQ9w3GD/LV5D7o17lx4ty+QL
+HU1IOjj8Yp+C0owOvhXcIHv+L6fbtlM9ZHYMZM50f7BoiYYv9CisXUeJwTGVXiIi
+A7aoSzn61VDiQLSou0VYYuCxU9Nmwf7KhtOJLSk3SyPj18+HMrLnj/yITautVoEn
+tvy0NsPd1gJ/CWau2HcOriLXIaGY+Q1dlQFsbHJrea3LR6PIc5iYyxAksSyzkif9
+AXro73fhsHR6E7SCaZu6RcX5DvgKV8ujwXoRknqGYman9DW/N7K5VNPjiFP4N91C
+U2uJzPjtkhUg8g6n7/bLRdfjVJNkE/A8PQuknnxhd6kG9xvHR+dfPVqefjDcd58O
+1Bb5zaGkyN8x39wKaA+UCva2YLNeOgO4Op8cWq718tOkmVdvdDZPimlCeGsnuHuP
+fTkq/TaIg+vf12nuaPGV6fPhyVvS7hjiUwIX2GbFUnNoRT0WRGdJLyEcM9nDRQ6+
+SkPvHN4fKG4Zo10ytw4v3OYt85uB7GiPcuxrMh8kizf1eyfoVoxUgZwIo/ubFVky
+DmpGQSXBiLAQbQkC71rsbKOSh9FYXWUTjuZN97N92lfyu/nvEDjr/PN3X0LN1tRr
+u7kwm62JBk9Zs0QQAM+vRqiPF0/I1VP0p3NzYbz2kn6s7LBC/q7y0bKY1gUDbr0S
+mIF4PsUXWFcQ2/DoLJ13onqPKBDfgOSEeXf1/qmNcJKkTtP6wCOd7vKuuPFY6blY
+DRaFo7SXmuFk153hOra0TNQyDIrxw0xIGVWkNd1ubS7Aq57JlsRLe+1ITlY3ly9b
+MKzZeHQJEffR/APNR8f1OPunu3WlasZPKPI7eOFGXlc2AcNdQe70yy3lLZsT+A+1
+PgACpY3Nwjoy+vNkh6RJejBTynLbL3vLQDFj3g376iTXEgpYmh16a295qvtuXIpd
+Ra3CLBp8RD3tI29yoWVVW8hzu9j8NF/yAfhENR9E4//qHtBq2jS5R5MlXo2A71iV
+1Z5iAv1/zAOOzPMh86lWpVDgcjnpwPaBzyTEoyfFgXd+ZfI+h/Q8RJsW8HgBLvzi
+EU2ZaRg6zcOkKffQsV0=
+-----END AGE ENCRYPTED FILE-----
