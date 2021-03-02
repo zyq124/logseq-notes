@@ -1,126 +1,200 @@
----
-title: VDO_SLAM
----
-
-## 1. Notion
-:PROPERTIES:
-:heading: true
-:background_color: rgb(38, 76, 155)
-:END:
-### Coordinate Frames
-:PROPERTIES:
-:heading: true
-:END:
-#### Let ${}^0 \mathbf{X}_k,{}^0 \mathbf{L}_k\in{\mathbb{SE}(3)}$ be the robot and object 3D pose respectively, at time $k\in{\mathcal{T}}$ in global reference frame $0$.
-### Points in 3D space
-:PROPERTIES:
-:heading: true
-:END:
-#### Let ${}^0 \mathbf{m}_k^i$ be the homogeneous coordinates of the $i^{th}$ 3D point at time $k$ with ${}^0\mathbf{m}^i=\left[m_x^i,m_y^i,m_z^i,1 \right]^{\top} \in{\text{IE}^3}$ and $i\in {\mathcal{M}}$ the set of points.
-#### So a point in robot frame as ${}^{X_k}\mathbf{m}_k^i={}^0\mathbf{X}_k^{-1}\cdot  {}^0 \mathbf{m}_k^i$.
-#### Define $\mathbf{I}_k$ the reference frame associated with image captured by the camera at time $k$ chosen at the top left corner of the image, and let ${}^{I_k}\mathbf{p}_k^i=\left[u_i,v_i,1 \right]\in{\text{IE}^2}$ be the pixel location on frame $\mathbf{I}_k$ corresponding to the homogeneous 3D point ${}^{\mathbf{X}_k}\mathbf{m}_k^i$, which is obtained via projection function $\pi(\cdot)$
-#### ^^(1)^^  $${}^{I_k}\mathbf{p}_k^i=\pi\left({}^{X_k}\mathbf{m}_k^i\right)=\mathbf{K}{}^{\mathbf{X}_k}\mathbf{m}_k^i$$
-### Optical flow ${}^{I_k}\mathbf{\phi}_i$ indicates ^^motion^^ of pixel ${}^{I_{k-1}}\mathbf{p}_{k-1}^i$ from image frame $I_{k-1}$ to $I_k$
-:PROPERTIES:
-:heading: true
-:END:
-#### ^^(2)^^  $${}^{I_k}\boldsymbol{\phi}_i={}^{I_{k}}\tilde{\mathbf{p}}_{k}^i-{}^{I_{k-1}}\mathbf{p}_{k-1}^i$$
-#### ${}^{I_{k}}\tilde{\mathbf{p}}$ is the correspondence of ${}^{I_{k-1}}\mathbf{p}_{k-1}^i$ in $I_k$.
-### Object and 3D Point Motions
-#### The object motion is homogeneous transformation ${}^{L_{k-1}}_{k-1}\mathbf{H}_k\in{\mathbb{SE}(3)}$ where
-#### ^^(3)^^  $${}^{L_{k-1}}_{k-1}\mathbf{H}_k={}^0 \mathbf{L}_{k-1}^{-1} \cdot {}^0 \mathbf{L}_k$$
-## 2. Camera Pose ${}^0 \mathbf{X}_k$
-:PROPERTIES:
-:heading: true
-:background_color: rgb(73, 118, 123)
-:END:
-### Given static 3D points $\{{}^0\mathbf{m}_{k-1}^i | i\in{\mathcal{M}}, k\in{\mathcal{T}}\}$ observed at time $k-1$ in global reference frame.
-### 2D correspondences $\{{}^{I_k}\tilde{\mathbf{P}}_k^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\}$ in image $\mathbf{I}_k$.
-### re-projection error of camera pose ${}^0 \mathbf{X}_k$ is:
-#### ^^(7)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k)={}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
-##### Parameterise the SE(3) camera pose by elements of [[Lie-algebra]] $\mathbf{x}_k \in{se(3)}$
-###### ^^(8)^^  $${}^0 \mathbf{X}_k=\exp({}^0\mathbf{x}_k)$$
-##### Define ${}^0\mathbf{x}_k^{\vee}\in{IR^6}$ mapping from se(3) to $IR^6$
-### [[least squares]] **cost** is:
-#### ^^(9)^^  $${}^0\mathbf{x}_k^{*\vee}=\argmin\limits_{{}^0\mathbf{x}_k^{\vee}}{\sum\limits_{i}^{n_b}\rho_h\left( \mathbf{e}_i^{\top}({}^0\mathbf{x}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0\mathbf{x}_k)\right)}$$
-#### $n_b$ visible 3D-2D static background point correspondences.
-## 3. Object motion ${}^0_{k-1}\mathbf{H}_k$
-:PROPERTIES:
-:background_color: rgb(73, 125, 70)
-:heading: true
-:END:
-### Reprojection error of object 3D point and corresponding 2D point in image $\mathbf{I}_k$:
-#### ^^(10)^^   $$\mathbf{e}_i({}^0_{k-1} \mathbf{H}_k)\begin{aligned} &={}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0_{k-1} \mathbf{H}_k \cdot {}^0 \mathbf{m}_{k-1}^i \right) \\ &={}^{I_k}\tilde{\mathbf{P}}_k^i-\pi\left( {}^0_{k-1} \mathbf{G}_k \cdot {}^0 \mathbf{m}_{k-1}^i\right)\end{aligned}$$
-#### ${}^0_{k-1} \mathbf{G}_k \in{\text{SE}(3)}$ and ${}^0_{k-1} \mathbf{G}_k:=\exp{{}^0_{k-1}\mathbf{g}_k}$ with latter se(3)
-### **Cost** is
-#### ^^(11)^^  $${}^0_{k-1}\mathbf{g}_k^{*\vee}=\argmin\limits_{{}^0_{k-1}\mathbf{g}_k^{*\vee}}{\sum\limits_{i}^{n_d}\rho_h\left( \mathbf{e}_i^{\top}({}^0_{k-1}\mathbf{g}_k)\Sigma_p^{-1}\mathbf{e}_i({}^0_{k-1}\mathbf{g}_k)\right)}$$
-#### $n_d$ visible 3D-2D dynamic point correspondences on an object.
-## 4. Joint Estimation with Optical Flow
-:PROPERTIES:
-:background_color: rgb(151, 134, 38)
-:heading: true
-:END:
-### Refine the estimation of optical flow jointly with the motion estimation
-### (2)+(7) =>
-#### ^^(12)^^  $$\mathbf{e}_i({}^0 \mathbf{X}_k, {}^{I_k}\boldsymbol{\phi})={}^{I_{k-1}}\tilde{\mathbf{P}}_{k-1}^i+{}^{I_k}\boldsymbol{\phi}^i-\pi\left({}^0\mathbf{X}_k^{-1} \cdot {}^0\mathbf{m}_{k-1}^i\right)$$
-##### where $$\mathbf{e}_i({}^{I_k}\boldsymbol{\phi}^i)={}^{I_k}\hat{\boldsymbol{\phi}}^i-{}^{I_k}\boldsymbol{\phi}^i$$
-### Minimizing the **camera pose** cost with [[Lie-algebra]] parameterisation of SE(3) element:
-#### ^^(14)^^ 
-\begin{aligned}
-\left\{{ }^{0} \mathbf{x}_{k}^{* \vee},{ }^{k} \boldsymbol{\Phi}_{k}^{*}\right\}=& \underset{\left\{{{}^0\mathbf{x}}_{k}^{\vee},{ }^{k}{\boldsymbol{\Phi}}_{k}\right\}}{\operatorname{argmin}} \sum_{i}^{n_{b}}\left\{\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{\phi}^{-1} \mathbf{e}_{i}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right. + \\
-&\left.\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{0} \mathbf{x}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{p}^{-1} \mathbf{e}_{i}\left({{}^0\mathbf{x}}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right\}
-\end{aligned}
-##### where $\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{0} \mathbf{x}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{p}^{-1} \mathbf{e}_{i}\left({\mathbf{x}}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)$ is the [[regularization]] term.
-##### Here $${}^{I_k}\hat{\Phi}^i=\{{}^{I_k}\hat{\phi}^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\}$$ is the initial optic-flow.
-### For **object motion** cost:
-#### ^^(15)^^ 
-$$\begin{aligned}
-\left\{{ }^{0}_{k-1} \mathbf{g}_{k}^{* \vee},{ }^{k} \boldsymbol{\Phi}_{k}^{*}\right\}=& \underset{\left\{{{}^0_{k-1}\mathbf{g}}_{k}^{\vee},{ }^{k}{\boldsymbol{\Phi}}_{k}\right\}}{\operatorname{argmin}} \sum_{i}^{n_{d}}\left\{\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{\phi}^{-1} \mathbf{e}_{i}\left({ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right. + \\
-&\left.\rho_{h}\left(\mathbf{e}_{i}^{\top}\left({ }^{0}_{k-1} \mathbf{g}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right) \Sigma_{p}^{-1} \mathbf{e}_{i}\left({{}^0_{k-1}\mathbf{g}}_{k},{ }^{I_{k}} \boldsymbol{\phi}^{i}\right)\right)\right\}
-\end{aligned}$$
-## 4. Graph Optimization
-:PROPERTIES:
-:background_color: rgb(121, 62, 62)
-:heading: true
-:END:
-### [[factor graph]]
-#### Joint optimization of 3D point measurements, VO measurements, motion of points on dynamic object, object smooth motion observations.
-### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_10_factor%20graph%20of%20object-aware%20slam.png?Expires=4761190329&Signature=V70cE14yCCGcGrWcptKJgkYDxlJGTlkCnYt8OGb4D40sC-MtlPauxpcnNhCgIRzWGCo~HcoTZWI3RvB1RJHdH4sJK4Y31DA32fqtXtGpN64hmU4S993kqkmgknB2kY9LhaNKJhQ4qXhGsY4xXoMd6b085tCMS9P5MlIl-W~d1~YrkdGVNNqHywXFb85VsSErsy3Vcnt3H9tFlWqgnBp-gxZQt~6SfWdCq~uzKllKEOrSdSEla4Iuas0mXyRBttgFH4c9Y9nDdfnmK9aW61eOrBv8hzBQeT-aa69ylIj8nHiSSCbiq9D0cVTN67t5AUp-MFNgo3W9kCOEvTtiOAxlJA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_10_factor graph of object-aware slam.png]]
-### 4.1 3D point measurement model error $\mathbf{e}_{i,k}({}^0\mathbf{X}_k,{}^0\mathbf{m}_k^i)$
-:PROPERTIES:
-:heading: true
-:END:
-#### ^^(16)^^ 
-$$
-\mathbf{e}_{i, k}\left({ }^{0} \mathbf{X}_{k},{ }^{0} \mathbf{m}_{k}^{i}\right)={{}^0\mathbf{X}}_{k}^{-1}{ }^{0} \mathbf{m}_{k}^{i}-\mathbf{z}_{k}^{i}
-$$
-##### here $\mathbf{z}=\{\mathbf{z}_k^i | i\in{\mathcal{M}},k\in{\mathcal{T}}\}$ is the set of all 3D point measurements at all time steps, with **cardinality** $n_z$.
-##### Shown in white circles.
-### 4.2 Visual Odometry model error $\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})$
-:PROPERTIES:
-:heading: true
-:END:
-#### ^^(17)^^ 
-$$\mathbf{e}_k({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})=({}^0\mathbf{X}_{k-1},{}^0\mathbf{X}_{k})^{-1} {}_{k-1}^{X_{k-1}} \mathbf{T}_k$$
-##### where $\mathbf{T}=\{{}_{k-1}^{X_{k-1}} \mathbf{T}_k | k\in{\mathcal{T}}\}$ is odometry measurement set SE(3) and **cardinality** $n_o$.
-##### Shown in orange circles.
-### 4.3 Motion model error $\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i)$
-:PROPERTIES:
-:heading: true
-:END:
-#### ^^(18)^^
-$$\mathbf{e}_{i,l,k}({}^0\mathbf{m}_k^i,{}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i)={}^0\mathbf{m}_k^i - {}^0_{k-1}\mathbf{H}_k^l,{}^0\mathbf{m}_{k-1}^i$$
-#### Shown in magenta circles, is a ternary factor as _motion model of a point on a rigid body_.
-### 4.4 Smooth motion error $\mathbf{e}_{l,k}({}^0_{k-2}\mathbf{H}_{k-1}^l, {}^0_{k-1}\mathbf{H}^l_k)$
-:PROPERTIES:
-:heading: true
-:END:
-#### ^^(19)^^
-$$\mathbf{e}_{l,k}({}^0_{k-2}\mathbf{H}_{k-1}^l, {}^0_{k-1}\mathbf{H}^l_k)={{}^0_{k-2}\mathbf{H}_{k-1}^l}^{-1} \cdot {}^0_{k-1}\mathbf{H}^l_k$$
-#### Minimize the change between consecutive time steps
-#### Shown in cyan circles.
-#### ^^(20)^^ ${}^0_{k-1}\mathbf{H}^l_k=\exp{({}^0_{k-1}\mathbf{h}^l_k)}$
-### 4.5 Others
-#### define $\boldsymbol{\theta}_H=\{{}^0_{k-1}\mathbf{h}^l_k | k\in{\mathcal{T}}, l\in{\mathcal{L}}\}$ as the set of all object ^^motions^^, with $\mathcal{L}$ the set of object ^^labels^^.
-####
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBiQlArRnlXUWJ0czcyWTJV
+RXRoTmtEbEpuWlF1RzZyRm5sUEZKa1o4SWh3CnJMVFJBSUlaR3hPdjkwdVQwNjVr
+Q0JFTnd0LzErczJNdFpRTkZxS0FPamsKLS0tIFZNdzJzUCt3cHZUdlBGeVJLQzN1
+a1J3eHllMDNwUU52WW53RzU4U25KRG8K+5d4+YqqGoVwGpy4nFiAvGoOvY9dlRvh
+aLrWHkzdhph1bAONPIp2s+8VWXoOadM+bH4sY6/zfQrRo61pNn/0GVylVV03lyA7
+ePrEOlhD3086l6f5CYXiTVJJxzchieFYE2YQu/aI/N/PVNs+YhvEoYJdujxJ80m6
+ndicT25Q3TCaZHvEyDEDW+NUJ5bFi2p5sTb8w8LmovcPv+scMMZJYXM0lovmm//s
+6eheFIk2WhKN8pV2YiQXITr+XGY3ig8enuRzt7i8oDhh5MMYOrksTQjwL6kt5w4Y
+nqLx+pBlfbRRhC/HtiH9arunTNM9c5+40+z8N3s9mZcaJQaD6dzLvz/0SGAUWfbo
+n0OIpEIUc8nxm250a2cLnd0ce5lSNviF9fFFOuZqYkCxlpduUO1+OfNHWX5/r0Vy
+cx5iKVteNkX8Wabdz97dt3mZn1TzZR3PosTPXgMKFSopa6IAVtJ+3G0tZi0KQeo9
+4PdST+nKm3OdcPvX7Y+Vrz/BMAYqfA1vH+B2YIySMHMoJ6v8yRaleEsumeH0+DVq
+9IpiHvYCQ3nSjnODPk6aR1BDW5U8me0uS0pDQwYUWRioS+Wq9snFOWGAbKiIOKs/
+tL725041DANjVwBn0BLlBHQUvKdtVdns7bPh7naaJ+4icriEIlA56Z2uh3btvf/1
+NJm8n15FzugOQ33ypPYaG4M2r02QF68dyyFr7uj9AlXsVjoDNW+0/0FKzkCt4258
+4aLNzi1iYdFe0KNX+vxN0vhkMJ4iIRiF/xwuH8yp6KVcM1Xm8hdBIxumKzqBgPRM
+KJr6NadLit9mQP9i4yErOab98drMU7QN+VQaJ9fB9fLOq7ABWBatALKIXkWyoxki
+LWdf6oPk/8w1zAFFES4aZG1p2LLXqrXJJ1yjIuOs/TbnLyxIM3YLKwnaVzLh/fle
+EwCy6qO8qGHRQ4iM5WXaRIhcpWdfopsNfXoYGaPyD4lY3ibhAYUf/NnaU00J86YR
+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
++LeDLzjnf9LSwTFI840=
+-----END AGE ENCRYPTED FILE-----
