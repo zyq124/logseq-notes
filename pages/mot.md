@@ -1,38 +1,27 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBCMGNwak5XWW5XcUJTeVUy
-MXNFUUNlY3FpMklyUUcxT2pXamhmeVdsQ240CjhDUllNbnBBbmRjeG5ORVVSZ3A2
-azZGN3BzLzBNQnY2VDh5dEN3S3JFQ28KLS0tIFltVHd1cFc4TTYyV0hOUXZwOXhZ
-NGRxYldoVlpNT3pYWnA5UnRsVGQ5OWMK+6h+lAiTimTBb6teCwGwiaLQKItyHKvQ
-M6l1Jvtc0/GQPz90Vmh5p9VocTL2ikzjlgVgXiJK18zxsluNArZXEcbg8BcE6hdq
-ELpuSe30zyQC2B7d03tg8RYQJ7yP+f6uNeRnjwcAHiXsMZpqtF02N3f7EgSnY521
-M5eoJ40/tlGtRDK8wnjGgczaRqNwDeOP8b3C0RZ2SASDptYALW1erS+RdeMYZlfm
-LBsbPLJ1Jh+c/5nEm8Se1rwT9xTmwzUhqP49WgW6KKx0/xc3mFFxsBzUCZiBQUyX
-3+OkchMaY/pxLkDTKI8PrCM9MdVlWhq/VXULNu/wQYEAYQBruGCcmEIbgHSscVsS
-6oAsrErK2cPWm6JbV3GR1FK0e5rM6NPTPE2LnOdwXd0tC1uKI2zBUsmeYoIy16+s
-N6tJAeOdBBuF98noIMwVlQNeVaUdaub9pvL4AUhlEjayhnWwii+wjMpHcEaEvGls
-sM6K/pcUvjjklerYSz6Ssp8B79e6T+z2QAwJzImmgOqw6FkoQcvjGSkk/UFuiUYL
-9pzQt1g3BgHppGG3TykChGRAZ9ei1afA2p+oEAfQ/WlFMSBb4UzezrOhEMwi0HSc
-A7xMpCOTLWN7i6EAqgCDbEKNaFGdsvnZTXqAnO8fBBXAcPULVU8V3TUFohNmyDLe
-BDqdZfMOnSSOV706VjF+4LKoFzVPs5pWEd91Lcxd8drUNgq7gnyfiVJEdxauHxZB
-m9Rb1jc/1BOuQjz4zXMAoHmadZwaD2Qal+Ut+1mrDazXgADVGOOU3RNuhven8lA6
-2f/sXJiE1A55KcFLU511oJoDy8hTByIMdH8fm5LMFS448X4eoOMMjcZxJd0QDy76
-NGTJuM7EuyfZl2XTr8/WjPdAXF+wJejoFvebjfiZouVFEAnbBgIPmIKPU1O4WRcD
-Oh/niYNd7sw3yN9kmVlBRfYjWSrrw6PqmSFLe0gTt1Bj4nlVwqFZ9zfNdXd073wl
-BAqR6Uv2BFZ1mxt5lCoLDRxoPLNprZ1LLnDwEzqqmT/r3oCmklSyIAOTWU+Zjj+K
-DBK8sghF/ZZZ3hQ0+kP6CW2dFMfu64ASoYlkuY2fZJ6itNFykpRDVSe6T7fwsUeU
-Z9qRMZkTc18UZSTUKtpJ6W55v73lUKXAXrEPy+1YdPSud4ofV4jcpaIuGEnVqyT2
-tEkQMESjDE8dA6sCcGHHshSAMjbwNfHMyBqv4c9zgbV6gEKW2aHCnchz3srN7COo
-H27qE/stKULNj3nXbQgaETv4+zBCW4KyUU72fdXBzkZi+W8I0E8vqb2Vy274NqmI
-IZjMvEeDd2Chy7boB7qXg0wBLd/xYzVkPF+2VAPTU4QPxfFDmEAV/zV1a2Ri0lJv
-yiY6xIIIXwgEbufodfqKAsExBsHjEbikJS2dt8TxSZbQi96orxodZJQ6Z6Ompudy
-IraAKDOu7/2koEz6Yv1PsqREKtGvDGhkMwPxnRPAoOM5jf2aVadksLjNKZzRMeEB
-lROP9oX6SHZAqsmb52oK3Vcudy26Ur73WWVfVrz0cpwi3kR3UZNWofN/evcbIDAh
-YFcMElvVBICkYUgBTrnq1glQM7xZW7e5iRdAItIMbjDM49sSpUPJRudEJhVu3+yN
-0Z+zWSORDgMeCO0u48Kut3Ig+zMWb73iepEbIIbcKq40X/sXwIA/XdfcZvJ8jFwB
-B76Kmaq3bf5SDJM+98Y09kBbbZTNbVa2FnY6fLjIfTV3e8bTe1/ntwX4n56rKpSI
-SiXOnLf3S/4sk0QrqOtQvhyHBrIYjHt4ABx6CdlKJS4orgRa9sDpdVE9yIhOq88w
-gYU6bUzE4iLxiMQcwFifBR0LWMUolAWdZG7vUheQBIa993jcpxVy0qw2vNnFIGSE
-l4r8T1ti1On6xG5vjjCz/jiJ8tSVdrIutrLomHYusRnGoCQaNLvo/LgWxgF/LT5D
-HUQZNK8EaycztMN0tKwTSrmpq0MPFbxCjqb0g4TAChWcEvHSZC1sZX1nyYDb3kXE
-F7G1PSsrrqzCON20kXI=
------END AGE ENCRYPTED FILE-----
+---
+title: MOT
+public: true
+---
+
+## MOT based on Deep Features and Localization info
+:PROPERTIES:
+:heading: true
+:END:
+### Given information
+#### object class
+#### object bounding box coordinates
+#### object features
+### Dissimilarity score between objects in current frame and track history
+### [[Hungarian]] to make decisions
+### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_14_Ch4Fig1.jpg?Expires=4761537078&Signature=PD1cVxzUQvQQtRUYI5JQOHxePq3HLeOQakpzbyxDnh6TuE8QbVntZaaee7FCNN4rGOwNlMxuJ7WyParwzmeIW-HorspzRhRszFxH73X2S8ipQIEcYej6yuScZqFisqh0yX51f4PngPPSmDOZs6ICiKCEHKcFZFDr4T751zCT7R1fhnlvSZyJACiXNzuJNczbLuFw~4TRgEGttZcFq6vG9SMdPglP01iX9ESn-BMsX-FAKCWdjYit8fr4SqznwRkXNJKgjwnxPYfi2uu18dLwYTjPPfJAVU4ecfIMaqQI6XcbMQmNTk-6vxUGZsaIp3-C1Gk1rdQchvx3-XLMIswT-w__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_12_14_Ch4Fig1.jpg]]
+### Data Association
+:PROPERTIES:
+:heading: true
+:END:
+#### Dissimilarity cost for objects detected in current frame and tracking buffer.
+#####
+$$\text{dis}(i,j)=\begin{cases} 1; & \text{if} \; i_{cls}\neq{j_{cls}} \\ 0.5[\text{app}(i,j)+\text{loc}(i,j)]; & \text{otherwise} \end{cases} .$$
+##### The distance must be normalized (width and height resize)
+###### If current area is smaller than track, track resize with interpolation (shrink)
+###### Otherwise inter cubic interpolation to resize the track's feature volume over $4\times 4$ neighborhood.
+##### [[L2-norm]] to calculate at each feature point in each feature layer and summed up.
