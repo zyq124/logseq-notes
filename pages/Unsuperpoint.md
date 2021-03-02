@@ -1,252 +1,398 @@
----
-title: Unsuperpoint
-public: true
-tags: [[literature-notes]], #reference, [[Unsupervised-learning]], [[Keypoint]], [[Keypoint-Extraction-and-Description]], [[Siamese Network]], [[Self-supervised]], [[Descriptor Extraction]] 
-related: [[Superpoint]]
-type: Article
----
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### #title UnsuperPoint: End-to-end Unsupervised Interest Point Detector and Descriptor, 2019
-### #code https://github.com/791136190/UnsuperPoint_PyTorch
-### External Note: https://note.youdao.com/ynoteshare1/index.html?id=17011dbe01f766f8e5509f4860a08f96&type=note
-## **Abstract**: 
-:PROPERTIES:
-:heading: true
-:END:
-### Inspired by [[Superpoint]] without pseudo-gt generated from [[Synthetic Image Pairs]] but [[Siamese Learning]] ([[Self-supervised]]). Interesting/salient points emerge naturally after training.
-
-### 相同点
-#### 多任务网络同时估计关键点和描述子
-
-#### 巧妙地利用 homography 建立对应关系，并用于training过程中
-
-### 不同点
-#### Requires no pseudo ground truth points, no SfM generated representations and the model is learned from only one round of training.
-
-#### SuperPoint 把关键点检测表达成一个分类问题，对于一个 $$8\times 8$$的patch，前64维对应每个点是否为关键点的概率，最后一维对应没有关键点。This paper 把这个问题转化为 regression，detection head 输出的是每个patch中的关键点相对于基准坐标的 offset 比例
-
-#### 同时对于每个 patch 是否存在关键点的置信度，这篇 paper 的处理方法更和 [[R2D2]] 更加类似，即不对位置预测做限制，增加一个 score head 去评价每个 patch
-
-#### training loss 上限制了keypoint在patch中的位置分布，略微有一点tricky.  This paper has tons of losses! Balancing them is quite a task.	
-
-### Using a self-supervised approach, we use [[Siamese Network]] and a novel loss function that enables interest point scores and positions to be learned automatically.
-
-## 1. Network Architecture
-:PROPERTIES:
-:heading: true
-:END:
-### Multi-task training with a shared backbone followed by multiple task-specific sub-modules.
-
-### Backbone provides a downsampled feature map.
-
-### Submodules are designed to produce an aligned output where each entry represents a point $$ m $$ with a position $$ \mathbf{p}_m $$, score $$ \mathbf{s}_m $$ and descriptor $$ \mathbf{f}_m $$.
-### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_unsuper.png?Expires=4759984377&Signature=gJcw1ErBjg9XqdkWPzESTVSn4UFUAFbryL1a5JM1Zqh52t3ABXt39hJYRbzym9rjMfsOauvRWjVGfxiKLbZDiSwjEvPpDM5-oWCHzIWaHhzZdgG9dy-hgc8Qfr9qTzqoM4D1bemLlM47TPL~nEPSttcZIKN2uv-LrhdgFAOXIAKxoIxM8HFed52M5dzkJ7DS66SmgtN3EwCcyjqOKFgQqhEHrzhMAwlomPuvtYfMoyuXGPzWmPkFaF7J0s2IlHWu9Gd4eMJ3prPdbLiTFe206cFQ0BwITHK9Jjm0YckybzJeYlzB7DdSGxHOWzXMr3sqiTfiWOUhH6Dqm2CMMu5eEg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_unsuper.png]]
-## **1.1 Overview and notation**  	
-### Each point position expressed by its relative position $$ \mathbf{P}_{relative} $$ and can be transformed to image pixel coordinate $$ \mathbf{P}_{map} $$.		
-
-### Score $$ \mathbf{S}_{map} $$ is the ^^fitness^^ of each point and used for sampling the ^^best^^ $$ N $$ points. 	
-
-### Descriptor $$ \mathbf{F}_{map} $$ has embedding of $$ F $$ channels for each entry (uniquely match correspondeces)	
-
-### They are reshaped and sorted by highest score into respectively a vector $$ \mathbf{s} $$ with $$ M $$ elements, an $$ M\times 2 $$ matrix $$ \mathbf{P} $$ and an $$ M\times F $$ matrix $$ \mathbf{F} $$, where $$ M=\frac{H}{8}\cdot\frac{W}{8} $$ represents all predicted points.
-
-### All conv layers have stride 1 and kernel size of 3, followed by [[Batch Normalization]] and [[Leaky ReLU]].  
-
-## **1.2 Score module**  
-### The score module regresses a score for each entry in the final feature map.
-
-### Two conv layers with $$ 256 $$ and 1$$$$channels.
-
-### Sigmoid activation to bound in interval $$ [0,1] $$
-
-## **1.3 Position module**  
-### Predicts a relative image coordinate for each output entry and maps it to an image pixel coordinate.
-
-### Two conv layers with $$256 $$ and $$2$$ channels. 
-
-### **Sigmoid activation** to bound in interval $$ [0,1] $$  
-
-### For a network with 3 poolings layers (a subsampling factor of 8), a relative position is predicted for each $$ 8\times 8 $$ region in the input image.			
-:PROPERTIES:
-:id: 5fbf7cce-e8c2-4f6f-b73f-4f00fa094e09
-:END:
-#### For [[Superpoint]] and [[Lf-net]], top interest point locations are selected from a heat map of the ^^same size ^^as an input image.
-
-#### Regression is differentiable and enables fully unsupervised training.
-
-#### Only predicting a single point for each $$ 8\times 8 $$ area adds functionality similar to [[NMS]]. On top of [[NMS]], it removes closely clustered points and interest points are more ^^homogeneously distributed^^.  
-
-### For small input of image $$ 24\times 24 $$:
-[[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_grid.png?Expires=4759984417&Signature=ItXmeb6PpWwESsbdV8iLAq4vJq-I17pIcZYWI4PRnEac4ZAqdqvNjCVTh3obbhoC2rGKQ3bbxP22xj6~IEVThb1g0wDfVhKi5WjOQ9cJbPVgqbp3hSuNchf~PjHWPJrgrXJmkBGMKOL~F-IqVmbujzHzcgWCMueDIxDElTvql8yNjBB-h1jlbFWtjBhmiyi~zzOA0PrquHCVbG8AIjElu4zg4Mw9X0OdhNnwD8CXaZRfP2zIL8qfPe1z11Azn46VIKETKkYkVB2lG7ftT1lY3MnikmAKxgLOHlIMYwCcWzxMq4G4K8IjuUsG4PkoV~h7T83kN4wJ-4zHKuMXj5A9fA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_grid.png]]
-### Then $$ \mathbf{P}_{relative} $$ is transformed to image pixel coordinate $$ \mathbf{P}_{map} $$ by multiplying with downsampling factor $$ f_{down}=8 $$.  
-		
-
-## **1.4 Descriptor module**  
-### Generates a descriptor for each entry.	
-
-### Two conv layers with $$ 256 $$ and $$ F=256 $$$$$$channels, final layer without activation.
-
-### Interpolation of descriptors is integrated into the model. The model use all point positions in $$ \mathbf{P}_{map} $$ to interpolate all entries in descriptor map $$ \mathbf{F}_{map} $$. 
-
-### In [[Superpoint]] the interpolation is a post-processing step used under inference.  
-
-## **2. Self-supervised Framework**
-:PROPERTIES:
-:heading: true
-:END:
-### Three tasks are leaned simultaneously, in a siamese network to predict interest points for two augmentations of the same input image
-[[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_permutation.png?Expires=4759984455&Signature=dMzSXRzEOdVyqYJhz9syA5b7g2rGe5q~I-BZkTNTX214g29jbEmXYnuZxQ03WI1ziPXjkdgM7wnNki8H6r9Yr4GfNru8sUOYAg7~paAfkwPwI3P6RL3Mp4glbahvwmT7mVQOsua2OXbf~tguSNYVBxSaBDDicfLxztq8YdU0P9YnDd-4nWhlMH24n4mH884c-F2WH3MjxfOvxcIaofOxDxAcYVvQm6aX~tLMcYYrUGEatyPqj0mEec-6~dsFDXaU94EyErvS6~5mqt~~WjFAOCndsGOmAIfbUZZXllD~wQWjYx6qlJrsz0HjoTHlpFl3SJfKvhooKnEGvvZ8Fk390Q__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_permutation.png]]
-### The two augmentations and their predictions are separated into individual branches.
-#### Branch A (blue) is a non-wrapped version of the input image
-
-#### Whereas branch B (red) is a wrapped version of the input image.
-:PROPERTIES:
-:id: 5fbf7cce-8da7-48ce-880f-5565d06351ba
-:END:
-##### The image in branch B is spatially transformed by a random homography $$ T $$ (^^rotation, scale, skew and perspective transforms^^). 
-:PROPERTIES:
-:id: 5fbf7cce-b19e-44b2-bfd9-5fb23fdf8e43
-:END:
-### The image for each branch is transformed by independent random non-spatial image augmentations such as ^^brightness and noise^^.
-
-### Point psitions of branch A are transformed by $$ T $$ to spatially align points from branch A to branch B. If they are spatially close after alignment, we define points to correspond.
-
-## **3. Loss functions**  
-:PROPERTIES:
-:heading: true
-:END:
-### The total loss $$ \mathcal{L}_{total} $$ consists of 4 loss terms
-
-### (1)     $$ \mathcal{L}_{total} = \alpha_{usp}\mathcal{L}^{usp}+\alpha_{uni\_xy}\mathcal{L}^{uni\_xy}+\alpha_{desc}\mathcal{L}^{desc}+\alpha_{decorr}\mathcal{L}^{decorr} $$
-#### $$ \mathcal{L}^{usp} $$ is UnSupervised Point ([[USP]]) loss to learn position and score of interest points.
-
-#### $$ \mathcal{L}^{uni\_xy} $$ is regularization term to encourage a uniform distribution of relative point positions.
-
-#### $$ \mathcal{L}^{desc} $$ is descriptor loss  and $$\mathcal{L}^{decoor}$$ is regularization to reduce overfitting by decorrelating descriptors.
-
-### **3.1 [[Point-pair]] correspondences**
-#### Each branch $$ b\in \{A, B\} $$ outputs three tensors $$ \mathbf{s}^b $$, $$ \mathbf{P}^b $$ and $$ \mathbf{F}^b $$.  We need to establish point correspondeces.
-
-#### Determine an $$ M^A\times M^B $$ distance matrix $$ \mathbf{G} $$ by computing pairwise distances between all $$ M^A $$ transformed points from branch A and all $$ M^B $$ points from branch B.
-
-#### (2)    $$ \mathbf{G}=[g_{ij}]_{M^A\times M^B}=\left[ || \mathbf{p}_i^{A\rightarrow B}-\mathbf{p}_j^B || _2\right]_{M^A\times M^B} $$  
-where each entry $$ g_{ij} $$ in $$ \mathbf{G} $$ is the Euclidean distance between a transformed point $$ \mathbf{p}_i^{A\rightarrow B}=T\mathbf{p}_i^A $$ with index $$ i $$ in branch A and a point $$ \mathbf{p}^B_j $$ with index $$ j $$ in branch B.	
-
-#### Not all points in branch A are merged into [[point-pair]]s (might not have a nearby neighbour in B)
-
-#### Criterian of being point pair: the distance $$ g_{ij} $$ less than a ^^minimum distance^^$\epsilon_{corr}$.
-#### Redefine output tensors to the new set of tensors defined as ^^**corresponding tensors**^^^^ ^^with $$ K $$ entries so that each entry$$ k $$in the ^^**corresponding tensors**^^ maps to the same point in the input image. 
-##### For each entry $$ k $$ in branch $$ b $$, [[point-pair]] score $$ \hat{s}^b_k $$, position $$ \hat{\mathbf{p}}_k^b $$ and descriptor $$ \hat{\mathbf{f}}_k^b $$.  	
-
-##### Define distance $$ d_k $$ as
-(3)    $$ d_k=||T\hat{\mathbf{p}}_k^A - \hat{\mathbf{p}}_k^B|| =$$$$||T\hat{\mathbf{p}}_k^{A\rightarrow B} - \hat{\mathbf{p}}_k^B||$$$$  $$ 
-	
-
-### **3.2 Unsupervised point loss **$$\mathcal{L}^{usp}$$
-#### The goal is to improve [[repeatability]] of the detector (regardless of camera viewpoint)
-
-#### UnSupervised Point loss
-##### Uses [[point-pair]]s to train a  detector using an [[Unsupervised-learning]] loss function.	
-
-##### Three terms and accumulated over all $$ K $$corresponding [[point-pair]]s.
-
-##### (4)   $$ \mathcal{L}^{usp}=\alpha_{position}\sum\limits_{k=1}^K l_k^{position}+\alpha_{score}\sum\limits_{k=1}^K l_k^{score}+\sum\limits_{k=1}^K l_k^{usp}$$  	
-###### $$ l_k^{position} $$ensures the predicted positions of a [[point-pair ]]represent the same in input image by minimizing the distance for each point-pair$$ k:  $$(5)   $$ l_k^{position}=d_k$$.
-
-###### Initially a [[Siamese Network]] predicts random positions and gradually reduce distances.
-
-###### $$ l_k^{score} $$ensures the predicted scores for a point-pair are similar by minimizing ^^squared distance^^ between score values for each point-pair $$ k $$: (6)   $$ l_k^{score}=(\hat{s}_k^A - \hat{s}_k^B)^2 $$.	
-
-###### In image matching similar score for points (in multi-viewpoints) represents the same point.
-
-###### $$ l_k^{usp} $$ ensures the predicted scores acutally represent the confidence of interest points. The highest score should be the most repeatable points: (7)   $$ l_k^{usp}=\hat{s}(d_k-\bar{d}) $$.
-
-###### $$ \hat{s}_k $$denotes the joint score of a [[point-pair]]: (8) $$ \hat{s}_k=\frac{\hat{s}_k^A+\hat{s}_k^B}{2} $$  
-
-###### $$ \bar{d} $$ denotes the average distance between all point-pairs: (9)    $$ \bar{d}=\frac{1}{K}\sum\limits_{k=1}^K d_k $$.
-
-###### The core concept of $l_k^{usp}$ is that the network should define a good interest point as a point with a low point-pair correspondence distance $$ d_k $$. Oppositely, for a bad interest point, $$ d_k $$ is large, because the network is unable to predict point positions consistently.
-### **3.3 Uniform point predictions** $\mathcal{L}^{uni\_xy}$
-#### Optimally, the relative$$ x- $$and$$ y- $$coordinate predictions should be uniformly distributed within the $$ 8\times 8 $$area. But there are a large number of points near the boundaries.
-##### A model is encouraged, especially for hardly repeatable points, to place the point as closely to points outside its own region in order to minimize $$ d_k $$.
-
-#### So a new loss function is proposed to encourage a uniform distribution.	
-
-#### Ascendingly sorted values sampled from a uniform distribution will approximate a straight line going from the lower to the upper bound within the specified range.
-
-#### Define a heuristic measure $$ D(\mathcal{U}, \mathcal{V}) $$to calculate distance between a uniform distribution $$ \mathcal{U}(a,b) $$ and some distribution$$ \mathcal{V} $$in a bound interval$$ [a,b]$$. 	
-##### $$ L $$ values are sampled from $$ \mathcal{V} $$ to form a vector $$ \mathbf{v}$$.   
-
-#### The distance between distributions are:	
-##### (10)     $$ D\left(\mathcal{U}(a,b), \mathcal{V}\right)=\sum\limits_{i=1}^{L}\left( \frac{v_i^{sorted}-a}{b-a}-]\frac{i-1}{L-1}\right)^2 $$  
-
-##### $$ v_i^{sorted} $$ is the ascendingly sorted values of$$ \mathbf{v} $$such that$$ v_i^{sorted}<v_{i+1}^{sorted} $$for $$ i\in\{1,2,\cdots,L-1\} $$.
-
-##### The first term normalizes sorted values to interval $$ [0,1] $$
-
-##### The second term is a proportional line from 0 to 1.
-
-#### ^^Pros: ^^Differentiable and does not require predictions to be discretized.
-
-#### $$ \mathcal{L}^{uni\_xy} $$ is the distance between a uniform distribution and the distribution of relative image positions $$ \mathbf{P}_{relative,x} $$ and $$ \mathbf{P}_{relative,y} $$, individually.
-##### This loss is calculdated independently for each branch, does not rely on point correspondences.
-
-##### (11)  $$ \mathcal{L}^{uni\_xy}=\alpha_{uni\_xy}\left(\mathcal{L}^{uni\_x}+\mathcal{L}^{uni\_y}\right)$$  
-
-##### (12)  $$ \mathcal{L}^{uni\_x}=\sum\limits_{i=1}^M \left(x_i^{sorted}-\frac{i-1}{M-1}  \right)$$  
-
-##### (13)  $$\mathcal{L}^{uni\_y}=\sum\limits_{i=1}^M \left(y_i^{sorted}-\frac{i-1}{M-1}  \right)$$
-##### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_histogram.png?Expires=4759984648&Signature=XZk280RkRv~FwTPGMM0O3a5yl47CwfrHGz~kCnlLJ4Nr~Ef8hT7l9SkscouvHhi~tFfZWU2BaYiWHePd984jkSnL73c8dF6Jw7mjXdiaVMsqgHLBnbYoq3O-2xtIxTP0SWEbvIOLv4oh4J-l48dUNs2NFe8Sap2mjs9s~oAXZcJHVxcCOB2Hx~L7kI1lQhLKbxScksfv2Ykfg8eGA-EzkgnyyHW6WdFdYCepznJwNftcdS-r2N6~udd6r21o6jE7D7EKkszmexszvY0CiVsL3zrtDj7vp9orkAX0VjOv1jskYd1bjPxPIhuNGK4zisKGDjPtgqFU24Mq4RrNTUpkrw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_histogram.png]]
-### **3.4 Descriptor** $$ \mathcal{L}^{desc}$$
-#### Determined using a [Hinge Loss](link_generated_on_download) with a positive and negative margin as described in [Superpoint](link_generated_on_download).
-
-#### We define an $$ M^A\times M^B $$correspondence matrix $$ \mathbf{C} $$ containing values of either $$ 0 $$ or $$ 1$$ .
-##### Each entry $$ c_{ij} $$ specifies if two points are separated by ^^less than 8 pixel^^  for any pair combination of transformed points in branch A, $$ \mathbf{p}_i^{A\rightarrow B} $$ where $$ i\in \{1,2,\cdots,M^A\} $$, and points in branch B, $$ \mathbf{p}^{B}_j $$ where $$ j\in\{1,2,\cdots,M^B\} $$.
-###### Unlike point-pairs, a single point may correspond to multiple points in other branch
-
-###### (14)   $$ c_{ij}=\begin{cases} 1 \; & \; \text{if} \; g_{ij}\leq{8} \\ 0 \; & \; otherwise \end{cases}$$  
-
-#### Hinge loss (positive margin $$ m_p $$ and negative margin $$ m_n $$)	
-##### (15)    $$ \mathcal{L}^{desc} = \sum\limits_{i=1}^{M^A}\sum\limits_{j=1}^{M^B} l_{ij}^{desc} $$
-#####
-$$ \begin{aligned} l_{ij}^{desc} & = \lambda_d \cdot c_{ij} \cdot \max\left(0,m_p - {\mathbf{f}_i^A}^\top\mathbf{f}_j^B\right) \\ 
-& + (1-c_{ij})\cdot \max\left( 0, {\mathbf{f}_i^A}^\top\mathbf{f}_j^B-m_n \right) 
-\end{aligned} $$
-### **3.5 Decorrelate descriptor** $$ \mathcal{L}^{decorr}$$  
-#### Feature descriptors are decorrelated to reduce ^^overfitting^^ and improve compactness.
-
-#### Similar to [[L2-Net]], we reduce the correlation between dimensions by minimizing the off-diagonal entries of the descriptor correlation matrix $$ \mathbf{R}^b=\left[r_{ij}^b\right]_{F\times F} $$for each branch$$ b $$.
-##### (16)     $$ \mathcal{L}^{decorr}=\sum\limits_{i\neq {j}}^F \left(r_{ij}^A\right)+\sum\limits_{i\neq{j}}^F\left(r_{ij}^B\right) $$  
-
-##### Each entry $$ r_{ij}^b $$ in $$ \mathbf{R}^b $$ is$$$$
-
-##### (17)  $$ r_{ij}^b=\frac{(\mathbf{v}_j^b-\bar{v}_j^b)^\top(\mathbf{v}_i^b-\bar{v}_j^b)}{\sqrt{(\mathbf{v}_j^b-\bar{v}_j^b)^\top(\mathbf{v}_i^b-\bar{v}_j^b)}\sqrt{(\mathbf{v}_j^b-\bar{v}_j^b)^\top(\mathbf{v}_i^b-\bar{v}_j^b)}} $$,
-where $$ \mathbf{v}_i^b $$is a $$ M^b\times 1 $$ sized vector and is the $$ i\text{th} $$ column of $$ \mathbf{F}^b$$,
-$\bar{v}_i^b$ is the mean of $$ \mathbf{v}_i^b $$.
-## **4. Experiments**
-:PROPERTIES:
-:heading: true
-:END:
-### **4.1 Metrics**	
-#### Repeatability Score:
-##### Measures the quality of interest points and is the ratio between the number of points observed by both viewpoints and the total number of points.	
-
-##### For a planar scene, the point correspondences between two camera views can be established by simply mapping points from one view to the other using a homography. 
-
-##### To account for localization errors between two corresponding points, we define points to correspond if they are below a certain pixel distance defined as the correct distance$$ \rho $$.
-
-##### To only evaluate points that are observable in both views, the repeatability measure will only include points in a region shared by the two viewpoints. 
-
-##### The repeatability is therefore the average re- peatability calculated in the view of each camera.
-
-#### Localization Error:
-##### The average pixel distance between corresponding points. (LE)			
-
-##### Only point-pairs with distances below $$ \rho $$are included in the calculation. Like [[Repeatability Score]], the localization error is the average error of corresponding points calculated in both camera views.
-#### **Homography Estimation Procedure**		
-##### [[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_26_homograph.png?Expires=4759984802&Signature=ej8OifEVkaAMQSpawkLRMdqkA~ZdgxYMFh67GhhD2SAl8JMZ~LZ69-IANjZRnKJgse2KCsNiq5Dfk~n2N93wII9hFm2iipaE43zydScDIkG130a~JLYuLtLv8aJ2AhpipSnRL6gmBa91U25ljlDzYMG8lQXUfzCQ5azMZBR1Q0Zq7XK-gcYQBjAPrDM4OWyuBuS1jy7Q4r-GC2rFpkep0jG6-H8o0WO63ADOK2rDwslA-qPc2Oq~TOJrfJMlcxJ6pRDm7pRP2p4YdfymhEyGHtFqq2Ch8~icneRl7U5a7ge9q8HNyJ1UjnyGQkn6KlEgI95VjFCpKmuW14Q6MJxOYA__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_26_homograph.png]]
-#### **Matching score**
-##### [[M-score]]: Matching score. The average ratio between GT correspondences recovered and total number of estimated features within the shared viewpoint region when matching back and forth.
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB4V01mNllmTExiYjYrZ2dV
+RFZsZDN3SU9EQVExcWRxdzVXZFRTcVM1VEFBCi9FV2hUTzk0amJ6NjBvZnkyR2hv
+Y3U3M3ZkS1RUNU5TbFhSQWZldzhMYU0KLS0tIG5HQVNKcmlxWklzZUlFeHJKc2tP
+K0V6SUdMQ1g5ekFOU1U5eGhXaDNUMkkKQIdai1SOpdIpgyuqgtgEhNILN0ZF6cmh
+mkOfTREt4mJmKCxsY+mqLlqJ2hNsA1zydJAOVYwdhMiSmyxTkT7HOITpv3GrQbdm
+blRVROJtuqSLeV2UpQUDXGlYMOK6qmPrxGIVhArite/rZfQk0xmfde9H/Eq6RL9J
+hnReLf2uGZsYfxVuKWjzDw4rZZMS1H+OKcHTwXvzYxH7Zl1C40PeU2kCva6PesHV
+PUpCTQiCDrhyO5QPRQJ/zjagB7CbZvHZ+PJRdiloMipyqG+hEhIotdHYWSkFwLBn
+p2/Ngfqy8InbhmGul2bcrmyQcpYiBPUM5vBliLPnU28NIFQE/a8m+8PteOSIPamy
+BRuFkJVGFKoyIjvh7gnFl2o2LFiTT2aN3eDOMcRI152q47PixYMsosk0g1Zo6yqi
+aKFKSSwdrzWCedDjimPdV8FHAkaccIxquyRgBk8wvh4hNO3t//m4Nt3Lga9U4MQB
+C6YlaVYesm9ve1o+VXv+jv9r6saotr6YUPDJHArpLfm1dYK2MhpTi1Ro3IQwz3VF
+R68bQ79ruEsfyK4ZwBpFBWx79AChDhvsBf2I73p2PcmSq93IyXouWhqCcm6MjQUb
+OKo+zAKKumZOr0yOXp4d+pN4gFzWUykO9LKxsYimznZm2yvEfK+II6i4LSEa4eW9
+qwoiY7d0zJ+HYJlPz8c8I4L/1YPXG9AZn60DS8Smvvk3lh1biYkr/bENjnSgv48a
+7PqffV2qni8rgrV5Pxuz11M1R8/CpUOd0rTvn6NCjYlK4oOqDvCoffm50KwXCvo0
+OlNfuXBlJXUXZmBxmlBiPTMN9VDJjXcvrA1FViQ8TyZRt1WXvPZ7x3uZG22vpJWz
+AG9cmZeieC0g0WqvPKhjU0VeK+AIGiOqxZmMVElwqwdzCFzERHHXrpF5AUvatLgb
+id7Svgzb1Lhhg6aVvsNkoPWtmory+PUVoyVcNL32O8BwJfmHepKoc8pwouQMTKaG
+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
+R62DzP+wCik=
+-----END AGE ENCRYPTED FILE-----
