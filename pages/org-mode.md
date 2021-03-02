@@ -1,62 +1,31 @@
----
-title: org-mode
----
-
-## Headlines
-:PROPERTIES:
-:heading: true
-:END:
-### `Ctrl-c`, `Ctrl-w`: Move current head to another place
-### `Alt-up/down`: cursor navigate current head up / down
-### `Ctrl-ALt-up/down`: move current head up / down
-### `Alt-left/right`: change to parent/child
-### `SPC-m-h`: toggle heading
-### `SPC-m-i`: toggle item
-###
-## Todo keywords
-:PROPERTIES:
-:heading: true
-:END:
-### Shorcut
-#### Mark with `SPC-m-t-t`
-#### Toggle with `Return`
-### Keywords
-#### -TODO (t)
-:PROPERTIES:
-:todo: 1608515146262
-:END:
-#### PROJ (p)
-#### STRT (s)
-#### -WAIT (w)
-:PROPERTIES:
-:wait: 1608515175131
-:END:
-#### HOLD (h)
-#### -DONE (d)
-:PROPERTIES:
-:done: 1608515185964
-:END:
-#### KILL (k)
-### Progress
-#### Add `[/]` at the head before sub lists.
-### Tick/Untick
-#### `SPC-m-x` to toggle
-#### `Ctr-C` `Ctr-c` alternative (native Emacs)
-## Latex Support
-:PROPERTIES:
-:heading: true
-:END:
-###
-```org
-\begin{equation}
-x=\sqrt{b}
-\end{equation}
-```
-### For inline, close with `$` or `\( \)`
-### `Ctrl-c` `Ctrl-x` `Ctrl-l`: Preview current latex equation (cursor location)
-## Agenda
-:PROPERTIES:
-:heading: true
-:END:
-### `SPC-o` `A`: agenda menu
-### `SPC-m-d`: org-schedule
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSArMXliK0xGZTh1T3JONlll
+MTBRTGNWczRXTFpHNk45UDlFYWE4alBjUGlFCjhRelQxdmI1M2w0UXpLV2VhNk1k
+Wm8wSHFvQVVydFVhYTVYaUFIc2t1aDQKLS0tIE82UlJQK3hOYWhKRHhuNEJ2Uyts
+SnVaVTJtRmFCR1NuTnkwMUsvR2RnR2sKnzJc2PFMSMHy5nI4F6AbZ1Ytz14y4EDA
+9Pw6t9LXmcBg7/0me4DnFrQlZcxmUZDOKb94QtIfxVzqohRY8DFL3oIlnAJo9KgM
+H38omUY3KXAPzrqZkwgXMagns2sR54O1r6IhVmTXEGDKdTPoGfADeUMy3jzHFIKc
+AI360P6m0haO4UUnZhspfhFXju/N2QG5a9iGAedO0rYC+1wudkPO4cTaJVoCRDCB
+BAdNTXj29dROXp3qYZZtfRLbhbSABzjFtH1xErthJyi5QSjW8bLK77vns7jG6pPL
+gNfj9PLXkWZb9qdaAEHhC7fnweJYq3bMCnijaTWPcrQujT7AVB+voCAo3iZOk1Bu
+ObOLyNj85P7Wy8N5ClCoMhWX0XKn9P+NsMHKmL1aAPS12HwA2kYEC+53eGJU4qaT
+lm+lrJSk85nwiWT9aFhi9lGQAj9n/+WMncpPN6HcQAvIaY7IbQFMRXfYfDX4nywT
+RaSRTzUxKgsihEomLXTGNy7dnlSs1BuQuvUXBftaAUpe0e4P4Uachh3YMHorJXlD
+Ox6uuaQpFNL9ecBnFBa7Es2YRPeWzO4OZVN1RGNo/GX2vM37llCJO5OimYMhu1nM
+xcOSVbKqT5FG1akDMawoDg/6F3tQPz2xiqiQZ6uZjMrE+vQbh+9HmNMDPFOW/XIP
+Z/nqj83CMh7AbJtnBfpncz0LBlnekt5sCWApZAL3CGsxp2YwQhnxmU3aUvnLSwHL
+1gOTPF6UbH1PGaQZYbaVLu49yFnbMXUXTsH2kfB3P1zoESIiOf2hY1/l1YiZfkZs
+xMAuOOI6tEddwSZmGeb/3q8dDiT1Vw7sO/7u5vCqKB9qzoH/7YKdIW4a8Z5YiwRz
+V1hyfDd5v5BSPwaaNr0Fs9ZMnzH6/0LEEJOb6DPsmTSyfZXVqEjW1sYLtT1341/W
+V3D2CwpcZquE6eyvrjGJYRjA6tBfH8nTx6LW0VZlYm3A0Mxyr82FqnDtZk3BOzXQ
+qkE+zqt3DeAtNnAx99fb05j2kvDN1+HeI+ziIpBwWz4A/B4h9M0Ol+0NIQzBweT/
+5s4z6CdvOT5A4Of6rYr4SgIgLWLwXWpX7zwu9Ln8rmofIDDKMxsLkmcPp4a2M/8K
+3RXKAw8Niq4WDdUxd0rJm4weFy8i107oWDKHgev0rBOh5kqg2NLdnyXwozwGhbzr
+dxmG3Z0nBdMX+C7vIWmWOOU+2us8Py6uY+T9Ejodx6MxjlhRfBNZqJ8k1Q883flL
+fmeAZNZFjbUmBkTbfbc4VNZU66Ra3es1in/1cyFyIxN+k+Bhr5xQturN2ar0I42k
+GAEzZrtbe5Tcv2lrCG7pt6bgYvP7iDFQJ1OeBrE4WAmNQoL9Jwvr0SRt69sRAQOq
+ZlwVVKqaJn8R6Ib7eb8zZPtb3c+rgy6fSIGqgM7NFfYYKNOQxUaU39PR+5Y1ZyQH
+Cc+kVZ72JbXMJmrqk8ZqvQ3/kwHL00wMUIr8LWmWHpUjP2tFys1wR3Qadk16iOG4
+j1S6/+vrmk9xajm8edojC+C4+V/bNwRaxAsL0Ly8Fm1Bi7w0ko0WZp4QqGIQ+5C5
+9HzL/RfNyDJ50WvkyxBtlL0e8K9PnbGjvtcwolkQ3nI6
+-----END AGE ENCRYPTED FILE-----
