@@ -1,66 +1,81 @@
----
-title: D2-Net
-public: true
-published: true
-permalink: d2-net
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### #title D2-Net: A Trainable CNN for Joint Description and Detection of Local Features, 2019, CVPR
-### #[[Academic]]: #Keypoint #[[Keypoint Extraction]]  #[[Descriptor Matching]]  #Detection-and-describe
-
-## [[Detect-then-describe]]:: Classical interest point detection and description method where separated handcrafted methods are used to first identify repeatable keypoints and then represent them with a local descriptor. #definition
-:PROPERTIES:
-:id: 5fffb4b3-72ca-47f6-b439-7d63456a4aff
-:END:
-## [[Detection-and-describe]]  paradigm
-### Compare two paradigms
-[[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_25_compair_two_paradigms.png?Expires=4759878442&Signature=PiQEPrEH67zjnYttENAuUb73AMKxr5T7y2T8b8taVom1xm85nxQ76L3qGpW1an6YWcMzZIUaOcIjgOW0DTbSuTTnm-UxmM0Sif2tC7XQ4K8NzZz3ZbxbTBFv6J22knQanPOt3P96h9tRlVqLfeRZrQiWnm~l03FFftV9pavgu5kx7BC8MYPS-woBXYccqdBI4jkBaF4RfOS6igUGSWbN0QWw4Kk5zCxhHa1rMYoqeS3N8bSJZBQeUMy54MvSoknSIRPOfwll4e7FFYeoi~a900U7PHVRcIEzJ5MDG~Fc38K2Y7k8gawqNTDdVfCR0sNmp9tLJpuGUoWjiP1l0pXWOg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_25_compair_two_paradigms.png]]
-## In the paper both detector and descriptor share the underlying representation, as shown below: 
-[[https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_11_25_overview.png?Expires=4759878457&Signature=fiQhdlrka5Yjavx0YayzUK9iMTHZ1T-nb1mCoiMRpAOhQ4ur2VxHWDTC0LTHEgbHAE2K8mk8k7U8Tn~E0kZRUfuB5H54OJ9O~r1k8UryIHjCkl-GoLQLHfpCF5AJ69prPUgIx3uCdgvgrIS8hCvNZJEhQ5sI56rIjIXP35a8AGm9Ts0xgOF-jZ0pJRPEW-X8HzyvRgohqQYSNlDuIoZrkgj0bt0p8F4fSuT~uqAWydJip76fCaXchoZAxHXbK8lbq1HdnXXFbPyG~jGUrS4SiS8WMz4g-t35SMGXuDl6veFi53xn5addiLNfYZX32YIjm0UbJXZ6v4cUy-eqjkBZKQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA][2020_11_25_overview.png]]
-## 1. Feature Description
-:PROPERTIES:
-:heading: true
-:END:
-### Interpretatioin of feature 3D tensor $F$ is a dense set $\mathbf{d}$:
-#### (1)    $$ \mathbf{d}_{ij} = F_{ij}, \mathbf{d} \in {\mathbb{R}^n}$$
-where $n$ is channel size, $i=1,\cdots, h$, $j=1,\cdots,w$
-### Compare using [[L2-norm]]
-
-## 2. Feature Detection
-:PROPERTIES:
-:heading: true
-:END:
-### Collection of 2D responses $D$ from 3D tensor $F$ :
-#### (2)   $$D^k=F_{: :k},   \; D^k \in{\mathbb{R}^{h\times w}}$$
-
-#### where $n$ is channel size, $k==1,\cdots,n$
-### 2.1 Hard Feature Detection
-#### For a point $(i,j)$ to be detected, we need:
-##### (3)      $(i,j) is a detection $\Longleftrightarrow D_{ij}^k$ is a local max in $D^k$
- with $k=\argmax\limits_t D_{ij}^t$
-### 2.2 Soft Feature Detection
-#### Amenable for back propagation.
-
-#### Define a soft local-max score
-##### (4)            $$ \alpha_{ij}^k=\exp(D_{ij}^k)/\sum_{(i^{\prime},j^{\prime})\in\mathcal{N}(i,j)} \exp(D_{i'j'}^k) $$
-where $$ \mathcal{N}(i,j) $$ is the set of 9 neighbours of pixel $$ (i,j) $$.
-
-#### Define a soft channel selection to compute a [Ratio-to-max](Ratio-to-max.md) per descriptor that emulates channel-wise non-maximum suppression:
-##### (5)            $$ \beta_{ij}^k = D_{ij}^k/\max\limits_t D_{ij}^t $$  
-
-#### Together we maximize the product of both scores across all feature maps $$ k $$ to obtain single score map:
-##### (6)            $$ \gamma_{ij}=\max\limits_k (\alpha_{ij}^k \beta_{ij}^k $$)
-
-#### Image-level [[normalization]] :
-##### (7)             $$ s_{ij}=\gamma_{ij} / \sum\limits_{(i',j')} \gamma_{i'j'} $$
-
-### 2.3 Multiscale Detection
-
-## 3. Jointly Optimizing detection and description
-:PROPERTIES:
-:heading: true
-:END:
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBlSnlRTzBxbHFlTFFjVnYv
+LzhQOCtWeXJyc0ZqQ0FzWmM2L3J4dmg3VFJRCjV1emxTVTJDNm90RENldzZlK2tW
+eGsyNEZCaEgwZzhBbDVYTWh5dSt3K3cKLS0tIDZ5YlJmNm1pdys4RnRqaS9UVVdn
+ZHdGSTh3ZGFyWVloMUp6eUhlRzBKM00KqWPKOlTG7ddj7U0j2fYiGcYtuF6/HmTT
+3a18ohA1+DTpmXUv6+ci8CgjXifNpbZtErauzl/aKGfH1pSw3MADLxWq1o0OUqN1
+NHrdcWYbD0R/wpqcGOQyZ7amUwkv+Na5pPtJm018JLd2JQDFM7Mo6eywQGv5EdYg
+dkgR6FhG9T2X8jA/+belG6VIsPkQ78HDCmH8hZa5r270mFjVJnReQ0/wv3zY7qTq
+mBjk+XO9kjF1ZDBeLSDtzcUrd4DQm3rXSXNhXoT8izI+xsHuGgzNYugvjAPS777X
+HCoglBmA2W6eop3mpgrAZYmUZvH0R7HLUG8EFpDs+GHCfEaKqG+GxLDR7GFPJ0SX
+L5xIdAm/GGTaETNFGs40SSnNBksk78VUop3RHv0G5etB+mQGP1lNTz+/PZOuXZx5
+DJ811DNXAw6r9qsY0AwM6mz8SRgVoHYWdW6oBaaIHfcvpUsYxzhYP7n6SaOM10JM
+D0nuMlKPvHVXsWnp8o7vLdqqURRY27Vhu1+NkUmZA5kp4y+1S7sgEuocWwFCxaZx
+wpDb0m/eoYgn+ZTNXTRPb3yx3npjxNRzFrDF1BMdP/gJPbtaujJNgCiUG9i3ZdBe
+VWZ/SJRSOoTI76LMUosSAkTdiRGSDc0SfbTTdglO/hHGXLTGNmVXbiz7Omany7A+
+rSOvYZHFYV1zNhar6lUa1/99wHNONSVda6rahrcH+NbvrHjWFWu+wfCIFiVrXI8o
+nBFFjDM/lF1PQ5erWS3LmeP/HQAe3yAE/hlBHqOZvBA/W70fprehjFrKx0M9UUo2
+XUOhoSwidFbDyMEXRhajLvaCkn0sNQXKQbOCeou3Q1rB820bmWW4RqpEbKkMzJ9E
+mfyocn03PJa5UJS9DCtRyOlbbEWqmsvz7qMwdjDhu6kd16AdCA1LFDpADb+cJeqe
+m4bBeGRcm21Hf4m8g3ZTLLPgLIxBwmmQx0tPvHw0TEOtdsPwXqbin1VZfJYKO7wG
+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
+tQt3s6Ih3Rc+
+-----END AGE ENCRYPTED FILE-----
