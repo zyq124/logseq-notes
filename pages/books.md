@@ -1,17 +1,13 @@
----
-title: Books
----
-
-## [[14 Lectures on Visual SLAM]]
-:PROPERTIES:
-:type: [[book]]
-:author: Gaoxiang
-:category: [[robotics]], [[algorithm]], [[cv]]
-:END:
-## [[C++ Primer]]
-:PROPERTIES:
-:type: [[book]]
-:category: [[C++]]
-:END:
-## [[Effective C++]], [[More Effective C++]], [[Effective STL]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBrRGlRaDdadWlHaHlzVmNJ
+b0xvMzBrMnNLaTRzZC9OeFpkanJPUTM2QzBvClBteXlyVEV0aEhkbHdjTkhITGJQ
+c25UVDNUdmZIbUQweXFsTnpKbmVPRncKLS0tIGkzY0duTHhXRndCbUw3b3NMMEhY
+STZhWnVwOEc3R0p0eWZ1aUFNSzFnQjgKfPM6vE2P8R9zlYx8yyNof6y8iWHHJ/0G
+Y0mBqNSP5IY7YdTJuaPjv2/Tu5hG73VQFIZ0qQFcGDrxRIktgw2CGST6aoUMXDEV
+M+MHezAOBZ5fa+pqffw+djueiOJB7r++wRAWc4eManhWe3wiZv9y3236YQ6titqi
+kKaAuQR0N+IQDQJG5wMT29jVaxiR4rckN4k194E4Fg1nHfPjqzk3m4inxArFSV7M
+SSUwyiEUFABBAvGaiM+75lc/svWB8jMfAYlbWQyVH8GjxrfSWA2pk4T4CFmvWLN8
+xUnUfBmL0AQ065L/jwQLjFkjDqztzChnbxXcuZiwiLS5fuiHMZvGcAE/9PrIfA3a
+FAx7hNqCZoT0QZ6NMxQJtAw/g8GggKgW7+NggD4cK/QwrjzWVptCqLHHQWCd1Koo
+Y7j/msSExrKA0K+tKggM
+-----END AGE ENCRYPTED FILE-----
