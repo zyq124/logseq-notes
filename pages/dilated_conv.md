@@ -1,36 +1,74 @@
----
-title: dilated conv
----
-
-## 空洞卷积
-## FCN先像传统的CNN那样对图像做卷积再pooling，降低图像尺寸的同时增大感受野
-### 由于图像分割预测是pixel-wise的输出，所以要将pooling后较小的图像尺寸upsampling到原始的图像尺寸进行预测
-#### upsampling一般采用[[deconv]]反卷积操作，deconv可参见CVPR2016 Shallow and Deep Convolutional Networks for Saliency Prediction (https://www.zhihu.com/question/43609045/answer/132235276)
-### 之前的pooling操作使得每个pixel预测都能看到较大感受野信息
-#### ![no_padding_strides.gif](/assets/pages_convolution_1611297903090_0.gif){:height 177, :width 158}
-### 因此图像分割FCN中有两个关键
-#### pooling减小图像尺寸增大感受野
-#### upsampling扩大图像尺寸
-### 主要问题
-:PROPERTIES:
-:heading: true
-:END:
-#### Up-sampling / pooling layer (e.g. bilinear interpolation) is deterministic. (参数不可学习)
-#### 内部数据结构丢失；空间层级化信息丢失
-#### 小物体信息无法重建 (假设有四个pooling layer 则 任何小于 2^4 = 16 pixel 的物体信息将理论上无法重建.)
-### 在先减小再增大尺寸的过程中，肯定有一些信息损失掉了那么能不能设计一种新的操作，不通过pooling也能有较大的感受野看到更多的信息呢？答案就是[[dilated conv]]
-#### ![dilation.gif](/assets/pages_dilated_conv_1611304238899_0.gif){:height 197, :width 205}
-### ![2020_12_28_compare.png](https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_28_compare.png?Expires=4762720900&Signature=M4xjtTMZ7NxBI6vyb7G80VOTwRoKe3wqLbizMzLHQfvbz6W6O8Gtc4rbHRXoKDZxhzk5vN54E25~N~mfICtkMGNQoED8VJIbdYTj3s6ZP2NMbth5epQgfB4-lEuMmYJ3kCFAApgvioyW4WzqWJGGqOl8suW5dbVpRT8pkmRMdz8aIP9pGrriSJ8WndwHY4Hs9H5e3z40skWGwBHQDObxsknzuycqLlOlFkqOfbkU0yRcvNjX~FQJJEKugSePgzyo~22fwEpCE7pwAuIbK6evUVGVeaJpwiWjh4kOK5A1SWxtH6S-15HbmLaGUwWl87RJQMFrpcvZPrCUegjYndkHvg__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-## 缺点
-:PROPERTIES:
-:heading: true
-:END:
-### 1. The Gridding Effect
-#### 假设我们仅仅多次叠加 dilation rate 2 的 3 x 3 kernel 的话，则会出现这个问题
-#### ![2020_12_28_gridding.jpg](https://cdn.logseq.com/%2F0602f0ea-7667-4dfc-a07c-0cc047d72aaa2020_12_28_gridding.jpg?Expires=4762721737&Signature=g5RywuH5voI1c8d~0KQ9pgK1blP1AYo2kHFwr2I-DzCx0Y-oRFkDOIv~v2XcUtEsctTOsKtH2exPHG8THArIG6MRVJb8YJcg~e~WR-QTwnCTNCRyhe4w4d4mKXEaby~~3XzH37T3kUlyxlBSloCLEn9r6PtqeIuO~43h6A63U6Ul6ufdar97wNewnQ-ccw4KGNosPsTzeEloKVj9aTNCkP7XlUrBvgxbQDYxHM~izIMcidkZp-~T~wyLaz-F7OV23BT2J50lfqWKFMVIwZMawijW~8j-PmWJFWk600omTLNZwSQVLDAPU1sW~t5ZxsqCMb2TkSPhSVdNrBdf06DSlw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-#### kernel 并不连续，也就是并不是所有的 pixel 都用来计算了，因此这里将信息看做 checker-board 的方式会损失信息的连续性.
-#### 这对 pixel-level dense prediction 的任务来说是致命的
-### 2. Long-ranged information might be not relevant
-#### 光采用大 dilation rate 的信息或许只对一些大物体分割有效果，而对小物体来说可能则有弊无利了
-#### 如何同时处理不同大小的物体的关系，则是设计好 dilated convolution 网络的关键
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBKZDJsYjlEMllTYm1EaE9x
+YWJjYlgrUitDWlRRdW1mSzFEZWtEb2xnbUcwCnJFZ002Y00wZjNmcXZHOWxGd0pO
+bmoyTVFjSnU4Y1oxV1UxVWQ3WHh2Rk0KLS0tIDM2WEdlWGRJa2RSWC9DbWZKZXBG
+T3BTSjVOZnA5U21PTTdPaU5NNTB0VDAKTyLHl33x/pQSUNJF5/ayeWsfMjJMvsu0
+hj55RB8lK/+exNUgDgda8g5hLKqWaenVgMXd5eEhasTMndpt7g5d9NA4usDqNnaw
+ucpfKMVRaXw2fI9qW2EZApk+Dhfvcjrdu6IloFwQeAUgz2RPW3AHot3ZVqRokalF
+BrrOGDzYiTyP7/fsR/JhdDxwHBQVYn3eZ5ToWHDvjLt0bedNR86tp+1LgjIq6OBc
+2c4eUyMU+eIzcn0lMvMVoziCK1FnNA2shBdn8TQ/RD6nKBc3+fShwUP5zkZHKAyJ
+eqqNoYpq2Y71G5eWurzEz0Hq00nA/n+h4Q/awr2MNmxYBu7/Ms0EdONxAGFBi57Y
+OejLJwbLGvCb+IQ9+mX9m+MBtqyFXaSBGw9VWN84w4klCZbT6Xq22FqCDPT117t0
+WXFl01z3b2ttV05ziRnAlxwExrGIrmamgRlmhPGQ8GMMlUqi7ukV4phrJkd7wjZl
+daQFAQp/rO62epLLGXVzpZ5BWKyrgTP75BRJnHDVjgZCoCMSe0zxABmcDjOzA6KO
+EQIld9I+ZB98nwskZEsH96Tgnar2+pCGk6O1wHJ6V3exuK/Ssze+et99JqnBs/X5
+Nvyb0auuK1LVHKdxle4KjvzD8kyZrN85dGG8689hdAitMrZeI4FuoKfI755eCJSi
++tsmV5fK7kibwUxI3m21ZlFXF5nivAjc47L4U0dWnhu5jEzcb9818AKQ+cJ2wHbM
+BwT0f19HSfqTDneshdQHRKd76VFt4KVfQmtOv3DVAcRjeJVxBDKVOqxfhs4borta
+r5/x3XYyXhsWItqWzqOad10dZxtRC/5WD1+OkxGnIIZpRyLIcxJ6tSIf9f6wdLU0
+vuTXBa1xOrJ9eebZq+PaFxomWS8XChLhCkhkg2escXWr8X5WlY6D1nuQZThYiXvF
+NMFy+uenf+0I0QTr4EmS4uDVxhAwyCszFXjhLqiXz6PIilPYKNF8VRWv22kkOlg4
+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
+dQJjn0DVN9eBJw==
+-----END AGE ENCRYPTED FILE-----
