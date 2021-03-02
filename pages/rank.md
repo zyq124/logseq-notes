@@ -1,16 +1,12 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBqTFRCZk1HWFdEWFg2Ykxw
-L1Vyb0MycnJiUVhSNmVNQlRRNzlLVDAySlNvCk93Q25UeUNhRFU2c2ExMWV0TlBo
-RXI4amMvWGIySUNENjAwR2tvT0JoWk0KLS0tIHk2Yjd6TmRtUGhiOWp0WUZ5QzB4
-K3NTVW5UUHA1U290RloweVQreG15R00K4bG8HZ81z5Fuch3MyVuM9VZnIrZWW3xk
-VzxpOfkhgbqLouyIEPTFRcBCNFFit/+aAxkbeFw4JSARYJ1R8jTKzwgML7TzdCip
-VVjps8u9wPt5IhcUT6jsnfVB2jq2hnbQhZslHCaBtUukZ46RWLlaqQ1B/yvgFa9b
-m9NRWH0hPtX4JzM9SDTWqBgEmoQd7ayk8FQEAwPVcge33EVEHYb8LV4yk3HwZ7Cd
-AOGXjU+5tHQUO3cdS0nu1+RV9DPhga6R38wQfQQCRWOhVVgr7LFEj7sWbUriUC4u
-pd+RF9D+ZrQTW6hHTUkj2XR+0FGXlWGY+QiQqaqjATAxI9uYw0py1Bekg5pQvfXu
-WyRYJ2XEiSB87GwqQuxU2JYUQPEPYFJSL5wyS9LKgEpIelH0zPKlKwAduKK323fG
-ALQ6C2ZbmKxGAVseHsqp7J4BMZrw0ZeqKyxH3P8A94Cnsc+yggXPvxdS+mpjlajF
-pOm1G1LuWfr2aicApk0MFJTnjr4Wswl91wZshaSNmlOHColgzxFqLm6Tl+u4xxPX
-vRVAKLYgLhXS9NkGdpJ074f6pOWeNF19rMCnEv1HEzPsE7WFvkI2LPMett72c7QI
-p5vgtPw=
------END AGE ENCRYPTED FILE-----
+---
+title: rank
+alias: 秩
+---
+
+## #maths [[linear algebra]]
+## 一个矩阵$\mathbf{A}$的列秩是$\mathbf{A}$的[[线性无关]]的纵列的极大数目
+### 行秩是$\mathbf{A}$的线性无关的横行的极大数目
+## 矩阵的列秩和行秩总是相等的，因此它们可以简单地称作矩阵$\mathbf{A}$的rank
+## 矩阵的rank等于nonzero [[eigenvalue]] 的个数
+### 等于nonzero [[singular value]]的个数
+##
