@@ -1,20 +1,26 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA1aVlhbWZzZ2p2SnFWUHU1
-OWdxbUxJaVV3ck55aGNQbS84TmF4MWtBcUNnCjgyRTNRTXhUQytIbGVqT2VaQUVy
-Qm9JNUw3QUVDRFlKK2N5RzRtdVd0ajAKLS0tIFM1SmZwRFlLT0JyRGg5ZjBZVFBW
-bGpOZWtybi9tTXM0RDFjUVVrQUVBcHMKfiDf3ehaSBXO+6Fiw3aJETj7oBUSubww
-b+NCp65ecbs6775wIbTD6dn1M2MvyS61BAalTxkfn1udunStnPw+eSwZDbBZGhVF
-yR9SpZemU+9XLBIzWOdBmSPJzPboeSlOLPtsw7wozMqFuQvRvlghP4GCa5fkD+B8
-utZJaGVWP+0UQx1FMCSHzym+1wuqn9ztbGnQ8tNYM7SeEq9Qr6kJKWpCH4qUG3mm
-P69rPgmYWDnJaPhi2dLEMQhraRrO045VAwyjItjxsBoEhN/oWVtPJZOVeyNZiZsT
-c5CVtNfgfUAE5JyUSEoE4tRHPMbIlUSR145LC1aOlO9reO4rjTAnCSwg+aPnVT4B
-CMRqxhjSMnaJQYKbrcOVwe0jQuWJCDJeCg3SW+HzyR12gcW8MCAs62gXe5pnoKCs
-/QgEl26pxf0gPk9rnBKl/PQYGjxI0jQWG2M41i46EchoreeY6/vHWDYFxLHVYNWZ
-l+0bFPjMIIzHmvyeb4fwzREPFzpJYANeovZdw8UqkrxK6XN2m8R5L44rjdonzSYl
-MKCWY/ewC3OWUdpohuIBWRigtIGK7Hz/fTwE8oWcdTDSwXXckoBlUbnjYMnEph/7
-fweNnDQTgECXmlkmep5ugkGwppP9JbVJL978LQYnBAWWxrRcW19hH7jTOqJgeHwV
-bTqdc1o6mmbenHQKy8FBO+qynZ48ckQGvD0Oba7wVTgycg1ZRnFSqnLR/K8gcxBj
-orVHyqrapBlBOqAtO3kxZoC4ANAW3RO8jVwMVqMXocd45gurSQRQMVMVNgNzMMBe
-2gpivOIYKR8+GgU2lkdQUmp4I8Ar+bxyUd7CxnG3lGfdWI0K1P4diXIv13CUFp+3
-wEvgj1xRrMWDCPg6vGwSAb0vrLJa6AkCcbieYkO2OsvSuDklUC+msUnz
------END AGE ENCRYPTED FILE-----
+---
+title: Library
+---
+
+## [[ROS]] in [[C++]]
+### ROS 依赖库
+#### 在使用catkin_make的时候，ROS会按照默认的顺序对功能包进行编译。这导致了有的被依赖的包尚未被编译，未生成xxxConfig.cmake文件，因此也无法被其他包的findpackage()命令找到
+#### 因此需要利用package.xml文件来提示ROS首先编译依赖包
+#### 被依赖库的包
+#####
+```
+catkin_package(
+    INCLUDE_DIRS include
+    LIBRARIES my_math_lib
+)
+```
+#### 使用依赖库的包
+#####
+```
+<!-- 声明需要依赖的库 -->  
+  <build_depend>my_math_lib</build_depend>
+  <exec_depend>my_math_lib</exec_depend>
+```
+####
+## [[cmake]]
+##
