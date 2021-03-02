@@ -1,91 +1,75 @@
----
-title: LISRD
-public: true
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### #title Online Invariance Selection for Local Feature Descriptors, 2020
-### #topic #[[Keypoint]], [[Descriptor Extraction]], [[Descriptor-Matching]],  #NetVLAD
-
-### #code https://github.com/rpautrat/LISRD
-
-## Abstract
-:PROPERTIES:
-:heading: true
-:END:
-### Focus on descriptors only, use [[SIFT]] keypoints during training to propagate the gradient. 
-
-### Limitation of feature descriptor is the trade-off of generalization and discriminative power: **more invariance means less informative descriptors**
-
-### ^^Meta^^ descriptors encoding the regional variations
-#### Similarity of them across images is used to select the right invariance.
-
-## Method
-:PROPERTIES:
-:heading: true
-:END:
-### Select the most relevant variance for local feature descriptors
-
-### 2 Steps:
-#### Design a network to learn several dense descriptors, each with a type of invariance
-
-#### Propose a strategy to determine the best invariance to use when matching.
-
-### Architecture
-:PROPERTIES:
-:heading: true
-:END:
-#### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2F_mcGOcnbPI.png?alt=media&token=4c1c25b2-889c-4baf-b40e-a99dae869e61){:height 369, :width 727}
-#### Inspired by [[Superpoint]]
-
-#### TODO Computes 
-:PROPERTIES:
-:todo: 1606460566722
-:END:
-### 1. Disentangling invariance for local descriptors
-:PROPERTIES:
-:heading: true
-:END:
-#### Two factors: rotation and illumination
-
-#### So there are four possible combinations of variance with respect to  illumination and rotation
-
-#### the variant versions of descriptors are more discriminative since they are more specialized.
-
-#### while the invariant ones are trading the discriminative power for better generalization capabilities.
-
-#### Training losses
-##### variants of [[margin triplet ranking loss]].
-
-##### Dense descriptors are sampled on selected keypoints of the images, [[L2-norm]]alized to compute the losses.
-
-### 2. Online Selection of the best invariance
-:PROPERTIES:
-:heading: true
-:END:
-#### During matching, explore how to pick the most relevant invariance
-
-#### [[NetVLAD]] layer integration
-##### Instead of naive approach to separately compute similarity of different local descriptors and pick the most similar ones
-
-##### We need more context than single local descriptors, and need be consistent with neighboring descriptors
-
-##### So extract regional descriptros from the local ones via [[NetVLAD]] to get a meta descriptor sharing the same kind of invariance as the subset of local descriptors.
-
-##### Thus having similar meta descriptors means sharing the same level of variations.
-###### Neighboring areas are tiles of $$c\times c$$ grids.
-
-###### 4 meta descriptors per tile, then [[L2-norm]]alized.
-
-#### We can rank the similarities of the 4 local descriptors (by scalar product)
-
-#### Soft assignment (softmax)
-
-#### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FvReSdGM4pv.png?alt=media&token=87a42d62-175f-4b0a-9413-b81d5b48d8a7)
-
-#### ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSLAM%2FNhRALW9YgQ.png?alt=media&token=b875b963-4ccc-44c2-b492-757f449bea76)
-
-####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBqdm9UR3dIWkUvZzVRREFp
+alZXYzMwd25ERTR3Y3BjcVUrTXFlQVByZERRCm5YMHI0cUhtY0p4a0tCYm9Rb1pQ
+ZHVMY1NYbDhwcEx3MlRkYTJjcWJqNkUKLS0tIHF4cS8xOElGdzNmTzcvL2lSbnBG
+ZjFLZkdkR0tzV0JGcCtxSmd1VWZteTQKx9j3xOJVsNlbRZckyAyxBZioGgOmthXZ
+9n8w1ZN0gQqrgk1w2ROboUwxqAtgXYdIn1mto9rF7u2KyOY2wH9Ab2Kj/iLH/UJq
+LkdLLT/vc/i8DXZodehJ02kuWtwln7D7B4LhUUk5gWz/fBoxeyJxAF/m/DOYem8w
+JqfC6wJmPD8i+L+kx2brAJJcWUYOFzyB/yuwbVCZx/nqzkqLNUUzUtE6pfVskV52
+TykB0bCyj5LlXJOi4Vr5I1AX9JTfmaTy8twkEc/BOp7Gj6Ya59yBzhe6BYZt2W9q
+pyL5Klh8qmfNh3uAVhMCJImmuxFrFiizWSkhlaZmoMbswvPZlDN2SY35Y4+lYxH1
+gkutqLb8BCeAsNkRobtFI8NgHfHRjqIIshelur9svavWySYctSVc3xVXC671Lb7m
+aamfrV1FxPv6uVS8XTlBiImnvtXjVPPkGaekgR3037reQ3FAuVrSFlyJg3dkOR7t
+I9XV3n7uIhmJtM7CtdbsNNWEKVTc+bYjORzoqTpVlLw5LaljrjME6jMCrS4hu+j5
+u5Kt5hbMVVHWlqwA4L5Eazj5G3me4xbR9nz3Sp+KIhWoKAbqrenqlzisGa6yC6D8
+rhJF+PJ7q5Owll50+RLZA6FfcEH9MsyTCl5rxcAre9Gw/T9Z3T7hhsfAzAat9ZSy
+3dkpwM1e8tzy/1UxXxil7rXcDtWML7UfHMkSn1aAVtomBjrMZ6Skjcz4lePm7I88
+mQp79IY8rMYnRB56VsRK0lMMpvh6GQv6YK6z4/8pt63z94lSx7v+LIuT5zzfxHQ6
+00twcC6YjCjdY8IB2PZCt84jgSbThOStMROs5iL1t5ZxsQe0M1HX7iD4Laon04O4
+p0F5H1NeD0Sp1soSYinjhT/HxUlW2+O8VqoKuKZjUaHDLVg8hVbszN40DO560ORe
+z7ZrGx2CW9EXD0oFQ9owxw9ytN/7wOOCpMuroSrxR97pwccnzDrQsHHrToPUswJ8
+JU6SLnteJf4AuoSb9lJHPdjJAk2LXvCEBS8dc5LK36xdgGvDbgGY7cdnxI3++oJ1
+pZwF+qRgOsPBTp9ihUPBuK3DRxSPEE1dmopsovsOVR7CVRJYDA/DIK+MIZtvpxb9
+EER0EVPRH9z/ZeNjm4c2iGc3x0zFNrK+OLBfs4kKKsVNN/wjdHa5IKpSmCnxML6s
+SENFDOW3yQ8Qa3YRdeSte9g5HG+wDGJxB6y4TMwPmS31smuflyjEgv6W4vSrNKXF
+H12Gqt2afb8VJu/oCzpIn4NHyOhyUQ7QIMNOgsjG87HIpjXKs3Pn8QdD3XzwNqCs
+oRtt70xy7sjoWOR+9thyRdh3hIBCgLivb9rNLk2H/CGs+4YjodYRdLxntIdPn//6
+KB1m5zeZeMHKckI+2aA7V9pEMQK3g+tL8SpE24KOjRaL4QsxQYgL/6FgEJL+evYl
+9xnv/t7eBTrU70dWcAbgcu/oMWxJCT3lLQzjEB9zgHThW+mxf8HCqPQ11oXKi9qp
+vtABw7mKqeYg953s1hM1x6wcss1NNPqyKnu5GziPdIy/CbDl6bgTIyRLWxAe5efy
+hVP6e8afs6N9T8WfvSb4/ekCcQ5PXI509HMid01Y8/1vBYRuNUjxt6vv9AywkRgG
+N7A60tG4EV18do4kajuptda01bOgB6KKWnT0RCU0NEpY1aNxAVNIPWwVhwQrfTXp
+qB9zOax3VCDbqGsGpSDn5HleZ7x6hcMB8WlKlsRW88NreDMrTM93r+ILz36NEwC5
+0aT8pUmRkF2W0yYlrhFBrSiyjg6/XL5c31gbMdQpMJYoZom7/51urnzvy1Cpd9FK
+4qYvUTePDQYI0ovx9eUxowUjbbhFwUoZKgTUdgeP4BEx3Yjl8Yhr1CK5klXePSnE
+8+vIx9RSEOYUz7YW4uCJX+Wi5xgJ07KgjM//esa9Paj13IAWrqTSvlwbfVtmFffo
+uogQhJVzP/hbn+cnFmMuR9mms7oClxrC0tc4s2LtM+ryUf4G7vUbYsLB9rIqgzvx
+2tXXsKUBcM3XKWtVX6Q4h0MR4kXmtV1SdA4CdmE8uaWBfM7KWLg77+DKKS4sI2Zo
+37qw7WoMecWz396OXKAwob0v8w4M/YzouKxG//xWpRC7igy4X+wlQFbobxTnIxJN
+HgHXPlhBGtsJpIPnqfYTxr9plttUUUmz8859ZoI2cGQ7Te5/aKXQP0HcA0ws0EWq
+V4KGOjfnrnhGI4ot00TWfs28R0NgqT0yPTdxlOB+scq/BdcmNIyt7zDb8BKptQWX
+S+sXxx5zw2zYVYW6Q5dhG76R+8axLlsFZ67OYRXLg3mj3/1lt7a4vjvvSMMpZJU7
+dGVX6orPOLLPrCf+n8JKYkzY8J3zBuYIOi09cUEoN4GAPm5fdnjk9jjLzuvXvZRa
+HXW3WzxFnKDgc9ZllWe53AJzeFubDGTkam1gfN7MXm9NRWKvoLxbeZQnsgJuE2iD
+H+3ayYsYZ/KEUNaWi+sAT3bRWm7N1KhJ5luqYXIW/L6doO/bsGpH4RSilzFz/Hf+
+FJGUth2DuXnsiS85bA4rN03kDMDqOrT6hCFO9JOjZwYikNHETJXRuZEsxTu74p3b
+d9TLNdkM7dh/tfchy+fl2Bbsq3hm4747gokJAfGlan1qYqyssmKoYw9XxnN67/db
+vWWx3x0gCKz5aukojOYu4vCQRv4ZCo9vyelQs618ajZmpoHw3hI2vukbvJBQ9rHg
+d2HowO9y9WDhR65rZ3dTkZufrqPlLZpQOijf9APAybjqGXJ0t40gTRBs2p2HRuyS
+DMkGkvjE2acePCnFGM/uoLZcuYLhX1p5n5zm2aC+A/s2zl1L1JwmJ4DCJedL+lZ2
+51RNLsgnC6vgRmk5Ck7qq24UdsQDYwGHNz3V0xZWzvP+u1DQcU+fNtkr709DvKc4
+Z691R8TeYFwANfsmfByANzwOV8rKUHv/SgrziMKcBhif9TVybDMGWv1FNv59BLkK
+oYc8QeDrO1hyxWmwrgi2f6CULcBH4ogFgsIn30o4ITYLGNp8zO2LoI/BOS0LE6GM
+o2AQzr4liL0msPM5x69ucgiBeiNgsnh1YZFMltvMrCZvU9jPWRty4hJ+6JAymhxF
+SCM4nW9DD3hs3b7xmAQ2tboCSwMeD8pW1WqKgDEewh0DdCWux2fXis9G4XlINKbF
+2cx95XAUedJB2d+vTSi4zQKkh4a1A+4sinQTTV1mMvyDSw25O+Q8lNGUQb209z9Q
+gQSTVvYTQIIf4124ztcT6w/AW5MRnHwjqhFIkcBoMVrD1tZk59T7oUvv0dBvCvub
+XXl9nPWvEgkvLpPJp5vTnPTF3Cu6iMuYc8fvyu3W1EqnOIKzR0rH0I2oYemGHyPy
+94MVawCCkajkBhc99B8F9tYn1b5VEKKbFZNgH18uh1HSl6nIvxFQ9yVpfbTbYlvK
+ulSDyCN1RnlpSpTrcJyfPyYY0vDK2wsR9KL9hG6TiIzemgY50ZpN9utb5RZocFdg
+YksTReTyyzs3/jMpUXERHVO3Et5OmldRP1cMaabaZ8K2hunkVpB0LriLQaj8hpMR
+PI8qRQ4RBKGNbSDbMpDNidU8xOi6vODQZn/Ewic+pZmhhvxXij5n5uSk7XtX/tTa
+NtxpvD3t5owCfM1XHWi8pYFp04rhgmOswzPT0Q4CFsKqif+RnXJy3LHqNPRSN6kO
+1qZx22Z5IzSsIVLbGDeKxS2C4TQ5kPOebxZWf1yXnwutu88q9glbNZyq5nu+JQ8T
+zBD1+IFsVXZ1+5AN+BSBRVbnVQH7wAgkDS6oGkgs5pPNs8297PbqonaPTHbJsPN5
+KwWIGW7itgGnvZGqsX3D8h2mV1wm4V1Pp48d+Tyd/dQCxyw6n8YXcG1wwq8icwt7
+EOVzOn5yjvtFgu83JyfqBysGncn/KtYtoLJPEre7JfrU6UV8SKEl/M0FO4KVlHQw
+lnSe7Csktu7CNIZr7tbtLR1M5nSDXgNqjx66bY3bqZe2jGD5A4YF8WET5sOdI6s8
+tRBEwR6heloUN4cf93YIDFkloSO7Fthwm7+pnmway8K3vhYk6wzzDGnQ5HOpuer4
+CQrJoHr4k6dXcsNXJ9L3HENcveQvE4MnJa85VkJLCtS64EIWB9uFu6+GsAAfFCgn
+huNmZexotmQnxNiWmtRSe0qeonG83B3dFq+JEjjfJ+3scpKxEoDgdMNLNbNxsxI+
+uaT79DiS/CEQjZBwumPvApmt4Qav3+rbO/peQ3B28yvJwJS8P5RV809ojV/+g9Kl
+isGQNjFI/yW8LHsqok/Y13lOKn5vdzbSOHaO8Nr5rz/duiWBu84ZxdQ5fsZq8Emd
+xeD9uc9eZ91B7CFwYTixZADUhljzUX7hLRBlyoRNxD5McDKNiqQgfFdgUWfy1f7h
+hIhnJQydut9d9hs=
+-----END AGE ENCRYPTED FILE-----
