@@ -1,9 +1,11 @@
----
-title: Hard Negative Mining
----
-
-## train with hard cases where $d(A,P)\simeq d(A,N)$ to refine the distance learned.
-:PROPERTIES:
-:id: 602dcba9-ab4b-4e7e-8477-78254183d3ec
-:END:
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBWTkN2NGdIRkZGck9pT2cx
+aTlJWStxMVppeTRVYWJKcUtZcGsxOER2STBVCmVoNUxSb09aVHBqT3dKMGZYdUV5
+UkdsSkRqZUtydGRXaURZTFVBK3ZqU0kKLS0tIGNtT2dCSm5zU2hoRy9mNG03NzVL
+THdtRG1kcW14Zk9LZHhzeWtIcTVHWFEKGGwLd4eVMLfR+O+lyL5dlkB8l5RftNEq
+qpqgX/c7phvVB0Sme2aCibNZKROoBJMJpxOZVmxWDi8BLfHh1eSv5dMdtVn6ZKmt
+fmzX4MaSa4gHo36SkCS4J+9/R4CTgEEM0V/1mebLDj+vdV0vVZLbW/HD/q0sNz8J
+BGrMt7yBWqU+dByCZyKFLCOyrIeaXD3iP2K6eD5DBINaO6RewMHMX3v8huucD7Un
+sm+G/SziFNlFfWGFQ6DIxpjFUesIx7gREH1sJ28KpgYoX2+VdFLI8gy4lwM6V40d
+cxQ=
+-----END AGE ENCRYPTED FILE-----
