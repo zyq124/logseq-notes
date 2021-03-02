@@ -1,23 +1,36 @@
----
-title: l1 loss
----
-
-## l1 正则先验分布
-
-### 从[[Maximum a posteriori estimation]]的角度
-### 在知道了$\mathbf{X},y$后,需要对参数w进行建模
-####
-$$MAP=\log P(y|\mathbf{X}, \omega)P(\omega)=\log P(y|\mathbf{X}, \omega)+\log P(\omega)$$
-#### 看到后验概率函数在[[似然函数]]基础上增加了$\log P(\omega)$
-##### $P(\omega)$是对权重系数w的概率分布的先验假设
-##### 可根据w在$\mathbf{X},y$的后验概率对w进行修正
-#### 假设w的先验分布为0均值的 [[Gaussian distribution]]
-##### $\omega \sim N(0, \sigma^2)$
-#####
-$$\begin{aligned} \log P(\omega) &= \log \prod\limits_j P(\omega_j) \\ &= \log \prod\limits_j \left[ \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(\omega_j)^2}{2\sigma^2}}\right] \\ &= -\frac{1}{2\sigma^2}\sum\limits_j {\omega_j}^2 + C \end{aligned}$$
-##### 可以看出, [[Gaussian distribution]]下$\log P(\omega)$等价于增加 [[L2-norm]]正则项.
-#### 假设w的先验分布服从均值为0,参数为$a$的[[Laplacian distribution]]
-##### $P(\omega_j)=\frac{1}{\sqrt{2a}} e^{\frac{|\omega_j|}{a}}$
-#####
-$$\begin{aligned} \log P(\omega) &= \log \prod\limits_j P(\omega_j) \\ &= \log \prod\limits_j \left[ \frac{1}{\sqrt{2a}\sigma} e^{-\frac{|\omega_j|}{a}}\right] \\ &= -\frac{1}{2a}\sum\limits_j |\omega_j| + C \end{aligned}$$
-##### 可以看出, [[Laplacian distribution]]下$\log P(\omega)$等价于代价函数中增加L1正则项.
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2YzRscTd5N29xdGphZXNX
+WlAxSjF5bU5vWERidmpLNEJaa3hhdzZZOTBrCk1pMTJUU3E1SW1VbWFIdWdzK2FI
+Y1hsVDVjY3dsOWxLWHhrR0E3V1RkSFUKLS0tIEtEdDZSbFNzMnhiY3BPUU1VYXhm
+K0drdHBGUVRITldiNjBvcEREK05xSVEK7BeeTJ0KaNeI3laW4vfB50lptc5jc8ZT
+2uxB6IVpoDhWV4Zxy6fCWh6gJqCJmKv9eiQPcck4+HENIBdtqFfhxtP3E5gBxr6g
+2igKAQmsilowZV764lSLPkLnWcG0kmCj7RKum5Cx8a8e8pV4q1tCfhxW+NIA2UPs
+0WOh88iTzEm2Xvt+YL9zrXw0cIozgooWB/4bTF1MArh/tZa+yEfosdRYNeDHreES
+kt93iMuPLTvIU+1bKDj336ByPcQ6ECckZ0dAMP/qnPZSwYGb+iTrdoq13S3H9Jxp
+66ZK0kkE/wH4/btbs6Z9J++H5js13Xb23oJIuCUS0MRY7BGt7Sd491lzWBf+6Jck
+gEjxdkTi/xPkLCgEojEGbs043onHJIF3IqWsgJo10IUpX85t+k2UpiGVrxnKwUTh
+RVwicGUd27mGfBxeG6fTIr8fVXXD+lpTIb6PJtFQ3gj/tH2mt/ZL7XNb2L/IBOfX
+N8fxcZ42PUVSsibCKlUMVWxumsjhk99OxC2ShgPGxt5MF9cv1MObZGv2CorOVg7p
+umbDOb2zVT8g1wl6sbh4B26nJBaZm92rvlSt+7Xbq+sx8Dy8x8OypT4aPhhoC4gE
+o5an7E57R3sce88SHyov2S+qw/26t49KUJoS3i2VMdI9qaMvTG7tJPi+0NbVM1Mu
+XQz/xVpToDR0kdKzxTyEn5sFm+ozBhxsy6Rtf0wuR7kRkd/i1n2NJHVAEpt32ZQn
+vRltSjpUD3+z9g5iMyFsLyDbSngV10E/UBJEpyK+WusUZ507Vr4p3eQRMBQl0BMz
+aSqxC364eFEUwqSkzLBL18SESFeDZblEkIquCYUafN/CWdfC6u3NXgKkZuesKW2G
+qu+g5t5TSLvP6OBIP+ce5avmZhPoc7jj452dhckEp9gS0jniTv5S7e2XbqALTOLm
+0bBP3i0w3L8ziACyXlrMd11iRvYIPVkaArWZ9KMjigvRrIdBfacFB3qQhAhSubE4
+1/fgAkHcoVVE86tbrI2InKcC6XUiBingbfLw89F4NUHuF0H6LKbXiVjz87ZieqQn
+Al9ehgPDM/Kfs2rLv2uaV4lNB826leBMwCqMCXTdL56pc2vBSqyk+so7fta5JkDQ
+AkNoIV5CamZFOsfdD5RrfgAgkDP0Bqiz+ZxOX8op77EjcgQRZjuMIDBLqGvzi8CL
+d/U0hbpjJGC0gu/ui51se1k5zgYd6CRqB2RnX40k1fkrMgxgQvBBISfnuTk1s/0L
+7I7itw+Cg7eUlm2sbii/10y8jHppq/gtBm+hHgePHgaxzswGnNAaS6LJ3AjicT74
+C6PqrPQFxB8UK2fLn+vp19Mta4RC0NYv1IOU4Q4AS5yh+xG1OEebX0OaKx9aXge/
+lpjpdOvaKNBGAi1ZJT2OmiPejaAwrqiPO2xPstWYHpwPrtjBqfLSwxQKEkjUr2Bt
+B5/HlKWUjGmJeJtsRCVq/cIHHz+d0wXQkpizN9Kw+5SRssZxdZQonD9TMYV1TeoN
+enStDYSnE/XCAfpL+4auPmscwBOfG7JQjmunTZLwxtTF/Zdr297zsAvuxfeyQf67
+d/QkDtm5UjW4zUhgOEsxy2VXr+7bA03c4qTvXdT7Mr9LMzZSe1Y5HHYSu8fConRY
+5YfUMsjg31cVFeOQcyxaONEzzTNATj/B16BZAYf+hL/tYgXiaALzXaGSYvk9vPK0
+I+DSxqnKFT5tagH5Xh9NWjlBSUMT2LJ3YVgelTWlvW/d0JgBwuNPbLiZ7TcMWt2H
+Z+0YfbdycqUiqSAm7Ko59In8OBrZP0Z8ixA5KuOHQ31IdyKpEGpePQbszkUGeqOA
+X8xu2d6KUcZXRDmtDhOmBfoZDtMGv6j5mDSvcRKG8Mo6DuQk0uG7xBt+LCrWPdig
+v/jfhRU91mR75vXusOuQqgKe+FekiWSxkjTiAQKTvATyX7M=
+-----END AGE ENCRYPTED FILE-----
