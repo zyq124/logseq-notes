@@ -1,10 +1,9 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBzS3N4QTRrU1pyZUlsTmJi
-czVscm45c1puWGxZVnhzMlF1VVF2TU4veTJnCktwZkorRmlrZ1M2Mk53aGNPemZ6
-SndWOTE1dStMa2FqMnFmQ21NcDdaYXcKLS0tIHFkVVRSYkxTdGpFM2F4NnQrT0pN
-RyttYXpqTVNuLzVSeEU4QTdUOWFxM3MK+DxWHBFhhEDOIuN4thOZNoCrRCZ6hm2O
-pBGq7kAXldpO4DPzzBrEkMnQZKrhyT8qNexdX9l3FhSf9eIc+a7TP85ClRnEyplC
-fA3tN4QzjVPavW2HLoW8Ldtz5etaxouRl6q8+jOs/CacToldiZ5Dnphc1fUf8Fqr
-yxp8y97AIrN0CcoaIblrVkg+Qy/xEWf3+Yf2rQn4PzKXE5qd6+t/aBA00x/jQvRI
-UhNE+6JJeIOCih467CRZVK3iXIrP44H8nh9ZIaHHuQ==
------END AGE ENCRYPTED FILE-----
+---
+title: collineation
+---
+
+## lines are mapped to lines
+
+## preserves incidence relations such as
+### intersection point of a line with a plane
+### order of contact
