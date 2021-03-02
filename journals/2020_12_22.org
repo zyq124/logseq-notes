@@ -1,10 +1,13 @@
-#+TITLE: Dec 22nd, 2020
-
-** TODO #idea object tracking with [[graph network]]
-:PROPERTIES:
-:todo: 1608617191244
-:END:
-*** Combine graph neural network and [[tracking]]
-**** [[Graph Convolutional Tracking]] #[[single object tracking]
-**** [[Learning a Neural Solver for Multiple Object Tracking]]
-****
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBORUV1c05wZXR6bXNFM01D
+S2F3QVo2b0hIVVd5am90cHNvNnVnUlQxL3hBClNoNGpkdnZXUVNMV1VBV045NDlE
+Vks0bzJDVjQ3cC9lOGhoSFBWeTYraTgKLS0tIEhYdExsRmNhSzNKL2FEekNvVjhv
+ajdLSlVYN2VadHpyK2lVT3pxU0JYREEKuAc1O3pCbcen655IEjk11bcaUvIhwKFv
+0yVqaKtyNK4T6tSfRg87Oyri5aQ9Kr1bBR0HY8KDv0bwqIpMhKpZzoRsW105z5qh
+pnCaOEUoQOYK/kJx80BP0GiI+T1LMnjLV4njBWR8V9/GQb7VN/zOB/KQcLHYkoGY
+FMxcSRi+kPeqapKSs+eRKcVEfQzIZJbalWw/WgDcSPxnQQgR1JRTRDG2R/QN5F4M
+Jv0zvrM6cQmOt0DlbA09NTKjM8d00EqdVPp7ui1CKdBsVdMa0A4vjJg9BpVHydj+
+CbQzRn6dekuCS7LXkSn+Vr1Xaou69FnjaS+NdKkYx6+Jcm8UX9BPjDH1D8XB3X2L
+aAFWe4LQIJkdRzqXbfQ2yJN298uSB1F9bqVkaMAa7RZIz4TYg+SJly0Htkb1/vZH
+y/WS+ZwXeWwnwU8XNeg9+Gpifhlt
+-----END AGE ENCRYPTED FILE-----
