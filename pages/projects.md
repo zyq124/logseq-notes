@@ -1,8 +1,7 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA3TnhyREkraFFaaWx2QklV
-NGEzbmNxNU1kdkFXb0IyK2dxSjAyd1gwTkVvCmV6SzYvM3NXZGMya044TnBYMm9l
-UXBwK0xFWnJMQU00RitaZVJTT0lUMTAKLS0tIEttbUZJamFQVllkdWRRSi9MVEpj
-Qy9xMU1GQ1pDKzJ4NDZGTTZqSHZOUjAKrOy1VsAUXgB+CsxsefceO1nKivmtKPfa
-vtrQWbG92MdHFyoIwhcjUixfhAtZ4QjjT4PK90dsApv6EcxQhRqhWak4wIqsa9fV
-Fw8/jokiMMoSfsBO0s1LmrxMXQWHQ4SBRu78tO3zdwpuvPE=
------END AGE ENCRYPTED FILE-----
+---
+title: Projects
+---
+
+## [[Working projects]]
+
+## [[Archived projects]]
