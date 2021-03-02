@@ -1,29 +1,47 @@
----
-title: deformable detr
-tags: [[object detection]], paper, [[transformer]], [[Deformable Convolution Network]], [[attention]]
----
-## Deformable DETR: Deformable Transformers for End-to-End Object Detection #toread
-
-### Zotero Metadata
-
-#### * Item Type: [[Article]]
-#### Authors: [[Xizhou Zhu]], [[Weijie Su]], [[Lewei Lu]], [[Bin Li]], [[Xiaogang Wang]], [[Jifeng Dai]]
-#### * Date: [[2020-10-08]]
-#### [http://arxiv.org/abs/2010.04159](http://arxiv.org/abs/2010.04159)
-#### Cite key: zhuDeformableDETRDeformable2020
-#### Topics: [[Detection]]
-#### Tags: #Computer-Science---Computer-Vision-and-Pattern-Recognition, #transformer, #deformable #zotero #literature-notes #reference
-
-#### PDF Attachments
-	- [Zhu et al_2020_Deformable DETR.pdf](zotero://open-pdf/library/items/663HLCQ7)
-
-#### [[abstract]]:
-DETR has been recently proposed to eliminate the need for many hand-designed components in object detection while demonstrating good performance. However, it suffers from slow convergence and limited feature spatial resolution, due to the limitation of Transformer attention modules in processing image feature maps. To mitigate these issues, we proposed Deformable DETR, whose attention modules only attend to a small set of key sampling points around a reference. Deformable DETR can achieve better performance than DETR (especially on small objects) with 10$\times$ less training epochs. Extensive experiments on the COCO benchmark demonstrate the effectiveness of our approach. Code shall be released.
-
-#### zotero items: [Local library](zotero://select/items/1_J3K668QF)
-## Backbone, matcher 和positional encoding的实现与[[DETR]]一样
-### 主要修改在`deformable_detr.py`和`deformable_transformer.py`中
-### 有效之处在于multi-scale deformable attention
-## 相比于 [[DETR]]直接回归bounding box的绝对坐标,不依赖任何prior information
-### 引入了reference,回归的是基于point坐标的offset
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSArdEdkRm56UU9DS1IrOTE2
+Z3g4VFdGR08rVHFZVFlqbkdaMjNPVnY4YUJjCmkybGkxUDlZR1lscWFtMFAxTXds
+eVBqY2xzNXlzOXV1WFVOd2N5SExLK3cKLS0tIDAwNmJzc3VsYWd6SjBud3BENmUy
+V1c1cEx0L1hXK2l4dUZJZ1laTCtPREUKPIu8lYdReR2ozzOpOo9YH3VUjdP5sN7P
+AqdoTH7GlI8knWMhLJ6D63xIBRKrFlSLucap8jQrLc87JM5uPF6xWBlCnHEzuc8e
+v4ToUZhhp1KMzXiS7nFCM0ZFAuEPq/1iASgSOVR+Han4IWPyq1VilOs/fic6/o6c
+nK4RNfK4Bs+bUvZ70Y4q/FMt5udI93h+qjeWIMQ9HUgdEHM0ZIRcD5ajR2emr/Y/
+EvK5QUxSBC2SXnRAJKTWGSaBIaX1Tw9AE0HwUuJ0Gx9DNMFEZssKLgPh0bCJ5jZq
+iIIKIny78NriaRlmJ3kIRH/0SPNW9i+qHmvIitE4vIMuPsgLFdCzzklE/OIEoViI
+R8TTpPBvgxu/8oS+rGQYu3QrSgLhd1oX96WsyN51FmXeCKpJEupWBY7n4N2z6Qdh
+gOKw8KIA+UzE8x5vbDexxRbD97X18uwFKaInj4lmrOVccQ+I8C8PG3nAL3pOCtVj
+rh1rrZ9oaY/SLd9FKbQT1i8i00LAFkX/f+taaMRS4Kb8uvee41hTPXgLI3uhiVeL
+9fTFnMKbzz31zsIJrw5Tm1vBjHqweMmYDubHv8L7uURtmN7hMT6E76DIXC9GUrFg
+vbxaEhXZkYjhr+fa3HcEskER6zTkyiLpnZx82ycMxVp6p21K/EuFgFFhuiPO16Z7
+nwzBzVM7FegPuBpCrshYXYWZH20OVnf+OC0Ayi1aIrRk/DRGXjJuW4nB6tZTjH0d
+LROqCCvynwwQTcUBxbzI1ThjorCSbTZZVQlaOqxcw9XHTMSmwSRLKuFxYcxgp32R
+rKNzxcstt4an2azLSrVARuHTdcgSQlJXENgv0K5GUOPhIq7mxXSkOTy4J6eIgzc/
+WwwbnLGYjwb9wgwldqhXhVysDhK/D/sG4/qKIfcG3r2GstAKF3zLkimPYno/4XjA
+91/WrOnaPHPt7K6t4VwFqceeb60zdQgeZ8CdidbZlO4DMUnbPQAAi6dQ9iRWJJWx
+kVbyQX6bPXBcSVW/nMwt6WVOhbJ+sRFg4pROLofvzyVvnQxjoOiewapBTC/lH5eH
+5yIMlQfvh/AZclmmLXOxxzaEsKLdrk55ld5LFDV7Ia5qU1wfdq4vuO5z7HZQd2ic
+Bw9ZJeH5f74ntj2lSNBsSc/tgE772FPhxBSAA5wmA3xiwY9adBK3fzJ8gL7FX+Sz
+mNyIe15uM7WqE/9Qj/0zfQBtNpLeyYqEZRO34pwF3ehs8760XMTRJN1Ul9LLzqsF
+f+bQj6FncZ8te2t5ZpxjMTGMHjsbD+lP4NqtXEnu4hAaiOE8KD6FSjaJgJ4VjW0B
+bFbdAu0DhnShY1ie/4p3FEdkalObmT/GW05vSDO6STelIdbMwvWBf37NlCjgN9Ug
+ePT/QuRUF+BmtLNlf2yChbVp7TsGgsAjr77P54Inv3iMiH1QnSsm/vvKFi5qm5Pq
+0F+0vxpswubAgEYEbjgeMgeT35CvDh9oNMDOvmM3HkAG41hN/jMNbF7WLkv9AWoP
+HEXOux9Plz/dp61MPWDVmVgyu0TgoLZSgJ8NCxSs6OEd0eswj9f5FucNCxPR6i6v
+u0wbXRG3J0kfwboWy2QFZvAC+Zzc6yIN2UfjCpAayq22225wTSxKX6KjNSJihrbN
+X8PMPAl5TV7g+DwreX9JWONMJZ9/D8NOedF2n8bFBuqKz910vLIEnlgD3bE8ZVHz
+54sBtY0M7XVf824N6ah2UEV+V4NZQeFmJnkk6IxqGE4Ni9JHMzKmeIpP4pmn3Ewp
+kxxco5AGwL+LhkWZTv5QLKZXaxky3eeQb/WFr7lot8tYZmedupFqccfIPmrY/u2J
+yDTvfKSLSZwP47Zw1fEcO0hFNgK9IH2mftfcnKjfYj/ASORnvERr+4eh8i3KCUPw
+4Q+MteKnjXhFtOvqcw1xRpHKQDlNi8+FVy2tS0uK8jjmhS5kFHWr1Gj7/fpiNmkF
+g7ruL62C0ZkV827ZN17M8G34FZBNUQxYbfsr5vwL8SGAVOgAd3Z/rRCScmwtDkRO
+Xpskgri5kd0LjQZ+uDOLfpvxjWbLSYBEg/76k9qdrvoH/D7PbaA0O1dI0IeewCUg
+nGBucBxx8ZiheMCmhY9280i+8x910B67OVX6DHegUYrMYYsO3XPpyOrCcg3tbywW
+ooMayORC99W2zH465Db/oWuYWP03YDryiXBxgy7eY05j1ULMaG7wXbZXSTrc9ktd
+nHfcpRpsBVa0YkDep0i1G7uJvGUz9E/8GHp/Kj5bHpuBfaYrPGvhaPftu2eH3cwn
+vxhmTdRNMbd4LlzOaF4ZYfEIkllrNrrNzIJSdI205vYm3jnmOX3Y7a5mefeBJS+p
+qUmMvXXpkXCMZqgmn+DqHh/AU1JvYa4K5hA7Yx/4Ny+Ueb1CeGodmoEJJ8bk/pTx
+dko+WYOqD6cWPsh55zu02NdIWvK06eUEzDuBj/OY6JM2c+tUL2wQL5rOOcSx/5rF
+WsZ0pNX5rIYuw8iNh1JEkAVvbNN1BX8nKUeHu0jPEoIfeZ1rCfGFBiIufrt+U1mI
+Qtl/MkpmF6y5eSVr/QlSH0iJUoi/85fQSwGD2BTYFGrgSss3/WzBFe1qv0aTjjDa
+wZ6fan12ZsBbNpqvPKgl6OlkKkqpLDhMi+4F
+-----END AGE ENCRYPTED FILE-----
