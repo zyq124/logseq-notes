@@ -1,96 +1,92 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBzNkpCQ3dXMEd2TXBhVnZD
-UHZTem8zM2lnbXZRdXRiNnZXeTJPZ0U2bEdJCkc5Rm01VVFDbnZFNjlOeGx1bnVX
-ckpQWGpGTk5seitoQU5lVk5UN2JiNjgKLS0tIEd0YkYxSm8vd2o0R3BGai9FL2tx
-TkFzdUh5Y3VJcndrK3pZS2laM0lYK00KugvkH9eC4HxpbEkQ516JQXgsi6QZj09b
-D3aNg6y3BIxeOPRbUJJqTHw3dYZaEO6QCyE3/mw2oZfozew3/gLfTnOYSMTS0xG6
-rU5EW7CYZrNrChmX6SQemBRpfCInqYSCpWtzIk0a61+ML0382NKOZt8pPITVPK85
-ijTwfAcQGfgsc1IxLE15zBQclI7WvshciHGyJ+vUEQz4ziqpMFQq3KaIBIcP7dyh
-zewcF5FA+12uuoRGmm5opReKCJjGQxZCUwO/8uqb0e8ovCZuxl1bCiFESlZN67XH
-CXiPZV272QcnjXnQb/GC/sbSUCTPLtzpFo+6jdZSe3JYoBwO7jMzpLZ6+NSL7gvJ
-iW2pwxVt9r3TuK1OMQ82o/HwLXVIpuaMD6Sd0wax2uYDkN1yxjMerUJUPjsGVzSp
-31BodOFKYyCGJiG925/T8EjZrIy1uE9bM2ByhFBWhvf9JQNlFqxhKdmq+1kegcKb
-uNqALXapUFr4PdsgcRkphV40gcOPwvl5CZNN8NwL3j4UXeFsUVV+K0HPsSYQwYaA
-aBYuyreQxKHB8apuVt9zHEF/W8ZYCIRsuI7wCeiWVZc6dB6Hbw0DUjiofNDoIdr7
-qGhelCaqdcafyDlAv8wnFvKTq74Johfm3VKz+rhDBLq2ZBuHa350usoE0JeIafJU
-PnX7Nw+jkZI8R9nOfKuufmRs1jSxOBqCdq+KC/HK6HrK9ID0+oLqhL8WiHqzAae0
-Hv1JonGHl4e+6kbItilAsDBhsBgg9y1Biv+QRsj6uUMVMR9rDboWLklM3v1/qES7
-/uWwhJeon5kgnOWBwubwXU6t8jDkxMscmuFW+nd5eVZCCCLH5KXkXxbqhCbsLXo1
-drwLTvZBxYKvUU1+3gXJqCKLpEfXwhROFJIhfZXaUEBF2IqsV7dol+ycb3iRhfqQ
-YoY2TWRONmMHf+HM3czj4qS6cmCv1vOfcHhvNdoy2o8AUFgbThVQ7/vcvDV0lvPD
-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
------END AGE ENCRYPTED FILE-----
+---
+title: MOTS
+public: true
+tags: paper [[MOT]] [[segmentation]]
+---
+
+### Abstract
+:PROPERTIES:
+:heading: true
+:END:
+#### Multi-object Tracking and Segmentation
+#### #code https://www.vision.rwth-aachen.de/page/mots
+#### Segmentation vs. Bounding boxes
+##### [[https://i.imgur.com/8h8HIgI.png][Segmentation vs. Bounding boxes]]
+#### When objects pass each other, large parts of an object’s bounding box may belong to another instance, while per-pixel segmentation masks locate objects precisely.
+#### Propose two datasets with instance segmentation labels
+##### [[KITTI]]
+##### [[MOTChallenge]] dataset
+#### Propose new measurement metrics
+##### soft Multi-Object Tracking and Segmentation Accuracy
+##### [[TrackR-CNN]]
+### Evaluation Measures
+:PROPERTIES:
+:heading: true
+:background_color: rgb(121, 62, 62)
+:END:
+#### TODO  read on!
+:PROPERTIES:
+:todo: 1608522599059
+:END:
+#### Ground truth of a video with $T$ time frames, height $h$, and width $w$ consists of a set of $N$ non-empty gt pixel masks $M=\{m_1,\cdots, m_N\}$ with $m_i\in{\{0,1\}^{h\times w}}$
+##### each belongs to a corresponding time frame $t_m \in{\{1,\cdots, T\}}$ and is assigned to a gt track id $\text{id}_m \in {\mathbb{N}}$.
+#### The output of a MOTS is a set of $K$ non-empty hpyothesis masks $H=\{h_1,\cdots, h_k\}$ with $h_i\in{\{0,1\}^{h\times w}}$
+##### each assigned to a hypothesized track id $\text{id}_h \in {\mathbb{N}}$ and a time frame $t_h \in {\{1,\cdots, T\}}$.
+#### Establishing Correspondences
+#### Mask-based Evaluation Measures
+##### MOTSP
+##### sMOTSA
+### Method
+:PROPERTIES:
+:heading: true
+:background_color: rgb(151, 134, 38)
+:END:
+#### Overview
+##### [[Mask R-CNN]] plus an association head and two 3D convolutional layers.
+##### [[https://i.imgur.com/b0RZUlH.png][TrackR-CNN Overview]]
+#### Integrating temporal context
+:PROPERTIES:
+:heading: true
+:END:
+##### 3D convolutions (3rd dim is ^^time^^)
+##### [[ResNet 101]] backbone
+##### Augment features with temporal context
+###### The output augmented features are then fed into [[region proposal network]]
+###### [[LSTM]] can also be an alternative
+#### Association Head
+:PROPERTIES:
+:heading: true
+:END:
+##### extend [[Mask R-CNN]] by an association head ([[fully connected layer]])
+###### Input: [[region proposal network]]
+###### output: predicts an **association vector** for each proposal
+##### Association training
+###### distance $d(v,w)$ between two association vectors $v$ and $w$ as the [[Euclidean distance]]
+####### ^^(7)^^   $d(v,w):=||v-w||$
+###### ^^Batch hard triplet loss^^ (for video sequences) [[Triplet loss]]
+####### Each detection $d\in{\mathcal{D}}$ consists of a mask $\text{mask}_d$ and an association vector $a_d$
+######## from time frame $t_d$
+######## from ground truth track id $\text{id}_d$ determined by the overlap with the ground truth objects.
+####### For a video of $T$ time steps, the association loss with margin $\alpha$:
+######## ^^(8)^^
+$$\frac{1}{|D|}\sum\limits_{d\in{\mathcal{D}}}\max\left(\max\limits_{  e\in{\mathcal{D}: \text{id}_e=\text{id}_d} }||a_e-a_d|| - \min\limits_{  e\in{\mathcal{D}: \text{id}_e\neq\text{id}_d} }||a_e-a_d|| + \alpha, 0\right)$$
+#### Mask Propagation
+:PROPERTIES:
+:heading: true
+:END:
+##### Mask-based [[IoU]] together with optical flow warping is a strong cue for associating pixel masks.
+##### For detection $d\in{\mathcal{D}}$ at time $t-1$ with mask $\text{mask}_d$ and a detection $e\in{\mathcal{D}}$ at time $t$ with mask $\text{mask}_e$
+###### define mask propagation score as
+######
+$$\text{maskprop}(mask_d,mask_e)=\text{IoU}(\mathcal{W}(mask_d),mask_e)$$
+###### where $\mathcal{W}(m)$ denotes warping mask $m$ forward by the optical flow between $t-1$ and $t$.
+#### Tracking
+:PROPERTIES:
+:heading: true
+:END:
+##### For each class and frame $t$, we link together detections at the current frame that have detector confidence larger than a threshold $\gamma$ with detections selected in the previous frames
+###### using the association vector distances (eqn (7))
+##### We only choose the most recent detection for tracks from up to a threshold of $\beta$ frames in the past.
+##### Matching with [[Hungarian]] algorithm
+###### only allow pairs of detections with a distance smaller than a thresold $\delta$
+##### Finally all unassigned high confidence detections start new tracks
