@@ -1,19 +1,13 @@
----
-title: interview of SLAM
-tags: project
----
-
-## Basic [[maths]]
-### [[Matrix]]
-### [[概率论]]
-## Geometry
-### [[Kinematic]]
-### [[epipolar geometry]]
-### [[Triangulation]]
-### [[PnP]]
-## Visual representations
-## [[Kalman Filter]]
-## Parameterization
-## [[Visual SLAM]]
-## [[Visual Inertial SLAM]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBHVWhGTXJnd1BPbVhubWYv
+NW9uUk90WW5MbGNYZHRENzR2QmlSbm45UjJ3CkxaaExTUkd3cEVlUUZSMkpOYTY1
+RDFoM01vWnZiRUFiS1VrVDk2RVJTWFkKLS0tIENMTUFRaEF3Q1hRK3drbS90eldO
+T3VXSGRQQW4wU2ZpR0RNRWVMWDNIcG8KeZaI84U4crHdS1MmIASr7vulTiTwoAJT
+FMJTvOAQd67nn2cl7N7B4wLqPZeXom5X6dBSKu0sf8chV0zY6pNeTaniwrdOzHlC
+6NJ1NUUs7eL5IPIgv+TSWwcpAhcPfiWidOlBOJj92d7sU33m/MDOSKpKMiLJpFNq
+jqc+ubcTUuMIDGKYomWmsTr3VUfKDRNRCpIi+xIbPsf4mJeJAE/N188L8nuKFH/D
+evI81ZmRzMRoQhXuX9wkCeIEvK0T2ftziDpGmsKCr9X5rNCafbu17gYtGbXALSy8
+6UTIGHwIzRJQnoOTrCFby+a3b00eAkkKV8xgbuqJC4zcvWra3HlyK3coip16tGev
+Ge0V5DAqQcpY2szWbJR5pGJJOkLZLm244saF0VI44sGilzdwvCN6HAWXrWo6dCyi
+Wrh1NWQCRi+4pm0bfWqHtdei0P9jYcKX42p6
+-----END AGE ENCRYPTED FILE-----
