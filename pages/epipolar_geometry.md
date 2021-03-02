@@ -1,29 +1,34 @@
----
-title: epipolar geometry
-alias: 对极几何
----
-
-## 用于匹配特征点,如果匹配成功,说明这两个特征点是同一个空间点在两个成像平面上的投影.
-##
-#+BEGIN_QUOTE
-The epipolar geometry between two views is essentially the geometry of the intersection of the image planes with the pencil of planes having the baseline as axis 
-(the baseline is the line joining the camera centres). 
-#+END_QUOTE
-## Point correspondence geometry
-:PROPERTIES:
-:heading: true
-:END:
-### ![image.png](/assets/pages_epipolar_geometry_1612509591157_0.png){:height 340, :width 775}
-#### (a) Two cameras indicated by centers $\mathbf{C}$ and $\mathbf{C}^{\prime}$ and image planes
-#### (b) An image point $\mathbf{x}$ back-projects to a ray in 3D space defined by $\mathbf{C}$ and $\mathbf{x}$.
-##### 两条epipolar line 极线
-##### The ray is imaged as a line $\mathbf{l}^{\prime}$ in second view
-##### The 3D space point $\mathbf{X}$ must lie on the ray
-## Epipolar geometry
-:PROPERTIES:
-:heading: true
-:END:
-### ![image.png](/assets/pages_epipolar_geometry_1612509853623_0.png)
-#### (a) **epipoles**极点 $\mathbf{e,e^{\prime}}$
-#### (b) As the position of 3D point $\mathbf{X}$ varies, the epipolar planes "rotate" about the baseline.
-##### The family of planes is an **epipolar pencil**, which intersect at the epipole.
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBBck1FYTBhTy9SYmNvK1Ur
+OUx5S2RRanl6aFA3cmY0Y3hpVjlHdWczU0dnCmpmcUdEMXRhaG9HOGNMbUhJYkxB
+bkVGVEhyYjZndEZ2MWdaL3dYNmRGSk0KLS0tIEtJVUZiZ0tla2xrU1ZoMll0cHNP
+WDc0QUowSUNyLzR0b08wVXpVajVla2cK7qeEaO5fY/RCacFgg9DGI11iu/iCrJLb
+VPdHdAkxJffZSqtj+8Lpn6L74XPHiyGoOYkpj/s4t/TlToVkelNWxtx2AGZKQ8Z1
+s8dsjjEyXxFBpdwXmpzsvaQKX+X8HA/Ygy4FBNYR0EqzKILqWLrlVmZg96QpMC3y
+11Jvi2jUQsE19ohLPoNmNxx2ozHPa3qhSkhEjOk3yscNEX/9XF0a2pDrQDxFIb50
+OCMbL+8f041b1wlT3PCMRH0sI1SD92ccp4dIoTBi0okyqNOUj7kvKftst628Arar
+cvcqm9bu74dgjZoWyI2F1ta0G75RWV5bNrW2irriEcwY1E/qLbfLPiY1IilkgtW/
+mwUmput1juZ3XSNMGp0l3asIgIh4T24DMuCy5d3Of3zQuox0eK7gsOGRCP/XxQKS
+GS/1ZkSVE3Je0aaLqoN3gtK4pLPNhuw0hu2AXRa9Jpbb8cWy5X/tweHnLST03MEQ
+6/kBH4XUMeuSJuAQTmiMhP7oAOlIHQ2FNa1W63ouoLz2L7WJ24ODwQYuK1UU7ADc
+aeQKJY9uYYAFOzka6HD+dLGhUvt8bYpRy+rE92AxYHu+7Bpbs615yW9psVYEnOKX
+h+DMeOIAk4PagJ3OXNIR7hjEIAo+6cswDJFmOHqugXaDAlmvsZUeY/L+3NvXkr6j
+h52HkDkxJQ2yRHrCkHdQGGzBIB0N2H2z2bvPXAqJtR7qwgtOp0K4ivUUc5+xcMa1
+ssrz51/w7wnolAvt7nok4Nbn+yCBouHFau4889wy8U7ld3WjmI2YIZIckAKyfss2
+9pNr4D0/mPYIuhlR0h9ACeOZhC1HZJiT+UTnqwoYIywVEHkD5nmSG+Cmmd+XixEU
+rIYEAuDc0JYWNI0toK5ofGC0dvBzdbWa/mJsJBkfbYxdtyjMHrJehnsSso82x405
+OFPRBcg1PKKcQQXrpZz+3Nc62DL0RlmkRx+aHpbtxDU0jtm3NOwzM48W71NOYK7U
+/no9stKkV7IbMV4ZeB4IZICSiX+4e0z+Gf7el2YU3VTG/Kz/UKMjKmvqIDej7B8c
+A8ccntWa0EDpHZmKMP39p/9/UQ/es72Ds1hMizxKF+xLlB52tPexb4mho4Zruzz3
+kEQC6Uwfyl7p7QehEiQvrI4aeFlZGgsF9TRg2BuWggk4nRZoDxtb8KuMzFwNynao
+WF1ewwGn1xyF/N1dQmEsUJHqpiRF1CJTrKL0TMtztNbdkmFUL+oaWWZOq9bBCkZw
+k8//7qIo86hJnqArd4ZDR37I+520+adSqUkBK63ZiLv3Pk2JDfb+hEYRvKVeUAQs
+8Qh+z2RgHwCpGN7+cAH6ZZ38Re3F6o6jOgkrNlxbp3L581t3ol8r5V7EZLtUI/0q
+mksPzbO6iOrsPxQyKSwozsLHs5/eC4QyBFMLGeev+hI/EJ/KJmrDzBS+3AJgIZct
+QWaCVHcxf5Fr1h2c/c9/Ih2qENGoNTRLGk4vUe8I8R1en3PhEE6R4X1R4p8cecaZ
+q4BiuvGe5Z6IiN2Cif7Epia89PM8mA2ZN9oEG3RVwEb5D51vv+SiXNnSLgfQj6uq
+UvWZiu/D7jK1jrXefqKOGXmMbeCxVTVY/66fsRp8oWPtybhDlXbCiwnErxN+0eh3
+V5a9ORSutYXHmE/wTO6SK/jwdTI3sRZN5lYTeZw2QaE/dCJhBMdsAyuqsMHMjc+2
+jDApbzO93napH9IfHo+h/nmIaq2E2KsETLERN8InQRBt9HePgQEmdlX+nQQ6bi8G
+MKUQLhYIwcPb4O1O6Cu7yyps+ZOXpgnuUhdfZc5wn95Cf4kwGuj5iVQ4XLs=
+-----END AGE ENCRYPTED FILE-----
