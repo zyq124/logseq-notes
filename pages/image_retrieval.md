@@ -1,8 +1,8 @@
----
-title: Image retrieval
-public: true
----
-
-## [[NetVLAD]] 
-## [[UR2KiD]]
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBMdE12S2pKQWNlcmo5NWZP
+ZUhwVjNrQUJwTkxhQ2NEVzlkekZDZGtoUlZBCjhaUDRyRHMzSFNDMFRxRWhrOVVs
+cTV2N2NJazdKWWcyVkRDWk9NUnpid0UKLS0tIEhTdlFKeTB6bmE0WlMvRERvMytt
+U1dTTlg5VVkycTdhNmRUS1lzUysyMlUKt7Z+TqUrKxEDdq9tPNmKrfdNqhic/4yu
+C43n04QmTkhGUN4HJh9LFP7B9WA3XKbQE1pYCWmwPGYbOZX2lVMTbecTa3bsb5XZ
+Nmz9Zhn/4VflgIcf8QneAm7IckVBnbLxkFL9yDRKrBbu5ax7Jw==
+-----END AGE ENCRYPTED FILE-----
