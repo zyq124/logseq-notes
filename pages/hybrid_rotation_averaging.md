@@ -1,37 +1,52 @@
----
-title: Hybrid Rotation Averaging
----
-
-## Meta Data
-:PROPERTIES:
-:heading: true
-:END:
-### Hybrid Rotation Averaging: A Globally Guaranteed Fast and Robust Rotation Averaging Approach #toread
-
-### Zotero Metadata
-
-#### * Item Type: [[Article]]
-#### * Authors: [[Yu Chen]], [[Ji Zhao]], [[Laurent Kneip]]
-#### * Date: [[2021-01-22]]
-#### [http://arxiv.org/abs/2101.09116](http://arxiv.org/abs/2101.09116)
-#### * Cite key: chenHybridRotationAveraging2021
-#### * Topics: [[Back End]]
-#### * Tags: #Computer-Science---Computer-Vision-and-Pattern-Recognition #zotero #literature-notes #reference
-
-#### PDF Attachments
-##### [Chen et al_2021_Hybrid Rotation Averaging.pdf](zotero://open-pdf/library/items/MK7LBFZ4)
-#### [[abstract]]:
-:PROPERTIES:
-:heading: true
-:END:
-##### We address rotation averaging and its application to real-world 3D reconstruction.
-##### Optimization 的问题
-###### Local optimisation based approaches are the defacto choice, though they only guarantee a **local optimum**.
-###### Global optimizers ensure global optimality in low noise conditions, but they are inefficient and may easily deviate under the influence of **outliers or elevated noise levels**.
-##### We push the envelope of global rotation averaging by formulating it as a [[semi-definite]] program that can be solved efficiently by applying the [[Burer-Monteiro]] method.
-##### Both memory and time requirements are thereby largely reduced through a **low-rank factorisation**.
-##### Combined with a fast view **graph filtering** as preprocessing, and a local optimiser as post-processing, the proposed hybrid approach is robust to outliers.
-##### Compared against state-of-the-art globally optimal methods, our approach is 1 ~ 2 orders of magnitude faster while maintaining the same or better accuracy. We apply the proposed hybrid rotation averaging approach to incremental [[SFM]] by adding the resulting global rotations as [[regularizer]]s to bundle adjustment. Overall, we demonstrate high practicality of the proposed method as bad camera poses are effectively corrected and drift is reduced.
-#### zotero items: [Local library](zotero://select/items/1_QIZK7ZZL)
-## Motivation
-### Local
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBHMWltTmhhVWkyM3FLUHBs
+elBWMmRQYTRvT2FiTWJMVkNad3d4ZnpENlZvCmExZk1uTWJzeHZUUEFzT3NOeURw
+NTUwTS9ETnFmd2gxZllIZFZLWkpQSXMKLS0tIHh5aktJZFBnUDhnQ3NmZHlkTVJF
+aUNHZ0VMRElzWkVzSStWQ2p2bmRMT0EKIZ0FjsNWGm4+Ci2b9ZC6WdiM6VAQ+lIS
+Gj1DuCgw6staYl2WXqnqLT68dfD6Jt1Jhknam4gxuLiTR4OivcB7VHj8UGsCgZce
+P1yMH71pzowTmgkdx71/sWIToe8B6P1ksZRlDWycnDCyXMxVdNfViD7/QihYsxD1
+1Xt7y1vmIA0nBM+C+HJb1fxlgmZ0zToC/O3FgjrOYsLQ5ZGJG60tFGDaVfgHpcTa
+wfNNanbnTPBf10YGBIecKg5EeEPJe5ZGjh9A+OdM8GShB5aJ1I94dEaIMAuaILvD
+frKI5hT2YlBtEoHdb0G2sxGG3pJ6NIq+QiTAZFHzEJfr7zX478YT9nmkQNBmBKS0
+cNTtkLBqJuj+cKnU+KMD9kIf0KKoNFcDjnwnKdVnU+HzKbRaxDKagChwN3KyYY7g
+ZMsLPjUvOK1w/FrnzhMEihoCdM1Kn9XfRLb6IbRHxj5e5aeIR8+0Vuq3bCeJYZ96
+KsL7xT6ISpoDEN82uyTCcYGcAoXpM0rNxWYm9zqm6mPpES0cWBlCvaYuHroF+Nw+
+AgSLubbaB24pAhDUoisUrA8Pe0WzPzs6yeTWwJWjbZtkBwg94pcx6upLHVGX5VA2
+rbyw0oUB0X8PpIVUiiKDlTx2XaYyU7DZByZPTRkjtFh5riGCIaANaKdvw/FybM/k
+HxT1e8M5S44LsB4XvYhjSZJv6Id0C/5ZZWAoX5wnyCho/0woGG68vF0vIFkaPGeS
+WCmjRFl4iSGWMG4LYI8zudF1/vLFy2qBp1YxZtsHOzc1b1+9mDONnfzMWknwpClb
+nZZIV2M946n0ziJL6cIlrZMl0hgrL/85yAqltVvkMe3DfhiQ2+SdgNkvBZJltyKP
+6XpvgjpbyDtoEYhPuu1Nav+WMsP6dOmemJ/MR7KXJJ9fPKlHPZOw/imtxOp+DeAY
+m060StjGjU7qOLFGZizdXkq7zVIvslpwjmacXf/wd29GAar2xXIb2IfZKk4uC3TE
+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
+-----END AGE ENCRYPTED FILE-----
