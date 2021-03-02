@@ -1,28 +1,24 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBLZ0JRQ0N0L21Ebk9SU3Ix
-dGlCRFFXZjVSL2NiRHQwRWZFY2tWSXRKbmtZCm9XSm0vdHRXN1BNeFVXNG9NNDFN
-SE5PajZrQWEzVnFLeks4ZEgxZDJabkkKLS0tIE9xR2h2UlNhakVjZ2VzSHlESkY5
-WXBzZ3BqQW1DZjQ2UERhTk5XWFJESGsK8ohGQ1q6mWqw9liPPDx7ck9gdgyGKtGh
-KZmhCFPNGGbgtEFhRVrpk/jSbrFmYFjcj9BK0KhqoFwZcCuT+QZ0VwcCp/IuAz0K
-gEQen0SfieAGU5eP+MlGAG8C1BXCRTaPZaGO5pgktW/R+Sls39/mhBNl7s6R8Dl+
-IkvfbdhZSpKCsSbjj6QZFTW+2m3kQbM3wxpMTVYI0YUx+Cgo+hLide+I+g2lbpJi
-iyGO2Ks6J5ZEhUr42FZWWEcWOaNbWBHe33t+dpiSO8+RTqEDLqSFsKzoiQgwoeIN
-VFAD6pBO/aaSLW1AmNGlty+RUQTBCAdKWClCND0C70WylpVZAWRdKJoIg83alILN
-WaTI5f5uFnh+MWx4wmqQsxB/CopL7ROUaGbdhGosmPR+xQPtXNhJgFKUiHENjK7F
-uEm4LC4WrlAZjUX33vvAreDTQg+2ItF9NIOxGCEXB5MZbLTvJFX5hyFRCZjzPRsB
-UD99qNPBMDWdPfmMedN3XSwSSvHC8nlo5i17xijx0G8ZIBqJb3PdroQePi7RJrS6
-zJ79EXqQBM1jPCOMQuV328VidjPOfQAXq+gQ1I9LZW2hdDX2zqPgDv5DnioJTvmg
-quBBgwMIvyvhUsoI2vkbGrakjs2pD0TMzs56H5dnAoimpW99OBfPHDiIaHmYZk6q
-PFIFHuFo+R1FwdrcXhT4/JBPTfFgvLm5y/onPiG1rzz5kNpozIkNeQqLfUI6CD60
-UBZFV1kXoWtX2SWGO6DG5feDniX1oT1nXK9wyx2jMh7m7G9YcAR/4Xj5/h5duBIu
-cMPxwfaC9R9jJCOdYj4toiaNDBSOuc/GqL07ACRS7DBCxi5guFC/yRK7y2O4jE1J
-CyM7wVB+lvzpPm5ySMOGkg+ozXrFT2E6jYdm9yRPfYy2cqoTCc2nEtPCZwED7cni
-YQ2uP0jye9Z/sAz06cyNqBLAuYoOr4ly41EIc1uO/Gd7GZ2u1WjkI9RvTQCR+mX2
-WIymDWfWRfl2z6k+5OMhg9TUlLVS9bmIvDQsPc2cPSi1ylGaQgPBW2X2ceRO4UCd
-BJK1T0BfQ8U6Z8qB+vzw4vYKgPMDXsQyL0wYoD6GoH9179p1nMQQdak8NwzIeowH
-anq62szOqtcA9R8PKwVj8qg3TSTu846m2z1cAnZAuqf1ZYi96s2Mzka39EUnWom7
-joiFPHOX2IvnnQuxMmNNA/yyI8KxIg5uQXY/bEnizjoNUM5wcXr34INAUp5vxFuj
-cELhL/6IW5FUavrRnkcc3T2q8yD4vzVJ/OW7XFW9XQkCOqZ1Nannu5Wa2Dr1Glay
-zbnMAvPK1RMXyo4HGk84Q2MHnICBSzY8L2AQNJZ14x+o5mmuNfr/PJ9EB7B5Ptts
-4BpkJ2CzRb3ZClleBwYVjZTYPRCOI5s=
------END AGE ENCRYPTED FILE-----
+---
+title: Ceres Solver
+---
+
+## #topic #Optimization
+## 两部分
+### Problem的构建，换句话说就是数据的管理，优化的参数，优化的const function
+### Problem 的求解，就是Hessian矩阵的构建
+#### [[Evaluator]]
+#### [[Covariance]] estimation
+##### ceres的协方差估计支持两种参数空间的协方差估计ambient space和 tangent space
+##### 前者就是对global parameter 的协方差估计，后者就是对local parameter 参数的估计
+##### 我们通过将problem传递给covariance, 然后调用`GetCovarianceBlockInTangentSpace`计算`local_parameter1_`,`local_parameter2`参数块 tangent space的协方差
+#####
+```C++
+Covariance covariance(options);
+covariance.Compute(covariance_blocks, &problem_);
+MatrixXd actual(local_parameter1_size, local_parameter2_size);
+covariance.GetCovarianceBlockInTangentSpace(local_parameter1_address,
+                                            local_parameter1_address,
+                                            actual.data());
+```
+####
+##
