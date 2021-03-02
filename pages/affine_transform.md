@@ -1,31 +1,26 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBVUUN5QlpBOGdkbWUvTG5z
-SWJSMDkweGR4NnNwNm5HSVovVy9uTlZFNm1zCmdUdHZCSmZxNk5KNXpab2xlR2JQ
-STh4T1kvZVhsWmVoOVBYeFJYVm9IQTQKLS0tIGVuR0VOSEZXa2xxSXFZVzdXWjUy
-N3cvOTViMHozcXY2N2R6anlMSW14Rk0KhP+rItMABbQp2LlRYY3vOYLGljSbwEPO
-za/+NcTRZ82OZsqPcKze2qfK2N5ydRDvg6PfpQQSaRF4wlpFtCs0UMoQ9kpVKoNS
-9jfdz52Mpq2UZC+e8uZ63hLamXR2HngCypkNFIMKlTEJZ7nAKlqkfKdoklV0deBx
-ixzHmEZJyHhfpwFngmp//PcLXo+N1f1jGsfqwFvbeqtKvWJeDJibXXs+6C+0VijD
-OTWK8/gNF1oiurPf83IPJZV9E/fgda5QHteu2dOe3c6l3JXjYh7pzoVieKNDD5j8
-Yj1OGBp94DFTLUN/obUE5lk0Ow3SvNIbULcVpB+T07RcPMPzegZLh1gxAQXr9+uJ
-2W8qCJfjqqYoS7OV00urC91LsBzRU16MRpHL11RwGxeG86sLu/7DNLKR1Khhf7Se
-gzlEtcJaCQRdJlgVcsmLWic5KLoA9O1kQRmr8Yb3d9CO3JVT35ZUEZU9ZrucV5F1
-IYKC+EDLO/aIq8QOvDOt9XODsfZEOQxofhhZH2ibY6ET7Y3VLMZOtPszV+sCgp1n
-3QOnacjOJm08sZtyxYOgssBV+DF41Sh9KTYlTYG6nTCRybgb3vuGgSFGIfrf9/RL
-gy4Npun/WRPOFS2TaG32FRIXzhZMvj/xS8QwFJObJhCwv+AD+D17X0JiV79Sw0ZU
-PwXZb/Nm4sPAqmC6rgHvPw2tzxTAtuyrq+NpPXpWm6CPe+I5bJPHgxeGSdt0wYr8
-8oT6viCFQUWhbob4vuSjyf/vVvegH/1Kcd/AKRMg67f6g4Rp3ybP8MTcUTNnE0Oa
-IDbluyApgdKpVIfLsk+ZDFKLncgbzccPWpNotew4AvGVLv45xXbsv68gWANnLYeq
-qA095olqWSw5hrHYJnSY1wByhpsK50gaEXIHUfI5+zt7N8kYnxvEDcI4Icj2WXGV
-R5VW7sNdcplTIq4KOn9YVYUfzkwipqHMpiXCiOnL02sWi1CYy6zhHokrWEsqvnNY
-RvbOseAZ36alsObrxULxDv847A1ZiZbIiwtz23qw6/XWGnBXV+hYG+yJ7TQKl78N
-c8boTrHn4KhDfDood24HNZ0K0gquABG7SCz/IjxRC+lk5lej4/b7ehFxl/4ADURD
-z80ZUn36WSX9xHIUfyXZmKXICh+VcoALhW2vxyJsCAhQxn0O+41ZcSqEymW3XUPB
-UUJ6rnVxDpsWeFOfGPTmJkO4WvssgNc/uYmQJLNUDHUGIozfBBNhomCbQu3tfMzl
-a2+S2U2cDhM006qdKJABGCuP1U8XhpiZefiKj3YWxcXqXZ0a+B23ksbDta+mlQIY
-gMB3F7iOcQITAGEMgZ3cjTIh8OF7uF4NnydkpBBL/mlww32+H7OTTgPonG0W2Uc6
-ar1QuLuZCLghilZU4pNdGdPr8yGNp0kwES9eh1oL6tClVPeDAQCXGqSYwZgBmAgu
-pLJSOdeaMo1WGcTRAQZ1evMk+DmFB68Yq4ktn74Wb0grk6KbwtZeqJRzVm/zpo50
-45SzQQBEN+P26nu5tkkIX/axPoxFFzdfoQdP4qS9CIayqzYvhZtORegyGGHTAnUc
-PSeTh6AewXRgOt4YS2xZ1lFQCBnMWuMsESCPZPHHc80kY1nIs1LXD7crjx62
------END AGE ENCRYPTED FILE-----
+---
+title: affine transform
+alias: 仿射变换
+---
+
+## “线性变换”+“平移”
+### map a circle to an ellipse
+### cannot map an ellipse to a hyperbola or parabola
+###
+## 线性变换 linear transform
+### 从几何上三个性质
+#### 变换前是直线的，变换后依然是直线
+#### 直线比例保持不变
+##### the ratio of lengths on parallel line segments is an [[invariant]]
+##### the ratio of two lengths that are not parallel is not
+#### 变换前是原点的，变换后依然是原点
+### 一个vector $\mathbf{A}=[x,y]^{\top}$
+#### 旋转矩阵$\mathbf{T}_{rotate}=\begin{bmatrix} \cos{\theta} & -\sin{\theta} \\ \sin{\theta} & \cos{\theta} \end{bmatrix}$
+#### $\mathbf{A}^{\prime} = \mathbf{T}_{rotate} \cdot \mathbf{A}$
+#### 线性变换通过**矩阵乘法**实现
+## 平移后原点改变,线性变换->仿射变换 (增加一个维度)
+###
+$$\mathbf{y}=\mathbf{Ax+b}$$
+###
+$$\begin{bmatrix} \mathbf{y} \\ \mathbf{1} \end{bmatrix}=\begin{bmatrix} \mathbf{A} & \mathbf{b} \\ \mathbf{0} & 1 \end{bmatrix} \begin{bmatrix} \mathbf{x} \\ 1 \end{bmatrix}$$
+### 增加一个维度后,可以在^^高维度^^通过[[linear transform]]实现^^低维度^^的仿射变换
