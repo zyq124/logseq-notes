@@ -1,19 +1,20 @@
----
-title: RNN
----
-
-## SimpleRNN
-### 计算SimpleRNN的decoder状态向量
-:PROPERTIES:
-:id: 602fb278-dac8-4e2f-b66c-5e92a7ce3cc1
-:END:
-####
-$$\mathbf{s}_1=\rm{tanh} \left(\mathbf{A}^{\prime} \cdot \begin{bmatrix} \mathbf{x}^{\prime}_1 \\ \mathbf{s}_0\end{bmatrix} + \mathbf{b}\right)$$
-#### 把新的输入$\mathbf{x}_1$与旧的状态向量$\mathbf{s}_0$做concatenation
-## SimpleRNN的decoder状态向量计算
-:PROPERTIES:
-:id: 602fac8d-85a0-4297-a5e7-48680d5f11e6
-:END:
-###
-$$\mathbf{s}_1=\rm{tanh} \left(\mathbf{A}^{\prime} \cdot \begin{bmatrix} \mathbf{x}^{\prime}_1 \\ \mathbf{s}_0 \end{bmatrix} + \mathbf{b}\right)$$
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBiRW8wT3JBN1hBTkI0czhU
+QmZ6YUdPajZ1TGpkNFlmOHZnYk9EeVptWnpjCnNMUGhaZUFyZ0RmT0JkakJoSitp
+NCtpUDhZUUkxa1BlNU9nbWtSRzZZTm8KLS0tIEZ6YVNpWGJ6RXU0R2s0NW1LMU1u
+YUpWMmhzTUV5T1hVWjMzSENzaVNKM1EK85JsZOQ5m6Dc3pRzuRSxGsbaRy6x0CSd
+W0yH+eIk4w9YnPXKOEqRUD/KhV02TSBcEoBbCkl9w6AwxSpTFj2ZRrL/bym55vT/
+NRcrgtEuKR/DuC2HDtRwcBx3KrX72fWoi1gb4F5pLJJKLWTKmj2Eo4WIeKrY0+5C
+PsoHASuqz4jKCFmMwMutsTRWyvyFpdqLxqqGuLH1E84ng+yAOvDHM7XzZ7eHk4F8
+0rpvATUF1sF6Ln6ys9VxtZDeyXvtUF5yd0dzGjamqCcN5S38bGvHyMB0yIjYnD+X
+HtJhbvPFtooQc+UVAgDEf6O3GXdChX4At+WKouBoi9q8kR4eo/x2QyqSiBpnZodc
+tPNGS30abfmeq/kclHd5wDnljdrVfuiCVbUtNDrMuNUhiACBSApBy2Tj1CmFOOEY
+okuJ5vMAaA7ugh9m7Bpsbj9Oe2HDgPNflUuAR3FLJytGG4lPLWkath6sPk0XTm1X
++vpWmIlNc3nhJWTvr6E5n1t4FvvnfrRHu61CP+yO6FY4MLwjWr9kSu3BtvR0g9P8
+qgMKGpeKWlwD59TSc0z1ypm/pBHzNYMgRAUcGy1NAPbML0vz7YodhSQIMR7yOyIN
+Jt2L8QmWaN5PCx6OfrvwYc6EIrCjG3xddVcDPoGSROddntqpDaU/I0CUSnvQ/sLQ
+fduRJuj8ydLnLlRi826m8QfyiEoDM0kiMts7x31CYNhq+4VnhY65LYf5AQvNnpYc
+h1XlIgM3JVJ36Mh3/6diEe+XdC6g/Nzf75x2hdevji/mzslA4nCFkEaHcBAkIIv+
+ZNfO/ZKjXM3EO2Ne5FVe0+iH/v8Uz8xxZaNIl6LTOYLsUNfM9+W/XuVxFsQbd6R9
+wW2Wq88dUvOxfC5ZvVo=
+-----END AGE ENCRYPTED FILE-----
