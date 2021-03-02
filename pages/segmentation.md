@@ -1,14 +1,18 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA0R2lxVjltSTZpVVdCblFC
-T3lWU0hlMnUwRGR0dUJPSmR0QklpNWdKdDJrCmNyU3NxYzVwVnRicTBjQVBpeVFs
-bFNTQ252TEtPOTJzZEE4YytwdklIc0UKLS0tIDVtbjVRbzAyVWpVMzM0aVJ4TGVX
-blEzRzkySjlXMi84U0dmekFLbUNsM2sKGfH8jmKkY7sBnWpoUATplFhvDitaHwPC
-+BMzZex5Dh96QZ4212irGxq6bD4Mo5QIMUOHzXFQVLm6vWF4xV9RMiPvZh+DwSIL
-7PyEnWcTh+esXwwjbHQTaWlhbQoIaeBU3iRWLx1NEctEFd/ezFs0yw99ovWN+Z/P
-iNfuhwTUp13aniyP5DhAbVqOIe59htSJn1/dOjIhODQac4gTrrfpojNmoHbt9Vpi
-kbEdlBq/Y0YT03J+qIHCtxExP2QdBSAvMujjblJ5ijpwyWrKsf+ns+EtcUrLlE0o
-V2/ezO65sHTEvJiPVc8VCFd+ClzDtF9alVnkjrKjxl3pn2HGT5u3C/9akxygeXCX
-toW4j/Wh2p8V0C7bCumAYqSU3t16NwF1rEunZchl58fW4wpgXfpZJs56T/Q5zcWD
-ivZKj49urvKRVFZUL6yV3Zfn+4clIOjY9k6sZxAHlc0EzPhD1TVpRBK+luchG27t
-GqESTbcHz4hnCsHFAwFUsxJYF8MnSlvliN1gqbdsMm3uFw==
------END AGE ENCRYPTED FILE-----
+---
+title: Segmentation
+public: true
+---
+
+## [[semantic segmentation]]
+### [[UPerNet]]
+### [[Learnable Tree Filter]]
+## [[instance segmentation]]
+### [[Copy-Paste]]
+### [[SDOD segmenting and 3D object by Depth]]
+##
+## [[panoptic segmentation]]
+##
+## [[motion segmentation]]
+### [[Learning to Segment Rigid Motions from Two Frames]]
+#### [[optical expansion]]
+##
