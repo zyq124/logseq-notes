@@ -1,5 +1,11 @@
-#+TITLE: GMPHD
-#+TAGS: mot segmentation
-
-** Online Multi-Object Tracking and Segmentation with *GMPHD* Filter and Simple Affinity Fusion
-** GMPHD: Gaussian mixture probability hypothesis density
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBFTG0wRFhxWTgvVzZtbGNt
+Y2FrYWY2WW1OL1Q1djJtdDVGb2s5WXk3NlRNCjVSb3pzcXgvajZBNDdPV0lIaytU
+Nk5INFM1MlFCWFJLcDhLQ3owb3JIZG8KLS0tIG9NRE9OQVkzU1RzTmROL3ZMQk5Q
+WGErNloyMVNUVGNqWVk1YmZmTGR2akUKxsmO4IUp0JlxCwb1VGWs0bijGgJ25WJU
+xpdok0xNtdbrM7qSikBAR2iG33jSW33io+ugyCQD2PP8NScP+qOc+GueQTmZGkfy
+4jkWC5UpDsyMIZaBNCHP1IH7tvMNsbn1TeZtMi5HsgZFSRAC3/Nns4Cld5EFUPma
+5Si2lESOhGjg83GJnjE9kAR4CNnGQaeAO1DWxeAm423O5xJ5te3tR09l0e0EQN6p
+Fig+KFS0o/u8C2M5y/rw65s7DgcHdSGOnzU8eExBq/grVGCcL4ZI+yw5EyA1NVaw
+Ujd6xdP1W81Tqg==
+-----END AGE ENCRYPTED FILE-----
