@@ -1,26 +1,31 @@
----
-title: affine transform
-alias: 仿射变换
----
-
-## “线性变换”+“平移”
-### map a circle to an ellipse
-### cannot map an ellipse to a hyperbola or parabola
-###
-## 线性变换 linear transform
-### 从几何上三个性质
-#### 变换前是直线的，变换后依然是直线
-#### 直线比例保持不变
-##### the ratio of lengths on parallel line segments is an [[invariant]]
-##### the ratio of two lengths that are not parallel is not
-#### 变换前是原点的，变换后依然是原点
-### 一个vector $\mathbf{A}=[x,y]^{\top}$
-#### 旋转矩阵$\mathbf{T}_{rotate}=\begin{bmatrix} \cos{\theta} & -\sin{\theta} \\ \sin{\theta} & \cos{\theta} \end{bmatrix}$
-#### $\mathbf{A}^{\prime} = \mathbf{T}_{rotate} \cdot \mathbf{A}$
-#### 线性变换通过**矩阵乘法**实现
-## 平移后原点改变,线性变换->仿射变换 (增加一个维度)
-###
-$$\mathbf{y}=\mathbf{Ax+b}$$
-###
-$$\begin{bmatrix} \mathbf{y} \\ \mathbf{1} \end{bmatrix}=\begin{bmatrix} \mathbf{A} & \mathbf{b} \\ \mathbf{0} & 1 \end{bmatrix} \begin{bmatrix} \mathbf{x} \\ 1 \end{bmatrix}$$
-### 增加一个维度后,可以在^^高维度^^通过[[linear transform]]实现^^低维度^^的仿射变换
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA4MVZ1WUdSVzh1WlpFTW1J
+SFRBd1VhTFozdUtoRk03MS96ZmNPN0c1K1dNClVvODV2bXR4L1JhZkJoMVpndWtT
+R0pkKzdtaGJ0b2JNalVmT0l2RXYxVUUKLS0tIExiK2hUMDVpVmk3YThkcmpLeUFa
+Z3BXVEQ0SjRQTDhrUHZ1N3MyYTdQS0kKsWFewUodQAumoMSCUkn+xlzQF7uXajWu
+l3wGAxYeszVQqMgp33nAsLqeMqzGEKCe1vhVIuzyAPLGb41wUwOODDrn9ZBKXJ5u
++8ilXvQg7RudhBOytlHZE2UP4GE5N7zyhlAAMNz3ifXEhec/BGhCxjxAwz28/LVv
+LdAQiFxKpBaCtY9+mjJHYkPAS7SpO6lWiPt8n0Nqx2d45DqV4dgw36c+ywlNXDze
+HVYOPhWMFpK/sUoh8jIH+Z8xAx3vTtq52cjLa0hsGFMUBJwsFDtR1noOA8ixGN5M
+wzb0AW/9YKx/tQHVLzISK++BJ2FJ8xEHwg6ZuJF6REqk6qtKzP8PzqWQgoLlYMMs
+r+hN+HFOrL5Wrj+FTRa4qexj11LZYcOZ6U3QBKhC5VrLRPtL9gsHqrKCmL0m3sgY
+4U4TXh+mfIigrbytres3XybBE5h1Yn3mImwYFhu1TvK2HrdlbfPf1PeHkcdouLL1
+C/w85U7+a+Yn2t7v1mKtGuYKcnObaAwAAFj0/jWgGHgTYYvEDCRxWFkGCj8S3GjH
+l+SO1M/mM2bP0rW8gq9pkVcdTHXTwh0SV3Immdv+o0verHjSNnZ/FyV/AcHzw/gs
+otcr0gbqrIJQs1t54sTc88jDyZqRw+LtrguUH3ocRulz5VdocjUL97eL24TkgVRB
+hJP+tGz+ITSpYFlrOVYnuB1F74V1WxcB8ExTRWQhfj4b045RbOoomjMiIve2OOZC
+UnmVwa1xHGxxr2+KGaZ5VMUgjyRh+OuXTN+YjEmyDJUkS9r9BWzymM9G6UQi+EsJ
+Tpi0medK+tyaDsoi/mxtASvh2kBzxGAiPNqxyIp5MRL/CrrQ2ggtqHneQIEX4otb
+USxMpbzDp16+/o30joVr2yD5w+olYnSr7ZEMy7CGtNH/zGF1Nocs2r0SbJqsrB4x
+L/uQhLTnb9/gQ/XtdVRWPSDNc7kErDMu40TvLHZQj7dcZ4Yhj506XAguLs/qmN9X
+OXxBliLrjO0uK4DciFGv+YIxiBu1cC7s0SoxryjGftAh0lspfa7+Ixl1YOM3hv4c
+bH76RlUf0WNciW4XYvp/GKCV4FC5y1pE3Dv+ta9PYZNBILDRTDmr2BxecGGW3ysW
+4JaEyFf/SAAKodV65qh0f/Z9OV4sLRj3s4NBG7X4clt5oqBipyYyU6p6mwm3v/Mn
+WJ2gGOatDgCisfhEQvryHpx1ctJwTBKN3JoC+sxVMN9bmYELL+Pg1dtGg6FIOt5w
+7clrr4RlcoLMd/PzEkxSNSc951be2dPu7S7co/lBZYR4NtHmZexSzoFqvRZES51R
+a9TW9UALjqtQmOv4jZ4HVqA8DiC39opqbZUaFWvnR1K6TL916t9UT+7mBHyAiJmN
+ijc//08guR+Jt4iY+94qS15KljjQ9LFKNSLnJqEqvQdueYSMA57BPhrAOoDCaFKY
+LwtsVoa37Y5ql0Fd86CSvB1HZjuUPOPmH5/L1Ow6tBeInxDaVj2BQG6gChrWg/sO
+ivMiZG/GoMbpbY9prd434BVs8xfGr/TxOYxghILVlhEz/8Xxe1OINmGFUWxd9X8b
+On4cxz0oSAYqjDzKroRXc53ZxMwQXzeI3b34ews3lRvnwqLhfFMezeK02yhx
+-----END AGE ENCRYPTED FILE-----
