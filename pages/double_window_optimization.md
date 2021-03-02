@@ -1,104 +1,79 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA5VmVFS3ZSNUU2S242NWtj
-TjQwc3l1L3BWa0FUb3VkMHR2eU5xZFBob21NCjlhaVAwL24vbDBnTWxUbjQ0akNr
-WHJRdDBHR2k0M2MwamxGVnlYSkJNL2MKLS0tIGM0NFNNdzRYK0d4cjIwSjZnQ2Vy
-bGZwZjYvbTFzSEZyUUxIN3VjNEgvNjAK6zwn9XYVvq3w+Qn74XqHfJILg3JUBEJH
-Y/H6MP6y4YujnNW9RJBJH2pmThgyhvXD4vj33sBxKUwAIqQ3ZIgTpB9AQPYD6e+w
-Unw4GQY3pFM4mpcvH40xlSBzSJOb1YQsFoCRvYGosb7f2fajmZ87n8WEQnNsqtqT
-nzTVcmToR5Rq0dXDvFyGS1DCg2qIPEx3unECVrQ/N4aRa2PVyxuYkDQ5yJIQBR+F
-dZtawQd0jmMwuDt0y+/hwRs/YdowL60fYHESKgHv6rrwn79SZMXkRRlNafzU1BQj
-w1RV+c/Wt0nQo1o7Np7hwp4Qt8mVQfSHsStLO0mjzzpLC8UDV31uKkNlDhG4dW1t
-xTYV/Ic8CIlZbBnpaxS/pX+qziHcZm6k53jlbTrOpSQ97qahf8IB1f6lnXG8+cMc
-20ekafgyzx+6d63VCZ4gYS5XR95K9/pqgljVPb7DV64wbpu1CYqyW+tduK+JZGj9
-RUXJJe4cRa3ebq9eFEft3mRuH2v2QhSPVaP20EJPPHeMYVxx1+ff/2GiwXd/40U3
-axrnEikJq5KJ7YtAZdkE2gaznGJIgXdlb+hJgq1pzaIyewC4X2SBNZOpY2rfTatO
-4/PhFNx3TC0IrXnFsm2v4juAQMsEhAgXNeAIgjCgKKMEgxf9Zi5+9pAGpMm8DkHd
-chVVwrKJgA8LxZHuGhFuJ7y9ZsgSKZpL9ucnuO/Ep7K48jnv9S55bue9mYzkQIhM
-lX8L5DKD2tHfh94y2UJudm6m6ftBkoxMj2RJ4VQmz9OQjEDBuJiSz7dAiW3lmfpn
-VJdw+PjFJHlDxJoLz5NUfgvf1/L0mJBX7+uFM1SlZFhbSh5FXP8rwW9WxdO4s8Dc
-RuDUSyomKp+FVsK6PLpah++JRhZgX1y1dxNAZIwmQjPyS9I7GaVcZpQCgu+cEOgU
-3lbLODF3sO9oJ7yfFHlc3S8q0WQwYMemZrH8h8PqjQHs3sSDWOdaJ7JTj3o3tY4+
-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
-b0aMwk9ubmfiqanefoPr4g==
------END AGE ENCRYPTED FILE-----
+---
+title: double window optimization
+tags: paper, [[Visual SLAM]]
+---
+
+## Meta Data
+:PROPERTIES:
+:heading: true
+:END:
+### Double window optimisation for constant time visual SLAM #reading
+### Zotero Metadata
+
+#### * Item Type: [[Conference paper]]
+#### * Authors: [[Hauke Strasdat]], [[Andrew J. Davison]], [[J.M.M. Montiel]], [[Kurt Konolige]]
+#### * Proceedings Title: [[2011 International Conference on Computer Vision]]
+#### * Date: [[11/2011]]
+#### [https://ieeexplore.ieee.org/document/6126517/](https://ieeexplore.ieee.org/document/6126517/)
+#### * DOI: [10.1109/ICCV.2011.6126517](https://doi.org/10.1109/ICCV.2011.6126517) 
+#### * Cite key: strasdatDoubleWindowOptimisation2011a
+#### * Topics: [[feature-based]]
+####  #zotero #literature-notes #reference
+
+#### PDF Attachments
+	- [Strasdat et al. - 2011 - Double window optimisation for constant time visua.pdf](zotero://open-pdf/library/items/E68TIQEZ)
+
+#### [[abstract]]:
+##### We present a novel and general optimisation framework for visual SLAM, which scales for both local, highly accurate reconstruction and large-scale motion with long loop closures. We take a two-level approach that combines accurate pose-point constraints in the primary region of interest with a stabilising periphery of pose-pose soft constraints. Our algorithm automatically builds a suitable connected graph of keyposes and constraints, dynamically selects inner and outer window membership and optimises both simultaneously. We demonstrate in extensive simulation experiments that our method approaches the accuracy of offline bundle adjustment while maintaining constant-time operation, even in the hard case of very loopy monocular camera motion. Furthermore, we present a set of real experiments for various types of visual sensor and motion, including large scale SLAM with both monocular and stereo cameras, loopy local browsing with either monocular or RGB-D cameras, and dense RGB-D object model building.
+#### zotero items: [Local library](zotero://select/items/1_LATL9LPQ)
+## Related topics: [[relative bundle adjustment]]
+## Double window
+:PROPERTIES:
+:heading: true
+:END:
+### Inner window of point-pose constraints ( [[BA]] )
+#### model the local area **accurately**
+### Outer window of pose-pose constraints ( [[Pose graph]] optimization)
+#### **stabilize** the periphery, ^^soft constraint^^
+#### Pose-pose constraints are defined by [[covisibility graph]]
+##### Two poses are connected if sharing enough common features
+### Couple the two types of constraints within a single optimization framework
+## Graph Structure
+:PROPERTIES:
+:heading: true
+:END:
+### keyframe vertices $\mathcal{V}$, a set of 3D points $\mathcal{P}$, and a set of relative edges $\mathcal{E}$
+#### Each keyframe vertex $V_i$ saves
+##### absolute pose $T_i$
+##### which points $\mathbf{x}_k \in \mathcal{P}$ are visible from $T_i$
+##### all corresponding observations $\mathbf{z}_{ik}$
+#### Edge $E_{ij}$ has covisibility weight $w_{ij}$
+##### $w_{ij}$ the number of points are commonly visible in $V_i$ and $V_j$
+##### edge also marked marginalized or not
+###### If marginalized, stores the relative pose constraint $T_{ij}$
+###### Otherwise, the relative pose implicitly defined $T_{ij}=T_i \cdot T_j^{-1}$
+### ![image.png](/assets/pages_double_window_optimization_1611634268428_0.png)
+### At all times, there is exactly one **reference keyframe** $V_{\rm{ref}}$
+## Optimization and Marginalization
+### Perform a uniform-cost search over the neighbors of $V_{\rm{ref}}$
+#### select the highest covisibility weight $w_{ij}$
+#### In contrast to [[geodesic distance]]
+### The first $M_1$ keyframes considered as inner window $\mathcal{W}_1$ and following $M_2$ belong to outer window ($M_1 << $M_2$)
+### Cost function
+#### inner window里面所有的点
+#### inner window $\mathcal{W}_1$ 里所有的frames和outer window $\mathcal{W}_2$部分frames 组成point-pose constraints $\mathbf{z}_{ik}$
+#### outer window 所有的frames组成pose-pose constraints $T_{ji}$
+####
+$$
+\chi^{2}=\sum_{\mathbf{z}_{i k}}\left(\mathbf{z}_{i k}-\hat{\mathbf{z}}\left(\mathrm{T}_{i}, \mathbf{x}_{k}\right)\right)^{2}+\sum_{\mathrm{T}_{j, i}} v_{j i}^{\top} \Lambda_{\mathrm{T}_{j i}} v_{j i}
+$$
+##### $v_{ji}:=\log_{SE(3)}(T_{ji}\cdot T_i \cdot T_j^{-1})$ is the relative pose error in the tangent space of SE(3)
+##### $\Lambda_{T_{ji}}$ is the **precision matrix** of the binary constraint $T_{ji}$
+######
+$$
+\Lambda_{\mathrm{T}_{j i}}=w_{i j}\left[\begin{array}{cc}
+\lambda_{\text {trans }}^{2} \mathrm{I}_{3 \times 3} & \mathrm{O}_{3 \times 3} \\
+\mathrm{O}_{3 \times 3} & \lambda_{\text {rot }}^{2} \mathrm{I}_{3 \times 3}
+\end{array}\right]
+$$
+###
