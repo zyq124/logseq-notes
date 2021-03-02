@@ -1,15 +1,17 @@
----
-title: Orthogonal Matrix
-alias: 正交矩阵
----
-
-## 其转置等于其逆的矩阵
-
-### $\mathbf{A}^{\top}=\mathbf{A}^{-1}$
-## 正交矩阵相乘仍然是正交矩阵
-### $\mathbf{AA}^{\prime}=\mathbf{I}$
-### 则$(\mathbf{AB})(\mathbf{AB})^{\prime}=\mathbf{AB \cdot B^{\prime}A^{\prime}}=\mathbf{A(BB^{\prime})A}^{\prime}=\mathbf{AA}^{\prime}=\mathbf{I}$
-## 一个矩阵乘以[[正交矩阵]]，范数不变
-### $||\mathbf{Ux}||^2=(\mathbf{Ux})^{\prime}(\mathbf{Ux})=\mathbf{x^{\prime}x}=||\mathbf{x}||^2$
-##
-##
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBIa2JZcUx1MW4rbTI3NHVB
+VkdlSWgzeHBSVnAzTmtQQkpHVlJ4UjRObW5zCjdBQTJCbkJCOGwyTkF2YzdrQ0wx
+Y0U1bmdjUVFxa1preG14Ym1PNzBiVkkKLS0tIGVNYUpCOFVMZk1wNmhIdklNSGxC
+NUNqTnlwTVdBZEorWXg1eGIvdkJaM1kK2oc4rdO3aSfOILaUj0ZZSfohBKasAHRw
+7nVmvwibedbv7RFlCtN8BtqxgybcEMC3GchhlxuDZsDpWkJ4SAbDcTyYwGyQqTAo
+QkY847TS3T6U03I062raCSy1DfhitOA8wjX5Ie8naftOE28lUVwF6wg6xuanAL1Z
+3DGFm6WIX8ZcEAKWfrOE4P+psbxy061Nvi5RC+ImrmRsTQw10gJwEL1xwY/idrHF
+X2ANPtuYoLSa/bji981YzRQ2Q6VjOfC+Q6YEa77S8HeTmqoJpXPAtCL7TXT3brzC
+D7ILmnVjbYVfLquXOWJ9uLoAvkdtrYaqDNxl+/xdjQXfo+mZDSQQ4w7yXTkosYHL
+sIIrP21+2rTXaNVEyFLTQbKyxJwOmZ7E5lGmutBgwJgU+K/VWsg1k89tvYej0gCR
++1ZEUlFD+FTA+sznpxbCJ9665CfinJ5EHGdWsb7Pct0Yq7M8TIILw37MVgt1deJg
+QATRBFpra6vPEQOZThIU8ILts/aVcOH2A603+40trSeo4oVrfH1n6ki2dHdm27nC
+qRcUg+xy5IsVI4cPOVD24pQm6EpAle2VGiynYtlgyOYv5knmMezepJ/Ht1/e9jpK
+jpfCzxittim2YEFqtg0HDQ4AA/yIfVvUHztY5mNKfnD27xbgkbFdq9e/w5Sbm3OX
+AJsDvc5J13IQsYlPxbGqBjhwIeafzhBNgZ39+BF3HF5AMlv3KR3ZazT7DpF0
+-----END AGE ENCRYPTED FILE-----
