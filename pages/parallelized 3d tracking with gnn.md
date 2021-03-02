@@ -1,267 +1,202 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAzU0hUaWJvc28wanBLeFNG
-YlBQeGZEL2V2cUsvVzh6NU44WDZxRzFMNGpRCnZyOGY5R25iRGRvbTZmVTQzVUU3
-OEJFSXo5SGVXdjYwTDJFM0t3QUw4NzAKLS0tIE50WEZvSUpGbnY1MW5QVlhlTWFK
-SmsrUEtxN1hIN1A3elFiRHFLdi92L1kKgdX++Yjj3i8QpRhlhVVR6rWVN9gvLOK1
-+CtxWcbmR9hA1X7exMpoTrdrlRE7EvPiA35068t30vbe6SN1gSgS+c0fhUbRQ/qB
-3LLbjGxTlVaOrqTJHwFCJrjQha88Ak1ThK2SYNLBJC9bKkBhS7TY4m50FIkiFPjW
-TtM4ZaMuP/dpDMBf6eNj6CzFI9ga5BaZBN2ZQrxo39ql8ol3gMR0cp2JAj16UdAB
-I6LKU30RAoQEppI6sMz5BFyHtVo7Kp2/hPrujr4cM7ylCppcDzSjw4KfGvJ7HP8h
-GTtGDGtOgVhRrNTR+kK0vs3kjaJ4B6oeXO7TfNOmNnOYIGgO/GeBuhqyRgHDoY+S
-Xhtb01ySUpu03GfOqLL4+fMRuLnvVpeyVP+NmL8UDSC/oGSThlhj7x4iYPpB295C
-WbW6sAHa0YwYopksmq5Pop2yOYVg8U4DKzc/kVFtkjY/gPzt1ZT/SR3fiNuJv+tQ
-Ww/Cd2FHdKTNETFfgV2mHAk/iJozoFq96HDuBjjk0s9S+KE9QzFtOodtoki4wbEo
-ao7xtM4PoybEsq/GkO3yBQvyM3N5ZnjBXWgS5xzNzI/ppBTpl1zz8VWdYIyEu53d
-+OYjLZAL6JQlkvnVErKVrP/VuZIm+w2F8NcqFgfiFhSjBXjTs+sfuFnBN35MbZ+z
-2anNdxrQFFdPrlqtVutp5uQ3f4cglRtsvmeSNiwjYOsfIjnXltRKAgSOkmxE8tGL
-fZ8vMq6z3QVWyL4T/DX4cA8LD+6/Cy7hgPcRuUvLBgNGEiFyo1PFW33qAAwiErTi
-nrcP+faz7zQ91U2ZORL68ICIyS6D7vPcEEC3kKze7XP+UROuBowdJsiS2iUHtc8A
-ldmIev6WXGtWvF8jY0qqLyO+Bk/jj4H6cyNLEktu4Q8eavh6KrF3RjmrO/cTI2Lh
-2CyAWs+G8x7ZtyubFndQrA5Y7uRLX7N3ql8JFQw9CNVqKdI9H8vuZYoEL5BK+z3T
-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
-09M=
------END AGE ENCRYPTED FILE-----
+---
+title: parallelized 3D tracking with GNN
+pulic: true
+type: Article
+authors: [[Xinshuo Weng]], [[Ye Yuan]], [[Kris Kitani]]
+citekey: wengParallelized3DTracking
+tags: #GNN, #zotero, #literature-notes, #reference, paper, [[mot]], [[3d track]]
+---
+## Parallelized 3D Tracking and Forecasting with Graph Neural Networks and Diversity Sampling #reading
+### Zotero Metadata
+
+#### PDF Attachments
+	- [Weng et al. - Parallelized 3D Tracking and Forecasting with Grap.pdf](zotero://open-pdf/library/items/7X2SYIC6)
+
+#### [[abstract]]:
+##### Multi-object tracking (MOT) and trajectory forecasting are two critical components that require accurate modeling of **multi-agent interaction**.
+###### We hypothesize that it is beneﬁcial to unify both tasks under one framework in order to learn a _shared feature representation_ of agent interaction.
+###### Furthermore, instead of performing tracking and forecasting sequentially which can _propagate errors from tracking to forecasting_, we propose a parallelized framework to mitigate the issue.
+##### Also, our proposed parallel track-forecast framework incorporates two additional novel computational units.
+###### 1. employ a **feature interaction** technique by introducing [[GNN]]s to capture the way in which agents interact with one another.
+####### The GNN is able to improve _discriminative feature learning_ for MOT association and provide _socially-aware contexts_ for trajectory forecasting.
+###### 2. use a **diversity sampling function** to improve the quality and diversity of our forecasted trajectories.
+####### The learned sampling function is trained to
+######## efﬁciently extract a variety of outcomes from a generative trajectory distribution
+######## helps avoid the problem of generating duplicate trajectory samples.
+##### We evaluate on [[KITTI]] and [[nuScenes]] datasets showing that our method with socially-aware feature learning and diversity sampling achieves new state-of-the-art performance on both 3D MOT and trajectory forecasting.
+#### zotero items: [Local library](zotero://select/items/1_YICQ8PIG)
+## Introduction
+:PROPERTIES:
+:heading: true
+:END:
+### 1. Trajectory set
+#### Let $\mathcal{O}=\{\mathbf{o}_1,\cdots, \mathbf{o}_M\}$ denote the set of past trajectories of $M$ tracked objects
+#### Each trajectory $\mathbf{o}_i=\left[\mathbf{o}_i^{-H}, \cdots, \mathbf{o}_i^{-1}\right]$ 包括associated detections of the $i$-th tracked object in the past $H$ frames
+##### 其中 associated detection at frame $t\in{\{-H, \cdots, -1\}}$是一个tuple $\mathbf{o}_i^t=\left[x,y,z,l,w,h,\theta,I \right]$
+###### $I$是assigned ID
+### 2. Detection set
+#### Let $\mathcal{D}=\{\mathbf{d}_1, \cdots, \mathbf{d}_N\}$ denote the set of **unassociated** 3D detections of $N$ objects in the current frame
+#### Each unassociated detection $\mathbf{d}_j=\left[x,y,z,l,w,h,\theta\right]$
+##### without the assigned ID $I$,因为还没match
+### 3. Goal of [[MOT]] and [[3d track]]
+#### Associate current detection $\mathbf{d}_j \in{\mathcal{D}}$ with the past object trajecotry $\mathbf{o}_i \in \mathcal{O}$
+#### Assign an ID to $\mathbf{d}_j$
+### 4. Goal of trajectory forecasting
+#### Predict the future trajectories $\mathcal{F}=\{\mathbf{f}_i, \cdots,\mathbf{f}_M\}$ for all $M$ tracked objects in the past
+##### Each future trajectory $\mathbf{f}_i=\left[\mathbf{f}_i^1, \cdots, \mathbf{f}_i^T \right]$ consists of $x,z$ positions
+##### bird's eye view / top-down view of the $i$-th object in future $T$ frames
+### ![image.png](../assets/pages_parallelized 3d tracking with gnn_1613380517011_0.png)
+#### (1) feature extractor
+##### encode the feature for the object trajectories in the past and current detections
+#### (2) feature interaction using [[GNN]]s
+##### update the object features based on the features of **other objects**
+#### (3) 3D MOT head
+##### ((6029fa64-d023-47c5-a420-85c67862492a))
+#### (4) trajectory forecasting head
+##### learns a [[CVAE]] to generate future trajectories
+###### based on the GNN features and past trajectories
+#### (5) diversity sampling
+##### to optimize the diversity of the trajectory samples
+## ![image.png](../assets/pages_parallelized 3d tracking with gnn_1613450217423_0.png)
+## 1. Feature extraction
+:PROPERTIES:
+:heading: true
+:END:
+### Get the feature by applying a two-layer [[LSTM]]
+#### to model the temporal dynamics in the data and outputs a feature $\mathbf{u}_i$ with 64 dims
+### For a detected object $j$ in the current frame, use a [[MLP]] to map $\mathbf{d}_j$ to a 64-dim feature $\mathbf{v}_j$
+### They are used as initial node features $\mathbf{u}_i^0$ and $\mathbf{v}_j^0$ at layer 0 of the GNNs for 2nd step interaction
+### The extractor is shared for both tracking and forecasting
+## 2. Graph Neural Network for Feature Interaction
+:PROPERTIES:
+:heading: true
+:END:
+### 2.1 Graph Construction
+:PROPERTIES:
+:heading: true
+:END:
+#### $M$ features $\{\mathbf{u}_1^0, \cdots, \mathbf{u}_M^0\}$ for tracked objects in the past
+#### $N$ features $\{\mathbf{v}_1^0, \cdots, \mathbf{v}_N^0\}$ for detected objects in current frame
+#### Construct an $L$-layer _undirected_ GNN
+##### each layer includes nodes of the $M$ tracked objects and $N$ detected objects
+##### **undirected** here because the interaction should be _mutual_
+#### For each layer $l$, denote the node feautures $\mathcal{U}^l$ and $\mathcal{V}^l$
+##### node feature updated at each layer
+#### Edge connection - sparse, dynamic
+##### prior knowledge
+###### interactions 只发生在临近的objects
+###### two nodes' box centers have distance less than $C$ meters in 3D space
+##### edge connection 是动态的
+###### GNNs can model interactions in different scenes with varying objects
+###### 尽管 edge connections are fixed across layers of GNNs at the same time step
+### 2.2 Node Feature Aggregation
+:PROPERTIES:
+:heading: true
+:END:
+#### Based on [[GraphConv]]
+#####
+$$\mathbf{u}_i^{l+1}=\sigma_1^l(\mathbf{u}_i^l) + \sum\limits_{j\in{\mathcal{N}(i)}}\sigma_2^l(\mathbf{v}_j^l) + \sum\limits_{g\in{\mathcal{N}(i)}}\sigma_3^l(\mathbf{u}_g^l)$$
+###### $\mathbf{u}_i^l$ and $\mathbf{u}_i^{l+1}$ are the node features for a tracked object $i$ at layer $l$ and $l+1$.
+###### $\mathcal{N}(i)$ denote a set of neighborhood nodes
+####### connected to the node $i$ by an edge
+###### $\sigma_1^l$ linear layer weights, [[ReLU]] applied after each layer aggregation
+#### 除了update the node feature for tracked objects, 还有detected objects
+#####
+$$\mathbf{v}_j^{l+1}=\sigma_1^l(\mathbf{v}_j^l) + \sum\limits_{j\in{\mathcal{N}(j)}}\sigma_2^l(\mathbf{u}_i^l) + \sum\limits_{g\in{\mathcal{N}(j)}}\sigma_3^l(\mathbf{v}_g^l)$$
+##### updated node features for tracked objects and detected objects will **affect each** other via feature interaction in the following layers
+#### Finally we use the node features at the final layer $L$ for tracked objects $\mathcal{U}^L$ as inputs to our forecasting head
+##### have enough information from both trajectories and current detections
+### 2.3 Edge Feature
+:PROPERTIES:
+:heading: true
+:END:
+#### Use affinity matrix to represent similarity
+##### edge feature 定义为相连的node features之间的差别
+######
+$$\mathbf{e}_{ij}^{l}=\mathbf{u}_i^l - \mathbf{v}_j^l$$
+###### Two features $\mathbf{u}_i^l$ and $\mathbf{v}_j^l$ are related at layer $l$
+##### Use the set of edge features $\mathcal{E}^L$ at the final GNN layer as inputs to 3D MOT head for data association
+## 3. 3D Multi-Object Tracking Head
+:PROPERTIES:
+:heading: true
+:END:
+### learn an affinity matrix $A$ based on pairwise similarity of the features $M\times N$
+#### extracted from $M$ tracked objects (past)
+#### and $N$ detected objects (current frame)
+#### each entry $A_{ij}$ is the similarity score between tracked object $i$ and detected object $j$
+### 3.1 Edge Regression
+:PROPERTIES:
+:heading: true
+:END:
+#### use an edge feature $\mathbf{e}_{ij}^L$ as input
+#### ![image.png](../assets/pages_parallelized 3d tracking with gnn_1613477758463_0.png){:height 194, :width 455}
+#### output a scalar value between 0 and 1
+#####
+$$A_{ij}=\rm{Sigmoid}\left(\sigma_4(\rm{ReLU}(\sigma_3(\mathbf{e}_{ij}^L)))\right)$$
+###### $\sigma_3$ and $\sigma_4$ are 2 linear layers
+##### ((6029fa64-6cc9-44f0-acfc-9dcaf2b99b54))
+##### For objects that cannot be associated, employ the birth and death memory
+###### #related [[3D multi-object tracking by Weng Xinshuo]]
+##### During training, compute the [[affinity loss]] between the estimated affinity matrix $A$ and GT.
+### 3.2 Affinity Loss
+:PROPERTIES:
+:heading: true
+:END:
+#### $\mathcal{L}_{aff}$ directly supervises the output $A$ of 3D MOT head
+##### 1) Formulate the prediction of the **affinity matrix** as a ^^binary classification^^ problem
+###### Use the [[binary cross entropy]] loss $\mathcal{L}_{bce}$ to apply on each entry
+#######
+$$
+\mathcal{L}_{\text {bce }}=\frac{-1}{M N} \sum_{i=1}^{M} \sum_{j=1}^{N} A_{i j}^{g} \log A_{i j}+\left(1-A_{i j}^{g}\right) \log \left(1-A_{i j}\right)
+$$
+##### 2) Each row and column of the $A^g$  (gt) can only be a [[one-hot]] vector or an all-zero vector
+###### 每个tracked object $\mathbf{o}_i$ 只有一个matched detection $\mathbf{d}_j$或干脆没有
+###### Set of rows and columns in $A^g$ one-hot vector $\mathcal{M}_{oh}$, $\mathcal{N}_{oh}$
+####### apply [[cross-entropy]] $\mathcal{L}_{ce}$ to them
+######## $j$th column $A^g_{\cdot j}$ in GT affinity matrix is a one-hot vector
+######## the loss $\mathcal{L}_{ce}$ for $j$th column is
+#########
+$$
+\mathcal{L}_{\mathrm{ce}}^{\cdot j}=-\frac{1}{M} \sum_{i=1}^{M} A_{i j}^{g} \log \left(\frac{\exp A_{i j}}{\sum_{i=1}^{M} \exp A_{i j}}\right)
+$$
+###### So the [[affinity loss]] $\mathcal{L}_{aff}$ for 3D MOT
+####### $\mathcal{L}_{\mathrm{aff}}=\mathcal{L}_{\mathrm{bce}}+\mathcal{L}_{\mathrm{ce}}=\mathcal{L}_{\mathrm{bce}}+\sum_{i \in \mathcal{M}_{o h}} \mathcal{L}_{\mathrm{ce}}^{i .}+\sum_{j \in \mathcal{N}_{o h}} \mathcal{L}_{\mathrm{ce}}^{j}$
+######## same weight of 1
+## 4. Trajectory Forecasting Head
+### Conditional [[generative]] model $p_{\theta}(\mathbf{f}_i | \mathbf{o}_i, \mathbf{u}_i^L)$
+#### learn the distribution of the $i$th tracked object's future trajectory $\mathbf{f}_i$
+#### based on past trajectory and node feature at last GNN layer
+###
+#+BEGIN_NOTE
+trajectory forecasting head 不直接依赖于MOT association results in current frame,而是用feature interaction之后的node feature $\mathbf{u}^L_i$
+#+END_NOTE
+#### 防止当前frame的association error by MOT 造成deteriorate
+#### 而且node feature $\mathbf{u}_i^L$本身就encode object information via _interaction_
+### 使用[[CVAE]]作为generative model
+#### latent variable $z$ to
+##### model unobserved factors
+###### like agent intentions
+##### capture the multi-modal distribution of the future trajectory $\mathbf{f}$
+#### variational lower bound $\mathcal{V}_{lb}(\mathbf{f}; \theta, \phi)$ of the log-likelihood function $\log p_{\theta}(\mathbf{f|o,u})
+#####
+$$
+\begin{aligned}
+\mathcal{V}_{l b}(\boldsymbol{f} ; \theta, \phi)=&\left.\mathbb{E}_{q_{\phi}(\boldsymbol{z} \mid \boldsymbol{f}, \boldsymbol{o}, \boldsymbol{u})}\left[\log p_{\theta}(\boldsymbol{f} \mid \boldsymbol{z}, \boldsymbol{o}, \boldsymbol{u})\right)\right] \\
+&-\operatorname{KL}\left(q_{\phi}(\boldsymbol{z} \mid \boldsymbol{f}, \boldsymbol{o}, \boldsymbol{u}) \| p(\boldsymbol{z})\right)
+\end{aligned}
+$$
+###### where $p(z)=\mathcal{N}(0, \mathbf(I))$ is a Gaussian latent prior
+###### $q_{\phi}(z|\mathbf{f,o,u})=\mathcal{N}(\mathbf{\mu}, \rm{Diag}(\sigma^2))$ is an approximated posterior (**encoder distribution**)
+###### $p_{\theta}(\mathbf{f|z,o,u})=\mathcal{N}(\tilde{\mathbf{f}},\alpha\mathbf{I})$ is a conditional likelihood (**decoder distribution**)
+##### Use 2 [[RNN]]s as the encoder $F_{\phi}$ and decoder $G_{\theta}$
+######
+$$(\mu, \sigma)=F_{\phi}(\mathbf{f,o,u})$$
+######
+$$\tilde{\mathbf{f}}=G_{\theta}(\mathbf{z,o,u})$$
+#### So $\mathcal{L}_{cvae}=-\mathcal{V}_{lb}$
+### Overall loss $\mathcal{L}_{total}=\mathcal{L}_{aff} + \mathcal{L}_{cvae} = \mathcal{L}_{aff}- \mathcal{L}_{lb}$
+### Once the CVAE model is learned, can produce the $i$-th agent's future trajectories $\mathbf{f}_i$ by randomly sampling a set of latent codes $\{\mathbf{z}_{i1}, \cdots, \mathbf{z}_{iK}\}$ from the latent prior
+#### and decode them using the decoder $G_{\theta}$ into future trajectory samples $\{\mathbf{f}_{i1}, \cdots, \mathbf{f}_{iK}\}$
+#### 为了样本多样性,提出diversity sample technique
+## 5. Diversity Sampling technique
+###
