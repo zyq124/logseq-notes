@@ -1,37 +1,39 @@
----
-title: git
----
-
-## Basics
-:PROPERTIES:
-:heading: true
-:background_color: rgb(73, 125, 70)
-:END:
-### 基本功能图解
-:PROPERTIES:
-:heading: true
-:END:
-#### ![图解1](http://marklodato.github.io/visual-git-guide/basic-usage.svg.png)
-#### git add files 把当前文件放入暂存区域。 stage 注意： git add 同时具有添加到跟踪列表的功能
-#### git commit 给暂存区域生成快照并提交history区
-#### git checkout – files 把文件从暂存区域复制到工作目录，用来丢弃本地修改.(注意将会丢弃本地修改.)
-### 合并图解
-:PROPERTIES:
-:heading: true
-:END:
-#### ![合并](http://marklodato.github.io/visual-git-guide/basic-usage-2.svg.png)
-#### git commit -a 相当于运行 git add 把所有当前目录下的文件加入暂存区域再运行 git commit.
-#####
-#+BEGIN_NOTE
-如果文件从没有被跟踪过（untracked）仍然需要用 git add . 先添加
-#+END_NOTE
-#### git checkout HEAD – files 回滚到复制最后一次提交.
-### 删除文件
-#### git rm files 从暂存区 和 工作目录同时删除，然后可以 commit 到版本库.
-#### rm files 从工作 目录删除 因为暂存区没有删除，因此提示：修改没有暂存.
-##### 如果需要提交到版本需要 git add . 暂存 然后在 commit
-#### git rm –cached f3.py 从版本库 和暂存区删除（不再跟踪） 文件仍然存在于工作目录（untracked状态）
-## lazygit
-## rebase
-### 提取我们在A分支上的改动，然后应用在B分支的代码上，完成类似于补丁的功能
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBnemFMWXA0TGp1M2d6MHdh
+VGtSQS9VZkxYS3B6RHhWS1JWMzdPVHd4bUI0Cko1LytnTXlCRlJWVzUxQzhqRUZ6
+L0E2SW11NnJ2amVEWCtZbGw0d3FxZEUKLS0tIERpOHBFNW1zOUNqRWpYYnpVZEhP
+Wmt6Tk5NblhhMm1nWndUTjZNZGNpeGMKb5SSVKhjHhBjvuDeTuEYxwsH7JkQY5zm
+wVsnrkUmTFCqc2fZS5tunTbRRHj7oB1lB/JRxN/H50bFS0WdgBtp7Rg/uykQt7eV
+WIx3rf9nbbcEsKu0+Kdk73UO26fLxgACgtTdRRLqmo+35MLs2S/rwMSudU1sR2ir
+TjTCpZ74K5LlQmdRPc9QlYay/MQ1XQifhGam69jztyP8WZXc2p6efqYm9OPFVqt0
+IsfQDMkZLyL9tc87EeEgphVjl9jaayj6c2g94PN8IXwRn1gIDjLEo/gkGaSC7L05
+gNKN5y7kTMT8DAtUDGwfMEPiGFjfPI8bHbGw08FCc2Mu0QhO999/ImTCug7KzB7s
+bASmaOt3jGcXq2fA4p2LFXuuwNQYDdVNHWpPF+efvNjLr1F14nJRth0TQEvYj9gS
+omWnyU5iuKiBM2oTlzD4dmxBYsP7WVGsDTuRJDcCl6Yae2pOEX477fSpfGdyCuUq
+gMMETMPlmbTt34y+54/Wn2Coi7aumu6MADFod8UD5wKCXxqhAuTJlal4S5tCS4hL
+Z46qJk0GH4pIdRK8aXqoQkC/YQAQAZaL2mjJujAIBeRWqpy9x/2zyaFloZ0TkK+l
+9O5hmX2VrmqGnTf0XnBLbLZKr2416hYbQ6TFn6u+5iZUnAHzsqewIECy3W7ERSwW
+8YLz6vcTN2nXmDf0wONFEsXjT4WBnHazqGZtW4vzw/Q9jeSWWQwQiyAy+lXggZG3
+3JVvrhcpWg6M5neX2JLxFG5za+iHc75OuSI+3liYQIEk7KyjKYRNoIWfdZhIoA44
+w/aVMqUzNycGpWUXDlCs/US2IoL9wrwd8ru8Mv36ZoA1J9e0pOCe8WI9iDEiZ5aJ
+JeLlSUJ8gkR03HBVkYUkFkDs+Rg74EC7C4sm9MpWkdU9R9qQp9/mPinoaPtCnS45
+hXOqr+ru9oAfjYqDHKbVYwsjqZv7eRbT7Wu5OvjfcFZY0l9ziAzXgHmIGvaOz33G
+f3wBRx8eBRYXrevptkfgMT13TXM9YAo1hRHthtqUfhLrk34tsNawVr0sgz0OHfi0
+2gjSekGu19/1LFFFqEnoz9K/c4GzzuQigQO9PDpM3vg8S3DfSrqcxZxGG3j8diWm
+k8GMNSJBjy4QZoDLMARIPU6G2o/R5xERqTj532Br4iExTkNJn7y9mSaaqn/jmpI8
+ToFCy4antd4dK6Q0wb56M8LnXhwL9wotDkruPOUqOMmQ7twGmfmGW0x85Zjfw/ET
+NejTGSEpTCWnL40nZdIdJJzmW89iOsbqS/ZnhKpDX0fIg2PvDr5hckxF7+3buDep
+HB33r4LtMkcNfYouzXUZ+Z1Y7xZ62krpR0rTXFYX8zIcnzNPdsEeJtiFF5cBTMDQ
+x44ATmFtLcBajUpgEluDncToK8+oitBdD7XseUXqWLNBEunRX+WFeizYTt2J9drH
+loe2coZQf4JrWYaA/XnhVsLcp7tCj8Hv0NztZJiVfgaS++X/BxeOxMGBHyrz3cdP
+sAcgDOWPQ7zx6DJuLtvYVnuAsZxabA7vqAkMLp7ZrflP3FxNewgr1N5WrsW+bsDj
+tGvNQ3vDjxbd0zTmZiOySZVu4NlBE/ADqn9z4nvCqMx7e2TROOQq9XpRl1HAuOM9
+F3p9qaDpxArvH7WOQLnplQ+W0xPxDVw4qIlKsgd1+p8Q/xGcs4gHydUOJgsvfB/7
+UI9zqYhI4/uYAxRQ+j72uK67RZ42xughxqOdCyZyV7lwGMta4HHpWqosmTGZyR6f
+OgYPcX3YZhkRuuLLKCzqOWdWcbUEbIEouhMMqxCvQpTbT2daHD69B64tTCVeDcZL
+wNSjMEOE5odYG9PmIWRUyXdk6tAjBAn7u5Z5Jpcj6Kr2TIZAMcK66YSjSS3l0Hg2
+rnA3gyEuPODeS4SO4aNL3l0ijBXpG2SK7UFZrsBjMJxbhC/CewAwfXeCiAQ6mRBW
+FUxGmtiEzfQUrSJ+Z0TgEXY4rB+HtuyjtH4IYx8lJYAAT6EthohsDbrQF9UrVfla
+/XM2YQVHPJV1C4aAxg/nvksU2WVokqjWSperudbqpabYMie3dJtBqNZZeW1N1sDQ
+HVTVjzo7WQRRakFYB0VKaux+CNQ=
+-----END AGE ENCRYPTED FILE-----
