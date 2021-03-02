@@ -1,10 +1,8 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA4dEQzU3dYY3QwZGcrRkdY
-dm1pWk51cDRWU1paQStuYmtWT3Uzc0Z0NUE0CmtLNHRJUHpFTy9TODR3aTBwWXg5
-d0EwRHE5eUZmbWZHcnVZdVpZMmRuRUkKLS0tIDF1eTIrdnFvOFVNQnRDenFEOWs2
-TTZIS3hVZE5wZ29RQWtIM2dEbEVFclUKLDTcdo3h4LYOVCHXnZLqp/j3Pbdy6Mwg
-EUzixksOz28Sr8Rp1b16O+mUnsjFj2XqbsKSpan3YuLLv2IXXZnEJRLQ8AVyhLb+
-TIeurOrym62gqJkIhATDndRbycersGZb5WCHDA8HH3B5yVYIVud6ZHO77KVGYlg3
-a956yxQ3N1yaNaS8yYdl8mKk4AdneMQvovOqGm9dkdgPWXQO3tkK9btzBIRdurAu
-0Dc8U+6wOlZvgoFcvUbJZpwZkRZXSzgA7OkhwhXewNk3rfQB
------END AGE ENCRYPTED FILE-----
+---
+title: contrastive
+alias: contrastive learning
+tags: [[Contrastive Loss]], [[Self-supervised]], [[metric-learning]], [[Siamese Network]]
+---
+## Contrastive Learning
+
+##
