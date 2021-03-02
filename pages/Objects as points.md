@@ -1,53 +1,38 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAwNS9LUmk4OFpwMW9xZENn
-WnBRa0hOTmcxcTFLR2xISTNKREdrcHpQdGhBCkdLcGlKMU1vT2tqOTBlMjd5a0U4
-ZDZkVlNONUlKcWNkcTI4SGhaMWY1MncKLS0tIG0xRWZtSW92ZEdTcC92bW1hQ0ow
-UlN4TGZFbFZnN0srQXlFOEwwN3JOSjgKQtQvrdqg2F7LKNCMesDe7PBCisuif/Dn
-O+1EYoItJETX6HIeWeXcXydKeTkhktnwODvok+ZUi1bn0unAf/0cngCLkYweEI88
-K7qPhpE0qWpUlNHjImgybpTb/YZOGlsaTNOyEcDo6kJJ/+6CKqgWweCR0NHed9pe
-i/yhLC6PK6650gEBwDPZ4sXeJf5DS9JSaKES2svS8djgWVBYiTdXgxhDLljuPAbI
-fluAiZJl1qEIqGyYYYp3wvCFOOvz/qtv/uuoean9vJEtbhzbI8K/nhHKmkHnGSRT
-p2jRPVeQDLOHlExlHZCw95ZmI+uEICLEaa07ax5mQ2mpmXTtSAUT7WS86mlpo+8n
-LiTOULAq6vLnCuLb8YvPGnqZ0HMe0aKN4Kvk53PueoNru+tZNzaHKieRoXZN7IAS
-MP94QqfV65JA+HxWMvi0C3OkOt6vrJiOan/+CS+G7r8Wl86lp9RCwl9yeiZDdfUd
-Jy6oymA17X2181kJYZHO98DzGGvCmKT/E4G6y5gPGUzRp/or3frEabHCQ7W0KNcr
-O+7cBoM1L7/JpYjXdwUy0BgJv0hoKxtKBu3CsFuBFjJquzw8XTeS/He1iXeR76rA
-dQ0A6HZVI87kCgoc+cWQTHPITxJkKxft/ZOW+PW1c1hs3CmbeoGRUe7Hiqq45+Qf
-3Rh9N8E4WaM9VOc5UkE9Jw8r2pN7AOKAwzfmRl2oQXAFoPhbY1dW+0yKLZvboi/p
-amtwNvzXptoENEwjBAhXvdqN8rt6SEmdUovRlhC+ZcY2PwxIHfrTDfnIxZmK8hKl
-1N8l3dg0kk40UIOLHZ1z5LCC1fY7gZBvd0DzJqlTYaHIxOtMQvyv/hcXkwS9KSy+
-1SScdxWQai5jqr9E/h3vOqOv/4smPXA6w9ggMVZ1ulGzNVvrpQ3Z1K/9Tdssmj3g
-Of6luESeXyjO7MKH5RmsSQDInuzUktw94HFshTWJG0sC6d4dM8P+y6dVpHwROPCe
-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
------END AGE ENCRYPTED FILE-----
+---
+title: Objects as points
+alias: [[centernet]]
+type: Article
+citekey: zhouObjectsPoints2019
+publication date: [[2019-04-16]]
+authors: [[Xingyi Zhou]], [[Dequan Wang]], [[Philipp Krähenbühl]]
+tags: [[object detection]], #single-stage, #literature-notes, #reference, #Keypoint, #[[end-to-end]]
+---
+## Zotero Metadata #toread
+:PROPERTIES:
+:heading: true
+:END:
+### Objects as Points
+### [http://arxiv.org/abs/1904.07850](http://arxiv.org/abs/1904.07850)
+### PDF Attachments
+	- [Zhou et al_2019_Objects as Points.pdf](zotero://open-pdf/library/items/EF6CK3WB)
+
+### [[abstract]]:
+Detection identiﬁes objects as axis-aligned boxes in an image. Most successful object detectors enumerate a nearly exhaustive list of potential object locations and classify each. This is wasteful, inefﬁcient, and requires additional post-processing.
+### We model an object as a **single point** — the center point of its bounding box.
+#### Our detector uses keypoint estimation to ﬁnd center points and regresses to all other object properties, such as size, 3D location, orientation, and even pose.
+#### 直接预测bbox的中心点和尺寸
+### Our center point-based approach, CenterNet, is end-to-end differentiable, simpler, faster, and more accurate than corresponding bounding box-based detectors.
+#### CenterNet achieves the best speed-accuracy trade-off on the MS COCO dataset, with 28.1% AP at 142 FPS, 37.4% AP at 52 FPS, and 45.1% AP with multi-scale testing at 1.4 FPS. We use the same approach to estimate 3D bounding box in the KITTI benchmark and human pose on the COCO keypoint dataset. Our method performs competitively with sophisticated multi-stage methods and runs in real-time.
+### zotero items: [Local library](zotero://select/items/1_2UB3K7BV)
+## 1. Preliminary
+### ((60361390-93a2-4b9e-b2e6-d932868d45b5))
+### Output keypoint heatmap $\hat{Y}\in [0,1]^{\frac{W}{R}\times \frac{H}{R} \times C}$
+#### $R$ is [[Stride]]
+##### downsample the output prediction by a factor of $R$
+##### set 4 here
+#### $C$ the number of keypoint types
+#### 使用$Y_{x,y,c}$表示heatmap中的第$c$个通道位置$(x,y)$处的值
+##### $0$代表background
+##### $1$代表detected keypoint
+###### 所在位置为目标bbox的中心
+### 若input image位置
