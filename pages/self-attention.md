@@ -1,20 +1,24 @@
----
-title: self-attention
-tags: [[sequence-to-sequence]], [[attention]]
----
-
-## The original self-attention paper uses [[LSTM]]
-### Long Short-Term Memory-Networks for Machine Reading, EMNLP, 2016.
-## Multi-head attention is called self-attention if the input query and the input key are the same
-:PROPERTIES:
-:id: 602f149c-8acd-4c88-ba97-c4e189bd8f16
-:END:
-### otherwise, [[cross-attention]]
-### self-attention不局限于 [[sequence-to-sequence]]模型，可以用在所有RNN上
-## SimpleRNN + Self-Attention
-### 计算状态向量
-####
-$$\mathbf{h}_1=\rm{tanh} \left(\mathbf{A} \cdot \begin{bmatrix} \mathbf{x}_1 \\ \mathbf{c}_0\end{bmatrix} + \mathbf{b}\right)$$
-#### 这个$\mathbf{c}_0$就是context vector,具体计算方法参见[[attention]]
-#### 对比 {{embed ((602fb278-dac8-4e2f-b66c-5e92a7ce3cc1))}}
-####
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB5L0s1dUFsMHZhMHA1N2RB
+QzV4TFN0RzRMakRHYUV0QXRMYWxqSHBLNkJjCkdVQlhmNjVoYjVpTVMwZDBmbzZG
+bVNNZForVllVTitGajN2V05adnNhNmcKLS0tIFRXYys5b1YzMEV5NW5Qek1SNTUy
+R3MvWXE0bTlPdHVGS25Oc3l0MHVtRUEKeXv3VFqCgoRgpDAK5LfPuZpeq4wOLlwo
+MpHVJ+AhYtuVNPdd0pa7couy7gyoLE0q9fAhxisZB46hlX7jKHbd3iDhPOFrofoo
+B436kXK1PWB6QmZy1q2yckMsywIN6T7xJjm0Lfq2FcQ/swFjlsyxlLhNonvrjVFL
+kJmoiWoFh1bpn2wfuet1hfAnFfJkRJIwldWoAvtsyhDqJn1J+G8BVb2brYCNerX+
++SrLxlv0DyxHWzTbOVR5Ry6DchP1LHbigRPXiyldO1PvL7SiRVfhA+BCwTBjnmzi
+EHmlozIq15rj+GkGPbgczTOStKlMtrzYwKMpjL5Yuz9cx5KHizGyrTt+Su52ir2Z
+B7+7TAp7H2CoQw1EH2RNArpfatMlzp8OxucVUv6ZluGUume8y2viaqQRZ8iTHBxR
+WgXKAsywhbLBjd7JKB9NDb/E2tY+Q8sheozI9vnXORslTzKsrqjNOEx200t4BrzF
+6xwkJ6vYeU8Uh2bCIGk1kRzTjk3bDbBEiHpbx2nu+oHM5eYGyf3Xa4iqST+abPWD
+vO/ZnY1gDlAmksUh5QlHFc/N8ENjOjnzWgnDj7f4psySNIZCnkG1G2mCas8w631q
++q7RJ/+QAB5qtJF3ADwLmWVDiu3N0bxfdqbp0w7ClIQycGM4TGUSCRXIdF1mYjrX
+hpcWQNeUg8vimYgRok7CZqZKttWcbEemZxpCS4NC7ulPGe0QJt4ERC/4i+oX4ppQ
+XBTDS2gojb5r+yyMEB9Lisjgjj1EpG0TjcIB1UiLDhW+2y55o78dZVeGG97IgjTz
+dHvlq2guPld6Ri8vN/OPzfJCrbYapN9KZnjXHfkyxsQKAxOAx2G9mI1ui5LEwrj4
+S7XD050ZJWZ6O9UmfS8oCGDk/aHX6ySCz8+eGlLurqyikzyxpEzha9ylvR5B01KY
+tQ6UoHvFq8xPuo5MacnSeGSfF3eUZXpsXYrcWB0RzsREm/I/gW9ZfgGlC/U+QdDk
+O75+aPpy3zsENFzw1NNBu0w8M120xo5KXdktTUzqLjZqNGRu/8LFfYQkFOPEFHS/
+rh8m+3HFqr/6Ozqz+0cN48W8lUjxgk8FL4pSTCJvvCB9gpVHU5rbf0A9WaIMA8z2
+bmHqhYMXZC8SGhXr
+-----END AGE ENCRYPTED FILE-----
