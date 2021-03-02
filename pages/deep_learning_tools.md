@@ -1,15 +1,13 @@
----
-title: Deep learning tools
----
-
-## [[wandb]]
-## [[neptune.ai]]
-## [[pytorch]]
-### Kornia
-#### Open Source Differentiable Computer Vision Library
-#### https://github.com/kornia/kornia
-## [[tensorflow]]
-## OpenMMLab
-### [[mmcv]]
-### [[mmdetection]]
-### [[mmsegmentation config]]
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBzK0R6N2JDQmJBUkFGR3dF
+c0NlWmRnTndpdWk5cmFVd01CTmF2aFpjV25zClJ5azVad2M1RkJPR0NiRlAycWQ2
+b0s1OFFuK3ZrZ09mdnJTRHF6THgzNW8KLS0tIFJXSy9mcDJTR2k2amxadnlCc3Av
+SWZ4U3V0RXY3cU5DcGo1ZzRQOExKaVEKDP1AYDfMlpFO/dak36klfuKxk0UhOTf7
+uO1UzHjAKQpFRKLYZBsQcQyolrzeqtSHAy2tA1wDBu+6pNKjeEPuKSxg8Esfwvhs
+Ig3yDGfK23O6ew/jmvb5z0jHWSfxx594wwPzJhTHASWv2YKovkMypUjv4ZirAcCP
+dU3bL8tdtTm9LHA+POFIqD6OVLRYz4yp6+4oWNp1jOFQmRL4GgJBuUskkJDnret7
+7cLHSzKjjDkJIUI/u5jXdmh+4ExSM+v0AP1qCesTNZXlBVYR0z389jDc9zvJFA3j
+MNdJqaTEoyQAkhH9EGiqiQKbo/Ky8Hat8lMsvCOjtU9JUq9vnDQ/y12WEVz4JMYM
+IEEDawdDqmthsMVmkuebuzl5x3DkfrpWoNCgkajYLUcDxvL2f4y2KkZEIgcrE8Qv
+gg==
+-----END AGE ENCRYPTED FILE-----
