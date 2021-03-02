@@ -1,10 +1,9 @@
----
-title: l1 distance
-alias: L1 loss
----
-
-## Least Absolute Deviation
-
-###
-$$\sum\limits_{i=1}^n |y_{true} - y_{predicted}|$$
-###
+-----BEGIN AGE ENCRYPTED FILE-----
+YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBMUmVPdUZtcjQ2ZEhzVFZG
+R08vSUxKZ212OG9HYnNWOEdMUkVUZFBSekRvCjlPT0tjUEJIYkZGV0NHYkZPekR6
+Um9hanhtTVN4MU9MdlhvWnVvcFlMNU0KLS0tIFNNMG9RdlNPaVYzSFBydWVPOUpl
+eEZ5L2hiWTJBN0VoZklvQTVablJPUUkKRZT05eR3AJu9u/DAOOdXOzbHmIEkhXJF
+GKM9nmRjPOi8tHsHLFJJhAqlD9KrF0MnfKcVl+g4Ug9BBGwp9up+4zBb81lk9BDR
+LAg37yhmztoVcXAiaXj6v+WICrSsKobjC/o49IXVKdkNzw9/dxUj6aMzFjQIPwiG
+7rOKCIv+iD7Mdnx3BNUdHS8tUWW2VyHXQCtSMhZsZVUrDJHZQ1wBr/gqCg==
+-----END AGE ENCRYPTED FILE-----
