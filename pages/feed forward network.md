@@ -1,29 +1,38 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBKdkpPSjRCSHNETjZYTkJz
-dzl5YkdoZFp3djhaQzBldDkwSnE3OHMzQXdNClQ1Tk40WlE0STJWOXJNVjREUXlh
-ak0wMjIxZU9nVWdCbWpCR2pNOUYwU1kKLS0tIDl4NUVxUExqKzVkNUcyRGVqV29U
-N0QxZTY2SWZiSk9uaEEyeVd5VzVvYUEKfwDkPh2Vr73HQ5p7Z591RkCGugBGg1EM
-BSGD389TyTBf9X2kTKO47MDTZ2xD9ES+hbx57P9bY+ukKwJ8QT6ZiyCB2aDIx8k8
-KAkncFttnuRRR1mU81Bahr0D7NlD7ONRbTrrA/vQ2aYjw7m9IlLHUJSvkCk8Ghbi
-CQ9CAPWbMF8cOdczYBm7ucrVDbHV6e/YCU5k78JqKFcjqV7S+fV7DM0h9cgn8l2B
-8TS/t4hAPvUZL1Eo4vR/ZJ2VbhiCc3U7D/HA7t/cA5xwc2j9vlQlwo9Tv3/31B71
-EdPthg5NilXs+o376CblDdaPw1z9AUwkms4XDvxBNJs7lUmITHDLOXxemzN5YNZp
-lD0pMNUNgaCU+HoC2I2Ti8m/Bp/KwZ0bn+8Tew/Df/PQBqe6NoXq538Ntier1vGa
-2e+SWXZ2qh1838MbqIGmQd8kqZGDB7gGxGA54VVUQTvpPsLtyeCIBI6rEtaY+b/t
-mNLEBOO46k2X11O/L/tq6Kdxyb+NpBm7t1AiHhBgIuDLkN0XSuZsjlroRM7wvTpi
-s3YBaB6ezYXMZNWhX8uwVIPotfIPWKto4aj5rRBFcnZH/hsy4gWsKFBgVSHrV+p9
-Osqoeic3jLs/4zPlJ6XD/lMwtYs7HouUNs470ys2P8h0j8YtkSPd/Ma3RLs1LVy3
-emhtKIOj04zkShelBUISSZ5Q5HU/+rN1lynfn5Y16xxXW7yqvLpPNFRmSWH6wdCG
-9D0J821OuZUWQERd2gbZTsA8blKQHdscSHDMd5ewOK873asBauejID+muMEYPHHh
-BwGPXuLzDdISMelIaxfX8YAaH3u8KFw7MSyLITfZCWjymKnNTjbZfAG6qQRxDHaa
-CfiKtYe1aFZLol2h9SzMHSi9JhRnKZEI8i8ZqxdzSCWQnxjFwRAZoAQtkw33wHsW
-4q3/Ai3VQ+z/5rTJ4tSWRMzkpPyBKVou89x4mkfcxgkSy7T6B79ZNbvssvvHMFob
-uWMGukr6/NkWTty0g647RLV3ChbNbwaAZ9+3FPjx74K/yAYZkT+LGIEtGXQ22b2m
-OSLRbELMupASANoSTR7nKubuZHj2DXwRCSOvnWfOO2J6TA8ECgHystG5EDtILvcX
-uPOJwxtOIENeOSKaqCbfFRZ9t0uGgKUtxOawEok48awErJnbj6MGTI73+2j3NME/
-QoGoktmL33XNg4seiEhL7IjFrkhXZvZvOTvB+1yC9lyDldixicZsAKW4210uS/N8
-8iPY0bT0jxmehTHerlYZlAXC+vOTAHqZUfiV4kzCD3tobiUg6ln2qGmQZxAN+JNZ
-hDxKRFKdzFbi4Wsklyf5K8lVOa3Jmy1XjLjcD2f3z30BkOPtfC7uuMoOV1PPwlBq
-G6bqEA5uDemobZWRpRfMxqeRFLcb2rO4rxBTVlk3nUlcLGwwp9hCVipnnMhu6mmP
-vfkOre9M52uJxM46V+aT7xhXRvkkl5/R9VFJbFjdBmqaOzlyBb6VrLp0vcSz
------END AGE ENCRYPTED FILE-----
+---
+title: feed forward network
+alias: FFN,前馈神经网络
+---
+## Used in [[transformer]]
+## code
+###
+```python
+class PositionwiseFeedForward(nn.Module):
+    ''' A two-feed-forward-layer module '''
+
+    def __init__(self, d_in, d_hid, dropout=0.1):
+        super().__init__()
+        # 两个fc层，对最后的512维度进行变换
+        self.w_1 = nn.Linear(d_in, d_hid) # position-wise
+        self.w_2 = nn.Linear(d_hid, d_in) # position-wise
+        self.layer_norm = nn.LayerNorm(d_in, eps=1e-6)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        residual = x
+
+        x = self.w_2(F.relu(self.w_1(x)))
+        x = self.dropout(x)
+        x += residual
+
+        x = self.layer_norm(x)
+
+        return x
+```
+###
+## use case in [[DETR]]
+:PROPERTIES:
+:id: 60389635-8602-43a5-9b4d-dc077719605a
+:END:
+### 3-layer perceptron with [[ReLU]] activation and a **hidden dimension** $d$, and a linear projection layer
+### Predict the normalized center coordinate, height, width of box
+#### linear projection layer predicts the class label using [[softmax]] function
