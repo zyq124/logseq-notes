@@ -1,13 +1,14 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBMQ29QNnVuRmxKd2ZWMksw
-RHEvWjRtUVdzVWV1VXV0S0ZwMzBXbjZVL2lFCkNwOStrekxwZTRhc3JGT2F6YUFq
-UFNTUGVTTUVkVUNONjRiTFFYekdTTEEKLS0tIHhENEhEbm9ydUdzREkwZURabjF3
-TFZkMVNpSncvQ1NTVTAvM2NNV2VoUUEKSWobWO2OgHVPSREKTJiJRW4mFQE/fHzb
-gtrm49Kfiv3Hwprci0A6ox73GNmTUdMq0wPBvDzaBRKWwWzIermTkly38QM1KbDD
-cv/COqz3nVqVY9yr0sCw1cN9YrC0XDNg92R0VufyDfXWR2hGoMFXtn68eW88ZcPO
-LiJTohRdAAU0nCJ3v0/B9TjoykLKBp+Ei8xA5ZFIvAD0OkkPL0ndfC9ic3R0PpKw
-iOailiLNY8TdFCnWAPY3JoINm1NOLrIVmv/o6kofKfFxcBzbtz2QV+ZN/hH5JOrQ
-BscChXMtmmO2NW8B7rDPC3deK78eq8Bx2zGsS5E2Y3/bqn7nab2rCot++ShQ9QIc
-otBFeu+pPrgNUbRTQOxvnQnZ3x4IueovMsRLICLPooYISVNYdNjFcIU5pr0pE1mI
-EJ2oC2NR+g8nks0J4vZNjyJBVMSF/xstpcjhXMN2Eg==
------END AGE ENCRYPTED FILE-----
+---
+title: bundle adjustment
+alias: BA
+---
+
+## Challenges
+### Linear to cubic time in the number of variables
+### limit the use in large-scale operation
+## Three main techniques to tackle the issue
+### Active windows
+#### Also known as [[sliding window]]
+### Relative representations
+### Pose-pose reduction
+##
