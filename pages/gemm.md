@@ -1,17 +1,16 @@
------BEGIN AGE ENCRYPTED FILE-----
-YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBmaHpxSVBESHNwQVMwc2U3
-OHd4d0dmS0hJLzM1enQ5NS96SkpJWGEwQlJFCmF4SXlsOUk1djhKOFlCajBKZmha
-OUFHTUIzVFUzNzByMC9vc1dGeHE3S0UKLS0tIDNURmMxSEtvQ3RlTWFPcnBaZlZu
-Q1VNMm9CTk5DOWFFbnZla0tYcU5PWWcKEQY9LJ95ZeMcZKvnnMG9f2r0+Vho9rNK
-9Yq/1yr3m6/8fQwuar/WgxQPtM0fz17hpJGLmKNXvw5HradMCWrJTRC9Dj4Zo4b9
-33GWX7AlTZA7qMqacxK7FMJY9S2uUUKOI2q30gdJP3qagGpRR0139win0fizmnNc
-tJnqoB51q6rLHRD2jHO4YRjodEsmYVnTkmMa2wkWALkCFlhFnPDctGJ5dYtsp7MM
-RZF8k0rVezm6LmjFbd0eAeSkV4pI0u+egyX8q6Syt6ZAaxIpZQO4TlAvkuNLNBlT
-GiKD7+b4qShsU+zj4qSIzF59EHjUbqDIOo6rh2cndTPhR3nl0PdhniXWR2t4xtZJ
-D00rcRU8FpwmNV7VgZh5UJITYVXnp9xlrNktNEEn8RKe710e5g1c105IlUQUx0R7
-WeHq+WIwlzZii9d8YzkdyMUDlV4511d2sk0gxkUsDSi3MSoP5LV+JJHfMbfzhZ6u
-n0HzcydUAOqXG2cVcMuSWCzDRDlu85S3TR6nQdkJnnbV25bW6BAzFJa4I7676XTz
-6cx91D2mN7adgtR5Ttk84QtojOVtjIMHwHdcQLDqxoZ0Au3uYQxD0Lx/fCtFYTf8
-BGF5FWZdCnRRE+iDrsP8on1QvkDrShgewwpbqUPV0WPezWOVw5CHyknFNEQ8Eay1
-rpsEId1WInu2QksQCWCLGVWiJPw85tVfLlc=
------END AGE ENCRYPTED FILE-----
+---
+title: GEMM
+---
+
+## General matrix multiplication, one of the basic [[linear algebra]] subprograms
+
+## 解决大矩阵，快速operation
+## ![image.png](/assets/pages_gemm_1611282697774_0.png)
+##
+## [[convolution]] operation
+##
+## [[img2col]] 转换成连续存储
+## 简单的矩阵乘法, $\mathcal{O}(n^3)=\mathcal{O}(n^{\log_2(8)})$
+## 分块乘法 (4块)
+## [[Strassen]]算法, $\mathcal{O}(n^{2.807})=\mathcal{O}(n^{\log_2(7)})$
+## [[Coppersmith-Winograd]]算法, $\mathcal{O}(n^{2.38})$
